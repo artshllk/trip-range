@@ -65,3 +65,11 @@ Visitor-facing text that says two nights, as of 26 November 2026:
 - Destination guides: `src/app/[locale]/destinations/page.tsx:64,69`; `src/components/discovery/DestinationGuide.tsx:35,97,156`; guide content `content/destinations/{vienna,london,istanbul,barcelona}.json` ("2 nights…" day plans).
 
 **Not live** (switched-off landings and unpublished SEO candidates): `src/seo/registry.ts:126,150,173`, `src/seo/date-contract.ts:36,54`, `src/components/seo/SeoLanding.tsx:323`, `src/seo/candidates/registry.ts` (about 20 lines), `src/i18n/destination-content.ts:34`, and `content/archive/`.
+
+## City-tax night caps (before seven-night city tax is shown)
+
+**When:** with or after variable trip length. Owner decision, 27 November 2026: seven-night city tax shows "not known" until each city's cap is sourced.
+
+**What:** for each of the 13 cities with a city-tax rate (Paris, Milan, Rome, Vienna, Prague, Barcelona, Amsterdam, Edinburgh, Brussels, Düsseldorf, Berlin, Geneva, Strasbourg), source whether the tax stops after a number of nights. Record it as a new field in `content/city-costs/city-tax.json`, with a verbatim quote and URL like every other value, or as a sourced "no cap". Some caps are known to exist; Edinburgh's levy, for example, applies to the first five nights only. They have not been checked against official sources for these records.
+
+**Rule until sourced:** a stay longer than any night count the record covers shows city tax as "not known", never a multiplied figure. A wrong rate is worse than a missing one. Two and three nights are unaffected once it is confirmed that no record caps below three nights.
