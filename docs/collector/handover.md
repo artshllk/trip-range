@@ -33,6 +33,8 @@ Use provider observation time, never fetch time, for seven-day freshness. Future
 
 Daily measurement is 09:00 Europe/Belgrade (08:00 UTC in November), regardless of cron delivery. `--on` obtains that timezone-aware cutoff from Postgres. Both fetch and observation ingestion must precede cutoff. Across-run union is allowed only after each pair has matched within its own run. Cheapest eligible option per destination/date wins. Count destination cities, not airports; multi-date means at least two distinct departure dates. A later recovery must never be counted as morning coverage. Unknown/unreadable is not zero and not a pass. Renewal filters provider timestamps BEFORE cheapest-per-date selection.
 
+**Stay lengths (variable trip length, owner decision 27 November 2026):** each origin collects the lengths listed under `nights` in `src/config/fare-warm.json`: 2 and 3 for every origin, and 7 for London and Warsaw. For every departure day the sweep makes one exact-date `prices_for_dates` query _per length_. The `get_latest_prices` calls that date each fare are shared: one monthly call per destination serves every length, matched on destination, dates, length and price. A day-level call follows only for dates still undated. Before storage, rows are cut to collected lengths and to fares that can fit the highest budget (`storableRow`, options A and B); the raw reply is still stored in full. The completion receipt stays one per origin-month, under its historical name `triprange/exact-two-night-refresh-v1`, kept for continuity of health and catch-up history. Each run's report adds `lengths` and `byNights`; its top-level `destinations` and `multiple` remain the two-night figures. The coverage check measures each origin and length with `--nights ALL`.
+
 Atomic storage inserts fetch header, raw payload, normalized observations and page receipt together. A failed run may have valid atomically stored pages, which the store snapshot can use. Run completion is separate; success is never inferred merely from page count. Do not weaken write-integrity checks or discard partial-run provenance. Retention since PR #48 ([0006](../../db/migrations/0006_short_fare_retention.sql)): raw replies 2 days; observations, fetch headers and page receipts 10 days; month-completion receipts 90 days. A coverage or yield re-run more than about three days after its cutoff can no longer be reconstructed from the store; the committed evidence files remain the record. Provider rows stating another origin are dropped before parsing (raw reply kept) and counted as `wrongOrigin`; more than 10 in one origin-month sweep fails that month.
 
 ## Scheduling and shared admission
@@ -53,20 +55,21 @@ Budget six Redis command executions per admitted call, plus failed admissions an
 
 **Custom trip planner: off (owner decision, 24 November 2026).** `customPlannerEnabled = false` in `src/config/features.ts`, pinned by `tests/custom-planner-off.test.ts`. The planner presented estimated whole-trip totals built from partial city profiles and general allowances, with no supported whole-trip cost evidence behind them. The code is kept but unreachable:
 
-| Entry point | What happens now |
-|---|---|
-| `/plan` with planner parameters (e.g. `?mode=custom`, `?origin=…`) | the two-night month view, with "Planning with your own dates and travellers isn't available yet" |
-| `/plan/results`, `/plan/trips/*` | 307 redirect to `/plan` |
-| `/` with planner parameters | the four-origin homepage hero |
-| `/from/prishtina`, `/from/skopje`, `/from/zurich` and its sub-pages | 404 |
-| `/api/locations`, `/api/ai/intent` | 404 |
-| Guide pages and `/destinations` | buttons say "See two-night flights" and link to `/plan` |
+| Entry point                                                         | What happens now                                                                                                 |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `/plan` with planner parameters (e.g. `?mode=custom`, `?origin=…`)  | the month view (three nights by default), with "Planning with your own dates and travellers isn't available yet" |
+| `/plan/results`, `/plan/trips/*`                                    | 307 redirect to `/plan`                                                                                          |
+| `/` with planner parameters                                         | the four-origin homepage hero                                                                                    |
+| `/from/prishtina`, `/from/skopje`, `/from/zurich` and its sub-pages | 404                                                                                                              |
+| `/api/locations`, `/api/ai/intent`                                  | 404                                                                                                              |
+| Guide pages and `/destinations`                                     | buttons say "See flights" and link to `/plan`                                                                    |
 
 `/from/tirana` is the month planner and stays. **Keep the planner off until real whole-trip cost evidence exists.** Then rebuild its copy from scratch rather than patching it, together with the About and Methodology pages that describe it.
 
 **Dormant copy that must change before it is ever enabled.** `src/components/travel/Discovery.tsx` (no importer; unreachable on 24 November 2026) renders `discoverSub`: "Ideas priced as complete trips, leaving from Tirana". Nothing prices a complete trip for those ideas. Rewrite the string, and check the surrounding claims, before wiring that component into any page.
 
 **Default origin review, due 28 November 2026 (owner decision, 23 November 2026).** `/plan` lets the traveller choose Tirana, London, Barcelona or Warsaw (`/plan?depart=london`), and defaults to Tirana (`defaultPlanOrigin` in `src/domain/plan-origins.ts`). The new origins' first 09:00 Belgrade snapshot is 24 November, so 28 November is the first day any of them can complete the same gate: five consecutive daily snapshots at December 10 destinations / 3 multi-date cities, plus the day-five renewal check. Use the Warm coverage artifacts (`--origin ALL`) for 24–28 November.
+
 - **If London, Barcelona and Warsaw pass**, make the default the strongest origin, not the home one. Strongest means most December destinations at the €600 default, then most multi-date destinations.
 - **If they don't pass**, record which origin failed and why, and keep Tirana.
 
@@ -88,15 +91,15 @@ The full portable reporting brief is `daily-report-instructions.txt`. Historical
 
 GitHub's own scheduler delivered 1–7 of the collector's 28 daily triggers in November 2026, often 6–9 hours late; on 23 November nothing ran from 08:18 to 16:42 UTC and nobody noticed. Every scheduled workflow is now started by **Upstash QStash** calling GitHub's `workflow_dispatch` API, with the GitHub cron kept as a fallback. Definitions and tooling: [`scripts/qstash-schedules.mjs`](../../scripts/qstash-schedules.mjs) (`plan`, `token`, `apply`, `list`, `test <workflow.yml>`, `prune`; run with `node --env-file=.env.local …`). A test keeps each QStash schedule identical to its workflow's fallback cron.
 
-| QStash schedule id | UTC | Workflow (inputs) |
-|---|---|---|
-| `goeksplo-fare-warm-sweep` | 04:17, 16:17 | `fare-warm.yml` (`mode=sweep`) |
-| `goeksplo-fare-warm-catch-up` | every hour at :47 | `fare-warm.yml` (`mode=catch-up`) |
-| `goeksplo-warm-coverage` | 08:23 | `warm-coverage.yml` |
-| `goeksplo-expiry-audit` | 08:37 (after the 09:00 Belgrade cutoff in both seasons) | `expiry-audit.yml` |
-| `goeksplo-fx-refresh` | 16:30 Mon–Fri | `fx-refresh.yml` |
-| `goeksplo-ine-rooms` | 10:20 on the 24th and 28th | `ine-rooms.yml` |
-| `goeksplo-collector-watchdog` | every hour at :07 | `collector-watchdog.yml` |
+| QStash schedule id            | UTC                                                     | Workflow (inputs)                 |
+| ----------------------------- | ------------------------------------------------------- | --------------------------------- |
+| `goeksplo-fare-warm-sweep`    | 04:17, 16:17                                            | `fare-warm.yml` (`mode=sweep`)    |
+| `goeksplo-fare-warm-catch-up` | every hour at :47                                       | `fare-warm.yml` (`mode=catch-up`) |
+| `goeksplo-warm-coverage`      | 08:23                                                   | `warm-coverage.yml`               |
+| `goeksplo-expiry-audit`       | 08:37 (after the 09:00 Belgrade cutoff in both seasons) | `expiry-audit.yml`                |
+| `goeksplo-fx-refresh`         | 16:30 Mon–Fri                                           | `fx-refresh.yml`                  |
+| `goeksplo-ine-rooms`          | 10:20 on the 24th and 28th                              | `ine-rooms.yml`                   |
+| `goeksplo-collector-watchdog` | every hour at :07                                       | `collector-watchdog.yml`          |
 
 Duplicates are safe. Each workflow runs one job at a time and queues the next. A collector sweep skips months that succeeded within 10 hours, and catch-up only collects after 14 hours. Coverage is read-only, the FX and room imports commit nothing when unchanged, and a duplicate audit at most repeats an issue comment. `force` mode, available only by manual dispatch, collects everything.
 
@@ -115,12 +118,14 @@ QStash retries a failed delivery 3 times (about 12 s, 2½ min and 30 min later),
 **The scheduler token expires on 22 November 2027 at 23:00 UTC (midnight 23 November 2027, Europe/Belgrade).** Verified on 23 November 2026 from GitHub's `github-authentication-token-expiration` response header. Renew it by **15 November 2027**. Record the exact date reported by `node --env-file=.env.local scripts/qstash-schedules.mjs token` whenever the token changes.
 
 What breaks when it expires:
+
 - Every QStash delivery gets HTTP 401 from GitHub, and after the retries it lands in the dead-letter queue.
 - Only GitHub's unreliable fallback cron is left, so collection becomes sporadic and the morning sweep can miss the 09:00 cutoff.
 - The watchdog is dispatched by the same token, so it stops too. It then runs only when GitHub's fallback cron delivers it, which may be hours late. Expect the stall issue late, or not at all on a bad day. **Renew the token before it expires; the alert is not a safety net for this case.**
 - Nothing else is affected: fares, the site and the database credentials don't use this token.
 
 To replace it (about 10 minutes; do it a week before expiry):
+
 1. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens. Open the scheduler token and choose **Regenerate token**, which keeps the same scopes, or create a new one with exactly the scopes above.
 2. Put the new value in `.env.local` as `GITHUB_TOKEN`.
 3. `node --env-file=.env.local scripts/qstash-schedules.mjs apply` checks the token and then re-saves every schedule with it. Redacted schedules must be re-saved with the real value, and `apply` does that.
@@ -131,6 +136,7 @@ To replace it (about 10 minutes; do it a week before expiry):
 ### 20-hour alert
 
 The **Collector watchdog** workflow (`collector-watchdog.yml`, `npm run check:collector-health`) runs hourly at :07, triggered by QStash with GitHub cron as a fallback.
+
 - **What it reads.** It reads the fare store directly and never looks at the collector's runs, so it notices a collector that never starts.
 - **What "stale" means.** Every configured origin's current and next month must have a successful completion within 20 hours. The oldest of those is the last fully successful sweep, so one origin failing repeatedly also counts. A month that has never been collected, such as the new "next month" on the 1st, is measured from the start of the current month.
 - **When stale:**
@@ -141,6 +147,7 @@ The **Collector watchdog** workflow (`collector-watchdog.yml`, `npm run check:co
 - **If the store can't be read**, the run fails (email) and no issue is opened: unknown is never reported as healthy.
 
 **The gap compared with an external dead-man's switch (accepted, 23 November 2026).** This alert runs on the same platforms it watches.
+
 1. **GitHub Actions down or not starting jobs:** the watchdog doesn't run either. No issue and no email until Actions recovers.
 2. **QStash not delivering, or an expired or revoked token:** the watchdog depends on the same trigger. It falls back to GitHub's unreliable cron, so the alert may arrive many hours late or not at all.
 3. **Neon or the `DATABASE_URL` secret broken:** you get failed-run emails ("health unknown") rather than the stall issue.
@@ -169,6 +176,5 @@ When it fires, check in this order:
      - `Provider rate-limit` or `admission-unavailable` on every origin at once: the Upstash database. Check its budget, plan and REST credentials.
      - `Wrong-origin rows N exceed 10`: provider mislabelling for that origin.
      - Database errors: Neon. Check storage against its limit and the `DATABASE_URL` secret.
- 
-After fixing, run `gh workflow run fare-warm.yml -f mode=sweep` and confirm the run succeeds. Then run `gh workflow run collector-watchdog.yml`; it closes the stall issue once every origin-month is fresh. Use `sweep`, not `force`: if the store is already fresh it makes no calls.
 
+After fixing, run `gh workflow run fare-warm.yml -f mode=sweep` and confirm the run succeeds. Then run `gh workflow run collector-watchdog.yml`; it closes the stall issue once every origin-month is fresh. Use `sweep`, not `force`: if the store is already fresh it makes no calls.

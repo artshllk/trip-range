@@ -1,6 +1,7 @@
 import config from "../config/fare-warm.json";
 import { addDays, nightsBetween } from "./dates";
-import { nextMonth } from "./month-discovery";
+import { flightCeilings, nextMonth } from "./month-discovery";
+import { money, safetyBufferFor } from "./budget";
 
 export const refreshEndpoint = "triprange/exact-two-night-refresh-v1";
 
@@ -30,6 +31,40 @@ export function originAirports(origin: string): string[] {
 export function originNights(origin: string): number[] {
   const entry = (config.origins as Origin[]).find((o) => o.code === origin);
   return entry?.nights?.length ? entry.nights : [2];
+}
+
+/**
+ * Storage options A and B (owner decision, 27 November 2026). A normalized fare row
+ * is stored only when it is a return of a length this origin collects (A) and its
+ * fare for two, with its reserve, can fit the highest budget (B). Nothing else is
+ * ever read: /plan and the coverage gate use only collected lengths and filter by a
+ * budget no higher than the top ceiling. The provider's raw reply is still stored
+ * complete, so the evidence is unchanged.
+ */
+export function storableRow(
+  row: {
+    departureDate: string;
+    returnDate: string | null;
+    priceMinor: number;
+    currency: string;
+  },
+  origin: string,
+): boolean {
+  if (!row.returnDate || row.currency !== "EUR") return false;
+  let nights: number;
+  try {
+    nights = nightsBetween(row.departureDate, row.returnDate);
+  } catch {
+    return false;
+  }
+  if (!originNights(origin).includes(nights)) return false;
+  if (!Number.isSafeInteger(row.priceMinor) || row.priceMinor <= 0)
+    return false;
+  const party = row.priceMinor * 2;
+  return (
+    party + safetyBufferFor(money(party, "EUR")).cents <=
+    Math.max(...flightCeilings) * 100
+  );
 }
 
 /**

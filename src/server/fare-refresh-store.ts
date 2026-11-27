@@ -82,8 +82,18 @@ export function reproducedFares(
   origin: string,
   month: string,
   at: string,
+  nights = 2,
 ) {
-  return matchedFares(sql, run, origin, month, at);
+  return matchedFares(
+    sql,
+    run,
+    origin,
+    month,
+    at,
+    undefined,
+    undefined,
+    nights,
+  );
 }
 
 export function storedCoverageFares(

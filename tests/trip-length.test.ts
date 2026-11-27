@@ -85,3 +85,34 @@ test("a view shows only fares of its own length", () => {
     ["MIL"],
   );
 });
+
+test("storage options A and B: only collected lengths, only fares that can fit the highest budget", async () => {
+  const { storableRow } = await import("../src/domain/fare-refresh");
+  const { flightCeilings } = await import("../src/domain/month-discovery");
+  const { money, safetyBufferFor } = await import("../src/domain/budget");
+  const row = (
+    returnDate: string | null,
+    priceMinor = 10000,
+    currency = "EUR",
+  ) => ({
+    departureDate: "2026-12-10",
+    returnDate,
+    priceMinor,
+    currency,
+  });
+  // A: lengths this origin collects.
+  assert.equal(storableRow(row("2026-12-12"), "TIA"), true);
+  assert.equal(storableRow(row("2026-12-13"), "TIA"), true);
+  assert.equal(storableRow(row("2026-12-17"), "TIA"), false); // 7 nights: not from Tirana
+  assert.equal(storableRow(row("2026-12-17"), "WAW"), true);
+  assert.equal(storableRow(row("2026-12-15"), "WAW"), false); // 5 nights: never
+  assert.equal(storableRow(row(null), "WAW"), false); // one-way
+  assert.equal(storableRow(row("2026-12-12", 10000, "USD"), "WAW"), false);
+  // B: the fare for two with its reserve must fit the top ceiling, exactly at the edge.
+  const top = Math.max(...flightCeilings) * 100;
+  let edge = 1;
+  while (edge * 2 + safetyBufferFor(money(edge * 2, "EUR")).cents <= top)
+    edge++;
+  assert.equal(storableRow(row("2026-12-12", edge - 1), "LON"), true);
+  assert.equal(storableRow(row("2026-12-12", edge), "LON"), false);
+});

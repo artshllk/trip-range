@@ -22,9 +22,11 @@ import {
   type CollectionMode,
   monthDays,
   originAirports,
+  originNights,
   reassessment,
   refreshEndpoint,
   splitWrongOrigin,
+  storableRow,
   wrongOriginLimit,
 } from "../src/domain/fare-refresh";
 import {
@@ -157,6 +159,13 @@ async function main() {
         )
           throw Error("Provider returned dates outside the exact request");
       }
+      // Storage options A and B: normalized rows only for collected lengths and
+      // fares that can fit the highest budget. The raw reply above stays complete.
+      // Planning uses the same rows, so no follow-up call is spent on a fare that
+      // could never be shown.
+      parsed.observations = parsed.observations.filter((row) =>
+        storableRow(row, requested),
+      );
       await storeRefreshPage(sql, parsed, run);
       consume(parsed.observations);
       if (body.data.length < limit) return;
@@ -168,38 +177,42 @@ async function main() {
     const tally = { calls: 0 };
     const source: Source = { fetch: counted(tally), wrongOrigin: {} };
     const airports = originAirports(origin);
+    // Stay lengths for this origin (2 and 3 nights; 7 for London and Warsaw).
+    const lengths = originNights(origin);
+    // Per destination: "departure|nights|price" keys seen on exact-date queries.
     const offers = new Map<string, Set<string>>();
     const stamped = new Set<string>();
     let failure: string | undefined;
     try {
-      for (const day of dates) {
-        const returning = addDays(day, 2);
-        await pages(
-          source,
-          pricesForDatesUrl({
-            origin,
-            departureMonth: day,
-            returnMonth: returning,
-            currency: "EUR",
-          }),
-          (rows) => {
-            for (const r of rows) {
-              if (
-                r.departureDate !== day ||
-                r.returnDate !== returning ||
-                !r.destinationAirport ||
-                (r.originAirport && !airports.includes(r.originAirport)) ||
-                r.actual === false ||
-                (r.cabin && r.cabin !== "economy")
-              )
-                continue;
-              const keys = offers.get(r.destination) ?? new Set<string>();
-              keys.add(day + "|" + r.priceMinor);
-              offers.set(r.destination, keys);
-            }
-          },
-        );
-      }
+      for (const day of dates)
+        for (const nights of lengths) {
+          const returning = addDays(day, nights);
+          await pages(
+            source,
+            pricesForDatesUrl({
+              origin,
+              departureMonth: day,
+              returnMonth: returning,
+              currency: "EUR",
+            }),
+            (rows) => {
+              for (const r of rows) {
+                if (
+                  r.departureDate !== day ||
+                  r.returnDate !== returning ||
+                  !r.destinationAirport ||
+                  (r.originAirport && !airports.includes(r.originAirport)) ||
+                  r.actual === false ||
+                  (r.cabin && r.cabin !== "economy")
+                )
+                  continue;
+                const keys = offers.get(r.destination) ?? new Set<string>();
+                keys.add(day + "|" + nights + "|" + r.priceMinor);
+                offers.set(r.destination, keys);
+              }
+            },
+          );
+        }
       for (const [destination, keys] of offers) {
         const monthly = latestPricesUrl({
           origin,
@@ -210,9 +223,12 @@ async function main() {
         const record = (rows: FareObservationRecord[]) => {
           for (const r of rows) {
             const seen = Date.parse(r.fareObservedAt ?? "");
+            const nights = lengths.find(
+              (n) => r.returnDate === addDays(r.departureDate, n),
+            );
             if (
               r.destination === destination &&
-              r.returnDate === addDays(r.departureDate, 2) &&
+              nights !== undefined &&
               !Number.isNaN(seen) &&
               seen <= Date.now() &&
               Date.now() - seen <= 7 * 86400000 &&
@@ -220,7 +236,13 @@ async function main() {
               (!r.cabin || r.cabin === "economy")
             )
               stamped.add(
-                r.destination + "|" + r.departureDate + "|" + r.priceMinor,
+                r.destination +
+                  "|" +
+                  r.departureDate +
+                  "|" +
+                  nights +
+                  "|" +
+                  r.priceMinor,
               );
           }
         };
@@ -255,8 +277,26 @@ async function main() {
     // Only publish a completion receipt after the statements for all pages committed.
     const at = new Date().toISOString();
     let fares;
+    const byNights: Record<string, { destinations: number; multiple: number }> =
+      {};
     try {
-      fares = await reproducedFares(sql, run, origin, month, at);
+      fares = await reproducedFares(sql, run, origin, month, at, 2);
+      for (const nights of lengths) {
+        const found = monthDestinations(
+          nights === 2
+            ? fares
+            : await reproducedFares(sql, run, origin, month, at, nights),
+          month,
+          today,
+          Date.parse(at),
+          600,
+          nights,
+        );
+        byNights[nights] = {
+          destinations: found.length,
+          multiple: found.filter((c) => c.options.length > 1).length,
+        };
+      }
     } catch (error) {
       await finishRefresh(
         sql,
@@ -276,6 +316,8 @@ async function main() {
       status: failure ? "failed" : "complete",
       failure,
       datesPlanned: dates.length,
+      lengths,
+      byNights,
       providerCalls: tally.calls,
       wrongOrigin: source.wrongOrigin,
       wrongOriginRows: wrongRows,
