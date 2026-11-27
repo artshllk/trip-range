@@ -17,7 +17,7 @@
 
 import { pathToFileURL } from "node:url";
 
-const repository = "artshllk/goeksplo";
+const repository = "artshllk/trip-range";
 const ref = "main";
 const prefix = "goeksplo-";
 
