@@ -1,0 +1,38 @@
+{
+  "destinationId": "city:BCN",
+  "contentVersion": 4,
+  "digest": "9c1830dfb32a875da6b6ef7823680a72687fb54f976fa8ed0bf557ecc377e2ad",
+  "reviewer": "GoEksplo Owner",
+  "reviewTimestamp": "2026-11-04T10:12:22.288Z",
+  "approvalTimestamp": "2026-11-04T10:12:35.734Z",
+  "warningsAcknowledged": [
+    {
+      "id": "evidence-review",
+      "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Park Guell and Picasso/MNAC closing-day notes, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    }
+  ],
+  "files": [
+    "content/destinations/barcelona.json"
+  ],
+  "itemsBecomingReviewed": [
+    "destination",
+    "overview",
+    "attraction:city:BCN:sagrada-familia",
+    "attraction:city:BCN:park-guell",
+    "attraction:city:BCN:casa-batllo",
+    "attraction:city:BCN:museu-picasso",
+    "attraction:city:BCN:museu-nacional",
+    "area:city:BCN:expansion01-1",
+    "area:city:BCN:expansion01-2",
+    "transport:city:BCN:expansion01-1",
+    "transport:city:BCN:expansion01-2",
+    "note:city:BCN:expansion01-history",
+    "note:city:BCN:expansion01-cost-limits",
+    "note:city:BCN:batch1-museum-days",
+    "template:city:BCN:expansion01-2-nights",
+    "template:city:BCN:expansion01-3-nights"
+  ],
+  "dryRun": false,
+  "writes": 1,
+  "externalCalls": 0
+}

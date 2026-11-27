@@ -1,0 +1,21 @@
+{
+  "subject": "city:BCN",
+  "name": "Barcelona",
+  "countryCode": "ES",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 41.3825,
+    "longitude": 2.1769444444
+  },
+  "iataCodes": ["BCN"],
+  "external": {
+    "authority": "wikidata",
+    "id": "Q1492"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T00:00:00Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1",
+  "cityCode": "BCN"
+}

@@ -1,0 +1,22 @@
+{
+  "subject": "skopje",
+  "name": "Skopje",
+  "countryCode": "MK",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 41.99611111111111,
+    "longitude": 21.431666666666665
+  },
+  "iataCodes": [
+    "SKP"
+  ],
+  "external": {
+    "authority": "wikidata",
+    "id": "Q384"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-22T11:00:42.097Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

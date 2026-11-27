@@ -1,0 +1,282 @@
+{
+  "destinationId": "place:Q1486",
+  "identitySubject": "place:Q1486",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T11:19:19.846Z",
+  "sourceIds": [
+    "source:worldwide:place-Q1486:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q1486:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1486",
+      "title": "Buenos Aires (Q1486)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1486"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q1486:plaza",
+      "type": "official",
+      "url": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/plaza-de-mayo",
+      "title": "Plaza de Mayo",
+      "publisher": "Buenos Aires City Tourism",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1486:colon",
+      "type": "official",
+      "url": "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/teatro-col%C3%B3n",
+      "title": "Teatro Colón",
+      "publisher": "Buenos Aires City Tourism",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1486:recoleta",
+      "type": "official",
+      "url": "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/recoleta-cemetery",
+      "title": "Recoleta Cemetery",
+      "publisher": "Buenos Aires City Tourism",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1486:boca",
+      "type": "official",
+      "url": "https://turismo.buenosaires.gob.ar/es/circuitos-buenos-aires-sur/la-boca-cultural",
+      "title": "La Boca cultural route",
+      "publisher": "Buenos Aires City Tourism",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1486:transport",
+      "type": "official",
+      "url": "https://turismo.buenosaires.gob.ar/es/article/moverse-por-la-ciudad",
+      "title": "Getting around the city",
+      "publisher": "Buenos Aires City Tourism",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-14T11:19:19.846Z",
+    "sourceIds": [
+      "source:worldwide:place-Q1486:plaza",
+      "source:worldwide:place-Q1486:colon",
+      "source:worldwide:place-Q1486:boca"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Buenos Aires offers civic history, theatre and neighbourhood street culture. Choose a district for each outing rather than linking every sight into one walk.",
+      "sq": "Buenos Aires ndërthur historinë politike, teatrin dhe kulturën e lagjeve. Zgjidh një lagje për çdo dalje, në vend që t’i lidhësh të gjitha vendet në një shëtitje."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q1486:1",
+      "text": {
+        "en": "Opera-house architecture at Teatro Colón",
+        "sq": "Arkitekturë teatri opere në Teatro Colón"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:colon"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q1486:2",
+      "text": {
+        "en": "Caminito’s painted streetscape",
+        "sq": "Pamja shumëngjyrëshe e Caminito"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:boca"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q1486:plaza-mayo",
+      "destinationId": "place:Q1486",
+      "name": {
+        "en": "Plaza de Mayo",
+        "sq": "Plaza de Mayo"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A civic square associated with major events in Argentine political history.",
+        "sq": "Shesh publik i lidhur me ngjarje të rëndësishme të historisë politike të Argjentinës."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:plaza"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q1486:colon",
+      "destinationId": "place:Q1486",
+      "name": {
+        "en": "Teatro Colón",
+        "sq": "Teatro Colón"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "An opera house in a historic theatre building.",
+        "sq": "Teatër opere në një ndërtesë historike."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:colon"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q1486:recoleta",
+      "destinationId": "place:Q1486",
+      "name": {
+        "en": "Recoleta Cemetery",
+        "sq": "Varreza e Recoletës"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A cemetery with elaborate mausoleums, including the tomb of Eva Perón.",
+        "sq": "Varrezë me mauzole të zbukuruara, përfshirë varrin e Eva Perónit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:recoleta"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q1486:caminito",
+      "destinationId": "place:Q1486",
+      "name": {
+        "en": "Caminito",
+        "sq": "Caminito"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "A pedestrian street museum in La Boca with brightly painted buildings.",
+        "sq": "Rrugë-muze për këmbësorë në La Boca, me ndërtesa të lyera me ngjyra të ndezura."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:boca"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q1486:recoleta",
+      "destinationId": "place:Q1486",
+      "name": {
+        "en": "Recoleta",
+        "sq": "Recoleta"
+      },
+      "summary": {
+        "en": "The neighbourhood around the cemetery and the adjoining Basílica del Pilar.",
+        "sq": "Lagjja rreth varrezës dhe bazilikës Nuestra Señora del Pilar pranë saj."
+      },
+      "goodFor": [
+        {
+          "en": "Exploring architectural details and local streets.",
+          "sq": "Eksplorimi i detajeve arkitekturore dhe rrugëve lokale."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Caminito is in the separate La Boca district.",
+          "sq": "Caminito ndodhet në një lagje tjetër, La Boca."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:recoleta"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q1486:subte-bus",
+      "destinationId": "place:Q1486",
+      "title": {
+        "en": "Combine Subte and buses",
+        "sq": "Kombino metronë Subte me autobusët"
+      },
+      "guidance": {
+        "en": "Buenos Aires has Subte and bus networks serving different districts. Check current routes and payment options using the city’s transport guidance.",
+        "sq": "Buenos Aires ka rrjet metroje (Subte) dhe autobusësh që lidhin lagje të ndryshme. Kontrollo linjat dhe mënyrat aktuale të pagesës në udhëzimin e transportit të qytetit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q1486:colon-visit",
+      "destinationId": "place:Q1486",
+      "kind": "booking",
+      "text": {
+        "en": "Arrange a Teatro Colón visit or performance through its current visitor programme.",
+        "sq": "Kontrollo programin aktual të Teatro Colón për të planifikuar një vizitë ose për të ndjekur një shfaqje."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:19:19.846Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1486:colon"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+    "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+    "approvedAt": "2026-10-14T11:19:19.846Z"
+  }
+}

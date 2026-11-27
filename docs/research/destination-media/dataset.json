@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 1,
+  "id": "worldwide-media-v1",
+  "reviewedOn": "2026-10-10",
+  "basis": "Editorial place intents reviewed for country/kind ambiguity; approximate destination-centre coordinates. First ten external IDs checked against linked Wikidata pages; remaining IDs intentionally unspecified. Expectations are never injected into resolver input.",
+  "cases": [
+    {
+      "input": {
+        "subject": "london",
+        "name": "London",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 51.5074,
+          "longitude": -0.1278
+        },
+        "iataCodes": [
+          "LHR",
+          "LGW"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "GB",
+        "placeKind": "city",
+        "wikidataId": "Q84",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q84"
+      },
+      "notes": "Greater London destination, not City of London district."
+    },
+    {
+      "input": {
+        "subject": "crete",
+        "name": "Crete",
+        "countryCode": "GR",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 35.2,
+          "longitude": 24.9
+        },
+        "iataCodes": [
+          "HER",
+          "CHQ"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "GR",
+        "placeKind": "island",
+        "wikidataId": "Q34374",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q34374"
+      },
+      "notes": "Island, not the administrative region or Heraklion city."
+    },
+    {
+      "input": {
+        "subject": "tokyo",
+        "name": "Tokyo",
+        "countryCode": "JP",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 35.6762,
+          "longitude": 139.6503
+        },
+        "iataCodes": [
+          "HND",
+          "NRT"
+        ]
+      },
+      "continent": "Asia",
+      "expected": {
+        "countryCode": "JP",
+        "placeKind": "city",
+        "wikidataId": "Q1490",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q1490"
+      },
+      "notes": "Tokyo destination; metropolitan prefecture classification may not map to city. Do not loosen kind matching."
+    },
+    {
+      "input": {
+        "subject": "new-york",
+        "name": "New York City",
+        "countryCode": "US",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.7128,
+          "longitude": -74.006
+        },
+        "iataCodes": [
+          "JFK",
+          "LGA"
+        ]
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "US",
+        "placeKind": "city",
+        "wikidataId": "Q60",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q60"
+      },
+      "notes": "City, not New York state."
+    },
+    {
+      "input": {
+        "subject": "cape-town",
+        "name": "Cape Town",
+        "countryCode": "ZA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -33.9249,
+          "longitude": 18.4241
+        },
+        "iataCodes": [
+          "CPT"
+        ]
+      },
+      "continent": "Africa",
+      "expected": {
+        "countryCode": "ZA",
+        "placeKind": "city",
+        "wikidataId": "Q5465",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q5465"
+      },
+      "notes": "City destination; avoid airport entity."
+    },
+    {
+      "input": {
+        "subject": "sydney",
+        "name": "Sydney",
+        "countryCode": "AU",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -33.8688,
+          "longitude": 151.2093
+        },
+        "iataCodes": [
+          "SYD"
+        ]
+      },
+      "continent": "Oceania",
+      "expected": {
+        "countryCode": "AU",
+        "placeKind": "city",
+        "wikidataId": "Q3130",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q3130"
+      },
+      "notes": "Australian city, not Canadian Sydney."
+    },
+    {
+      "input": {
+        "subject": "cambridge",
+        "name": "Cambridge",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 52.2053,
+          "longitude": 0.1218
+        }
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "GB",
+        "placeKind": "city",
+        "wikidataId": "Q350",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q350"
+      },
+      "notes": "Ambiguous name; city in England, not Massachusetts."
+    },
+    {
+      "input": {
+        "subject": "vienna",
+        "name": "Vienna",
+        "countryCode": "AT",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.2082,
+          "longitude": 16.3738
+        },
+        "iataCodes": [
+          "VIE"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "AT",
+        "placeKind": "city",
+        "wikidataId": "Q1741",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q1741"
+      },
+      "notes": "City/state identity, not an airport."
+    },
+    {
+      "input": {
+        "subject": "madeira",
+        "name": "Madeira",
+        "countryCode": "PT",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 32.75,
+          "longitude": -17.0
+        },
+        "iataCodes": [
+          "FNC"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "PT",
+        "placeKind": "island",
+        "wikidataId": "Q30188",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q30188"
+      },
+      "notes": "Main island, not autonomous region Q26253 or archipelago Q3628422. Europe market grouping, North Atlantic geography."
+    },
+    {
+      "input": {
+        "subject": "panama",
+        "name": "Panama",
+        "countryCode": "PA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 8.9824,
+          "longitude": -79.5199
+        },
+        "iataCodes": [
+          "PTY"
+        ]
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "PA",
+        "placeKind": "city",
+        "wikidataId": "Q3306",
+        "outcome": "resolve",
+        "reference": "https://www.wikidata.org/wiki/Q3306"
+      },
+      "notes": "Panama City intent; country shares the name. Strict aliases may require unresolved."
+    },
+    {
+      "input": {
+        "subject": "barcelona",
+        "name": "Barcelona",
+        "countryCode": "ES",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.3874,
+          "longitude": 2.1686
+        },
+        "iataCodes": [
+          "BCN"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "ES",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "rome",
+        "name": "Rome",
+        "countryCode": "IT",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.9028,
+          "longitude": 12.4964
+        },
+        "iataCodes": [
+          "FCO"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "IT",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "lisbon",
+        "name": "Lisbon",
+        "countryCode": "PT",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 38.7223,
+          "longitude": -9.1393
+        },
+        "iataCodes": [
+          "LIS"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "PT",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "prishtina",
+        "name": "Prishtina",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.6629,
+          "longitude": 21.1655
+        },
+        "iataCodes": [
+          "PRN"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "XK",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Kosovo product country code XK; Wikidata ISO evidence may be absent."
+    },
+    {
+      "input": {
+        "subject": "bangkok",
+        "name": "Bangkok",
+        "countryCode": "TH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 13.7563,
+          "longitude": 100.5018
+        },
+        "iataCodes": [
+          "BKK",
+          "DMK"
+        ]
+      },
+      "continent": "Asia",
+      "expected": {
+        "countryCode": "TH",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "singapore",
+        "name": "Singapore",
+        "countryCode": "SG",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 1.3521,
+          "longitude": 103.8198
+        },
+        "iataCodes": [
+          "SIN"
+        ]
+      },
+      "continent": "Asia",
+      "expected": {
+        "countryCode": "SG",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City-state destination; country/entity class ambiguity should remain visible."
+    },
+    {
+      "input": {
+        "subject": "istanbul",
+        "name": "Istanbul",
+        "countryCode": "TR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.0082,
+          "longitude": 28.9784
+        },
+        "iataCodes": [
+          "IST",
+          "SAW"
+        ]
+      },
+      "continent": "Asia",
+      "expected": {
+        "countryCode": "TR",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Transcontinental city; Asia sampling group only, not a geographic exclusivity claim."
+    },
+    {
+      "input": {
+        "subject": "chicago",
+        "name": "Chicago",
+        "countryCode": "US",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.8781,
+          "longitude": -87.6298
+        },
+        "iataCodes": [
+          "ORD",
+          "MDW"
+        ]
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "US",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "toronto",
+        "name": "Toronto",
+        "countryCode": "CA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 43.6532,
+          "longitude": -79.3832
+        },
+        "iataCodes": [
+          "YYZ"
+        ]
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "CA",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "san-francisco",
+        "name": "San Francisco",
+        "countryCode": "US",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        },
+        "iataCodes": [
+          "SFO"
+        ]
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "US",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "rio-de-janeiro",
+        "name": "Rio de Janeiro",
+        "countryCode": "BR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -22.9068,
+          "longitude": -43.1729
+        },
+        "iataCodes": [
+          "GIG",
+          "SDU"
+        ]
+      },
+      "continent": "South America",
+      "expected": {
+        "countryCode": "BR",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City, not the state with the same name."
+    },
+    {
+      "input": {
+        "subject": "buenos-aires",
+        "name": "Buenos Aires",
+        "countryCode": "AR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -34.6037,
+          "longitude": -58.3816
+        },
+        "iataCodes": [
+          "EZE",
+          "AEP"
+        ]
+      },
+      "continent": "South America",
+      "expected": {
+        "countryCode": "AR",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City, not Buenos Aires Province."
+    },
+    {
+      "input": {
+        "subject": "lima",
+        "name": "Lima",
+        "countryCode": "PE",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -12.0464,
+          "longitude": -77.0428
+        },
+        "iataCodes": [
+          "LIM"
+        ]
+      },
+      "continent": "South America",
+      "expected": {
+        "countryCode": "PE",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "marrakech",
+        "name": "Marrakech",
+        "countryCode": "MA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 31.6295,
+          "longitude": -7.9811
+        },
+        "iataCodes": [
+          "RAK"
+        ]
+      },
+      "continent": "Africa",
+      "expected": {
+        "countryCode": "MA",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "nairobi",
+        "name": "Nairobi",
+        "countryCode": "KE",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -1.2921,
+          "longitude": 36.8219
+        },
+        "iataCodes": [
+          "NBO"
+        ]
+      },
+      "continent": "Africa",
+      "expected": {
+        "countryCode": "KE",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "melbourne",
+        "name": "Melbourne",
+        "countryCode": "AU",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -37.8136,
+          "longitude": 144.9631
+        },
+        "iataCodes": [
+          "MEL"
+        ]
+      },
+      "continent": "Oceania",
+      "expected": {
+        "countryCode": "AU",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City intent; no expected external ID asserted before source review."
+    },
+    {
+      "input": {
+        "subject": "auckland",
+        "name": "Auckland",
+        "countryCode": "NZ",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -36.8485,
+          "longitude": 174.7633
+        },
+        "iataCodes": [
+          "AKL"
+        ]
+      },
+      "continent": "Oceania",
+      "expected": {
+        "countryCode": "NZ",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City, not region."
+    },
+    {
+      "input": {
+        "subject": "mallorca",
+        "name": "Mallorca",
+        "countryCode": "ES",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 39.6953,
+          "longitude": 3.0176
+        },
+        "iataCodes": [
+          "PMI"
+        ]
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "ES",
+        "placeKind": "island",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Island, not Palma."
+    },
+    {
+      "input": {
+        "subject": "bali",
+        "name": "Bali",
+        "countryCode": "ID",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -8.4095,
+          "longitude": 115.1889
+        },
+        "iataCodes": [
+          "DPS"
+        ]
+      },
+      "continent": "Asia",
+      "expected": {
+        "countryCode": "ID",
+        "placeKind": "island",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Main island, not the province or Denpasar."
+    },
+    {
+      "input": {
+        "subject": "tuscany",
+        "name": "Tuscany",
+        "countryCode": "IT",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 43.7711,
+          "longitude": 11.2486
+        }
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "IT",
+        "placeKind": "region",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Administrative region, not Florence."
+    },
+    {
+      "input": {
+        "subject": "kruger",
+        "name": "Kruger National Park",
+        "countryCode": "ZA",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": -24.0,
+          "longitude": 31.5
+        }
+      },
+      "continent": "Africa",
+      "expected": {
+        "countryCode": "ZA",
+        "placeKind": "nature-area",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Nature area, not a monument or attraction record."
+    },
+    {
+      "input": {
+        "subject": "victoria",
+        "name": "Victoria",
+        "countryCode": "CA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.4284,
+          "longitude": -123.3656
+        }
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "CA",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "City in British Columbia, not Australian state or Seychelles capital."
+    },
+    {
+      "input": {
+        "subject": "granada",
+        "name": "Granada",
+        "countryCode": "ES",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 37.1773,
+          "longitude": -3.5986
+        }
+      },
+      "continent": "Europe",
+      "expected": {
+        "countryCode": "ES",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Spanish city, not Nicaragua."
+    },
+    {
+      "input": {
+        "subject": "san-jose",
+        "name": "San José",
+        "countryCode": "CR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 9.9281,
+          "longitude": -84.0907
+        }
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "CR",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Costa Rican city, not California."
+    },
+    {
+      "input": {
+        "subject": "washington",
+        "name": "Washington",
+        "countryCode": "US",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 38.9072,
+          "longitude": -77.0369
+        }
+      },
+      "continent": "North America",
+      "expected": {
+        "countryCode": "US",
+        "placeKind": "city",
+        "wikidataId": null,
+        "outcome": "resolve",
+        "reference": null
+      },
+      "notes": "Washington DC city intent, not the state."
+    },
+    {
+      "input": {
+        "subject": "georgia",
+        "name": "Georgia",
+        "countryCode": "GE",
+        "placeKind": "unknown"
+      },
+      "continent": "Asia",
+      "expected": {
+        "countryCode": "GE",
+        "placeKind": "unknown",
+        "wikidataId": null,
+        "outcome": "unresolved",
+        "reference": null
+      },
+      "notes": "Deliberately underspecified country name, outside supported geographic kinds. Must remain unresolved."
+    }
+  ]
+}

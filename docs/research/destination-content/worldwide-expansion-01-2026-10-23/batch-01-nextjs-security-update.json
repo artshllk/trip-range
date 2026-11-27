@@ -1,0 +1,920 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-23T12:13:10.808012+00:00",
+  "status": "passed-local-security-update-not-publication-or-hosted-verification",
+  "branch": "experiment/netlify-free",
+  "head": "71ed6609f2c61676392f73c005c6206df7b9aa67",
+  "next": {
+    "installedBefore": "16.4.0",
+    "lockedBefore": "16.4.0",
+    "installedAfter": "16.4.1",
+    "lockedAfter": "16.4.1",
+    "manifestRequirement": "16.4.1",
+    "selection": "Smallest patched stable release for all three Next.js advisories reported by the production audit; 16.4.2 adds unrelated maintenance changes.",
+    "node": "24.19.0",
+    "react": "19.2.7",
+    "reactDOM": "19.2.7",
+    "sharp": "0.35.5",
+    "changedLockedPackages": [
+      {
+        "path": "node_modules/@next/env",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-darwin-arm64",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-darwin-x64",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-linux-arm64-gnu",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-linux-arm64-musl",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-linux-x64-gnu",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-linux-x64-musl",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-win32-arm64-msvc",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/@next/swc-win32-x64-msvc",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      },
+      {
+        "path": "node_modules/next",
+        "before": "16.4.0",
+        "after": "16.4.1"
+      }
+    ],
+    "otherLockedPackagesChanged": false,
+    "reproducibleNpmCi": "passed with Node 24, --ignore-scripts; no engine warnings",
+    "eslintConfigNext": "16.4.0 unchanged"
+  },
+  "advisories": [
+    {
+      "id": "GHSA-673q-mjm6-r5xr",
+      "patched": "16.4.1",
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-673q-mjm6-r5xr"
+    },
+    {
+      "id": "GHSA-2464-fhr4-w9xw",
+      "patched": "16.4.1",
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-2464-fhr4-w9xw"
+    },
+    {
+      "id": "GHSA-p3m5-59mp-jv5r",
+      "patched": "16.4.1",
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-p3m5-59mp-jv5r"
+    }
+  ],
+  "sources": [
+    "https://github.com/vercel/next.js/releases/tag/v16.4.1",
+    "https://github.com/vercel/next.js/releases/tag/v16.4.2",
+    "https://nextjs.org/docs/app/guides/upgrading",
+    "https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/",
+    "https://github.com/opennextjs/opennextjs-netlify/releases/tag/v5.16.4"
+  ],
+  "audits": {
+    "production": {
+      "auditReportVersion": 2,
+      "vulnerabilities": {},
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 19,
+          "dev": 409,
+          "optional": 116,
+          "peer": 0,
+          "peerOptional": 0,
+          "total": 465
+        }
+      }
+    },
+    "allDependencies": {
+      "auditReportVersion": 2,
+      "vulnerabilities": {
+        "@next/eslint-plugin-next": {
+          "name": "@next/eslint-plugin-next",
+          "severity": "high",
+          "isDirect": false,
+          "via": [
+            "fast-glob"
+          ],
+          "effects": [
+            "eslint-config-next"
+          ],
+          "range": ">=14.3.0-canary.0",
+          "nodes": [
+            "node_modules/@next/eslint-plugin-next"
+          ],
+          "fixAvailable": {
+            "name": "eslint-config-next",
+            "version": "14.2.35",
+            "isSemVerMajor": true
+          }
+        },
+        "braces": {
+          "name": "braces",
+          "severity": "high",
+          "isDirect": false,
+          "via": [
+            {
+              "source": 1240992,
+              "name": "braces",
+              "dependency": "braces",
+              "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+              "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+              "severity": "high",
+              "cwe": [
+                "CWE-674"
+              ],
+              "cvss": {
+                "score": 7.5,
+                "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+              },
+              "range": "<=3.0.3"
+            }
+          ],
+          "effects": [
+            "micromatch"
+          ],
+          "range": "*",
+          "nodes": [
+            "node_modules/braces"
+          ],
+          "fixAvailable": {
+            "name": "eslint-config-next",
+            "version": "14.2.35",
+            "isSemVerMajor": true
+          }
+        },
+        "eslint-config-next": {
+          "name": "eslint-config-next",
+          "severity": "high",
+          "isDirect": true,
+          "via": [
+            "@next/eslint-plugin-next"
+          ],
+          "effects": [],
+          "range": ">=14.3.0-canary.0",
+          "nodes": [
+            "node_modules/eslint-config-next"
+          ],
+          "fixAvailable": {
+            "name": "eslint-config-next",
+            "version": "14.2.35",
+            "isSemVerMajor": true
+          }
+        },
+        "fast-glob": {
+          "name": "fast-glob",
+          "severity": "high",
+          "isDirect": false,
+          "via": [
+            "micromatch"
+          ],
+          "effects": [
+            "@next/eslint-plugin-next"
+          ],
+          "range": "*",
+          "nodes": [
+            "node_modules/fast-glob"
+          ],
+          "fixAvailable": {
+            "name": "eslint-config-next",
+            "version": "14.2.35",
+            "isSemVerMajor": true
+          }
+        },
+        "micromatch": {
+          "name": "micromatch",
+          "severity": "high",
+          "isDirect": false,
+          "via": [
+            "braces"
+          ],
+          "effects": [
+            "fast-glob"
+          ],
+          "range": ">=0.2.0",
+          "nodes": [
+            "node_modules/micromatch"
+          ],
+          "fixAvailable": {
+            "name": "eslint-config-next",
+            "version": "14.2.35",
+            "isSemVerMajor": true
+          }
+        }
+      },
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 5,
+          "critical": 0,
+          "total": 5
+        },
+        "dependencies": {
+          "prod": 19,
+          "dev": 409,
+          "optional": 116,
+          "peer": 0,
+          "peerOptional": 0,
+          "total": 465
+        }
+      }
+    },
+    "developmentFinding": "Existing braces stack-exhaustion advisory through eslint-config-next / @next/eslint-plugin-next / fast-glob / micromatch. Full audit exits 1 with five affected package nodes for one underlying advisory. Not included in production dependency tree. Matching eslint patch also retains fast-glob 3.3.1; no unrelated lint downgrade, override or upgrade performed."
+  },
+  "verification": {
+    "fullSuite": {
+      "total": 1498,
+      "pass": 1497,
+      "fail": 0,
+      "skip": 1,
+      "skipReason": "Optional real local Redis Lua integration requires redis-server; no live Redis diagnostic repeated."
+    },
+    "targeted": {
+      "total": 158,
+      "pass": 157,
+      "fail": 0,
+      "skip": 1,
+      "scope": [
+        "Barcelona real loader + canonical fallback precedence",
+        "Mexico City guide/card/result/trip visible credit and approval denial",
+        "Netlify build/runtime classification and fixture guards",
+        "provider rolling admission, cache-hit avoidance and deadline",
+        "affiliate origin ordering, payload and URLs",
+        "AI default OFF",
+        "pricing/reserves/unknown transfers",
+        "English-only routing and SEO",
+        "media crop/hash publication gates"
+      ]
+    },
+    "lint": {
+      "errors": 0,
+      "existingWarnings": [
+        "tests/accommodation.test.ts: unused genericStayBasis",
+        "tests/destination-content-pilot.test.ts: unused readFileSync"
+      ]
+    },
+    "sourceSecurity": {
+      "check": "working-tree-secret-boundaries",
+      "status": "passed",
+      "failures": []
+    },
+    "builtPublicOutputSecurity": {
+      "check": "working-tree-secret-boundaries",
+      "status": "passed",
+      "failures": []
+    },
+    "productionBuild": {
+      "status": "passed",
+      "command": "npm run build -- --webpack",
+      "nextVersion": "16.4.1",
+      "node": "24.19.0",
+      "configurationChanged": false,
+      "note": "Documented Webpack CLI build used because the prior default Turbopack build hit the local sandbox worker-port restriction. Default Turbopack was not re-verified during this patch. Netlify default build command remains unchanged.",
+      "ssrAndRouteHandlersCompiled": true
+    },
+    "browser": {
+      "status": "passed",
+      "checkedAt": "2026-10-23T12:10:13.076Z",
+      "scope": "local real shared guide/card rendering and navigation to actual production-built Next homepage; not hosted Netlify checks",
+      "guideViewportChecks": 20,
+      "cardViewportChecks": 5,
+      "reuseViewportChecks": 5,
+      "checks": [
+        {
+          "slug": "istanbul",
+          "width": 1440,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "IST",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/istanbul-1200.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "istanbul",
+          "width": 390,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "IST",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/istanbul-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "istanbul",
+          "width": 375,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "IST",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/istanbul-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "istanbul",
+          "width": 360,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "IST",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/istanbul-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "istanbul",
+          "width": 320,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "IST",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/istanbul-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "barcelona",
+          "width": 1440,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "BCN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/barcelona-batch1-v1-1200.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "barcelona",
+          "width": 390,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "BCN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "barcelona",
+          "width": 375,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "BCN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "barcelona",
+          "width": 360,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "BCN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "barcelona",
+          "width": 320,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "BCN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "singapore",
+          "width": 1440,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "SIN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/singapore-batch1-v1-1200.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "singapore",
+          "width": 390,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "SIN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "singapore",
+          "width": 375,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "SIN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "singapore",
+          "width": 360,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "SIN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "singapore",
+          "width": 320,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "SIN",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "visibleCredit": "existing expandable credit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "mexico-city",
+          "width": 1440,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "MEX",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/mexico-city-batch1-v1-1200.webp",
+          "visibleCredit": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "mexico-city",
+          "width": 390,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "MEX",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "visibleCredit": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "mexico-city",
+          "width": 375,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "MEX",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "visibleCredit": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "mexico-city",
+          "width": 360,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "MEX",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "visibleCredit": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "slug": "mexico-city",
+          "width": 320,
+          "overflow": false,
+          "actualGuideComponent": true,
+          "productionHomepageNavigation": "passed",
+          "destinationCity": "MEX",
+          "origin": "ZRH",
+          "currency": "CHF",
+          "budget": 1600,
+          "adults": 2,
+          "children": 1,
+          "dateFlexibilityPreserved": true,
+          "reload": "passed",
+          "browserBack": "passed",
+          "heroFile": "/batch-01-review/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "visibleCredit": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "font": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", sans-serif"
+        },
+        {
+          "page": "cards",
+          "width": 1440,
+          "overflow": false,
+          "mexicoVisibleCredit": "passed"
+        },
+        {
+          "page": "cards",
+          "width": 390,
+          "overflow": false,
+          "mexicoVisibleCredit": "passed"
+        },
+        {
+          "page": "cards",
+          "width": 375,
+          "overflow": false,
+          "mexicoVisibleCredit": "passed"
+        },
+        {
+          "page": "cards",
+          "width": 360,
+          "overflow": false,
+          "mexicoVisibleCredit": "passed"
+        },
+        {
+          "page": "cards",
+          "width": 320,
+          "overflow": false,
+          "mexicoVisibleCredit": "passed"
+        },
+        {
+          "page": "photo-reuse-results-and-trip",
+          "width": 1440,
+          "overflow": false,
+          "credits": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            },
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            }
+          ]
+        },
+        {
+          "page": "photo-reuse-results-and-trip",
+          "width": 390,
+          "overflow": false,
+          "credits": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            },
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            }
+          ]
+        },
+        {
+          "page": "photo-reuse-results-and-trip",
+          "width": 375,
+          "overflow": false,
+          "credits": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            },
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            }
+          ]
+        },
+        {
+          "page": "photo-reuse-results-and-trip",
+          "width": 360,
+          "overflow": false,
+          "credits": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            },
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            }
+          ]
+        },
+        {
+          "page": "photo-reuse-results-and-trip",
+          "width": 320,
+          "overflow": false,
+          "credits": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            },
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true,
+              "withinImage": true
+            }
+          ]
+        }
+      ],
+      "browserErrors": [],
+      "externalRequests": [],
+      "attemptedAPIRequests": [],
+      "providerRequests": 0,
+      "AIRequests": 0,
+      "deviceScaleFactor": 1
+    },
+    "browserSummary": {
+      "guideViewports": 20,
+      "cardViewports": 5,
+      "resultAndTripImageViewports": 5,
+      "widths": [
+        1440,
+        390,
+        375,
+        360,
+        320
+      ],
+      "actualProductionHomepageNavigations": 20,
+      "reloads": 20,
+      "backNavigations": 20,
+      "overflow": 0,
+      "browserErrors": 0,
+      "providerCalls": 0,
+      "OpenAICalls": 0,
+      "RedisCalls": 0,
+      "imageDelivery": "DPR1 mobile 640px and desktop 1200px; unchanged 1920px source variants retained"
+    },
+    "netlifyCompatibility": {
+      "documentation": "Netlify documents automatically updated OpenNext support for stable Next.js releases from 13.5 onward and testing of each stable release. Public current adapter metadata: 5.16.4, Node >=18.",
+      "localApplicationClassificationTests": "passed",
+      "existingConfigAndAdapterPin": "unchanged; adapter automatically selected by Netlify",
+      "newAdapterPackaging": "not run",
+      "newHostedBuild": "not run; deployment not authorized"
+    },
+    "nodeToolchain": {
+      "runtime": "24.19.0",
+      "npmSubprocessRuntimeVerified": "24.19.0",
+      "method": "Temporary Node/npm symlink directory first in PATH; global asdf Node 23 shims excluded."
+    }
+  },
+  "editorial": {
+    "packetId": "worldwide-batch1-final-review-v1",
+    "drafts": [
+      "Istanbul English v3",
+      "Barcelona English v3",
+      "Singapore English v3",
+      "Mexico City English v3"
+    ],
+    "originalReviewArtifactsUnchanged": 76,
+    "finalReviewArtifactsUnchanged": 49,
+    "allPreExistingModifiedSourceAndTestsUnchangedThisTask": true,
+    "istanbulExistingApprovedPhoto": "preserved",
+    "candidateImages": [
+      "Barcelona commons:9050140",
+      "Singapore commons:88145804",
+      "Mexico City commons:139259979"
+    ],
+    "ownerApproval": "pending",
+    "newContentPublished": false,
+    "newImagesPublished": false,
+    "approvalWordingPath": "batch-01-final-review/owner-approval-wording.txt",
+    "requiredOwnerAction": "I approve the pinned Istanbul, Barcelona, Singapore and Mexico City English v3 drafts in worldwide-batch1-final-review-v1, preserving the content and evidence from worldwide-batch1-review-v1. I also approve Barcelona commons:9050140, Singapore commons:88145804 and Mexico City commons:139259979, with the shown hero/card crops, responsive variants, attribution, modification notices and CC BY-SA requirements. Record GoEksplo Owner and integrate locally through the existing editorial and media gates. Preserve Istanbul’s existing media approval. Do not commit, push or deploy.",
+    "priorSecuritySnapshot": "batch-01-final-review/dependency-advisories.json intentionally preserved as historical 16.4.0 evidence; this record supersedes only its local dependency status"
+  },
+  "unchangedSafeguards": [
+    "AI OFF by default",
+    "English-only V1 and query-preserving /sq redirects",
+    "canonical URLs and request-specific noindex",
+    "provider contracts and request fan-out",
+    "shared Redis provider admission",
+    "flight airport/date/party identity",
+    "affiliate handoff",
+    "deterministic pricing and reserves",
+    "Netlify deployment configuration",
+    "existing content/media approvals and all licence/crop/hash pins"
+  ],
+  "filesChangedThisTask": [
+    "package.json",
+    "package-lock.json",
+    "docs/research/destination-content/worldwide-expansion-01-2026-10-23/batch-01-nextjs-security-update.json"
+  ],
+  "preExistingReviewedTrackedChangesPreserved": [
+    "src/components/discovery/DestinationCards.tsx",
+    "src/components/discovery/DestinationGuide.tsx",
+    "src/components/travel/FullTrip.tsx",
+    "src/components/travel/Provenance.tsx",
+    "src/components/travel/ResultCard.tsx",
+    "src/services/destination-guides.ts",
+    "tests/destination-discovery.test.ts"
+  ],
+  "remainingLimitations": [
+    "Owner approval of pinned four v3 drafts and exact three candidate photographs is still required.",
+    "Security patch is local only; existing deployment was not updated.",
+    "New Netlify packaging/hosted runtime verification remains for a separately approved private release.",
+    "Existing development-only braces advisory remains; no patched version reported."
+  ],
+  "actions": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "credentialsChanged": false,
+    "dnsChanged": false,
+    "billingChanged": false,
+    "publicAccessChanged": false
+  }
+}

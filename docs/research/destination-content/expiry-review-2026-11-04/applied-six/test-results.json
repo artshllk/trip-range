@@ -1,0 +1,51 @@
+{
+  "checked_date": "2026-11-04",
+  "test_suite": {
+    "command": "npm test",
+    "runtime": "Node 24.21.0",
+    "tests": 1616,
+    "passed": 1505,
+    "failed": 110,
+    "skipped": 1,
+    "exit_code": 1
+  },
+  "targeted_checks": {
+    "check_destination_content": "passed",
+    "check_destination_reviews": "passed",
+    "claims_policy_tests": "2 passed",
+    "six_item_scope_and_receipt_check": "passed",
+    "menu_draft_schema_and_claims_checks": "passed",
+    "menu_arithmetic_and_preview_checks": "passed",
+    "git_diff_check": "passed"
+  },
+  "failures": [
+    {
+      "count": 107,
+      "error": "invalid-or-orphan-editorial-review",
+      "cause": "Tests load current on-disk editorial decisions under fixed historical clocks. The new owner decisions are dated 4 November and are correctly rejected as future at those clocks.",
+      "diagnostic": "The same workspace fails at 2026-10-26T16:00:00Z and 2026-11-02T22:00:00Z, and passes at the real 4 November clock.",
+      "relevant_files": [
+        "tests/fixtures/archived-destination-data.ts",
+        "scripts/lib/editorial-workspace.ts",
+        "src/content/operator/editorial.ts"
+      ]
+    },
+    {
+      "count": 1,
+      "file": "tests/phase2-publication.test.ts",
+      "cause": "Expects the current London content digest to remain the old Phase 4B digest despite the approved Abbey revision."
+    },
+    {
+      "count": 1,
+      "file": "tests/phase4b-guides.test.ts",
+      "cause": "Expects all old example notes to expire on 5 November; the owner has explicitly extended six reviewed items to 18 November."
+    },
+    {
+      "count": 1,
+      "file": "tests/worldwide-batch1-integration.test.ts",
+      "cause": "Expects current Istanbul/Barcelona records to remain v3 after the approved v4 revisions."
+    }
+  ],
+  "scope": "No test, application logic, component or pricing file was changed. These failures are caused by the authorized content update interacting with historical fixture assumptions; they are not labelled pre-existing passing-suite failures.",
+  "recommended_follow_up": "Separate historical regression snapshots from current content and reviews. Retain the old approvals and expiry assertions against frozen fixtures, and test the new six-item maintenance revision against its own pins and deadlines. Do not backdate owner approvals, rewrite old evidence, skip tests or weaken production freshness checks."
+}

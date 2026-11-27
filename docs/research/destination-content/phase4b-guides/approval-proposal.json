@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "status": "unsigned-owner-review-proposal-not-a-publication-receipt",
+  "evidencePath": "docs/research/phase4b-cost-evidence-2026-10-22/cost-assumptions-review.md",
+  "evidenceDigest": "50ccffdae89a5fb5b004eb9e9854fd89f8b222ad408acedc766e6345b7bb7504",
+  "publicationWrites": 0,
+  "pricingProfileChanges": 0,
+  "candidates": [
+    {
+      "destinationId": "vienna",
+      "candidateFile": "docs/research/destination-content/phase4b-guides/vienna.json",
+      "research": {
+        "destinationId": "vienna",
+        "status": "available",
+        "report": "docs/research/phase4b-cost-evidence-2026-10-22/cost-assumptions-review.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 2,
+        "unresolvedIssues": []
+      },
+      "priorApprovedReviewDigest": "38927b76bbfa8bdc4902203fe77dbd0bb1738faf85169c21644c4fac2dcf06d5",
+      "contentVersion": 2,
+      "contentDigest": "5433bc1219ad4b717dc1d257ad92ba2a028dbf6360ff2b8ad722de7db602ec7b",
+      "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+      "evidenceDigest": "bc8b8f3e3277f716e2c5d8ae7ff4a87a71dd58ab2482c5fd9ddccbaab9a38fcf",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "london",
+      "candidateFile": "docs/research/destination-content/phase4b-guides/london.json",
+      "research": {
+        "destinationId": "london",
+        "status": "available",
+        "report": "docs/research/phase4b-cost-evidence-2026-10-22/cost-assumptions-review.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 6,
+        "unresolvedIssues": []
+      },
+      "priorApprovedReviewDigest": "000090493cd079f0388e0a7bd5b8bf528892c46430a4d5b8e526dfa436c3c752",
+      "contentVersion": 4,
+      "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+      "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+      "evidenceDigest": "557557b020882c909ec677cf6d0fbfd9a6f8438cbbae9e8721c6d1f63826052f",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": [
+        {
+          "id": "presentation:8023965be1154c073696",
+          "message": "Transport points: 5 items; only the first 3 are initially visible. Confirm the stored editorial order."
+        }
+      ]
+    },
+    {
+      "destinationId": "paris",
+      "candidateFile": "docs/research/destination-content/phase4b-guides/paris.json",
+      "research": {
+        "destinationId": "paris",
+        "status": "available",
+        "report": "docs/research/phase4b-cost-evidence-2026-10-22/cost-assumptions-review.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 4,
+        "unresolvedIssues": []
+      },
+      "priorApprovedReviewDigest": "19b9f641d0dfbea27607d429854d522a0c857d9ad040bf586373575aacb5ac45",
+      "contentVersion": 3,
+      "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+      "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+      "evidenceDigest": "0a85766759dba8cee31e5336f693cb644b5cde85af6c33be8ddad3eadda35087",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q60",
+      "candidateFile": "docs/research/destination-content/phase4b-guides/place-Q60.json",
+      "research": {
+        "destinationId": "place:Q60",
+        "status": "available",
+        "report": "docs/research/phase4b-cost-evidence-2026-10-22/cost-assumptions-review.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 2,
+        "unresolvedIssues": []
+      },
+      "priorApprovedReviewDigest": "145d3392581db37e316196e99452cecf1f1ff021a601b1029face7187600ca18",
+      "contentVersion": 3,
+      "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+      "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+      "evidenceDigest": "bd5eef4a10c1c9617ee1dd2f8bf0a7652a746975f55a4ecbf9134ea5c1c578b1",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    }
+  ]
+}

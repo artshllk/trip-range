@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "phase": "5K",
+  "actions": [
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.wikidata.org/wiki/Q3593416",
+      "purpose": "Recheck Tasmania (Q3593416)",
+      "result": "Reconfirmed physical-island identity Q3593416, distinct from state Q34366; place record unchanged.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/",
+      "purpose": "Recheck Discover Tasmania",
+      "result": "Inspected island/regional themes; excluded offshore content and volatile promotions.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain",
+      "purpose": "Recheck Cradle Mountain",
+      "result": "Confirmed Cradle Mountain/Dove Lake relationship and changeable park access/shuttle guidance.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/regions/east-coast/freycinet-national-park/",
+      "purpose": "Recheck Freycinet National Park",
+      "result": "Confirmed granite peaks, Wineglass Bay and east-coast relationship using official Tourism Tasmania.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/regions/hobart-and-south/port-arthur/",
+      "purpose": "Recheck Port Arthur",
+      "result": "Confirmed former convict settlement, buildings/ruins and southeast-Hobart geography.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/things-to-do/museums/mona/",
+      "purpose": "Recheck Mona",
+      "result": "Confirmed institution name and headland at Berriedale north of central Hobart.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/regions/hobart-and-south/hobart/",
+      "purpose": "Recheck Hobart",
+      "result": "Confirmed waterfront and galleries; southern base advice stays bounded.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/planning/tasmania-without-a-car/",
+      "purpose": "Recheck Tasmania without a car",
+      "result": "Confirmed urban bus/regional transport distinction; dated campaigns, fares and schedules omitted.",
+      "limitation": "Bounded editorial claims only; no access, price or availability guarantee and no human approval.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park",
+      "purpose": "Retry primary park evidence",
+      "result": "Retrieval unavailable on open and one follow-up check. Official Tourism Tasmania evidence retained.",
+      "limitation": "No claims adopted from the unavailable page; no further retries.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/planning/getting-here/",
+      "purpose": "Resolve recognized entries versus bounded restoration",
+      "result": "Hobart and Launceston identified as biggest airports; Devonport and Burnie/Wynyard are also main-island arrivals. No durable basis to choose one smaller entry over the other. Recognize four, restore the primary pair plus known selected entry.",
+      "limitation": "No passenger-volume guess, fare ranking or flight availability inferred. King/Flinders Island excluded.",
+      "timestamp": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Exact provider group/airport verification",
+      "result": "AU groups HBA/LST/DPO/BWT each contain their same-code airport. Airport rows: iata_type=airport, flightable=true. KNS/FLS are separate offshore entries and excluded.",
+      "limitation": "Public metadata only; not fare evidence. No token, live price or operational guarantee.",
+      "timestamp": "2026-10-15T09:52:57.521897+00:00"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Exact provider group/airport verification",
+      "result": "AU groups HBA/LST/DPO/BWT each contain their same-code airport. Airport rows: iata_type=airport, flightable=true. KNS/FLS are separate offshore entries and excluded.",
+      "limitation": "Public metadata only; not fare evidence. No token, live price or operational guarantee.",
+      "timestamp": "2026-10-15T09:52:57.954385+00:00"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch1-review-v1",
+  "status": "unsigned-owner-review-proposal-no-publication",
+  "candidates": [
+    {
+      "slug": "istanbul",
+      "candidateFile": "drafts/istanbul.json",
+      "contentVersion": 3,
+      "contentDigest": "38c5b7cba0da08071cec15914efa70554251336666d23a05948d7d67d14e6106",
+      "identityDigest": "6b9bc3d0e8245bae02ca2df568391dd56cdf82ec26a62b3723e45bb755e8f5ea",
+      "evidenceDigest": "056ae3eba19f652b624c1c58cbdb1579745b261604d4371f43ab084b7720fc88",
+      "fileSha256": "54cdf3e4fb213054711305e7ff5aa71bdc240a1c43fc4731818d274f573b019b",
+      "evidenceFile": "drafts/istanbul-evidence.md",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "barcelona",
+      "candidateFile": "drafts/barcelona.json",
+      "contentVersion": 3,
+      "contentDigest": "81303d9603faae3707650453a6a903d0f4d51f1503de323b81d5b0d57000ff6a",
+      "identityDigest": "604110cba5db3da0e289ef1893e7be3ffdd6d857cfc7a5a0ae2a35b9e56a3aed",
+      "evidenceDigest": "c6e04f5cb9f9c7e749f6225886f464d62146ac039a5abaa0aad400e5a303a62d",
+      "fileSha256": "61bc7706035922a7d37ecc8d2674d5cc5e5c1399738432846715fc1341b01596",
+      "evidenceFile": "drafts/barcelona-evidence.md",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "singapore",
+      "candidateFile": "drafts/singapore.json",
+      "contentVersion": 3,
+      "contentDigest": "cd209fe93a253ea425d5a9bf0f29dbbe54c779d72e4bea7ed59232c8c770109b",
+      "identityDigest": "4c864881b3fc6bd71f2861ca0998bbca841a527c35e74ac221507da827b24bf7",
+      "evidenceDigest": "072f1a010cef66a7829906dede26555e8ccfaa0a46ade3c704f2b8ff53f901f6",
+      "fileSha256": "5d1d66ed5eb9833aef180782eabe12533ee0ce8b7aa46c022f238ee27004b4dc",
+      "evidenceFile": "drafts/singapore-evidence.md",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "mexico-city",
+      "candidateFile": "drafts/mexico-city.json",
+      "contentVersion": 3,
+      "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+      "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+      "evidenceDigest": "2ace6341781e41e625f0badc37f44f20630c0a764e973ce214b97789d400f029",
+      "fileSha256": "276463866be81f4baa9ce39ae5bd02d571bde682a8483f5f03f3097649a132e6",
+      "evidenceFile": "drafts/mexico-city-evidence.md",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    }
+  ]
+}

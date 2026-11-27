@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5c-batch1",
+  "preparedAt": "2026-10-13T21:58:39.747Z",
+  "owner": "GoEksplo editorial maintenance",
+  "entries": [
+    {
+      "destinationId": "city:BCN",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "ca577bafb0f9f3f794aedc3a60d80e28ecdf522e78159a4b8ff1e8af0987b053",
+        "identityDigest": "604110cba5db3da0e289ef1893e7be3ffdd6d857cfc7a5a0ae2a35b9e56a3aed",
+        "evidenceDigest": "b314354f6719a1cc8b72c7b8b901e93a3f865ac05ce4696b111b6302755c9f3a"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "provider-city",
+        "cityCode": "BCN",
+        "airports": [
+          "BCN"
+        ],
+        "checkedAt": "2026-10-13T21:47:39.172Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "london",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "legacy-catalogue",
+        "cityCode": "LON",
+        "airports": [
+          "LHR",
+          "LGW",
+          "STN",
+          "LTN",
+          "LCY",
+          "SEN"
+        ],
+        "checkedAt": "2026-10-13T21:47:39.172Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q334",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "be86268b258ce1d99b5f9f96b703d8d42bf1ecf2fc569ea2ed43d92bdf103d3b",
+        "identityDigest": "4c864881b3fc6bd71f2861ca0998bbca841a527c35e74ac221507da827b24bf7",
+        "evidenceDigest": "5d96351d0305747af3caae05769ccf38ce0f03eccc78850968b6dbdf51d2b52f"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "SIN",
+        "airports": [
+          "SIN",
+          "XSP"
+        ],
+        "checkedAt": "2026-10-13T21:47:39.172Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q1861",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "6b5b054c95f4ee3a9dece5ab9b607d898b6e39555fc4d1ffc8c0064b06eba136",
+        "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+        "evidenceDigest": "b2bea9c536c3a0c39101cee5014235392fa16e54006d778d4805231c22b79275"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "BKK",
+        "airports": [
+          "BKK",
+          "DMK"
+        ],
+        "checkedAt": "2026-10-13T21:47:39.172Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q24639",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "YVR",
+        "airports": [
+          "YVR",
+          "CXH",
+          "YDT"
+        ],
+        "checkedAt": "2026-10-13T21:47:39.172Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    }
+  ]
+}

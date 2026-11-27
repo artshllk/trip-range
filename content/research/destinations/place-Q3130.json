@@ -1,0 +1,12 @@
+{
+  "destinationId": "place:Q3130",
+  "status": "available",
+  "report": "worldwide-batch3-sydney-v4.md",
+  "researchedAt": "2026-10-23T22:32:14Z",
+  "sourceCount": 11,
+  "unresolvedIssues": [
+    "WSI opening is imminent at review time; its operator/service status must be rechecked before publication. The candidate quotes no opening date and promises no current flight or metro operation.",
+    "Several Destination NSW pages were readable only as indexed primary text after 405 responses. Stable place geography is used; hotel listings and prices are not evidence.",
+    "Airport station access fees have separate rules and a separate weekly cap; ordinary daily/weekly caps do not include them."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "checked_date": "2026-11-18",
+  "result": "No newer dated independent classification established for Grimm’s Mitte or martas Allegra. Both removed from proposed selection; six eligible remain.",
+  "scope": "26 available DEHOGA magazine issues from January 2024 through May 2026 plus named Hotelstars/operator checks; bounded search, not proof that no renewal exists.",
+  "scanned_sources": [
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_1_2024_final_online.pdf",
+      "sha256": "a36e69429e36926b987402de8f9e52ea14ee7e59e68d4e92827d10b1aa00b9ae",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_2_2024_final_print.pdf",
+      "sha256": "4dc5786e6d2cde0b55274eec198934676bb6f422fefaf1eaf864e023ab7e022c",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_3_2024_final_online_Blaettermagazin.pdf",
+      "sha256": "bdb9616528cf5fcf4061d690e76576d077f9f91210fa26512de7a6520b317bd5",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_4_2024_web.pdf",
+      "sha256": "6ad374ae01a5bcf86e9ec4b1696e680694587429eadcc54430f9fb307ae2b414",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2024/12/Hoga_5_2024_final_print.pdf",
+      "sha256": "e20da297eaef109c1db4547fbca29a0bf6f2f6359739d5733789fe207c1ad74e",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2024-06-hogaaktiv-final.pdf",
+      "sha256": "dd030cddf36da4685c86a7dc0ecf076c8114c63eba097b4b7f1707050433ddba",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2024-07-hogaaktiv-final.pdf",
+      "sha256": "c446ba2d4ff939bf904d2f6535f83ab9fdc72dedbf109de9e04e622f0c0426e1",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2024-08-09-hogaaktiv-final.pdf",
+      "sha256": "0503a8e484f6a88261347438475b4f4a9412733bbf9a29aa91b5316de48d087f",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2024-10-hogaaktiv-final.pdf",
+      "sha256": "41078a84cf48fe576dd24fcdfca3ade9dacac7f9a0968568fda6f0a5c3d79762",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2024-11-hogaaktiv-final.pdf",
+      "sha256": "d28f62322263153595db6abb4721448831b08bde77e4c5c12dcf8186870ae2d9",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2024-12-hogaaktiv-final.pdf",
+      "sha256": "22158444aadf6a7fead34790397e9d6b163f2be1009efcd1ff7fe4f460a8203b",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2025-01-hogaaktiv-final.pdf",
+      "sha256": "60f866c9d809f3c08c2be65d4ad7d70cb4741a06593b75bded2f28d163eaab0d",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/01/2025-02-hogaaktiv-final.pdf",
+      "sha256": "bed23e778246d2bed8f805f75674e32eea9931444b216f6bcba99c10b730f592",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/03/Hoga_3_2025_Korrektur_final.pdf",
+      "sha256": "14e119117536498e30c17a1c9a9ea4ec58390eb8f405eac24b8541dacdccd201",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/03/Hoga_4_2025_final.pdf",
+      "sha256": "f4726b1592917919fb00670a77b413809a14d482a988306079d82ca9431b9218",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/04/Hoga_5_2025–final.pdf",
+      "sha256": "91fa13fb82b206d2120ff20f77e3ed651e5876c7e7bb1a45f47ef21852fed44b",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/05/Hoga_6_2025–web1.pdf",
+      "sha256": "a0f4c6439bd76444787b23789ad4a65f8f05c7c2a0b66fd562b3ed2b0b394225",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/07/Hoga_7_2025.pdf",
+      "sha256": "5577660ca11085c5e0d7fb11f365ee89f46e0e8394c8d35f7a07f99309211086",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/10/Hoga_10_2025.pdf",
+      "sha256": "ecc6517f5ebcc8886b616225c0733a6bef84cfb44714e2222be753a2c7822e34",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/11/Hoga_11_2025_final.pdf",
+      "sha256": "6e0be26b69ac6a5bb6ba764cb0fa0b68fa9966b333edc70b6547b4bfd009a2ae",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2025/11/Hoga_12_2025_final.pdf",
+      "sha256": "00ff1ed9a4a97a603dce1544510b4bfd441532f77931b244f04cdf251d7d0217",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2026/01/Hoga_1_2026–web.pdf",
+      "sha256": "f8cec721e2c1e7bb87a623c15bb87a59248e785c98336dad611d1f18bb88aaa9",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2026/02/Hoga_2_2026.pdf",
+      "sha256": "e2a0ad14f3fe3109ea0b7600a09d05507a50b17fa34ecee62b88a48515368c75",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2026/03/Hoga_3_2026_web.pdf",
+      "sha256": "efde511cf6ff2937ee2e47bc2b3bda4c71cc369d566f0469064facb0097dd8ac",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2026/04/Hoga_4_2026_final_Druckausgabe.pdf",
+      "sha256": "0ad1a89a435a53fc1a62971287b1c8849cb7ddeb4b335d3d6168b1bd42ad9d87",
+      "error": null
+    },
+    {
+      "url": "https://dehoga-berlin.de/wp-content/uploads/2026/05/Hoga_5_2026_web.pdf",
+      "sha256": "90e591395e28190eaea125c31f97e34100f1551ff6546b4097cc8e140f13e790",
+      "error": null
+    }
+  ],
+  "false_renewals": [
+    {
+      "property": "martas Allegra",
+      "issues": [
+        "April 2025 page 32",
+        "May 2025 page 30"
+      ],
+      "finding": "20-year membership anniversary, not classification renewal."
+    },
+    {
+      "property": "Grimm’s Mitte",
+      "issues": [
+        "December 2025 page 34",
+        "March 2026 page 29"
+      ],
+      "finding": "15-year business/membership anniversary, not classification renewal."
+    }
+  ],
+  "replacement_checks": [
+    {
+      "name": "Nikolai Residence",
+      "classification": "January 2026, independent three-star Superior",
+      "result": "Operator site TLS failure; linked D-EDGE engine returned error and reload prompt on repeat check. No usable operator-direct pin established.",
+      "sources": [
+        "https://www.nikolai-residence.com/",
+        "https://www.secure-hotel-booking.com/smart/Hotel-Nikolai-Residence/2FXZ/de/"
+      ]
+    },
+    {
+      "name": "Hotel 38",
+      "classification": "April 2026, independent three-star",
+      "result": "Operator booking page remains a personal-details reservation enquiry, no anonymous priced booking flow.",
+      "sources": [
+        "https://hotel38.de/en/booking/"
+      ]
+    },
+    {
+      "name": "B!rgit",
+      "classification": "May 2023 dated notice; current undated Hotelstars match",
+      "result": "No newer dated notice found; undated listing cannot reset age."
+    },
+    {
+      "name": "MANI",
+      "result": "Current operator group engine declares four stars, excludes.",
+      "sources": [
+        "https://search.amanogroup.com/AMN?languageid=7"
+      ]
+    }
+  ],
+  "superseded_next_requirement": "Two additional admissible members within the fixed 2 km frame, or newer independent evidence for removed properties. Do not widen radius, lower independent standard, or call six a completed eight-property panel.",
+  "current_decision": "Owner subsequently authorized a six-property freeze under the general v9 exhausted-frame rule. No further replacements required for this composition; retain all exclusion evidence. Session and capture gates remain separate."
+}

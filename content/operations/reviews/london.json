@@ -1,0 +1,1379 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "london",
+  "current": {
+    "contentVersion": 7,
+    "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+    "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+    "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "phase2-source-review",
+        "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+      },
+      {
+        "id": "presentation:b26a311cb120d28d04b3",
+        "reason": "Owner approved the itemised copy with the full detail available in the disclosure."
+      },
+      {
+        "id": "presentation:8023965be1154c073696",
+        "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+      }
+    ],
+    "reviewer": "Art Shllaku",
+    "updatedAt": "2026-11-12T11:19:00.023Z",
+    "reviewedAt": "2026-11-12T11:19:00.023Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:12.685Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:13.513Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:13.513Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:14.325Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:14.325Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:15.131Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:15.131Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:15.938Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:15.938Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:16.747Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:16.747Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:17.558Z",
+      "reason": "Advisory evidence-review: London v2 identity, strengthened official attraction sources, EN/SQ copy, focused Westminster and landmark selection, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids current fare, payment, timetable and all-city itinerary guarantees."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "London v2 identity, strengthened official attraction sources, EN/SQ copy, focused Westminster and landmark selection, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids current fare, payment, timetable and all-city itinerary guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:17.558Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:31:18.365Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "a2e954a13bc5e2a0e59c2b1049041933784944019e9de214178de5be51e008e6",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "London v2 identity, strengthened official attraction sources, EN/SQ copy, focused Westminster and landmark selection, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids current fare, payment, timetable and all-city itinerary guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:31:18.365Z",
+        "reviewedAt": "2026-10-13T22:31:18.365Z"
+      },
+      "supersededAt": "2026-10-21T20:53:23.800Z",
+      "reason": "GoEksplo Owner explicitly approved the pinned London v3 English draft and sources, identity, order, freshness and transport disclosure. Preserve v2 history."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:23.800Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:23.865Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:23.865Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:23.929Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:23.929Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:23.992Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:23.992Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:24.056Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:24.056Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:24.120Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:24.120Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:24.184Z",
+      "reason": "Advisory phase2-source-review: GoEksplo Owner explicitly approved the exact pinned English wording, sources, destination and airport identities, itinerary order and freshness in the current approval message."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the exact pinned English wording, sources, destination and airport identities, itinerary order and freshness in the current approval message."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:24.184Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:24.248Z",
+      "reason": "Advisory presentation:8023965be1154c073696: GoEksplo Owner explicitly accepted the final two London airport-guidance entries behind More transport details, preserving the reviewed order."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the exact pinned English wording, sources, destination and airport identities, itinerary order and freshness in the current approval message."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner explicitly accepted the final two London airport-guidance entries behind More transport details, preserving the reviewed order."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:24.248Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-21T20:53:24.312Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the exact pinned English wording, sources, destination and airport identities, itinerary order and freshness in the current approval message."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner explicitly accepted the final two London airport-guidance entries behind More transport details, preserving the reviewed order."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-21T20:53:24.312Z",
+        "reviewedAt": "2026-10-21T20:53:24.312Z"
+      },
+      "supersededAt": "2026-10-22T21:46:55.271Z",
+      "reason": "GoEksplo Owner explicitly approved the pinned Phase 4B English revision, sources, presentation and freshness. Preserve prior review history; register the unchanged accepted evidence under the supported flat report filename."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.271Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.343Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.343Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.408Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.408Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.475Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.475Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.542Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.542Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.608Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.608Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.728Z",
+      "reason": "Advisory phase2-source-review: GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.728Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.793Z",
+      "reason": "Advisory presentation:8023965be1154c073696: GoEksplo Owner approved London v4 presentation, retaining the existing first three transport entries and final two airport entries behind More transport details."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner approved London v4 presentation, retaining the existing first three transport entries and final two airport entries behind More transport details."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.793Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:55.857Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner approved London v4 presentation, retaining the existing first three transport entries and final two airport entries behind More transport details."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:55.857Z",
+        "reviewedAt": "2026-10-22T21:46:55.857Z"
+      },
+      "supersededAt": "2026-11-04T10:12:21.805Z",
+      "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.805Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.828Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.828Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.847Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.847Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.869Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.869Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.888Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.888Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.906Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.906Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.933Z",
+      "reason": "Advisory phase2-source-review: Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.933Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.952Z",
+      "reason": "Advisory presentation:8023965be1154c073696: Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.952Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T10:12:21.969Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T10:12:21.969Z",
+        "reviewedAt": "2026-11-04T10:12:21.969Z"
+      },
+      "supersededAt": "2026-11-04T12:00:27.763Z",
+      "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.763Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.780Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.780Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.796Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.796Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.812Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.812Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.827Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.827Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.843Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.843Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.865Z",
+      "reason": "Advisory phase2-source-review: GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.865Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.880Z",
+      "reason": "Advisory presentation:739c4cfed5823bc464d5: GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:739c4cfed5823bc464d5",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.880Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.895Z",
+      "reason": "Advisory presentation:8023965be1154c073696: GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:739c4cfed5823bc464d5",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.895Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-04T12:00:27.911Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:739c4cfed5823bc464d5",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-11-04T12:00:27.911Z",
+        "reviewedAt": "2026-11-04T12:00:27.911Z"
+      },
+      "supersededAt": "2026-11-12T11:18:59.870Z",
+      "reason": "Owner approved the exact 12 November renewal packet in PR #26."
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.870Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.888Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.888Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.905Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.905Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.922Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.922Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.939Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.939Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.956Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.956Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.974Z",
+      "reason": "Advisory phase2-source-review: GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          }
+        ],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.974Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:18:59.990Z",
+      "reason": "Advisory presentation:b26a311cb120d28d04b3: Owner approved the itemised copy with the full detail available in the disclosure."
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:b26a311cb120d28d04b3",
+            "reason": "Owner approved the itemised copy with the full detail available in the disclosure."
+          }
+        ],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:18:59.990Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:19:00.006Z",
+      "reason": "Advisory presentation:8023965be1154c073696: GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "review": {
+        "contentVersion": 7,
+        "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          },
+          {
+            "id": "presentation:b26a311cb120d28d04b3",
+            "reason": "Owner approved the itemised copy with the full detail available in the disclosure."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+          }
+        ],
+        "reviewer": "Art Shllaku",
+        "updatedAt": "2026-11-12T11:19:00.006Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-11-12T11:19:00.023Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

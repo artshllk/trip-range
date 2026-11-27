@@ -1,0 +1,10 @@
+{
+  "destinationId": "crete",
+  "status": "available",
+  "report": "phase5g-crete.md",
+  "researchedAt": "2026-10-14T11:58:22.074Z",
+  "sourceCount": 9,
+  "unresolvedIssues": [
+    "Human source, EN/SQ, selection and freshness review remains pending."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "ready": false,
+  "coverage": {
+    "planned": 16,
+    "contributing": 11,
+    "contributing_properties": 8,
+    "weekday": 8,
+    "weekend": 3,
+    "treatments": {
+      "stated_included": 11,
+      "stated_extra": 0,
+      "page_silent": 0
+    },
+    "uncertainty": "insufficient",
+    "band_percent": null
+  },
+  "errors": [
+    "At least four usable weekday AND four usable weekend stays are required."
+  ],
+  "samples": [
+    {
+      "property_id": "istanbul-n10103816403",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n10103816403",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-s22091",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-s22091",
+      "stay_type": "weekend",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n5113500273",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n5113500273",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n5113500274",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n5113500274",
+      "stay_type": "weekend",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n5113500296",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-n5113500296",
+      "stay_type": "weekend",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-s20339",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-s20339",
+      "stay_type": "weekend",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-w1163422650",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-w1163422650",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-s23115",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "istanbul-s23115",
+      "stay_type": "weekend",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    }
+  ],
+  "panel_for_review": null,
+  "classification": {
+    "counts": {
+      "independent": 8,
+      "operator_declared": 0,
+      "unresolved": 0
+    },
+    "notice": "Classification is recorded per property. Different independent national schemes are not necessarily identical."
+  },
+  "meaning": "Data-entry validation only. Human review must check that screenshots support the amount, currency, dates, room/rate choice and tax treatment. A candidate median for human review is not a production price or approval."
+}

@@ -1,0 +1,60 @@
+{
+  "status": "pending_exact_revision_owner_review",
+  "baseCommit": "80f8e34d8c106744f74a6990c462e16881d1cb47",
+  "checkedAt": "2026-11-12T11:07:27Z",
+  "sourceChecksSHA256": "5b0c85c0b9cf7796b64e26bd67851ee9a89e2c9ff9798f268058d00a562f3fcf",
+  "changesSHA256": "9537760741df4b4795831ed8aefbbbcbc53b49e59bea272e0c7fad67c2b3e81b",
+  "reviewer": null,
+  "records": [
+    {
+      "city": "vienna",
+      "id": "vienna",
+      "baseSHA256": "f51448153dc13cc97155d3d64a3a9b4426914344313f67e04cbe99b95df4f890",
+      "candidateSHA256": "ba07665cedf6a7b9661ab7ebec3b66186e7d3e4d5f733f42c2cfabc7dfae3f2a",
+      "contentVersion": 4,
+      "contentDigest": "d0a42a3d7031eba5020fa68d6673c70631e5edb0743c8922a772fed39daf8187",
+      "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+      "evidenceDigest": "99366307dce60ba598ea4455fdca3a936ca57d65e2703ceb53bb7dab2892a81c"
+    },
+    {
+      "city": "london",
+      "id": "london",
+      "baseSHA256": "a3ff1c3352664e971cce1920554c2ec5c89dda5d62a624ceedb0c2ee7363b414",
+      "candidateSHA256": "c17ca86fa56c53936a26d5fcbdcc0fd9499a2d6edea4c02612df085f1ec0df24",
+      "contentVersion": 7,
+      "contentDigest": "7328ed26fef7857e70c1e629d836cf331c6595e7b79064b06d6af9beb3d47d8c",
+      "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+      "evidenceDigest": "b83a875a5b3421225273b7abc3223f69de0ebdb56a1d15620201786713c70b3e"
+    },
+    {
+      "city": "paris",
+      "id": "paris",
+      "baseSHA256": "1433d7cc81bbb76badc4ff9961feb7b3720e800498aff8e725920789c67c1b08",
+      "candidateSHA256": "27ec8f12544deb0f429e904584fa6296c50cea74024c3a96e5120bed06ea32a8",
+      "contentVersion": 5,
+      "contentDigest": "ac30e8cf9f7bb7c85c8e503ef9faef936f7f761db78006354b487c89c3084061",
+      "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+      "evidenceDigest": "2947b304a582263f898237e4a9e1b0a80e83bef55a6de14d821e9d6cb1522952"
+    },
+    {
+      "city": "istanbul",
+      "id": "istanbul",
+      "baseSHA256": "3b617c05693457c89f58014ca983f695c8d2c9c001a32da5a78df2d0bcb9cd93",
+      "candidateSHA256": "e530b40f49b233dc88ee0ae377f8ec9cb156df8082cc39b6ac44ec5fce63ec2d",
+      "contentVersion": 5,
+      "contentDigest": "06b6aa20872edc206e525014a197377f8a1cc0377d072273f888eaaacce54dc7",
+      "identityDigest": "6b9bc3d0e8245bae02ca2df568391dd56cdf82ec26a62b3723e45bb755e8f5ea",
+      "evidenceDigest": "97c6c971facc32050d73d527621765a6bd16dd4dffb9f74e4226bd07a6cab97a"
+    },
+    {
+      "city": "barcelona",
+      "id": "city:BCN",
+      "baseSHA256": "493a654a5026d5efcb548ddda678f9c703c36663ce1f384818d5b862723b9809",
+      "candidateSHA256": "78a92ba5da0535c3955b631907735761618aeb6bd42487ffb395549bf731ea5a",
+      "contentVersion": 5,
+      "contentDigest": "a2f4081bf85e659bad13343bae85067807ea72a53c7367f501601fdf46a7df18",
+      "identityDigest": "604110cba5db3da0e289ef1893e7be3ffdd6d857cfc7a5a0ae2a35b9e56a3aed",
+      "evidenceDigest": "6bcdb5444d436c2c17a32c6fb5d038831559de2d4c2180bdfe9d643e78ea92da"
+    }
+  ]
+}

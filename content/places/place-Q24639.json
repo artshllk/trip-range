@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q24639",
+  "name": "Vancouver",
+  "countryCode": "CA",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 49.2608333333,
+    "longitude": -123.1138888889
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q24639"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:28:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "publicationStatus": "draft-pending-explicit-owner-review",
+  "targetedTests": {
+    "passed": 100,
+    "failed": 0,
+    "skipped": 0
+  },
+  "lint": "passed for tests/phase4b-guides.test.ts",
+  "productionBuild": {
+    "status": "passed",
+    "node": "24.19.0",
+    "next": "16.4.0",
+    "command": "npm run build -- --webpack",
+    "isolatedKeylessCopy": true,
+    "note": "Sandbox could not fetch existing Google Fonts; the same unchanged build passed with network access."
+  },
+  "browser": {
+    "status": "passed",
+    "cases": 12,
+    "widths": [
+      1440,
+      390,
+      320
+    ],
+    "localSSRPreviewOnly": true,
+    "externalOrApiRequests": 0,
+    "browserErrors": 0,
+    "newNotesVisibleWithoutDisclosure": true
+  },
+  "existingFileIntegrity": {
+    "filesCompared": 1489,
+    "modified": [],
+    "deleted": []
+  },
+  "runtimePublicationWrites": 0,
+  "costProfileChanges": 0,
+  "serviceCalls": 0,
+  "commits": 0,
+  "pushes": 0,
+  "deployments": 0
+}

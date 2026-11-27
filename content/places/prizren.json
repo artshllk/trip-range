@@ -1,0 +1,19 @@
+{
+  "subject": "prizren",
+  "name": "Prizren",
+  "countryCode": "XK",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 42.23,
+    "longitude": 20.74
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q200061"
+  },
+  "resolutionMethod": "reviewed",
+  "confidence": "reviewed",
+  "resolvedAt": "2026-10-22T11:50:36.378Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

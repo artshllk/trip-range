@@ -1,0 +1,156 @@
+{
+  "checked_date": "2026-11-04",
+  "diagnosis": {
+    "temporal_fixture_failures": 107,
+    "product_regressions_found": 0,
+    "superseded_assertions": 3,
+    "qualification": "Earlier wall clock alone still failed 107/107, correctly rejecting future approvals. Unchanged tests with matched pre-approval data passed 107/107."
+  },
+  "full_suite": {
+    "tests": 1622,
+    "pass": 1621,
+    "fail": 0,
+    "skipped": 1
+  },
+  "new_tests": 6,
+  "unchanged_skip": "Real Redis Lua integration requires Redis or GOEKSPLO_TEST_REDIS_SERVER.",
+  "lint": {
+    "errors": 0,
+    "existing_warnings": 2,
+    "files": [
+      "docs/research/room-observation-round-2026-11/entry.mjs",
+      "docs/research/room-observation-round-2026-11/validate.mjs"
+    ]
+  },
+  "clock_verification": [
+    {
+      "clock": "2000-01-01T00:00:00Z",
+      "exit_code": 0,
+      "tests": 107,
+      "passed": 107,
+      "failed": 0,
+      "skipped": 0,
+      "failing_test_names": []
+    },
+    {
+      "clock": "2100-01-01T00:00:00Z",
+      "exit_code": 0,
+      "tests": 107,
+      "passed": 107,
+      "failed": 0,
+      "skipped": 0,
+      "failing_test_names": []
+    }
+  ],
+  "checks": [
+    {
+      "check": "check:security",
+      "exit_code": 0,
+      "duration_ms": 5452,
+      "command": "npm run check:security",
+      "log_sha256": "b06e44f19edeaf7e0629e47ed52729d3cd9b2758277b9376439126a101e0b109"
+    },
+    {
+      "check": "lint",
+      "exit_code": 0,
+      "duration_ms": 5574,
+      "command": "npm run lint",
+      "log_sha256": "862f80afb0515947f40cbdc001daabcba157c1206d91ce6799cc7ae597fa6d09"
+    },
+    {
+      "check": "typecheck",
+      "exit_code": 0,
+      "duration_ms": 1790,
+      "command": "npm run typecheck",
+      "log_sha256": "5ef5af86236b7687814628c8ecac5d75ffda72fc6b5ae03410f5731bc97c09e7"
+    },
+    {
+      "check": "check:places",
+      "exit_code": 0,
+      "duration_ms": 1083,
+      "command": "npm run check:places",
+      "log_sha256": "8169aa473a8056fcf6f442d895b2b73b4623b925aaec62a4ecac41d9143acb4b"
+    },
+    {
+      "check": "check:accommodation",
+      "exit_code": 0,
+      "duration_ms": 1035,
+      "command": "npm run check:accommodation",
+      "log_sha256": "7347d9b9996d0ea4875bb34f99be1959795764855233c6498f7dd2aafb212356"
+    },
+    {
+      "check": "check:fx",
+      "exit_code": 0,
+      "duration_ms": 1053,
+      "command": "npm run check:fx",
+      "log_sha256": "292da1efb05e1771b837fdcc54de80c70ebf738ea9fd1b27e269f947d631247f"
+    },
+    {
+      "check": "check:destination-access",
+      "exit_code": 0,
+      "duration_ms": 1084,
+      "command": "npm run check:destination-access",
+      "log_sha256": "944868839b4ece1062a08881d7b747600cd066957ef94298d72435942df7256b"
+    },
+    {
+      "check": "check:destination-media",
+      "exit_code": 0,
+      "duration_ms": 1052,
+      "command": "npm run check:destination-media",
+      "log_sha256": "05c835af97a308ad7dcf891b85eb7a0dec3e4088b3f1db6eb883cdd19d6f203c"
+    },
+    {
+      "check": "check:destination-content",
+      "exit_code": 0,
+      "duration_ms": 2395,
+      "command": "npm run check:destination-content",
+      "log_sha256": "95c6acce1d1d86b523806440cf33b37ab8c6faf85a857f446160102bfa2332ce"
+    },
+    {
+      "check": "check:destination-reviews",
+      "exit_code": 0,
+      "duration_ms": 1089,
+      "command": "npm run check:destination-reviews",
+      "log_sha256": "2b43ebaafcc43ccbdf91db3e1140a14d49d7014cbcfc04e7b94d9d251f32f87d"
+    },
+    {
+      "check": "test",
+      "exit_code": 0,
+      "duration_ms": 11154,
+      "command": "npm run test",
+      "log_sha256": "6e7ebf03c7de1c2f30f343f295ae4a8616e86e06313640640ac5eb9127f3dc10"
+    },
+    {
+      "check": "build",
+      "exit_code": 1,
+      "duration_ms": 170565,
+      "command": "npm run build",
+      "log_sha256": "ceeb9102313c131c7477aa877baaab7c4f8737cfc566df6c31911c7aee1a9a47",
+      "limitation": "Restricted network could not fetch three existing Google Fonts. Build retried with network access."
+    },
+    {
+      "check": "build_network_retry",
+      "command": "npm run build",
+      "exit_code": 1,
+      "log_sha256": "76af23346a8d1b837b3a2e8b66a052823b857e039c307a6c33b8056d0bc3d949",
+      "limitation": "Fonts fetched; existing host restriction prevented Turbopack PostCSS worker from binding an internal port (Operation not permitted)."
+    },
+    {
+      "check": "build_webpack",
+      "command": "npm run build -- --webpack",
+      "exit_code": 0,
+      "log_sha256": "d76571909f8b17b5196d4015ab38689c74ed6190ec2692e93f93199109279bfc",
+      "note": "Supported alternative bundler, already used in prior verification on this host. No config or source changes for the build."
+    },
+    {
+      "check": "diff_whitespace",
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "production_logic_changed_for_test_fix": false,
+  "committed": false,
+  "pushed": false,
+  "remote_ci_run": false,
+  "note": "Unit suite, source validators, security, lint and typecheck pass. Production build passes with supported Webpack option. Standard Turbopack build could not complete on this host because of its worker-port permission restriction; this is not a claim of a remote CI run."
+}

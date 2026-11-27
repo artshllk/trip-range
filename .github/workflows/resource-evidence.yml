@@ -1,0 +1,115 @@
+name: Resource evidence
+on:
+  pull_request:
+    paths:
+      - 'scripts/public-evidence/**'
+      - 'docs/content/resource-launch/**'
+      - 'src/server/public-evidence.ts'
+      - 'src/app/data/**'
+      - 'src/app/methodology/**'
+      - 'src/proxy.ts'
+      - 'src/providers/server/environment.ts'
+      - 'src/app/sitemap.ts'
+      - 'docs/research/municipal-hotel-scaling-2025/**'
+      - 'next.config.ts'
+      - '.github/workflows/resource-evidence.yml'
+  workflow_dispatch:
+    inputs:
+      operation:
+        type: choice
+        description: Evidence operation
+        options: [candidate, seal, verify-public]
+        default: candidate
+      published_at:
+        type: string
+        description: Authorised UTC publication timestamp (seal only)
+      bundle_run:
+        type: string
+        description: Run ID that produced the exact sealed deployment bundle (verify-public only)
+permissions:
+  contents: read
+jobs:
+  candidate:
+    if: github.event_name == 'pull_request' || inputs.operation == 'candidate'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: python3 scripts/public-evidence/package.py .evidence-build
+      - run: python3 scripts/public-evidence/verify-delivery.py .evidence-build
+      - run: npm run build
+        env:
+          TRIP_RANGE_EVIDENCE_MODE: candidate
+      - name: Anonymous HTTP on the production build
+        shell: bash
+        env:
+          TRIP_RANGE_EVIDENCE_MODE: candidate
+        run: |
+          npm run start -- --hostname localhost --port 4288 > "$RUNNER_TEMP/evidence-next.log" 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          curl --retry 15 --retry-connrefused --retry-delay 1 --fail --silent --output /dev/null http://localhost:4288/data
+          python3 scripts/public-evidence/verify-delivery.py .evidence-build --origin http://localhost:4288 --report .evidence-checks/local.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: local-delivery-results
+          path: .evidence-checks/local.json
+          include-hidden-files: true
+          if-no-files-found: error
+
+  seal:
+    if: github.event_name == 'workflow_dispatch' && inputs.operation == 'seal'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Seal approved bytes
+        env:
+          PUBLISHED_AT: ${{ inputs.published_at }}
+        run: |
+          test -n "$PUBLISHED_AT"
+          python3 scripts/public-evidence/package.py .evidence-build --published-at "$PUBLISHED_AT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sealed-public-evidence
+          path: .evidence-build/
+          include-hidden-files: true
+          if-no-files-found: error
+
+  verify-public:
+    if: github.event_name == 'workflow_dispatch' && inputs.operation == 'verify-public'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: sealed-public-evidence
+          run-id: ${{ inputs.bundle_run }}
+          github-token: ${{ github.token }}
+          path: .evidence-build
+      - name: Verify the canonical site without credentials
+        run: python3 scripts/public-evidence/verify-delivery.py .evidence-build --origin https://www.trip-range.com --report .evidence-checks/public.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-delivery-results
+          path: .evidence-checks/public.json
+          include-hidden-files: true
+          if-no-files-found: error

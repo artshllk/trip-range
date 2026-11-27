@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5i-standard-non-city",
+  "preparedAt": "2026-10-14T14:44:21.800Z",
+  "owner": "GoEksplo editorial maintenance",
+  "entries": [
+    {
+      "destinationId": "place:Q4648",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "DPS",
+            "airports": [
+              "DPS"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T14:41:59.555Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q40846",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "TCI",
+            "airports": [
+              "TFN",
+              "TFS"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T14:41:59.555Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q2656389",
+      "pins": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "MRU",
+            "airports": [
+              "MRU"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T14:41:59.555Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q131347",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "HNL",
+            "airports": [
+              "HNL"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T14:41:59.555Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q76516549",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "FAO",
+            "airports": [
+              "FAO"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T14:41:59.555Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q41858",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "external-gateway",
+        "groups": [
+          {
+            "cityCode": "YYC",
+            "airports": [
+              "YYC"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T14:41:59.555Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    }
+  ]
+}

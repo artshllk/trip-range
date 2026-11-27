@@ -1,0 +1,310 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-23T12:28:20.258Z",
+  "scope": "actual locally production-built Next.js 16.4.1 pages; no Netlify hosted verification",
+  "guideViewportChecks": 20,
+  "homepageViewportChecks": 5,
+  "checks": [
+    {
+      "slug": "istanbul",
+      "width": 1440,
+      "status": "passed",
+      "destinationCity": "IST",
+      "image": "/destinations/istanbul-1200.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "istanbul",
+      "width": 390,
+      "status": "passed",
+      "destinationCity": "IST",
+      "image": "/destinations/istanbul-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "istanbul",
+      "width": 375,
+      "status": "passed",
+      "destinationCity": "IST",
+      "image": "/destinations/istanbul-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "istanbul",
+      "width": 360,
+      "status": "passed",
+      "destinationCity": "IST",
+      "image": "/destinations/istanbul-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "istanbul",
+      "width": 320,
+      "status": "passed",
+      "destinationCity": "IST",
+      "image": "/destinations/istanbul-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "barcelona",
+      "width": 1440,
+      "status": "passed",
+      "destinationCity": "BCN",
+      "image": "/destinations/barcelona-batch1-v1-1200.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "barcelona",
+      "width": 390,
+      "status": "passed",
+      "destinationCity": "BCN",
+      "image": "/destinations/barcelona-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "barcelona",
+      "width": 375,
+      "status": "passed",
+      "destinationCity": "BCN",
+      "image": "/destinations/barcelona-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "barcelona",
+      "width": 360,
+      "status": "passed",
+      "destinationCity": "BCN",
+      "image": "/destinations/barcelona-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "barcelona",
+      "width": 320,
+      "status": "passed",
+      "destinationCity": "BCN",
+      "image": "/destinations/barcelona-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "singapore",
+      "width": 1440,
+      "status": "passed",
+      "destinationCity": "SIN",
+      "image": "/destinations/singapore-batch1-v1-1200.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "singapore",
+      "width": 390,
+      "status": "passed",
+      "destinationCity": "SIN",
+      "image": "/destinations/singapore-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "singapore",
+      "width": 375,
+      "status": "passed",
+      "destinationCity": "SIN",
+      "image": "/destinations/singapore-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "singapore",
+      "width": 360,
+      "status": "passed",
+      "destinationCity": "SIN",
+      "image": "/destinations/singapore-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "singapore",
+      "width": 320,
+      "status": "passed",
+      "destinationCity": "SIN",
+      "image": "/destinations/singapore-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": []
+    },
+    {
+      "slug": "mexico-city",
+      "width": 1440,
+      "status": "passed",
+      "destinationCity": "MEX",
+      "image": "/destinations/mexico-city-batch1-v1-1200.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": [
+        {
+          "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 390,
+      "status": "passed",
+      "destinationCity": "MEX",
+      "image": "/destinations/mexico-city-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": [
+        {
+          "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 375,
+      "status": "passed",
+      "destinationCity": "MEX",
+      "image": "/destinations/mexico-city-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": [
+        {
+          "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 360,
+      "status": "passed",
+      "destinationCity": "MEX",
+      "image": "/destinations/mexico-city-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": [
+        {
+          "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 320,
+      "status": "passed",
+      "destinationCity": "MEX",
+      "image": "/destinations/mexico-city-batch1-v1-640.webp",
+      "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+      "contextPreserved": true,
+      "reload": true,
+      "back": true,
+      "visibleCredit": [
+        {
+          "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "page": "homepage",
+      "width": 1440,
+      "cards": 8,
+      "status": "passed"
+    },
+    {
+      "page": "homepage",
+      "width": 390,
+      "cards": 8,
+      "status": "passed"
+    },
+    {
+      "page": "homepage",
+      "width": 375,
+      "cards": 8,
+      "status": "passed"
+    },
+    {
+      "page": "homepage",
+      "width": 360,
+      "cards": 8,
+      "status": "passed"
+    },
+    {
+      "page": "homepage",
+      "width": 320,
+      "cards": 8,
+      "status": "passed"
+    }
+  ],
+  "browserErrors": [],
+  "externalRequests": [],
+  "attemptedApiRequests": [],
+  "providerCalls": 0,
+  "OpenAICalls": 0,
+  "RedisCalls": 0
+}

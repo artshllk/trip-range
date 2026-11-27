@@ -1,0 +1,3447 @@
+{
+  "country_code": "DE",
+  "checked_date": "2026-11-18",
+  "status": "exhausted_frame_six_selected",
+  "guest_score_gate": false,
+  "independent_classification_required": true,
+  "candidate_count": 107,
+  "candidate_definition": "107 OSM tourism=hotel objects, not a deduplicated census. All objects have a recorded evidence decision. No new property added from a directory.",
+  "search_limitations": "Named Hotelstars queries plus targeted issuer-notice and operator checks; negative matches are evidence exclusions, not proof of no classification. Later evidence can change eligibility only by a versioned audit/reselection before a new freeze.",
+  "candidates": [
+    {
+      "property_id": "berlin-n58467591",
+      "name": "Park Plaza Wallstreet",
+      "osm_type": "node",
+      "osm_id": 58467591,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/58467591",
+      "coordinates": {
+        "latitude": 52.5114646,
+        "longitude": 13.4078027
+      },
+      "computed_distance_metres": 1224.7072752472745,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Park Plaza Wallstreet",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n60105926",
+      "name": "Living Hotel Großer Kurfürst",
+      "osm_type": "node",
+      "osm_id": 60105926,
+      "osm_version": 19,
+      "osm_source_url": "https://www.openstreetmap.org/node/60105926",
+      "coordinates": {
+        "latitude": 52.5122494,
+        "longitude": 13.4087883
+      },
+      "computed_distance_metres": 1122.1669349412127,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Living Hotel Großer Kurfürst",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n60105927",
+      "name": "art’otel Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 60105927,
+      "osm_version": 12,
+      "osm_source_url": "https://www.openstreetmap.org/node/60105927",
+      "coordinates": {
+        "latitude": 52.5125444,
+        "longitude": 13.4103351
+      },
+      "computed_distance_metres": 1066.723799327492,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "art’otel Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n60105928",
+      "name": "Living Hotel Berlin-Mitte",
+      "osm_type": "node",
+      "osm_id": 60105928,
+      "osm_version": 16,
+      "osm_source_url": "https://www.openstreetmap.org/node/60105928",
+      "coordinates": {
+        "latitude": 52.5120824,
+        "longitude": 13.4082495
+      },
+      "computed_distance_metres": 1150.1533316181242,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Living Hotel Berlin-Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n60240143",
+      "name": "Radisson Collection Hotel Berlin",
+      "osm_type": "node",
+      "osm_id": 60240143,
+      "osm_version": 25,
+      "osm_source_url": "https://www.openstreetmap.org/node/60240143",
+      "coordinates": {
+        "latitude": 52.5195175,
+        "longitude": 13.4028297
+      },
+      "computed_distance_metres": 752.8014637618754,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Radisson Collection Hotel Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n60240155",
+      "name": "Novotel Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 60240155,
+      "osm_version": 16,
+      "osm_source_url": "https://www.openstreetmap.org/node/60240155",
+      "coordinates": {
+        "latitude": 52.5131672,
+        "longitude": 13.4051935
+      },
+      "computed_distance_metres": 1119.4099608918816,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Novotel Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "43181",
+          "hotelName": "Novotel Berlin Mitte",
+          "street": "Fischerinsel",
+          "streetNumber": "12",
+          "zip": "10179",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": false,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n66917101",
+      "name": "Hotel Neuer Fritz Berlin",
+      "osm_type": "node",
+      "osm_id": 66917101,
+      "osm_version": 16,
+      "osm_source_url": "https://www.openstreetmap.org/node/66917101",
+      "coordinates": {
+        "latitude": 52.5226997,
+        "longitude": 13.3882776
+      },
+      "computed_distance_metres": 1687.7329758778449,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Neuer Fritz Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n66917107",
+      "name": "Meliá Berlin",
+      "osm_type": "node",
+      "osm_id": 66917107,
+      "osm_version": 23,
+      "osm_source_url": "https://www.openstreetmap.org/node/66917107",
+      "coordinates": {
+        "latitude": 52.5213429,
+        "longitude": 13.388468
+      },
+      "computed_distance_metres": 1674.4628290642381,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Meliá Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "41046",
+          "hotelName": "Melia Berlin",
+          "street": "Friedrichstraße",
+          "streetNumber": "103",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n66917193",
+      "name": "NH Collection",
+      "osm_type": "node",
+      "osm_id": 66917193,
+      "osm_version": 24,
+      "osm_source_url": "https://www.openstreetmap.org/node/66917193",
+      "coordinates": {
+        "latitude": 52.5195761,
+        "longitude": 13.3888965
+      },
+      "computed_distance_metres": 1665.574219605132,
+      "osm_stars_lead": "4S",
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "NH Collection",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "36226",
+          "hotelName": "NH Collection Berlin-Friedrichstrasse",
+          "street": "Friedrichstraße",
+          "streetNumber": "96",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n66917205",
+      "name": "Maritim proArte Hotel Berlin",
+      "osm_type": "node",
+      "osm_id": 66917205,
+      "osm_version": 20,
+      "osm_source_url": "https://www.openstreetmap.org/node/66917205",
+      "coordinates": {
+        "latitude": 52.5182281,
+        "longitude": 13.3874995
+      },
+      "computed_distance_metres": 1787.8752606019473,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Maritim proArte Hotel Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n86001788",
+      "name": "The Westin Grand Berlin",
+      "osm_type": "node",
+      "osm_id": 86001788,
+      "osm_version": 30,
+      "osm_source_url": "https://www.openstreetmap.org/node/86001788",
+      "coordinates": {
+        "latitude": 52.5158768,
+        "longitude": 13.3886042
+      },
+      "computed_distance_metres": 1796.8753323315516,
+      "osm_stars_lead": "5",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "The Westin Grand Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n86001831",
+      "name": "Hotel Gendarm",
+      "osm_type": "node",
+      "osm_id": 86001831,
+      "osm_version": 3,
+      "osm_source_url": "https://www.openstreetmap.org/node/86001831",
+      "coordinates": {
+        "latitude": 52.511542,
+        "longitude": 13.3914622
+      },
+      "computed_distance_metres": 1873.3013947997713,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Gendarm",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n86001840",
+      "name": "Hilton Berlin",
+      "osm_type": "node",
+      "osm_id": 86001840,
+      "osm_version": 36,
+      "osm_source_url": "https://www.openstreetmap.org/node/86001840",
+      "coordinates": {
+        "latitude": 52.5121031,
+        "longitude": 13.3925395
+      },
+      "computed_distance_metres": 1777.4238486270292,
+      "osm_stars_lead": "5",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hilton Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "different_premises_returned",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n245287545",
+      "name": "Bob W.",
+      "osm_type": "node",
+      "osm_id": 245287545,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/245287545",
+      "coordinates": {
+        "latitude": 52.511729,
+        "longitude": 13.4136544
+      },
+      "computed_distance_metres": 1140.118012405777,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Bob W.",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n266593733",
+      "name": "ibis Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 266593733,
+      "osm_version": 22,
+      "osm_source_url": "https://www.openstreetmap.org/node/266593733",
+      "coordinates": {
+        "latitude": 52.5290575,
+        "longitude": 13.4181101
+      },
+      "computed_distance_metres": 854.503734234519,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Ibis Hotel Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38455",
+          "hotelName": "Ibis Hotel Berlin Mitte",
+          "street": "Prenzlauer Allee",
+          "streetNumber": "4",
+          "zip": "10405",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Prenzlauer Allee 4, 10405 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/05/Hoga_6_2025%E2%80%93web1.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "a0f4c6439bd76444787b23789ad4a65f8f05c7c2a0b66fd562b3ed2b0b394225",
+        "notice_id": "2025-06",
+        "data_as_of": "2025-06-01",
+        "date_label": "June 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-06-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: June 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-06-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "checked_date": "2026-11-18",
+        "reason": "Prenzlauer Allee 4, 10405 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/0357/room/DBC.en.htm",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Standard double (160 × 200 cm), maximum two guests; room-detail page lists its bathroom and shower facilities. Twin category also listed."
+      },
+      "direct_booking": {
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "operator_link_source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n321597100",
+      "name": "Victor's Residenz-Hotel Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 321597100,
+      "osm_version": 38,
+      "osm_source_url": "https://www.openstreetmap.org/node/321597100",
+      "coordinates": {
+        "latitude": 52.5288621,
+        "longitude": 13.428805
+      },
+      "computed_distance_metres": 1304.2725522296887,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Victor's Residenz-Hotel Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n330257182",
+      "name": "Hotel-Pension Kastanienhof",
+      "osm_type": "node",
+      "osm_id": 330257182,
+      "osm_version": 17,
+      "osm_source_url": "https://www.openstreetmap.org/node/330257182",
+      "coordinates": {
+        "latitude": 52.5347495,
+        "longitude": 13.4061413
+      },
+      "computed_distance_metres": 1498.094229838095,
+      "osm_stars_lead": "3S",
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Kastanienhof",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "39221",
+          "hotelName": "Hotel-Pension Kastanienhof",
+          "street": "Kastanienallee",
+          "streetNumber": "65",
+          "zip": "10119",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Kastanienallee 65, 10119 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 Superior",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/09/Hoga_8-9_web.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "d1e7f035cae270da66ea0f9fcd7a36c600ffbb731c298174218864ea35c32444",
+        "notice_id": "2025-09",
+        "data_as_of": "2025-08-01",
+        "date_label": "August–September 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-08-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: August–September 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-08-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "use": "exclude_only",
+        "note": "Operator-embedded Hotelstars widget displays three stars and Superior. Widget has no award date and does not renew the evidence clock.",
+        "additional_source_url": "https://hotelclass.info/ws/3fca75eb-8812-4c0d-93cb-71dc6bc29003?lang=de"
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "checked_date": "2026-11-18",
+        "reason": "Kastanienallee 65, 10119 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Economy/standard/comfort double or twin rooms explicitly include shower and WC. Engine confirms conventional double categories; exclude suites."
+      },
+      "direct_booking": {
+        "source_url": "https://onepagebooking.com/kastanienhof?lang=en",
+        "operator_link_source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n330264477",
+      "name": "The Circus Hotel",
+      "osm_type": "node",
+      "osm_id": 330264477,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/node/330264477",
+      "coordinates": {
+        "latitude": 52.5293842,
+        "longitude": 13.4012578
+      },
+      "computed_distance_metres": 1153.3763381388624,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "The Circus Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n332554289",
+      "name": "Hotel Amelie",
+      "osm_type": "node",
+      "osm_id": 332554289,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/node/332554289",
+      "coordinates": {
+        "latitude": 52.5231612,
+        "longitude": 13.3839993
+      },
+      "computed_distance_metres": 1979.645727274011,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Amelie",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n540901489",
+      "name": "easyHotel Berlin",
+      "osm_type": "node",
+      "osm_id": 540901489,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/540901489",
+      "coordinates": {
+        "latitude": 52.528853,
+        "longitude": 13.402126
+      },
+      "computed_distance_metres": 1070.082706546558,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "easyHotel Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n540914067",
+      "name": "Hotel Casa Camper Berlin",
+      "osm_type": "node",
+      "osm_id": 540914067,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/540914067",
+      "coordinates": {
+        "latitude": 52.5257861,
+        "longitude": 13.4040637
+      },
+      "computed_distance_metres": 748.927101588316,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Casa Camper Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n663317344",
+      "name": "Leonardo Royal Hotel Berlin Alexanderplatz",
+      "osm_type": "node",
+      "osm_id": 663317344,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/node/663317344",
+      "coordinates": {
+        "latitude": 52.5273327,
+        "longitude": 13.4234078
+      },
+      "computed_distance_metres": 912.056776371467,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Leonardo Royal Hotel Berlin Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n695646332",
+      "name": "Arcotel John F Berlin",
+      "osm_type": "node",
+      "osm_id": 695646332,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/node/695646332",
+      "coordinates": {
+        "latitude": 52.515182,
+        "longitude": 13.3977084
+      },
+      "computed_distance_metres": 1291.9539624065355,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Arcotel John F Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38112",
+          "hotelName": "Arcotel John F Berlin",
+          "street": "Werderscher Markt",
+          "streetNumber": "11",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n697714223",
+      "name": "Hotel Birgit",
+      "osm_type": "node",
+      "osm_id": 697714223,
+      "osm_version": 14,
+      "osm_source_url": "https://www.openstreetmap.org/node/697714223",
+      "coordinates": {
+        "latitude": 52.534065,
+        "longitude": 13.409096
+      },
+      "computed_distance_metres": 1372.2654630820216,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "classification_date_over_ceiling",
+      "decision_reason": "Current Hotelstars three-star listing has no award/expiry date. Latest located dated notice is May 2023, beyond 36 months; this does not establish that the hotel’s actual certification expired. Need newer dated independent evidence.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "B!rgit",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "39816",
+          "hotelName": "Hotel B!rgit Berlin Mitte",
+          "street": "Schwedter Straße",
+          "streetNumber": "15",
+          "zip": "10119",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "exclusion_sources": [
+        "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_05_2023_web.pdf",
+        "https://www.hotelstars.eu/germany/de/hotelsuche"
+      ],
+      "exclusion_checked_date": "2026-11-18"
+    },
+    {
+      "property_id": "berlin-n963196967",
+      "name": "martas Hotel Berlin-Mitte",
+      "osm_type": "node",
+      "osm_id": 963196967,
+      "osm_version": 14,
+      "osm_source_url": "https://www.openstreetmap.org/node/963196967",
+      "coordinates": {
+        "latitude": 52.5263017,
+        "longitude": 13.3924959
+      },
+      "computed_distance_metres": 1480.5852839779961,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_recent_independent_classification",
+      "decision_reason": "Former Augustinenhof now martas Berlin Mitte. Named current search supplies no matching classification; located historical classification evidence is from 2017, beyond 36 months. Operator and OSM three-star leads do not renew it.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Augustinenhof",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "exclusion_sources": [
+        "https://martas.org/hotels/martas-hotel-berlin-mitte",
+        "https://www.hotelstars.eu/germany/de/hotelsuche"
+      ],
+      "exclusion_checked_date": "2026-11-18"
+    },
+    {
+      "property_id": "berlin-n1129787533",
+      "name": "Märkischer Hof",
+      "osm_type": "node",
+      "osm_id": 1129787533,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/1129787533",
+      "coordinates": {
+        "latitude": 52.5264542,
+        "longitude": 13.3880761
+      },
+      "computed_distance_metres": 1770.761712851772,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Märkischer Hof",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1134199097",
+      "name": "Hotel 38",
+      "osm_type": "node",
+      "osm_id": 1134199097,
+      "osm_version": 19,
+      "osm_source_url": "https://www.openstreetmap.org/node/1134199097",
+      "coordinates": {
+        "latitude": 52.5254865,
+        "longitude": 13.3915391
+      },
+      "computed_distance_metres": 1516.1547098449362,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "reservation_enquiry_only",
+      "decision_reason": "Dated April 2026 three-star notice and ensuite twin rooms found. Operator booking link is a reservation/contact request requiring personal details, without a public anonymous priced room-selection flow. Exclude under direct-online-quote rule.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel 38",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "40959",
+          "hotelName": "Hotel 38",
+          "street": "Oranienburger Straße",
+          "streetNumber": "38",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "exclusion_sources": [
+        "https://hotel38.de/en/booking/",
+        "https://hotel38.de/en/facts/",
+        "https://dehoga-berlin.de/wp-content/uploads/2026/04/Hoga_4_2026_final_Druckausgabe.pdf"
+      ],
+      "exclusion_checked_date": "2026-11-18"
+    },
+    {
+      "property_id": "berlin-n1169468049",
+      "name": "Hotel Berlin Alexanderplatz by Leonardo Hotels",
+      "osm_type": "node",
+      "osm_id": 1169468049,
+      "osm_version": 18,
+      "osm_source_url": "https://www.openstreetmap.org/node/1169468049",
+      "coordinates": {
+        "latitude": 52.5255613,
+        "longitude": 13.4146506
+      },
+      "computed_distance_metres": 410.38232962254017,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Berlin Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1229132250",
+      "name": "Meininger",
+      "osm_type": "node",
+      "osm_id": 1229132250,
+      "osm_version": 15,
+      "osm_source_url": "https://www.openstreetmap.org/node/1229132250",
+      "coordinates": {
+        "latitude": 52.5328665,
+        "longitude": 13.4130785
+      },
+      "computed_distance_metres": 1210.7176407203563,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Meininger",
+        "checked_date": "2026-11-18",
+        "record_match": "different_premises_returned",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1242813831",
+      "name": "Cosmo",
+      "osm_type": "node",
+      "osm_id": 1242813831,
+      "osm_version": 15,
+      "osm_source_url": "https://www.openstreetmap.org/node/1242813831",
+      "coordinates": {
+        "latitude": 52.5117115,
+        "longitude": 13.4013208
+      },
+      "computed_distance_metres": 1396.0292252078152,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Cosmo",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1257750727",
+      "name": "Hotel Gendarm nouveau",
+      "osm_type": "node",
+      "osm_id": 1257750727,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/node/1257750727",
+      "coordinates": {
+        "latitude": 52.511704,
+        "longitude": 13.3914281
+      },
+      "computed_distance_metres": 1864.0163891232817,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Gendarm nouveau",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1349696692",
+      "name": "Eurostars Berlin",
+      "osm_type": "node",
+      "osm_id": 1349696692,
+      "osm_version": 12,
+      "osm_source_url": "https://www.openstreetmap.org/node/1349696692",
+      "coordinates": {
+        "latitude": 52.520389,
+        "longitude": 13.3892504
+      },
+      "computed_distance_metres": 1629.66538654142,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Eurostars Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1363463109",
+      "name": "Leonardo Smart Hotel Berlin Alexanderplatz",
+      "osm_type": "node",
+      "osm_id": 1363463109,
+      "osm_version": 21,
+      "osm_source_url": "https://www.openstreetmap.org/node/1363463109",
+      "coordinates": {
+        "latitude": 52.5253146,
+        "longitude": 13.4143711
+      },
+      "computed_distance_metres": 379.3969593538188,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Leonardo Smart",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1385272346",
+      "name": "Melarose",
+      "osm_type": "node",
+      "osm_id": 1385272346,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/1385272346",
+      "coordinates": {
+        "latitude": 52.5341399,
+        "longitude": 13.4302131
+      },
+      "computed_distance_metres": 1775.9659527953465,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Melarose",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1389043768",
+      "name": "Alex Hotel",
+      "osm_type": "node",
+      "osm_id": 1389043768,
+      "osm_version": 16,
+      "osm_source_url": "https://www.openstreetmap.org/node/1389043768",
+      "coordinates": {
+        "latitude": 52.5287179,
+        "longitude": 13.4248441
+      },
+      "computed_distance_metres": 1087.508840446585,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Alex Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1512604669",
+      "name": "Midi Inn",
+      "osm_type": "node",
+      "osm_id": 1512604669,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/1512604669",
+      "coordinates": {
+        "latitude": 52.533001,
+        "longitude": 13.401672
+      },
+      "computed_distance_metres": 1452.5327573298396,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Midi Inn",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1598987141",
+      "name": "Hotel de Rome",
+      "osm_type": "node",
+      "osm_id": 1598987141,
+      "osm_version": 14,
+      "osm_source_url": "https://www.openstreetmap.org/node/1598987141",
+      "coordinates": {
+        "latitude": 52.5157914,
+        "longitude": 13.3940671
+      },
+      "computed_distance_metres": 1465.721068799716,
+      "osm_stars_lead": "5",
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 5 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel de Rome",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38790",
+          "hotelName": "Hotel de Rome",
+          "street": "Behrenstraße",
+          "streetNumber": "37",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "5",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1733584202",
+      "name": "Myer's Hotel",
+      "osm_type": "node",
+      "osm_id": 1733584202,
+      "osm_version": 19,
+      "osm_source_url": "https://www.openstreetmap.org/node/1733584202",
+      "coordinates": {
+        "latitude": 52.5313186,
+        "longitude": 13.4179143
+      },
+      "computed_distance_metres": 1086.5388273891203,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Myer's Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38651",
+          "hotelName": "Myer's Hotel Berlin",
+          "street": "Metzer Straße",
+          "streetNumber": "26",
+          "zip": "10405",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1738271360",
+      "name": "Garner Hotel Berlin - Gendarmenmarkt by IHG",
+      "osm_type": "node",
+      "osm_id": 1738271360,
+      "osm_version": 17,
+      "osm_source_url": "https://www.openstreetmap.org/node/1738271360",
+      "coordinates": {
+        "latitude": 52.5106118,
+        "longitude": 13.3915889
+      },
+      "computed_distance_metres": 1932.5960732261678,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Garner Hotel Berlin - Gendarmenmarkt by IHG",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1780648823",
+      "name": "Grimm’s Hotel Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 1780648823,
+      "osm_version": 4,
+      "osm_source_url": "https://www.openstreetmap.org/node/1780648823",
+      "coordinates": {
+        "latitude": 52.508345,
+        "longitude": 13.404951
+      },
+      "computed_distance_metres": 1615.3586793951008,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "classification_ceiling_before_january_use",
+      "decision_reason": "Owner requires a durable January panel before freeze. January 2024 issuer notice reaches the inclusive 36-month ceiling on 1 January 2027, before either January stay. No newer dated independent classification established. Removed now; operator/live listing and membership anniversaries cannot renew the evidence. Retain old evidence for audit; re-admission requires a versioned evidence review.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Grimm's Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Alte Jakobstraße 100, 10179 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.grimms-hotel.de/en/discover-hotel-berlin-mitte-eng/",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 Superior garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_1_2024_final_online.pdf",
+        "pdf_page_1_based": 30,
+        "source_sha256": "a36e69429e36926b987402de8f9e52ea14ee7e59e68d4e92827d10b1aa00b9ae",
+        "notice_id": "2024-01",
+        "data_as_of": "2024-01-01",
+        "date_label": "January 2024",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2027-01-01",
+        "identity_basis": "Issuer uses Grimm’s Hotel (3 Superior garni), distinguishing its separate am Potsdamer Platz notice in January 2022. Named visitBerlin page identifies the Mitte DEHOGA property at Alte Jakobstraße 100; operator/engine confirm this address. Matching is corroborated across these sources, not an address printed in the 2024 notice.",
+        "identity_sources": [
+          "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_1_2022_online_final_3.pdf",
+          "https://www.visitberlin.de/de/hotel/grimms-hotel-berlin-mitte",
+          "https://www.grimm-holding.de/projects/grimms-stadtmitte"
+        ],
+        "current_lookup_status": "no_matching_result_in_named_search"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: January 2024; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2027-01-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "no_explicit_class_found",
+        "declared_stars": null,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.grimms-hotel.de/en/discover-hotel-berlin-mitte-eng/",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.grimms-hotel.de/en/discover-hotel-berlin-mitte-eng/",
+        "checked_date": "2026-11-18",
+        "reason": "Alte Jakobstraße 100, 10179 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.grimms-hotel.de/hotel-berlin-mitte-galerie/",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Direct Mitte engine offers conventional Double Room. Property gallery describes bathroom with rain shower. Exclude apartments and suites; no promotional bookingcode in pin."
+      },
+      "direct_booking": {
+        "source_url": "https://onepagebooking.com/grimmsmitte?lang=en",
+        "operator_link_source_url": "https://www.grimms-hotel.de/en/discover-hotel-berlin-mitte-eng/",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      },
+      "previous_decision": {
+        "eligibility": "eligible",
+        "decision_code": "admitted_dated_independent_evidence",
+        "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found."
+      }
+    },
+    {
+      "property_id": "berlin-n1825682816",
+      "name": "Premier Inn Berlin Alexanderplatz",
+      "osm_type": "node",
+      "osm_id": 1825682816,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/node/1825682816",
+      "coordinates": {
+        "latitude": 52.523764,
+        "longitude": 13.4173693
+      },
+      "computed_distance_metres": 345.225522464638,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Premier Inn Berlin Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1830206154",
+      "name": "Honigmond Hotel",
+      "osm_type": "node",
+      "osm_id": 1830206154,
+      "osm_version": 3,
+      "osm_source_url": "https://www.openstreetmap.org/node/1830206154",
+      "coordinates": {
+        "latitude": 52.5295164,
+        "longitude": 13.3891035
+      },
+      "computed_distance_metres": 1832.719925310739,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Honigmond Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n1830209312",
+      "name": "Hotel Adelante",
+      "osm_type": "node",
+      "osm_id": 1830209312,
+      "osm_version": 3,
+      "osm_source_url": "https://www.openstreetmap.org/node/1830209312",
+      "coordinates": {
+        "latitude": 52.5283989,
+        "longitude": 13.3912518
+      },
+      "computed_distance_metres": 1647.2502068784336,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Adelante",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n2181178541",
+      "name": "Lebensquelle",
+      "osm_type": "node",
+      "osm_id": 2181178541,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/node/2181178541",
+      "coordinates": {
+        "latitude": 52.5079787,
+        "longitude": 13.3991588
+      },
+      "computed_distance_metres": 1823.583929380065,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Lebensquelle",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n2199557560",
+      "name": "Calma Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 2199557560,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/node/2199557560",
+      "coordinates": {
+        "latitude": 52.5263877,
+        "longitude": 13.3901295
+      },
+      "computed_distance_metres": 1635.675477192175,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Calma Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n2772307534",
+      "name": "Flower's Boardinghause",
+      "osm_type": "node",
+      "osm_id": 2772307534,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/node/2772307534",
+      "coordinates": {
+        "latitude": 52.5270903,
+        "longitude": 13.4076704
+      },
+      "computed_distance_metres": 680.2770659100623,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Flower's Boardinghause",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n2776767374",
+      "name": "Hotel Hackescher Markt",
+      "osm_type": "node",
+      "osm_id": 2776767374,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/2776767374",
+      "coordinates": {
+        "latitude": 52.5232037,
+        "longitude": 13.4012754
+      },
+      "computed_distance_metres": 817.8582249553334,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Hackescher Markt",
+        "checked_date": "2026-11-18",
+        "record_match": "different_premises_returned",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n2796710200",
+      "name": "Adina Apartment Hotel Berlin Hackescher Markt",
+      "osm_type": "node",
+      "osm_id": 2796710200,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/2796710200",
+      "coordinates": {
+        "latitude": 52.5223005,
+        "longitude": 13.404071
+      },
+      "computed_distance_metres": 618.334886740582,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Adina Apartment Hotel Berlin Hackescher Markt",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n2842306125",
+      "name": "Adina Apartment Hotel Berlin Checkpoint Charlie",
+      "osm_type": "node",
+      "osm_id": 2842306125,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/node/2842306125",
+      "coordinates": {
+        "latitude": 52.5097552,
+        "longitude": 13.3975828
+      },
+      "computed_distance_metres": 1721.4446675951453,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Adina Apartment Hotel Berlin Checkpoint Charlie",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "41689",
+          "hotelName": "Adina Apartment Hotel Berlin Checkpoint Charlie",
+          "street": "Krausenstraße",
+          "streetNumber": "35-36",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": false,
+          "garni": false
+        },
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3139370871",
+      "name": "Leonardo Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 3139370871,
+      "osm_version": 14,
+      "osm_source_url": "https://www.openstreetmap.org/node/3139370871",
+      "coordinates": {
+        "latitude": 52.5226579,
+        "longitude": 13.3865833
+      },
+      "computed_distance_metres": 1802.0427918452797,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Leonardo Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3655999636",
+      "name": "Nikolai Residence",
+      "osm_type": "node",
+      "osm_id": 3655999636,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/3655999636",
+      "coordinates": {
+        "latitude": 52.5171697,
+        "longitude": 13.4064925
+      },
+      "computed_distance_metres": 701.1241021445596,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "direct_source_unusable",
+      "decision_reason": "Three-star Superior has a January 2026 issuer notice, but the operator domains failed DNS/TLS and its linked booking engine returned a reload/error page. Current operator exclusion check and direct public quote path unresolved: exclude as of this review, not a claim of closure.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Nikolai",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "40786",
+          "hotelName": "Hotel Nikolai Residence",
+          "street": "Am Nussbaum",
+          "streetNumber": "5",
+          "zip": "10178",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "exclusion_sources": [
+        "https://nikolairesidence.com/",
+        "https://www.nikolai-residence.com/",
+        "https://www.secure-hotel-booking.com/smart/Hotel-Nikolai-Residence/2FXZ/de/",
+        "https://dehoga-berlin.de/wp-content/uploads/2026/01/Hoga_1_2026%E2%80%93web.pdf"
+      ],
+      "exclusion_checked_date": "2026-11-18"
+    },
+    {
+      "property_id": "berlin-n3733679785",
+      "name": "Clipper City Home",
+      "osm_type": "node",
+      "osm_id": 3733679785,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/node/3733679785",
+      "coordinates": {
+        "latitude": 52.5158245,
+        "longitude": 13.3899782
+      },
+      "computed_distance_metres": 1713.4647906545604,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Clipper City Home",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3734954312",
+      "name": "Hotel Novalis",
+      "osm_type": "node",
+      "osm_id": 3734954312,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/node/3734954312",
+      "coordinates": {
+        "latitude": 52.5285655,
+        "longitude": 13.3888609
+      },
+      "computed_distance_metres": 1801.8375365220907,
+      "osm_stars_lead": "2",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Novalis",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3780043351",
+      "name": "Courtyard by Marriott Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 3780043351,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780043351",
+      "coordinates": {
+        "latitude": 52.5097544,
+        "longitude": 13.3994858
+      },
+      "computed_distance_metres": 1645.638020486141,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Courtyard by Marriott Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3780076398",
+      "name": "Adele Designhotel",
+      "osm_type": "node",
+      "osm_id": 3780076398,
+      "osm_version": 6,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780076398",
+      "coordinates": {
+        "latitude": 52.5296805,
+        "longitude": 13.4249151
+      },
+      "computed_distance_metres": 1167.1058527543446,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Adele Designhotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3780138653",
+      "name": "NH Berlin Kreuzberg",
+      "osm_type": "node",
+      "osm_id": 3780138653,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780138653",
+      "coordinates": {
+        "latitude": 52.5060814,
+        "longitude": 13.4159286
+      },
+      "computed_distance_metres": 1777.3325286830163,
+      "osm_stars_lead": "4",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "NH Berlin Kreuzberg",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3780147516",
+      "name": "The Weinmeister",
+      "osm_type": "node",
+      "osm_id": 3780147516,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780147516",
+      "coordinates": {
+        "latitude": 52.5255657,
+        "longitude": 13.4044505
+      },
+      "computed_distance_metres": 713.5085145022878,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "The Weinmeister",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3780382762",
+      "name": "ackselhaus & bluehome",
+      "osm_type": "node",
+      "osm_id": 3780382762,
+      "osm_version": 2,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780382762",
+      "coordinates": {
+        "latitude": 52.5322802,
+        "longitude": 13.4191593
+      },
+      "computed_distance_metres": 1214.4832599159224,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "ackselhaus & bluehome",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3780854972",
+      "name": "Hotel Dietrich-Bonhoeffer-Haus",
+      "osm_type": "node",
+      "osm_id": 3780854972,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780854972",
+      "coordinates": {
+        "latitude": 52.5236245,
+        "longitude": 13.3900616
+      },
+      "computed_distance_metres": 1575.7757594860884,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Dietrich",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "40232",
+          "hotelName": "Hotel Dietrich-Bonhoeffer-Haus",
+          "street": "Ziegelstraße",
+          "streetNumber": "30",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Ziegelstraße 30, 10117 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/03/Hoga_3_2026_web.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "efde511cf6ff2937ee2e47bc2b3bda4c71cc369d566f0469064facb0097dd8ac",
+        "notice_id": "2026-03",
+        "data_as_of": "2026-03-01",
+        "date_label": "March 2026",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2029-03-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: March 2026; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2029-03-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "checked_date": "2026-11-18",
+        "reason": "Ziegelstraße 30, 10117 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/hotel-zimmer",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator lists double/twin rooms and shower/bath with WC; direct booking engine offers Double Room and Comfort Double Room."
+      },
+      "direct_booking": {
+        "source_url": "https://www.cbooking.de/v4/booking.aspx?id=dbh&module=public&lang=en",
+        "operator_link_source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n3780963364",
+      "name": "Hotel Luc, Autograph Collection",
+      "osm_type": "node",
+      "osm_id": 3780963364,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780963364",
+      "coordinates": {
+        "latitude": 52.5144643,
+        "longitude": 13.3909521
+      },
+      "computed_distance_metres": 1721.398835249493,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Luc, Autograph Collection",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n3937513964",
+      "name": "ibis Styles Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 3937513964,
+      "osm_version": 8,
+      "osm_source_url": "https://www.openstreetmap.org/node/3937513964",
+      "coordinates": {
+        "latitude": 52.5302608,
+        "longitude": 13.401135
+      },
+      "computed_distance_metres": 1230.3602529866178,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "ibis styles Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "40639",
+          "hotelName": "ibis styles Berlin Mitte",
+          "street": "Brunnenstraße",
+          "streetNumber": "1-2",
+          "zip": "10119",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Brunnenstraße 1–2, 10119 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/01/Hoga_1_2026%E2%80%93web.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "f8cec721e2c1e7bb87a623c15bb87a59248e785c98336dad611d1f18bb88aaa9",
+        "notice_id": "2026-01",
+        "data_as_of": "2026-01-01",
+        "date_label": "January 2026",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2029-01-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: January 2026; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2029-01-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "checked_date": "2026-11-18",
+        "reason": "Brunnenstraße 1–2, 10119 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/7091/room/DBC.en.htm",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Standard double, 160 × 200 cm, maximum two guests; in-room open bathroom listed. Private to the room, not a shared-bathroom product. Twin category also listed."
+      },
+      "direct_booking": {
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "operator_link_source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n4095897082",
+      "name": "Hotel Oderberger",
+      "osm_type": "node",
+      "osm_id": 4095897082,
+      "osm_version": 15,
+      "osm_source_url": "https://www.openstreetmap.org/node/4095897082",
+      "coordinates": {
+        "latitude": 52.5379821,
+        "longitude": 13.4105832
+      },
+      "computed_distance_metres": 1788.2698097162386,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Oderberger",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n4230430071",
+      "name": "Hotel Transit Loft",
+      "osm_type": "node",
+      "osm_id": 4230430071,
+      "osm_version": 8,
+      "osm_source_url": "https://www.openstreetmap.org/node/4230430071",
+      "coordinates": {
+        "latitude": 52.5314025,
+        "longitude": 13.4252221
+      },
+      "computed_distance_metres": 1326.6925368528134,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel Transit Loft",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n5646230856",
+      "name": "Old Town Hotel",
+      "osm_type": "node",
+      "osm_id": 5646230856,
+      "osm_version": 1,
+      "osm_source_url": "https://www.openstreetmap.org/node/5646230856",
+      "coordinates": {
+        "latitude": 52.5324385,
+        "longitude": 13.4272336
+      },
+      "computed_distance_metres": 1501.5826954553836,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Old Town Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n5656522306",
+      "name": "Lux 11",
+      "osm_type": "node",
+      "osm_id": 5656522306,
+      "osm_version": 3,
+      "osm_source_url": "https://www.openstreetmap.org/node/5656522306",
+      "coordinates": {
+        "latitude": 52.5245961,
+        "longitude": 13.4098329
+      },
+      "computed_distance_metres": 369.39857913458536,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Lux 11",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n8850098207",
+      "name": "Gold Palais Hotel",
+      "osm_type": "node",
+      "osm_id": 8850098207,
+      "osm_version": 8,
+      "osm_source_url": "https://www.openstreetmap.org/node/8850098207",
+      "coordinates": {
+        "latitude": 52.5292395,
+        "longitude": 13.4254907
+      },
+      "computed_distance_metres": 1159.2331454644186,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Gold Palais Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n10171428170",
+      "name": "Apartment Rosenthal Residence",
+      "osm_type": "node",
+      "osm_id": 10171428170,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/node/10171428170",
+      "coordinates": {
+        "latitude": 52.5291516,
+        "longitude": 13.4020396
+      },
+      "computed_distance_metres": 1098.0551158586245,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Apartment Rosenthal Residence",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n10264516383",
+      "name": "Telegraphenamt",
+      "osm_type": "node",
+      "osm_id": 10264516383,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/node/10264516383",
+      "coordinates": {
+        "latitude": 52.5239814,
+        "longitude": 13.3945066
+      },
+      "computed_distance_metres": 1283.8385293497129,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Telegraphenamt",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n11372835433",
+      "name": "Château Royal",
+      "osm_type": "node",
+      "osm_id": 11372835433,
+      "osm_version": 4,
+      "osm_source_url": "https://www.openstreetmap.org/node/11372835433",
+      "coordinates": {
+        "latitude": 52.5176892,
+        "longitude": 13.3859349
+      },
+      "computed_distance_metres": 1905.1006088510774,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Château Royal",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n11946096933",
+      "name": "MM:NT Berlin Lab",
+      "osm_type": "node",
+      "osm_id": 11946096933,
+      "osm_version": 1,
+      "osm_source_url": "https://www.openstreetmap.org/node/11946096933",
+      "coordinates": {
+        "latitude": 52.5223758,
+        "longitude": 13.4040111
+      },
+      "computed_distance_metres": 622.9180422619044,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "MM:NT Berlin Lab",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n12099738108",
+      "name": "Nook",
+      "osm_type": "node",
+      "osm_id": 12099738108,
+      "osm_version": 2,
+      "osm_source_url": "https://www.openstreetmap.org/node/12099738108",
+      "coordinates": {
+        "latitude": 52.5238485,
+        "longitude": 13.3996705
+      },
+      "computed_distance_metres": 938.3358219269435,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Nook",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-n12416069003",
+      "name": "art'otel",
+      "osm_type": "node",
+      "osm_id": 12416069003,
+      "osm_version": 2,
+      "osm_source_url": "https://www.openstreetmap.org/node/12416069003",
+      "coordinates": {
+        "latitude": 52.5123925,
+        "longitude": 13.409892
+      },
+      "computed_distance_metres": 1089.0935823232412,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "possible_duplicate_no_independent_classification",
+      "decision_reason": "OSM art’otel object appears to duplicate nearby art’otel Berlin Mitte (berlin-n60105927); both retained. Neither has admissible dated independent three-star evidence in the named checks. No property census inferred.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "art'otel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "exclusion_sources": [
+        "https://www.openstreetmap.org/node/60105927"
+      ],
+      "exclusion_checked_date": "2026-11-18"
+    },
+    {
+      "property_id": "berlin-n13130393601",
+      "name": "AMANO Home",
+      "osm_type": "node",
+      "osm_id": 13130393601,
+      "osm_version": 2,
+      "osm_source_url": "https://www.openstreetmap.org/node/13130393601",
+      "coordinates": {
+        "latitude": 52.5285287,
+        "longitude": 13.4098401
+      },
+      "computed_distance_metres": 762.8923176727156,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "AMANO Home",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-r9729459",
+      "name": "Amo by Amano",
+      "osm_type": "relation",
+      "osm_id": 9729459,
+      "osm_version": 2,
+      "osm_source_url": "https://www.openstreetmap.org/relation/9729459",
+      "coordinates": {
+        "latitude": 52.525867149999996,
+        "longitude": 13.38785225
+      },
+      "computed_distance_metres": 1768.2266085620936,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Amo by Amano",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-r10339767",
+      "name": "Catalonia Berlin-Mitte",
+      "osm_type": "relation",
+      "osm_id": 10339767,
+      "osm_version": 4,
+      "osm_source_url": "https://www.openstreetmap.org/relation/10339767",
+      "coordinates": {
+        "latitude": 52.51147585,
+        "longitude": 13.415776999999999
+      },
+      "computed_distance_metres": 1180.8404085494187,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Catalonia Berlin-Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "42683",
+          "hotelName": "Catalonia Berlin Mitte",
+          "street": "Köpenicker Straße",
+          "streetNumber": "80-82",
+          "zip": "10179",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": false,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-r14587479",
+      "name": "Motel One Berlin-Mitte",
+      "osm_type": "relation",
+      "osm_id": 14587479,
+      "osm_version": 1,
+      "osm_source_url": "https://www.openstreetmap.org/relation/14587479",
+      "coordinates": {
+        "latitude": 52.50422555,
+        "longitude": 13.41153145
+      },
+      "computed_distance_metres": 1977.2476131641483,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Motel One Berlin-Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w23278333",
+      "name": "Soho House Berlin",
+      "osm_type": "way",
+      "osm_id": 23278333,
+      "osm_version": 23,
+      "osm_source_url": "https://www.openstreetmap.org/way/23278333",
+      "coordinates": {
+        "latitude": 52.5277678,
+        "longitude": 13.415655950000001
+      },
+      "computed_distance_metres": 664.924593538212,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Soho House Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w23723125",
+      "name": "Park Inn by Radisson Berlin-Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 23723125,
+      "osm_version": 41,
+      "osm_source_url": "https://www.openstreetmap.org/way/23723125",
+      "coordinates": {
+        "latitude": 52.522844750000004,
+        "longitude": 13.412788299999999
+      },
+      "computed_distance_metres": 100.17398966504445,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Park Inn",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "39906",
+          "hotelName": "Park Inn by Radisson Berlin Alexanderplatz",
+          "street": "Alexanderplatz",
+          "streetNumber": "7",
+          "zip": "10178",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w23748095",
+      "name": "Motel One Berlin-Hackescher Markt",
+      "osm_type": "way",
+      "osm_id": 23748095,
+      "osm_version": 31,
+      "osm_source_url": "https://www.openstreetmap.org/way/23748095",
+      "coordinates": {
+        "latitude": 52.523221199999995,
+        "longitude": 13.408609649999999
+      },
+      "computed_distance_metres": 339.60549929806115,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Motel One Berlin-Hackescher Markt",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w23853138",
+      "name": "Alexander Plaza",
+      "osm_type": "way",
+      "osm_id": 23853138,
+      "osm_version": 19,
+      "osm_source_url": "https://www.openstreetmap.org/way/23853138",
+      "coordinates": {
+        "latitude": 52.5215989,
+        "longitude": 13.404145549999999
+      },
+      "computed_distance_metres": 613.711680839121,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Alexander Plaza",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w24531220",
+      "name": "Hotel MANI by AMANO",
+      "osm_type": "way",
+      "osm_id": 24531220,
+      "osm_version": 16,
+      "osm_source_url": "https://www.openstreetmap.org/way/24531220",
+      "coordinates": {
+        "latitude": 52.529289750000004,
+        "longitude": 13.399650000000001
+      },
+      "computed_distance_metres": 1224.990475277644,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit. Current AMANO group booking engine declares MANI four stars at Torstrasse 136; this independently excludes under the operator contradiction rule.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "MANI",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "operator_contradiction_source": "https://search.amanogroup.com/AMN?languageid=7"
+    },
+    {
+      "property_id": "berlin-w25946425",
+      "name": "Motel One Berlin-Spittelmarkt",
+      "osm_type": "way",
+      "osm_id": 25946425,
+      "osm_version": 25,
+      "osm_source_url": "https://www.openstreetmap.org/way/25946425",
+      "coordinates": {
+        "latitude": 52.5106982,
+        "longitude": 13.400859
+      },
+      "computed_distance_metres": 1506.673433219712,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Motel One Berlin-Spittelmarkt",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w29056578",
+      "name": "NH Berlin Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 29056578,
+      "osm_version": 26,
+      "osm_source_url": "https://www.openstreetmap.org/way/29056578",
+      "coordinates": {
+        "latitude": 52.52294105,
+        "longitude": 13.43677125
+      },
+      "computed_distance_metres": 1598.684638166869,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "NH Berlin Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "39021",
+          "hotelName": "NH Berlin Alexanderplatz",
+          "street": "Landsberger Allee",
+          "streetNumber": "26-32",
+          "zip": "10249",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": false,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w36811138",
+      "name": "Premier Inn - Berlin City Spittelmarkt Hotel",
+      "osm_type": "way",
+      "osm_id": 36811138,
+      "osm_version": 24,
+      "osm_source_url": "https://www.openstreetmap.org/way/36811138",
+      "coordinates": {
+        "latitude": 52.510065499999996,
+        "longitude": 13.40508585
+      },
+      "computed_distance_metres": 1433.8156634862937,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Premier Inn - Berlin City Spittelmarkt Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w39496774",
+      "name": "St Christopher's Berlin Alexanderplatz Hotel",
+      "osm_type": "way",
+      "osm_id": 39496774,
+      "osm_version": 17,
+      "osm_source_url": "https://www.openstreetmap.org/way/39496774",
+      "coordinates": {
+        "latitude": 52.523718599999995,
+        "longitude": 13.4162146
+      },
+      "computed_distance_metres": 281.38503033770183,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "St Christopher's Berlin Alexanderplatz Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w42163095",
+      "name": "Me and All Hotel Berlin East Side",
+      "osm_type": "way",
+      "osm_id": 42163095,
+      "osm_version": 34,
+      "osm_source_url": "https://www.openstreetmap.org/way/42163095",
+      "coordinates": {
+        "latitude": 52.509986999999995,
+        "longitude": 13.42957165
+      },
+      "computed_distance_metres": 1733.7713373807856,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Me and All Hotel Berlin East Side",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w61670661",
+      "name": "Holiday Inn Express Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 61670661,
+      "osm_version": 13,
+      "osm_source_url": "https://www.openstreetmap.org/way/61670661",
+      "coordinates": {
+        "latitude": 52.51566645,
+        "longitude": 13.411871999999999
+      },
+      "computed_distance_metres": 707.553589013583,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Holiday Inn Express Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w104011054",
+      "name": "Titanic Comfort Hotel Berlin Mitte",
+      "osm_type": "way",
+      "osm_id": 104011054,
+      "osm_version": 20,
+      "osm_source_url": "https://www.openstreetmap.org/way/104011054",
+      "coordinates": {
+        "latitude": 52.51021695,
+        "longitude": 13.4041856
+      },
+      "computed_distance_metres": 1442.933143128809,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Titanic Comfort Hotel Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w105210648",
+      "name": "Hotel AMANO",
+      "osm_type": "way",
+      "osm_id": 105210648,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/way/105210648",
+      "coordinates": {
+        "latitude": 52.528265250000004,
+        "longitude": 13.4028275
+      },
+      "computed_distance_metres": 990.2599555141759,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Amano",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Auguststraße 43, 10119 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/05/Hoga_6_2025%E2%80%93web1.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "a0f4c6439bd76444787b23789ad4a65f8f05c7c2a0b66fd562b3ed2b0b394225",
+        "notice_id": "2025-06",
+        "data_as_of": "2025-06-01",
+        "date_label": "June 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-06-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "identity_sources": [
+          "https://www.visitberlin.de/de/hotels-in-berlin/design-hotels",
+          "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano"
+        ],
+        "current_lookup_status": "no_matching_result_in_named_search"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: June 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-06-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "no_explicit_class_found",
+        "declared_stars": null,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "checked_date": "2026-11-18",
+        "reason": "Auguststraße 43, 10119 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Comfy hotel room: double or twin beds, bath/shower and bathroom facilities. Exclude all apartment and penthouse categories."
+      },
+      "direct_booking": {
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "operator_link_source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-w126128623",
+      "name": "monbijou hotel",
+      "osm_type": "way",
+      "osm_id": 126128623,
+      "osm_version": 20,
+      "osm_source_url": "https://www.openstreetmap.org/way/126128623",
+      "coordinates": {
+        "latitude": 52.5231266,
+        "longitude": 13.40032325
+      },
+      "computed_distance_metres": 880.1590810907499,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "monbijou hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w131381658",
+      "name": "B&B Hotel Berlin-Mitte",
+      "osm_type": "way",
+      "osm_id": 131381658,
+      "osm_version": 17,
+      "osm_source_url": "https://www.openstreetmap.org/way/131381658",
+      "coordinates": {
+        "latitude": 52.5237577,
+        "longitude": 13.3838708
+      },
+      "computed_distance_metres": 1993.7928267090176,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "B&B Hotel Berlin-Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w153772871",
+      "name": "ibis budget Berlin Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 153772871,
+      "osm_version": 13,
+      "osm_source_url": "https://www.openstreetmap.org/way/153772871",
+      "coordinates": {
+        "latitude": 52.525214649999995,
+        "longitude": 13.42123425
+      },
+      "computed_distance_metres": 652.1631474820766,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 1 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Ibis Budget Berlin Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "39968",
+          "hotelName": "Ibis Budget Berlin Alexanderplatz",
+          "street": "Mollstraße",
+          "streetNumber": "30",
+          "zip": "10249",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "1",
+          "superior": true,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w188033979",
+      "name": "martas Hotel Albrechtshof",
+      "osm_type": "way",
+      "osm_id": 188033979,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/way/188033979",
+      "coordinates": {
+        "latitude": 52.52201895,
+        "longitude": 13.384157049999999
+      },
+      "computed_distance_metres": 1964.630568757893,
+      "osm_stars_lead": "3",
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "martas Hotel Albrechtshof Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38404",
+          "hotelName": "martas Hotel Albrechtshof",
+          "street": "Albrechtstraße",
+          "streetNumber": "8",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/supplementary-classification-checks.json"
+      },
+      "address": {
+        "text": "Albrechtstraße 8, 10117 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 Superior",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/03/Hoga_4_2025_final.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "f4726b1592917919fb00670a77b413809a14d482a988306079d82ca9431b9218",
+        "notice_id": "2025-04",
+        "data_as_of": "2025-04-01",
+        "date_label": "April 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-04-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: April 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-04-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "no_explicit_class_found",
+        "declared_stars": null,
+        "checked_date": "2026-11-18",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "checked_date": "2026-11-18",
+        "reason": "Albrechtstraße 8, 10117 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin/zimmer",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Conventional double rooms; operator states all rooms have shower or bath. Distinct property at number 8, not Allegra at number 17."
+      },
+      "direct_booking": {
+        "source_url": "https://onepagebooking.com/martas-albrechtshof?lang=en",
+        "operator_link_source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-w194079585",
+      "name": "Capri by Fraser Hotel",
+      "osm_type": "way",
+      "osm_id": 194079585,
+      "osm_version": 13,
+      "osm_source_url": "https://www.openstreetmap.org/way/194079585",
+      "coordinates": {
+        "latitude": 52.5139481,
+        "longitude": 13.4050099
+      },
+      "computed_distance_metres": 1050.7462002137022,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Capri by Fraser Hotel",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w272748506",
+      "name": "Hotel ZOE",
+      "osm_type": "way",
+      "osm_id": 272748506,
+      "osm_version": 12,
+      "osm_source_url": "https://www.openstreetmap.org/way/272748506",
+      "coordinates": {
+        "latitude": 52.52305695,
+        "longitude": 13.40096415
+      },
+      "computed_distance_metres": 836.1349824081296,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hotel ZOE",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w305213424",
+      "name": "Numa",
+      "osm_type": "way",
+      "osm_id": 305213424,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/way/305213424",
+      "coordinates": {
+        "latitude": 52.5285212,
+        "longitude": 13.4089116
+      },
+      "computed_distance_metres": 783.102446295909,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Numa",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w317785085",
+      "name": "limehome",
+      "osm_type": "way",
+      "osm_id": 317785085,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/way/317785085",
+      "coordinates": {
+        "latitude": 52.53031795,
+        "longitude": 13.4182794
+      },
+      "computed_distance_metres": 989.0462569903074,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "limehome",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w336063501",
+      "name": "IntercityHotel Berlin Ostbahnhof",
+      "osm_type": "way",
+      "osm_id": 336063501,
+      "osm_version": 16,
+      "osm_source_url": "https://www.openstreetmap.org/way/336063501",
+      "coordinates": {
+        "latitude": 52.5102177,
+        "longitude": 13.43334135
+      },
+      "computed_distance_metres": 1889.0775290554957,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "IntercityHotel Berlin Ostbahnhof",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w404775652",
+      "name": "Moxy Berlin Ostbahnhof",
+      "osm_type": "way",
+      "osm_id": 404775652,
+      "osm_version": 15,
+      "osm_source_url": "https://www.openstreetmap.org/way/404775652",
+      "coordinates": {
+        "latitude": 52.511045249999995,
+        "longitude": 13.429952499999999
+      },
+      "computed_distance_metres": 1662.4536687338898,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Moxy Berlin Ostbahnhof",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w414161389",
+      "name": "Titanic Gendarmenmarkt Berlin",
+      "osm_type": "way",
+      "osm_id": 414161389,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/way/414161389",
+      "coordinates": {
+        "latitude": 52.514904099999995,
+        "longitude": 13.3946751
+      },
+      "computed_distance_metres": 1479.5496462318954,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Titanic Gendarmenmarkt Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w422928024",
+      "name": "martas Hotel Allegra Berlin",
+      "osm_type": "way",
+      "osm_id": 422928024,
+      "osm_version": 5,
+      "osm_source_url": "https://www.openstreetmap.org/way/422928024",
+      "coordinates": {
+        "latitude": 52.52215715,
+        "longitude": 13.3848604
+      },
+      "computed_distance_metres": 1917.1384945607724,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "classification_ceiling_before_january_use",
+      "decision_reason": "Owner requires a durable January panel before freeze. January 2024 issuer notice reaches the inclusive 36-month ceiling on 1 January 2027, before either January stay. No newer dated independent classification established. Removed now; operator/live listing and membership anniversaries cannot renew the evidence. Retain old evidence for audit; re-admission requires a versioned evidence review.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "martas Hotel Allegra Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "42766",
+          "hotelName": "martas Hotel Allegra Berlin",
+          "street": "Albrechtstraße",
+          "streetNumber": "17",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/outer-classification-checks.json"
+      },
+      "address": {
+        "text": "Albrechtstraße 17, 10117 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://martas.org/hotels/hotel-allegra-berlin",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_1_2024_final_online.pdf",
+        "pdf_page_1_based": 30,
+        "source_sha256": "a36e69429e36926b987402de8f9e52ea14ee7e59e68d4e92827d10b1aa00b9ae",
+        "notice_id": "2024-01",
+        "data_as_of": "2024-01-01",
+        "date_label": "January 2024",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2027-01-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: January 2024; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2027-01-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://martas.org/hotels/hotel-allegra-berlin",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://martas.org/hotels/hotel-allegra-berlin",
+        "checked_date": "2026-11-18",
+        "reason": "Albrechtstraße 17, 10117 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://martas.org/hotels/hotel-allegra-berlin/zimmer",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Double rooms 18–22 m²; operator states all rooms have shower or bath and shows double-room bathroom. Check-in across street does not merge this hotel with Albrechtshof."
+      },
+      "direct_booking": {
+        "source_url": "https://onepagebooking.com/martas-allegra?lang=en",
+        "operator_link_source_url": "https://martas.org/hotels/hotel-allegra-berlin",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      },
+      "previous_decision": {
+        "eligibility": "eligible",
+        "decision_code": "admitted_dated_independent_evidence",
+        "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found."
+      }
+    },
+    {
+      "property_id": "berlin-w425327567",
+      "name": "Arcotel Velvet Berlin",
+      "osm_type": "way",
+      "osm_id": 425327567,
+      "osm_version": 2,
+      "osm_source_url": "https://www.openstreetmap.org/way/425327567",
+      "coordinates": {
+        "latitude": 52.5258593,
+        "longitude": 13.3882929
+      },
+      "computed_distance_metres": 1739.1184117986368,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Arcotel Velvet Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w464524861",
+      "name": "Hampton by Hilton Berlin City Centre Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 464524861,
+      "osm_version": 19,
+      "osm_source_url": "https://www.openstreetmap.org/way/464524861",
+      "coordinates": {
+        "latitude": 52.524794,
+        "longitude": 13.4188035
+      },
+      "computed_distance_metres": 491.9308512904257,
+      "osm_stars_lead": "3",
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Hampton by Hilton Berlin City Centre",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w509448182",
+      "name": "B&B Hotel Berlin-Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 509448182,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/way/509448182",
+      "coordinates": {
+        "latitude": 52.517424250000005,
+        "longitude": 13.415206000000001
+      },
+      "computed_distance_metres": 524.3730754687516,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "B&B Hotel Berlin-Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w558863058",
+      "name": "Motel One Berlin-Alexanderplatz",
+      "osm_type": "way",
+      "osm_id": 558863058,
+      "osm_version": 14,
+      "osm_source_url": "https://www.openstreetmap.org/way/558863058",
+      "coordinates": {
+        "latitude": 52.519782449999994,
+        "longitude": 13.4124695
+      },
+      "computed_distance_metres": 249.0734306314016,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Motel One Berlin-Alexanderplatz",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w970032515",
+      "name": "AMANO",
+      "osm_type": "way",
+      "osm_id": 970032515,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/way/970032515",
+      "coordinates": {
+        "latitude": 52.50950315,
+        "longitude": 13.43124435
+      },
+      "computed_distance_metres": 1848.2477306696212,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "no_admissible_independent_classification",
+      "decision_reason": "Named Hotelstars search did not establish dated independent three-star evidence for these premises. Excluded for this panel’s evidence rule, not declared unclassified or closed. OSM/operator/OTA stars alone cannot admit.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "AMANO",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/outer-classification-checks.json"
+      }
+    },
+    {
+      "property_id": "berlin-w1157288903",
+      "name": "The Social Hub",
+      "osm_type": "way",
+      "osm_id": 1157288903,
+      "osm_version": 11,
+      "osm_source_url": "https://www.openstreetmap.org/way/1157288903",
+      "coordinates": {
+        "latitude": 52.5168001,
+        "longitude": 13.417486799999999
+      },
+      "computed_distance_metres": 644.8953527256945,
+      "osm_stars_lead": null,
+      "eligibility": "excluded",
+      "decision_code": "independent_class_not_three",
+      "decision_reason": "Address-matched Hotelstars record identifies 4 stars; outside three-star scope. Retrieval date is not an award date.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "The Social Hub",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "117161",
+          "hotelName": "The Social Hub Berlin",
+          "street": "Alexanderstraße ",
+          "streetNumber": "40",
+          "zip": "10179",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "4",
+          "superior": false,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      }
+    }
+  ],
+  "publication_horizon": "2027-01-31"
+}

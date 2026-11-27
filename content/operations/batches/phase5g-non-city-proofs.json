@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "phase5g-non-city-proofs",
+  "title": "Phase 5G non-city proofs \u2014 preparation only",
+  "entries": [
+    {
+      "destinationId": "crete",
+      "name": "Crete",
+      "region": "Europe",
+      "placeKind": "island",
+      "group": "proof"
+    },
+    {
+      "destinationId": "place:Q1490",
+      "name": "Tokyo",
+      "region": "Asia",
+      "placeKind": "region",
+      "group": "proof"
+    },
+    {
+      "destinationId": "place:Q1273",
+      "name": "Tuscany",
+      "region": "Europe",
+      "placeKind": "region",
+      "group": "proof"
+    },
+    {
+      "destinationId": "place:Q180402",
+      "name": "Yosemite National Park",
+      "region": "North America",
+      "placeKind": "nature-area",
+      "group": "proof"
+    }
+  ]
+}

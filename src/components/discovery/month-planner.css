@@ -1,0 +1,91 @@
+.month-planner {
+  max-width: 920px;
+}
+.month-planner h1 {
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  line-height: 1.15;
+  margin-bottom: 0.8rem;
+}
+.month-planner header p {
+  font-size: 1.15rem;
+  max-width: 58ch;
+}
+.month-controls {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.month-controls label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+.month-controls input,
+.month-controls select {
+  font: inherit;
+  color: inherit;
+  background: var(--card, white);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 0.65rem;
+}
+.month-cities details {
+  border-bottom: 1px solid var(--line);
+  padding: 1rem 0;
+}
+.month-cities summary {
+  cursor: pointer;
+}
+.month-cities summary span {
+  margin-left: 0.8rem;
+}
+.month-cities ul {
+  list-style: none;
+  padding: 0;
+}
+.month-cities li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.65rem 0;
+}
+.month-planner a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.month-notice {
+  background: var(--card);
+  border-left: 3px solid var(--ember);
+  padding: 0.75rem 1rem;
+}
+.month-notice p {
+  margin: 0 0 0.4rem;
+}
+
+.month-destination {
+  margin-block: 1.25rem;
+}
+.month-destination h3 {
+  margin-bottom: 0.35rem;
+}
+.month-date-choice {
+  display: grid;
+  gap: 0.35rem;
+  margin-block: 0.75rem;
+}
+.month-date-choice select {
+  font: inherit;
+  color: inherit;
+  background: var(--card, white);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  width: 100%;
+}
+.month-cities .room-source {
+  border: 0;
+  padding: 0.4rem 0;
+}

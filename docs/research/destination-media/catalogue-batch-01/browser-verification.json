@@ -1,0 +1,1133 @@
+{
+  "status": "passed",
+  "loopbackOnly": true,
+  "externalRequests": [],
+  "widths": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "candidates": 12,
+      "unapproved": 12,
+      "images": [
+        {
+          "subject": "brezovica",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "brezovica",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "crete",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "crete",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "hero",
+          "width": 437.34375,
+          "height": 174.9375,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "prizren",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "prizren",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "skopje",
+          "role": "hero",
+          "width": 437.34375,
+          "height": 174.9375,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "skopje",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "rugova",
+          "role": "hero",
+          "width": 437.34375,
+          "height": 174.9375,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "rugova",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "hero",
+          "width": 437.328125,
+          "height": 174.921875,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "zurich",
+          "role": "hero",
+          "width": 437.34375,
+          "height": 174.9375,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "zurich",
+          "role": "card",
+          "width": 160,
+          "height": 120,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "candidates": 12,
+      "unapproved": 12,
+      "images": [
+        {
+          "subject": "brezovica",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "brezovica",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "crete",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "crete",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "prizren",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "prizren",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "skopje",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "skopje",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "rugova",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "rugova",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "zurich",
+          "role": "hero",
+          "width": 350,
+          "height": 140,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "zurich",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "candidates": 12,
+      "unapproved": 12,
+      "images": [
+        {
+          "subject": "brezovica",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "brezovica",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "crete",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "crete",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "prizren",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "prizren",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "skopje",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "skopje",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "rugova",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "rugova",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "zurich",
+          "role": "hero",
+          "width": 335,
+          "height": 134,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "zurich",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "candidates": 12,
+      "unapproved": 12,
+      "images": [
+        {
+          "subject": "brezovica",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "brezovica",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "crete",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "crete",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "prizren",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "prizren",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "skopje",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "skopje",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "rugova",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "rugova",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "zurich",
+          "role": "hero",
+          "width": 320,
+          "height": 128,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "zurich",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "candidates": 12,
+      "unapproved": 12,
+      "images": [
+        {
+          "subject": "brezovica",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "brezovica",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/brezovica-640.webp",
+          "loaded": true,
+          "position": "50% 55%"
+        },
+        {
+          "subject": "crete",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "crete",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/crete-640.webp",
+          "loaded": true,
+          "position": "30% 50%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mavrovo",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mavrovo-640.webp",
+          "loaded": true,
+          "position": "60% 65%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "mirusha",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/mirusha-640.webp",
+          "loaded": true,
+          "position": "50% 80%"
+        },
+        {
+          "subject": "prizren",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "prizren",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prizren-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "skopje",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "skopje",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/skopje-640.webp",
+          "loaded": true,
+          "position": "46% 60%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "thessaloniki",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/thessaloniki-640.webp",
+          "loaded": true,
+          "position": "67% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "ulcinj",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/ulcinj-640.webp",
+          "loaded": true,
+          "position": "55% 55%"
+        },
+        {
+          "subject": "rugova",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "rugova",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/rugova-640.webp",
+          "loaded": true,
+          "position": "50% 60%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "istanbul",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/istanbul-640.webp",
+          "loaded": true,
+          "position": "55% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "prishtina",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/prishtina-640.webp",
+          "loaded": true,
+          "position": "50% 50%"
+        },
+        {
+          "subject": "zurich",
+          "role": "hero",
+          "width": 280,
+          "height": 112,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        },
+        {
+          "subject": "zurich",
+          "role": "card",
+          "width": 140,
+          "height": 105,
+          "source": "http://127.0.0.1:4187/assets/destinations/zurich-640.webp",
+          "loaded": true,
+          "position": "50% 58%"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "downloadedVariants": 36
+}

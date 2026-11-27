@@ -1,0 +1,67 @@
+name: Collector watchdog
+# Hourly, independent of the collector workflow: reads the fare store and raises an
+# issue when any configured origin's current or next month has had no successful
+# completion for more than 20 hours. Primary trigger: an Upstash QStash schedule calls
+# workflow_dispatch at :07 (scripts/qstash-schedules.mjs); the cron below is a
+# fallback. Limits are documented in docs/collector/handover.md ("20-hour alert").
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: collector-watchdog
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      GOEKSPLO_LOG_LEVEL: warn
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - id: check
+        run: |
+          set +e
+          npm run -s check:collector-health > health.txt 2>&1
+          code=$?
+          cat health.txt
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - id: issue
+        name: Open, update or close the stall issue
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STALE: ${{ steps.check.outputs.stale }}
+        run: |
+          export TITLE="Fare collection stalled: no successful sweep for 20+ hours"
+          # Exact-title match on the issues list (not search), so a new issue is never a duplicate.
+          number=$(gh issue list --state open --limit 200 --json number,title \
+            --jq '.[] | select(.title == env.TITLE) | .number' | head -1)
+          if [ "$STALE" = "true" ]; then
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file collector-health.md
+              echo "updated #$number"
+            else
+              gh issue create --title "$TITLE" --body-file collector-health.md
+              echo "opened=true" >> "$GITHUB_OUTPUT"
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment "$(cat collector-health.md)"
+            echo "closed #$number after recovery"
+          else
+            echo "collection healthy; no open stall issue"
+          fi
+      # One email per new stall (not every hour), and whenever health is unknown.
+      - name: Fail the run so GitHub emails
+        if: steps.check.outputs.code != '0' || steps.issue.outputs.opened == 'true'
+        run: exit 1

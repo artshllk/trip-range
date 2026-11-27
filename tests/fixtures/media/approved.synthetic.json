@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "places": [
+    {
+      "subject": "city:LON",
+      "name": "London",
+      "placeKind": "city",
+      "countryCode": "GB",
+      "coordinates": {
+        "latitude": 51.5,
+        "longitude": -0.12
+      },
+      "cityCode": "LON",
+      "iataCodes": ["LHR"],
+      "external": {
+        "authority": "wikidata",
+        "id": "Q900000001"
+      },
+      "resolutionMethod": "reviewed",
+      "confidence": "reviewed",
+      "resolvedAt": "2026-10-10T12:00:00Z",
+      "policyVersion": "destination-media-v1",
+      "unresolvedReason": null
+    }
+  ],
+  "assets": [
+    {
+      "id": "commons:900001",
+      "provider": "wikimedia-commons",
+      "providerFileId": "900001",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Synthetic_London_skyline.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Synthetic_London_skyline.jpg",
+      "width": 2400,
+      "height": 1600,
+      "mimeType": "image/jpeg",
+      "author": "Synthetic fixture photographer",
+      "attribution": "Synthetic London-style asset for QA only",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-10T12:00:00Z"
+      },
+      "health": {
+        "status": "unchecked",
+        "checkedAt": null
+      }
+    }
+  ],
+  "selections": [
+    {
+      "subject": "city:LON",
+      "role": "destination.card",
+      "assetId": "commons:900001",
+      "status": "approved",
+      "method": "human-review",
+      "focalPoint": {
+        "x": 0.4,
+        "y": 0.6
+      },
+      "alt": {
+        "en": "Synthetic skyline fixture, not a destination photograph",
+        "sq": "Pamje sintetike p\u00ebr testim, jo fotografi e destinacionit"
+      },
+      "selectedAt": "2026-10-10T12:00:00Z",
+      "reviewedAt": "2026-10-10T12:00:00Z",
+      "revision": 1,
+      "locked": true,
+      "noneReason": null,
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "history": []
+    },
+    {
+      "subject": "city:LON",
+      "role": "destination.hero",
+      "assetId": "commons:900001",
+      "status": "approved",
+      "method": "human-review",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.35
+      },
+      "alt": {
+        "en": "Synthetic skyline fixture, not a destination photograph",
+        "sq": "Pamje sintetike p\u00ebr testim, jo fotografi e destinacionit"
+      },
+      "selectedAt": "2026-10-10T12:00:00Z",
+      "reviewedAt": "2026-10-10T12:00:00Z",
+      "revision": 1,
+      "locked": true,
+      "noneReason": null,
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "history": []
+    }
+  ],
+  "rejections": []
+}

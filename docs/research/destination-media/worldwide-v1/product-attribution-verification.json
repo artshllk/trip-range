@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "local keyless production build, not hosted",
+  "externalRequests": 0,
+  "rows": [
+    {
+      "subject": "paris",
+      "sourceLink": "https://commons.wikimedia.org/wiki/File:Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+      "licenceLink": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "MarcusObal",
+      "modificationNotice": true
+    },
+    {
+      "subject": "new-york",
+      "sourceLink": "https://commons.wikimedia.org/wiki/File:New_York_City_Skyline_2016.jpg",
+      "licenceLink": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Aaron Harris (Forestikai)",
+      "modificationNotice": true
+    }
+  ]
+}

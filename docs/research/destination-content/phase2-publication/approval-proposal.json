@@ -1,0 +1,195 @@
+{
+  "kind": "PROPOSAL ONLY — NOT RUNTIME OR APPROVAL DATA",
+  "ownerApprovalRecorded": false,
+  "requiredLanguage": "en",
+  "unsignedTemplatesIntentionallyFailValidation": true,
+  "records": [
+    {
+      "destinationId": "vienna",
+      "targetContent": "content/destinations/vienna.json",
+      "proposalFile": "docs/research/destination-content/phase2-publication/vienna.en.json",
+      "originalCandidateDigest": "c06c1c3bf1eeb2938d30e11af187e2e106dab6c4ccdcbd012c89b18051092176",
+      "contentVersion": 1,
+      "contentDigest": "e03b4948d393a1ecdeb415dc76a6b7aa3e48add4aed48fd78da9aafb1e4b840a",
+      "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+      "evidenceDigest": "dc78e344b7262a591497fbe04214d6e8f9f03f653a988bc26de36297a6710d38",
+      "changeScope": "English text and factual/order fields unchanged; retained Albanian translations omitted from publication copy only",
+      "proposedIdentity": {
+        "subject": "vienna",
+        "name": "Vienna",
+        "countryCode": "AT",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.208333333333336,
+          "longitude": 16.3725
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1741"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-21T14:31:20Z",
+        "policyVersion": "destination-media-v1",
+        "unresolvedReason": null
+      },
+      "proposedResearch": {
+        "destinationId": "vienna",
+        "status": "available",
+        "report": "phase2-vienna.md",
+        "researchedAt": "2026-10-21T14:31:20Z",
+        "sourceCount": 13,
+        "unresolvedIssues": [
+          "Human English editorial and separate media selection approval pending."
+        ]
+      },
+      "proposedQueue": {
+        "destinationId": "vienna",
+        "identityState": "registered",
+        "priority": "normal",
+        "reason": "Phase 2 English editorial pilot; owner approval required",
+        "status": "done"
+      },
+      "proposedFindings": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ],
+      "advisoriesRequiringOwnerReasons": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ],
+      "reviewTemplateNotValidUntilOwnerAction": {
+        "schemaVersion": 1,
+        "destinationId": "vienna",
+        "current": {
+          "contentVersion": 1,
+          "contentDigest": "e03b4948d393a1ecdeb415dc76a6b7aa3e48add4aed48fd78da9aafb1e4b840a",
+          "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+          "evidenceDigest": "dc78e344b7262a591497fbe04214d6e8f9f03f653a988bc26de36297a6710d38",
+          "decision": "pending",
+          "checks": {
+            "identity": "pending",
+            "sources": "pending",
+            "englishCopy": "pending",
+            "selectionAndOrder": "pending",
+            "freshness": "pending"
+          },
+          "warningsAcknowledged": [],
+          "reviewer": null,
+          "updatedAt": null,
+          "reviewedAt": null
+        },
+        "history": []
+      },
+      "priorReview": null
+    },
+    {
+      "destinationId": "london",
+      "targetContent": "content/destinations/london.json",
+      "proposalFile": "docs/research/destination-content/phase2-publication/london.en.json",
+      "originalCandidateDigest": "77db21a7cd10f0750c098c5c0ba691c3d0db9be0ce59106570700828eafe1755",
+      "contentVersion": 3,
+      "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+      "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+      "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+      "changeScope": "English text and factual/order fields unchanged; retained Albanian translations omitted from publication copy only",
+      "proposedIdentity": {
+        "subject": "london",
+        "name": "London",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 51.5072222222,
+          "longitude": -0.1275
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q84"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "proposedResearch": {
+        "destinationId": "london",
+        "status": "available",
+        "report": "phase2-london.md",
+        "researchedAt": "2026-10-21T14:31:20Z",
+        "sourceCount": 15,
+        "unresolvedIssues": [
+          "Human English editorial and separate media selection approval pending."
+        ]
+      },
+      "proposedQueue": {
+        "destinationId": "london",
+        "identityState": "registered",
+        "priority": "normal",
+        "reason": "Phase 2 English editorial pilot; owner approval required",
+        "status": "done"
+      },
+      "proposedFindings": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ],
+      "advisoriesRequiringOwnerReasons": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        },
+        {
+          "id": "presentation:8023965be1154c073696",
+          "message": "Transport points: 5 items; only the first 3 are initially visible. Confirm the stored editorial order."
+        }
+      ],
+      "reviewTemplateNotValidUntilOwnerAction": {
+        "schemaVersion": 1,
+        "destinationId": "london",
+        "current": {
+          "contentVersion": 3,
+          "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+          "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+          "evidenceDigest": "b8fa317db3410d8779b095c4eb8150ad4a7d9382f9e76aa5802bdfe712dc46a7",
+          "decision": "pending",
+          "checks": {
+            "identity": "pending",
+            "sources": "pending",
+            "englishCopy": "pending",
+            "selectionAndOrder": "pending",
+            "freshness": "pending"
+          },
+          "warningsAcknowledged": [],
+          "reviewer": null,
+          "updatedAt": null,
+          "reviewedAt": null
+        },
+        "history": []
+      },
+      "priorReview": {
+        "file": "content/operations/reviews/london.json",
+        "fileSha256": "66784cd29d4f2945c57f76ea56b9172565cbd4447e696db89b893f7895d1c034",
+        "contentVersion": 2,
+        "contentDigest": "c45c2526cfe1d25196ba00e30dc924d4b14e88a9364d41730aca94dc3ad108dc",
+        "requiredAction": "Preserve entire previous review/history; reset with actual owner label, timestamp and new pins. Never copy the v2 decision or acknowledgements."
+      }
+    }
+  ],
+  "doNotApplyBefore": [
+    "Owner reviews exact English copy/source correspondence/identity/order/freshness",
+    "Owner approves each photo and intended role/crop",
+    "Actual reviewer label and real review time supplied",
+    "Local responsive delivery binding completed and tested without bypassing media gate"
+  ],
+  "manifestChanges": [
+    "Register Vienna identity/content/research/queue files and regenerate the existing static manifests",
+    "Replace London v2 with reviewed v3 only in the same eventual release; preserve prior review/history",
+    "Do not change unrelated 28 publications, SEO allowlist, providers, quotas or finance"
+  ]
+}

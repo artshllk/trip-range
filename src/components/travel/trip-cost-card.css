@@ -1,0 +1,59 @@
+.trip-cost-card {
+  width: 100%;
+  min-width: 0;
+  padding: 1rem;
+  background: var(--card, #fff);
+  border: 1px solid var(--line, #ddd);
+  border-radius: 0.75rem;
+}
+.trip-cost-card p {
+  margin: 0.55rem 0;
+  overflow-wrap: anywhere;
+}
+.trip-cost-lines {
+  margin: 0;
+}
+.trip-cost-lines > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding: 0.35rem 0;
+}
+.trip-cost-lines dd {
+  margin: 0;
+  font-weight: 600;
+}
+.room-evidence {
+  border-block: 1px solid var(--line, #ddd);
+  padding-block: 0.65rem;
+  margin-block: 0.65rem;
+}
+.evidence-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 650;
+  border: 1px solid currentColor;
+  padding: 0.12rem 0.4rem;
+  border-radius: 0.3rem;
+}
+.room-source {
+  font-size: 0.875rem;
+}
+.trip-cost-total {
+  border-top: 1px solid var(--line, #ddd);
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+.trip-cost-verdict {
+  padding-block: 0.5rem;
+}
+.room-search .button {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+.trip-cost-card a:not(.button) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}

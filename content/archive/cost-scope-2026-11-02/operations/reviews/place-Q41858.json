@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q41858",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+    "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+    "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Banff National Park v2 identity, Parks Canada sources, EN/SQ copy, focused lake, canyon, reservoir and park-base selection, current-guidance framing and freshness ownership were reviewed and accepted for publication. YYC remains an external gateway requiring onward travel; no safe gateway-transfer amount is published, so incomplete-trip pricing is intentional. Seasonal shuttle, parking, road and hiking availability are not guaranteed."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T09:03:13.169Z",
+    "reviewedAt": "2026-10-15T09:03:13.169Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:07.320Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:08.161Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:08.161Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:09.010Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:09.010Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:09.850Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:09.850Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:10.675Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:10.675Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:11.517Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:11.517Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:12.336Z",
+      "reason": "Advisory evidence-review: Banff National Park v2 identity, Parks Canada sources, EN/SQ copy, focused lake, canyon, reservoir and park-base selection, current-guidance framing and freshness ownership were reviewed and accepted for publication. YYC remains an external gateway requiring onward travel; no safe gateway-transfer amount is published, so incomplete-trip pricing is intentional. Seasonal shuttle, parking, road and hiking availability are not guaranteed."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+        "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+        "evidenceDigest": "2189a1291eae262e3fc9f55799fed4a06aacf4d6dddc83cd50249787e9e37e53",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Banff National Park v2 identity, Parks Canada sources, EN/SQ copy, focused lake, canyon, reservoir and park-base selection, current-guidance framing and freshness ownership were reviewed and accepted for publication. YYC remains an external gateway requiring onward travel; no safe gateway-transfer amount is published, so incomplete-trip pricing is intentional. Seasonal shuttle, parking, road and hiking availability are not guaranteed."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T09:03:12.336Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T09:03:13.169Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

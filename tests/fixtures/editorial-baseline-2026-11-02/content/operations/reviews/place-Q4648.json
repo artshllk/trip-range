@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q4648",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+    "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+    "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Bali v2 island identity, official sources, EN/SQ copy, focused temple and Ubud selection, religious attribution, separated island journeys, transport guidance and freshness ownership were reviewed and accepted for publication. The content does not promise ritual participation, current access, island-wide same-day travel, taxi prices or journey durations."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T08:50:54.848Z",
+    "reviewedAt": "2026-10-15T08:50:54.848Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:48.647Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:49.511Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:49.511Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:50.342Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:50.342Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:51.229Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:51.229Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:52.269Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:52.269Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:53.153Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:53.153Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:54.015Z",
+      "reason": "Advisory evidence-review: Bali v2 island identity, official sources, EN/SQ copy, focused temple and Ubud selection, religious attribution, separated island journeys, transport guidance and freshness ownership were reviewed and accepted for publication. The content does not promise ritual participation, current access, island-wide same-day travel, taxi prices or journey durations."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+        "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+        "evidenceDigest": "5ebf542709c0251dfb1cae1229c82b91e179aca147fcb681a1e28b16c860ff2f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Bali v2 island identity, official sources, EN/SQ copy, focused temple and Ubud selection, religious attribution, separated island journeys, transport guidance and freshness ownership were reviewed and accepted for publication. The content does not promise ritual participation, current access, island-wide same-day travel, taxi prices or journey durations."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:50:54.015Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:50:54.848Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

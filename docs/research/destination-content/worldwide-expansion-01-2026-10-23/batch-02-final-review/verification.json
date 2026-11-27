@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-local-preparation-not-owner-approval",
+  "checkedAt": "2026-10-23T16:51:04.048Z",
+  "checks": [
+    {
+      "slug": "tokyo",
+      "editorial": "PASS-for-source-backed-candidate-scope-not-owner-approval",
+      "version": 4,
+      "canonicalSubject": "place:Q1490",
+      "targetId": "place:Q1490",
+      "providerGroups": [
+        "TYO"
+      ],
+      "operationalAirports": [
+        "HND",
+        "NRT"
+      ],
+      "searchContext": "passed",
+      "localMediaFiles": "passed",
+      "draftPublication": "blocked",
+      "mediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    },
+    {
+      "slug": "kyoto",
+      "editorial": "PASS-for-source-backed-candidate-scope-not-owner-approval",
+      "version": 4,
+      "canonicalSubject": "place:Q34600",
+      "targetId": "place:Q34600",
+      "providerGroups": [
+        "OSA"
+      ],
+      "operationalAirports": [
+        "KIX",
+        "ITM"
+      ],
+      "searchContext": "passed",
+      "localMediaFiles": "passed",
+      "draftPublication": "blocked",
+      "mediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    },
+    {
+      "slug": "bangkok",
+      "editorial": "PASS-for-source-backed-candidate-scope-not-owner-approval",
+      "version": 4,
+      "canonicalSubject": "place:Q1861",
+      "targetId": "city:BKK",
+      "providerGroups": [
+        "BKK"
+      ],
+      "operationalAirports": [
+        "BKK",
+        "DMK"
+      ],
+      "searchContext": "passed",
+      "localMediaFiles": "passed",
+      "draftPublication": "blocked",
+      "mediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    },
+    {
+      "slug": "marrakesh",
+      "editorial": "PASS-for-source-backed-candidate-scope-not-owner-approval",
+      "version": 4,
+      "canonicalSubject": "place:Q101625",
+      "targetId": "city:RAK",
+      "providerGroups": [
+        "RAK"
+      ],
+      "operationalAirports": [
+        "RAK"
+      ],
+      "searchContext": "passed",
+      "localMediaFiles": "passed",
+      "draftPublication": "blocked",
+      "mediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    }
+  ],
+  "priorPacketFilesUnchanged": 33,
+  "newMediaAssets": 4,
+  "newMediaSelections": 0,
+  "responsiveFiles": 12,
+  "publicMediaWrites": 0,
+  "runtimeContentWrites": 0,
+  "externalProviderRequests": 0,
+  "RedisRequests": 0,
+  "OpenAIRequests": 0,
+  "fullSuite": {
+    "total": 1505,
+    "pass": 1504,
+    "fail": 0,
+    "skip": 1,
+    "skipReason": "optional real local Redis test; redis-server unavailable"
+  },
+  "targetedTests": {
+    "pass": 97,
+    "fail": 0
+  },
+  "productionBuild": "Next.js 16.4.1 Node 24 webpack passed; no configuration change",
+  "hostedVerification": "not-run-or-requested",
+  "browserVerification": {
+    "status": "passed",
+    "guideViewportChecks": 20,
+    "galleryAndCardsChecks": 6,
+    "evidence": "browser-verification.json",
+    "scope": "local unpublished shared-component previews and isolated keyless production build; not hosted Netlify verification"
+  },
+  "screenshotVerification": {
+    "status": "passed",
+    "captures": 12,
+    "evidence": "screenshot-verification.json",
+    "contactSheet": "screenshots/guide-contact-sheet.jpg"
+  },
+  "finalPlanningRegression": {
+    "total": 4,
+    "pass": 4,
+    "fail": 0,
+    "reason": "strengthened exact single-template assertion after full-suite pass"
+  },
+  "trackedChanges": [
+    "src/domain/locations.ts",
+    "src/providers/server/composition.ts",
+    "src/services/destination-guides.ts"
+  ],
+  "newRegressionFile": "tests/batch2-planning.test.ts",
+  "preservation": {
+    "originalBatch2PacketFiles": 33,
+    "originalBatch2PacketUnchanged": true,
+    "runtimeContentAndMediaUnchanged": true,
+    "pricingAndProviderAdmissionUnchanged": true,
+    "configurationAndAIDefaultUnchanged": true
+  }
+}

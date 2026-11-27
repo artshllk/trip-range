@@ -1,0 +1,44 @@
+name: Refresh FX
+# Transcribes the ECB daily reference rates and commits them. No human approval:
+# transcription from the authoritative feed is not a judgment call (2026-10-28).
+# Primary trigger: an Upstash QStash schedule calls workflow_dispatch at 16:30 UTC on
+# weekdays (scripts/qstash-schedules.mjs); the cron below is a fallback. A duplicate
+# finds the ECB date unchanged and commits nothing.
+on:
+  schedule:
+    # ECB publishes around 16:00 CET on TARGET working days.
+    - cron: "30 16 * * 1-5"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fx-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: node scripts/refresh-fx.mjs
+      - run: npm run generate:content-manifests
+      # The written snapshot must pass the same checks CI runs before it is committed.
+      - run: npm run check:fx
+      - run: npm run check:destination-access
+      - name: Commit if the ECB date changed
+        run: |
+          if git diff --quiet -- content/money/fx; then
+            echo "ECB date unchanged; nothing to commit."
+            exit 0
+          fi
+          date=$(node -p "require('./content/money/fx/ecb-reference.json').sourceDate")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/money/fx
+          git commit -m "chore(fx): ECB reference rates ${date} [skip ci]"
+          git push

@@ -1,0 +1,389 @@
+{
+  "city": "Stuttgart",
+  "country_code": "DE",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "STR",
+      "public_option_name": "S2/S3, Flughafen/Messe–Stuttgart Hauptbahnhof, mobile two-zone single",
+      "public_price": {
+        "value": 4.45,
+        "currency": "EUR",
+        "unit": "per adult second-class mobile single, two zones",
+        "status": "confirmed",
+        "source_name": "VVS",
+        "source_url": "https://www.vvs.de/tickets-und-abos/einzelticket",
+        "checked_date": "2026-11-02",
+        "note": "Tariff from 2026-09-01. The cheaper mobile purchase channel is selected; ordinary paper tickets cost differently. Airport is zone 2 and Hbf zone 1 in the official stop directory https://www.vvs.de/fileadmin/5_Service/5.2_Downloads/Verzeichnisse/hvz.pdf. No subscription or multi-ticket discount assumed; dynamic check-in pricing was not quoted."
+      },
+      "journey_legs": [
+        {
+          "origin": "Flughafen/Messe S-Bahn station in terminal",
+          "destination": "Stuttgart Hauptbahnhof",
+          "mode": "S2 / S3",
+          "duration_minutes": {
+            "value": 27,
+            "currency": null,
+            "unit": "published approximate rail-leg minutes",
+            "status": "confirmed",
+            "source_name": "VVS",
+            "source_url": "https://www.vvs.de/flughafen",
+            "checked_date": "2026-11-02",
+            "note": "VVS article dated 2024-11-27 remains live. Airport currently gives a compatible range rather than one scalar: https://www.stuttgart-airport.com/de/reisende-besucher/anreise-parken/bus-und-bahn. Check operational disruptions; no waiting, walking or interchange allowance added."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per vehicle airport–centre fixed fare",
+        "status": "unconfirmed",
+        "source_name": "City of Stuttgart",
+        "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+        "checked_date": "2026-11-02",
+        "note": "The ordinance fixes meter components; its use of Festpreise does not establish a single flat airport–centre total."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Stuttgart taxi ordinance — first distance band",
+          "applicability": "First four kilometres; compulsory tariff area includes Stuttgart, Leinfelden-Echterdingen and Filderstadt.",
+          "base_fare": {
+            "value": 4.2,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Stuttgart taxi ordinance — first distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Effective 2022-10-01 in the current consolidated city-law PDF. Base charged once. Minimum meter charge differs from base; not an airport fixed fare. Airport-specific passenger surcharge not independently verified."
+          },
+          "per_km": {
+            "value": 3,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Stuttgart taxi ordinance — first distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Effective 2022-10-01 in the current consolidated city-law PDF. Base charged once. Minimum meter charge differs from base; not an airport fixed fare. Airport-specific passenger surcharge not independently verified."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Stuttgart taxi ordinance — first distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Effective 2022-10-01 in the current consolidated city-law PDF. Base charged once. Minimum meter charge differs from base; not an airport fixed fare. Airport-specific passenger surcharge not independently verified. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Stuttgart taxi ordinance — first distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Effective 2022-10-01 in the current consolidated city-law PDF. Base charged once. Minimum meter charge differs from base; not an airport fixed fare. Airport-specific passenger surcharge not independently verified. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 38,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Stuttgart taxi ordinance — first distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        },
+        {
+          "name": "Stuttgart taxi ordinance — subsequent distance band",
+          "applicability": "Distance after the first four kilometres within the compulsory tariff area.",
+          "base_fare": {
+            "value": 4.2,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Stuttgart taxi ordinance — subsequent distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Same journey base as first band; do not add twice. Large-vehicle supplements have separate passenger-count conditions and are not airport charges."
+          },
+          "per_km": {
+            "value": 2.5,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Stuttgart taxi ordinance — subsequent distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Same journey base as first band; do not add twice. Large-vehicle supplements have separate passenger-count conditions and are not airport charges."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Stuttgart taxi ordinance — subsequent distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Same journey base as first band; do not add twice. Large-vehicle supplements have separate passenger-count conditions and are not airport charges. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Stuttgart taxi ordinance — subsequent distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Same journey base as first band; do not add twice. Large-vehicle supplements have separate passenger-count conditions and are not airport charges. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 38,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Stuttgart taxi ordinance — subsequent distance band",
+            "source_url": "https://www.stuttgart.de/medien/ibs/1-15.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 3.45,
+      "currency": "EUR",
+      "unit": "per adult second-class mobile single",
+      "status": "confirmed",
+      "source_name": "VVS",
+      "source_url": "https://www.vvs.de/tickets-und-abos/einzelticket",
+      "checked_date": "2026-11-02",
+      "note": "One direction with permitted transfers, subject to the three-hour limit. Fare from 2026-09-01; no round trips.",
+      "validity_area": "VVS zone 1, Stuttgart city; airport zone 2 excluded."
+    },
+    "day_pass": {
+      "value": 35,
+      "currency": "EUR",
+      "unit": "per adult StuttCard PLUS for 24 consecutive hours",
+      "status": "confirmed",
+      "source_name": "Stuttgart-Marketing — StuttCard 2026 brochure",
+      "source_url": "https://www.stuttgart-tourist.de/action/download?id=%7Be916f0b5-9283-8162-f703-7204bcb06ddb%7D",
+      "checked_date": "2026-11-02",
+      "note": "Includes attractions and public transport, not a transport-only product. The cheaper ordinary VVS day ticket expires at the following morning cutoff and has not been mislabelled as rolling 24 hours. Transport ticket supplied separately with matching validity. Live product corroboration: https://www.stuttgart-tourist.de/stuttgart-touren-tickets-buchen/stuttcard.",
+      "validity_area": "Entire VVS network, second class, including airport; broader than city-only single.",
+      "validity_kind": "consecutive_hours",
+      "satisfies_rolling_24h_requirement": true
+    },
+    "pass_72h": {
+      "value": 55,
+      "currency": "EUR",
+      "unit": "per adult StuttCard PLUS for 72 consecutive hours",
+      "status": "confirmed",
+      "source_name": "Stuttgart-Marketing — StuttCard 2026 brochure",
+      "source_url": "https://www.stuttgart-tourist.de/action/download?id=%7Be916f0b5-9283-8162-f703-7204bcb06ddb%7D",
+      "checked_date": "2026-11-02",
+      "note": "Select PLUS; the cheaper StuttCard without PLUS excludes transport. Not the VVS three-consecutive-calendar-day hotel/congress product.",
+      "validity_area": "Entire VVS network, second class, including airport."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2026-07-01",
+        "to": null,
+        "basis": "per_person_per_night",
+        "rate": {
+          "value": 3,
+          "currency": "EUR",
+          "unit": "per liable person per overnight stay",
+          "status": "confirmed",
+          "source_name": "City of Stuttgart — Übernachtungssteuersatzung §§ 1–3, 10",
+          "source_url": "https://www.stuttgart.de/medien/ibs/9-5.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Enacted 2026-02-26. Applies to private and business overnight stays. The provider is the statutory debtor. A planned review is not an announced future rate change."
+        },
+        "exemptions": "Minors; teacher-accompanied school trips approved by school leadership. Accommodation meeting basic residential needs is outside the taxable subject. No general business-travel exemption.",
+        "legal_source_url": "https://www.stuttgart.de/medien/ibs/9-5.pdf",
+        "charge_unit": "liable_person_night",
+        "night_count_rule": {
+          "kind": "actual_qualifying_nights_in_jurisdiction",
+          "cap": null,
+          "cap_status": "not_verified_or_not_applicable",
+          "note": "Resolve the city-specific exemption and stay rules before counting. A null cap is not proof that no cap exists."
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "taxable_person_nights",
+            "guest_age_and_trip_category",
+            "continuous_stay_history_at_same_property",
+            "property_pass_through_policy",
+            "booking_quote_tax_inclusion"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed"
+          ],
+          "evidence_gaps": [],
+          "status": "conditional",
+          "supported_case": "Ordinary paid short leisure stay with independently resolved taxable person-nights and no special assessment agreement."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 12.9,
+      "currency": "EUR",
+      "unit": "per Monday lunch main at Carls Brauhaus",
+      "status": "confirmed",
+      "source_name": "Carls Brauhaus — weekly menu",
+      "source_url": "https://www.carls-brauhaus.de/speisen/",
+      "checked_date": "2026-11-02",
+      "note": "Explicitly dated 2026-11-02 to 2026-11-06. Monday fusilli with creamy tomato sauce, turkey ham and parmesan. Only a dated lunch observation, not valid on every day or after this menu period; drink excluded."
+    },
+    "midrange_meal_for_two": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per explicitly published restaurant dinner for two",
+      "status": "unconfirmed",
+      "source_name": "Carls Brauhaus",
+      "source_url": "https://www.carls-brauhaus.de/media/SK_Final_04_2026.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Current menu was downloaded and its text read. It publishes a two-person breakfast, which is not a comparable restaurant dinner, and individual main prices. No dinner-for-two total verified; no multiplication or constructed basket."
+    },
+    "coffee": {
+      "value": 4.2,
+      "currency": "EUR",
+      "unit": "per cappuccino at Carls Brauhaus",
+      "status": "confirmed",
+      "source_name": "Carls Brauhaus — April 2026 menu",
+      "source_url": "https://www.carls-brauhaus.de/media/SK_Final_04_2026.pdf",
+      "checked_date": "2026-11-02",
+      "note": "PDF downloaded directly because it exceeded the web reader limit; coffee section extracted locally. VAT and service included. Optional plant milk not included. An alternate file labelled Kaffeefalsch was not used as definitive evidence."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Mercedes-Benz Museum",
+      "entry_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "unconfirmed",
+        "source_name": "Mercedes-Benz Museum — official visitor information",
+        "source_url": "https://www.mercedes-benz.com/en/art-and-culture/museum/visitor-information/ticketing/",
+        "checked_date": "2026-11-02",
+        "note": "Live ticket page extraction exposed no price; official 2025 and February 2026 PDFs returned 404 on direct retrieval. The indexed older brochure and tourism example agree, but a current venue amount was not independently retrieved. Kept null instead of treating an inaccessible old schedule as current."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Porsche Museum — ordinary day admission",
+      "entry_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "disputed",
+        "source_name": "Porsche Museum — ordinary day admission — official visitor information",
+        "source_url": "https://www.porsche.com/international/aboutporsche/porschemuseum/openinghoursandprices/",
+        "checked_date": "2026-11-02",
+        "note": "Discrepancy retained between current venue full-day tariff and the tourism card example. Venue also sells restricted-time products at the lower amount, but the tourism example does not make that qualification. Venue explicitly allows online or on-site purchase.",
+        "alternatives": [
+          {
+            "value": 15,
+            "currency": "EUR",
+            "unit": "per adult ordinary day ticket",
+            "status": "confirmed",
+            "source_name": "Porsche Museum",
+            "source_url": "https://www.porsche.com/international/aboutporsche/porschemuseum/openinghoursandprices/",
+            "checked_date": "2026-11-02",
+            "note": "2026 visitor information; early-bird/evening categories are separate."
+          },
+          {
+            "value": 12,
+            "currency": "EUR",
+            "unit": "per adult admission in StuttCard savings example",
+            "status": "confirmed",
+            "source_name": "Stuttgart-Marketing",
+            "source_url": "https://www.stuttgart-tourist.de/action/download?id=%7Be916f0b5-9283-8162-f703-7204bcb06ddb%7D",
+            "checked_date": "2026-11-02",
+            "note": "Unqualified museum admission example; may be stale or a restricted-time product. Not selected as ordinary day admission."
+          }
+        ]
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Wilhelma — winter admission",
+      "entry_price": {
+        "value": 17,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Wilhelma — winter admission — official visitor information",
+        "source_url": "https://www.wilhelma.de/leichte-sprache",
+        "checked_date": "2026-11-02",
+        "note": "Winter adult tariff, November–February; displayed price includes voluntary Artenschutz-Euro. This is not asserted to be the minimum compulsory price. Ticket-machine purchase is described, supporting no absolute advance-booking requirement."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "SWR Fernsehturm Stuttgart — observation decks",
+      "entry_price": {
+        "value": 12.5,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "SWR Fernsehturm Stuttgart — observation decks — official visitor information",
+        "source_url": "https://www.fernsehturm-stuttgart.de/besuch/besuch",
+        "checked_date": "2026-11-02",
+        "note": "Standard adult lift/admission product; special tours/events excluded. No absolute advance-booking rule verified."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Staatsgalerie Stuttgart — collection during renovation",
+      "entry_price": {
+        "value": 9,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Staatsgalerie Stuttgart — official institutional announcement",
+        "source_url": "https://de.linkedin.com/posts/staatsgalerie-stuttgart_vorteilspreis-sanierung-activity-7513149879649497089-MaRx",
+        "checked_date": "2026-11-02",
+        "note": "Primary source is the museum’s own public announcement, not commentary by a third party. Reduced collection tariff since 1 October during renovation; some rooms/works unavailable. Venue links https://www.staatsgalerie.de/de/besuch/sanierung, whose direct page is bot-blocked. No expiry established. Earlier programme tariffs describe an earlier period."
+      },
+      "booking_ahead_required": null
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "No statutory tourist-tax change after the July 2026 commencement was found in the checked law and current authority page. Future trips require rechecking.",
+    "The full-day Porsche price is disputed against an unqualified tourism example; Mercedes-Benz current price remains unconfirmed after failed current-page/PDF retrieval. These must not be consumed by the production transform.",
+    "The inexpensive lunch observation is valid only for the stated menu date. No representative city dining average or dinner-for-two total was established.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

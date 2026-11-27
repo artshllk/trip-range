@@ -1,0 +1,98 @@
+{
+  "query": {
+    "pages": {
+      "31195213": {
+        "pageid": 31195213,
+        "ns": 6,
+        "title": "File:Brezovica Ski Resort - Sharri Mountains.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7592489,
+            "width": 3696,
+            "height": 2448,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Brezovica_Ski_Resort_-_Sharri_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Brezovica_Ski_Resort_-_Sharri_Mountains.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=31195213",
+            "sha1": "b1255cf67bbe9f664636a80cb8ea5960fb697153",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-02-16 16:33:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Brezovica Ski Resort - Sharri Mountains",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Brezovica ski resort|Self-published work|Winter in Kosovo|Ski lifts in Kosovo|WikiAcademyII",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Visit Sharri Mountains  and the best Ski Resort in Kosovo Brezovica",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-02-15 12:19:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bujar_Imer_Gashi\" title=\"User:Bujar Imer Gashi\">Bujar Imer Gashi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

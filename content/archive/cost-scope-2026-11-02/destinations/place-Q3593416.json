@@ -1,0 +1,302 @@
+{
+  "destinationId": "place:Q3593416",
+  "identitySubject": "place:Q3593416",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T11:51:14.135Z",
+  "sourceIds": [
+    "source:worldwide:place-Q3593416:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q3593416:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3593416",
+      "title": "Tasmania (Q3593416)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-15T09:56:04.743Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q3593416"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:island",
+      "type": "official",
+      "url": "https://www.discovertasmania.com.au/",
+      "title": "Discover Tasmania",
+      "publisher": "Tourism Tasmania",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:cradle",
+      "type": "official",
+      "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain",
+      "title": "Cradle Mountain",
+      "publisher": "Tasmania Parks and Wildlife Service",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:freycinet",
+      "type": "official",
+      "url": "https://www.discovertasmania.com.au/regions/east-coast/freycinet-national-park/",
+      "title": "Freycinet National Park",
+      "publisher": "Tourism Tasmania",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:arthur",
+      "type": "official",
+      "url": "https://www.discovertasmania.com.au/regions/hobart-and-south/port-arthur/",
+      "title": "Port Arthur",
+      "publisher": "Tourism Tasmania",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:mona",
+      "type": "official",
+      "url": "https://www.discovertasmania.com.au/things-to-do/museums/mona/",
+      "title": "Mona",
+      "publisher": "Tourism Tasmania",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:hobart",
+      "type": "official",
+      "url": "https://www.discovertasmania.com.au/regions/hobart-and-south/hobart/",
+      "title": "Hobart",
+      "publisher": "Tourism Tasmania",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "source:worldwide:place-Q3593416:transport",
+      "type": "official",
+      "url": "https://www.discovertasmania.com.au/planning/tasmania-without-a-car/",
+      "title": "Tasmania without a car",
+      "publisher": "Tourism Tasmania",
+      "retrievedAt": "2026-10-15T09:56:04.743Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T11:51:14.135Z",
+    "sourceIds": [
+      "source:worldwide:place-Q3593416:island",
+      "source:worldwide:place-Q3593416:cradle",
+      "source:worldwide:place-Q3593416:freycinet",
+      "source:worldwide:place-Q3593416:hobart"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Tasmania island combines harbour cities with mountain parks and coastal peninsulas. Choose one region for a short stay; the attractions below are spread across the island.",
+      "sq": "Ishulli i Tasmanisë ndërthur qytete portuale, parqe malore dhe gadishuj bregdetarë. Për një qëndrim të shkurtër, zgjidh një rajon; vendet më poshtë ndodhen në pjesë të ndryshme të ishullit."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q3593416:1",
+      "text": {
+        "en": "Mountain scenery around Dove Lake",
+        "sq": "Peizazhe malore rreth liqenit Dove Lake"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:cradle"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q3593416:2",
+      "text": {
+        "en": "Convict history and contemporary art",
+        "sq": "Historia e të dënuarve dhe arti bashkëkohor"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:arthur",
+        "source:worldwide:place-Q3593416:mona"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q3593416:cradle",
+      "destinationId": "place:Q3593416",
+      "name": {
+        "en": "Cradle Mountain",
+        "sq": "Cradle Mountain"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "Cradle Mountain rises above Dove Lake in the island’s highlands.",
+        "sq": "Cradle Mountain ngrihet mbi liqenin Dove Lake, në malësinë e ishullit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:cradle"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q3593416:freycinet",
+      "destinationId": "place:Q3593416",
+      "name": {
+        "en": "Freycinet National Park",
+        "sq": "Freycinet National Park"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "Granite peaks frame Wineglass Bay on the east coast.",
+        "sq": "Maja graniti rrethojnë gjirin Wineglass Bay në bregun lindor."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:freycinet"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q3593416:arthur",
+      "destinationId": "place:Q3593416",
+      "name": {
+        "en": "Port Arthur Historic Site",
+        "sq": "Port Arthur Historic Site"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Buildings and ruins document a former convict settlement southeast of Hobart.",
+        "sq": "Ndërtesat dhe rrënojat dëshmojnë historinë e një ish-vendbanimi për të dënuarit, në juglindje të Hobartit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:arthur"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q3593416:mona",
+      "destinationId": "place:Q3593416",
+      "name": {
+        "en": "Mona",
+        "sq": "Mona"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "Mona, the Museum of Old and New Art, is built into a headland at Berriedale, north of central Hobart.",
+        "sq": "Mona, muzeu i artit të vjetër dhe të ri, është ndërtuar brenda një kepi në Berriedale, në veri të qendrës së Hobartit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:mona"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q3593416:hobart",
+      "destinationId": "place:Q3593416",
+      "name": {
+        "en": "Hobart",
+        "sq": "Hobart"
+      },
+      "summary": {
+        "en": "A waterfront city base for galleries and exploring the south of Tasmania island.",
+        "sq": "Një qytet buzë ujit ku mund të qëndrosh për të vizituar galeritë dhe jugun e ishullit të Tasmanisë."
+      },
+      "goodFor": [
+        {
+          "en": "Waterfront walks",
+          "sq": "Shëtitje buzë ujit"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Cradle Mountain and the east coast need separate regional travel planning; Hobart is not an all-island base.",
+          "sq": "Për Cradle Mountain dhe bregun lindor duhet të planifikosh veçmas udhëtimet rajonale; Hobarti nuk është bazë për të vizituar të gjithë ishullin."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:hobart",
+        "source:worldwide:place-Q3593416:cradle",
+        "source:worldwide:place-Q3593416:freycinet"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q3593416:regional",
+      "destinationId": "place:Q3593416",
+      "title": {
+        "en": "Plan regional connections",
+        "sq": "Planifiko lidhjet rajonale"
+      },
+      "guidance": {
+        "en": "Hobart and Launceston have urban bus services. Check current regional connections separately for your chosen national parks; arriving on the island does not settle the onward journey.",
+        "sq": "Hobarti dhe Launcestoni kanë autobusë urbanë. Kontrollo veçmas lidhjet aktuale të transportit për parqet kombëtare që ke zgjedhur; edhe udhëtimi brenda ishullit kërkon planifikim."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q3593416:access",
+      "destinationId": "place:Q3593416",
+      "kind": "other",
+      "text": {
+        "en": "Before visiting Cradle Mountain, check current park guidance for shuttle arrangements, road access and walking conditions.",
+        "sq": "Para se të vizitosh Cradle Mountain, kontrollo udhëzimet aktuale të parkut për autobusin e parkut, hyrjen me automjet dhe kushtet e shtigjeve."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T11:51:14.135Z",
+      "sourceIds": [
+        "source:worldwide:place-Q3593416:cradle"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+    "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+    "approvedAt": "2026-10-15T11:51:14.135Z"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "destinationId": "place:Q1490",
+  "status": "available",
+  "report": "worldwide-batch2-tokyo-v4.md",
+  "researchedAt": "2026-10-23T16:51:03Z",
+  "sourceCount": 11,
+  "unresolvedIssues": [
+    "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+  ]
+}

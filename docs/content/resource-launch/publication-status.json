@@ -1,0 +1,21 @@
+{
+  "urlContract": {
+    "indexableLaunchPaths": [
+      "/",
+      "/destinations",
+      "/destinations/vienna",
+      "/destinations/london",
+      "/destinations/paris",
+      "/destinations/istanbul",
+      "/destinations/barcelona",
+      "/methodology",
+      "/about"
+    ]
+  },
+  "additionalAcceptedPaths": [
+    "/data",
+    "/data/fare-coverage/2026-11-05-v1",
+    "/data/municipal-hotel-scaling/2025-v1"
+  ],
+  "held": "Room protocol and frame-derived evidence excluded from the publication manifest."
+}

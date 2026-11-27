@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "scope": "tirana-english-month-flexible-v1",
+  "checks": [
+    {
+      "id": "launch-scope",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "credential-revocation",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "production-release",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive.",
+      "reviewBy": "2026-11-27"
+    },
+    {
+      "id": "production-runtime",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive.",
+      "reviewBy": "2026-11-27"
+    },
+    {
+      "id": "shared-endpoint-limits",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive.",
+      "reviewBy": "2026-11-27"
+    },
+    {
+      "id": "host-tls",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive.",
+      "reviewBy": "2026-11-27"
+    },
+    {
+      "id": "private-access",
+      "status": "verified",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive.",
+      "reviewBy": "2026-11-27"
+    },
+    {
+      "id": "domain-indexing",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "coverage-streak",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "legal-review",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "contact-mailbox",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "provider-enrollment",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "edge-abuse-controls",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    },
+    {
+      "id": "hosted-security-headers",
+      "status": "pending",
+      "checkedOn": "2026-11-20",
+      "reviewedBy": "Recorded privately",
+      "evidence": "private-archive",
+      "note": "Details are recorded in the private project archive."
+    }
+  ]
+}

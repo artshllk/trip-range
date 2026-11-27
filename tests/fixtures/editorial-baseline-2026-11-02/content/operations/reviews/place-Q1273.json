@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q1273",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+    "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+    "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Tuscany v2 regional identity, authoritative regional sources, EN/SQ copy, focused Florence, Siena, Pisa and Lucca selection, regional transport guidance and freshness ownership were reviewed and accepted for publication. FLR and PSA are direct entry options into the final Tuscany region; their use does not collapse Tuscany into a single city or imply that the selected regional stops are adjacent."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-14T13:56:07.863Z",
+    "reviewedAt": "2026-10-14T13:56:07.863Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:01.966Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:02.790Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:02.790Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:03.659Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:03.659Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:04.544Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:04.544Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:05.381Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:05.381Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:06.225Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:06.225Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:07.052Z",
+      "reason": "Advisory evidence-review: Tuscany v2 regional identity, authoritative regional sources, EN/SQ copy, focused Florence, Siena, Pisa and Lucca selection, regional transport guidance and freshness ownership were reviewed and accepted for publication. FLR and PSA are direct entry options into the final Tuscany region; their use does not collapse Tuscany into a single city or imply that the selected regional stops are adjacent."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Tuscany v2 regional identity, authoritative regional sources, EN/SQ copy, focused Florence, Siena, Pisa and Lucca selection, regional transport guidance and freshness ownership were reviewed and accepted for publication. FLR and PSA are direct entry options into the final Tuscany region; their use does not collapse Tuscany into a single city or imply that the selected regional stops are adjacent."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:07.052Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:07.863Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

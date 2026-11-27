@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q40846",
+  "name": "Tenerife",
+  "countryCode": "ES",
+  "placeKind": "island",
+  "coordinates": {
+    "latitude": 28.2686111111,
+    "longitude": -16.6055555556
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q40846"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:28:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

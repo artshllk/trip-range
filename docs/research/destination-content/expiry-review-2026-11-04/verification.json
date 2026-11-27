@@ -1,0 +1,94 @@
+{
+  "checked_date": "2026-11-04",
+  "candidate_checks": [
+    {
+      "city": "vienna",
+      "contentVersion": 3,
+      "item_count": 1,
+      "schema_valid": true,
+      "banned_phrase_violations": 0,
+      "only_requested_items_changed": true,
+      "all_claim_sources_dated": true,
+      "publication": "draft_no_receipt",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Highlights: omitted. No content is fabricated to fill the section."
+      ]
+    },
+    {
+      "city": "london",
+      "contentVersion": 5,
+      "item_count": 2,
+      "schema_valid": true,
+      "banned_phrase_violations": 0,
+      "only_requested_items_changed": true,
+      "all_claim_sources_dated": true,
+      "publication": "draft_no_receipt",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Highlights: omitted. No content is fabricated to fill the section.",
+        "Transport points: 5 items; only the first 3 are initially visible. Confirm the stored editorial order."
+      ]
+    },
+    {
+      "city": "paris",
+      "contentVersion": 4,
+      "item_count": 2,
+      "schema_valid": true,
+      "banned_phrase_violations": 0,
+      "only_requested_items_changed": true,
+      "all_claim_sources_dated": true,
+      "publication": "draft_no_receipt",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Day templates: omitted. No content is fabricated to fill the section."
+      ]
+    },
+    {
+      "city": "barcelona",
+      "contentVersion": 4,
+      "item_count": 2,
+      "schema_valid": true,
+      "banned_phrase_violations": 0,
+      "only_requested_items_changed": true,
+      "all_claim_sources_dated": true,
+      "publication": "draft_no_receipt",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Highlights: omitted. No content is fabricated to fill the section."
+      ]
+    },
+    {
+      "city": "istanbul",
+      "contentVersion": 4,
+      "item_count": 1,
+      "schema_valid": true,
+      "banned_phrase_violations": 0,
+      "only_requested_items_changed": true,
+      "all_claim_sources_dated": true,
+      "publication": "draft_no_receipt",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Highlights: omitted. No content is fabricated to fill the section."
+      ]
+    }
+  ],
+  "live_content_modified": false,
+  "test_suite": {
+    "command": "npm test",
+    "runtime": "Node 24.21.0",
+    "tests": 1616,
+    "passed": 1615,
+    "skipped": 1,
+    "failed": 0,
+    "exit_code": 0,
+    "checked_date": "2026-11-04",
+    "note": "The normal suite exercises the unchanged published content and the existing workspace. Each proposed record was additionally passed through the same content schema and claims-policy functions, with an exact diff-scope check."
+  },
+  "git_diff_check": "passed"
+}

@@ -1,0 +1,90 @@
+{
+  "status": "INTERNAL CANDIDATES — NOT PRODUCTION APPROVAL",
+  "checkedAt": "2026-10-21T14:34:04.767Z",
+  "candidates": [
+    {
+      "destinationId": "vienna",
+      "entity": "Q1741",
+      "file": "Wien katedra sw Szczepana widok z wiezy 6.jpg",
+      "author": "Andrzej Otrębski",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "originalSha1": "3fa8577110481ce1f8d3502687ba403c53e99f26",
+      "alt": {
+        "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower",
+        "sq": "Çatitë dhe horizonti i Vjenës nga kulla veriore e Katedrales së Shën Stefanit"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+      "approval": "pending-human-review",
+      "changes": "Resized to 640/1200/1920px, converted to WebP quality 78; no crop, retouching or generated elements. Derivatives retain the source CC BY-SA licence.",
+      "variants": [
+        {
+          "file": "docs/research/destination-media/phase2/vienna-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 36408,
+          "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/vienna-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 108394,
+          "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/vienna-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 245614,
+          "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+        }
+      ],
+      "providerFileId": "54280496",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+      "originalWidth": 5184,
+      "originalHeight": 3456
+    },
+    {
+      "destinationId": "london",
+      "entity": "Q84",
+      "file": "London Skyline (125508655).jpeg",
+      "author": "Ilya Grigorik",
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "originalSha1": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd",
+      "alt": {
+        "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk",
+        "sq": "Tower Bridge, Thames, Shard dhe horizonti i City of London në muzg"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:London_Skyline_(125508655).jpeg",
+      "approval": "pending-human-review",
+      "changes": "Resized to 640/1200/1920px, converted to WebP quality 78; no crop, retouching or generated elements. Derivatives retain the source CC BY-SA licence.",
+      "variants": [
+        {
+          "file": "docs/research/destination-media/phase2/london-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 45986,
+          "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/london-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 134292,
+          "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/london-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 267994,
+          "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+        }
+      ],
+      "providerFileId": "74181523",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg",
+      "originalWidth": 2048,
+      "originalHeight": 1152
+    }
+  ]
+}

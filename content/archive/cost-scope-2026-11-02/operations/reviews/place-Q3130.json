@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q3130",
+  "current": {
+    "contentVersion": 5,
+    "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+    "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+    "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "User-authorized WSI-only source refresh verified by Codex. See docs/verification/sydney-transport-refresh/EVIDENCE.txt. Prior owner-approved content otherwise carried forward; no new owner review claimed."
+      },
+      {
+        "id": "presentation:55fc10dd88ad3256c19c",
+        "reason": "Unchanged owner-approved SYD guidance retains the existing excerpt and Read more disclosure."
+      }
+    ],
+    "reviewer": "Codex - authorized transport refresh",
+    "updatedAt": "2026-10-26T15:24:23.510Z",
+    "reviewedAt": "2026-10-26T15:24:23.510Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:43.371Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:44.224Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:44.224Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:45.056Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:45.056Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:45.886Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:45.886Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:46.707Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:46.707Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:47.545Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:47.545Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:48.384Z",
+      "reason": "Advisory evidence-review: Sydney v2 city/destination identity, strengthened harbour and bridge sources, EN/SQ copy, focused Opera House, Botanic Garden, Harbour Bridge and The Rocks selection, Circular Quay guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids show schedules, BridgeClimb promises, service frequencies and broader beach itineraries."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Sydney v2 city/destination identity, strengthened harbour and bridge sources, EN/SQ copy, focused Opera House, Botanic Garden, Harbour Bridge and The Rocks selection, Circular Quay guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids show schedules, BridgeClimb promises, service frequencies and broader beach itineraries."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:48.384Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:20:49.209Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Sydney v2 city/destination identity, strengthened harbour and bridge sources, EN/SQ copy, focused Opera House, Botanic Garden, Harbour Bridge and The Rocks selection, Circular Quay guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids show schedules, BridgeClimb promises, service frequencies and broader beach itineraries."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:20:49.209Z",
+        "reviewedAt": "2026-10-14T11:20:49.209Z"
+      },
+      "supersededAt": "2026-10-23T22:47:26.796Z",
+      "reason": "Owner explicitly approved the exact pinned English v4 draft in worldwide-batch3-review-v1. Preserve prior review history; reset checks for this revision."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.796Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.818Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.818Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.839Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.839Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.862Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.862Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.883Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.883Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.906Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.906Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.927Z",
+      "reason": "Advisory evidence-review: GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.927Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.948Z",
+      "reason": "Advisory presentation:55fc10dd88ad3256c19c: GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+          },
+          {
+            "id": "presentation:55fc10dd88ad3256c19c",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.948Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.969Z",
+      "reason": "Advisory presentation:e16b4df222344c2a2900: GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+          },
+          {
+            "id": "presentation:55fc10dd88ad3256c19c",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          },
+          {
+            "id": "presentation:e16b4df222344c2a2900",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.969Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.990Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+          },
+          {
+            "id": "presentation:55fc10dd88ad3256c19c",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          },
+          {
+            "id": "presentation:e16b4df222344c2a2900",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch3-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.990Z",
+        "reviewedAt": "2026-10-23T22:47:26.990Z"
+      },
+      "supersededAt": "2026-10-26T15:24:23.297Z",
+      "reason": "User authorized verified Sydney transport corrections on 2026-10-26. Codex checked official sources; preserve the prior owner approval. Evidence: docs/verification/sydney-transport-refresh/EVIDENCE.txt."
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.297Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.326Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.326Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.351Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.351Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.376Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.376Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.399Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.399Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.424Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.424Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.462Z",
+      "reason": "Advisory evidence-review: User-authorized WSI-only source refresh verified by Codex. See docs/verification/sydney-transport-refresh/EVIDENCE.txt. Prior owner-approved content otherwise carried forward; no new owner review claimed."
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "User-authorized WSI-only source refresh verified by Codex. See docs/verification/sydney-transport-refresh/EVIDENCE.txt. Prior owner-approved content otherwise carried forward; no new owner review claimed."
+          }
+        ],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.462Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.486Z",
+      "reason": "Advisory presentation:55fc10dd88ad3256c19c: Unchanged owner-approved SYD guidance retains the existing excerpt and Read more disclosure."
+    },
+    {
+      "review": {
+        "contentVersion": 5,
+        "contentDigest": "6b92a80ff5a503738b27cccfb3c2e5676bbd0d75ccb674ff17b3465c22603e28",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "6860dfe85ba1759335bec1b425bed2c94f699d6bcb7601b363274c32356b1a28",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "User-authorized WSI-only source refresh verified by Codex. See docs/verification/sydney-transport-refresh/EVIDENCE.txt. Prior owner-approved content otherwise carried forward; no new owner review claimed."
+          },
+          {
+            "id": "presentation:55fc10dd88ad3256c19c",
+            "reason": "Unchanged owner-approved SYD guidance retains the existing excerpt and Read more disclosure."
+          }
+        ],
+        "reviewer": "Codex - authorized transport refresh",
+        "updatedAt": "2026-10-26T15:24:23.486Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-26T15:24:23.510Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch2-final-review-v1",
+  "status": "explicit-owner-approval-local-integration",
+  "reviewer": "GoEksplo Owner",
+  "reviewedAt": "2026-10-23T22:17:56.425Z",
+  "ownerLocalDate": "2026-10-24",
+  "ownerTimezone": "Europe/Belgrade",
+  "approvalBasis": "Owner explicitly approved the pinned Tokyo, Kyoto, Bangkok and Marrakesh English v4 drafts, their sources, itinerary order and freshness requirements, and the four exact listed photographs, hero/card crops, attribution, modification notices and CC BY-SA 4.0 requirements in this conversation. Tests do not substitute for this approval.",
+  "content": [
+    {
+      "slug": "tokyo",
+      "destinationId": "place:Q1490",
+      "contentPath": "content/destinations/place-Q1490.json",
+      "identityPath": "content/places/place-Q1490.json",
+      "approvedPins": {
+        "slug": "tokyo",
+        "destinationId": "place:Q1490",
+        "candidateFile": "drafts/tokyo.json",
+        "fileSha256": "9468beab4e1c9413db5445bb017a84374cd1f1f02035228ffb47ca79c2852314",
+        "evidenceFile": "drafts/tokyo-evidence.md",
+        "evidenceFileSha256": "8f4c145fc93559cc59021b2eb609a3bd5fc0144c29b3b99dcc42f6e7c08ac2df",
+        "contentVersion": 4,
+        "contentDigest": "281b25051b5d223809b908e5a85d753473195e31fa5e1b8b78e008f540a113d2",
+        "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+        "evidenceDigest": "dd40bd3eb59a9a194e4d7eaf8069adad4b6cf181cdc24f4e914f9dc0c06f5da2",
+        "findings": [
+          {
+            "id": "batch2-final:tokyo:source-limit-1",
+            "message": "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch2-tokyo-v4.md",
+      "evidenceSha256": "8f4c145fc93559cc59021b2eb609a3bd5fc0144c29b3b99dcc42f6e7c08ac2df",
+      "researchPath": "content/research/destinations/place-Q1490.json"
+    },
+    {
+      "slug": "kyoto",
+      "destinationId": "place:Q34600",
+      "contentPath": "content/destinations/place-Q34600.json",
+      "identityPath": "content/places/place-Q34600.json",
+      "approvedPins": {
+        "slug": "kyoto",
+        "destinationId": "place:Q34600",
+        "candidateFile": "drafts/kyoto.json",
+        "fileSha256": "e6f653ab950c6cc9de75bcbb085783ed1b29365de778f94d029406ee42fac2c8",
+        "evidenceFile": "drafts/kyoto-evidence.md",
+        "evidenceFileSha256": "5f56fc2d014decdb598836edad757538636be5286f9524dcb4131a7e5a77082f",
+        "contentVersion": 4,
+        "contentDigest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+        "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+        "evidenceDigest": "6e43f244d242c564d8b782cbf1bd2363093d072f3fc3023bacc5b5f2a5576bb5",
+        "findings": [
+          {
+            "id": "batch2-final:kyoto:source-limit-1",
+            "message": "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch2-kyoto-v4.md",
+      "evidenceSha256": "5f56fc2d014decdb598836edad757538636be5286f9524dcb4131a7e5a77082f",
+      "researchPath": "content/research/destinations/place-Q34600.json"
+    },
+    {
+      "slug": "bangkok",
+      "destinationId": "place:Q1861",
+      "contentPath": "content/destinations/place-Q1861.json",
+      "identityPath": "content/places/place-Q1861.json",
+      "approvedPins": {
+        "slug": "bangkok",
+        "destinationId": "place:Q1861",
+        "candidateFile": "drafts/bangkok.json",
+        "fileSha256": "078202298d2425fcdcdbdb884b246819fcf9fe51f74f4c32add5c9a7ecbdab0f",
+        "evidenceFile": "drafts/bangkok-evidence.md",
+        "evidenceFileSha256": "aa79dec54ea4bd1cc956448cc6fd3c9cdd3e35ef5e1a74f51405a0b5da843e19",
+        "contentVersion": 4,
+        "contentDigest": "77e36dd1b2f2e4a8897900327bda24b23479ea478daf1cbca07371e5091f6fee",
+        "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+        "evidenceDigest": "57b864bd26832b54bd99295c2e4da69dde389f08320f6231394e64c5450f68a8",
+        "findings": [
+          {
+            "id": "batch2-final:bangkok:source-limit-1",
+            "message": "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim."
+          },
+          {
+            "id": "batch2-final:bangkok:source-limit-2",
+            "message": "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch2-bangkok-v4.md",
+      "evidenceSha256": "aa79dec54ea4bd1cc956448cc6fd3c9cdd3e35ef5e1a74f51405a0b5da843e19",
+      "researchPath": "content/research/destinations/place-Q1861.json"
+    },
+    {
+      "slug": "marrakesh",
+      "destinationId": "place:Q101625",
+      "contentPath": "content/destinations/place-Q101625.json",
+      "identityPath": "content/places/place-Q101625.json",
+      "approvedPins": {
+        "slug": "marrakesh",
+        "destinationId": "place:Q101625",
+        "candidateFile": "drafts/marrakesh.json",
+        "fileSha256": "65948f56016c1cfbb4d50f1428b408094fa0ab6a0c62657a58d6b515f0454bba",
+        "evidenceFile": "drafts/marrakesh-evidence.md",
+        "evidenceFileSha256": "71c2e78464af90ae6477a4b7894a6e97f38e4d51ea0e011effa561203d3aa249",
+        "contentVersion": 4,
+        "contentDigest": "46d0181933beb42addf5da83e80241c69ec85ca5bb81d8c3945023360918a743",
+        "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+        "evidenceDigest": "9932e48061b33f9991f6298dfb79b83eafa3d454987f34f7dda7f8dc790aa899",
+        "findings": [
+          {
+            "id": "batch2-final:marrakesh:source-limit-1",
+            "message": "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified."
+          },
+          {
+            "id": "batch2-final:marrakesh:source-limit-2",
+            "message": "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch2-marrakesh-v4.md",
+      "evidenceSha256": "71c2e78464af90ae6477a4b7894a6e97f38e4d51ea0e011effa561203d3aa249",
+      "researchPath": "content/research/destinations/place-Q101625.json"
+    }
+  ],
+  "media": [
+    {
+      "slug": "tokyo",
+      "subject": "place:Q1490",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:80694116",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hozomon_with_visitors_under_their_umbrellas,_a_rainy_day_in_Tokyo,_Japan.jpg",
+      "sourceRevisionId": 1272774653,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Basile Morin",
+      "photographedAt": "2019-06-07",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "attribution": "Basile Morin / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Derivatives retain CC BY-SA 4.0; retain author, source, licence link and change notice. No endorsement is implied.",
+      "identityEvidence": "Hōzōmon at Sensoji, not Kaminarimon. The file description, camera location in Asakusa and the visible two-storey gate agree with the official Tokyo temple-area map.",
+      "limitations": "Rainy-day photograph from June 2019; not evidence of expected weather, current crowd levels or access. Desktop hero emphasizes the gate; the mobile hero and card retain more of the umbrellas.",
+      "originalFile": "originals/tokyo.jpg",
+      "originalSha256": "3271ee2a585dd3e674b55d14dccb4fb3b1f06b1869d557d85fad9e2081e0fa0d",
+      "originalDimensions": {
+        "width": 5948,
+        "height": 3965
+      },
+      "localDelivery": {
+        "src": "/destinations/tokyo-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/tokyo-batch2-v1-640.webp",
+            "width": 640,
+            "height": 426,
+            "bytes": 63982,
+            "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+          },
+          {
+            "src": "/destinations/tokyo-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 197680,
+            "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+          },
+          {
+            "src": "/destinations/tokyo-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 452416,
+            "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.05
+          },
+          "alt": {
+            "en": "Hōzōmon gate at Sensoji in Asakusa, Tokyo, with visitors carrying umbrellas"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "2c340f73e42d2430015f467db385ed9ae2dcc921"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/tokyo-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/tokyo-batch2-v1-640.webp",
+                "width": 640,
+                "height": 426,
+                "bytes": 63982,
+                "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+              },
+              {
+                "src": "/destinations/tokyo-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 800,
+                "bytes": 197680,
+                "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+              },
+              {
+                "src": "/destinations/tokyo-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1280,
+                "bytes": 452416,
+                "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.05
+          },
+          "alt": {
+            "en": "Hōzōmon gate at Sensoji in Asakusa, Tokyo, with visitors carrying umbrellas"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "2c340f73e42d2430015f467db385ed9ae2dcc921"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/tokyo-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/tokyo-batch2-v1-640.webp",
+                "width": 640,
+                "height": 426,
+                "bytes": 63982,
+                "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+              },
+              {
+                "src": "/destinations/tokyo-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 800,
+                "bytes": 197680,
+                "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+              },
+              {
+                "src": "/destinations/tokyo-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1280,
+                "bytes": 452416,
+                "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:17:56.425Z",
+      "publicationEligible": false
+    },
+    {
+      "slug": "kyoto",
+      "subject": "place:Q34600",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:53593907",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+      "sourceRevisionId": 1017025418,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Martin Falbisoner",
+      "photographedAt": "2016-11-16",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "attribution": "Martin Falbisoner / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Derivatives retain CC BY-SA 4.0; retain author, source, licence link and change notice. No endorsement is implied.",
+      "identityEvidence": "Kiyomizu-dera main hall and stage in eastern Kyoto. Individual Commons description, recorded camera location and the temple operator’s site plan/Okuno-in viewpoint establish the place.",
+      "limitations": "Autumn photograph from November 2016; colours and building appearance are historical, not a seasonal forecast or proof of current works. The source already crops the far-right edge of the complex.",
+      "originalFile": "originals/kyoto.jpg",
+      "originalSha256": "4e51e74278c020e1ed5208aa674d057b6437e50a190278647066dc4b692a8b7b",
+      "originalDimensions": {
+        "width": 5852,
+        "height": 3601
+      },
+      "localDelivery": {
+        "src": "/destinations/kyoto-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/kyoto-batch2-v1-640.webp",
+            "width": 640,
+            "height": 394,
+            "bytes": 60786,
+            "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+          },
+          {
+            "src": "/destinations/kyoto-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 738,
+            "bytes": 213820,
+            "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+          },
+          {
+            "src": "/destinations/kyoto-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1181,
+            "bytes": 514758,
+            "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.45
+          },
+          "alt": {
+            "en": "Kiyomizu-dera’s main hall and timber stage above autumn trees in Kyoto"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "5f0b7dd2d20de6c62acc346b453c04c397c155f2"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/kyoto-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/kyoto-batch2-v1-640.webp",
+                "width": 640,
+                "height": 394,
+                "bytes": 60786,
+                "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+              },
+              {
+                "src": "/destinations/kyoto-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 738,
+                "bytes": 213820,
+                "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+              },
+              {
+                "src": "/destinations/kyoto-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1181,
+                "bytes": 514758,
+                "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.45
+          },
+          "alt": {
+            "en": "Kiyomizu-dera’s main hall and timber stage above autumn trees in Kyoto"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "5f0b7dd2d20de6c62acc346b453c04c397c155f2"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/kyoto-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/kyoto-batch2-v1-640.webp",
+                "width": 640,
+                "height": 394,
+                "bytes": 60786,
+                "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+              },
+              {
+                "src": "/destinations/kyoto-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 738,
+                "bytes": 213820,
+                "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+              },
+              {
+                "src": "/destinations/kyoto-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1181,
+                "bytes": 514758,
+                "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:17:56.425Z",
+      "publicationEligible": false
+    },
+    {
+      "slug": "bangkok",
+      "subject": "place:Q1861",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:82660408",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wat_Arun_on_the_sunset.jpg",
+      "sourceRevisionId": 1183405734,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Trip.with.taste",
+      "photographedAt": "2018-12-24",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "attribution": "Trip.with.taste / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Derivatives retain CC BY-SA 4.0; retain author, source, licence link and change notice. No endorsement is implied.",
+      "identityEvidence": "Wat Arun on the Thonburi bank of Bangkok’s Chao Phraya River. Individual description, Thai monument identity and recorded camera location agree with TAT’s official Old City geography.",
+      "limitations": "River-boat photograph from December 2018 with a naturally tilted horizon. No sunset, boat service, flag display or present visitor conditions are promised.",
+      "originalFile": "originals/bangkok.jpg",
+      "originalSha256": "bb4c9f51685d7f657103fcc607f0a799ddb38b17504ecaed56b17b34c2469618",
+      "originalDimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "localDelivery": {
+        "src": "/destinations/bangkok-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/bangkok-batch2-v1-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 38566,
+            "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+          },
+          {
+            "src": "/destinations/bangkok-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 116574,
+            "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+          },
+          {
+            "src": "/destinations/bangkok-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 258534,
+            "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.4,
+            "y": 0.2
+          },
+          "alt": {
+            "en": "Wat Arun’s central prang and riverside buildings seen from the Chao Phraya in Bangkok"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "7d8671fb12fe656e5732c940a91c7a30b4161d6b"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/bangkok-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/bangkok-batch2-v1-640.webp",
+                "width": 640,
+                "height": 427,
+                "bytes": 38566,
+                "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+              },
+              {
+                "src": "/destinations/bangkok-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 800,
+                "bytes": 116574,
+                "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+              },
+              {
+                "src": "/destinations/bangkok-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1280,
+                "bytes": 258534,
+                "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.4,
+            "y": 0.2
+          },
+          "alt": {
+            "en": "Wat Arun’s central prang and riverside buildings seen from the Chao Phraya in Bangkok"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "7d8671fb12fe656e5732c940a91c7a30b4161d6b"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/bangkok-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/bangkok-batch2-v1-640.webp",
+                "width": 640,
+                "height": 427,
+                "bytes": 38566,
+                "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+              },
+              {
+                "src": "/destinations/bangkok-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 800,
+                "bytes": 116574,
+                "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+              },
+              {
+                "src": "/destinations/bangkok-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1280,
+                "bytes": 258534,
+                "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:17:56.425Z",
+      "publicationEligible": false
+    },
+    {
+      "slug": "marrakesh",
+      "subject": "place:Q101625",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:72262779",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Marrakech_Koutoubia.jpg",
+      "sourceRevisionId": 1218916973,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Philippe Salgarolo",
+      "photographedAt": "2018-01-19",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "attribution": "Philippe Salgarolo / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Derivatives retain CC BY-SA 4.0; retain author, source, licence link and change notice. No endorsement is implied.",
+      "identityEvidence": "Koutoubia mosque/minaret in Marrakesh, Morocco. Individual description and distinctive minaret agree with official Moroccan tourism identity. This is an exterior view, not a mosque-interior access promise.",
+      "limitations": "Photograph from January 2018; historic view, not evidence of current flowers, weather or access. The top-aligned hero preserves the minaret finial.",
+      "originalFile": "originals/marrakesh.jpg",
+      "originalSha256": "3e6409bbb117494eb422a545671329a992fd05c8b50606dccee45ea141e5b085",
+      "originalDimensions": {
+        "width": 4352,
+        "height": 2448
+      },
+      "localDelivery": {
+        "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/marrakesh-batch2-v1-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 49446,
+            "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+          },
+          {
+            "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 169610,
+            "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+          },
+          {
+            "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 398450,
+            "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.4,
+            "y": 0
+          },
+          "alt": {
+            "en": "Koutoubia’s minaret rising above ochre walls and a garden passage in Marrakesh"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "31092c215e6b5110e74ab5609697dcd1fd8a6572"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/marrakesh-batch2-v1-640.webp",
+                "width": 640,
+                "height": 360,
+                "bytes": 49446,
+                "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+              },
+              {
+                "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 675,
+                "bytes": 169610,
+                "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+              },
+              {
+                "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 398450,
+                "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.4,
+            "y": 0
+          },
+          "alt": {
+            "en": "Koutoubia’s minaret rising above ochre walls and a garden passage in Marrakesh"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:17:56.425Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "31092c215e6b5110e74ab5609697dcd1fd8a6572"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/marrakesh-batch2-v1-640.webp",
+                "width": 640,
+                "height": 360,
+                "bytes": 49446,
+                "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+              },
+              {
+                "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+                "width": 1200,
+                "height": 675,
+                "bytes": 169610,
+                "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+              },
+              {
+                "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 398450,
+                "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:17:56.425Z",
+      "publicationEligible": false
+    }
+  ],
+  "registryBeforeSha256": "5ac7575561bb781d114e87e5095e874555d778f622292f5a88e73eeba4b4d603",
+  "reviewPacketManifestSha256": "177fe9a240398098293acd425d9136964845820f5ae7b6bc110e132e4199244f",
+  "scopeExclusions": [
+    "other destinations",
+    "other media",
+    "numerical cost profiles",
+    "pricing or provider changes",
+    "commit",
+    "push",
+    "deployment",
+    "infrastructure changes"
+  ],
+  "evidenceRegistrationNote": "Exact pinned evidence bytes copied to supported flat research filenames. Updated operational research metadata and preserved historical findings produce operational evidence digests. Original candidate, identity and evidence pins remain preserved in the unchanged review packet."
+}

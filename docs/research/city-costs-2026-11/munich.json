@@ -1,0 +1,435 @@
+{
+  "city": "Munich",
+  "country_code": "DE",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "MUC",
+      "public_option_name": "Lufthansa Express Bus to München Hauptbahnhof, online single ticket",
+      "public_price": {
+        "value": 12.5,
+        "currency": "EUR",
+        "unit": "per adult one-way online coach ticket to Hauptbahnhof",
+        "status": "confirmed",
+        "source_name": "Lufthansa Express Bus / Autobus Oberbayern",
+        "source_url": "https://www.airportbus-muenchen.de/en",
+        "checked_date": "2026-11-02",
+        "note": "Published online tariff for the airport–Hauptbahnhof coach. The separately priced driver-purchase channel is not a contradiction. No Lufthansa flight ticket is required. This is the lowest verified ordinary direct single-ticket option in this research, not proof of the absolute minimum across advance offers, app products, shared day passes and concessions. Onward travel beyond Hauptbahnhof is excluded."
+      },
+      "fixed_fare_transfer": {
+        "value": 96,
+        "currency": "EUR",
+        "unit": "per vehicle per direct airport–Zone Hauptbahnhof journey, before applicable statutory surcharges",
+        "status": "confirmed",
+        "source_name": "Landeshauptstadt München — Amtsblatt 16/2026, taxi-tariff amendment",
+        "source_url": "https://stadt.muenchen.de/dam/jcr:41f51dbd-45fa-46ec-90a3-ba847207de8a/Amtsblatt_16_online.pdf",
+        "checked_date": "2026-11-02",
+        "note": "PDF page 8 (printed page 480), § 2(3), fixed tariff for the airport–Hauptbahnhof zone, effective 2026-07-01. Applies to the legally bounded station zone, not every Munich hotel. Passenger-requested route deviations can trigger the meter and § 3 surcharges remain applicable. An older consolidated city tariff PDF concerns the superseded regime and was not treated as a competing current tariff."
+      },
+      "journey_legs": [
+        {
+          "origin": "MUC airport coach stops",
+          "destination": "München Hauptbahnhof, Arnulfstraße coach stop",
+          "mode": "Lufthansa Express Bus",
+          "duration_minutes": {
+            "value": 45,
+            "currency": null,
+            "unit": "approximate published minutes for the airport–Hauptbahnhof coach leg",
+            "status": "confirmed",
+            "source_name": "Lufthansa Express Bus / Autobus Oberbayern",
+            "source_url": "https://www.airportbus-muenchen.de/en",
+            "checked_date": "2026-11-02",
+            "note": "Operator-published journey time; excludes access to the stop, waiting and onward travel. Approximate operator wording is retained; this is not our estimate or an on-time guarantee."
+          }
+        },
+        {
+          "origin": "München Hauptbahnhof coach stop",
+          "destination": "Marienplatz / historic centre",
+          "mode": "Transfer and onward local transport or walking",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes including transfer and onward journey",
+            "status": "unconfirmed",
+            "source_name": "Lufthansa Express Bus / Autobus Oberbayern",
+            "source_url": "https://www.airportbus-muenchen.de/en",
+            "checked_date": "2026-11-02",
+            "note": "No applicable inclusive duration for this onward component was verified; the coach's advertised time has not been relabelled a historic-centre arrival time."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "Metered taxi tariff — current component schedule unconfirmed",
+          "applicability": "No verified complete meter schedule encoded. Do not substitute the separate fixed_fare_transfer product or a tariff from another airport/licensing area.",
+          "base_fare": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "Landeshauptstadt München — 2026 taxi-tariff amendment",
+            "source_url": "https://stadt.muenchen.de/dam/jcr:41f51dbd-45fa-46ec-90a3-ba847207de8a/Amtsblatt_16_online.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre",
+            "status": "unconfirmed",
+            "source_name": "Landeshauptstadt München — 2026 taxi-tariff amendment",
+            "source_url": "https://stadt.muenchen.de/dam/jcr:41f51dbd-45fa-46ec-90a3-ba847207de8a/Amtsblatt_16_online.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Landeshauptstadt München — 2026 taxi-tariff amendment",
+            "source_url": "https://stadt.muenchen.de/dam/jcr:41f51dbd-45fa-46ec-90a3-ba847207de8a/Amtsblatt_16_online.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Landeshauptstadt München — 2026 taxi-tariff amendment",
+            "source_url": "https://stadt.muenchen.de/dam/jcr:41f51dbd-45fa-46ec-90a3-ba847207de8a/Amtsblatt_16_online.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          }
+        }
+      ]
+    },
+    {
+      "airport_iata": "FMM",
+      "public_option_name": "Direct coach to Munich ZOB; conditional alternative-airport research, route assignment and cheapest fare unconfirmed",
+      "public_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per adult one-way FMM–Munich coach ticket",
+        "status": "unconfirmed",
+        "source_name": "Memmingen Airport — public transport; Flibco route information",
+        "source_url": "https://www.memmingen-airport.de/an-abreise/oeffentliche-verkehrsmittel/",
+        "checked_date": "2026-11-02",
+        "note": "The airport lists direct Munich coaches and links Flibco: https://www.flibco.com/de/shuttle/bus-muenchen-flughafen-memmingen. The operator publishes a starting price, not a fixed universally purchasable fare. No travel-date-specific quote or comparison sufficient to identify the cheapest option was verified. FMM appears separately in the repo fare-warm configuration but is not assigned to Munich in its destination catalogue; do not automatically attach it to every Munich search."
+      },
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per vehicle per fixed FMM–Munich transfer",
+        "status": "unconfirmed",
+        "source_name": "Memmingen Airport — public transport information",
+        "source_url": "https://www.memmingen-airport.de/an-abreise/oeffentliche-verkehrsmittel/",
+        "checked_date": "2026-11-02",
+        "note": "No applicable official fixed transfer product was verified. The regulated MUC tariff is not transferable to FMM."
+      },
+      "journey_legs": [
+        {
+          "origin": "Memmingen Airport coach stop",
+          "destination": "Munich ZOB",
+          "mode": "Direct airport coach",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes for the FMM-to-Munich coach leg",
+            "status": "unconfirmed",
+            "source_name": "Flibco — Munich/Memmingen shuttle",
+            "source_url": "https://www.flibco.com/de/shuttle/bus-muenchen-flughafen-memmingen",
+            "checked_date": "2026-11-02",
+            "note": "The opposite-direction published duration is insufficient to confirm this direction. No reversal, average or journey-planner estimate was used."
+          }
+        },
+        {
+          "origin": "Munich ZOB",
+          "destination": "Marienplatz / historic centre",
+          "mode": "Onward urban transport",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes including transfer and onward travel",
+            "status": "unconfirmed",
+            "source_name": "Flibco — Munich/Memmingen shuttle",
+            "source_url": "https://www.flibco.com/de/shuttle/bus-muenchen-flughafen-memmingen",
+            "checked_date": "2026-11-02",
+            "note": "No complete onward duration was verified. ZOB is not treated as Marienplatz."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "Metered taxi tariff — current component schedule unconfirmed",
+          "applicability": "No verified complete meter schedule encoded. Do not substitute the separate fixed_fare_transfer product or a tariff from another airport/licensing area.",
+          "base_fare": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "Memmingen Airport — public transport information",
+            "source_url": "https://www.memmingen-airport.de/an-abreise/oeffentliche-verkehrsmittel/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre",
+            "status": "unconfirmed",
+            "source_name": "Memmingen Airport — public transport information",
+            "source_url": "https://www.memmingen-airport.de/an-abreise/oeffentliche-verkehrsmittel/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Memmingen Airport — public transport information",
+            "source_url": "https://www.memmingen-airport.de/an-abreise/oeffentliche-verkehrsmittel/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Memmingen Airport — public transport information",
+            "source_url": "https://www.memmingen-airport.de/an-abreise/oeffentliche-verkehrsmittel/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 4.2,
+      "currency": "EUR",
+      "unit": "per full-fare adult single ticket in Zone M",
+      "status": "confirmed",
+      "source_name": "Münchner Verkehrs- und Tarifverbund — 2026 ticket overview",
+      "source_url": "https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/tickets/2026_MVVeasy_Tickets_web.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Standard single ticket, not a strip-card allocation or app discount. City Zone M; airport MUC requires wider coverage and this fare must not be used for that airport journey. Tariff valid from 2026-01-01.",
+      "validity_area": "MVV Zone M only; wider airport MUC coverage is excluded. For an unconfirmed pass, this identifies the requested area, not a verified purchasable product."
+    },
+    "day_pass": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per adult per 24 consecutive hours in Zone M",
+      "status": "unconfirmed",
+      "source_name": "Münchner Verkehrs- und Tarifverbund — Single-Tageskarte",
+      "source_url": "https://www.mvv-muenchen.de/tickets-abos-preise/single-tageskarte/",
+      "checked_date": "2026-11-02",
+      "note": "The verified Single-Tageskarte expires at 06:00 the following day. Its existence and published price do not establish a rolling 24-hour pass. No exactly matching product was verified, and the whole network was not proven to lack one, so this is unconfirmed rather than not_offered.",
+      "validity_area": "MVV Zone M only; wider airport MUC coverage is excluded. For an unconfirmed pass, this identifies the requested area, not a verified purchasable product."
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per adult per 72 consecutive hours in Zone M",
+      "status": "unconfirmed",
+      "source_name": "Münchner Verkehrs- und Tarifverbund — 2026 ticket overview",
+      "source_url": "https://www.mvv-muenchen.de/fileadmin/mediapool/downloads/tickets/2026_MVVeasy_Tickets_web.pdf",
+      "checked_date": "2026-11-02",
+      "note": "A current standard 72-consecutive-hour price was not verified. Multi-calendar-day tourist cards and repeated day tickets were not substituted. Absence from this overview alone is not treated as proof of nonexistence.",
+      "validity_area": "MVV Zone M only; wider airport MUC coverage is excluded. For an unconfirmed pass, this identifies the requested area, not a verified purchasable product."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2024-12-17",
+        "to": null,
+        "basis": "not_levied",
+        "rate": {
+          "value": null,
+          "currency": null,
+          "unit": "no statutory local accommodation visitor-tax rate",
+          "status": "not_offered",
+          "source_name": "Freistaat Bayern — Kommunalabgabengesetz, article 3(3)",
+          "source_url": "https://www.gesetze-bayern.de/Content/Document/BayKAG-3",
+          "checked_date": "2026-11-02",
+          "note": "Article 3(3) expressly prohibits an Übernachtungsteuer. not_offered records a confirmed absence of this local overnight tax, not a numerical zero rate. The from date is the displayed consolidated-text validity date, not a claim that the prohibition first began then. The current not_levied basis explicitly represents this sourced absence."
+        },
+        "exemptions": "Not applicable to an absent local overnight tax. This does not exempt accommodation from VAT or from separately evidenced property charges.",
+        "legal_source_url": "https://www.gesetze-bayern.de/Content/Document/BayKAG-3",
+        "period_semantics": "consolidated_text_validity_not_original_enactment_date",
+        "absence_evidence": [
+          {
+            "source_name": "Freistaat Bayern — Kommunalabgabengesetz, article 3(3)",
+            "source_url": "https://www.gesetze-bayern.de/Content/Document/BayKAG-3",
+            "checked_date": "2026-11-02",
+            "finding": "Statutory overnight tax is prohibited under Bavarian KAG article 3(3)."
+          }
+        ],
+        "calculation": {
+          "status": "computable_absence",
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "supported_case": "No statutory accommodation visitor-tax component in the named jurisdiction as checked; this does not resolve other hotel fees.",
+          "required_inputs": [
+            "property_jurisdiction",
+            "continued_applicability_for_travel_date"
+          ],
+          "refuse_when": [
+            "evidence no longer applies to the travel date or property jurisdiction",
+            "a new enacted rule supersedes this observation"
+          ],
+          "evidence_gaps": [],
+          "result_rule": "Emit no statutory-tax charge, with the absence evidence attached. Do not manufacture a numeric source rate or require currency conversion for an absent charge."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 12.9,
+      "currency": "EUR",
+      "unit": "per Burek main dish at UNA Restaurant",
+      "status": "confirmed",
+      "source_name": "UNA Restaurant — official food menu",
+      "source_url": "https://una-restaurant.de/speisekarte/",
+      "checked_date": "2026-11-02",
+      "note": "Beef-filled pastry at the restaurant on Neurieder Straße in Munich. Named inexpensive main-dish observation; drinks and other courses are not included. No publication/effective date was shown, so this records the live menu checked on the stated date, not a guaranteed future tariff."
+    },
+    "midrange_meal_for_two": {
+      "value": 46.9,
+      "currency": "EUR",
+      "unit": "per Balkan Grillplatte explicitly offered for two",
+      "status": "confirmed",
+      "source_name": "UNA Restaurant — official food menu",
+      "source_url": "https://una-restaurant.de/speisekarte/",
+      "checked_date": "2026-11-02",
+      "note": "The menu directly prices this mixed-grill sharing platter for two, with its listed rice/onion/ajvar accompaniments. No multiplication of single-person prices. This is a shared main course, not a multi-course meal or a statistically representative city price; drinks are separate."
+    },
+    "coffee": {
+      "value": 3.9,
+      "currency": "EUR",
+      "unit": "per cappuccino at UNA Restaurant",
+      "status": "confirmed",
+      "source_name": "UNA Restaurant — official drinks menu",
+      "source_url": "https://una-restaurant.de/drinks/",
+      "checked_date": "2026-11-02",
+      "note": "Live published cappuccino price at the same Munich restaurant. No separate menu effective date was established. No average across cup sizes or venues."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Munich Residenz — Residenz Museum",
+      "entry_price": {
+        "value": 10,
+        "currency": "EUR",
+        "unit": "per full-fare adult Residenz Museum admission",
+        "status": "confirmed",
+        "source_name": "Bayerische Schlösserverwaltung — Munich Residenz",
+        "source_url": "https://www.residenz-muenchen.de/englisch/tourist/admiss.htm",
+        "checked_date": "2026-11-02",
+        "note": "2026 museum-only tariff. Treasury, Cuvilliés Theatre and combinations are separate products. The official page offers ticket purchase at the cash desk as well as online, supporting booking_ahead_required=false for individual admission; capacity is not guaranteed."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Nymphenburg Palace — main palace",
+      "entry_price": {
+        "value": 10,
+        "currency": "EUR",
+        "unit": "per full-fare adult main-palace admission",
+        "status": "confirmed",
+        "source_name": "Bayerische Schlösserverwaltung — Nymphenburg Palace",
+        "source_url": "https://schloss-nymphenburg.de/englisch/tourist/admiss.htm",
+        "checked_date": "2026-11-02",
+        "note": "2026 palace-only tariff. Do not substitute a seasonal combination including other museums or park palaces. The official page permits cash-desk and online purchases, so individual advance booking is not required. Seasonal park-palace closures do not turn this into an available all-sites bundle."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Deutsches Museum — Museum Island",
+      "entry_price": {
+        "value": 18,
+        "currency": "EUR",
+        "unit": "per regular adult day ticket, age 18 and over",
+        "status": "confirmed",
+        "source_name": "Deutsches Museum — admission and tickets",
+        "source_url": "https://www.deutsches-museum.de/en/museum-island/visit/admission-and-tickets",
+        "checked_date": "2026-11-02",
+        "note": "Effective 2026-11-02: the live admission and first-visit pages agree with the dated increase notice at https://www.deutsches-museum.de/en/museum/current-news/adjustment-to-admission-prices-from-2-november. Earlier indexed pricing is superseded, not an unresolved current conflict. Online advance purchase is recommended; the increase notice explicitly discusses on-site ticket sales, supporting booking_ahead_required=false."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "BMW Museum",
+      "entry_price": {
+        "value": 17,
+        "currency": "EUR",
+        "unit": "per regular adult BMW Museum single ticket",
+        "status": "confirmed",
+        "source_name": "BMW Welt and BMW Museum — official admission information",
+        "source_url": "https://www.bmw-welt.com/en/index.html",
+        "checked_date": "2026-11-02",
+        "note": "BMW Museum admission, distinct from free BMW Welt entry. The site permits on-site purchase subject to capacity, recommends online purchase at busy times and says the museum counter is cashless. Therefore individual advance booking is not mandatory. The museum's Monday closure includes the collection date; this records a tariff, not same-day availability."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Alte Pinakothek — regular collection admission",
+      "entry_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per regular full-fare adult admission outside the Sunday concession",
+        "status": "disputed",
+        "source_name": "Bayerische Staatsgemäldesammlungen and official Munich city portal",
+        "source_url": "https://www.pinakothek.de/de/besuch",
+        "checked_date": "2026-11-02",
+        "note": "The venue's current visitor page and the city's live Pinakotheken overview publish different regular adult prices. Both were inspected on the collection date; the city page was read directly in the browser. The venue page is stronger purchase evidence, but the discrepancy is retained without selecting or averaging. The museum FAQ permits same-day counter purchase: https://www.pinakothek.de/de/faq (checked on the same date), so booking_ahead_required=false. Sunday concessions are a different product.",
+        "alternatives": [
+          {
+            "value": 9,
+            "currency": "EUR",
+            "unit": "per regular full-fare adult admission outside the Sunday concession",
+            "status": "confirmed",
+            "source_name": "Bayerische Staatsgemäldesammlungen — visitor information",
+            "source_url": "https://www.pinakothek.de/de/besuch",
+            "checked_date": "2026-11-02",
+            "note": "Current venue visitor-page regular tariff. Retained as one side of the official-source discrepancy; not an independently settled parent value."
+          },
+          {
+            "value": 7,
+            "currency": "EUR",
+            "unit": "per regular full-fare adult admission outside the Sunday concession",
+            "status": "confirmed",
+            "source_name": "muenchen.de — official city portal, Pinakotheken overview",
+            "source_url": "https://www.muenchen.de/sehenswuerdigkeiten/museen/pinakotheken",
+            "checked_date": "2026-11-02",
+            "note": "Live city overview still lists this regular tariff; no effective-date explanation reconciles it with the venue visitor page. A separately found archived exhibition page was not used as current evidence."
+          }
+        ]
+      },
+      "booking_ahead_required": false
+    }
+  ],
+  "unresolved": [
+    "Research only. This file is not the production cost schema and must never be read by the application. A future transform must reject unconfirmed/disputed records and preserve product, date, endpoint, visitor eligibility and purchase-channel conditions even for confirmed records.",
+    "day_pass is reserved here for the requested rolling 24-hour product, and pass_72h for 72 consecutive hours. A service-day or calendar-day ticket is not silently substituted. An incomplete product search is not evidence that a product is not offered.",
+    "Eating-out records are named menu observations, not city averages or daily budgets. No official citywide midrange classification was established. Published two-person dishes/packages are recorded directly without doubling individual prices; their inclusions matter.",
+    "The five attractions are a research selection, not a verified popularity ranking. Published tariffs do not assert availability on the collection date or a future travel date. Booking-policy evidence is retained in entry_price.note because the agreed boolean has no envelope.",
+    "accommodation_charges contains verified non-tax accommodation charges. An empty array means no such charge was verified in this research; it is not proof that every property has no service, resort or other fee. Property-specific charges require property-level evidence.",
+    "MUC is assigned to Munich by the repo destination catalogue. FMM is present separately in fare-warm configuration and is served by Munich coaches, but the application-level origin/destination association was not established. Its additional research entry is conditional and must not be silently mapped to all Munich searches. No live airline schedule was verified.",
+    "The verified MUC coach fare ends at Hauptbahnhof; a complete priced and timed journey to a specific historic-centre destination is unresolved. Its online tariff is not proof of an absolute minimum across every purchase channel and pass combination.",
+    "FMM's advertised starting coach price was not converted into a guaranteed bookable fare; a quoted reverse-direction duration was not applied to airport arrivals. All unverified FMM measures remain null.",
+    "Munich's fixed taxi tariff applies to a legally defined Hauptbahnhof zone. Hotel location, passenger-requested detours and statutory surcharges must be checked before applying it. Metered tariff components remain unconfirmed.",
+    "The standard MVV day ticket is a service-day product rather than a rolling 24-hour pass. Exact 24-hour and 72-hour products remain unconfirmed here; this is not a finding that day travel cannot be purchased.",
+    "Bavarian law prohibits the local overnight tax. No operative Munich rate or already-announced dated local rate change was verified. This legal position must not be copied to cities in other German states.",
+    "Alte Pinakothek's conflicting official regular prices are retained in alternatives. The parent price is null and disputed; it must not enter the pricing model until resolved.",
+    "research-v4 retrofit: removes overall journey_minutes, taxi_low/taxi_high and attraction visit durations; preserves journey_legs and fixed_fare_transfer; adds taxi_tariffs component envelopes and explicit transit validity_area. Missing meter components stay unconfirmed. Structured tax and charge calculation metadata supersede the legacy shape exceptions in tax-basis-registry.json. The later not_levied basis extension is used for positively sourced absence."
+  ]
+}

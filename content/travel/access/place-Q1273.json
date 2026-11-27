@@ -1,0 +1,59 @@
+{
+  "destinationSubject": "place:Q1273",
+  "relationship": "direct-destination",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T11:56:03.536Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "provider-cities",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "id": "provider-airports",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "id": "official-access",
+      "url": "https://www.visittuscany.com/en/getting-here",
+      "checkedAt": "2026-10-14T11:56:03.536Z"
+    }
+  ],
+  "directEntries": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "FLR",
+      "cityLabel": {
+        "en": "Florence",
+        "sq": "Firence"
+      },
+      "airportCodes": [
+        "FLR"
+      ],
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access"
+      ]
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "PSA",
+      "cityLabel": {
+        "en": "Pisa",
+        "sq": "Piza"
+      },
+      "airportCodes": [
+        "PSA"
+      ],
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access"
+      ]
+    }
+  ]
+}

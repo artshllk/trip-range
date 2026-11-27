@@ -1,0 +1,336 @@
+{
+  "city": "Frankfurt",
+  "country_code": "DE",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "FRA",
+      "public_option_name": "S8/S9 regional-station route, ordinary RMV single",
+      "public_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per adult ordinary FRA–Frankfurt single",
+        "status": "disputed",
+        "source_name": "RMV — conflicting public and QA pages",
+        "source_url": "https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/einzelfahrkarte",
+        "checked_date": "2026-11-02",
+        "note": "Production page lists the current higher fare, corroborated by the 2026 VGF/RMV price lists. An indexed RMV QA host still publishes the lower figure. Both retained as requested; the QA artefact is not reliable current-production evidence and no scalar is selected.",
+        "alternatives": [
+          {
+            "value": 6.9,
+            "currency": "EUR",
+            "unit": "per adult airport–Frankfurt single",
+            "status": "confirmed",
+            "source_name": "RMV — production ticket page",
+            "source_url": "https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/einzelfahrkarte",
+            "checked_date": "2026-11-02",
+            "note": "Tariff areas 5090 airport and 5000 Frankfurt. Current official indexed page was readable; direct opening timed out. Corroboration: https://www.vgf-ffm.de/fileadmin/VGF/Tickets__Tarife__Plaene/Fahrpreise/Images/Content/Preisliste_2026.pdf. No subscription or stored-value prepayment assumed."
+          },
+          {
+            "value": 6.6,
+            "currency": "EUR",
+            "unit": "per adult airport–Frankfurt single",
+            "status": "confirmed",
+            "source_name": "RMV — QA host, undated",
+            "source_url": "https://cms.rmv-qa.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/einzelfahrkarte",
+            "checked_date": "2026-11-02",
+            "note": "Non-production operator-hosted page; apparent stale fare, not selected as current. The provenance matters: this is not a second 2026 tariff."
+          }
+        ]
+      },
+      "journey_legs": [
+        {
+          "origin": "Frankfurt (Main) Hbf, underground S-Bahn platforms",
+          "destination": "Frankfurt (Main) Flughafen Regionalbahnhof",
+          "mode": "S8/S9, published city-to-airport direction",
+          "duration_minutes": {
+            "value": 12,
+            "currency": null,
+            "unit": "published approximate rail-leg minutes in the stated direction",
+            "status": "confirmed",
+            "source_name": "DB InfraGO — bahnhof.de",
+            "source_url": "https://www.bahnhof.de/frankfurt-main-hbf/fahrt-nach-flughafen-frankfurt",
+            "checked_date": "2026-11-02",
+            "note": "The official indexed station guide publishes this outbound leg. It is retained in its actual direction, not silently reversed or extended to a terminal/hotel. The direct rendering omitted the guide body; indexed official text includes the route and duration."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per vehicle fixed airport–centre transfer",
+        "status": "unconfirmed",
+        "source_name": "City of Frankfurt — Taxentarif",
+        "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/taxentarif.pdf",
+        "checked_date": "2026-11-02",
+        "note": "Prearranged route-specific fixed quotes and a distance-price corridor are permitted. No universal flat airport-to-centre tariff verified; sightseeing airport tours are a different product."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Frankfurt ordinary metered taxi",
+          "applicability": "Standard vehicle within Frankfurt compulsory service area; large-vehicle additions excluded.",
+          "base_fare": {
+            "value": 4,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Frankfurt ordinary metered taxi",
+            "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/taxentarif.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Current city ordinance PDF, consolidated through 2025. No standalone airport surcharge amount was verified; absence of an amount here is not a zero."
+          },
+          "per_km": {
+            "value": 2.4,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Frankfurt ordinary metered taxi",
+            "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/taxentarif.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Current city ordinance PDF, consolidated through 2025. No standalone airport surcharge amount was verified; absence of an amount here is not a zero."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Frankfurt ordinary metered taxi",
+            "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/taxentarif.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Current city ordinance PDF, consolidated through 2025. No standalone airport surcharge amount was verified; absence of an amount here is not a zero. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Frankfurt ordinary metered taxi",
+            "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/taxentarif.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Current city ordinance PDF, consolidated through 2025. No standalone airport surcharge amount was verified; absence of an amount here is not a zero. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 38,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Frankfurt ordinary metered taxi",
+            "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/taxentarif.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 3.8,
+      "currency": "EUR",
+      "unit": "per adult ordinary city single",
+      "status": "confirmed",
+      "source_name": "RMV",
+      "source_url": "https://www.rmv.de/c/de/tickets/sortiment/tickets-im-ueberblick/einzelpersonen/einzelfahrkarte",
+      "checked_date": "2026-11-02",
+      "note": "Ordinary adult fare, not a short-trip fare. RMV prepaid savings require a separate funded product and have not been applied arithmetically.",
+      "validity_area": "RMV tariff area 5000 Frankfurt city, excluding airport area 5090."
+    },
+    "day_pass": {
+      "value": 7.75,
+      "currency": "EUR",
+      "unit": "per adult service-day ticket, NOT rolling 24 hours",
+      "status": "confirmed",
+      "source_name": "RMV — 2026 price list",
+      "source_url": "https://www.rmv.de/c/fileadmin/documents/PDFs/_RMV_DE/Infomaterial/Fahrkarten-_und_Tarifinformationen/Preisliste.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Valid until 05:00 following morning; validity source https://www.rmv.de/c/en/tickets/your-ticket/tickets-overview/single-tickets/day-ticket. Reject if a rolling 24-hour pass is required.",
+      "validity_area": "RMV tariff area 5000 Frankfurt city, excluding airport area 5090.",
+      "validity_kind": "service_day",
+      "satisfies_rolling_24h_requirement": false
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per adult rolling 72-hour transit pass",
+      "status": "unconfirmed",
+      "source_name": "Tourismus+Congress Frankfurt — Frankfurt Card",
+      "source_url": "https://www.visitfrankfurt.travel/buchen/frankfurt-card/All",
+      "checked_date": "2026-11-02",
+      "note": "No exact rolling 72-hour product verified. The 2026–2027 flyer advertises a three-day card with transport, whereas the live product table offers three days only for the transport-excluding basic variant: https://www.visitfrankfurt.travel/fileadmin/Mediendatenbank/Dokumente/Broschueren/Frankfurt_Card_Flyer_2026-2027.pdf. Calendar-day cards cannot substitute for 72 hours. This unresolved product conflict does not prove nonexistence.",
+      "validity_area": "Unconfirmed exact 72-hour product; Frankfurt Card ordinary transit coverage is city plus airport only when transport is included."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2024-10-01",
+        "to": null,
+        "basis": "per_person_per_night",
+        "rate": {
+          "value": 2,
+          "currency": "EUR",
+          "unit": "per liable nonresident per overnight stay",
+          "status": "confirmed",
+          "source_name": "City of Frankfurt — Tourismusbeitragssatzung §§ 2–5",
+          "source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/tourismusbeitragssatzung-ab-01_10_2024.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Statutory tourism contribution, not a voluntary hotel/BID charge. Arrival and departure count together as one day. This period marks the current regime including business trips, not the original introduction of the contribution. Current city tax page corroborates the rate; no dated future change verified."
+        },
+        "exemptions": "People with a main or secondary residence in the municipality are outside the nonresident definition. Section 5 exempts free private hospitality; hospital patients and accompanying people accommodated there; stays exclusively for vocational training; pupils and accompanying teachers; and qualifying medically certified inability to use tourism facilities on application. Do not infer a general child or business exemption.",
+        "legal_source_url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/rechtsamt/pdf/satzungen/tourismusbeitragssatzung-ab-01_10_2024.pdf",
+        "charge_unit": "liable_person_night",
+        "night_count_rule": {
+          "kind": "actual_qualifying_nights_in_jurisdiction",
+          "cap": null,
+          "cap_status": "not_verified_or_not_applicable",
+          "note": "Resolve the city-specific exemption and stay rules before counting. A null cap is not proof that no cap exists."
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "taxable_person_nights",
+            "guest_age_and_trip_category",
+            "continuous_stay_history_at_same_property",
+            "main_or_secondary_residence_in_Frankfurt",
+            "hospital_training_school_or_medical_exemption_status"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed"
+          ],
+          "evidence_gaps": [],
+          "status": "conditional",
+          "supported_case": "Ordinary paid short leisure stay with independently resolved taxable person-nights and no special assessment agreement."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 13.9,
+      "currency": "EUR",
+      "unit": "per Hacksteak main with roast onions and fried potatoes",
+      "status": "confirmed",
+      "source_name": "Apfelwein Wagner — current menu",
+      "source_url": "https://www.apfelwein-wagner.com/speisen/",
+      "checked_date": "2026-11-02",
+      "note": "Named main, drinks excluded. An older dated 2021 menu is not treated as current."
+    },
+    "midrange_meal_for_two": {
+      "value": 39.9,
+      "currency": "EUR",
+      "unit": "per grill platter explicitly for two people",
+      "status": "confirmed",
+      "source_name": "Taverna Hellas Frankfurt — menu",
+      "source_url": "https://www.taverna-hellas-frankfurt.de/speisekarte",
+      "checked_date": "2026-11-02",
+      "note": "Published two-person platter total, not two multiplied individual meals. Drinks and gratuity excluded; undated live menu, no representativeness claim."
+    },
+    "coffee": {
+      "value": 3.2,
+      "currency": "EUR",
+      "unit": "per cup of Kaffee",
+      "status": "confirmed",
+      "source_name": "Apfelweinwirtschaft Atschel — current menu",
+      "source_url": "https://atschel.de/index.php?lang=de",
+      "checked_date": "2026-11-02",
+      "note": "Published coffee item, not a city average."
+    }
+  },
+  "attractions": [
+    {
+      "name": "MAIN TOWER observation platform",
+      "entry_price": {
+        "value": 9,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "MAIN TOWER observation platform — official visitor information",
+        "source_url": "https://www.maintower.de/eintrittspreise-oeffnungszeiten/",
+        "checked_date": "2026-11-02",
+        "note": "Adult on-site ticket. Online transaction surcharge excluded by choosing the explicitly priced counter channel. Counter purchase confirmed in https://www.maintower.de/faq/."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Städel Museum",
+      "entry_price": {
+        "value": 19,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Städel Museum — official visitor information",
+        "source_url": "https://www.staedelmuseum.de/de/besuch/ticket-informationen",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary adult admission; official ticket page allows on-site purchase. No concession, group or special-event product assumed."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Palmengarten",
+      "entry_price": {
+        "value": 10,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Palmengarten — official visitor information",
+        "source_url": "https://www.palmengarten.de/de/ihr-besuch/palmengarten.html",
+        "checked_date": "2026-11-02",
+        "note": "Dated exhibition-period admission from 2026-10-16 through 2027-02-07. The ordinary lower admission outside this period is not a conflicting same-date price. Source says reservations are unnecessary. Recheck for travel outside this period."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Senckenberg Naturmuseum Frankfurt",
+      "entry_price": {
+        "value": 12,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Senckenberg Naturmuseum Frankfurt — official visitor information",
+        "source_url": "https://museumfrankfurt.senckenberg.de/de/besuch/",
+        "checked_date": "2026-11-02",
+        "note": "Adult ordinary admission. Venue explicitly says advance online purchase is no longer necessary."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Goethe House and Deutsches Romantik-Museum",
+      "entry_price": {
+        "value": 12,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Goethe House and Deutsches Romantik-Museum — official visitor information",
+        "source_url": "https://frankfurter-goethe-haus.de/besuch/",
+        "checked_date": "2026-11-02",
+        "note": "Combined adult admission. Venue specifies ticket-counter purchase and no online ticket sale."
+      },
+      "booking_ahead_required": false
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "FRA is the Frankfurt airport code in the repository catalogue. HHN was not added on the strength of a marketing city name or an assumed origin route; live route coverage still needs reconciliation.",
+    "The current production airport fare is supported, but the conflicting indexed QA amount is preserved. Airport public_price remains disputed under the strict policy.",
+    "The public transport choice is an ordinary unsubsidised one-off ticket. Prepaid/app conditional savings were not fully compared, so an absolute cheapest-for-every-traveller claim is unconfirmed.",
+    "No exact 72-hour transit product or airport fixed taxi amount verified. The day product is not rolling 24 hours.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

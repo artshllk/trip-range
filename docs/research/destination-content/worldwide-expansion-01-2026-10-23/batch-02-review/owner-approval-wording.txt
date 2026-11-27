@@ -1,0 +1,5 @@
+Proposed wording only — no approval has been recorded.
+
+After reviewing the exact worldwide-batch2-review-v1 packet and its listed source limitations:
+
+I approve the pinned Tokyo, Kyoto, Bangkok and Marrakesh English v3 drafts, identities, sources, itinerary selection/order and freshness requirements in worldwide-batch2-review-v1. Record reviewer GoEksplo Owner and prepare their local integration through the existing editorial workflow, including the required Tokyo/Kyoto planning-target checks. Retain the intentional no-photo layouts; this approves no new images. Do not commit, push, deploy or change infrastructure.

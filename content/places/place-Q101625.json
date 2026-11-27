@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q101625",
+  "name": "Marrakesh",
+  "countryCode": "MA",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 31.6294694444,
+    "longitude": -7.9810805556
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q101625"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:23:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

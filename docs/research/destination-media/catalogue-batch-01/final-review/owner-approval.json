@@ -1,0 +1,1305 @@
+{
+  "schemaVersion": 1,
+  "kind": "explicit-owner-media-and-identity-approval",
+  "reviewer": "GoEksplo Owner",
+  "reviewedAt": "2026-10-22T11:50:36.378Z",
+  "authorization": "Owner explicitly approved the exact photographs, hero/card crops, attribution, licence requirements and proposed identity mappings for the eight named destinations in this chat. Integrate this subset locally only; preserve existing gates. No commit, push, deployment or infrastructure changes authorized.",
+  "scope": [
+    "crete",
+    "istanbul",
+    "prishtina",
+    "prizren",
+    "skopje",
+    "thessaloniki",
+    "ulcinj",
+    "zurich"
+  ],
+  "excludedSubjects": [
+    "brezovica",
+    "mavrovo",
+    "mirusha",
+    "rugova"
+  ],
+  "reviewPacket": {
+    "id": "catalogue-batch-01-final-v2",
+    "files": {
+      "candidates.json": "01272026c426fbf68f8027c83adca55c5f6125dc0dbd244b82890670290367e9",
+      "gallery.html": "8a0f898fc19618ff589f6114bac0918a0067ff6b499cc0f5fe63983378b4dca8",
+      "identity/review.json": "2d11035088db6b860f5132bcd37e858d778ab3c384f3c2536146b4eb5e7c923a",
+      "README.md": "f9d665a3b0a34639b74537bed622e2b4d9d0ada743178c1203d8b9306db1ecbf"
+    }
+  },
+  "registryBeforeSha256": "ff71390aac25ce083753a522d38e0f841a39b39226bc67d8a2c5b632660e5ef3",
+  "publicationStatus": "integrated-locally-not-deployed",
+  "identityAcceptance": [
+    {
+      "subject": "crete",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q34374"
+      },
+      "existingIdentityPreserved": true,
+      "acceptedProposal": null,
+      "identity": {
+        "subject": "crete",
+        "name": "Crete",
+        "countryCode": "GR",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 35.3097222222,
+          "longitude": 24.8933333333
+        },
+        "iataCodes": [
+          "HER",
+          "CHQ"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q34374"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "0eb060da1a085c89faa4346f9e8970d0a7fc39ca65fd3533cab44d91b164b536"
+    },
+    {
+      "subject": "istanbul",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q406"
+      },
+      "existingIdentityPreserved": true,
+      "acceptedProposal": null,
+      "identity": {
+        "subject": "istanbul",
+        "name": "Istanbul",
+        "countryCode": "TR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.01,
+          "longitude": 28.9602777778
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q406"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "f41f45a5cfd6b03a7aee7747d7535db0c4ebaf0e69d1da0e61315b0ac7dddc35"
+    },
+    {
+      "subject": "prishtina",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q25270"
+      },
+      "existingIdentityPreserved": true,
+      "acceptedProposal": null,
+      "identity": {
+        "subject": "prishtina",
+        "name": "Prishtina",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.6666666667,
+          "longitude": 21.1666666667
+        },
+        "iataCodes": [
+          "PRN"
+        ],
+        "cityCode": "PRN",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q25270"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "be3f1bac819d4bd846fbb20d770444d5fb4601433044da84643468c8f0f2b9dc"
+    },
+    {
+      "subject": "prizren",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q200061"
+      },
+      "existingIdentityPreserved": false,
+      "acceptedProposal": "identity/records/prizren.json",
+      "identity": {
+        "subject": "prizren",
+        "name": "Prizren",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.23,
+          "longitude": 20.74
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q200061"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "d610f0da09032961609f793f28084f77c91f85192b80b74f1421c91872b67d43"
+    },
+    {
+      "subject": "skopje",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q384"
+      },
+      "existingIdentityPreserved": false,
+      "acceptedProposal": "identity/records/skopje.json",
+      "identity": {
+        "subject": "skopje",
+        "name": "Skopje",
+        "countryCode": "MK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.99611111111111,
+          "longitude": 21.431666666666665
+        },
+        "iataCodes": [
+          "SKP"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q384"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "7fb03c2aed5348bbbb5e3aaa74dcb36fd59d40714b4b3dab154b07f4efa1a0c5"
+    },
+    {
+      "subject": "thessaloniki",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q17151"
+      },
+      "existingIdentityPreserved": false,
+      "acceptedProposal": "identity/records/thessaloniki.json",
+      "identity": {
+        "subject": "thessaloniki",
+        "name": "Thessaloniki",
+        "countryCode": "GR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.640277777777776,
+          "longitude": 22.935555555555556
+        },
+        "iataCodes": [
+          "SKG"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q17151"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "75849902441b8b9a874827e0c5068cd6bc0421da9060ec6147fdd3e01b6bdb2f"
+    },
+    {
+      "subject": "ulcinj",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q189969"
+      },
+      "existingIdentityPreserved": false,
+      "acceptedProposal": "identity/records/ulcinj.json",
+      "identity": {
+        "subject": "ulcinj",
+        "name": "Ulcinj",
+        "countryCode": "ME",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.923611111111,
+          "longitude": 19.205555555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q189969"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "f044e6f5f61e2b5ab22dae6351ae8385ef413eca386784e7d80fcd377cbae1d9"
+    },
+    {
+      "subject": "zurich",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q72"
+      },
+      "existingIdentityPreserved": false,
+      "acceptedProposal": "identity/records/zurich.json",
+      "identity": {
+        "subject": "zurich",
+        "name": "Zurich",
+        "countryCode": "CH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 47.37444444444444,
+          "longitude": 8.54111111111111
+        },
+        "iataCodes": [
+          "ZRH"
+        ],
+        "cityCode": "ZRH",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q72"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "identitySha256": "760a6a2f541f3869460d443d814e45697fe012cee6d1eecb4348b1d4bdd3a5ef"
+    }
+  ],
+  "assets": [
+    {
+      "subject": "crete",
+      "assetId": "commons:82826175",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+      "originalDimensions": {
+        "width": 9626,
+        "height": 3236
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "a5418625a8f30ceb705da8ea7c53246de3d42db3"
+      },
+      "author": "Ввласенко",
+      "attribution": "Ввласенко · Wikimedia Commons · CC BY-SA 3.0 · cropped and resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-22T10:40:38.094Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.3,
+            "y": 0.5
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.3,
+            "y": 0.5
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "crop": {
+          "left": 461,
+          "top": 0,
+          "width": 8090,
+          "height": 3236
+        },
+        "src": "/destinations/crete-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/crete-640.webp",
+            "width": 640,
+            "height": 256,
+            "bytes": 26304,
+            "sha256": "886870f7376029a8ac86a292c737815b0c1a5902b13bf3532370ef505b70af5e"
+          },
+          {
+            "src": "/destinations/crete-1200.webp",
+            "width": 1200,
+            "height": 480,
+            "bytes": 83236,
+            "sha256": "befe9cbece378ca7ae814fe6a87300a563ab402513ecdde50eeb372b02b7be42"
+          },
+          {
+            "src": "/destinations/crete-1920.webp",
+            "width": 1920,
+            "height": 768,
+            "bytes": 196164,
+            "sha256": "67d71f03165c5fc2b740daa2b00a0cc1fb96aa67709430e43beb4c9b0d5d2541"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:82826175",
+        "provider": "wikimedia-commons",
+        "providerFileId": "82826175",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "a5418625a8f30ceb705da8ea7c53246de3d42db3"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Harbor%2C_Venetian_shipyards_and_Lighthouse_in_Chania._Crete%2C_Greece.jpg",
+        "width": 9626,
+        "height": 3236,
+        "mimeType": "image/jpeg",
+        "author": "Ввласенко",
+        "attribution": "Ввласенко · Wikimedia Commons · CC BY-SA 3.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:38.094Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:38.094Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 461,
+            "top": 0,
+            "width": 8090,
+            "height": 3236
+          },
+          "src": "/destinations/crete-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/crete-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 26304,
+              "sha256": "886870f7376029a8ac86a292c737815b0c1a5902b13bf3532370ef505b70af5e"
+            },
+            {
+              "src": "/destinations/crete-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 83236,
+              "sha256": "befe9cbece378ca7ae814fe6a87300a563ab402513ecdde50eeb372b02b7be42"
+            },
+            {
+              "src": "/destinations/crete-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 196164,
+              "sha256": "67d71f03165c5fc2b740daa2b00a0cc1fb96aa67709430e43beb4c9b0d5d2541"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Chania old harbour on Crete (2019)"
+      },
+      "focalPoint": {
+        "x": 0.3,
+        "y": 0.5
+      }
+    },
+    {
+      "subject": "istanbul",
+      "assetId": "commons:34203027",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+      "originalDimensions": {
+        "width": 6009,
+        "height": 1354
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+      },
+      "author": "Tolga Tüfekçi",
+      "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-22T10:40:43.925Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.5
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.5
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "crop": {
+          "left": 1443,
+          "top": 0,
+          "width": 3385,
+          "height": 1354
+        },
+        "src": "/destinations/istanbul-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/istanbul-640.webp",
+            "width": 640,
+            "height": 256,
+            "bytes": 34394,
+            "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+          },
+          {
+            "src": "/destinations/istanbul-1200.webp",
+            "width": 1200,
+            "height": 480,
+            "bytes": 98924,
+            "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+          },
+          {
+            "src": "/destinations/istanbul-1920.webp",
+            "width": 1920,
+            "height": 768,
+            "bytes": 209224,
+            "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:34203027",
+        "provider": "wikimedia-commons",
+        "providerFileId": "34203027",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Panorama_Istanbul.jpg",
+        "width": 6009,
+        "height": 1354,
+        "mimeType": "image/jpeg",
+        "author": "Tolga Tüfekçi",
+        "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Istanbul and its waterways seen from Galata Tower (2014)"
+      },
+      "focalPoint": {
+        "x": 0.55,
+        "y": 0.5
+      }
+    },
+    {
+      "subject": "prishtina",
+      "assetId": "commons:148809793",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+      "originalDimensions": {
+        "width": 4032,
+        "height": 2268
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "0a88d014f80d78028537487a8954b259cc6b08d8"
+      },
+      "author": "Planeti",
+      "attribution": "Planeti · Wikimedia Commons · CC0 1.0 · resized to WebP; cropped for hero/card display",
+      "licence": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verifiedAt": "2026-10-22T11:02:55.457Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.54,
+            "y": 0.63
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.54,
+            "y": 0.63
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/prishtina-2024-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/prishtina-2024-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 50834,
+            "sha256": "3173ac1a3eb634cd542cc0893fcb9106c714756fcfa394b0a403fb5923a8eea1"
+          },
+          {
+            "src": "/destinations/prishtina-2024-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 161216,
+            "sha256": "9377bd6359a5ba9acb95d78e788cdaaebc58c3d0d6803c1dab4549eef46c2575"
+          },
+          {
+            "src": "/destinations/prishtina-2024-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 378628,
+            "sha256": "5fcf7f017fcad66e39cc03b905d233837b57ca0310693c72145eb3e1c0a555ef"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:148809793",
+        "provider": "wikimedia-commons",
+        "providerFileId": "148809793",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "0a88d014f80d78028537487a8954b259cc6b08d8"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+        "width": 4032,
+        "height": 2268,
+        "mimeType": "image/jpeg",
+        "author": "Planeti",
+        "attribution": "Planeti · Wikimedia Commons · CC0 1.0 · resized to WebP; cropped for hero/card display",
+        "license": {
+          "name": "CC0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "verifiedAt": "2026-10-22T11:02:55.457Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T11:02:55.457Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/prishtina-2024-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prishtina-2024-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50834,
+              "sha256": "3173ac1a3eb634cd542cc0893fcb9106c714756fcfa394b0a403fb5923a8eea1"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 161216,
+              "sha256": "9377bd6359a5ba9acb95d78e788cdaaebc58c3d0d6803c1dab4549eef46c2575"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 378628,
+              "sha256": "5fcf7f017fcad66e39cc03b905d233837b57ca0310693c72145eb3e1c0a555ef"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Prishtina city view with the National Library and university area (2024)"
+      },
+      "focalPoint": {
+        "x": 0.54,
+        "y": 0.63
+      }
+    },
+    {
+      "subject": "prizren",
+      "assetId": "commons:30821502",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Prizren_Stone_Bridge.jpg",
+      "originalDimensions": {
+        "width": 2747,
+        "height": 1820
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "3a70fd781e1aabd25aab79d48ebdac2e229d989e"
+      },
+      "author": "Bujar Imer Gashi",
+      "attribution": "Bujar Imer Gashi · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-22T10:40:41.275Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/prizren-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/prizren-640.webp",
+            "width": 640,
+            "height": 424,
+            "bytes": 74862,
+            "sha256": "d74be86f4a8aa967c0b1f4f709838481dbdfb3cfbcc584f39698aaa0dc3fb226"
+          },
+          {
+            "src": "/destinations/prizren-1200.webp",
+            "width": 1200,
+            "height": 795,
+            "bytes": 221946,
+            "sha256": "6fffe3f7f98a22c89f27506f02de2a260b65f0d189dbdbe6aa929cb043159e4a"
+          },
+          {
+            "src": "/destinations/prizren-1920.webp",
+            "width": 1920,
+            "height": 1272,
+            "bytes": 466976,
+            "sha256": "5f9617f76de5b5c07a88f0c683499fd6ee86c92dab9d27b49a99c01bcf1be46f"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:30821502",
+        "provider": "wikimedia-commons",
+        "providerFileId": "30821502",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "3a70fd781e1aabd25aab79d48ebdac2e229d989e"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Prizren_Stone_Bridge.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Prizren_Stone_Bridge.jpg",
+        "width": 2747,
+        "height": 1820,
+        "mimeType": "image/jpeg",
+        "author": "Bujar Imer Gashi",
+        "attribution": "Bujar Imer Gashi · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:41.275Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:41.275Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/prizren-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prizren-640.webp",
+              "width": 640,
+              "height": 424,
+              "bytes": 74862,
+              "sha256": "d74be86f4a8aa967c0b1f4f709838481dbdfb3cfbcc584f39698aaa0dc3fb226"
+            },
+            {
+              "src": "/destinations/prizren-1200.webp",
+              "width": 1200,
+              "height": 795,
+              "bytes": 221946,
+              "sha256": "6fffe3f7f98a22c89f27506f02de2a260b65f0d189dbdbe6aa929cb043159e4a"
+            },
+            {
+              "src": "/destinations/prizren-1920.webp",
+              "width": 1920,
+              "height": 1272,
+              "bytes": 466976,
+              "sha256": "5f9617f76de5b5c07a88f0c683499fd6ee86c92dab9d27b49a99c01bcf1be46f"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Stone Bridge in Prizren (2013)"
+      },
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.58
+      }
+    },
+    {
+      "subject": "skopje",
+      "assetId": "commons:36333116",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+      "originalDimensions": {
+        "width": 4608,
+        "height": 3072
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "77bb5054d2031bc548de3cddd0d4340f8237fee6"
+      },
+      "author": "Edon Bayrami",
+      "attribution": "Edon Bayrami · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-22T10:40:41.971Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.46,
+            "y": 0.6
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.46,
+            "y": 0.6
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/skopje-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/skopje-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 27388,
+            "sha256": "4e170a249ca2c4f62aef065115588966129fe1fe2d320d24b9f29888eb6a784b"
+          },
+          {
+            "src": "/destinations/skopje-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 77472,
+            "sha256": "da32fb9bacb99d08a16eea3f44f8816ee01648ff6e2a152066270178282cff56"
+          },
+          {
+            "src": "/destinations/skopje-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 170478,
+            "sha256": "66234c7f3433b008e65b584138b28c6961053e4d4b7e1734b082478f22fc7ce2"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:36333116",
+        "provider": "wikimedia-commons",
+        "providerFileId": "36333116",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "77bb5054d2031bc548de3cddd0d4340f8237fee6"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Skopje_Stone_Bridge.JPG",
+        "width": 4608,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "author": "Edon Bayrami",
+        "attribution": "Edon Bayrami · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:41.971Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:41.971Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/skopje-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/skopje-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27388,
+              "sha256": "4e170a249ca2c4f62aef065115588966129fe1fe2d320d24b9f29888eb6a784b"
+            },
+            {
+              "src": "/destinations/skopje-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 77472,
+              "sha256": "da32fb9bacb99d08a16eea3f44f8816ee01648ff6e2a152066270178282cff56"
+            },
+            {
+              "src": "/destinations/skopje-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 170478,
+              "sha256": "66234c7f3433b008e65b584138b28c6961053e4d4b7e1734b082478f22fc7ce2"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Stone Bridge over the Vardar in Skopje (2014)"
+      },
+      "focalPoint": {
+        "x": 0.46,
+        "y": 0.6
+      }
+    },
+    {
+      "subject": "thessaloniki",
+      "assetId": "commons:71127147",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+      "originalDimensions": {
+        "width": 5787,
+        "height": 3582
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf"
+      },
+      "author": "Berthold Werner",
+      "attribution": "Berthold Werner · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-22T10:40:42.379Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.67,
+            "y": 0.55
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.67,
+            "y": 0.55
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/thessaloniki-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/thessaloniki-640.webp",
+            "width": 640,
+            "height": 396,
+            "bytes": 50314,
+            "sha256": "7f06a4cb7cc0697f4ccfadac32a6f166cb0cd706d5a5e0a7d6ad2db33c11706e"
+          },
+          {
+            "src": "/destinations/thessaloniki-1200.webp",
+            "width": 1200,
+            "height": 743,
+            "bytes": 187164,
+            "sha256": "a7d9e7543a07a6508b10708986c5be3ca217cb2b0a6e3965c58ec876f3de643e"
+          },
+          {
+            "src": "/destinations/thessaloniki-1920.webp",
+            "width": 1920,
+            "height": 1189,
+            "bytes": 448578,
+            "sha256": "c31845d64a60c9932c8eb575b83322847e474070eac2c4c8720679af4c4c0381"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:71127147",
+        "provider": "wikimedia-commons",
+        "providerFileId": "71127147",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+        "width": 5787,
+        "height": 3582,
+        "mimeType": "image/jpeg",
+        "author": "Berthold Werner",
+        "attribution": "Berthold Werner · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:42.379Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:42.379Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/thessaloniki-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/thessaloniki-640.webp",
+              "width": 640,
+              "height": 396,
+              "bytes": 50314,
+              "sha256": "7f06a4cb7cc0697f4ccfadac32a6f166cb0cd706d5a5e0a7d6ad2db33c11706e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1200.webp",
+              "width": 1200,
+              "height": 743,
+              "bytes": 187164,
+              "sha256": "a7d9e7543a07a6508b10708986c5be3ca217cb2b0a6e3965c58ec876f3de643e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1920.webp",
+              "width": 1920,
+              "height": 1189,
+              "bytes": 448578,
+              "sha256": "c31845d64a60c9932c8eb575b83322847e474070eac2c4c8720679af4c4c0381"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "White Tower and seafront in Thessaloniki (2017)"
+      },
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.55
+      }
+    },
+    {
+      "subject": "ulcinj",
+      "assetId": "commons:18569302",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+      "originalDimensions": {
+        "width": 3990,
+        "height": 2166
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6"
+      },
+      "author": "Dudva",
+      "attribution": "Dudva · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-22T10:40:43.020Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.55
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.55
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/ulcinj-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/ulcinj-640.webp",
+            "width": 640,
+            "height": 347,
+            "bytes": 49242,
+            "sha256": "f94b20d932cb5e2db352e10653cdd26cca50f215c3325d02b05dfa26cb528bcf"
+          },
+          {
+            "src": "/destinations/ulcinj-1200.webp",
+            "width": 1200,
+            "height": 651,
+            "bytes": 141588,
+            "sha256": "8c3a941bcbc6e5a005b0710d904237df7cbc7b04d00c66029d1860d05612ffd5"
+          },
+          {
+            "src": "/destinations/ulcinj-1920.webp",
+            "width": 1920,
+            "height": 1042,
+            "bytes": 317144,
+            "sha256": "26720bfb6b27c1be6d2ec8da7457e309e9216ba354b217dcc210ef00742d9374"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:18569302",
+        "provider": "wikimedia-commons",
+        "providerFileId": "18569302",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Panorama_of_Ulcinj_in_Montenegro_%281%29.jpg",
+        "width": 3990,
+        "height": 2166,
+        "mimeType": "image/jpeg",
+        "author": "Dudva",
+        "attribution": "Dudva · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:43.020Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.020Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/ulcinj-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/ulcinj-640.webp",
+              "width": 640,
+              "height": 347,
+              "bytes": 49242,
+              "sha256": "f94b20d932cb5e2db352e10653cdd26cca50f215c3325d02b05dfa26cb528bcf"
+            },
+            {
+              "src": "/destinations/ulcinj-1200.webp",
+              "width": 1200,
+              "height": 651,
+              "bytes": 141588,
+              "sha256": "8c3a941bcbc6e5a005b0710d904237df7cbc7b04d00c66029d1860d05612ffd5"
+            },
+            {
+              "src": "/destinations/ulcinj-1920.webp",
+              "width": 1920,
+              "height": 1042,
+              "bytes": 317144,
+              "sha256": "26720bfb6b27c1be6d2ec8da7457e309e9216ba354b217dcc210ef00742d9374"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Ulcinj waterfront and hillside buildings (2011)"
+      },
+      "focalPoint": {
+        "x": 0.55,
+        "y": 0.55
+      }
+    },
+    {
+      "subject": "zurich",
+      "assetId": "commons:119510626",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zurich_Skyline.jpg",
+      "originalDimensions": {
+        "width": 3264,
+        "height": 2448
+      },
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "6329cf0ee10b576d4a88b26db1b9d092a599f145"
+      },
+      "author": "Schuetze75",
+      "attribution": "Schuetze75 · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-22T10:40:45.338Z"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        }
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/zurich-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/zurich-640.webp",
+            "width": 640,
+            "height": 480,
+            "bytes": 37424,
+            "sha256": "d0ea90b9bfb547c69984da8e4fca8e4a4b8c4aa2b8ee0e8fe55eeb35c9425471"
+          },
+          {
+            "src": "/destinations/zurich-1200.webp",
+            "width": 1200,
+            "height": 900,
+            "bytes": 126484,
+            "sha256": "d1215ca6ad60610df89789c0509163c128cf7f8c3f81aa8bdb2a34a5f87a5486"
+          },
+          {
+            "src": "/destinations/zurich-1920.webp",
+            "width": 1920,
+            "height": 1440,
+            "bytes": 287820,
+            "sha256": "3dc48d52a7458e9efb03cc31edc3882e3d14407f83d04423f4818a7fd3b26b11"
+          }
+        ]
+      },
+      "reviewedAsset": {
+        "id": "commons:119510626",
+        "provider": "wikimedia-commons",
+        "providerFileId": "119510626",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "6329cf0ee10b576d4a88b26db1b9d092a599f145"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Zurich_Skyline.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zurich_Skyline.jpg",
+        "width": 3264,
+        "height": 2448,
+        "mimeType": "image/jpeg",
+        "author": "Schuetze75",
+        "attribution": "Schuetze75 · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:45.338Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:45.338Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/zurich-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/zurich-640.webp",
+              "width": 640,
+              "height": 480,
+              "bytes": 37424,
+              "sha256": "d0ea90b9bfb547c69984da8e4fca8e4a4b8c4aa2b8ee0e8fe55eeb35c9425471"
+            },
+            {
+              "src": "/destinations/zurich-1200.webp",
+              "width": 1200,
+              "height": 900,
+              "bytes": 126484,
+              "sha256": "d1215ca6ad60610df89789c0509163c128cf7f8c3f81aa8bdb2a34a5f87a5486"
+            },
+            {
+              "src": "/destinations/zurich-1920.webp",
+              "width": 1920,
+              "height": 1440,
+              "bytes": 287820,
+              "sha256": "3dc48d52a7458e9efb03cc31edc3882e3d14407f83d04423f4818a7fd3b26b11"
+            }
+          ]
+        }
+      },
+      "alt": {
+        "en": "Zurich skyline and the Limmat (2017)"
+      },
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.58
+      }
+    }
+  ],
+  "withheldPrishtinaAssetId": "commons:79822459"
+}

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "publication": "integrated locally; not deployed",
+  "reviewer": "GoEksplo Owner",
+  "assets": 4,
+  "selections": 8,
+  "priorAssetsAndSelectionsUnchanged": true,
+  "istanbulCreteUnapproved": true,
+  "targetedTests": 110,
+  "fullSuiteTests": 1468,
+  "fullSuiteFailures": 0,
+  "productionBuild": "passed Next.js 16.4.0 Turbopack",
+  "browserChecks": 70,
+  "actualResponsiveImageChecks": 80,
+  "viewports": [
+    1440,
+    390,
+    375,
+    360,
+    320
+  ],
+  "externalBrowserRequests": 0,
+  "cropComposition": [
+    {
+      "subject": "paris",
+      "crop": {
+        "left": 508,
+        "top": 0,
+        "width": 5617,
+        "height": 2247
+      },
+      "originalPixelOffsetError": {
+        "hero": 0.47999999999996135,
+        "card": 0.4800000000000182
+      },
+      "originalMetadataPreserved": true
+    },
+    {
+      "subject": "place:Q60",
+      "crop": {
+        "left": 1567,
+        "top": 0,
+        "width": 5275,
+        "height": 2110
+      },
+      "originalPixelOffsetError": {
+        "hero": 0.40000000000009095,
+        "card": 0.4000000000005457
+      },
+      "originalMetadataPreserved": true
+    }
+  ]
+}

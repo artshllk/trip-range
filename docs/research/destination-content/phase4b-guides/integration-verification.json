@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "scope": "four owner-approved Phase 4B English guide revisions integrated locally",
+  "reviewer": "GoEksplo Owner",
+  "versions": {
+    "vienna": 2,
+    "london": 4,
+    "paris": 3,
+    "place:Q60": 3
+  },
+  "editorial": {
+    "content": {
+      "status": "passed",
+      "mode": "offline",
+      "externalCalls": 0,
+      "aiCalls": 0,
+      "files": 30,
+      "destinations": 30,
+      "attractions": 124
+    },
+    "reviews": {
+      "status": "passed",
+      "records": 30,
+      "destinations": 30,
+      "failures": [],
+      "writes": 0,
+      "externalCalls": 0
+    }
+  },
+  "fullSuite": {
+    "passed": 1495,
+    "failed": 0,
+    "skipped": 0
+  },
+  "lint": "passed for 18 adjusted test files",
+  "productionBuild": {
+    "passed": true,
+    "node": "24.19.0",
+    "next": "16.4.0",
+    "command": "npm run build -- --webpack",
+    "keylessIsolatedCopy": true
+  },
+  "integrity": {
+    "baselineFiles": 1521,
+    "modifiedExistingFiles": [
+      "docs/research/destination-content/phase4b-guides/README.md",
+      "tests/phase4b-guides.test.ts",
+      "content/destinations/london.json",
+      "content/destinations/paris.json",
+      "content/destinations/place-Q60.json",
+      "content/destinations/vienna.json",
+      "content/operations/reviews/london.json",
+      "content/operations/reviews/paris.json",
+      "content/operations/reviews/place-Q60.json",
+      "content/operations/reviews/vienna.json",
+      "content/research/destinations/london.json",
+      "content/research/destinations/paris.json",
+      "content/research/destinations/place-Q60.json",
+      "content/research/destinations/vienna.json",
+      "tests/batch2-travel.test.ts",
+      "tests/destination-batch-review.test.ts",
+      "tests/destination-batch1-publication.test.ts",
+      "tests/destination-batch2-publication.test.ts",
+      "tests/destination-kyoto-editorial.test.ts",
+      "tests/destination-new-york-publication.test.ts",
+      "tests/destination-non-city-publication.test.ts",
+      "tests/destination-paris-editorial.test.ts",
+      "tests/direct-city-access.test.ts",
+      "tests/kruger-preparation.test.ts",
+      "tests/kruger-publication.test.ts",
+      "tests/non-city-preparation.test.ts",
+      "tests/phase2-publication.test.ts",
+      "tests/standard-non-city-preparation.test.ts",
+      "tests/standard-non-city-publication.test.ts",
+      "tests/tasmania-preparation.test.ts",
+      "tests/tasmania-publication.test.ts"
+    ],
+    "protectedFilesChanged": [],
+    "approvedCandidateAndProposalChanges": []
+  },
+  "productionServiceCalls": 0,
+  "numericalProfileChanges": 0,
+  "applicationCodeChanges": 0,
+  "commits": 0,
+  "pushes": 0,
+  "deployments": 0,
+  "infrastructureChanges": 0,
+  "remainingIntegrationBlockers": []
+}

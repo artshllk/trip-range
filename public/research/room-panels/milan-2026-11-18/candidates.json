@@ -1,0 +1,3301 @@
+{
+  "method_version": "room-panel-v9-score-free-dated-classification",
+  "guest_score_gate": false,
+  "independent_classification_required": true,
+  "country_code": "IT",
+  "classification_view_admission_approved": true,
+  "status": "frozen_selection",
+  "candidate_count": 140,
+  "candidates": [
+    {
+      "property_id": "milan-n268567601",
+      "name": "Sina de la Ville",
+      "osm_type": "node",
+      "osm_id": 268567601,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4659559,
+        "longitude": 9.1922395
+      },
+      "computed_distance_metres": 260.08589303417494,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.sinahotels.com/en/h/sina-de-la-ville-milan/",
+      "classification_evidence": {
+        "id_struttura": "9510871",
+        "denominazione_struttura": "De La Ville",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Ulrico Hoepli 6",
+        "cir": "015146-ALB-00294",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9510871",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n298985382",
+      "name": "Principe di Savoia",
+      "osm_type": "node",
+      "osm_id": 298985382,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4797878,
+        "longitude": 9.1963935
+      },
+      "computed_distance_metres": 1822.878867641181,
+      "osm_star_lead": "5S",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.dorchestercollection.com/en/milan/hotel-principe-di-savoia/"
+    },
+    {
+      "property_id": "milan-n298986172",
+      "name": "NH Milano Touring",
+      "osm_type": "node",
+      "osm_id": 298986172,
+      "osm_version": 13,
+      "coordinates": {
+        "latitude": 45.4768221,
+        "longitude": 9.1967233
+      },
+      "computed_distance_metres": 1513.1700935741007,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.nh-hotels.it/hotel/nh-milano-touring"
+    },
+    {
+      "property_id": "milan-n308842416",
+      "name": "Heart Hotel Milano",
+      "osm_type": "node",
+      "osm_id": 308842416,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4802756,
+        "longitude": 9.1932355
+      },
+      "computed_distance_metres": 1832.530947931135,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://hearthotelmilano.it/"
+    },
+    {
+      "property_id": "milan-n359580770",
+      "name": "Hotel Tivoli Milano President",
+      "osm_type": "node",
+      "osm_id": 359580770,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4630676,
+        "longitude": 9.1978864
+      },
+      "computed_distance_metres": 570.6812067254538,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.tivolihotels.com/en/tivoli-president-milano-hotel",
+      "classification_evidence": {
+        "id_struttura": "9507321",
+        "denominazione_struttura": "NH COLLECTION PRESIDENT",
+        "classificazione": "Alberghi 5 stelle",
+        "indirizzo": "largo Augusto 10",
+        "cir": "015146-ALB-00192",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9507321",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n439221112",
+      "name": "Hotel Piacenza",
+      "osm_type": "node",
+      "osm_id": 439221112,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4487958,
+        "longitude": 9.2036849
+      },
+      "computed_distance_metres": 1962.1384450645974,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelpiacenza.com/"
+    },
+    {
+      "property_id": "milan-n571450170",
+      "name": "Hotel Brunelleschi",
+      "osm_type": "node",
+      "osm_id": 571450170,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4611333,
+        "longitude": 9.1911546
+      },
+      "computed_distance_metres": 309.36975609751363,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelbrunelleschi.net/",
+      "classification_evidence": {
+        "id_struttura": "9502969",
+        "denominazione_struttura": "Brunelleschi",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Baracchini 12",
+        "cir": "015146-ALB-00065",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9502969",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n608189551",
+      "name": "Four Seasons",
+      "osm_type": "node",
+      "osm_id": 608189551,
+      "osm_version": 12,
+      "coordinates": {
+        "latitude": 45.469414,
+        "longitude": 9.195302
+      },
+      "computed_distance_metres": 712.4012614940889,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.fourseasons.com/milan/",
+      "classification_evidence": {
+        "id_struttura": "9511603",
+        "denominazione_struttura": "Four Seasons",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "via Gesu' 6/8",
+        "cir": "015146-ALB-00318",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9511603",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n715948252",
+      "name": "Hotel dei Cavalieri",
+      "osm_type": "node",
+      "osm_id": 715948252,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.460908,
+        "longitude": 9.1886889
+      },
+      "computed_distance_metres": 366.0530607813175,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hoteldeicavalieri.com/",
+      "classification_evidence": {
+        "id_struttura": "9510199",
+        "denominazione_struttura": "Dei Cavalieri",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "piazza Giuseppe Missori 1",
+        "cir": "015146-ALB-00274",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9510199",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1112456187",
+      "name": "Galileo",
+      "osm_type": "node",
+      "osm_id": 1112456187,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4642102,
+        "longitude": 9.1961443
+      },
+      "computed_distance_metres": 428.8052562521998,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelgalileomilano.it",
+      "classification_evidence": {
+        "id_struttura": "9506961",
+        "denominazione_struttura": "Galileo",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "corso Europa 9",
+        "cir": "015146-ALB-00182",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9506961",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1112456291",
+      "name": "Hotel Ambasciatori",
+      "osm_type": "node",
+      "osm_id": 1112456291,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4644571,
+        "longitude": 9.1952874
+      },
+      "computed_distance_metres": 365.92786271750145,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://ih-hotels.com/it/i-nostri-aberghi/ih-hotels-milano-ambasciatori.html",
+      "classification_evidence": {
+        "id_struttura": "9503088",
+        "denominazione_struttura": "Ambasciatori",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "galleria del Corso 3",
+        "cir": "015146-ALB-00068",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9503088",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1252656926",
+      "name": "Antica Locanda dei Mercanti",
+      "osm_type": "node",
+      "osm_id": 1252656926,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4672963,
+        "longitude": 9.1847222
+      },
+      "computed_distance_metres": 598.2071524285932,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Current operator homepage JSON-LD explicitly declares four stars. Exclusion-only evidence; no operator admission.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.locandadeimercanti.com/"
+    },
+    {
+      "property_id": "milan-n1512688449",
+      "name": "Hotel Rio",
+      "osm_type": "node",
+      "osm_id": 1512688449,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4631056,
+        "longitude": 9.1883935
+      },
+      "computed_distance_metres": 197.62301000836172,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://hotelriomilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9511252",
+        "denominazione_struttura": "Rio",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Giuseppe Mazzini 8",
+        "cir": "015146-ALB-00306",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9511252",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://hotelriomilano.it/en/",
+        "source_url": "https://bookingengine.otelia.io/book?be_id=67239&be_l=en",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://hotelriomilano.it/servizi/",
+        "room_review": "Operator rooms page lists double/twin rooms; operator services page explicitly lists private bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://hotelriomilano.it/en/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visual check: Hotel Rio logo on the operator homepage displays three stars.",
+        "logo_source_url": "https://hotelriomilano.it/wp-content/themes/grandhotel/images/HotelRioMilano_logo.png"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://hotelriomilano.it/en/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://hotelriomilano.it/servizi/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator rooms page lists double/twin rooms; operator services page explicitly lists private bathroom.",
+        "additional_source_url": "https://hotelriomilano.it/camere/"
+      }
+    },
+    {
+      "property_id": "milan-n1533118079",
+      "name": "ibis Milano centro",
+      "osm_type": "node",
+      "osm_id": 1533118079,
+      "osm_version": 9,
+      "coordinates": {
+        "latitude": 45.4782928,
+        "longitude": 9.2017763
+      },
+      "computed_distance_metres": 1820.4834114600194,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://all.accor.com/hotel/0933/index.it.shtml"
+    },
+    {
+      "property_id": "milan-n1623772669",
+      "name": "King Mokinba Hotel",
+      "osm_type": "node",
+      "osm_id": 1623772669,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4656506,
+        "longitude": 9.1778515
+      },
+      "computed_distance_metres": 1018.1394828817466,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelkingmilano.com/"
+    },
+    {
+      "property_id": "milan-n1699886600",
+      "name": "Unahotels Cusani",
+      "osm_type": "node",
+      "osm_id": 1699886600,
+      "osm_version": 9,
+      "coordinates": {
+        "latitude": 45.4685138,
+        "longitude": 9.1833756
+      },
+      "computed_distance_metres": 766.1312430221946,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.gruppouna.it/unahotels/unahotels-cusani-milano",
+      "classification_evidence": {
+        "id_struttura": "9510273",
+        "denominazione_struttura": "Unahotels Cusani",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Cusani 13",
+        "cir": "015146-ALB-00276",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9510273",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1828995190",
+      "name": "Starhotels Rosa Grand Hotel",
+      "osm_type": "node",
+      "osm_id": 1828995190,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4638794,
+        "longitude": 9.1940241
+      },
+      "computed_distance_metres": 262.0202254109,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://collezione.starhotels.com/it/i-nostri-hotel/rosa-grand-milano/",
+      "classification_evidence": {
+        "id_struttura": "9506530",
+        "denominazione_struttura": "Starhotels Rosa Grand",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "piazza Fontana 3",
+        "cir": "015146-ALB-00170",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9506530",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1835139581",
+      "name": "Hotel Ascot",
+      "osm_type": "node",
+      "osm_id": 1835139581,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4580657,
+        "longitude": 9.1914371
+      },
+      "computed_distance_metres": 650.8963502540553,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelascotmilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9506737",
+        "denominazione_struttura": "Max Brown",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Lentasio 3",
+        "cir": "015146-ALB-00176",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9506737",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1836751668",
+      "name": "Hotel Gran Duca di York",
+      "osm_type": "node",
+      "osm_id": 1836751668,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4636285,
+        "longitude": 9.1853083
+      },
+      "computed_distance_metres": 418.7540355106715,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.ducadiyork.com/",
+      "classification_evidence": {
+        "id_struttura": "9505157",
+        "denominazione_struttura": "Gran Duca di York",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Moneta 1/A",
+        "cir": "015146-ALB-00130",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9505157",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.ducadiyork.com/en/",
+        "source_url": "https://www.simplebooking.it/ibe2/hotel/10048?cur=EUR&lang=EN",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.ducadiyork.com/camere/",
+        "room_review": "Operator Italian rooms page states a double bed and bathroom with shower/bath in every room; Classic room area explicitly includes its bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.ducadiyork.com/en/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.ducadiyork.com/en/",
+        "reason": "Via Moneta 1 on the operator page and Via Moneta 1/A in the official record identify the named Gran Duca di York property; same website and hotel identity. OSM carries 1a. No competing hotel at this location is evidenced."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.ducadiyork.com/camere/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator Italian rooms page states a double bed and bathroom with shower/bath in every room; Classic room area explicitly includes its bathroom."
+      }
+    },
+    {
+      "property_id": "milan-n1849612972",
+      "name": "Baviera Mokinba Hotels",
+      "osm_type": "node",
+      "osm_id": 1849612972,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4782737,
+        "longitude": 9.1997936
+      },
+      "computed_distance_metres": 1750.2400887717536,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.mokinba.com/"
+    },
+    {
+      "property_id": "milan-n1849612979",
+      "name": "WorldHotel Casati 18",
+      "osm_type": "node",
+      "osm_id": 1849612979,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4785666,
+        "longitude": 9.2042002
+      },
+      "computed_distance_metres": 1943.152555684588,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://worldhotelcasati18.com/"
+    },
+    {
+      "property_id": "milan-n1849612985",
+      "name": "Hotel Fenice",
+      "osm_type": "node",
+      "osm_id": 1849612985,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4751174,
+        "longitude": 9.2061488
+      },
+      "computed_distance_metres": 1736.4915156087354,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelfenice.it/"
+    },
+    {
+      "property_id": "milan-n1855577204",
+      "name": "Grand Hotel Et De Milan",
+      "osm_type": "node",
+      "osm_id": 1855577204,
+      "osm_version": 10,
+      "coordinates": {
+        "latitude": 45.4699226,
+        "longitude": 9.1924982
+      },
+      "computed_distance_metres": 685.4129601377009,
+      "osm_star_lead": "5L",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.grandhoteletdemilan.it/",
+      "classification_evidence": {
+        "id_struttura": "9510489",
+        "denominazione_struttura": "Grand Hotel Et De Milan",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "via Alessandro Manzoni 29",
+        "cir": "015146-ALB-00282",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9510489",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n1855655348",
+      "name": "Hotel Cavour",
+      "osm_type": "node",
+      "osm_id": 1855655348,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4726681,
+        "longitude": 9.1943755
+      },
+      "computed_distance_metres": 1017.6318132338769,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelcavour.it/"
+    },
+    {
+      "property_id": "milan-n1857902555",
+      "name": "Hotel Mercure Milano Centro",
+      "osm_type": "node",
+      "osm_id": 1857902555,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4747329,
+        "longitude": 9.2059672
+      },
+      "computed_distance_metres": 1696.0337286403676,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://all.accor.com/hotel/5705/index.en.shtml"
+    },
+    {
+      "property_id": "milan-n1938014502",
+      "name": "Hotel Milano Navigli",
+      "osm_type": "node",
+      "osm_id": 1938014502,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4532344,
+        "longitude": 9.1805175
+      },
+      "computed_distance_metres": 1425.237829264224,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelmilanonavigli.it/"
+    },
+    {
+      "property_id": "milan-n2016985972",
+      "name": "Hotel Sempione",
+      "osm_type": "node",
+      "osm_id": 2016985972,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4785522,
+        "longitude": 9.200048
+      },
+      "computed_distance_metres": 1786.6070196110518,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelsempione.it/"
+    },
+    {
+      "property_id": "milan-n2051364302",
+      "name": "Roxy Hotel",
+      "osm_type": "node",
+      "osm_id": 2051364302,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4719819,
+        "longitude": 9.2076314
+      },
+      "computed_distance_metres": 1599.81634530044,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.roxymilano.com/"
+    },
+    {
+      "property_id": "milan-n2104853263",
+      "name": "QC Room",
+      "osm_type": "node",
+      "osm_id": 2104853263,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4510665,
+        "longitude": 9.1921213
+      },
+      "computed_distance_metres": 1430.8962923263541,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/2104853263"
+    },
+    {
+      "property_id": "milan-n2131495758",
+      "name": "Sonder Missori",
+      "osm_type": "node",
+      "osm_id": 2131495758,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4586125,
+        "longitude": 9.187908
+      },
+      "computed_distance_metres": 625.4074663327419,
+      "osm_star_lead": "3",
+      "eligibility": "excluded",
+      "decision_reason": "Old Sonder operator wound down; current Sonder brand directs reservations to booking partners. No verified current operator-direct booking flow for this premises.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://sonder.com/collections/formerly-sonder",
+      "classification_evidence": {
+        "id_struttura": "9508274",
+        "denominazione_struttura": "SONDER MISSORI",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "corso Italia 11/A",
+        "cir": "015146-ALB-00219",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9508274",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n2279452828",
+      "name": "Hotel Sant'Ambroeus",
+      "osm_type": "node",
+      "osm_id": 2279452828,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4602395,
+        "longitude": 9.1658179
+      },
+      "computed_distance_metres": 1979.9365652060014,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelsantambroeus.it/"
+    },
+    {
+      "property_id": "milan-n2399642744",
+      "name": "Hotel La Madonnina",
+      "osm_type": "node",
+      "osm_id": 2399642744,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4630365,
+        "longitude": 9.1883675
+      },
+      "computed_distance_metres": 202.93788911257047,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotellamadonninamilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9531548",
+        "denominazione_struttura": "La Madonnina",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Giuseppe Mazzini 10",
+        "cir": "015146-ALB-00439",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9531548",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "source_url": "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=513&lang=en",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.hotellamadonninamilano.it/en/rooms.php",
+        "room_review": "Conventional double and twin, both with private bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotellamadonninamilano.it/en/rooms.php",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Conventional double and twin, both with private bathroom."
+      }
+    },
+    {
+      "property_id": "milan-n2399642753",
+      "name": "Unahotels Maison Milano",
+      "osm_type": "node",
+      "osm_id": 2399642753,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4633181,
+        "longitude": 9.1883932
+      },
+      "computed_distance_metres": 188.3543965706137,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.gruppouna.it/esperienze/maison-milano",
+      "classification_evidence": {
+        "id_struttura": "9504783",
+        "denominazione_struttura": "Maison Milano UNA Esperienze",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Giuseppe Mazzini 4",
+        "cir": "015146-ALB-00119",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9504783",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n2400614072",
+      "name": "Straf Hotel",
+      "osm_type": "node",
+      "osm_id": 2400614072,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.465228,
+        "longitude": 9.1912446
+      },
+      "computed_distance_metres": 155.0606972020925,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.straf.it/",
+      "classification_evidence": {
+        "id_struttura": "9515064",
+        "denominazione_struttura": "STRAF",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via San Raffaele 3",
+        "cir": "015146-ALB-00384",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9515064",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n2400614074",
+      "name": "The Gray",
+      "osm_type": "node",
+      "osm_id": 2400614074,
+      "osm_version": 9,
+      "coordinates": {
+        "latitude": 45.4655497,
+        "longitude": 9.1913912
+      },
+      "computed_distance_metres": 192.61206070143595,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.sinahotels.com/en/h/sina-the-gray-milan/",
+      "classification_evidence": {
+        "id_struttura": "9514658",
+        "denominazione_struttura": "The Gray",
+        "classificazione": "Alberghi 5 stelle",
+        "indirizzo": "via San Raffaele 6",
+        "cir": "015146-ALB-00377",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9514658",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n2493841055",
+      "name": "Hotel Sanpi Milano",
+      "osm_type": "node",
+      "osm_id": 2493841055,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4777589,
+        "longitude": 9.2031432
+      },
+      "computed_distance_metres": 1823.0926232332238,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://hotelsanpimilano.it/"
+    },
+    {
+      "property_id": "milan-n2529864215",
+      "name": "Aethos Milan",
+      "osm_type": "node",
+      "osm_id": 2529864215,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4531418,
+        "longitude": 9.1789612
+      },
+      "computed_distance_metres": 1504.221280089701,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.aethoshotels.com/milan/"
+    },
+    {
+      "property_id": "milan-n2538832005",
+      "name": "Eurohotel",
+      "osm_type": "node",
+      "osm_id": 2538832005,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4742219,
+        "longitude": 9.2077862
+      },
+      "computed_distance_metres": 1761.0982470321187,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.eurohotelmilano.it/"
+    },
+    {
+      "property_id": "milan-n2589272454",
+      "name": "Hotel Manin",
+      "osm_type": "node",
+      "osm_id": 2589272454,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4740024,
+        "longitude": 9.1960177
+      },
+      "computed_distance_metres": 1199.0009972431667,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelmanin.it/"
+    },
+    {
+      "property_id": "milan-n2774913920",
+      "name": "Maison Borella",
+      "osm_type": "node",
+      "osm_id": 2774913920,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4521241,
+        "longitude": 9.1757625
+      },
+      "computed_distance_metres": 1750.372652053627,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelmaisonborella.com/"
+    },
+    {
+      "property_id": "milan-n2838475463",
+      "name": "Garibaldi Palace",
+      "osm_type": "node",
+      "osm_id": 2838475463,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4762321,
+        "longitude": 9.1841228
+      },
+      "computed_distance_metres": 1463.6794753290299,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/2838475463"
+    },
+    {
+      "property_id": "milan-n2838508878",
+      "name": "Urban Hive",
+      "osm_type": "node",
+      "osm_id": 2838508878,
+      "osm_version": 10,
+      "coordinates": {
+        "latitude": 45.4770811,
+        "longitude": 9.1844946
+      },
+      "computed_distance_metres": 1543.2297917116653,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.urbanhivehotels.com/milano/"
+    },
+    {
+      "property_id": "milan-n2973096918",
+      "name": "Palazzo Cordusio Gran Meliá",
+      "osm_type": "node",
+      "osm_id": 2973096918,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4651551,
+        "longitude": 9.1867772
+      },
+      "computed_distance_metres": 334.0025057273863,
+      "osm_star_lead": null,
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.melia.com/it/hotels/italia/milano/palazzo-cordusio-gran-melia",
+      "classification_evidence": {
+        "id_struttura": "796339672",
+        "denominazione_struttura": "Palazzo Cordusio a Gran Meliã Hotel",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "PIAZZA CORDUSIO 2",
+        "cir": "015146-ALB-00572",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=796339672",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n2981709624",
+      "name": "Hotel London",
+      "osm_type": "node",
+      "osm_id": 2981709624,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4674045,
+        "longitude": 9.1842451
+      },
+      "computed_distance_metres": 634.7966314646067,
+      "osm_star_lead": "2",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 2 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "http://www.hotellondonmilano.com/",
+      "classification_evidence": {
+        "id_struttura": "9504821",
+        "denominazione_struttura": "HOTEL LONDON",
+        "classificazione": "Alberghi 2 stelle",
+        "indirizzo": "via Rovello 3",
+        "cir": "015146-ALB-00120",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9504821",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n2993513336",
+      "name": "Hotel Arno",
+      "osm_type": "node",
+      "osm_id": 2993513336,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4794092,
+        "longitude": 9.2033543
+      },
+      "computed_distance_metres": 1988.8273082806445,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelarno.com/"
+    },
+    {
+      "property_id": "milan-n2993628005",
+      "name": "Armani Hotel Milano",
+      "osm_type": "node",
+      "osm_id": 2993628005,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4705667,
+        "longitude": 9.1930102
+      },
+      "computed_distance_metres": 764.1681034868346,
+      "osm_star_lead": "5L",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.armanihotelmilano.com/",
+      "classification_evidence": {
+        "id_struttura": "9528489",
+        "denominazione_struttura": "Armani Hotel Milano",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "via Alessandro Manzoni 31",
+        "cir": "015146-ALB-00423",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9528489",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n3007564269",
+      "name": "Hotel Spadari al Duomo",
+      "osm_type": "node",
+      "osm_id": 3007564269,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4636231,
+        "longitude": 9.1868743
+      },
+      "computed_distance_metres": 297.11480398994684,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.spadarihotel.com/",
+      "classification_evidence": {
+        "id_struttura": "9509010",
+        "denominazione_struttura": "Spadari al Duomo",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Spadari 11",
+        "cir": "015146-ALB-00240",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9509010",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n3011974302",
+      "name": "NH Machiavelli",
+      "osm_type": "node",
+      "osm_id": 3011974302,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.477635,
+        "longitude": 9.2015517
+      },
+      "computed_distance_metres": 1747.9299373535598,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.nh-hotels.it/hotel/nh-milano-machiavelli"
+    },
+    {
+      "property_id": "milan-n3012733093",
+      "name": "The Carlton Milano",
+      "osm_type": "node",
+      "osm_id": 3012733093,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4692053,
+        "longitude": 9.1984661
+      },
+      "computed_distance_metres": 847.8975999884602,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/3012733093"
+    },
+    {
+      "property_id": "milan-n3273667728",
+      "name": "Sheraton Diana Majestic",
+      "osm_type": "node",
+      "osm_id": 3273667728,
+      "osm_version": 10,
+      "coordinates": {
+        "latitude": 45.4738753,
+        "longitude": 9.2067172
+      },
+      "computed_distance_metres": 1672.958701094788,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.marriott.it/hotels/travel/milsi-sheraton-diana-majestic-milan/"
+    },
+    {
+      "property_id": "milan-n3373079344",
+      "name": "Hotel St. George",
+      "osm_type": "node",
+      "osm_id": 3373079344,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4771542,
+        "longitude": 9.2054184
+      },
+      "computed_distance_metres": 1870.1951449257292,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://hotelstgeorge.it/"
+    },
+    {
+      "property_id": "milan-n3412762106",
+      "name": "Mercure Milano Solari",
+      "osm_type": "node",
+      "osm_id": 3412762106,
+      "osm_version": 9,
+      "coordinates": {
+        "latitude": 45.4564997,
+        "longitude": 9.1685672
+      },
+      "computed_distance_metres": 1909.5145838632104,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://all.accor.com/hotel/7926/index.it.shtml"
+    },
+    {
+      "property_id": "milan-n3521819701",
+      "name": "Aparthotel Casa Mia",
+      "osm_type": "node",
+      "osm_id": 3521819701,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4777221,
+        "longitude": 9.1988509
+      },
+      "computed_distance_metres": 1664.8452189892691,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.aparthotelcasamia.com/"
+    },
+    {
+      "property_id": "milan-n3521849181",
+      "name": "Hotel Melià Il Duca",
+      "osm_type": "node",
+      "osm_id": 3521849181,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.479418,
+        "longitude": 9.1961835
+      },
+      "computed_distance_metres": 1779.0096011418298,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.melia.com/en/hotels/italy/milan/me-milan-il-duca/index.htm"
+    },
+    {
+      "property_id": "milan-n3521852266",
+      "name": "Windsor Hotel",
+      "osm_type": "node",
+      "osm_id": 3521852266,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4795392,
+        "longitude": 9.195209
+      },
+      "computed_distance_metres": 1775.373841559043,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelwindsormilan.com/"
+    },
+    {
+      "property_id": "milan-n3991739848",
+      "name": "Uptown Palace",
+      "osm_type": "node",
+      "osm_id": 3991739848,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4574898,
+        "longitude": 9.1919471
+      },
+      "computed_distance_metres": 719.130231132023,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.uptownpalace.com/",
+      "classification_evidence": {
+        "id_struttura": "9528093",
+        "denominazione_struttura": "Uptown Palace",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via Santa Sofia 10",
+        "cir": "015146-ALB-00421",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9528093",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n3991744051",
+      "name": "Hotel Canada",
+      "osm_type": "node",
+      "osm_id": 3991744051,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4573757,
+        "longitude": 9.1910934
+      },
+      "computed_distance_metres": 725.596960718156,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://canadahotel.it/",
+      "classification_evidence": {
+        "id_struttura": "9504228",
+        "denominazione_struttura": "Canada",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Santa Sofia 16",
+        "cir": "015146-ALB-00102",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9504228",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://canadahotel.it/",
+        "source_url": "https://www.simplebooking.it/ibe2/hotel/1571?cur=EUR&lang=IT",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://canadahotel.it/en/rooms/",
+        "room_review": "Operator Classic room card: double bed, one or two guests, in-room shower amenity icon (icon-doccia.svg); Comfort card offers double/twin. Interpretation of room-specific amenities, not a verbatim private-bathroom claim.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "it"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://canadahotel.it/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://canadahotel.it/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://canadahotel.it/en/rooms/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator Classic room card: double bed, one or two guests, in-room shower amenity icon (icon-doccia.svg); Comfort card offers double/twin. Interpretation of room-specific amenities, not a verbatim private-bathroom claim."
+      }
+    },
+    {
+      "property_id": "milan-n3991745680",
+      "name": "Lloyd Hotel",
+      "osm_type": "node",
+      "osm_id": 3991745680,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4580557,
+        "longitude": 9.1923042
+      },
+      "computed_distance_metres": 661.6894116113664,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.lloydhotelmilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9505392",
+        "denominazione_struttura": "Lloyd",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "corso di Porta Romana 48",
+        "cir": "015146-ALB-00138",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9505392",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n4086308099",
+      "name": "Palazzo Parigi",
+      "osm_type": "node",
+      "osm_id": 4086308099,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4733994,
+        "longitude": 9.1911115
+      },
+      "computed_distance_metres": 1057.506376977229,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.palazzoparigi.com/"
+    },
+    {
+      "property_id": "milan-n4157927406",
+      "name": "Hotel Brianza",
+      "osm_type": "node",
+      "osm_id": 4157927406,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4772413,
+        "longitude": 9.201655
+      },
+      "computed_distance_metres": 1713.8105501737775,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "http://www.hotelbrianza.it/"
+    },
+    {
+      "property_id": "milan-n4212583091",
+      "name": "Bianca Maria Palace Hotel",
+      "osm_type": "node",
+      "osm_id": 4212583091,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4635486,
+        "longitude": 9.2069192
+      },
+      "computed_distance_metres": 1268.2594711985766,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.biancamariapalace.com/"
+    },
+    {
+      "property_id": "milan-n4302430592",
+      "name": "Hotel Star",
+      "osm_type": "node",
+      "osm_id": 4302430592,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4673954,
+        "longitude": 9.186184
+      },
+      "computed_distance_metres": 523.116527779965,
+      "osm_star_lead": "3",
+      "eligibility": "excluded",
+      "decision_reason": "OSM Hotel Star is now Casa Laveni at Via Bossi 5. Current independent three-star classification for the renamed operation not established.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://casalaveni.com/en/page/.44768.html"
+    },
+    {
+      "property_id": "milan-n4305608677",
+      "name": "Bulgari Hotel Milano",
+      "osm_type": "node",
+      "osm_id": 4305608677,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4700904,
+        "longitude": 9.1892977
+      },
+      "computed_distance_metres": 697.1816733699296,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.bulgarihotels.cohttps://www.bulgarihotels.com/en_US/milan",
+      "classification_evidence": {
+        "id_struttura": "9515152",
+        "denominazione_struttura": "Bulgari Hotels & Resorts Milano",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "via Fratelli Gabba 7/B",
+        "cir": "015146-ALB-00385",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9515152",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n4305608745",
+      "name": "Mandarin Oriental Milano",
+      "osm_type": "node",
+      "osm_id": 4305608745,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4694631,
+        "longitude": 9.1909801
+      },
+      "computed_distance_metres": 619.723498860503,
+      "osm_star_lead": "5S",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.mandarinoriental.com/en/milan/la-scala/luxury-hotel",
+      "classification_evidence": {
+        "id_struttura": "9536774",
+        "denominazione_struttura": "Hotel Mandarin Oriental Milano",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "Via Andegari 9",
+        "cir": "015146-ALB-00472",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9536774",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n4315739003",
+      "name": "Hotel Vecchia Milano",
+      "osm_type": "node",
+      "osm_id": 4315739003,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4642098,
+        "longitude": 9.181985
+      },
+      "computed_distance_metres": 677.7929906268004,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelvecchiamilan.com/",
+      "classification_evidence": {
+        "id_struttura": "9508070",
+        "denominazione_struttura": "Vecchia Milano",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Borromei 4",
+        "cir": "015146-ALB-00213",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9508070",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.hotelvecchiamilan.com/",
+        "source_url": "https://www.hotelvecchiamilan.com/booking.php",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.hotelvecchiamilan.com/rooms.php",
+        "room_review": "Operator describes double/twin rooms with private bathrooms.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotelvecchiamilan.com/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.hotelvecchiamilan.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotelvecchiamilan.com/rooms.php",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator describes double/twin rooms with private bathrooms."
+      }
+    },
+    {
+      "property_id": "milan-n4381970248",
+      "name": "Room Mate Giulia Hotel",
+      "osm_type": "node",
+      "osm_id": 4381970248,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4651195,
+        "longitude": 9.1893543
+      },
+      "computed_distance_metres": 170.30015198111593,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://room-matehotels.com/gb/hotel-giulia-milan/",
+      "classification_evidence": {
+        "id_struttura": "9538130",
+        "denominazione_struttura": "Room Mate Giulia",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via Silvio Pellico 4",
+        "cir": "015146-ALB-00482",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9538130",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n4381970255",
+      "name": "TownHouse Duomo Milano",
+      "osm_type": "node",
+      "osm_id": 4381970255,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4649448,
+        "longitude": 9.1893721
+      },
+      "computed_distance_metres": 154.28668373615446,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Adjudicated unresolved classification/premises: TownHouse Duomo OSM record at Via Silvio Pellico 2 has no matching admissible three-star record in the named-address lookup; its pinned operator site is inaccessible. Do not substitute the separate Town House Galleria record at number 8.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://duomo.townhousehotels.com/"
+    },
+    {
+      "property_id": "milan-n4381970256",
+      "name": "Galleria Vik Milano",
+      "osm_type": "node",
+      "osm_id": 4381970256,
+      "osm_version": 9,
+      "coordinates": {
+        "latitude": 45.4657526,
+        "longitude": 9.1893633
+      },
+      "computed_distance_metres": 230.2127067480421,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle lusso. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.galleriavikmilano.com/it/",
+      "classification_evidence": {
+        "id_struttura": "9499202",
+        "denominazione_struttura": "Town House Galleria",
+        "classificazione": "Alberghi 5 stelle lusso",
+        "indirizzo": "via Silvio Pellico 8",
+        "cir": "015146-ALB-00030",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9499202",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n4537488522",
+      "name": "Genius Hotel Downtown",
+      "osm_type": "node",
+      "osm_id": 4537488522,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4671478,
+        "longitude": 9.182442
+      },
+      "computed_distance_metres": 736.2471587472438,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.geniushoteldowntown.com/",
+      "classification_evidence": {
+        "id_struttura": "9514243",
+        "denominazione_struttura": "Genius Down Town",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Porlezza 4",
+        "cir": "015146-ALB-00365",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9514243",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.geniushoteldowntown.com/",
+        "source_url": "https://www.geniushoteldowntown.com/en/camere/matrimoniale/",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.geniushoteldowntown.com/en/camere/matrimoniale/",
+        "room_review": "Conventional double or twin for two, private bathroom. Operator page contains direct booking action.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.geniushoteldowntown.com/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Operator homepage JSON-LD starRating.ratingValue = 3."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.geniushoteldowntown.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.geniushoteldowntown.com/en/camere/matrimoniale/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Conventional double or twin for two, private bathroom. Operator page contains direct booking action."
+      }
+    },
+    {
+      "property_id": "milan-n4555772439",
+      "name": "Hotel La Vignetta",
+      "osm_type": "node",
+      "osm_id": 4555772439,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4516684,
+        "longitude": 9.1818804
+      },
+      "computed_distance_metres": 1522.3295151634222,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.lavignettahotel.it/"
+    },
+    {
+      "property_id": "milan-n4654764963",
+      "name": "Crivi's Hotel",
+      "osm_type": "node",
+      "osm_id": 4654764963,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4529583,
+        "longitude": 9.1961593
+      },
+      "computed_distance_metres": 1289.3322431903882,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://crivis.com"
+    },
+    {
+      "property_id": "milan-n4756745053",
+      "name": "Hotel Minerva",
+      "osm_type": "node",
+      "osm_id": 4756745053,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4538536,
+        "longitude": 9.1708286
+      },
+      "computed_distance_metres": 1907.8694353951576,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelminervamilan.com/"
+    },
+    {
+      "property_id": "milan-n4785126221",
+      "name": "B&B Hotel Milano Sant'Ambrogio",
+      "osm_type": "node",
+      "osm_id": 4785126221,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4628112,
+        "longitude": 9.1695565
+      },
+      "computed_distance_metres": 1650.5696834445587,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotel-bb.com/it/hotel/milano-sant-ambrogio.htm"
+    },
+    {
+      "property_id": "milan-n5033959374",
+      "name": "Santa Marta Suites",
+      "osm_type": "node",
+      "osm_id": 5033959374,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4631498,
+        "longitude": 9.1836214
+      },
+      "computed_distance_metres": 555.4723378004365,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.triplebburgersbrunchbbq.com/menu/",
+      "classification_evidence": {
+        "id_struttura": "583411285",
+        "denominazione_struttura": "SANTA MARTA SUITES",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "VIA SANTA MARTA 4",
+        "cir": "015146-ALB-00554",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=583411285",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n5033959534",
+      "name": "Hotel Mentana",
+      "osm_type": "node",
+      "osm_id": 5033959534,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4623346,
+        "longitude": 9.1814375
+      },
+      "computed_distance_metres": 740.1958672431388,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelmentanamilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9505471",
+        "denominazione_struttura": "Mentana",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "via Morigi 2",
+        "cir": "015146-ALB-00140",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9505471",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n5106617191",
+      "name": "Hotel Merano",
+      "osm_type": "node",
+      "osm_id": 5106617191,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4781831,
+        "longitude": 9.2025662
+      },
+      "computed_distance_metres": 1840.050404959805,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/5106617191"
+    },
+    {
+      "property_id": "milan-n5259440056",
+      "name": "Tne Unique Hotel",
+      "osm_type": "node",
+      "osm_id": 5259440056,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4708783,
+        "longitude": 9.1840372
+      },
+      "computed_distance_metres": 932.8418056060934,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hoteltheunique.com/"
+    },
+    {
+      "property_id": "milan-n5287291617",
+      "name": "Palazzo Segreti",
+      "osm_type": "node",
+      "osm_id": 5287291617,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.467207,
+        "longitude": 9.184176
+      },
+      "computed_distance_metres": 625.883638521802,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "http://www.palazzosegreti.it/",
+      "classification_evidence": {
+        "id_struttura": "9528586",
+        "denominazione_struttura": "PALAZZO SEGRETI",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via San Tomaso 8",
+        "cir": "015146-ALB-00424",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9528586",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n5300438333",
+      "name": "Antica Locanda Leonardo",
+      "osm_type": "node",
+      "osm_id": 5300438333,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4657856,
+        "longitude": 9.169102
+      },
+      "computed_distance_metres": 1694.6731298502634,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.anticalocandaleonardo.com/it/"
+    },
+    {
+      "property_id": "milan-n5350658312",
+      "name": "Clerici Boutique Hotel",
+      "osm_type": "node",
+      "osm_id": 5350658312,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.467393,
+        "longitude": 9.186805
+      },
+      "computed_distance_metres": 491.88007294223587,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.clericiboutiquehotel.it/",
+      "classification_evidence": {
+        "id_struttura": "9540524",
+        "denominazione_struttura": "CLERICI BOUTIQUE HOTEL",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via Clerici 11",
+        "cir": "015146-ALB-00485",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9540524",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n5567294345",
+      "name": "Hotel Regina",
+      "osm_type": "node",
+      "osm_id": 5567294345,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4595643,
+        "longitude": 9.1797242
+      },
+      "computed_distance_metres": 979.7008149438684,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelregina.it/"
+    },
+    {
+      "property_id": "milan-n5567294352",
+      "name": "Hotel Pierre",
+      "osm_type": "node",
+      "osm_id": 5567294352,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4595211,
+        "longitude": 9.1769569
+      },
+      "computed_distance_metres": 1174.4523367389677,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelpierremilano.it/"
+    },
+    {
+      "property_id": "milan-n6447853004",
+      "name": "Five",
+      "osm_type": "node",
+      "osm_id": 6447853004,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4507833,
+        "longitude": 9.2034429
+      },
+      "computed_distance_metres": 1765.9984000821826,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelfive.it/"
+    },
+    {
+      "property_id": "milan-n6812401714",
+      "name": "Hotel Pavone",
+      "osm_type": "node",
+      "osm_id": 6812401714,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4627218,
+        "longitude": 9.2045697
+      },
+      "computed_distance_metres": 1092.2602663453547,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelpavone.com/"
+    },
+    {
+      "property_id": "milan-n7235042681",
+      "name": "Hotel The Square Milano Duomo",
+      "osm_type": "node",
+      "osm_id": 7235042681,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4607835,
+        "longitude": 9.1893098
+      },
+      "computed_distance_metres": 361.66819843497,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.thesquaremilano.com/",
+      "classification_evidence": {
+        "id_struttura": "9535593",
+        "denominazione_struttura": "The Square Milano Duomo",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via Albricci 2/4",
+        "cir": "015146-ALB-00464",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9535593",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n7822250670",
+      "name": "Petit Palais",
+      "osm_type": "node",
+      "osm_id": 7822250670,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4559634,
+        "longitude": 9.1872445
+      },
+      "computed_distance_metres": 921.3206313551028,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.petitpalais.it/"
+    },
+    {
+      "property_id": "milan-n8419465243",
+      "name": "Hotel Kennedy",
+      "osm_type": "node",
+      "osm_id": 8419465243,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4771542,
+        "longitude": 9.2061615
+      },
+      "computed_distance_metres": 1906.3893003491553,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/8419465243"
+    },
+    {
+      "property_id": "milan-n8419465244",
+      "name": "Hotel San Tomaso",
+      "osm_type": "node",
+      "osm_id": 8419465244,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4771742,
+        "longitude": 9.2061156
+      },
+      "computed_distance_metres": 1905.8449392577,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/8419465244"
+    },
+    {
+      "property_id": "milan-n8606113395",
+      "name": "Unahotels Mediterraneo",
+      "osm_type": "node",
+      "osm_id": 8606113395,
+      "osm_version": 10,
+      "coordinates": {
+        "latitude": 45.4517642,
+        "longitude": 9.2058249
+      },
+      "computed_distance_metres": 1793.727900536232,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.gruppouna.it/unahotels/unahotels-mediterraneo-milano"
+    },
+    {
+      "property_id": "milan-n8606122147",
+      "name": "Hotel di Porta Romana",
+      "osm_type": "node",
+      "osm_id": 8606122147,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4511719,
+        "longitude": 9.2078088
+      },
+      "computed_distance_metres": 1946.6288220851072,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelportaromanamilan.com/"
+    },
+    {
+      "property_id": "milan-n8933988911",
+      "name": "JR Hotels Bocconi Milano",
+      "osm_type": "node",
+      "osm_id": 8933988911,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4508286,
+        "longitude": 9.1947501
+      },
+      "computed_distance_metres": 1487.3693109173776,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://jr-hotels.com/en/collection/jr-hotels-bocconi-milano"
+    },
+    {
+      "property_id": "milan-n8996608161",
+      "name": "ODSweet Hotel",
+      "osm_type": "node",
+      "osm_id": 8996608161,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4634714,
+        "longitude": 9.1884012
+      },
+      "computed_distance_metres": 182.65621869195516,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.odsweethotel.com/",
+      "classification_evidence": {
+        "id_struttura": "472368167",
+        "denominazione_struttura": "ODSWEET HOTEL",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "VIA GIUSEPPE MAZZINI 2",
+        "cir": "015146-ALB-00540",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=472368167",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9352993967",
+      "name": "The Street Milano Duomo",
+      "osm_type": "node",
+      "osm_id": 9352993967,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4656854,
+        "longitude": 9.1917188
+      },
+      "computed_distance_metres": 215.47927652251366,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.thestreetmilano.com/",
+      "classification_evidence": {
+        "id_struttura": "101335140",
+        "denominazione_struttura": "The Street Milano Duomo",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via Santa Radegonda 14",
+        "cir": "015146-ALB-00504",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=101335140",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9378921750",
+      "name": "Radisson Collection Hotel Palazzo Touring Club Milan",
+      "osm_type": "node",
+      "osm_id": 9378921750,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4589615,
+        "longitude": 9.1877174
+      },
+      "computed_distance_metres": 594.7013352866892,
+      "osm_star_lead": "5",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 5 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.radissonhotels.com/it-it/hotel/radisson-collection-milan-palazzo-touring-club",
+      "classification_evidence": {
+        "id_struttura": "416055308",
+        "denominazione_struttura": "RADISSON COLLECTION HOTEL PALAZZO TOURING CLUB MILAN",
+        "classificazione": "Alberghi 5 stelle",
+        "indirizzo": "CORSO ITALIA 10",
+        "cir": "015146-ALB-00530",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=416055308",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9525153060",
+      "name": "Hotel Eva",
+      "osm_type": "node",
+      "osm_id": 9525153060,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.479436,
+        "longitude": 9.2033863
+      },
+      "computed_distance_metres": 1992.6537972463832,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelevamilano.com/"
+    },
+    {
+      "property_id": "milan-n9526774695",
+      "name": "Hotel Siena",
+      "osm_type": "node",
+      "osm_id": 9526774695,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4775305,
+        "longitude": 9.2019158
+      },
+      "computed_distance_metres": 1751.827914618165,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "http://www.hotelsienamilano.com/"
+    },
+    {
+      "property_id": "milan-n9526815277",
+      "name": "Hotel Porta Venezia",
+      "osm_type": "node",
+      "osm_id": 9526815277,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4767991,
+        "longitude": 9.2030254
+      },
+      "computed_distance_metres": 1728.643151609091,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/9526815277"
+    },
+    {
+      "property_id": "milan-n9527221902",
+      "name": "Magville Hotel",
+      "osm_type": "node",
+      "osm_id": 9527221902,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4693557,
+        "longitude": 9.2140106
+      },
+      "computed_distance_metres": 1919.2405455979397,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.magvillehotel.com/"
+    },
+    {
+      "property_id": "milan-n9527335320",
+      "name": "Chateau Monfort",
+      "osm_type": "node",
+      "osm_id": 9527335320,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4682205,
+        "longitude": 9.2074416
+      },
+      "computed_distance_metres": 1394.000583714876,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelchateaumonfort.com/it/"
+    },
+    {
+      "property_id": "milan-n9529538260",
+      "name": "Hotel Indigo Milan",
+      "osm_type": "node",
+      "osm_id": 9529538260,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4672257,
+        "longitude": 9.2018747
+      },
+      "computed_distance_metres": 949.4862214992104,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.indigomilano.it/it/"
+    },
+    {
+      "property_id": "milan-n9530344804",
+      "name": "Hotel Nuovo Milano",
+      "osm_type": "node",
+      "osm_id": 9530344804,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4642415,
+        "longitude": 9.19452
+      },
+      "computed_distance_metres": 303.1579181367777,
+      "osm_star_lead": "1",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 1 stella. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelnuovomilan.com/",
+      "classification_evidence": {
+        "id_struttura": "9510979",
+        "denominazione_struttura": "Nuovo",
+        "classificazione": "Alberghi 1 stella",
+        "indirizzo": "piazza Cesare Beccaria 6",
+        "cir": "015146-ALB-00297",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9510979",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9532613679",
+      "name": "Hotel Milano Castello",
+      "osm_type": "node",
+      "osm_id": 9532613679,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4673662,
+        "longitude": 9.1850179
+      },
+      "computed_distance_metres": 585.6210137497199,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelmilanocastello.com/",
+      "classification_evidence": {
+        "id_struttura": "57458506",
+        "denominazione_struttura": "Hotel Milano Castello",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "Via San Tomaso 2",
+        "cir": "015146-ALB-00497",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=57458506",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.hotelmilanocastello.com/",
+        "source_url": "https://book.hotelmilanocastello.com/accommodation?channelId=b1b7091e-da1c-4673-8f99-c151cfc7f151&culture=en",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.hotelmilanocastello.com/",
+        "room_review": "Private-bathroom double room; same operator and premises at Via San Tomaso 2.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Private-bathroom double room; same operator and premises at Via San Tomaso 2."
+      }
+    },
+    {
+      "property_id": "milan-n9532635295",
+      "name": "B&B Hotel Milano City Center Duomo",
+      "osm_type": "node",
+      "osm_id": 9532635295,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4673424,
+        "longitude": 9.1849392
+      },
+      "computed_distance_metres": 588.5222754329386,
+      "osm_star_lead": "3",
+      "eligibility": "excluded",
+      "decision_reason": "Unexplained premises-address discrepancy: OSM and dated register say Via San Tomaso 2; current operator says 4. Existing method excludes unexplained address conflicts.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotel-bb.com/en/hotel/milano-city-center-duomo",
+      "classification_evidence": {
+        "id_struttura": "453361972",
+        "denominazione_struttura": "B&B HOTEL MILANO CITY CENTER DUOMO",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "VIA SAN TOMASO 2",
+        "cir": "015146-ALB-00536",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=453361972",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9540309460",
+      "name": "Antica Locanda Solferino",
+      "osm_type": "node",
+      "osm_id": 9540309460,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4781292,
+        "longitude": 9.1884156
+      },
+      "computed_distance_metres": 1592.5457239669781,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.anticalocandasolferino.com/"
+    },
+    {
+      "property_id": "milan-n9540452832",
+      "name": "Milano Verticale UNA Esperienze",
+      "osm_type": "node",
+      "osm_id": 9540452832,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4816395,
+        "longitude": 9.1886795
+      },
+      "computed_distance_metres": 1979.2508095097417,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.gruppouna.it/esperienze/milano-verticale"
+    },
+    {
+      "property_id": "milan-n9544942480",
+      "name": "Fifty House",
+      "osm_type": "node",
+      "osm_id": 9544942480,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4640859,
+        "longitude": 9.2089295
+      },
+      "computed_distance_metres": 1424.608822908695,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.fiftyhouse.com/"
+    },
+    {
+      "property_id": "milan-n9545041686",
+      "name": "Hotel 10 Keys",
+      "osm_type": "node",
+      "osm_id": 9545041686,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4587902,
+        "longitude": 9.2091366
+      },
+      "computed_distance_metres": 1548.4270039621779,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://workness.it/ita/servizi/10-keys-milano.aspx"
+    },
+    {
+      "property_id": "milan-n9545087304",
+      "name": "Hotel Manzoni",
+      "osm_type": "node",
+      "osm_id": 9545087304,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4702704,
+        "longitude": 9.1954104
+      },
+      "computed_distance_metres": 799.7900445137433,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://hotelmanzoni.com/"
+    },
+    {
+      "property_id": "milan-n9545129796",
+      "name": "Matilde Boutique Hotel",
+      "osm_type": "node",
+      "osm_id": 9545129796,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4632726,
+        "longitude": 9.1873133
+      },
+      "computed_distance_metres": 270.331331177527,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://matildeboutiquehotel.com/",
+      "classification_evidence": {
+        "id_struttura": "193356861",
+        "denominazione_struttura": "MATILDE BOUTIQUE HOTEL",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "Via Spadari 1",
+        "cir": "015146-ALB-00516",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=193356861",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9545153347",
+      "name": "Senato Hotel Milano",
+      "osm_type": "node",
+      "osm_id": 9545153347,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.471378,
+        "longitude": 9.1964607
+      },
+      "computed_distance_metres": 946.9983629349812,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.senatohotelmilano.it/"
+    },
+    {
+      "property_id": "milan-n9545197723",
+      "name": "The Corner Duomo Hotel",
+      "osm_type": "node",
+      "osm_id": 9545197723,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4668075,
+        "longitude": 9.1920595
+      },
+      "computed_distance_metres": 341.7265957818396,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 4 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.thecornerduomo.com/",
+      "classification_evidence": {
+        "id_struttura": "357277339",
+        "denominazione_struttura": "The Corner Duomo Hotel",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "VIA ADALBERTO CATENA 2",
+        "cir": "015146-ALB-00525",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=357277339",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9545209245",
+      "name": "Ai Suma Hotel",
+      "osm_type": "node",
+      "osm_id": 9545209245,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4754827,
+        "longitude": 9.2067279
+      },
+      "computed_distance_metres": 1797.0864444899278,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://milano.aisumahotel.com/"
+    },
+    {
+      "property_id": "milan-n9545224962",
+      "name": "Hotel Vittoria",
+      "osm_type": "node",
+      "osm_id": 9545224962,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4632952,
+        "longitude": 9.2102036
+      },
+      "computed_distance_metres": 1525.2788549132688,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelvittoriamilano.it/it/index.html"
+    },
+    {
+      "property_id": "milan-n9545242293",
+      "name": "Hotel Arco Romana",
+      "osm_type": "node",
+      "osm_id": 9545242293,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4508343,
+        "longitude": 9.2005144
+      },
+      "computed_distance_metres": 1642.896630151318,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelarcoromana.it/hotel-arco-romana-milaan/"
+    },
+    {
+      "property_id": "milan-n9545289790",
+      "name": "Hotel Cinque Giornate",
+      "osm_type": "node",
+      "osm_id": 9545289790,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4617375,
+        "longitude": 9.2070426
+      },
+      "computed_distance_metres": 1299.6387111736526,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/9545289790"
+    },
+    {
+      "property_id": "milan-n9546779858",
+      "name": "AHD Rooms",
+      "osm_type": "node",
+      "osm_id": 9546779858,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4652292,
+        "longitude": 9.193271
+      },
+      "computed_distance_metres": 251.7118588760204,
+      "osm_star_lead": "1",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 1 stella. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.aparthotelduomo.com/ahd-rooms/",
+      "classification_evidence": {
+        "id_struttura": "106712167",
+        "denominazione_struttura": "HOTEL AHD ROOMS",
+        "classificazione": "Alberghi 1 stella",
+        "indirizzo": "Via Agnello 2",
+        "cir": "015146-ALB-00506",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=106712167",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9546798956",
+      "name": "Victor Boutique Hotel",
+      "osm_type": "node",
+      "osm_id": 9546798956,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4638788,
+        "longitude": 9.1870608
+      },
+      "computed_distance_metres": 281.04145988453644,
+      "osm_star_lead": "1",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 1 stella. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.victorboutiquehotel.com/",
+      "classification_evidence": {
+        "id_struttura": "117394429",
+        "denominazione_struttura": "VICTOR BOUTIQUE HOTEL",
+        "classificazione": "Alberghi 1 stella",
+        "indirizzo": "Via Victor Hugo 4",
+        "cir": "015146-ALB-00509",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=117394429",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n9546910088",
+      "name": "Hotel Atena",
+      "osm_type": "node",
+      "osm_id": 9546910088,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4692345,
+        "longitude": 9.2066757
+      },
+      "computed_distance_metres": 1382.6346308427503,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelatenamilano.com/"
+    },
+    {
+      "property_id": "milan-n9546936428",
+      "name": "Hotel Dover",
+      "osm_type": "node",
+      "osm_id": 9546936428,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4654847,
+        "longitude": 9.2087583
+      },
+      "computed_distance_metres": 1422.120174083865,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hoteldovermilan.com/"
+    },
+    {
+      "property_id": "milan-n9623981267",
+      "name": "Hotel XXII Marzo",
+      "osm_type": "node",
+      "osm_id": 9623981267,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4628388,
+        "longitude": 9.2119791
+      },
+      "computed_distance_metres": 1666.4357677772139,
+      "osm_star_lead": "2",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotel22marzo.com/"
+    },
+    {
+      "property_id": "milan-n10009197301",
+      "name": "The Couper Sant'Andrea",
+      "osm_type": "node",
+      "osm_id": 10009197301,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4691451,
+        "longitude": 9.1973105
+      },
+      "computed_distance_metres": 780.7259774640625,
+      "osm_star_lead": "4",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official hotel record establishes three stars, but the current operator markets rooms under both hotel CIN IT015146A1GB7YW8VW and Boutique Centrale Relais CIN IT015146B4I8OBGZTY, with annex rooms too. Public room pages do not map the quoted room categories unambiguously to the classified hotel inventory. Excluded for unresolved licensed room scope, not for the OSM four-star tag.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.thecouper.it/the-couper-sant-andrea/index",
+      "classification_evidence": {
+        "id_struttura": "514825024",
+        "denominazione_struttura": "THE COUPER SANT'ANDREA",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "VIA SANT'ANDREA 12",
+        "cir": "015146-ALB-00546",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=514825024",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.thecouper.it/the-couper-sant-andrea/index",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, property description and deluxe double room page reviewed. No explicit current four-star declaration found."
+      },
+      "additional_review_urls": [
+        "https://www.thecouper.it/the-couper-sant-andrea/affittacamere-lusso-milano",
+        "https://www.thecouper.it/the-couper-sant-andrea/dove-dormire-montenapoleone-milano/matrimoniale-deluxe"
+      ]
+    },
+    {
+      "property_id": "milan-n10009210157",
+      "name": "Vmaison Hotel Milano",
+      "osm_type": "node",
+      "osm_id": 10009210157,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4765649,
+        "longitude": 9.1821107
+      },
+      "computed_distance_metres": 1558.830822213873,
+      "osm_star_lead": "5",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.vmaison.it/"
+    },
+    {
+      "property_id": "milan-n10010898615",
+      "name": "M20 Boutique Hotel",
+      "osm_type": "node",
+      "osm_id": 10010898615,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4617413,
+        "longitude": 9.1883269
+      },
+      "computed_distance_metres": 300.9013183727221,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://m20milano.com/",
+      "classification_evidence": {
+        "id_struttura": "504970734",
+        "denominazione_struttura": "M20 BOUTIQUE HOTEL",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "VIA GIUSEPPE MAZZINI 20",
+        "cir": "015146-ALB-00545",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=504970734",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://m20milano.com/",
+        "source_url": "https://m20boutiquehotel.bookpage.io/",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://m20milano.com/rooms.html",
+        "room_review": "Double room; each room has a private bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://m20milano.com/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://m20milano.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://m20milano.com/rooms.html",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Double room; each room has a private bathroom."
+      }
+    },
+    {
+      "property_id": "milan-n10010917516",
+      "name": "Cadorna Luxury Hotel",
+      "osm_type": "node",
+      "osm_id": 10010917516,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4686615,
+        "longitude": 9.1740884
+      },
+      "computed_distance_metres": 1397.1390128934738,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.cadornaluxuryhotel.com/it/index.php"
+    },
+    {
+      "property_id": "milan-n10010936510",
+      "name": "Sheva Boutique Hotel",
+      "osm_type": "node",
+      "osm_id": 10010936510,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.463225,
+        "longitude": 9.1887883
+      },
+      "computed_distance_metres": 164.1485126199716,
+      "osm_star_lead": "1",
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Alberghi 1 stella. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/10010936510",
+      "classification_evidence": {
+        "id_struttura": "544407847",
+        "denominazione_struttura": "SHEVA BOUTIQUE HOTEL",
+        "classificazione": "Alberghi 1 stella",
+        "indirizzo": "VIA DOGANA 3",
+        "cir": "015146-ALB-00552",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=544407847",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-n10554804847",
+      "name": "Casa Cipriani",
+      "osm_type": "node",
+      "osm_id": 10554804847,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4719431,
+        "longitude": 9.2019241
+      },
+      "computed_distance_metres": 1253.7947949545787,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/10554804847"
+    },
+    {
+      "property_id": "milan-n11175543238",
+      "name": "Radisson Collection Santa Sofia",
+      "osm_type": "node",
+      "osm_id": 11175543238,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4559046,
+        "longitude": 9.1876933
+      },
+      "computed_distance_metres": 918.1278395426762,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/11175543238"
+    },
+    {
+      "property_id": "milan-n11185389982",
+      "name": "21 House of Stories Navigli",
+      "osm_type": "node",
+      "osm_id": 11185389982,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4509462,
+        "longitude": 9.1780292
+      },
+      "computed_distance_metres": 1744.736722261691,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://21houseofstories.com/milano-navigli/"
+    },
+    {
+      "property_id": "milan-n11780137568",
+      "name": "TownHouse 33",
+      "osm_type": "node",
+      "osm_id": 11780137568,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4693825,
+        "longitude": 9.214208
+      },
+      "computed_distance_metres": 1934.7871997460393,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.townhouse33milano.com/"
+    },
+    {
+      "property_id": "milan-n12433762601",
+      "name": "AXYHOTELS InnStyle Milano",
+      "osm_type": "node",
+      "osm_id": 12433762601,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4771692,
+        "longitude": 9.2054511
+      },
+      "computed_distance_metres": 1873.0789161094904,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.axyhotels.com/it/innstyle-milano/index"
+    },
+    {
+      "property_id": "milan-n12915007292",
+      "name": "The Plein Hotel",
+      "osm_type": "node",
+      "osm_id": 12915007292,
+      "osm_version": 3,
+      "coordinates": {
+        "latitude": 45.4747324,
+        "longitude": 9.1965334
+      },
+      "computed_distance_metres": 1289.1295521154018,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.openstreetmap.org/node/12915007292"
+    },
+    {
+      "property_id": "milan-n14318561990",
+      "name": "INTOMILAN Galleria Duomo I Boutique & Design Aparthotel",
+      "osm_type": "node",
+      "osm_id": 14318561990,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4652696,
+        "longitude": 9.1951836
+      },
+      "computed_distance_metres": 384.190118364169,
+      "osm_star_lead": null,
+      "eligibility": "excluded",
+      "decision_reason": "Dated official record does not establish three-star hotel eligibility: Residenze turistico alberghiere 2 stelle. OSM stars cannot upgrade this record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.intomilan.it/",
+      "classification_evidence": {
+        "id_struttura": "194206569",
+        "denominazione_struttura": "INTOMILAN APARTHOTEL GALLERIA DUOMO",
+        "classificazione": "Residenze turistico alberghiere 2 stelle",
+        "indirizzo": "CORSO VITTORIO EMANUELE II 22",
+        "cir": "015146-RTA-00418",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=194206569",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      }
+    },
+    {
+      "property_id": "milan-w40980171",
+      "name": "Casa Baglioni - Milan",
+      "osm_type": "way",
+      "osm_id": 40980171,
+      "osm_version": 11,
+      "coordinates": {
+        "latitude": 45.47274195,
+        "longitude": 9.1924022
+      },
+      "computed_distance_metres": 993.1156972108826,
+      "osm_star_lead": null,
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://milan.baglionihotels.com/"
+    },
+    {
+      "property_id": "milan-w54155499",
+      "name": "Palladio",
+      "osm_type": "way",
+      "osm_id": 54155499,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.44805165,
+        "longitude": 9.198607599999999
+      },
+      "computed_distance_metres": 1867.3872288474595,
+      "osm_star_lead": "1",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelpalladio.net/"
+    },
+    {
+      "property_id": "milan-w138982552",
+      "name": "Avani Hotel Palazzo Moscova",
+      "osm_type": "way",
+      "osm_id": 138982552,
+      "osm_version": 10,
+      "coordinates": {
+        "latitude": 45.48104480000001,
+        "longitude": 9.19000265
+      },
+      "computed_distance_metres": 1907.7603066629952,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.avanihotels.com/en/palazzo-moscova-milan"
+    },
+    {
+      "property_id": "milan-w138982556",
+      "name": "NH Collection Milano Porta Nuova",
+      "osm_type": "way",
+      "osm_id": 138982556,
+      "osm_version": 11,
+      "coordinates": {
+        "latitude": 45.481407149999995,
+        "longitude": 9.19194345
+      },
+      "computed_distance_metres": 1949.9061825836195,
+      "osm_star_lead": "4",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.nh-hotels.com/hotel/nh-collection-milano-porta-nuova"
+    },
+    {
+      "property_id": "milan-w165990900",
+      "name": "Hotel Ariston",
+      "osm_type": "way",
+      "osm_id": 165990900,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.46052085,
+        "longitude": 9.1812895
+      },
+      "computed_distance_metres": 821.7526594981631,
+      "osm_star_lead": "3",
+      "eligibility": "excluded",
+      "decision_reason": "Ariston explicitly advertises four stars on its current official website; excluded regardless of the OSM three-star tag. The dated regional record also says four stars.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.aristonhotel.com/",
+      "classification_evidence": {
+        "id_struttura": "9505972",
+        "denominazione_struttura": "Ariston",
+        "classificazione": "Alberghi 4 stelle",
+        "indirizzo": "largo Carrobbio 2",
+        "cir": "015146-ALB-00154",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9505972",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.aristonhotel.com/",
+        "declared_stars": 4,
+        "status": "conflicting_class",
+        "use": "exclude_only",
+        "basis": "Official homepage title and body explicitly say four stars."
+      }
+    },
+    {
+      "property_id": "milan-w345544084",
+      "name": "The Westin Palace",
+      "osm_type": "way",
+      "osm_id": 345544084,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.47874295,
+        "longitude": 9.199295
+      },
+      "computed_distance_metres": 1782.9960171573716,
+      "osm_star_lead": "5S",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "http://www.westinpalacemilan.it/"
+    },
+    {
+      "property_id": "milan-w443307343",
+      "name": "Hotel Perugino",
+      "osm_type": "way",
+      "osm_id": 443307343,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.457750399999995,
+        "longitude": 9.21457805
+      },
+      "computed_distance_metres": 1986.251629011188,
+      "osm_star_lead": "3",
+      "eligibility": "unknown",
+      "decision_reason": "Outside the completed first-eight selection windows. Retained as unreviewed reserve candidate; not excluded or certified eligible from OSM tags.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelperugino.com/"
+    },
+    {
+      "property_id": "milan-w1539079979",
+      "name": "Palladio",
+      "osm_type": "way",
+      "osm_id": 1539079979,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.448013,
+        "longitude": 9.19840505
+      },
+      "computed_distance_metres": 1866.271360901354,
+      "osm_star_lead": "1",
+      "eligibility": "excluded",
+      "decision_reason": "Duplicate Palladio hotel geometry: same hotel name, one-star tag and hotelpalladio.net website as older way 54155499; centres approximately 1 m apart. Retain both source geometries, use the older object as canonical premises record.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelpalladio.net/",
+      "duplicate_of": "milan-w54155499"
+    }
+  ],
+  "selected_ids": [
+    "milan-n1512688449",
+    "milan-n2399642744",
+    "milan-n10010898615",
+    "milan-n1836751668",
+    "milan-n9532613679",
+    "milan-n3991744051",
+    "milan-n4315739003",
+    "milan-n4537488522"
+  ],
+  "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award."
+}

@@ -1,0 +1,81 @@
+{
+ "data": [
+  {
+   "depart_date": "2026-12-12T18:10:00+01:00",
+   "origin": "PRN",
+   "destination": "LIS",
+   "gate": "Mytrip.com",
+   "return_date": "2026-12-15T06:45:00Z",
+   "found_at": "2026-10-20T20:52:12Z",
+   "trip_class": 0,
+   "value": 138,
+   "number_of_changes": 1,
+   "duration": 1735,
+   "distance": 2564,
+   "show_to_affiliates": true,
+   "actual": true
+  },
+  {
+   "depart_date": "2026-12-14T20:55:00+01:00",
+   "origin": "PRN",
+   "destination": "LIS",
+   "gate": "Mytrip.com",
+   "return_date": "2026-12-18T21:05:00Z",
+   "found_at": "2026-10-20T20:57:17Z",
+   "trip_class": 0,
+   "value": 192,
+   "number_of_changes": 2,
+   "duration": 2155,
+   "distance": 2564,
+   "show_to_affiliates": true,
+   "actual": true
+  },
+  {
+   "depart_date": "2026-12-11T11:50:00+01:00",
+   "origin": "PRN",
+   "destination": "LIS",
+   "gate": "Mytrip.com",
+   "return_date": "2026-12-14T20:50:00Z",
+   "found_at": "2026-10-20T20:50:59Z",
+   "trip_class": 0,
+   "value": 192,
+   "number_of_changes": 1,
+   "duration": 1615,
+   "distance": 2564,
+   "show_to_affiliates": true,
+   "actual": true
+  },
+  {
+   "depart_date": "2026-12-01T21:35:00+01:00",
+   "origin": "PRN",
+   "destination": "LIS",
+   "gate": "Mytrip.com",
+   "return_date": "2026-12-04T20:40:00Z",
+   "found_at": "2026-10-20T20:57:29Z",
+   "trip_class": 0,
+   "value": 197,
+   "number_of_changes": 1,
+   "duration": 2090,
+   "distance": 2564,
+   "show_to_affiliates": true,
+   "actual": true
+  },
+  {
+   "depart_date": "2026-12-13T09:35:00+01:00",
+   "origin": "PRN",
+   "destination": "LIS",
+   "gate": "Mytrip.com",
+   "return_date": "2026-12-16T15:35:00Z",
+   "found_at": "2026-10-20T20:52:53Z",
+   "trip_class": 0,
+   "value": 204,
+   "number_of_changes": 1,
+   "duration": 1325,
+   "distance": 2564,
+   "show_to_affiliates": true,
+   "actual": true
+  }
+ ],
+ "currency": "eur",
+ "success": true
+}

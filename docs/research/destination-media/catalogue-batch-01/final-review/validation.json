@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-22T11:04:56.428Z",
+  "candidateAssets": 12,
+  "responsiveVariants": 36,
+  "unchangedOriginalCandidates": 11,
+  "proposedReplacement": "commons:148809793",
+  "newIdentityProposals": 9,
+  "identityEvidenceComplete": 5,
+  "identityBlocked": 4,
+  "all39RegistryRecordsValidate": true,
+  "assetSchemaCropDimensionsAndHashes": true,
+  "originalPacketFilesUnchanged": 62,
+  "protectedSourceAndApprovedAssetsUnchanged": 245,
+  "approvedMediaSelectionsAdded": 0,
+  "runtimeIdentityRegistrationsAdded": 0,
+  "all24ProposedRolesRemainUnpublished": true,
+  "errors": []
+}

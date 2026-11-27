@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-local-integration",
+  "checkedAt": "2026-10-23T12:29:54.830150+00:00",
+  "reviewer": "GoEksplo Owner",
+  "packetId": "worldwide-batch1-final-review-v1",
+  "integratedContent": [
+    {
+      "slug": "istanbul",
+      "destinationId": "istanbul",
+      "version": 3,
+      "contentDigest": "38c5b7cba0da08071cec15914efa70554251336666d23a05948d7d67d14e6106"
+    },
+    {
+      "slug": "barcelona",
+      "destinationId": "city:BCN",
+      "version": 3,
+      "contentDigest": "81303d9603faae3707650453a6a903d0f4d51f1503de323b81d5b0d57000ff6a"
+    },
+    {
+      "slug": "singapore",
+      "destinationId": "place:Q334",
+      "version": 3,
+      "contentDigest": "cd209fe93a253ea425d5a9bf0f29dbbe54c779d72e4bea7ed59232c8c770109b"
+    },
+    {
+      "slug": "mexico-city",
+      "destinationId": "place:Q1489",
+      "version": 3,
+      "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d"
+    }
+  ],
+  "media": {
+    "newAssetIds": [
+      "commons:9050140",
+      "commons:88145804",
+      "commons:139259979"
+    ],
+    "newSelections": 6,
+    "newResponsiveFiles": 9,
+    "widths": [
+      640,
+      1200,
+      1920
+    ],
+    "allPriorAssetsAndSelectionsUnchanged": true,
+    "istanbulPreviousApprovalPreserved": true,
+    "sourceAndDerivativePins": "unchanged",
+    "mexicoVisibleCredit": "passed in guide, card, result and trip placements"
+  },
+  "reviews": {
+    "allFiveChecks": "approved through existing operator commands",
+    "fourPublicationDryRuns": "passed",
+    "fourPublicationApplies": "passed",
+    "allPriorReviewHistoryAndSnapshotsPreserved": true,
+    "historicalOwnerReviewPacketArtifactsUnchanged": 125,
+    "otherExpansionDraftsUnpublished": true
+  },
+  "checks": {
+    "content": "passed: 30 destinations / 125 attractions",
+    "editorial": "passed: 30 current reviews",
+    "media": "passed: 15 assets / 30 role selections / previous revision integrity",
+    "fullSuite": {
+      "total": 1501,
+      "pass": 1500,
+      "fail": 0,
+      "skip": 1,
+      "skipReason": "Optional local Redis integration requires redis-server; live diagnostics not repeated"
+    },
+    "targeted": {
+      "total": 75,
+      "pass": 75,
+      "fail": 0
+    },
+    "productionBuild": {
+      "status": "passed",
+      "version": "16.4.1",
+      "node": "24.19.0",
+      "command": "npm run build -- --webpack",
+      "note": "Uses the documented Webpack option because default Turbopack was previously blocked by local sandbox worker-port permissions. Netlify build configuration is unchanged."
+    },
+    "lint": {
+      "errors": 0,
+      "existingWarnings": 2
+    },
+    "secretBoundaries": "passed in source and built public output",
+    "browser": {
+      "status": "passed",
+      "checkedAt": "2026-10-23T12:28:20.258Z",
+      "scope": "actual locally production-built Next.js 16.4.1 pages; no Netlify hosted verification",
+      "guideViewportChecks": 20,
+      "homepageViewportChecks": 5,
+      "checks": [
+        {
+          "slug": "istanbul",
+          "width": 1440,
+          "status": "passed",
+          "destinationCity": "IST",
+          "image": "/destinations/istanbul-1200.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "istanbul",
+          "width": 390,
+          "status": "passed",
+          "destinationCity": "IST",
+          "image": "/destinations/istanbul-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "istanbul",
+          "width": 375,
+          "status": "passed",
+          "destinationCity": "IST",
+          "image": "/destinations/istanbul-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "istanbul",
+          "width": 360,
+          "status": "passed",
+          "destinationCity": "IST",
+          "image": "/destinations/istanbul-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "istanbul",
+          "width": 320,
+          "status": "passed",
+          "destinationCity": "IST",
+          "image": "/destinations/istanbul-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "barcelona",
+          "width": 1440,
+          "status": "passed",
+          "destinationCity": "BCN",
+          "image": "/destinations/barcelona-batch1-v1-1200.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "barcelona",
+          "width": 390,
+          "status": "passed",
+          "destinationCity": "BCN",
+          "image": "/destinations/barcelona-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "barcelona",
+          "width": 375,
+          "status": "passed",
+          "destinationCity": "BCN",
+          "image": "/destinations/barcelona-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "barcelona",
+          "width": 360,
+          "status": "passed",
+          "destinationCity": "BCN",
+          "image": "/destinations/barcelona-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "barcelona",
+          "width": 320,
+          "status": "passed",
+          "destinationCity": "BCN",
+          "image": "/destinations/barcelona-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "singapore",
+          "width": 1440,
+          "status": "passed",
+          "destinationCity": "SIN",
+          "image": "/destinations/singapore-batch1-v1-1200.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "singapore",
+          "width": 390,
+          "status": "passed",
+          "destinationCity": "SIN",
+          "image": "/destinations/singapore-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "singapore",
+          "width": 375,
+          "status": "passed",
+          "destinationCity": "SIN",
+          "image": "/destinations/singapore-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "singapore",
+          "width": 360,
+          "status": "passed",
+          "destinationCity": "SIN",
+          "image": "/destinations/singapore-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "singapore",
+          "width": 320,
+          "status": "passed",
+          "destinationCity": "SIN",
+          "image": "/destinations/singapore-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": []
+        },
+        {
+          "slug": "mexico-city",
+          "width": 1440,
+          "status": "passed",
+          "destinationCity": "MEX",
+          "image": "/destinations/mexico-city-batch1-v1-1200.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "slug": "mexico-city",
+          "width": 390,
+          "status": "passed",
+          "destinationCity": "MEX",
+          "image": "/destinations/mexico-city-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "slug": "mexico-city",
+          "width": 375,
+          "status": "passed",
+          "destinationCity": "MEX",
+          "image": "/destinations/mexico-city-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "slug": "mexico-city",
+          "width": 360,
+          "status": "passed",
+          "destinationCity": "MEX",
+          "image": "/destinations/mexico-city-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "slug": "mexico-city",
+          "width": 320,
+          "status": "passed",
+          "destinationCity": "MEX",
+          "image": "/destinations/mexico-city-batch1-v1-640.webp",
+          "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+          "contextPreserved": true,
+          "reload": true,
+          "back": true,
+          "visibleCredit": [
+            {
+              "text": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display · Wikimedia Commons · License · Cropped to fit",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "page": "homepage",
+          "width": 1440,
+          "cards": 8,
+          "status": "passed"
+        },
+        {
+          "page": "homepage",
+          "width": 390,
+          "cards": 8,
+          "status": "passed"
+        },
+        {
+          "page": "homepage",
+          "width": 375,
+          "cards": 8,
+          "status": "passed"
+        },
+        {
+          "page": "homepage",
+          "width": 360,
+          "cards": 8,
+          "status": "passed"
+        },
+        {
+          "page": "homepage",
+          "width": 320,
+          "cards": 8,
+          "status": "passed"
+        }
+      ],
+      "browserErrors": [],
+      "externalRequests": [],
+      "attemptedApiRequests": [],
+      "providerCalls": 0,
+      "OpenAICalls": 0,
+      "RedisCalls": 0
+    }
+  },
+  "preserved": [
+    "Next.js 16.4.1 package and lockfile",
+    "Barcelona canonical city-code fallback",
+    "Mexico City visible-credit correction",
+    "Istanbul prior media approval",
+    "all other content and media approvals",
+    "AI OFF default",
+    "English-only routing and SEO",
+    "all deterministic prices and reserves",
+    "airport identities and operational access records",
+    "Redis provider admission and request limits",
+    "affiliate handoff",
+    "Netlify configuration"
+  ],
+  "modifiedFilesThisTask": [
+    "src/domain/destination-discovery.ts",
+    "content/research/destinations/place-Q334.json",
+    "content/research/destinations/city-BCN.json",
+    "content/research/destinations/istanbul.json",
+    "content/research/destinations/place-Q1489.json",
+    "content/destinations/place-Q334.json",
+    "content/destinations/istanbul.json",
+    "content/destinations/place-Q1489.json",
+    "content/destinations/barcelona.json",
+    "content/operations/reviews/place-Q334.json",
+    "content/operations/reviews/istanbul.json",
+    "content/operations/reviews/place-Q1489.json",
+    "content/operations/reviews/barcelona.json",
+    "content/media/approved.json",
+    "tests/destination-discovery.test.ts",
+    "tests/destination-worldwide-population.test.ts",
+    "tests/phase4b-guides.test.ts",
+    "tests/destination-new-york-publication.test.ts",
+    "tests/destination-non-city-publication.test.ts",
+    "tests/destination-batch-review.test.ts",
+    "tests/destination-batch2-publication.test.ts",
+    "tests/destination-batch1-publication.test.ts",
+    "tests/batch2-travel.test.ts",
+    "tests/destination-experience-pilot.test.ts",
+    "tests/standard-non-city-publication.test.ts",
+    "tests/standard-non-city-preparation.test.ts",
+    "tests/catalogue-media-batch01.test.ts",
+    "tests/destination-content-pilot.test.ts",
+    "tests/destination-paris-editorial.test.ts",
+    "tests/tasmania-publication.test.ts",
+    "tests/kruger-preparation.test.ts",
+    "tests/kruger-publication.test.ts",
+    "tests/tasmania-preparation.test.ts",
+    "tests/destination-kyoto-editorial.test.ts",
+    "tests/non-city-preparation.test.ts",
+    "tests/phase2-publication.test.ts",
+    "tests/fixtures/approved-media.ts"
+  ],
+  "addedFilesThisTask": [
+    "docs/research/destination-content/worldwide-batch1-barcelona-v3.md",
+    "docs/research/destination-content/worldwide-batch1-istanbul-v3.md",
+    "docs/research/destination-content/worldwide-batch1-mexico-city-v3.md",
+    "docs/research/destination-content/worldwide-batch1-singapore-v3.md",
+    "docs/research/destination-content/worldwide-expansion-01-2026-10-23/batch-01-publication/browser-verification.json",
+    "docs/research/destination-content/worldwide-expansion-01-2026-10-23/batch-01-publication/editorial-integration.json",
+    "docs/research/destination-content/worldwide-expansion-01-2026-10-23/batch-01-publication/integration-verification.json",
+    "docs/research/destination-content/worldwide-expansion-01-2026-10-23/batch-01-publication/owner-approval.json",
+    "public/destinations/barcelona-batch1-v1-1200.webp",
+    "public/destinations/barcelona-batch1-v1-1920.webp",
+    "public/destinations/barcelona-batch1-v1-640.webp",
+    "public/destinations/mexico-city-batch1-v1-1200.webp",
+    "public/destinations/mexico-city-batch1-v1-1920.webp",
+    "public/destinations/mexico-city-batch1-v1-640.webp",
+    "public/destinations/singapore-batch1-v1-1200.webp",
+    "public/destinations/singapore-batch1-v1-1920.webp",
+    "public/destinations/singapore-batch1-v1-640.webp",
+    "tests/worldwide-batch1-integration.test.ts"
+  ],
+  "testMaintenance": "Advance deterministic current-publication test clocks from 23 October midnight to 24 October midnight to follow the real owner approval timestamps; update four superseded current-revision pins and three newly approved media subjects. Historical preparation packets and their stale/denial assertions remain intact. English-only v3 cases no longer require absent Albanian fields. No runtime time or validation rules changed.",
+  "remainingLocalIntegrationBlockers": [],
+  "freshness": "Keep all pinned recheck dates. Some time-sensitive guidance is due for recheck by 2026-11-06; no expiry date was extended.",
+  "hostedVerification": "not run; existing private Netlify deployment unchanged",
+  "actions": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "infrastructureChanged": false,
+    "liveProviderOrAiCalls": 0
+  }
+}

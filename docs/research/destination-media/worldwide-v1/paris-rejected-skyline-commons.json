@@ -1,0 +1,99 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "119088471": {
+        "pageid": 119088471,
+        "ns": 6,
+        "title": "File:Skyline of Paris 4.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4896006,
+            "width": 4864,
+            "height": 3648,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Skyline_of_Paris_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Paris_4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=119088471",
+            "sha1": "4b59482f78e350316a2c07c0e345a8106e6dd774",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-06-08 22:47:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Skyline of Paris 4",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views from the Centre Georges-Pompidou|Self-published work|Uploads by DiscoA340",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Skyline of Paris seen from the Centre Pompidou.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-07-04 16:50:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:DiscoA340\" title=\"User:DiscoA340\">DiscoA340</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

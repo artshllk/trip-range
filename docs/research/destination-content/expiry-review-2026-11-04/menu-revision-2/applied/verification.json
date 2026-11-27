@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-11-04",
+  "status": "passed",
+  "rows": [
+    {
+      "city": "vienna",
+      "content_version": 3,
+      "exact_approved_candidate": true,
+      "valid_publication_receipt": true,
+      "only_target_item_changed": true,
+      "deadline": "2026-11-18T00:00:00Z"
+    },
+    {
+      "city": "london",
+      "content_version": 6,
+      "exact_approved_candidate": true,
+      "valid_publication_receipt": true,
+      "only_target_item_changed": true,
+      "deadline": "2026-11-18T00:00:00Z"
+    }
+  ]
+}

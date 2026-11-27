@@ -1,0 +1,271 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-23T16:55:59.795Z",
+  "scope": "actual shared guide/card components in unpublished operator previews; planning links open isolated keyless production-built homepage; NOT hosted Netlify checks",
+  "checks": [
+    {
+      "slug": "tokyo",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "heroVariant": "tokyo-batch2-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "tokyo",
+      "width": 390,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "heroVariant": "tokyo-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "tokyo",
+      "width": 375,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "heroVariant": "tokyo-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "tokyo",
+      "width": 360,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "heroVariant": "tokyo-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "tokyo",
+      "width": 320,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "heroVariant": "tokyo-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "heroVariant": "kyoto-batch2-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 390,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "heroVariant": "kyoto-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 375,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "heroVariant": "kyoto-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 360,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "heroVariant": "kyoto-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 320,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "heroVariant": "kyoto-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "heroVariant": "bangkok-batch2-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "heroVariant": "bangkok-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 375,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "heroVariant": "bangkok-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 360,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "heroVariant": "bangkok-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "heroVariant": "bangkok-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "heroVariant": "marrakesh-batch2-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "heroVariant": "marrakesh-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 375,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "heroVariant": "marrakesh-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 360,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "heroVariant": "marrakesh-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "heroVariant": "marrakesh-batch2-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "page": "gallery.html",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "gallery.html",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "gallery.html",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "previews/cards.html",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "previews/cards.html",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "previews/cards.html",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    }
+  ],
+  "guideViewportChecks": 20,
+  "galleryAndCardsChecks": 6,
+  "externalRequests": 0,
+  "apiRequests": 0,
+  "providerCalls": 0,
+  "RedisCalls": 0,
+  "OpenAICalls": 0,
+  "browserErrors": []
+}

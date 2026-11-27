@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q5465",
+  "current": {
+    "contentVersion": 4,
+    "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+    "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+    "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+      }
+    ],
+    "reviewer": "GoEksplo Owner",
+    "updatedAt": "2026-10-23T22:47:26.548Z",
+    "reviewedAt": "2026-10-23T22:47:26.548Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:22.414Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:23.228Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:23.228Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:24.069Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:24.069Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:24.884Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:24.884Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:25.720Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:25.720Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:26.556Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:26.556Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:27.382Z",
+      "reason": "Advisory evidence-review: Cape Town v2 city identity, strengthened attraction and institutional sources, EN/SQ copy, focused mountain, Robben Island, Kirstenbosch and Bo-Kaap selection, waterfront framing and freshness ownership were reviewed and accepted for publication. Cape Winelands, hiking-safety, weather and ferry-duration guarantees are intentionally excluded."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Cape Town v2 city identity, strengthened attraction and institutional sources, EN/SQ copy, focused mountain, Robben Island, Kirstenbosch and Bo-Kaap selection, waterfront framing and freshness ownership were reviewed and accepted for publication. Cape Winelands, hiking-safety, weather and ferry-duration guarantees are intentionally excluded."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:27.382Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:28.208Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Cape Town v2 city identity, strengthened attraction and institutional sources, EN/SQ copy, focused mountain, Robben Island, Kirstenbosch and Bo-Kaap selection, waterfront framing and freshness ownership were reviewed and accepted for publication. Cape Winelands, hiking-safety, weather and ferry-duration guarantees are intentionally excluded."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:28.208Z",
+        "reviewedAt": "2026-10-14T11:19:28.208Z"
+      },
+      "supersededAt": "2026-10-23T22:47:26.375Z",
+      "reason": "Owner explicitly approved the exact pinned English v4 draft in worldwide-batch3-review-v1. Preserve prior review history; reset checks for this revision."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.375Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.406Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.406Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.431Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.431Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.455Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.455Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.479Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.479Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.502Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.502Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.525Z",
+      "reason": "Advisory evidence-review: GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+    },
+    {
+      "review": {
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "49dbdbd2bb87e33e78bb7f9d5165a8c93c2c2ced83a1d30f89cc27e9306c2e66",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch3-review-v1. Retain RRJ transfer uncertainty, WSI recheck, distinct DXB/DWC handling and suspended Cape Town airport-bus guidance. No current service, fare or availability guarantee. English-only V1."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T22:47:26.525Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T22:47:26.548Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

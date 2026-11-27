@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q1489",
+  "current": {
+    "contentVersion": 3,
+    "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+    "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+    "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "GoEksplo Owner explicitly approved the pinned English v3 wording, official sources, identity, itinerary order and freshness in worldwide-batch1-final-review-v1. Existing limits and operational recheck dates are retained. English-only V1; this does not approve new Albanian copy or imply current prices/availability."
+      }
+    ],
+    "reviewer": "GoEksplo Owner",
+    "updatedAt": "2026-10-23T12:21:21.609Z",
+    "reviewedAt": "2026-10-23T12:21:21.609Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:26.523Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:27.348Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:27.348Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:28.148Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:28.148Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:28.948Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:28.948Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:29.769Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:29.769Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:30.580Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:30.580Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:31.383Z",
+      "reason": "Advisory evidence-review: Mexico City v2 identity, institutional archaeology, arts and city sources, EN/SQ copy, focused attraction selection, historic-centre framing, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids promotional superlatives, current ticketing, safety and exhaustive city-coverage claims."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Mexico City v2 identity, institutional archaeology, arts and city sources, EN/SQ copy, focused attraction selection, historic-centre framing, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids promotional superlatives, current ticketing, safety and exhaustive city-coverage claims."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:31.383Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:32.203Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Mexico City v2 identity, institutional archaeology, arts and city sources, EN/SQ copy, focused attraction selection, historic-centre framing, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids promotional superlatives, current ticketing, safety and exhaustive city-coverage claims."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:32.203Z",
+        "reviewedAt": "2026-10-14T11:18:32.203Z"
+      },
+      "supersededAt": "2026-10-23T12:21:21.449Z",
+      "reason": "Owner approved the exact pinned English v3 revision in worldwide-batch1-final-review-v1. Preserve prior review history; reset checks for this newly approved revision."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.449Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.474Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.474Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.497Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.497Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.520Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.520Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.542Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.542Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.565Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.565Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.586Z",
+      "reason": "Advisory evidence-review: GoEksplo Owner explicitly approved the pinned English v3 wording, official sources, identity, itinerary order and freshness in worldwide-batch1-final-review-v1. Existing limits and operational recheck dates are retained. English-only V1; this does not approve new Albanian copy or imply current prices/availability."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "f6b5d2231464c3df4679efd1bea00ade912103557bfd804cc5780581d8a42163",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v3 wording, official sources, identity, itinerary order and freshness in worldwide-batch1-final-review-v1. Existing limits and operational recheck dates are retained. English-only V1; this does not approve new Albanian copy or imply current prices/availability."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-23T12:21:21.586Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-23T12:21:21.609Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "city": "Berlin",
+  "country_code": "DE",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "BER",
+      "public_option_name": "FEX or other VBB local rail, Flughafen BER–Berlin Hbf, ABC single",
+      "public_price": {
+        "value": 5,
+        "currency": "EUR",
+        "unit": "per adult second-class Berlin ABC single",
+        "status": "confirmed",
+        "source_name": "VBB",
+        "source_url": "https://www.vbb.de/tickets/einzelfahrausweise/einzelfahrausweis/",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary full-fare single without subscription or discount card. FEX accepts VBB tickets; airport is in zone C, city centre A: https://ber.berlin-airport.de/en/orientation/getting-here/public-transport.html. Two-hour one-direction ticket; no return journey."
+      },
+      "journey_legs": [
+        {
+          "origin": "Flughafen BER railway station under Terminal 1",
+          "destination": "Berlin Hbf",
+          "mode": "FEX Airport Express",
+          "duration_minutes": {
+            "value": 23,
+            "currency": null,
+            "unit": "published approximate rail-leg minutes",
+            "status": "confirmed",
+            "source_name": "BER Airport",
+            "source_url": "https://ber.berlin-airport.de/en/orientation/getting-here/public-transport.html",
+            "checked_date": "2026-11-02",
+            "note": "Current routing via the Dresdner Bahn. DB corroboration: https://www.dbregio-berlin-brandenburg.de/db-regio-no/Fahren/flughafenexpress. Excludes terminal walking, waiting and any onward trip."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per vehicle BER–Berlin centre fixed transfer",
+        "status": "unconfirmed",
+        "source_name": "Landkreis Dahme-Spreewald — current tariff ordinance",
+        "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+        "checked_date": "2026-11-02",
+        "note": "Airport-specific metered tariff verified. No universal published airport–centre fixed price verified. Berlin city prebooking rules are not automatically applicable to a journey starting at BER."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "BER airport-origin tariff — first distance band",
+          "applicability": "Airport-origin trips in the ordinance scope, including Berlin destinations, first five kilometres. District authority currently links the consolidated ordinance effective 2023-02-01.",
+          "base_fare": {
+            "value": 4.3,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "BER airport-origin tariff — first distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "§ 3a. Airport surcharge applies to pickup using paid taxi dispatch infrastructure. Waiting becomes chargeable after the first full minute per stop. Large vehicles and voucher/invoice payment can have separate charges not included here. Base and airport charge are each applied once."
+          },
+          "per_km": {
+            "value": 2.6,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "BER airport-origin tariff — first distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "§ 3a. Airport surcharge applies to pickup using paid taxi dispatch infrastructure. Waiting becomes chargeable after the first full minute per stop. Large vehicles and voucher/invoice payment can have separate charges not included here. Base and airport charge are each applied once."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "BER airport-origin tariff — first distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "§ 3a. Airport surcharge applies to pickup using paid taxi dispatch infrastructure. Waiting becomes chargeable after the first full minute per stop. Large vehicles and voucher/invoice payment can have separate charges not included here. Base and airport charge are each applied once. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": 1.5,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "confirmed",
+            "source_name": "BER airport-origin tariff — first distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "§ 3a. Airport surcharge applies to pickup using paid taxi dispatch infrastructure. Waiting becomes chargeable after the first full minute per stop. Large vehicles and voucher/invoice payment can have separate charges not included here. Base and airport charge are each applied once."
+          },
+          "published_waiting_rate": {
+            "value": 36,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "BER airport-origin tariff — first distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        },
+        {
+          "name": "BER airport-origin tariff — subsequent distance band",
+          "applicability": "Beyond the first five kilometres on the same airport-origin journey; no second base or airport charge. Berlin-origin return journeys use the Berlin city tariff instead.",
+          "base_fare": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "BER airport-origin tariff — subsequent distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "This is the specific Flughafentarif, not the general district daytime or Berlin-city rate. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "per_km": {
+            "value": 2,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "BER airport-origin tariff — subsequent distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "This is the specific Flughafentarif, not the general district daytime or Berlin-city rate."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "BER airport-origin tariff — subsequent distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "This is the specific Flughafentarif, not the general district daytime or Berlin-city rate. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "BER airport-origin tariff — subsequent distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "This is the specific Flughafentarif, not the general district daytime or Berlin-city rate. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 36,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "BER airport-origin tariff — subsequent distance band",
+            "source_url": "https://www.dahme-spreewald.de/media_fast/595/Verordnung%20Bef%C3%B6rderungsentgelte%20Taxenverkehr%20ab%2001.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 4,
+      "currency": "EUR",
+      "unit": "per adult Berlin AB single, one direction, two-hour validity",
+      "status": "confirmed",
+      "source_name": "VBB",
+      "source_url": "https://www.vbb.de/tickets/einzelfahrausweise/einzelfahrausweis/",
+      "checked_date": "2026-11-02",
+      "note": "Ordinary full-fare ticket.",
+      "validity_area": "Berlin AB; city boundary, airport BER excluded."
+    },
+    "day_pass": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per adult Berlin AB 24-hour ticket",
+      "status": "disputed",
+      "source_name": "S-Bahn Berlin",
+      "source_url": "https://sbahn.berlin/tickets/alle-tickets/alle-tickets-preise/",
+      "checked_date": "2026-11-02",
+      "note": "Current price table conflicts with an unupdated day-ticket answer on the same operator’s CityTourCard page. Current dated VBB announcement supports the higher figure: https://www.vbb.de/news/neue-fahrpreise-im-vbb-ab-1-januar-2026/. Both official observations retained.",
+      "validity_area": "Berlin AB; BER airport excluded.",
+      "alternatives": [
+        {
+          "value": 11.2,
+          "currency": "EUR",
+          "unit": "per adult Berlin AB 24-hour ticket",
+          "status": "confirmed",
+          "source_name": "S-Bahn Berlin — current fare table",
+          "source_url": "https://sbahn.berlin/tickets/alle-tickets/alle-tickets-preise/",
+          "checked_date": "2026-11-02",
+          "note": "Full fare, consecutive 24 hours.",
+          "validity_area": "Berlin AB"
+        },
+        {
+          "value": 10.6,
+          "currency": "EUR",
+          "unit": "per adult Berlin AB 24-hour ticket in embedded FAQ",
+          "status": "confirmed",
+          "source_name": "S-Bahn Berlin — CityTourCard FAQ",
+          "source_url": "https://sbahn.berlin/tickets/alle-tickets/touristentickets/berlin-citytourcard/",
+          "checked_date": "2026-11-02",
+          "note": "FAQ answer appears stale relative to the dated 2026 tariff. No choice silently made.",
+          "validity_area": "Berlin AB"
+        }
+      ],
+      "validity_kind": "unconfirmed",
+      "satisfies_rolling_24h_requirement": null
+    },
+    "pass_72h": {
+      "value": 35.6,
+      "currency": "EUR",
+      "unit": "per adult Berlin CityTourCard for 72 consecutive hours",
+      "status": "confirmed",
+      "source_name": "S-Bahn Berlin",
+      "source_url": "https://sbahn.berlin/tickets/alle-tickets/touristentickets/berlin-citytourcard/",
+      "checked_date": "2026-11-02",
+      "note": "Bundled tourist discount card with public transport, not transport-only. Operator explicitly distinguishes hourly products from calendar-day cards. AB version cannot be extended to C with an add-on ticket.",
+      "validity_area": "Berlin AB; BER airport excluded. ABC is a separate priced product."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2025-01-01",
+        "to": null,
+        "basis": "percent_of_room_net",
+        "rate": {
+          "value": 7.5,
+          "currency": null,
+          "unit": "percent of overnight accommodation charge excluding VAT and other services",
+          "status": "confirmed",
+          "source_name": "Land Berlin — ÜnStG §§ 1, 4, 5 and 12",
+          "source_url": "https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/uebernachtungsteuergesetz-ab-2026.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Current consolidated text from 2026-01-01. Rate effective from 2025-01-01; § 12 preserves older rules for contracts agreed before that date, including the earlier business-travel exemption for pre-April-2024 agreements. Accommodation must be short-term, less than six months. The former maximum taxable-night limit no longer applies. Do not select solely by overnight date."
+        },
+        "exemptions": "No general business-travel or age exemption in the current law. Qualifying compulsory, school-approved pupil trips serving the educational purpose are excluded under official guidance; privately organised trips are not. Basic-needs cases require the documented conditions in https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/leitfaden-uebernachtungsteuer_rechtslage-ab-01012025-01-2025.pdf. No automatic exemption is inferred merely from trip purpose. Accommodation business is the tax debtor.",
+        "legal_source_url": "https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/uebernachtungsteuergesetz-ab-2026.pdf",
+        "assessment_base": {
+          "kind": "overnight_accommodation_net_of_vat_and_other_services",
+          "excludes": "VAT and non-accommodation services; never apply to a gross package total.",
+          "source_url": "https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/uebernachtungsteuergesetz-ab-2026.pdf",
+          "source_name": "Land Berlin — ÜnStG §§ 1, 4, 5 and 12",
+          "checked_date": "2026-11-02"
+        },
+        "applicability": {
+          "agreement_on_or_after": "2025-01-01",
+          "stay_on_or_after": "2025-01-01",
+          "stay_date_alone_sufficient": false,
+          "legal_source_url": "https://www.berlin.de/sen/finanzen/steuern/downloads/uebernachtungsteuer/uebernachtungsteuergesetz-ab-2026.pdf",
+          "checked_date": "2026-11-02"
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "statutory_net_assessment_base",
+            "tax_service_date",
+            "currency_rounding_rule",
+            "property_pass_through_and_tax_inclusion",
+            "agreement_date"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed",
+            "agreement predates the encoded current regime; historical rules are not encoded"
+          ],
+          "evidence_gaps": [
+            "A complete currency-rounding rule and guest invoice/VAT treatment are not encoded; the confirmed percentage alone cannot yield an exact guest invoice from a gross room quote."
+          ],
+          "status": "conditional",
+          "supported_case": "Applicable statutory liability using a verified legal assessment base, with eligibility resolved and no unsupported historical contract.",
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 10.9,
+      "currency": "EUR",
+      "unit": "per two-white-sausage and pretzel plate at Maximilians",
+      "status": "confirmed",
+      "source_name": "Maximilians Berlin",
+      "source_url": "https://www.maximilians-berlin.de/speisekarte",
+      "checked_date": "2026-11-02",
+      "note": "Current live menu, no explicit expiry. Named light meal; drink and optional third sausage excluded. Curry 36’s official menu has no prices, so third-party transcriptions were not used."
+    },
+    "midrange_meal_for_two": {
+      "value": 37,
+      "currency": "EUR",
+      "unit": "per Berliner Schmauserei main platter for two at Zur Gerichtslaube",
+      "status": "confirmed",
+      "source_name": "Restaurant Zur Gerichtslaube — current 2026 menu",
+      "source_url": "https://www.gerichtslaube.de/wp-content/uploads/2026/02/Speisekarte-2026.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Explicit two-person total for meatball, sausage, roast pork, sauerkraut and potatoes; not a constructed three-course basket. Live menu page timed out in web reader but was fetched directly to establish that this PDF is the current linked menu. Older 2024/2025 menu files were superseded, not used."
+    },
+    "coffee": {
+      "value": 3.5,
+      "currency": "EUR",
+      "unit": "per cup of Kaffee Creme at Zur Gerichtslaube",
+      "status": "confirmed",
+      "source_name": "Restaurant Zur Gerichtslaube — current 2026 drinks menu",
+      "source_url": "https://www.gerichtslaube.de/wp-content/uploads/2026/02/Getraenkekarte-2026.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Item 260; same live-page link verification as the food PDF. Not cappuccino and not a city average."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Berliner Fernsehturm — standard observation ticket",
+      "entry_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "unconfirmed",
+        "source_name": "Berliner Fernsehturm — standard observation ticket — official visitor information",
+        "source_url": "https://tv-turm.de/",
+        "checked_date": "2026-11-02",
+        "note": "Issuer advertises a dynamic starting price without a dated adult quote. Starting-price teaser is not a confirmed ordinary adult entry amount and remains null. Venue FAQ explicitly permits both website and on-site ticket-counter purchases, although a timeslot is required: https://tv-turm.de/faq-categories/tickets/."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Neues Museum",
+      "entry_price": {
+        "value": 14,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Neues Museum — official visitor information",
+        "source_url": "https://www.smb.museum/en/museums-institutions/neues-museum/plan-your-visit/prices-tickets/",
+        "checked_date": "2026-11-02",
+        "note": "Museum-only full fare. The venue allows purchase at the counter or online; use the James-Simon-Galerie entrance for ticket services. An entrance requiring a pre-existing ticket does not mean advance purchase is universally required."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Berliner Dom",
+      "entry_price": {
+        "value": 15,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Berliner Dom — official visitor information",
+        "source_url": "https://www.berlinerdom.de/en/visiting/service/visitors-service/",
+        "checked_date": "2026-11-02",
+        "note": "Standard sightseeing ticket including audioguide; on-site ticket machines and ticket office explicitly available. Different from free worship attendance."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Schloss Charlottenburg — Altes Schloss",
+      "entry_price": {
+        "value": 12,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Schloss Charlottenburg — Altes Schloss — official visitor information",
+        "source_url": "https://www.spsg.de/aktuelles/ausstellung/neu-in-szene",
+        "checked_date": "2026-11-02",
+        "note": "Altes Schloss ticket explicitly priced separately from Neuer Flügel and charlottenburg+ combination. The page confirms counter sales for the combination, but no absolute advance-purchase policy for this single-building product was verified."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "DDR Museum",
+      "entry_price": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "disputed",
+        "source_name": "DDR Museum — official visitor information",
+        "source_url": "https://www.ddr-museum.de/en/visit",
+        "checked_date": "2026-11-02",
+        "note": "Live visitor page and museum-issued 2026 reseller brochure disagree on ordinary full admission. Advance booking is optional: live page explicitly offers ticket-desk sales.",
+        "alternatives": [
+          {
+            "value": 13.9,
+            "currency": "EUR",
+            "unit": "per adult ordinary admission",
+            "status": "confirmed",
+            "source_name": "DDR Museum — current visitor page",
+            "source_url": "https://www.ddr-museum.de/en/visit",
+            "checked_date": "2026-11-02",
+            "note": "Current live public price, corroborated by venue FAQ."
+          },
+          {
+            "value": 13.5,
+            "currency": "EUR",
+            "unit": "per adult regular admission in 2026 reseller brochure",
+            "status": "confirmed",
+            "source_name": "DDR Museum — 2026 reseller publication",
+            "source_url": "https://www.ddr-museum.de/download_file/f6742f23-716c-49d7-98ba-c90636c0294b/219",
+            "checked_date": "2026-11-02",
+            "note": "Printed regular face value, before a separately stated reseller discount; not silently treated as a different concession product."
+          }
+        ]
+      },
+      "booking_ahead_required": false
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "Day-ticket and DDR Museum official-source discrepancies retained. TV Tower price needs a date-specific adult quote; a teaser minimum is not substituted.",
+    "Tax review found no further dated rate change in the checked law and authority material. Current budget corroboration: https://www.berlin.de/sen/finanzen/haushalt/downloads/haushaltsplan-2026-27/band14_2026_2027_epl-15-27-29.pdf. Historical contract exceptions remain relevant.",
+    "The taxi figures are for BER-origin trips in the cited ordinance scope; they must not be reused for the reverse city-to-airport journey.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero.",
+    "Conditional reframing: this tax depends structurally on the accommodation model. The registry proposes a derived tax component with the stay estimate’s provenance and an explicit incomplete-total state whenever a required charge cannot be represented. No actual room quote is expected from city research; no production calculator or result-card change is made here.",
+    "2026-11-02 owner decision supersedes the earlier model-derived tax proposal: statutory accommodation tax is inside the traveller-payable allowance and must never be added again. Exact legal research remains for plausibility/inclusion checks and future provider reconciliation; no tax transform is implemented."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

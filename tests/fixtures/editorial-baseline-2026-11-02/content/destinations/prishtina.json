@@ -1,0 +1,329 @@
+{
+  "destinationId": "prishtina",
+  "identitySubject": "prishtina",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T11:18:23.994Z",
+  "sourceIds": [
+    "source:pilot:prn:identity",
+    "source:pilot:prn:airport-code"
+  ],
+  "sources": [
+    {
+      "id": "source:pilot:prn:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q25270",
+      "title": "Pristina (Q25270)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q25270"
+      }
+    },
+    {
+      "id": "source:pilot:prn:city-culture",
+      "type": "official",
+      "url": "https://prishtina.rks-gov.net/wp-content/uploads/2024/12/prishtina_art-online.pdf",
+      "title": "PrishtinArt — January 2024, National Library and NEWBORN, p. 159",
+      "publisher": "Municipality of Prishtina",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:mosque",
+      "type": "official",
+      "url": "https://dtk.rks-gov.net/Objekti?heritageId=8622",
+      "title": "Xhamia e Mbretit — cultural heritage record 002766",
+      "publisher": "Ministry of Culture, Youth and Sport, Kosovo",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:gallery",
+      "type": "official",
+      "url": "https://www.galeriakombetare-rks.com/en/rreth-nesh",
+      "title": "About us — National Gallery of Kosovo",
+      "publisher": "National Gallery of Kosovo",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:gallery-visits",
+      "type": "official",
+      "url": "https://www.galeriakombetare-rks.com/en",
+      "title": "National Gallery of Kosovo — exhibitions and visits",
+      "publisher": "National Gallery of Kosovo",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:gallery-location",
+      "type": "official",
+      "url": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=55207",
+      "title": "Statute of the National Gallery of Kosovo — Article 3, headquarters",
+      "publisher": "Official Gazette of the Republic of Kosovo",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:airport-bus",
+      "type": "official",
+      "url": "https://trafikurban-pr.com/2022/linja-e-aeroportit/",
+      "title": "Linja e Aeroportit",
+      "publisher": "Trafiku Urban, Prishtina",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:airport-code",
+      "type": "official",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "title": "Public airport metadata — PRN identity only",
+      "publisher": "Travelpayouts",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    },
+    {
+      "id": "source:pilot:prn:library",
+      "type": "official",
+      "url": "https://bkk-pjeterbogdani.rks-gov.net/en/",
+      "title": "National Library of Kosovo “Pjetër Bogdani”",
+      "publisher": "National Library of Kosovo",
+      "retrievedAt": "2026-10-13T23:00:22.794Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Prishtina brings together Ottoman-era landmarks, the National Library’s architecture and visual-art institutions. A short visit can combine a few central sights with a gallery visit.",
+      "sq": "Prishtina ndërthur monumente të periudhës osmane, arkitekturën e Bibliotekës Kombëtare dhe institucione të artit pamor. Një vizitë e shkurtër mund të bashkojë disa vende në qendër me një vizitë në galeri."
+    },
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-14T11:18:23.994Z",
+    "sourceIds": [
+      "source:pilot:prn:mosque",
+      "source:pilot:prn:city-culture",
+      "source:pilot:prn:gallery"
+    ],
+    "freshness": {
+      "kind": "stable"
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:prishtina:architecture",
+      "text": {
+        "en": "Contrasting architectural periods in the city",
+        "sq": "Periudha të ndryshme arkitekturore në qytet"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:mosque",
+        "source:pilot:prn:city-culture"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:prishtina:visual-art",
+      "text": {
+        "en": "Visual art at a national cultural institution",
+        "sq": "Art pamor në një institucion kulturor kombëtar"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:gallery"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:prishtina:recent-history",
+      "text": {
+        "en": "Kosovo’s recent history at NEWBORN",
+        "sq": "Historia e afërt e Kosovës te monumenti NEWBORN"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:city-culture"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:prishtina:national-library",
+      "destinationId": "prishtina",
+      "name": {
+        "en": "National Library of Kosovo “Pjetër Bogdani”",
+        "sq": "Biblioteka Kombëtare e Kosovës “Pjetër Bogdani”"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "The national library building is distinguished by its domes and metal covering. Its exterior offers an architectural stop in Prishtina.",
+        "sq": "Ndërtesa e bibliotekës kombëtare dallohet për kupolat dhe mbështjellësin metalik. Pamja e jashtme ofron një ndalesë arkitekturore në Prishtinë."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:city-culture",
+        "source:pilot:prn:library"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:prishtina:newborn",
+      "destinationId": "prishtina",
+      "name": {
+        "en": "NEWBORN Monument",
+        "sq": "Monumenti NEWBORN"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "A letter-form monument near the Palace of Youth, unveiled when Kosovo declared independence in 2008.",
+        "sq": "Monument me shkronja pranë Pallatit të Rinisë, i përuruar kur Kosova shpalli pavarësinë më 2008."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:city-culture"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:prishtina:national-gallery",
+      "destinationId": "prishtina",
+      "name": {
+        "en": "National Gallery of Kosovo",
+        "sq": "Galeria Kombëtare e Kosovës"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "A visual-art institution in Prishtina with a history of exhibitions by artists from Kosovo and abroad.",
+        "sq": "Institucion i artit pamor në Prishtinë, me histori ekspozitash nga artistë të Kosovës dhe të vendeve të tjera."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:gallery",
+        "source:pilot:prn:gallery-location"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:prishtina:imperial-mosque",
+      "destinationId": "prishtina",
+      "name": {
+        "en": "Imperial Mosque (Xhamia e Mbretit)",
+        "sq": "Xhamia e Mbretit"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "An Ottoman-era mosque in Prishtina’s old centre, near the Great Hammam and Clock Tower. It provides a focal point for exploring this historic part of the city.",
+        "sq": "Xhami e periudhës osmane në qendrën e vjetër të Prishtinës, pranë Hamamit të Madh dhe Sahat Kullës. Mund të shërbejë si pikënisje për të njohur këtë pjesë historike të qytetit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:mosque"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [],
+  "transport": [
+    {
+      "id": "transport:prishtina:airport-bus",
+      "destinationId": "prishtina",
+      "title": {
+        "en": "Check the airport bus connection",
+        "sq": "Kontrollo lidhjen me autobus me aeroportin"
+      },
+      "guidance": {
+        "en": "Before relying on an airport bus, ask Trafiku Urban to confirm the service, stops and departures for your travel date. The linked airport-line notice is older and does not confirm current operation.",
+        "sq": "Para se të mbështetesh te autobusi i aeroportit, kërko nga Trafiku Urban konfirmimin e shërbimit, ndalesave dhe nisjeve për datën tënde. Njoftimi i lidhur është i vjetër dhe nuk konfirmon funksionimin aktual."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:airport-bus"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:prishtina:gallery-programme",
+      "destinationId": "prishtina",
+      "kind": "other",
+      "text": {
+        "en": "Check the National Gallery’s programme and visitor information before choosing a visit date; exhibitions and entry arrangements may change.",
+        "sq": "Kontrollo programin dhe informacionin për vizitorët të Galerisë Kombëtare para se të zgjedhësh datën e vizitës; ekspozitat dhe kushtet e hyrjes mund të ndryshojnë."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:gallery-visits"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "day:prishtina:architecture-and-art",
+      "destinationId": "prishtina",
+      "suitableNights": [
+        2,
+        3
+      ],
+      "title": {
+        "en": "Architecture, a monument and visual art",
+        "sq": "Arkitekturë, një monument dhe art pamor"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:prishtina:national-library"
+        },
+        {
+          "attractionId": "attraction:prishtina:newborn"
+        },
+        {
+          "attractionId": "attraction:prishtina:national-gallery"
+        }
+      ],
+      "notes": {
+        "en": "Spread these stops across your stay. Treat the library as an exterior visit and choose the gallery visit after checking its programme. No walking route or travel time is implied.",
+        "sq": "Shpërndaji këto ndalesa gjatë qëndrimit. Planifiko bibliotekën si vizitë të jashtme dhe zgjidh vizitën në galeri pasi të kontrollosh programin. Nuk nënkuptohet një rrugë në këmbë apo kohë udhëtimi."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:18:23.994Z",
+      "sourceIds": [
+        "source:pilot:prn:city-culture",
+        "source:pilot:prn:gallery-visits"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "publication": {
+    "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+    "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+    "approvedAt": "2026-10-14T11:18:23.994Z"
+  }
+}

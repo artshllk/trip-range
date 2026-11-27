@@ -1,0 +1,584 @@
+{
+  "selected_tests": [
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "prishtina: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q1489: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q8678: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q1486: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q5465: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q101625: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q612: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "istanbul: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/batch2-travel.test.js",
+      "name": "place:Q3130: trusted travel binding cannot publish an in-memory draft or change access data"
+    },
+    {
+      "file": ".test-build/tests/destination-archive.test.js",
+      "name": "archived destinations are absent from operator work and every scheduled maintenance row"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "five prepared drafts report readiness without editorial approval, network or source mutation"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "changed contentDigest invalidates preparation for only that destination"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "changed identityDigest invalidates preparation for only that destination"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "changed evidenceDigest invalidates preparation for only that destination"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "missing preparation cannot infer copy readiness from syntactic validation"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "incomplete English, source and selection preparation are independent gates"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "unresolved travel or expired metadata preserves editorial readiness but not full readiness"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "expired content remains a blocker even with a newly pinned preparation record"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "Batch 2 preparation fixture has exactly nine pinned pending drafts, with read-only preparation and no publication"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "prishtina: airport-equals-city legacy aliases validate without another direct-city record"
+    },
+    {
+      "file": ".test-build/tests/destination-batch-review.test.js",
+      "name": "istanbul: airport-equals-city legacy aliases validate without another direct-city record"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "city:BCN: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "city:BCN: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "london: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "london: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "place:Q334: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "place:Q334: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "place:Q1861: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "place:Q1861: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "place:Q24639: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "place:Q24639: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "publication leaves exactly thirty reviewed records and no drafts"
+    },
+    {
+      "file": ".test-build/tests/destination-batch1-publication.test.js",
+      "name": "read-only preparation report never reopens or auto-approves the five persisted publications"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "prishtina: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "prishtina: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q1489: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q1489: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q8678: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q8678: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q1486: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q1486: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q5465: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q5465: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q101625: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q101625: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q612: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q612: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "istanbul: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "istanbul: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q3130: exact authorized current revision, review provenance and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "place:Q3130: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "Sydney WSI expiry hides the item and makes editorial re-review due without invalidating approval history"
+    },
+    {
+      "file": ".test-build/tests/destination-batch2-publication.test.js",
+      "name": "read-only preparation report never reopens or auto-approves the nine persisted publications"
+    },
+    {
+      "file": ".test-build/tests/destination-editorial.test.js",
+      "name": "all thirty destinations have valid approvals at the recorded review clock, including Kruger"
+    },
+    {
+      "file": ".test-build/tests/destination-kyoto-editorial.test.js",
+      "name": "Kyoto v4 retains specific official evidence for the temple, shrine, pagoda, local rules and separate southern outing"
+    },
+    {
+      "file": ".test-build/tests/destination-kyoto-editorial.test.js",
+      "name": "Kyoto v4 groups the eastern stops, keeps Fushimi Inari separate and retains operational recheck deadlines"
+    },
+    {
+      "file": ".test-build/tests/destination-kyoto-editorial.test.js",
+      "name": "Kyoto exact v4 approval and receipt publish all current content offline while Paris remains current"
+    },
+    {
+      "file": ".test-build/tests/destination-kyoto-editorial.test.js",
+      "name": "Kyoto factual/source edits cannot inherit the old receipt; the real record stays untouched"
+    },
+    {
+      "file": ".test-build/tests/destination-new-york-publication.test.js",
+      "name": "New York's exact owner-approved v3 publishes thirteen items and preserves the earlier approval"
+    },
+    {
+      "file": ".test-build/tests/destination-new-york-publication.test.js",
+      "name": "New York copy/source tampering cannot inherit an old receipt or trigger automatic repair"
+    },
+    {
+      "file": ".test-build/tests/destination-new-york-publication.test.js",
+      "name": "direct-city identity is independent of publication and cannot expose an in-memory New York draft"
+    },
+    {
+      "file": ".test-build/tests/destination-new-york-publication.test.js",
+      "name": "New York publication retains the focused selection and January operational deadlines"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "crete: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "crete: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "place:Q1490: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "place:Q1490: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "place:Q1273: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "place:Q1273: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "place:Q180402: exact authorized current revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "place:Q180402: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "read-only preparation report never reopens or auto-approves the four persisted non-city publications"
+    },
+    {
+      "file": ".test-build/tests/destination-non-city-publication.test.js",
+      "name": "an in-memory Kruger draft stays hidden despite reviewed access; existing access is unchanged"
+    },
+    {
+      "file": ".test-build/tests/destination-paris-editorial.test.js",
+      "name": "Paris palace and cathedral descriptions cite specific official evidence; booking stays periodic"
+    },
+    {
+      "file": ".test-build/tests/destination-paris-editorial.test.js",
+      "name": "Paris SQ uses natural Eiffel forms without expanding the selection or adding an itinerary"
+    },
+    {
+      "file": ".test-build/tests/destination-paris-editorial.test.js",
+      "name": "Paris v3 publication pins owner-approved English changes while retaining the v2 review"
+    },
+    {
+      "file": ".test-build/tests/destination-paris-editorial.test.js",
+      "name": "an in-memory Paris factual or source edit cannot reuse the approved receipt"
+    },
+    {
+      "file": ".test-build/tests/kruger-preparation.test.js",
+      "name": "Kruger independent access cannot publish an in-memory preparation; 29 other receipts remain current"
+    },
+    {
+      "file": ".test-build/tests/kruger-publication.test.js",
+      "name": "Kruger exact authorized v2 publication is persisted with current review, receipt and public content"
+    },
+    {
+      "file": ".test-build/tests/kruger-publication.test.js",
+      "name": "Kruger factual/source tampering cannot reuse the old receipt; draft copies remain hidden"
+    },
+    {
+      "file": ".test-build/tests/kruger-publication.test.js",
+      "name": "Kruger cannot be reapplied; all 30 receipts stay current and Patagonia stays blocked"
+    },
+    {
+      "file": ".test-build/tests/launch-scope.test.js",
+      "name": "parking retains exact content bytes and removes publication, access and review work"
+    },
+    {
+      "file": ".test-build/tests/non-city-preparation.test.js",
+      "name": "Phase 5G in-memory preparation has four pending unpublished proofs with current pins"
+    },
+    {
+      "file": ".test-build/tests/non-city-preparation.test.js",
+      "name": "multi-group batch preparation rejects excess groups and mismatched operational proof"
+    },
+    {
+      "file": ".test-build/tests/phase4b-guides.test.js",
+      "name": "owner-approved runtime revisions match the pinned candidates and retain previous review history"
+    },
+    {
+      "file": ".test-build/tests/phase4b-guides.test.js",
+      "name": "workflow evidence registers the exact accepted research bytes and complete guide source counts"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-preparation.test.js",
+      "name": "Phase 5I has exactly six pinned draft preparations, never editorial approvals"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-preparation.test.js",
+      "name": "Phase 5I stale copy pins and mismatched airport membership fail readiness"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q4648: exact authorized revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q4648: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q40846: exact authorized revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q40846: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q2656389: exact authorized revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q2656389: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q131347: exact authorized revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q131347: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q76516549: exact authorized revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q76516549: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q41858: exact authorized revision, human review and receipt persist and serve offline"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "place:Q41858: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden"
+    },
+    {
+      "file": ".test-build/tests/standard-non-city-publication.test.js",
+      "name": "read-only preparation report never reopens or auto-approves the six persisted standard non-city publications"
+    },
+    {
+      "file": ".test-build/tests/sydney-transport-refresh.test.js",
+      "name": "Sydney refresh changes only WSI guidance and sources; original owner approval survives"
+    },
+    {
+      "file": ".test-build/tests/sydney-transport-refresh.test.js",
+      "name": "refreshed WSI expires exactly at the short recheck deadline without hiding SYD or treating transfers as free"
+    },
+    {
+      "file": ".test-build/tests/tasmania-preparation.test.js",
+      "name": "Tasmania preparation is pinned and pending; all 29 other publications remain valid"
+    },
+    {
+      "file": ".test-build/tests/tasmania-preparation.test.js",
+      "name": "operator preparation pins restoration policy without weakening other grouped limits"
+    },
+    {
+      "file": ".test-build/tests/tasmania-publication.test.js",
+      "name": "Tasmania exact authorized v2 publication is persisted, current and visible without operator metadata"
+    },
+    {
+      "file": ".test-build/tests/tasmania-publication.test.js",
+      "name": "Tasmania old receipt cannot authorize changed facts, sources or order; draft copy stays hidden"
+    },
+    {
+      "file": ".test-build/tests/tasmania-publication.test.js",
+      "name": "Tasmania preparation report cannot reopen the published revision or mutate the published Kruger revision"
+    }
+  ],
+  "experiments": [
+    {
+      "label": "current-data-before-approvals",
+      "clock": "2026-11-04T09:00:00Z",
+      "exit_code": 1,
+      "tests": 107,
+      "passed": 0,
+      "failed": 107,
+      "skipped": 0,
+      "failing_test_names": [
+        "prishtina: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q1489: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q8678: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q1486: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q5465: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q101625: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q612: trusted travel binding cannot publish an in-memory draft or change access data",
+        "istanbul: trusted travel binding cannot publish an in-memory draft or change access data",
+        "place:Q3130: trusted travel binding cannot publish an in-memory draft or change access data",
+        "archived destinations are absent from operator work and every scheduled maintenance row",
+        "five prepared drafts report readiness without editorial approval, network or source mutation",
+        "changed contentDigest invalidates preparation for only that destination",
+        "changed identityDigest invalidates preparation for only that destination",
+        "changed evidenceDigest invalidates preparation for only that destination",
+        "missing preparation cannot infer copy readiness from syntactic validation",
+        "incomplete English, source and selection preparation are independent gates",
+        "unresolved travel or expired metadata preserves editorial readiness but not full readiness",
+        "expired content remains a blocker even with a newly pinned preparation record",
+        "Batch 2 preparation fixture has exactly nine pinned pending drafts, with read-only preparation and no publication",
+        "prishtina: airport-equals-city legacy aliases validate without another direct-city record",
+        "istanbul: airport-equals-city legacy aliases validate without another direct-city record",
+        "city:BCN: exact authorized current revision, human review and receipt persist and serve offline",
+        "city:BCN: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "london: exact authorized current revision, human review and receipt persist and serve offline",
+        "london: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q334: exact authorized current revision, human review and receipt persist and serve offline",
+        "place:Q334: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q1861: exact authorized current revision, human review and receipt persist and serve offline",
+        "place:Q1861: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q24639: exact authorized current revision, human review and receipt persist and serve offline",
+        "place:Q24639: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "publication leaves exactly thirty reviewed records and no drafts",
+        "read-only preparation report never reopens or auto-approves the five persisted publications",
+        "prishtina: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "prishtina: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q1489: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q1489: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q8678: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q8678: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q1486: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q1486: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q5465: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q5465: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q101625: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q101625: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q612: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q612: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "istanbul: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "istanbul: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q3130: exact authorized current revision, review provenance and receipt persist and serve offline",
+        "place:Q3130: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "Sydney WSI expiry hides the item and makes editorial re-review due without invalidating approval history",
+        "read-only preparation report never reopens or auto-approves the nine persisted publications",
+        "all thirty destinations have valid approvals at the recorded review clock, including Kruger",
+        "Kyoto v4 retains specific official evidence for the temple, shrine, pagoda, local rules and separate southern outing",
+        "Kyoto v4 groups the eastern stops, keeps Fushimi Inari separate and retains operational recheck deadlines",
+        "Kyoto exact v4 approval and receipt publish all current content offline while Paris remains current",
+        "Kyoto factual/source edits cannot inherit the old receipt; the real record stays untouched",
+        "New York's exact owner-approved v3 publishes thirteen items and preserves the earlier approval",
+        "New York copy/source tampering cannot inherit an old receipt or trigger automatic repair",
+        "direct-city identity is independent of publication and cannot expose an in-memory New York draft",
+        "New York publication retains the focused selection and January operational deadlines",
+        "crete: exact authorized current revision, human review and receipt persist and serve offline",
+        "crete: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q1490: exact authorized current revision, human review and receipt persist and serve offline",
+        "place:Q1490: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q1273: exact authorized current revision, human review and receipt persist and serve offline",
+        "place:Q1273: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q180402: exact authorized current revision, human review and receipt persist and serve offline",
+        "place:Q180402: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "read-only preparation report never reopens or auto-approves the four persisted non-city publications",
+        "an in-memory Kruger draft stays hidden despite reviewed access; existing access is unchanged",
+        "Paris palace and cathedral descriptions cite specific official evidence; booking stays periodic",
+        "Paris SQ uses natural Eiffel forms without expanding the selection or adding an itinerary",
+        "Paris v3 publication pins owner-approved English changes while retaining the v2 review",
+        "an in-memory Paris factual or source edit cannot reuse the approved receipt",
+        "Kruger independent access cannot publish an in-memory preparation; 29 other receipts remain current",
+        "Kruger exact authorized v2 publication is persisted with current review, receipt and public content",
+        "Kruger factual/source tampering cannot reuse the old receipt; draft copies remain hidden",
+        "Kruger cannot be reapplied; all 30 receipts stay current and Patagonia stays blocked",
+        "parking retains exact content bytes and removes publication, access and review work",
+        "Phase 5G in-memory preparation has four pending unpublished proofs with current pins",
+        "multi-group batch preparation rejects excess groups and mismatched operational proof",
+        "owner-approved runtime revisions match the pinned candidates and retain previous review history",
+        "workflow evidence registers the exact accepted research bytes and complete guide source counts",
+        "Phase 5I has exactly six pinned draft preparations, never editorial approvals",
+        "Phase 5I stale copy pins and mismatched airport membership fail readiness",
+        "place:Q4648: exact authorized revision, human review and receipt persist and serve offline",
+        "place:Q4648: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q40846: exact authorized revision, human review and receipt persist and serve offline",
+        "place:Q40846: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q2656389: exact authorized revision, human review and receipt persist and serve offline",
+        "place:Q2656389: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q131347: exact authorized revision, human review and receipt persist and serve offline",
+        "place:Q131347: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q76516549: exact authorized revision, human review and receipt persist and serve offline",
+        "place:Q76516549: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "place:Q41858: exact authorized revision, human review and receipt persist and serve offline",
+        "place:Q41858: changed facts or sources cannot reuse a receipt; draft fixtures stay hidden",
+        "read-only preparation report never reopens or auto-approves the six persisted standard non-city publications",
+        "Sydney refresh changes only WSI guidance and sources; original owner approval survives",
+        "refreshed WSI expires exactly at the short recheck deadline without hiding SYD or treating transfers as free",
+        "Tasmania preparation is pinned and pending; all 29 other publications remain valid",
+        "operator preparation pins restoration policy without weakening other grouped limits",
+        "Tasmania exact authorized v2 publication is persisted, current and visible without operator metadata",
+        "Tasmania old receipt cannot authorize changed facts, sources or order; draft copy stays hidden",
+        "Tasmania preparation report cannot reopen the published revision or mutate the published Kruger revision"
+      ]
+    },
+    {
+      "label": "matched-pre-approval-data",
+      "clock": "2026-11-04T09:00:00Z",
+      "exit_code": 0,
+      "tests": 107,
+      "passed": 107,
+      "failed": 0,
+      "skipped": 0,
+      "failing_test_names": []
+    }
+  ],
+  "control": {
+    "method": "Unchanged test code and production code; only five destinations’ content, research metadata and editorial review JSON restored from HEAD in an isolated temporary workspace. Real workspace never rolled back or backdated.",
+    "baseline_files": [
+      "content/destinations/vienna.json",
+      "content/operations/reviews/vienna.json",
+      "content/research/destinations/vienna.json",
+      "content/destinations/london.json",
+      "content/operations/reviews/london.json",
+      "content/research/destinations/london.json",
+      "content/destinations/paris.json",
+      "content/operations/reviews/paris.json",
+      "content/research/destinations/paris.json",
+      "content/destinations/barcelona.json",
+      "content/operations/reviews/barcelona.json",
+      "content/research/destinations/city-BCN.json",
+      "content/destinations/istanbul.json",
+      "content/operations/reviews/istanbul.json",
+      "content/research/destinations/istanbul.json"
+    ],
+    "baseline_git_commit": "c59db4d998ebdacdd5e56dec57c0f168c047ab38"
+  },
+  "note": "An earlier clock alone cannot make a later approval valid. The matched historical-data control determines whether the 107 failures conceal a regression."
+}

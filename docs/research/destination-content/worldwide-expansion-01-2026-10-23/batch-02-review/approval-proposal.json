@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch2-review-v1",
+  "status": "unsigned-review-proposal-not-publication",
+  "preparedAt": "2026-10-23T16:30:59.836Z",
+  "candidates": [
+    {
+      "slug": "tokyo",
+      "destinationId": "place:Q1490",
+      "candidateFile": "drafts/tokyo.json",
+      "fileSha256": "ae3b548a26a79a1231eab3aeca308077e0b15ac9059b5c057a258e989a959cf6",
+      "evidenceFile": "drafts/tokyo-evidence.md",
+      "evidenceFileSha256": "b95b8af39531c8c9d52a58699e3a3ee928b647578dc939ae19c8d6f9a5081229",
+      "contentVersion": 3,
+      "contentDigest": "eb67eee56815f90cfc70c800b018e50825888058dc69ba339c8cfd2bd2d5e4a8",
+      "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+      "evidenceDigest": "8a6013a405b91e321614bc47576b0f51951e020c5aad024de7a7e8e3a9d76863",
+      "findings": [
+        {
+          "id": "batch2:tokyo:review-note-1",
+          "message": "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+        },
+        {
+          "id": "batch2:tokyo:review-note-2",
+          "message": "Tokyo uses explicit direct-entry airport access; its new guide must not pretend HND/NRT is a single city-code target. Planning-action verification is required during later integration."
+        }
+      ],
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": [
+        {
+          "id": "batch2:tokyo:review-note-1",
+          "message": "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+        },
+        {
+          "id": "batch2:tokyo:review-note-2",
+          "message": "Tokyo uses explicit direct-entry airport access; its new guide must not pretend HND/NRT is a single city-code target. Planning-action verification is required during later integration."
+        }
+      ]
+    },
+    {
+      "slug": "kyoto",
+      "destinationId": "place:Q34600",
+      "candidateFile": "drafts/kyoto.json",
+      "fileSha256": "0630694b5b8e2f6a698dc9c1b70743ad38b90983981d993b0d038bb565af20b5",
+      "evidenceFile": "drafts/kyoto-evidence.md",
+      "evidenceFileSha256": "054938a631918dc060684779e6568c18e77d60fbcf0b14664dbc586a7797ed93",
+      "contentVersion": 3,
+      "contentDigest": "d0c54793d2caffa1d316af10babcbe9ec7c4cedfb5213e945f2771527c0e18d6",
+      "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+      "evidenceDigest": "3428b0d7f9844c4408d5f91e322b04bea0a211b9c943e0cc4e3abc4f614f3d77",
+      "findings": [
+        {
+          "id": "batch2:kyoto:review-note-1",
+          "message": "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence."
+        },
+        {
+          "id": "batch2:kyoto:review-note-2",
+          "message": "The city has external Osaka airport gateways. A new guide must not prefill Osaka as Kyoto; verify the existing place-aware planning path before integration."
+        }
+      ],
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": [
+        {
+          "id": "batch2:kyoto:review-note-1",
+          "message": "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence."
+        },
+        {
+          "id": "batch2:kyoto:review-note-2",
+          "message": "The city has external Osaka airport gateways. A new guide must not prefill Osaka as Kyoto; verify the existing place-aware planning path before integration."
+        }
+      ]
+    },
+    {
+      "slug": "bangkok",
+      "destinationId": "place:Q1861",
+      "candidateFile": "drafts/bangkok.json",
+      "fileSha256": "1676a2ab4960d600507cc568cacb40d34273daf9341b38c945af519562df55fc",
+      "evidenceFile": "drafts/bangkok-evidence.md",
+      "evidenceFileSha256": "03809a6a67c9adf082cbc13812cc27d48743dc4223c9bb850a480696d7daa5f0",
+      "contentVersion": 3,
+      "contentDigest": "040f31ad56d2b4cf6c332e978a4321c44bb2d1678743a4b04571b37e67cd0832",
+      "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+      "evidenceDigest": "239a3b00391d7c84cf489cd7e7d2db8f05af7886d2c10b637220c0d56f6950cc",
+      "findings": [
+        {
+          "id": "batch2:bangkok:review-note-1",
+          "message": "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim."
+        },
+        {
+          "id": "batch2:bangkok:review-note-2",
+          "message": "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+        }
+      ],
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": [
+        {
+          "id": "batch2:bangkok:review-note-1",
+          "message": "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim."
+        },
+        {
+          "id": "batch2:bangkok:review-note-2",
+          "message": "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+        }
+      ]
+    },
+    {
+      "slug": "marrakesh",
+      "destinationId": "place:Q101625",
+      "candidateFile": "drafts/marrakesh.json",
+      "fileSha256": "9a144d422390eca17f34af0c9582de1c9841fa377b4863aecef0a747b3472f6b",
+      "evidenceFile": "drafts/marrakesh-evidence.md",
+      "evidenceFileSha256": "b064f4889911dc4b5b98b2311bf7168f66eeb5129ea74f6b0618740b8bf64a61",
+      "contentVersion": 3,
+      "contentDigest": "665de9e3317a542746b8c38f969e864e78e3651f21e14a45f638720b870c04cb",
+      "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+      "evidenceDigest": "a8d7ff2f2f144fd49589865964f456c8be5c5db1e30c0426d594aaf20c3df273",
+      "findings": [
+        {
+          "id": "batch2:marrakesh:review-note-1",
+          "message": "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified."
+        },
+        {
+          "id": "batch2:marrakesh:review-note-2",
+          "message": "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+        }
+      ],
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": [
+        {
+          "id": "batch2:marrakesh:review-note-1",
+          "message": "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified."
+        },
+        {
+          "id": "batch2:marrakesh:review-note-2",
+          "message": "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+        }
+      ]
+    }
+  ],
+  "reviewer": null,
+  "reviewedAt": null,
+  "publicationWrites": 0,
+  "newImageApprovals": 0
+}

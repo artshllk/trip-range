@@ -1,0 +1,79 @@
+[
+  {
+    "kind": "published",
+    "cityCode": "BER",
+    "countryCode": "DE",
+    "roomNightCents": 12682,
+    "currency": "EUR",
+    "scope": "pooled",
+    "period": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "label": "2024 annual average"
+    },
+    "checkedAt": "2026-11-19",
+    "reviewAfter": "2027-02-19",
+    "frequency": "annual",
+    "source": {
+      "title": "Berlin Senate · Economic and Innovation Report 2024/25, section III.4",
+      "url": "https://www.berlin.de/sen/wirtschaft/konjunktur-und-statistik/wirtschaftsdaten/arbeitslosigkeit/wirtschafts_und_innovationsbericht_berlin_2024_25.pdf",
+      "attribution": "Senatsverwaltung für Wirtschaft, Energie und Betriebe, Wirtschafts- und Innovationsbericht 2024/25; underlying source: STR, CoStar Group 2024. Numeric fact transcribed; English scope labels added by Trip Range.",
+      "reuse": "CC BY-SA 3.0 DE (report-specific notice; this record and its adapted scope labels share that licence)",
+      "reuseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "sha256": "8edb641617b7056e73ac2c7c4537a43e8ff665ca49dbe06e369bfbf70b2ae9ec"
+    },
+    "caveat": "All hotel classes and room types pooled. Not a two-adult room quote; meals and tax inclusion are not established here. The newer 2025/26 report gives RevPAR, not a published room rate."
+  },
+  {
+    "kind": "published",
+    "cityCode": "FRA",
+    "countryCode": "DE",
+    "roomNightCents": 11559,
+    "currency": "EUR",
+    "scope": "pooled",
+    "period": {
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "label": "2025 annual average"
+    },
+    "checkedAt": "2026-11-19",
+    "reviewAfter": "2027-02-19",
+    "frequency": "annual",
+    "source": {
+      "title": "Frankfurt Tourism + Congress · Guest and overnight statistics 2025, p. 29",
+      "url": "https://www.visitfrankfurt.travel/fileadmin/Mediendatenbank/Dokumente/Publikationen/Gaeste_und_UEbernachtungszahlen_Frankfurt_am_Main_2025.pdf",
+      "attribution": "Tourismus- und Congress GmbH Frankfurt am Main, Gäste- und Übernachtungszahlen 2025, section 5.5, p. 29; STR Global Benchmark data. Published March 2026. Numeric fact transcribed; English scope labels added by Trip Range.",
+      "reuse": "Report imprint permits reproduction, including extracts, with source attribution; a specimen copy is requested",
+      "reuseUrl": "https://www.visitfrankfurt.travel/fileadmin/Mediendatenbank/Dokumente/Publikationen/Gaeste_und_UEbernachtungszahlen_Frankfurt_am_Main_2025.pdf#page=36",
+      "sha256": "1d963c7103c3de105e8ca12dd3323fd8b3f41bb4c91d945bd2f7d9f517052821"
+    },
+    "caveat": "All hotel classes and room types pooled in the STR benchmark. Not a two-adult room quote; meals and tax inclusion are not established here."
+  },
+  {
+    "kind": "published",
+    "cityCode": "AMS",
+    "countryCode": "NL",
+    "roomNightCents": 13800,
+    "pooledRoomNightCents": 17000,
+    "currency": "EUR",
+    "scope": "three-star",
+    "period": {
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "label": "2025 annual average"
+    },
+    "checkedAt": "2026-11-20",
+    "reviewAfter": "2027-02-20",
+    "frequency": "annual",
+    "source": {
+      "title": "Amsterdam O&S · Toerisme MRA 2025–2026, table 2.5",
+      "url": "https://onderzoek.amsterdam.nl/publicatie/toerisme-mra-2025-2026",
+      "attribution": "Gemeente Amsterdam, Onderzoek en Statistiek (O&S), Toerisme MRA 2025–2026, October 2026, table 2.5 (printed p. 34). Source: own O&S survey. Three-star and pooled double-room averages transcribed; English labels and EUR-cent conversion by Trip Range.",
+      "reuse": "CC BY 4.0; attribution to Gemeente Amsterdam and indication of adaptations. Table 2.5 is the city's own survey, not third-party data.",
+      "reuseUrl": "https://onderzoek.amsterdam.nl/artikel/copyright",
+      "sha256": "aa21735dfdcc4d45c7a00fb0715c1f6469c4ffa6f1e713ff87945202a13211db"
+    },
+    "priceNote": "Double room · includes 2025 VAT · tourist tax extra.",
+    "caveat": "City of Amsterdam, excluding the wider MRA region. Average nightly price of a double room, including 9% VAT and excluding municipal tourist tax, for 2025. Three-star average EUR 138; all-class average EUR 170. Voluntary star classification; unclassified hotels enter the 0–2-star group. These historical averages are not quotes or tax calculations for your travel dates."
+  }
+]

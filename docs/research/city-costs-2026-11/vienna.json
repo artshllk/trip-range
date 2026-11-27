@@ -1,0 +1,427 @@
+{
+  "city": "Vienna",
+  "country_code": "AT",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "VIE",
+      "public_option_name": "ÖBB Railjet / InterCity to Wien Hauptbahnhof, with onward Vienna public transport",
+      "public_price": {
+        "value": 5.5,
+        "currency": "EUR",
+        "unit": "per adult per one-way journey, including a Vienna core-zone single ticket",
+        "status": "confirmed",
+        "source_name": "Vienna Tourist Board — ÖBB Railjet airport transfer",
+        "source_url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/intercityexpress-349074",
+        "checked_date": "2026-11-02",
+        "note": "Published ordinary adult combined fare for a traveller without an existing city pass or concession. This is an observed tariff, not a calculated sum. The Tourist Board identifies ordinary rail as the cheapest public transport family at https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644 (also checked on this date). The absolute cheapest purchasable fare across digital channels was not independently established. Railjet / InterCity continues to serve Hauptbahnhof during the inner-city rail closure; the historic centre requires onward transport. The shortened S7 must not be treated as a direct service to Wien Mitte."
+      },
+      "fixed_fare_transfer": {
+        "value": 42,
+        "currency": "EUR",
+        "unit": "per prebooked standard vehicle per direct one-way airport transfer",
+        "status": "confirmed",
+        "source_name": "Taxi 40100 — Flughafen Transfer Wien zum Fixpreis",
+        "source_url": "https://www.taxi40100.at/flughafen/",
+        "checked_date": "2026-11-02",
+        "note": "Operator-specific fixed product for a direct journey between VIE and a Vienna address, for up to four passengers. Request the airport fixed-price service when booking; additional stops cost extra. This is not a city-imposed tariff and does not establish either bound of a metered taxi range."
+      },
+      "journey_legs": [
+        {
+          "origin": "VIE airport railway station",
+          "destination": "Wien Hauptbahnhof",
+          "mode": "ÖBB Railjet / InterCity",
+          "duration_minutes": {
+            "value": 15,
+            "currency": null,
+            "unit": "minutes for the rail leg",
+            "status": "confirmed",
+            "source_name": "Vienna Tourist Board — ÖBB Railjet airport transfer",
+            "source_url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/intercityexpress-349074",
+            "checked_date": "2026-11-02",
+            "note": "Published train-leg duration. Excludes terminal access, waiting and the onward journey to the historic centre."
+          }
+        },
+        {
+          "origin": "Wien Hauptbahnhof railway platforms",
+          "destination": "Vienna historic centre via U1",
+          "mode": "Station transfer and onward U1",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes for transfer, waiting and onward urban journey",
+            "status": "unconfirmed",
+            "source_name": "Vienna Tourist Board — ÖBB Railjet airport transfer",
+            "source_url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/intercityexpress-349074",
+            "checked_date": "2026-11-02",
+            "note": "The source identifies U1 onward transport but no applicable combined transfer-and-ride duration was verified. This leg is retained explicitly rather than omitted or estimated."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "Metered taxi tariff — current component schedule unconfirmed",
+          "applicability": "No verified complete meter schedule encoded. Do not substitute the separate fixed_fare_transfer product or a tariff from another airport/licensing area.",
+          "base_fare": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "Taxi 40100 — Flughafen Transfer Wien zum Fixpreis",
+            "source_url": "https://www.taxi40100.at/flughafen/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre",
+            "status": "unconfirmed",
+            "source_name": "Taxi 40100 — Flughafen Transfer Wien zum Fixpreis",
+            "source_url": "https://www.taxi40100.at/flughafen/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Taxi 40100 — Flughafen Transfer Wien zum Fixpreis",
+            "source_url": "https://www.taxi40100.at/flughafen/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Taxi 40100 — Flughafen Transfer Wien zum Fixpreis",
+            "source_url": "https://www.taxi40100.at/flughafen/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 3,
+      "currency": "EUR",
+      "unit": "per adult per one-way journey within the Vienna core zone, digital ticket",
+      "status": "confirmed",
+      "source_name": "Wiener Linien — WienMobil Ticketshop, 1 Fahrt Digital WIEN",
+      "source_url": "https://shop.wienmobil.at/de/products/SINGLE_VIE",
+      "checked_date": "2026-11-02",
+      "note": "Full-price adult digital option directly inspected in the official ticket-shop UI. One continuous journey in one direction; transfers permitted. Travel starts immediately after purchase. Airport travel outside the Vienna core zone is not included. Paper and on-board tickets are different products, not conflicting figures.",
+      "validity_area": "Vienna core zone (Kernzone Wien); airport VIE outside the zone is excluded."
+    },
+    "day_pass": {
+      "value": 9.7,
+      "currency": "EUR",
+      "unit": "per adult per 24 consecutive hours within the Vienna core zone, digital ticket",
+      "status": "confirmed",
+      "source_name": "Wiener Linien — 24 Stunden WIEN",
+      "source_url": "https://tramwm.wienerlinien.at/web/guest/24-stunden-wien",
+      "checked_date": "2026-11-02",
+      "note": "Digital fare for a freely selected start time, not a calendar-day pass. Personal and non-transferable; official photo identification is required. Airport travel outside the Vienna core zone is excluded. The digital product and price also appear in the official WienMobil shop at https://shop.wienmobil.at/de/products/244872_VIE, checked on the same date. The paper product has a different tariff.",
+      "validity_area": "Vienna core zone (Kernzone Wien); airport VIE outside the zone is excluded."
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per adult per 72-hour Vienna core-zone transit pass",
+      "status": "not_offered",
+      "source_name": "Wiener Linien — 24 Stunden WIEN, ticket-range change notice",
+      "source_url": "https://tramwm.wienerlinien.at/web/guest/24-stunden-wien",
+      "checked_date": "2026-11-02",
+      "note": "The operator explicitly discontinued the standard 72-hour product on 2026-01-01. Null records the absence of a current price; it does not mean free travel. No multi-ticket sum or differently timed pass has been substituted. The operator notice also names the tourist-card versions; a separate Tourist Board overview still mentions those durations, without establishing a current 72-hour price. That availability inconsistency is retained in unresolved.",
+      "validity_area": "Vienna core zone (Kernzone Wien); airport VIE outside the zone is excluded."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2026-07-01",
+        "to": "2027-06-30",
+        "basis": "percent_of_room_net",
+        "rate": {
+          "value": 5,
+          "currency": null,
+          "unit": "percent of statutory accommodation assessment base",
+          "status": "confirmed",
+          "source_name": "Republic of Austria RIS — Wiener Tourismusförderungsgesetz § 14",
+          "source_url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40017989/LWI40017989.html",
+          "checked_date": "2026-11-02",
+          "note": "A percentage, not a euro amount. The statutory base excludes VAT and the customary local breakfast charge under § 12: https://ris.bka.gv.at/eli/lgbl/WI/1955/13/P12/LWI40017988 (checked on the same date). The earlier additional assessment-base deduction no longer applies. Do not apply the rate directly to an already tax-inclusive room quotation. The period end date is inclusive."
+        },
+        "exemptions": "Minors staying for school attendance or vocational training, or in youth hostels; students attending a Vienna university or specialist college; people staying continuously for more than three months. Eligibility must be substantiated. This is not a blanket exemption for all children or business travellers. Source: Wiener Tourismusförderungsgesetz § 11(3), checked 2026-11-02: https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40011548/LWI40011548.pdf",
+        "legal_source_url": "https://ris.bka.gv.at/Dokumente/Landesnormen/LWI40017989/LWI40017989.html",
+        "assessment_base": {
+          "kind": "room_consideration_net_of_vat_and_customary_breakfast",
+          "includes": "Consideration for a paid stay under § 11, regardless of whether the guest or a third party pays.",
+          "excludes": "VAT and the locally customary breakfast charge under § 12(2). No additional legacy percentage deduction is retained.",
+          "input_rule": "Use a separately verified statutory net assessment base. Do not multiply the nominal rate by a tax-inclusive booking total or infer a customary breakfast deduction from an arbitrary menu price.",
+          "source_name": "Republic of Austria RIS — Wiener Tourismusförderungsgesetz §§ 11–12",
+          "source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000355&Paragraf=12",
+          "checked_date": "2026-11-02"
+        },
+        "liability": {
+          "tax_debtor": "guest",
+          "collector": "accommodation provider",
+          "source_name": "Republic of Austria RIS — Wiener Tourismusförderungsgesetz §§ 11 and 13",
+          "source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000355&Paragraf=11",
+          "checked_date": "2026-11-02",
+          "note": "The guest owes the tax under § 11; the provider collects and remits it under § 13. The tax is paid with settlement of the bill. Special assessment agreements under § 13(3) are outside the recorded standard case.",
+          "collector_source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000355&Paragraf=13"
+        },
+        "calculation": {
+          "status": "conditional",
+          "research_parameters_complete_for_supported_case": false,
+          "exact_guest_total_from_record_alone": false,
+          "supported_case": "Nonexempt paid stay with a verified statutory net base and applicable date regime, after invoice timing and rounding/aggregation are resolved.",
+          "required_inputs": [
+            "property_jurisdiction",
+            "stay_dates",
+            "invoice_date_and_applicable_period",
+            "verified_exemption_eligibility",
+            "continuous_stay_history",
+            "legal_net_room_assessment_base",
+            "verified_VAT_and_customary_breakfast_exclusions",
+            "legal_rounding_and_aggregation_rule",
+            "tax_already_included_in_booking_quote"
+          ],
+          "refuse_when": [
+            "date or exemption eligibility unresolved",
+            "only a gross quote is supplied without the legal base or an explicitly supported official calculator method",
+            "rounding or aggregation materially affects the amount and remains unverified",
+            "period crossing or historical invoice regime is unsupported",
+            "any operational evidence is unconfirmed or disputed",
+            "a special assessment/collection agreement under § 13(3) applies but is not encoded"
+          ],
+          "evidence_gaps": [
+            "Exact-charge mode: invoice/stay boundary and legal rounding/aggregation beyond the city calculator’s displayed behavior are not fully encoded. An actual booking base is not a research gap; model-derived planning mode is proposed separately."
+          ],
+          "official_calculator_reference": {
+            "source_name": "City of Vienna — Ortstaxenrechner",
+            "source_url": "https://www.wien.gv.at/politik/ortstaxe-ausrechnen",
+            "script_url": "https://www.wien.gv.at/assets/sonderloesungen/ortstaxenrechner/js/ortstaxenrechner.min.js",
+            "checked_date": "2026-11-02",
+            "finding": "The official page distinguishes VAT-liable and VAT-exempt stays and labels the applicable VAT-liable period by invoice date. Its script multiplies the entered tax-inclusive, breakfast-excluded consideration by the published period factor and formats with JavaScript toFixed(2). This is observed calculator behavior, not a verified universal legal aggregation rule. No coefficient is transcribed or used as an approximate replacement for the statutory net-base formula."
+          },
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      },
+      {
+        "from": "2027-07-01",
+        "to": null,
+        "basis": "percent_of_room_net",
+        "rate": {
+          "value": 8,
+          "currency": null,
+          "unit": "percent of statutory accommodation assessment base",
+          "status": "confirmed",
+          "source_name": "Republic of Austria RIS — Wiener Tourismusförderungsgesetz § 14, effective 2027-07-01",
+          "source_url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1955/13/P14/LWI40017990",
+          "checked_date": "2026-11-02",
+          "note": "Enacted future rate, not applicable on the collection date. The base excludes VAT and the customary local breakfast charge under § 12: https://ris.bka.gv.at/eli/lgbl/WI/1955/13/P12/LWI40017988. The effective date is enacted in Article II(2) of https://www.ris.bka.gv.at/Dokumente/LgblAuth/LGBLA_WI_20260223_2/LGBLA_WI_20260223_2.html. Both supporting sources were checked on the collection date. No end date is specified."
+        },
+        "exemptions": "Minors staying for school attendance or vocational training, or in youth hostels; students attending a Vienna university or specialist college; people staying continuously for more than three months. Eligibility must be substantiated. Source: Wiener Tourismusförderungsgesetz § 11(3), checked 2026-11-02: https://www.ris.bka.gv.at/Dokumente/Landesnormen/LWI40011548/LWI40011548.pdf. The cited amendment does not change these exemptions.",
+        "legal_source_url": "https://www.ris.bka.gv.at/eli/lgbl/WI/1955/13/P14/LWI40017990",
+        "assessment_base": {
+          "kind": "room_consideration_net_of_vat_and_customary_breakfast",
+          "includes": "Consideration for a paid stay under § 11, regardless of whether the guest or a third party pays.",
+          "excludes": "VAT and the locally customary breakfast charge under § 12(2). No additional legacy percentage deduction is retained.",
+          "input_rule": "Use a separately verified statutory net assessment base. Do not multiply the nominal rate by a tax-inclusive booking total or infer a customary breakfast deduction from an arbitrary menu price.",
+          "source_name": "Republic of Austria RIS — Wiener Tourismusförderungsgesetz §§ 11–12",
+          "source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000355&Paragraf=12",
+          "checked_date": "2026-11-02"
+        },
+        "liability": {
+          "tax_debtor": "guest",
+          "collector": "accommodation provider",
+          "source_name": "Republic of Austria RIS — Wiener Tourismusförderungsgesetz §§ 11 and 13",
+          "source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000355&Paragraf=11",
+          "checked_date": "2026-11-02",
+          "note": "The guest owes the tax under § 11; the provider collects and remits it under § 13. The tax is paid with settlement of the bill. Special assessment agreements under § 13(3) are outside the recorded standard case.",
+          "collector_source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000355&Paragraf=13"
+        },
+        "calculation": {
+          "status": "conditional",
+          "research_parameters_complete_for_supported_case": false,
+          "exact_guest_total_from_record_alone": false,
+          "supported_case": "Nonexempt paid stay with a verified statutory net base and applicable date regime, after invoice timing and rounding/aggregation are resolved.",
+          "required_inputs": [
+            "property_jurisdiction",
+            "stay_dates",
+            "invoice_date_and_applicable_period",
+            "verified_exemption_eligibility",
+            "continuous_stay_history",
+            "legal_net_room_assessment_base",
+            "verified_VAT_and_customary_breakfast_exclusions",
+            "legal_rounding_and_aggregation_rule",
+            "tax_already_included_in_booking_quote"
+          ],
+          "refuse_when": [
+            "date or exemption eligibility unresolved",
+            "only a gross quote is supplied without the legal base or an explicitly supported official calculator method",
+            "rounding or aggregation materially affects the amount and remains unverified",
+            "period crossing or historical invoice regime is unsupported",
+            "any operational evidence is unconfirmed or disputed",
+            "a special assessment/collection agreement under § 13(3) applies but is not encoded"
+          ],
+          "evidence_gaps": [
+            "Exact-charge mode: invoice/stay boundary and legal rounding/aggregation beyond the city calculator’s displayed behavior are not fully encoded. An actual booking base is not a research gap; model-derived planning mode is proposed separately."
+          ],
+          "official_calculator_reference": {
+            "source_name": "City of Vienna — Ortstaxenrechner",
+            "source_url": "https://www.wien.gv.at/politik/ortstaxe-ausrechnen",
+            "script_url": "https://www.wien.gv.at/assets/sonderloesungen/ortstaxenrechner/js/ortstaxenrechner.min.js",
+            "checked_date": "2026-11-02",
+            "finding": "The official page distinguishes VAT-liable and VAT-exempt stays and labels the applicable VAT-liable period by invoice date. Its script multiplies the entered tax-inclusive, breakfast-excluded consideration by the published period factor and formats with JavaScript toFixed(2). This is observed calculator behavior, not a verified universal legal aggregation rule. No coefficient is transcribed or used as an approximate replacement for the statutory net-base formula."
+          },
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 12.8,
+      "currency": "EUR",
+      "unit": "per person per main course with salad",
+      "status": "confirmed",
+      "source_name": "Café Prückel — official food and drink menu",
+      "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Named menu example: homemade Eiernockerl with leaf salad, listed under main courses. VAT included; drinks are separate. The restaurant's current menu page at https://www.prueckel.at/speisekarte/ links this PDF and was checked on the same date. The PDF does not state its issue or effective date. This is one published meal price, not a city average or a claim to be Vienna's cheapest meal."
+    },
+    "midrange_meal_for_two": {
+      "value": 56,
+      "currency": "EUR",
+      "unit": "per shared main course with sides for two people",
+      "status": "confirmed",
+      "source_name": "Kriterium Wiener Beisl — official restaurant menu",
+      "source_url": "https://kriterium.at/speisekarte",
+      "checked_date": "2026-11-02",
+      "note": "Explicitly priced Grillplatte für 2 Personen: mixed grilled meats with fries, onion mustard and peppers. The amount is published for two people, not calculated from individual portions. Menu states taxes and charges are included; takeaway is separately offered. Drinks, starters and desserts are not listed as included. This is a named sit-down restaurant meal example, not an official citywide midrange classification or average. The main menu's effective date is not stated."
+    },
+    "coffee": {
+      "value": 4.9,
+      "currency": "EUR",
+      "unit": "per cup of cappuccino",
+      "status": "confirmed",
+      "source_name": "Café Prückel — official food and drink menu",
+      "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Published cappuccino price; VAT included. One café example, not a Vienna average. The restaurant's current menu page links this PDF. Its issue and effective dates are not stated."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Schönbrunn Palace — Palace Ticket",
+      "entry_price": {
+        "value": 42,
+        "currency": "EUR",
+        "unit": "per adult per Palace Ticket admission",
+        "status": "confirmed",
+        "source_name": "Schönbrunn Group — Schönbrunn Palace",
+        "source_url": "https://www.schoenbrunn.at/en/all-tickets/palace-ticket",
+        "checked_date": "2026-11-02",
+        "note": "Named Palace Ticket, including an audioguide or printed description subject to availability. The source warns of seasonal price changes. For individual visitors, advance purchase is recommended but on-site ticket purchase is permitted; a timed admission applies. Booking-policy source checked on the same date: https://www.schoenbrunn.at/en/visitor-information/faq. No specific future slot was reserved or verified."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Upper Belvedere",
+      "entry_price": {
+        "value": 23,
+        "currency": "EUR",
+        "unit": "per adult per Upper Belvedere admission at the published current-day rate",
+        "status": "confirmed",
+        "source_name": "Belvedere Museum Vienna — Upper Belvedere visitor information",
+        "source_url": "https://www.belvedere.at/en/visit/upper-belvedere",
+        "checked_date": "2026-11-02",
+        "note": "The page labels this as the current-day price. Other Belvedere venues and future-date ticket quotes are outside this observation. Individuals may select a time slot online or on-site; advance booking is recommended, while groups have separate reservation requirements. Booking-policy source checked on the same date: https://www.belvedere.at/en/faq."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Kunsthistorisches Museum",
+      "entry_price": {
+        "value": 22,
+        "currency": "EUR",
+        "unit": "per adult per online admission",
+        "status": "confirmed",
+        "source_name": "KHM-Museumsverband — Kunsthistorisches Museum visitor information",
+        "source_url": "https://www.khm.at/en/visit",
+        "checked_date": "2026-11-02",
+        "note": "Adult online price directly inspected in the official website's browser UI. The on-site channel has a different price; this is not a source conflict. Individual timed tickets may be obtained online or at the cash desk, subject to availability. Advance purchase is recommended rather than universally required. Booking-policy source checked on the same date: https://www.khm.at/en/visit/faq."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Hofburg — Sisi Museum day ticket, Imperial Apartments during refurbishment",
+      "entry_price": {
+        "value": 15,
+        "currency": "EUR",
+        "unit": "per adult per reduced day-ticket admission during refurbishment",
+        "status": "confirmed",
+        "source_name": "Schönbrunn Group — Sisi Museum",
+        "source_url": "https://www.sisimuseum-hofburg.at/en/all-tickets/day-ticket-sisi-museum",
+        "checked_date": "2026-11-02",
+        "note": "Temporary reduced tariff through 2026-11-18. The museum exhibition area is closed; the Imperial Apartments remain visitable. The venue announces reopening and seasonal price changes from 2026-11-19, but the replacement adult tariff was not verified. Do not reuse this amount on or after that date. Fixed admission times apply. The FAQ guarantees entry only with an advance online timed ticket but does not establish whether individual walk-up purchases are prohibited, so booking_ahead_required is null. FAQ checked on the same date: https://www.sisimuseum-hofburg.at/en/visitor-information/faq."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "St. Stephen's Cathedral — All-Inclusive Ticket",
+      "entry_price": {
+        "value": 29,
+        "currency": "EUR",
+        "unit": "per adult per All-Inclusive Ticket",
+        "status": "confirmed",
+        "source_name": "St. Stephen's Cathedral — Kirchenmeisteramt visitor information",
+        "source_url": "https://www.stephanskirche.at/toursWhileCorona.php",
+        "checked_date": "2026-11-02",
+        "note": "Specific bundle covering the cathedral audioguide visit, both towers, a public catacomb tour and cathedral museum. It is not a compulsory general church admission charge. The same page permits on-site ticket purchase and states no registration is needed for individual visits or public tours. Catacomb tours are suspended on November 1 and 2, including the collection date. This is a published tariff, not a claim that all bundle components are available that day."
+      },
+      "booking_ahead_required": false
+    }
+  ],
+  "unresolved": [
+    "Research only: no production-schema compatibility or application ingestion is claimed. This pilot is not sufficient for automatic promotion merely because a price has status confirmed; its product, dates and conditions must also be retained.",
+    "Airport scope follows this repo's Vienna catalogue and fare-warm configuration, which identify VIE. No second airport is assigned to Vienna there; no live airline schedule or additional-origin route was verified in this pilot.",
+    "The official published ordinary rail fare is recorded, but the absolute cheapest complete airport fare across purchase channels is not independently established. The S7 route to Wien Mitte is disrupted through October 2027; current routing evidence checked 2026-11-02: https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644.",
+    "No authoritative citywide metered taxi fare range was verified. The operator-specific prebooked product is recorded separately in fixed_fare_transfer; it has not been relabelled a market minimum or maximum.",
+    "The standard 72-hour transit product is confirmed discontinued and now has status not_offered with value null. Wiener Linien’s notice also names tourist-card products, while https://www.wien.info/en/travel-info/transport/tickets-361360 still mentions those durations. Both checked 2026-11-02. This does not establish a competing price for the discontinued standard product.",
+    "Eating-out amounts are named menu observations, not representative city statistics. No official definition or classification of a midrange meal was established. The two-person example is a shared main course with sides, not a multi-course meal or a daily food budget.",
+    "Attraction prices refer to the explicitly named ticket products. The selection is not a verified popularity ranking. No future-date availability is asserted. The Sisi reduced tariff expires before its announced reopening; a later tariff and the individual walk-up booking policy remain unresolved.",
+    "Pilot conventions requiring review before transformation: currency is null for minutes and percentage rates; monetary amounts are in EUR without conversion. Tax period to dates are inclusive. Booking-policy citations are in entry_price.note because the agreed boolean field has no provenance envelope. Attraction price validity and temporary closures currently live in notes, not machine-readable effective-date fields.",
+    "accommodation_charges is reserved for verified non-tax accommodation charges, including any property-specific mandatory resort or service fee. An empty array means none was verified in this research, not that all Vienna properties lack such charges. Any future charge must carry explicit applicability and universal; conditional charges must not be applied to every trip.",
+    "research-v4 retrofit: removes overall journey_minutes, taxi_low/taxi_high and attraction visit durations; preserves journey_legs and fixed_fare_transfer; adds taxi_tariffs component envelopes and explicit transit validity_area. Missing meter components stay unconfirmed. Structured tax and charge calculation metadata supersede the legacy shape exceptions in tax-basis-registry.json. Vienna retains its genuine percent_of_room_net basis; the legacy absence placeholders in the other migrated files are removed.",
+    "Vienna tax structure is now explicit. Remaining calculation conditions are real input/evidence requirements, not legacy placeholders. The current and enacted future rates remain separate dated periods. The city calculator reference is retained for a future separately validated gross-price method; this retrofit does not invent such a method or derive an exemption.",
+    "Conditional reframing: this tax depends structurally on the accommodation model. The registry proposes a derived tax component with the stay estimate’s provenance and an explicit incomplete-total state whenever a required charge cannot be represented. No actual room quote is expected from city research; no production calculator or result-card change is made here.",
+    "2026-11-02 owner decision supersedes the earlier model-derived tax proposal: statutory accommodation tax is inside the traveller-payable allowance and must never be added again. Exact legal research remains for plausibility/inclusion checks and future provider reconciliation; no tax transform is implemented."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "draft_awaiting_owner_review",
+  "reason": "Owner rejected removal of supported figures and requested itemised examples with totals, check dates, venue-only qualifiers and optional Dishoom service. No approval of the new wording is recorded.",
+  "changes": [
+    {
+      "city": "vienna",
+      "item_id": "note:phase4b:vienna:examples:1",
+      "base_content_version": 2,
+      "candidate_content_version": 3,
+      "base_content_sha256": "2228cdd8dfaf039d5474c3bf97c9e935dd13c4b490c501a0ee5349e0af1bee36",
+      "original_published_text": "A menu-based example from Café Prückel totals €51 for three meals, coffee and two sodas. That is one café example, not a daily Vienna food budget. Check paid palace and museum visits separately.",
+      "replacement_text": "Café Prückel example: €51.00. Menu checked 4 November 2026. One venue’s example, not a daily Vienna food budget. Items: Viennese breakfast €9.80, cappuccino €4.90, cheese toast €8.90, beef goulash with dumplings €19.80, and two 0.5-litre sodas at €3.80 each.",
+      "source_ids": [
+        "source:phase4b:vienna:menu"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "status": "draft_awaiting_owner_review"
+    },
+    {
+      "city": "london",
+      "item_id": "note:phase4b:london:examples:1",
+      "base_content_version": 5,
+      "candidate_content_version": 6,
+      "base_content_sha256": "d3b0ef28fd287834c07362c8533e65ddd03c16e1b391891de67b2a1781a8d753",
+      "original_published_text": "Our Dishoom menu example totalled £55 before optional service, or about £62 including the 12.5% optional charge and rounding. It is one restaurant example, not a daily London food budget.",
+      "replacement_text": "Dishoom Covent Garden example: £55.00 before optional 12.5% service (about £62 with it), removable on request. Menus checked 4 November 2026. One venue’s example, not a daily London food budget. Items: date and banana porridge £9.50, house chai £4.90, paneer roomali roll £12.90, chole puri halwa £15.90, and two fresh nimbu sodas at £5.90 each.",
+      "source_ids": [
+        "source:phase4b:london:breakfast",
+        "source:phase4b:london:menu",
+        "source:phase4b:london:breakfast-pdf",
+        "source:phase4b:london:menu-pdf"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "status": "draft_awaiting_owner_review"
+    }
+  ]
+}

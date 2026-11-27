@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-local-integration-not-deployed",
+  "packetId": "worldwide-batch2-final-review-v1",
+  "reviewer": "GoEksplo Owner",
+  "ownerLocalDate": "2026-10-24",
+  "checkedAt": "2026-10-23T22:25:53.162523+00:00",
+  "destinations": [
+    {
+      "slug": "tokyo",
+      "destinationId": "place:Q1490",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    },
+    {
+      "slug": "kyoto",
+      "destinationId": "place:Q34600",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    },
+    {
+      "slug": "bangkok",
+      "destinationId": "place:Q1861",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    },
+    {
+      "slug": "marrakesh",
+      "destinationId": "place:Q101625",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    }
+  ],
+  "fullSuite": {
+    "total": 1508,
+    "pass": 1507,
+    "fail": 0,
+    "skip": 1,
+    "skipReason": "optional local Redis-server diagnostic unavailable; no live diagnostic run"
+  },
+  "targetedTests": {
+    "total": 121,
+    "pass": 121,
+    "fail": 0
+  },
+  "productionBuild": {
+    "status": "passed",
+    "nextVersion": "16.4.1",
+    "nodeVersion": 24,
+    "bundler": "webpack",
+    "configurationChanged": false,
+    "prebuildEditorialAndMediaChecks": "passed"
+  },
+  "lint": "passed-all-changed-source-and-tests",
+  "securityCheck": "passed-working-tree-secret-boundaries",
+  "localBrowser": {
+    "status": "passed",
+    "guideViewportChecks": 8,
+    "homepageViewportChecks": 2,
+    "widths": [
+      390,
+      320
+    ],
+    "evidence": "browser-verification.json",
+    "mobileHeroWidth": 640,
+    "contextReloadBack": "passed",
+    "overflow": false,
+    "externalRequests": 0,
+    "APIRequests": 0
+  },
+  "priorVisualAcceptance": "desktop and 390/375/360/320px shared-component checks retained in unchanged review packet",
+  "preservationEvidence": "preservation-verification.json",
+  "reviewPacketFilesUnchanged": 92,
+  "sourceChangesThisIntegration": [
+    "src/domain/destination-discovery.ts"
+  ],
+  "trackedFilesChangedThisIntegration": [
+    "content/destinations/place-Q101625.json",
+    "content/destinations/place-Q1490.json",
+    "content/destinations/place-Q1861.json",
+    "content/destinations/place-Q34600.json",
+    "content/media/approved.json",
+    "content/operations/reviews/place-Q101625.json",
+    "content/operations/reviews/place-Q1490.json",
+    "content/operations/reviews/place-Q1861.json",
+    "content/operations/reviews/place-Q34600.json",
+    "content/research/destinations/place-Q101625.json",
+    "content/research/destinations/place-Q1490.json",
+    "content/research/destinations/place-Q1861.json",
+    "content/research/destinations/place-Q34600.json",
+    "src/domain/destination-discovery.ts",
+    "tests/destination-batch-review.test.ts",
+    "tests/destination-batch1-publication.test.ts",
+    "tests/destination-batch2-publication.test.ts",
+    "tests/destination-discovery.test.ts",
+    "tests/destination-kyoto-editorial.test.ts",
+    "tests/destination-non-city-publication.test.ts",
+    "tests/destination-worldwide-population.test.ts",
+    "tests/fixtures/approved-media.ts",
+    "tests/non-city-preparation.test.ts",
+    "tests/phase2-publication.test.ts",
+    "tests/worldwide-batch1-integration.test.ts"
+  ],
+  "newRuntimeEvidenceMediaAndRegressionFiles": [
+    "docs/research/destination-content/worldwide-batch2-tokyo-v4.md",
+    "docs/research/destination-content/worldwide-batch2-kyoto-v4.md",
+    "docs/research/destination-content/worldwide-batch2-bangkok-v4.md",
+    "docs/research/destination-content/worldwide-batch2-marrakesh-v4.md",
+    "public/destinations/tokyo-batch2-v1-640.webp",
+    "public/destinations/tokyo-batch2-v1-1200.webp",
+    "public/destinations/tokyo-batch2-v1-1920.webp",
+    "public/destinations/kyoto-batch2-v1-640.webp",
+    "public/destinations/kyoto-batch2-v1-1200.webp",
+    "public/destinations/kyoto-batch2-v1-1920.webp",
+    "public/destinations/bangkok-batch2-v1-640.webp",
+    "public/destinations/bangkok-batch2-v1-1200.webp",
+    "public/destinations/bangkok-batch2-v1-1920.webp",
+    "public/destinations/marrakesh-batch2-v1-640.webp",
+    "public/destinations/marrakesh-batch2-v1-1200.webp",
+    "public/destinations/marrakesh-batch2-v1-1920.webp",
+    "tests/worldwide-batch2-integration.test.ts"
+  ],
+  "existingUncommittedPlanningFixPreserved": [
+    "src/domain/locations.ts",
+    "src/providers/server/composition.ts",
+    "src/services/destination-guides.ts",
+    "tests/batch2-planning.test.ts"
+  ],
+  "knownProductDefects": [],
+  "hostedVerification": "not-run; no deployment authorized",
+  "remainingGates": [
+    "Separate commit/push/private-release approval is required.",
+    "Preserve operational rechecks due 2026-11-06; general content review due 2027-01-21."
+  ],
+  "commitCreated": false,
+  "pushPerformed": false,
+  "deploymentPerformed": false,
+  "infrastructureChanged": false
+}

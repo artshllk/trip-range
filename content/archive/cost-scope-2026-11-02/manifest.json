@@ -1,0 +1,2417 @@
+{
+  "schemaVersion": 1,
+  "archivedDate": "2026-11-02",
+  "reason": "Outside the approved European city cost model. The owner reports the only worldwide price comparison is 2021 data with no successor; retained fare observations do not establish a defensible cost model. No reachability claim is made.",
+  "reactivation": "Requires explicit scope approval, current cost evidence, source/expiry review and deliberate restoration to live manifests. Dates and approvals are never renewed by restoration alone.",
+  "firstExpansionCandidates": [
+    "place:Q612",
+    "place:Q101625"
+  ],
+  "expansionRationale": "Dubai and Marrakesh: retained fare observations in the audited store and market demand stated by the owner. No demand volume is inferred.",
+  "records": [
+    {
+      "id": "place:Q4648",
+      "name": "Bali",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q4648.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q4648.json",
+          "sha256": "33830033ca2faf04ac87a684e9e27a6d3464d8f60adfea4b1c980ebc85776979"
+        },
+        {
+          "from": "content/travel/access/place-Q4648.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q4648.json",
+          "sha256": "1d4abd0199b96878307bbedcc79da6213a584d2c3d65316e50453629230c4223"
+        },
+        {
+          "from": "content/operations/reviews/place-Q4648.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q4648.json",
+          "sha256": "9f6f694fb5f191acfd20c48f663fc0b3c56b0d464759d7ea03ed72835d5e68a1"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 10,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 3,
+        "source_records": 7,
+        "unique_source_urls": 7,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 3
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q4648:ubud",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q4648:temple-etiquette",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q4648:temple-access",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-15T08:50:54.848Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q41858",
+      "name": "Banff National Park",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q41858.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q41858.json",
+          "sha256": "0ff62cb6b966ebca6f8212389fead2cfb0633f43c1b7a31000a660f109af9dd2"
+        },
+        {
+          "from": "content/travel/access/place-Q41858.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q41858.json",
+          "sha256": "286eb8ba8068a433061d0b8491a44cd00bf45fbe3a7ccd7d257fba513677892d"
+        },
+        {
+          "from": "content/operations/reviews/place-Q41858.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q41858.json",
+          "sha256": "98f2d2f3b16143104297584a41a1ab3f494a881cd68d86264efc2938d4fbb625"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 11,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 2,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 5,
+        "dated_items": 6,
+        "source_records": 7,
+        "unique_source_urls": 7,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 6
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q41858:town",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q41858:johnston",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q41858:moraine",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q41858:conditions",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q41858:arrival",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q41858:lakes",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-15T09:03:13.169Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q1861",
+      "name": "Bangkok",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q1861.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q1861.json",
+          "sha256": "300ca60af246130d43bf6de5ad3c6657d13affe3eab14a9184a1c3790b8d5e41"
+        },
+        {
+          "from": "content/travel/access/place-Q1861.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q1861.json",
+          "sha256": "339cc55d45ead17c151312ab190c9114afa1a3db59de13bf410c44a5613ec150"
+        },
+        {
+          "from": "content/operations/reviews/place-Q1861.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q1861.json",
+          "sha256": "5a9cb2ff81202b28dc2a2f28c72591e640e992d62a0b34a21d3a53b0c4535568"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 15,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 4,
+          "areas": 2,
+          "transport": 3,
+          "practicalNotes": 3,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 15,
+        "source_records": 9,
+        "unique_source_urls": 9,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 7,
+          "2027-01-21T00:00:00Z": 8
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "attraction:place:Q1861:grand-palace",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1861:batch2-visitor-alternatives",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q1861:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q1861:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1861:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1861:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1861:expansion01-3",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q1861:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q1861:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1861:wat-arun",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1861:wat-pho",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1861:yaowarat",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1861:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1861:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:18:24.413Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q1486",
+      "name": "Buenos Aires",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q1486.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q1486.json",
+          "sha256": "f2e361b44a8f3f17c914aa8822fbad454bf5c42b660f1fb63ecd748e02c3eee0"
+        },
+        {
+          "from": "content/travel/access/place-Q1486.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q1486.json",
+          "sha256": "5998b483f6c6fe6e96aaf0b3886c3d48fb52a8f5672f2d9f2c91f1112cb82f1e"
+        },
+        {
+          "from": "content/operations/reviews/place-Q1486.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q1486.json",
+          "sha256": "ebdcbb0c98b23a078d32ea68a1a753be4626eec0a6c72e069ee1b3ae33232bbd"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 10,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 3,
+        "source_records": 6,
+        "unique_source_urls": 6,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 3
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q1486:recoleta",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1486:colon-visit",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1486:subte-bus",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-14T11:19:07.517Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q5465",
+      "name": "Cape Town",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q5465.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q5465.json",
+          "sha256": "d5ec5d0af5751faca250f276cc88e2d6efdf58b707e401a38f6700b3dbd41e07"
+        },
+        {
+          "from": "content/travel/access/place-Q5465.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q5465.json",
+          "sha256": "5a8afea9e141e5f76606f6ad24b76603da82220e0124f08e9e6bd4dcf4a5e457"
+        },
+        {
+          "from": "content/operations/reviews/place-Q5465.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q5465.json",
+          "sha256": "7527763bcda692b7ec02c2152ad5b88488f93ba74c3f6a434db77628ff55c3b0"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 14,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 5,
+          "areas": 2,
+          "transport": 2,
+          "practicalNotes": 2,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 14,
+        "source_records": 11,
+        "unique_source_urls": 11,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 4,
+          "2027-01-21T00:00:00Z": 10
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "template:place:Q5465:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q5465:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q5465:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q5465:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q5465:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q5465:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q5465:bo-kaap",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q5465:expansion01-5",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q5465:kirstenbosch",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q5465:robben-island",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q5465:table-mountain",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q5465:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q5465:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:47:26.548Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q612",
+      "name": "Dubai",
+      "firstExpansionCandidate": true,
+      "files": [
+        {
+          "from": "content/destinations/place-Q612.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q612.json",
+          "sha256": "c107ac9767e6583e5b56debf0da8e1edb0521c1123ccbfed11cddf963a684f7a"
+        },
+        {
+          "from": "content/travel/access/place-Q612.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q612.json",
+          "sha256": "ec37651dce01e79977fdf17a85b01178f6e26e0a813c1d3d2516e10be0a6f26b"
+        },
+        {
+          "from": "content/operations/reviews/place-Q612.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q612.json",
+          "sha256": "4bae0398e3dc51f0e79af489bfcfcb62a954620712863ecf1484960bfa4ec664"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 15,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 4,
+          "areas": 2,
+          "transport": 3,
+          "practicalNotes": 3,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 15,
+        "source_records": 10,
+        "unique_source_urls": 10,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 6,
+          "2027-01-21T00:00:00Z": 9
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "note:place:Q612:batch3-entry-alternative",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q612:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q612:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q612:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q612:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q612:expansion01-3",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q612:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q612:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q612:al-seef",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q612:burj-khalifa",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q612:fahidi",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q612:shindagha",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q612:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q612:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:47:27.184Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q24451",
+      "name": "Kruger National Park",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q24451.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q24451.json",
+          "sha256": "ea6d7ef77a402c8c7c51a65f8650b0d7d9b77e7e9027394f622bc58ed96464eb"
+        },
+        {
+          "from": "content/travel/access/place-Q24451.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q24451.json",
+          "sha256": "ea9da554a2ee861867f3164eddfac42e6ea38786572c6437e323c2d7d2cd1fda"
+        },
+        {
+          "from": "content/operations/reviews/place-Q24451.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q24451.json",
+          "sha256": "5197698fa4785066523661c3a7a1727e5fe8f9b9ac7bc1df2b9907bff6baa4a7"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 11,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 2,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 4,
+        "source_records": 9,
+        "unique_source_urls": 9,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 4
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q24451:skukuza",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q24451:conditions",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q24451:wildlife",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q24451:roads",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-15T15:51:42.031Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q34600",
+      "name": "Kyoto",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q34600.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q34600.json",
+          "sha256": "615c1e5a0d70f508268498fe586fac98f90fb275f28e6021080a00d4e715c934"
+        },
+        {
+          "from": "content/travel/access/place-Q34600.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q34600.json",
+          "sha256": "586c7d2421063df4b3756d4b132af0ded9845c48e330ad5bc12869f71a94a5e9"
+        },
+        {
+          "from": "content/operations/reviews/place-Q34600.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q34600.json",
+          "sha256": "8875fa9433bfa67f48e8a8f05821a4f7ed7d9e4b5a236f8cdaf8d03b4d5e57f6"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 15,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 5,
+          "areas": 2,
+          "transport": 2,
+          "practicalNotes": 3,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 15,
+        "source_records": 10,
+        "unique_source_urls": 10,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 5,
+          "2027-01-21T00:00:00Z": 10
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "note:place:Q34600:batch2-visitor-alternatives",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q34600:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q34600:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q34600:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q34600:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q34600:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q34600:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q34600:expansion01-5",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q34600:hokanji",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q34600:kiyomizu",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q34600:maruyama",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q34600:yasaka",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q34600:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q34600:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:18:24.193Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q101625",
+      "name": "Marrakesh",
+      "firstExpansionCandidate": true,
+      "files": [
+        {
+          "from": "content/destinations/place-Q101625.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q101625.json",
+          "sha256": "60e42378fab87cdd5df031e6164f49e0556bfb5897ae846f6bc20129e3563349"
+        },
+        {
+          "from": "content/travel/access/place-Q101625.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q101625.json",
+          "sha256": "55c098d3c3d31c6c481dc1433338c1fff7b02362a473b05748cb59dabc034d5d"
+        },
+        {
+          "from": "content/operations/reviews/place-Q101625.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q101625.json",
+          "sha256": "6e066a1c7ec83ad9a5a8f661f844017ca56b80bf38f51950ec2ed5aefac1a8ea"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 14,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 4,
+          "areas": 2,
+          "transport": 2,
+          "practicalNotes": 3,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 14,
+        "source_records": 7,
+        "unique_source_urls": 7,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 6,
+          "2027-01-21T00:00:00Z": 8
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "attraction:place:Q101625:majorelle",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q101625:batch2-visitor-alternatives",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q101625:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q101625:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q101625:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q101625:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q101625:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q101625:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q101625:jemaa",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q101625:koutoubia",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q101625:menara",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q101625:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q101625:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:18:24.606Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q2656389",
+      "name": "Mauritius Island",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q2656389.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q2656389.json",
+          "sha256": "0607834853b3fd5823422d691dd06d8d846cf10af22c5afc48dfae0c5962c56b"
+        },
+        {
+          "from": "content/travel/access/place-Q2656389.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q2656389.json",
+          "sha256": "6e2efce54a9c280b4f18daed4c76e7da5c48c4771ed8e4de042c69a14fb2d4d5"
+        },
+        {
+          "from": "content/operations/reviews/place-Q2656389.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q2656389.json",
+          "sha256": "1fc37623112f4eb1a95cc81ee818be301809aa6ec3decd3e7e3994516574d4b3"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 10,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 3,
+        "source_records": 7,
+        "unique_source_urls": 7,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 3
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q2656389:port-louis",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q2656389:heritage",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q2656389:park-approach",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-15T08:55:28.329Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q1489",
+      "name": "Mexico City",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q1489.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q1489.json",
+          "sha256": "192312b2d48f42aaf835d0fb53ae6215f2fe6550f24987de676b66733e142a8f"
+        },
+        {
+          "from": "content/travel/access/place-Q1489.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q1489.json",
+          "sha256": "6ee673fa7074bbec87f00ade036bd6584afb7b4901452d6df50ca5de55fc37e3"
+        },
+        {
+          "from": "content/operations/reviews/place-Q1489.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q1489.json",
+          "sha256": "3c618bd7734e75ebbd40ae47da3dc8fc49a560c7ae63c51d50bfbad133327f15"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 16,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 5,
+          "areas": 2,
+          "transport": 3,
+          "practicalNotes": 3,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 16,
+        "source_records": 13,
+        "unique_source_urls": 13,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 1,
+          "2027-01-21T00:00:00Z": 15
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "note:place:Q1489:batch1-museum-days",
+            "section": "practicalNotes",
+            "kind": "volatile",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q1489:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q1489:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1489:anthropology",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1489:bellas-artes",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1489:chapultepec",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1489:expansion01-5",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1489:templo-mayor",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1489:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1489:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q1489:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q1489:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1489:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1489:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1489:expansion01-3",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T12:21:21.609Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q60",
+      "name": "New York City",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q60.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q60.json",
+          "sha256": "ff20542a7508c86c35fe613489f80b42690bf1b8d92c0277bb3a0b5e225580b2"
+        },
+        {
+          "from": "content/travel/access/place-Q60.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q60.json",
+          "sha256": "8567519edbc583369d7f101e830ec23d9d3c3628f50fba4a5924d765f9857e4c"
+        },
+        {
+          "from": "content/operations/reviews/place-Q60.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q60.json",
+          "sha256": "ef4b6cf75218a8271d91cdda2426f094da432b72991946116e072f08085712b0"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 13,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 4,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 6,
+        "source_records": 7,
+        "unique_source_urls": 7,
+        "next_or_overdue_deadline": "2026-11-05T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-05T00:00:00Z": 1,
+          "2026-11-21T00:00:00Z": 2,
+          "2027-01-10T00:00:00Z": 3
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "note:phase4b:place-Q60:examples:1",
+            "section": "practicalNotes",
+            "kind": "volatile",
+            "deadline": "2026-11-05T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:phase4b:place-Q60:transport:1",
+            "section": "practicalNotes",
+            "kind": "volatile",
+            "deadline": "2026-11-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:phase4b:place-Q60:transport:2",
+            "section": "practicalNotes",
+            "kind": "volatile",
+            "deadline": "2026-11-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q60:upper-east-side",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q60:island-ferry",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q60:met-access",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-22T21:46:58.923Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q131347",
+      "name": "Oahu",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q131347.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q131347.json",
+          "sha256": "2181e52a56ceeb8a87df890db143a234427404a13c45017ba1f69d7a3cd03d1b"
+        },
+        {
+          "from": "content/travel/access/place-Q131347.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q131347.json",
+          "sha256": "162c9feacf645ce55c270c3133be1a962aa084d5ac80c451f14de6450732fecd"
+        },
+        {
+          "from": "content/operations/reviews/place-Q131347.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q131347.json",
+          "sha256": "7af12eeca183aec72493a1977da1a77e0c2dd8689c307ad146b8a3be21a6c851"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 11,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 2,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 4,
+        "source_records": 9,
+        "unique_source_urls": 9,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 4
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q131347:waikiki",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q131347:crater-access",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q131347:memorial-program",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q131347:island-travel",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-15T08:56:03.732Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q8678",
+      "name": "Rio de Janeiro",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q8678.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q8678.json",
+          "sha256": "8cf1e598ce17b87fa1b8828b7c0753d9c9c99eeb5fad88efb2da70ce2da443c1"
+        },
+        {
+          "from": "content/travel/access/place-Q8678.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q8678.json",
+          "sha256": "e34a05583d1128ee86dd7b9629e29d51abe253cbcc3d3b54c6321e8e0b646141"
+        },
+        {
+          "from": "content/operations/reviews/place-Q8678.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q8678.json",
+          "sha256": "4df03e6688793a1fa5b9bee89454dd777f21cc7dc08c5bd3b9c55ba430a684b2"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 15,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 5,
+          "areas": 2,
+          "transport": 3,
+          "practicalNotes": 2,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 15,
+        "source_records": 10,
+        "unique_source_urls": 10,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 7,
+          "2027-01-21T00:00:00Z": 8
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "attraction:place:Q8678:parque-lage",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q8678:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q8678:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q8678:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q8678:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q8678:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q8678:expansion01-3",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q8678:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q8678:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q8678:copacabana",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q8678:corcovado",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q8678:expansion01-5",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q8678:sugarloaf",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q8678:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:47:26.749Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q334",
+      "name": "Singapore",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q334.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q334.json",
+          "sha256": "7d7e673415965e36b89a037b3775212c6a489473b33b9282aa4470e5da0a38f8"
+        },
+        {
+          "from": "content/travel/access/place-Q334.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q334.json",
+          "sha256": "d635f92e97e5619ff33bdd60b416f9052e178602845fa43559fc0b62a8d21f86"
+        },
+        {
+          "from": "content/operations/reviews/place-Q334.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q334.json",
+          "sha256": "14a036f94628bed06ce1eda549dc16e1e7b65c4f569ac9549cfca6afef5f3d06"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 14,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 4,
+          "areas": 2,
+          "transport": 3,
+          "practicalNotes": 2,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 14,
+        "source_records": 12,
+        "unique_source_urls": 12,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 1,
+          "2027-01-21T00:00:00Z": 13
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "attraction:place:Q334:national-gallery",
+            "section": "attractions",
+            "kind": "volatile",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q334:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q334:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q334:botanic-gardens",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q334:buddha-temple",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q334:gardens-bay",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q334:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q334:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q334:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q334:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q334:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q334:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q334:expansion01-3",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T12:21:21.397Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q3130",
+      "name": "Sydney",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q3130.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q3130.json",
+          "sha256": "4bedaed70d172e7d62b914115442722320fab61a9ca34aadb3aca6508814d0ed"
+        },
+        {
+          "from": "content/travel/access/place-Q3130.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q3130.json",
+          "sha256": "593c739d39567c7baed6a1e9bfc0f99b3b821a4c165eedc66914ed562a34358c"
+        },
+        {
+          "from": "content/operations/reviews/place-Q3130.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q3130.json",
+          "sha256": "d800ced65c895ff2f6493de57e5e2cedacf7b7df0881eb3b324b5b663ffb8af8"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 14,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 4,
+          "areas": 2,
+          "transport": 3,
+          "practicalNotes": 2,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 14,
+        "source_records": 12,
+        "unique_source_urls": 12,
+        "next_or_overdue_deadline": "2026-11-02T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-02T00:00:00Z": 1,
+          "2026-11-06T00:00:00Z": 4,
+          "2027-01-21T00:00:00Z": 9
+        },
+        "expired_items": [
+          {
+            "item_id": "transport:place:Q3130:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-02T00:00:00Z",
+            "expired": true
+          }
+        ],
+        "item_deadlines": [
+          {
+            "item_id": "transport:place:Q3130:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-02T00:00:00Z",
+            "expired": true
+          },
+          {
+            "item_id": "template:place:Q3130:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q3130:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q3130:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q3130:expansion01-3",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q3130:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q3130:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q3130:botanic-garden",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q3130:harbour-bridge",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q3130:opera-house",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q3130:rocks",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q3130:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q3130:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "Codex - authorized transport refresh",
+        "current_editorial_reviewed_at": "2026-10-26T15:24:23.510Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q3593416",
+      "name": "Tasmania",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q3593416.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q3593416.json",
+          "sha256": "7eb180f837ca9258eda2c0dbf6a792a15e6627acebe4d052a92c316e35238d30"
+        },
+        {
+          "from": "content/travel/access/place-Q3593416.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q3593416.json",
+          "sha256": "74c74103bb33be6d355b7ebae63bafa4f0e12afb8e8c7240566eb9dc61891d62"
+        },
+        {
+          "from": "content/operations/reviews/place-Q3593416.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q3593416.json",
+          "sha256": "00725015dda98b57982bdf353a2adf5a005ab467c252721d4ed161ae80216ec9"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 10,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 1,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 3,
+        "source_records": 8,
+        "unique_source_urls": 8,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 3
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q3593416:hobart",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q3593416:access",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q3593416:regional",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-15T11:50:46.685Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q1490",
+      "name": "Tokyo",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q1490.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q1490.json",
+          "sha256": "97993bb5f363d93cffc2e14ae319cc8755df2b1059d88d40743449681c3bf2e5"
+        },
+        {
+          "from": "content/travel/access/place-Q1490.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q1490.json",
+          "sha256": "30ad0abd43676588ca8c763d452e976e51b56deddc7d2692a4c0a09f89da5a14"
+        },
+        {
+          "from": "content/operations/reviews/place-Q1490.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q1490.json",
+          "sha256": "e962e04ef82ba8dbb74f53fe82e5083eb28dc3f88c1025a2c430f5eab238af8c"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 15,
+        "by_section": {
+          "overview": 1,
+          "highlights": 0,
+          "attractions": 5,
+          "areas": 2,
+          "transport": 2,
+          "practicalNotes": 3,
+          "dayTemplates": 2
+        },
+        "stable_items": 0,
+        "dated_items": 15,
+        "source_records": 11,
+        "unique_source_urls": 11,
+        "next_or_overdue_deadline": "2026-11-06T00:00:00Z",
+        "deadline_counts": {
+          "2026-11-06T00:00:00Z": 6,
+          "2027-01-21T00:00:00Z": 9
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "attraction:place:Q1490:skytree",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1490:batch2-visitor-alternatives",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q1490:expansion01-2-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "template:place:Q1490:expansion01-3-nights",
+            "section": "dayTemplates",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1490:expansion01-1",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q1490:expansion01-2",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2026-11-06T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q1490:expansion01-1",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "area:place:Q1490:expansion01-2",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1490:expansion01-5",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1490:meiji-jingu",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1490:sensoji",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q1490:yoyogi",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1490:expansion01-cost-limits",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q1490:expansion01-history",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "overview",
+            "section": "overview",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-21T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 2,
+        "distinct_selected_assets": 1,
+        "current_editorial_reviewer": "GoEksplo Owner",
+        "current_editorial_reviewed_at": "2026-10-23T22:18:23.976Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q24639",
+      "name": "Vancouver",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q24639.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q24639.json",
+          "sha256": "8ffe7cdbb6ce82fa18b9041acead20c5b4634c8aebe4e639e53a9d9fa5d93d04"
+        },
+        {
+          "from": "content/travel/access/place-Q24639.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q24639.json",
+          "sha256": "7c205faab55331433de5694762703adee3f0bd4ddc515b08054b2e56791e6410"
+        },
+        {
+          "from": "content/operations/reviews/place-Q24639.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q24639.json",
+          "sha256": "319d102ec5b1ca6899e0288f9f4cf9d9a3ca57c9d119906df39569d448c994c1"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 11,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 2,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 7,
+        "dated_items": 4,
+        "source_records": 7,
+        "unique_source_urls": 7,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 4
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q24639:gastown",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q24639:park-map",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q24639:market-access",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q24639:park-access",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-13T22:33:14.374Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    },
+    {
+      "id": "place:Q180402",
+      "name": "Yosemite National Park",
+      "firstExpansionCandidate": false,
+      "files": [
+        {
+          "from": "content/destinations/place-Q180402.json",
+          "to": "content/archive/cost-scope-2026-11-02/destinations/place-Q180402.json",
+          "sha256": "3fe0b341ee78fa3ab65165c7dc0d2046ba2956d8abdbfc67e21a55194e0c7466"
+        },
+        {
+          "from": "content/travel/access/place-Q180402.json",
+          "to": "content/archive/cost-scope-2026-11-02/travel/access/place-Q180402.json",
+          "sha256": "2a39ef433ac3a367af40fe937dc76d1e74597d53df978476c54afe9b5d6e8f6f"
+        },
+        {
+          "from": "content/operations/reviews/place-Q180402.json",
+          "to": "content/archive/cost-scope-2026-11-02/operations/reviews/place-Q180402.json",
+          "sha256": "b405badcba308d207d85994e54d62ca4b829ede50ab0ba6878adba56b9768a24"
+        }
+      ],
+      "retainedReviewBurden": {
+        "content_items": 11,
+        "by_section": {
+          "overview": 1,
+          "highlights": 2,
+          "attractions": 4,
+          "areas": 1,
+          "transport": 2,
+          "practicalNotes": 1,
+          "dayTemplates": 0
+        },
+        "stable_items": 5,
+        "dated_items": 6,
+        "source_records": 5,
+        "unique_source_urls": 5,
+        "next_or_overdue_deadline": "2027-01-10T00:00:00Z",
+        "deadline_counts": {
+          "2027-01-10T00:00:00Z": 6
+        },
+        "expired_items": [],
+        "item_deadlines": [
+          {
+            "item_id": "area:place:Q180402:valley",
+            "section": "areas",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q180402:glacier",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "attraction:place:Q180402:tuolumne",
+            "section": "attractions",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "note:place:Q180402:conditions",
+            "section": "practicalNotes",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q180402:gateway",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          },
+          {
+            "item_id": "transport:place:Q180402:shuttles",
+            "section": "transport",
+            "kind": "periodically-reviewed",
+            "deadline": "2027-01-10T00:00:00Z",
+            "expired": false
+          }
+        ],
+        "access_review_after": "2027-01-10T00:00:00Z",
+        "access_review_owner": "GoEksplo travel-data maintenance",
+        "approved_media_selections": 0,
+        "distinct_selected_assets": 0,
+        "current_editorial_reviewer": "art",
+        "current_editorial_reviewed_at": "2026-10-14T13:56:51.215Z",
+        "estimated_work_hours": null,
+        "work_hours_note": "No measured maintenance times exist. Counts show auditable review work; no time estimate is invented."
+      }
+    }
+  ]
+}

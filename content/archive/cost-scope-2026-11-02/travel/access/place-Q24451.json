@@ -1,0 +1,131 @@
+{
+  "destinationSubject": "place:Q24451",
+  "relationship": "mixed-access",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T14:26:48.321Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "provider-cities",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-15T14:23:28.263Z"
+    },
+    {
+      "id": "provider-airports",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-15T14:23:28.263Z"
+    },
+    {
+      "id": "official-air-access",
+      "url": "https://www.sanparks.org/parks/kruger/travel/how-to-get-there",
+      "checkedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "official-regions",
+      "url": "https://www.sanparks.org/parks/kruger/travel/distances-directions",
+      "checkedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "internal-airport",
+      "url": "https://www.sanparks.org/wp-content/uploads/2025/09/Information-Memorandum_-Skukuza-Airport-1.pdf",
+      "checkedAt": "2026-10-15T14:26:48.321Z"
+    }
+  ],
+  "directEntries": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "SZK",
+      "airportCodes": [
+        "SZK"
+      ],
+      "cityLabel": {
+        "en": "Skukuza",
+        "sq": "Skukuza"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-air-access",
+        "internal-airport"
+      ]
+    }
+  ],
+  "gateways": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "NLP",
+      "airportCode": "MQP",
+      "cityLabel": {
+        "en": "Mbombela / Nelspruit",
+        "sq": "Mbombela / Nelspruit"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-air-access",
+        "official-regions"
+      ],
+      "onwardTransfer": {
+        "required": true,
+        "pricing": {
+          "kind": "unpriced"
+        }
+      }
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "HDS",
+      "airportCode": "HDS",
+      "cityLabel": {
+        "en": "Hoedspruit",
+        "sq": "Hoedspruit"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-air-access",
+        "official-regions"
+      ],
+      "onwardTransfer": {
+        "required": true,
+        "pricing": {
+          "kind": "unpriced"
+        }
+      }
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "PHW",
+      "airportCode": "PHW",
+      "cityLabel": {
+        "en": "Phalaborwa",
+        "sq": "Phalaborwa"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-air-access",
+        "official-regions"
+      ],
+      "onwardTransfer": {
+        "required": true,
+        "pricing": {
+          "kind": "unpriced"
+        }
+      }
+    }
+  ],
+  "restoration": {
+    "providerCityCodes": [
+      "SZK",
+      "NLP",
+      "HDS"
+    ],
+    "sourceIds": [
+      "internal-airport",
+      "official-regions"
+    ],
+    "rationale": "GoEksplo coverage policy: first the internal Skukuza arrival, then the southern external gateway Kruger Mpumalanga, then Hoedspruit, listed by SANParks for central and northern access. Phalaborwa remains a recognized northern alternative. This is a bounded geographic coverage choice, not an official airport ranking, popularity or fare claim. Any recognized selected arrival is restored first, then these defaults, deduplicated and capped at three groups."
+  }
+}

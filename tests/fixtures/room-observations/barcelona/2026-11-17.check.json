@@ -1,0 +1,160 @@
+{
+  "ready": true,
+  "coverage": {
+    "planned": 16,
+    "contributing": 16,
+    "contributing_properties": 8,
+    "weekday": 8,
+    "weekend": 8,
+    "treatments": {
+      "stated_included": 0,
+      "stated_extra": 16,
+      "page_silent": 0
+    },
+    "uncertainty": "standard",
+    "band_percent": 25
+  },
+  "errors": [],
+  "samples": [
+    {
+      "property_id": "HB-003965",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-003965",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-000053",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-000053",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004531",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004531",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-000078",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-000078",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004122",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004122",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004393",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004393",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-000088",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-000088",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004036",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "HB-004036",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    }
+  ],
+  "panel_for_review": {
+    "status": "pending_human_review",
+    "currency": "EUR",
+    "planned": 16,
+    "contributing": 16,
+    "contributing_properties": 8,
+    "weekday": 8,
+    "weekend": 8,
+    "treatments": {
+      "stated_included": 0,
+      "stated_extra": 16,
+      "page_silent": 0
+    },
+    "uncertainty": "standard",
+    "band_percent": 25,
+    "weekday_two_night_median_minor": 32350,
+    "weekend_two_night_median_minor": 37202.5,
+    "standard_room_night_minor": 17388
+  },
+  "classification": {
+    "counts": {
+      "independent": 8,
+      "operator_declared": 0,
+      "unresolved": 0
+    },
+    "notice": "Classification is recorded per property. Different independent national schemes are not necessarily identical."
+  },
+  "meaning": "Data-entry validation only. Human review must check that screenshots support the amount, currency, dates, room/rate choice and tax treatment. A candidate median for human review is not a production price or approval."
+}

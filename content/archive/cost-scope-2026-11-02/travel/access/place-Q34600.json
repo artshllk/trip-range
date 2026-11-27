@@ -1,0 +1,95 @@
+{
+  "destinationSubject": "place:Q34600",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-13T15:02:14Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "kyoto-official-access",
+      "url": "https://kyoto.travel/en/getting-to/",
+      "checkedAt": "2026-10-13T15:02:14Z"
+    },
+    {
+      "id": "jr-west-kansai-access",
+      "url": "https://www.westjr.co.jp/global/en/travel/shopping/access/train.html",
+      "checkedAt": "2026-10-13T15:02:14Z"
+    }
+  ],
+  "gateways": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "OSA",
+      "cityLabel": {
+        "en": "Osaka area (airport unconfirmed)",
+        "sq": "Zona e Osakës (aeroporti i pakonfirmuar)"
+      },
+      "airportCode": "KIX",
+      "sourceIds": ["kyoto-official-access", "jr-west-kansai-access"],
+      "onwardTransfer": {
+        "required": true,
+        "pricing": {
+          "kind": "observed",
+          "reviewStatus": "reviewed",
+          "reviewAfter": "2026-11-12T00:00:00Z",
+          "mode": "bus",
+          "basis": {
+            "en": "Regular airport bus to Kyoto Station Hachijo-guchi. Reserve the Kyoto-to-airport service.",
+            "sq": "Autobus i rregullt drejt stacionit Kyoto Hachijo-guchi. Rezervo shërbimin nga Kyoto drejt aeroportit."
+          },
+          "observation": {
+            "currencyCode": "JPY",
+            "minorAmount": 2800,
+            "minorUnits": 0,
+            "observedAt": "2026-10-13T15:53:03Z",
+            "source": {
+              "id": "kate-kyoto-bus",
+              "url": "https://www.kate.co.jp/en/timetable/detail/KY",
+              "authority": "official-operator"
+            }
+          },
+          "unit": "adult-one-way",
+          "sameFareBothDirections": true,
+          "fxSnapshotId": "ecb-reference"
+        }
+      }
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "OSA",
+      "cityLabel": {
+        "en": "Osaka area (airport unconfirmed)",
+        "sq": "Zona e Osakës (aeroporti i pakonfirmuar)"
+      },
+      "airportCode": "ITM",
+      "sourceIds": ["kyoto-official-access"],
+      "onwardTransfer": {
+        "required": true,
+        "pricing": {
+          "kind": "observed",
+          "reviewStatus": "reviewed",
+          "reviewAfter": "2026-11-12T00:00:00Z",
+          "mode": "bus",
+          "basis": {
+            "en": "Regular airport bus to Kyoto Station Hachijo-guchi. First come, first served; no reservations.",
+            "sq": "Autobus i rregullt drejt stacionit Kyoto Hachijo-guchi. Hipja sipas radhës së mbërritjes; pa rezervim."
+          },
+          "observation": {
+            "currencyCode": "JPY",
+            "minorAmount": 1500,
+            "minorUnits": 0,
+            "observedAt": "2026-10-13T15:53:03Z",
+            "source": {
+              "id": "hankyu-kyoto-bus",
+              "url": "https://www.hankyu-kankobus.co.jp/limousine/timetable/K/",
+              "authority": "official-operator"
+            }
+          },
+          "unit": "adult-one-way",
+          "sameFareBothDirections": true,
+          "fxSnapshotId": "ecb-reference"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "destinationId": "place:Q1861",
+  "status": "available",
+  "report": "worldwide-batch2-bangkok-v4.md",
+  "researchedAt": "2026-10-23T16:51:03Z",
+  "sourceCount": 9,
+  "unresolvedIssues": [
+    "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim.",
+    "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+  ]
+}

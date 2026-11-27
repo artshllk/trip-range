@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5k-tasmania",
+  "preparedAt": "2026-10-15T09:57:56.695Z",
+  "owner": "GoEksplo editorial maintenance",
+  "entries": [
+    {
+      "destinationId": "place:Q3593416",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "HBA",
+            "airports": [
+              "HBA"
+            ]
+          },
+          {
+            "cityCode": "LST",
+            "airports": [
+              "LST"
+            ]
+          },
+          {
+            "cityCode": "DPO",
+            "airports": [
+              "DPO"
+            ]
+          },
+          {
+            "cityCode": "BWT",
+            "airports": [
+              "BWT"
+            ]
+          }
+        ],
+        "restorationGroups": [
+          "HBA",
+          "LST"
+        ],
+        "checkedAt": "2026-10-15T09:56:04.743Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    }
+  ]
+}

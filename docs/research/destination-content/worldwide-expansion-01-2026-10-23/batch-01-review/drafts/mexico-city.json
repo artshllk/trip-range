@@ -1,0 +1,547 @@
+{
+  "destinationId": "place:Q1489",
+  "identitySubject": "place:Q1489",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q1489:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q1489:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1489",
+      "title": "Mexico City (Q1489)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1489"
+      }
+    },
+    {
+      "id": "source:expansion01:mexico-city:templo",
+      "type": "official",
+      "url": "https://www.inah.gob.mx/zonas/zona-arqueologica-templo-mayor",
+      "title": "Templo Mayor archaeological site",
+      "publisher": "INAH",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:bellas",
+      "type": "official",
+      "url": "https://mexicocity.cdmx.gob.mx/venues/bellas-artes/",
+      "title": "Palacio de Bellas Artes",
+      "publisher": "Mexico City government visitor guide",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:anthro",
+      "type": "official",
+      "url": "https://chapultepec.cultura.gob.mx/oferta-cultural/museo-nacional-de-antropologia/",
+      "title": "Museo Nacional de Antropología",
+      "publisher": "Secretaría de Cultura",
+      "retrievedAt": "2026-10-23T10:13:49Z",
+      "observedAt": "2026-10-23T10:13:49Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:park",
+      "type": "official",
+      "url": "https://www.mexicocity.cdmx.gob.mx/venues/chapultepec-museum/",
+      "title": "Chapultepec site museum and visitor centre",
+      "publisher": "Mexico City government visitor guide",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:centre",
+      "type": "official",
+      "url": "https://www.mexicocity.cdmx.gob.mx/locations/centro-historico/?lang=en",
+      "title": "Centro Histórico visitor guide",
+      "publisher": "Mexico City government visitor guide",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:areas",
+      "type": "official",
+      "url": "https://mexicocity.cdmx.gob.mx/explora/",
+      "title": "Explore Mexico City",
+      "publisher": "Mexico City government visitor guide",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:mex",
+      "type": "official",
+      "url": "https://www.aicm.com.mx/pasajeros/servicios/prestadores-de-servicios/transportes/metrobus",
+      "title": "AICM Metrobús",
+      "publisher": "Mexico City International Airport",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:nlu",
+      "type": "official",
+      "url": "https://sitio.aifa.aero/conectividad/cdmx",
+      "title": "AIFA ground connections",
+      "publisher": "Aeropuerto Internacional Felipe Ángeles",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:tlc",
+      "type": "official",
+      "url": "https://aeropuertodetoluca.com.mx/en/transportation-services/",
+      "title": "Toluca transportation services",
+      "publisher": "Aeropuerto Internacional de Toluca",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:mexico-city:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:batch1review:mexico-city:roma-condesa",
+      "type": "official",
+      "url": "https://mexicocity.cdmx.gob.mx/locations/condesa-roma/",
+      "title": "Condesa and Roma",
+      "publisher": "Mexico City tourism",
+      "retrievedAt": "2026-10-23T10:13:49Z"
+    },
+    {
+      "id": "source:batch1review:mexico-city:templo-visitor",
+      "type": "official",
+      "url": "https://lugares.inah.gob.mx/es/node/5573",
+      "title": "Templo Mayor: visitor information",
+      "publisher": "INAH",
+      "retrievedAt": "2026-10-23T10:13:49Z",
+      "observedAt": "2026-10-23T10:13:49Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Mexico City is easier to explore by grouping the historic centre separately from Chapultepec. Choose a few museum visits, leave room for the surrounding streets and check the airport before deciding how much arrival time the plan needs."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:mexico-city:templo",
+      "source:expansion01:mexico-city:bellas",
+      "source:expansion01:mexico-city:anthro"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q1489:templo-mayor",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Templo Mayor"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Visit the archaeological site and museum to understand the earlier city beneath the historic centre. Check the current operator ticket and access arrangements."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:templo"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1489:bellas-artes",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Palacio de Bellas Artes"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Look for the Art Nouveau exterior and Art Deco interior. Choose museum access or a performance separately; an exterior visit includes neither."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:bellas"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1489:anthropology",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Museo Nacional de Antropología"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "Give this archaeology and ethnography museum a focused visit rather than treating the whole collection as a quick stop. It belongs with a Chapultepec outing."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:anthro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1489:chapultepec",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Bosque de Chapultepec"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Use the park for outdoor time between visits. Museums and other attractions within the wider park have their own access and ticket requirements."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:park",
+        "source:expansion01:mexico-city:anthro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1489:expansion01-5",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Zócalo and the historic-centre streets"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Start with the square and a local street outing before choosing interiors. Public events or access controls can change the route on the day."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:centre"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q1489:expansion01-1",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Centro Histórico"
+      },
+      "summary": {
+        "en": "Consider this base if the square, Templo Mayor and nearby streets are your main focus."
+      },
+      "goodFor": [
+        {
+          "en": "A historic-centre outing without repeated cross-city trips."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Chapultepec remains a separate journey; check the exact address and arrival route."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:centre",
+        "source:expansion01:mexico-city:templo",
+        "source:expansion01:mexico-city:anthro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q1489:expansion01-2",
+      "destinationId": "place:Q1489",
+      "name": {
+        "en": "Roma and Condesa"
+      },
+      "summary": {
+        "en": "Consider Roma or Condesa for a neighbourhood base between outings to the historic centre and Chapultepec."
+      },
+      "goodFor": [
+        {
+          "en": "Exploring neighbourhood streets between the main museum outings."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check your exact address and transport connections; neither district puts all the sights on your doorstep."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:areas",
+        "source:expansion01:mexico-city:centre",
+        "source:batch1review:mexico-city:roma-condesa"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q1489:expansion01-1",
+      "destinationId": "place:Q1489",
+      "title": {
+        "en": "MEX: check your terminal"
+      },
+      "guidance": {
+        "en": "Benito Juárez International (MEX) lists Metrobús service from both terminals. Check the current route, payment and luggage conditions for your terminal and base."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:mex"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q1489:expansion01-2",
+      "destinationId": "place:Q1489",
+      "title": {
+        "en": "NLU and TLC are separate arrivals"
+      },
+      "guidance": {
+        "en": "Felipe Ángeles (NLU) and Toluca (TLC) publish separate ground connections. Check the operator and destination stop for your flight; MEX directions and fares do not apply."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:nlu",
+        "source:expansion01:mexico-city:tlc"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q1489:expansion01-3",
+      "destinationId": "place:Q1489",
+      "title": {
+        "en": "Group the centre and Chapultepec"
+      },
+      "guidance": {
+        "en": "Keep Zócalo, Templo Mayor and the Bellas Artes side of the centre on one outing; plan a separate journey for the anthropology museum and park. Check the exact entry point, not just the park name."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:centre",
+        "source:expansion01:mexico-city:templo",
+        "source:expansion01:mexico-city:bellas",
+        "source:expansion01:mexico-city:anthro",
+        "source:expansion01:mexico-city:park"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q1489:expansion01-history",
+      "destinationId": "place:Q1489",
+      "kind": "other",
+      "text": {
+        "en": "Templo Mayor preserves remains of the main temple of Mexica Tenochtitlan beneath today’s historic centre. Bellas Artes and the anthropology museum show later layers of art, architecture and the country’s cultural history."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:templo",
+        "source:expansion01:mexico-city:bellas",
+        "source:expansion01:mexico-city:anthro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q1489:expansion01-cost-limits",
+      "destinationId": "place:Q1489",
+      "kind": "booking",
+      "text": {
+        "en": "No combined museum ticket or all-airport transfer is assumed. Room totals, taxes, meals, admissions and airport journeys need checking for your dates; this is not a complete priced itinerary."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q1489:batch1-museum-days",
+      "destinationId": "place:Q1489",
+      "kind": "closure",
+      "text": {
+        "en": "Templo Mayor and the anthropology museum list Tuesday–Sunday visits. Keep Monday flexible for outdoor plans and recheck museum access for your dates."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:batch1review:mexico-city:templo-visitor",
+        "source:expansion01:mexico-city:anthro"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-23T10:13:49Z",
+        "validUntil": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q1489:expansion01-2-nights",
+      "destinationId": "place:Q1489",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Mexico City"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q1489:expansion01-5",
+          "day": 1,
+          "notes": {
+            "en": "A flexible square and street outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:templo-mayor",
+          "day": 2,
+          "notes": {
+            "en": "Start with the archaeological story when visitor access allows."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:bellas-artes",
+          "day": 2,
+          "notes": {
+            "en": "Choose an interior only if it fits your energy and ticket plans."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:anthropology",
+          "day": 3,
+          "notes": {
+            "en": "Make this the main Chapultepec museum visit when open, not Monday; on departure day, allow for the airport journey."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:centre",
+        "source:expansion01:mexico-city:templo",
+        "source:expansion01:mexico-city:bellas",
+        "source:expansion01:mexico-city:anthro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q1489:expansion01-3-nights",
+      "destinationId": "place:Q1489",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Mexico City"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q1489:expansion01-5",
+          "day": 1,
+          "notes": {
+            "en": "Keep the first historic-centre outing flexible."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:templo-mayor",
+          "day": 2,
+          "notes": {
+            "en": "Pair with nearby streets rather than another distant district."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:bellas-artes",
+          "day": 2,
+          "notes": {
+            "en": "Select the visit or performance you actually want."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:anthropology",
+          "day": 3,
+          "notes": {
+            "en": "Make this the main Chapultepec museum visit when open, not Monday; on departure day, allow for the airport journey."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1489:chapultepec",
+          "day": 4,
+          "notes": {
+            "en": "A final outdoor visit only if practical for your base and airport."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:mexico-city:centre",
+        "source:expansion01:mexico-city:templo",
+        "source:expansion01:mexico-city:bellas",
+        "source:expansion01:mexico-city:anthro",
+        "source:expansion01:mexico-city:park"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

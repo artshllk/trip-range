@@ -1,0 +1,19 @@
+{
+  "subject": "vienna",
+  "name": "Vienna",
+  "countryCode": "AT",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 48.208333333333336,
+    "longitude": 16.3725
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q1741"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-21T14:31:20Z",
+  "policyVersion": "destination-media-v1",
+  "unresolvedReason": null
+}

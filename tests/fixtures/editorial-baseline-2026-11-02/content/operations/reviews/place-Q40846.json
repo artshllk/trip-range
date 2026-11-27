@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q40846",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+    "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+    "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Tenerife v2 island identity, official island and attraction sources, EN/SQ copy, Teide, Anaga, historic-town and Puerto de la Cruz selection, airport-choice framing, transport guidance and freshness ownership were reviewed and accepted for publication. No summit access, cable-car availability, trail suitability, weather, swimming conditions or one-day island coverage is promised."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T08:54:53.325Z",
+    "reviewedAt": "2026-10-15T08:54:53.325Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:47.109Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:47.958Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:47.958Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:48.886Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:48.886Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:49.793Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:49.793Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:50.706Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:50.706Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:51.620Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:51.620Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:52.463Z",
+      "reason": "Advisory evidence-review: Tenerife v2 island identity, official island and attraction sources, EN/SQ copy, Teide, Anaga, historic-town and Puerto de la Cruz selection, airport-choice framing, transport guidance and freshness ownership were reviewed and accepted for publication. No summit access, cable-car availability, trail suitability, weather, swimming conditions or one-day island coverage is promised."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+        "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+        "evidenceDigest": "8d21af7508c0badea0afa2c5bbc99b9ec8b3bb05b27fac37c640807daf90152c",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Tenerife v2 island identity, official island and attraction sources, EN/SQ copy, Teide, Anaga, historic-town and Puerto de la Cruz selection, airport-choice framing, transport guidance and freshness ownership were reviewed and accepted for publication. No summit access, cable-car availability, trail suitability, weather, swimming conditions or one-day island coverage is promised."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:54:52.463Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:54:53.325Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

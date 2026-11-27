@@ -1,0 +1,87 @@
+{
+  "status": "passed-integrated-locally-not-deployed",
+  "reviewer": "GoEksplo Owner",
+  "approvalRecordedAt": "2026-10-22T11:50:36.378Z",
+  "subjects": [
+    "crete",
+    "istanbul",
+    "prishtina",
+    "prizren",
+    "skopje",
+    "thessaloniki",
+    "ulcinj",
+    "zurich"
+  ],
+  "withheld": [
+    "brezovica",
+    "mavrovo",
+    "mirusha",
+    "rugova"
+  ],
+  "newIdentityRegistrations": [
+    "prizren",
+    "skopje",
+    "thessaloniki",
+    "ulcinj",
+    "zurich"
+  ],
+  "existingAcceptedIdentityRecordsPreserved": [
+    "crete",
+    "istanbul",
+    "prishtina"
+  ],
+  "newAssets": 8,
+  "newRoleSelections": 16,
+  "newPublicVariants": 24,
+  "totalApprovedAssets": 12,
+  "totalApprovedRoleSelections": 24,
+  "totalPublicVariants": 36,
+  "checks": {
+    "targetedTests": 56,
+    "fullSuitePassed": 1472,
+    "fullSuiteFailed": 0,
+    "productionBuild": "Next.js 16.4.0 / Turbopack: passed in isolated keyless source copy; local provider-failure fixture active",
+    "editorialRecordsPassed": 30,
+    "mediaHistoryAndPhysicalFileValidation": true,
+    "browserPageChecksPassed": 40,
+    "browserViewports": [
+      1440,
+      390,
+      375,
+      360,
+      320
+    ],
+    "mobileDownloadedWidth": 640,
+    "sourceLicencesCreditsModificationNotices": true,
+    "CC0SourceAndLicenceAnchors": true,
+    "eslint": "passed",
+    "workingTreeSecretBoundaries": "passed",
+    "diffWhitespace": "passed",
+    "externalBrowserRequests": 0,
+    "liveProviderCalls": 0
+  },
+  "preserved": {
+    "AI": "default OFF, configuration unchanged",
+    "pricing": "unchanged",
+    "affiliate": "unchanged",
+    "providerLimits": "unchanged",
+    "cropValidators": "unchanged",
+    "previousFourApprovedAssetsAndSelections": "unchanged",
+    "reviewPacketPins": "unchanged",
+    "editorialPagesAndSEO": "unchanged"
+  },
+  "remainingBlockers": {
+    "approvedSubset": [],
+    "withheldDestinations": "Separate geographic identity review and explicit image approval required; not registered, approved or copied into public/."
+  },
+  "actionsNotPerformed": [
+    "commit",
+    "push",
+    "deployment",
+    "DNS change",
+    "credential change",
+    "billing change",
+    "public-access change",
+    "provider-infrastructure change"
+  ]
+}

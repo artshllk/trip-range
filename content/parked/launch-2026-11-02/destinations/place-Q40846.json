@@ -1,0 +1,292 @@
+{
+  "destinationId": "place:Q40846",
+  "identitySubject": "place:Q40846",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T08:55:05.804Z",
+  "sourceIds": [
+    "source:worldwide:place-Q40846:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q40846:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q40846",
+      "title": "Tenerife (Q40846)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T14:41:59.555Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q40846"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q40846:teide",
+      "type": "official",
+      "url": "https://www.webtenerife.com/que-visitar/parque-nacional-del-teide/",
+      "title": "Teide National Park",
+      "publisher": "Turismo de Tenerife",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q40846:anaga",
+      "type": "official",
+      "url": "https://www.webtenerife.com/que-visitar/otros-espacios-naturales/parque-rural-de-anaga/",
+      "title": "Anaga Rural Park",
+      "publisher": "Turismo de Tenerife",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q40846:places",
+      "type": "official",
+      "url": "https://www.webtenerife.com/que-hacer/rutas/coche/teide-la-laguna-anaga-candelaria/",
+      "title": "Teide, La Laguna, Anaga and Candelaria",
+      "publisher": "Turismo de Tenerife",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q40846:puerto",
+      "type": "official",
+      "url": "https://www.webtenerife.com/tenerife/la-isla/municipios/puerto-cruz/",
+      "title": "Puerto de la Cruz",
+      "publisher": "Turismo de Tenerife",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q40846:distances",
+      "type": "official",
+      "url": "https://www.webtenerife.com/planea-viaje/informacion-util/tabla-distancias-tenerife/",
+      "title": "Tenerife journey distances",
+      "publisher": "Turismo de Tenerife",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q40846:access",
+      "type": "official",
+      "url": "https://www.webtenerife.com/planea-viaje/viajar/aeropuertos/",
+      "title": "Airports of Tenerife",
+      "publisher": "Turismo de Tenerife",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T08:55:05.804Z",
+    "sourceIds": [
+      "source:worldwide:place-Q40846:teide",
+      "source:worldwide:place-Q40846:anaga",
+      "source:worldwide:place-Q40846:puerto"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Tenerife has volcanic highlands, forested northeast hills and coastal towns. Choose a base that suits the part of the island you want to explore.",
+      "sq": "Tenerife ka male vullkanike, kodra të pyllëzuara në verilindje dhe qytete bregdetare. Zgjidh një bazë sipas pjesës së ishullit që dëshiron të eksplorosh."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q40846:1",
+      "text": {
+        "en": "Volcanic landscapes in Teide National Park",
+        "sq": "Peizazhe vullkanike në Parkun Kombëtar Teide"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:teide"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q40846:2",
+      "text": {
+        "en": "Historic streets in La Laguna",
+        "sq": "Rrugë historike në La Laguna"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q40846:teide",
+      "destinationId": "place:Q40846",
+      "name": {
+        "en": "Teide National Park",
+        "sq": "Parku Kombëtar Teide"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A central highland park with volcanic landscapes around Mount Teide.",
+        "sq": "Park malor qendror me peizazhe vullkanike rreth malit Teide."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:teide"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q40846:laguna",
+      "destinationId": "place:Q40846",
+      "name": {
+        "en": "San Cristóbal de La Laguna",
+        "sq": "San Cristóbal de La Laguna"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A historic town with old buildings and cobbled streets.",
+        "sq": "Qytet historik me ndërtesa të vjetra dhe rrugë me kalldrëm."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q40846:anaga",
+      "destinationId": "place:Q40846",
+      "name": {
+        "en": "Anaga Rural Park",
+        "sq": "Parku Rural Anaga"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A mountainous area in northeast Tenerife with laurel forest and rural settlements.",
+        "sq": "Zonë malore në verilindje të ishullit Tenerife, me pyje dafine dhe vendbanime rurale."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:anaga"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q40846:puerto-harbour",
+      "destinationId": "place:Q40846",
+      "name": {
+        "en": "Puerto de la Cruz old harbour",
+        "sq": "Porti i vjetër i Puerto de la Cruz"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A fishing harbour beside the town’s historic waterfront.",
+        "sq": "Port peshkimi pranë bregut historik të qytetit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:puerto"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q40846:puerto",
+      "destinationId": "place:Q40846",
+      "name": {
+        "en": "Puerto de la Cruz",
+        "sq": "Puerto de la Cruz"
+      },
+      "summary": {
+        "en": "A north-coast town with a historic centre and waterfront.",
+        "sq": "Qytet në bregun verior me qendër historike dhe zonë buzë ujit."
+      },
+      "goodFor": [
+        {
+          "en": "A northern base for coastal and inland outings.",
+          "sq": "Bazë veriore për dalje bregdetare dhe në brendësi."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The south coast and each airport require their own journey planning.",
+          "sq": "Bregu jugor dhe secili aeroport kërkojnë planifikim më vete të udhëtimit."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:puerto",
+        "source:worldwide:place-Q40846:distances"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q40846:base-airport",
+      "destinationId": "place:Q40846",
+      "title": {
+        "en": "Match arrival point and base",
+        "sq": "Përshtat pikën e mbërritjes me bazën"
+      },
+      "guidance": {
+        "en": "Tenerife North and Tenerife South are two arrival airports on the same island. Check which one your flight uses and the journey to your base before arranging local transport.",
+        "sq": "Tenerife North dhe Tenerife South janë dy aeroporte mbërritjeje në të njëjtin ishull. Kontrollo cilin përdor fluturimi yt dhe rrugën drejt bazës para se të organizosh transportin lokal."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:access",
+        "source:worldwide:place-Q40846:distances"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q40846:teide-access",
+      "destinationId": "place:Q40846",
+      "kind": "booking",
+      "text": {
+        "en": "Check current official access, reservation and closure guidance for your chosen Teide viewpoint or trail. A park visit does not guarantee summit or cable-car access.",
+        "sq": "Kontrollo udhëzimet aktuale zyrtare për hyrjen, rezervimet dhe mbylljet në pikën panoramike ose shtegun e zgjedhur në Teide. Vizita në park nuk garanton ngjitjen në majë apo përdorimin e teleferikut."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:05.804Z",
+      "sourceIds": [
+        "source:worldwide:place-Q40846:teide"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "87dba068dabbb0dffc60688e5559de94ce0b562ad6eb818d202a4a6b0d341770",
+    "identityDigest": "1b856ad1a2b78a78a99316f4eab331139307ccb020ae57540315a0fe4024d107",
+    "approvedAt": "2026-10-15T08:55:05.804Z"
+  }
+}

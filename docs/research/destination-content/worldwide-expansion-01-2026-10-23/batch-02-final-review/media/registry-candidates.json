@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 2,
+  "assets": [
+    {
+      "id": "commons:80694116",
+      "provider": "wikimedia-commons",
+      "providerFileId": "80694116",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "2c340f73e42d2430015f467db385ed9ae2dcc921"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hozomon_with_visitors_under_their_umbrellas,_a_rainy_day_in_Tokyo,_Japan.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hozomon_with_visitors_under_their_umbrellas%2C_a_rainy_day_in_Tokyo%2C_Japan.jpg",
+      "width": 5948,
+      "height": 3965,
+      "mimeType": "image/jpeg",
+      "author": "Basile Morin",
+      "attribution": "Basile Morin / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/tokyo-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/tokyo-batch2-v1-640.webp",
+            "width": 640,
+            "height": 426,
+            "bytes": 63982,
+            "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+          },
+          {
+            "src": "/destinations/tokyo-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 197680,
+            "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+          },
+          {
+            "src": "/destinations/tokyo-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 452416,
+            "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:53593907",
+      "provider": "wikimedia-commons",
+      "providerFileId": "53593907",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "5f0b7dd2d20de6c62acc346b453c04c397c155f2"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+      "width": 5852,
+      "height": 3601,
+      "mimeType": "image/jpeg",
+      "author": "Martin Falbisoner",
+      "attribution": "Martin Falbisoner / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/kyoto-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/kyoto-batch2-v1-640.webp",
+            "width": 640,
+            "height": 394,
+            "bytes": 60786,
+            "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+          },
+          {
+            "src": "/destinations/kyoto-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 738,
+            "bytes": 213820,
+            "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+          },
+          {
+            "src": "/destinations/kyoto-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1181,
+            "bytes": 514758,
+            "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:82660408",
+      "provider": "wikimedia-commons",
+      "providerFileId": "82660408",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "7d8671fb12fe656e5732c940a91c7a30b4161d6b"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wat_Arun_on_the_sunset.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Wat_Arun_on_the_sunset.jpg",
+      "width": 6000,
+      "height": 4000,
+      "mimeType": "image/jpeg",
+      "author": "Trip.with.taste",
+      "attribution": "Trip.with.taste / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/bangkok-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/bangkok-batch2-v1-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 38566,
+            "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+          },
+          {
+            "src": "/destinations/bangkok-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 116574,
+            "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+          },
+          {
+            "src": "/destinations/bangkok-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 258534,
+            "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:72262779",
+      "provider": "wikimedia-commons",
+      "providerFileId": "72262779",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "31092c215e6b5110e74ab5609697dcd1fd8a6572"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Marrakech_Koutoubia.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Marrakech_Koutoubia.jpg",
+      "width": 4352,
+      "height": 2448,
+      "mimeType": "image/jpeg",
+      "author": "Philippe Salgarolo",
+      "attribution": "Philippe Salgarolo / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T16:49:24.608Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/marrakesh-batch2-v1-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 49446,
+            "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+          },
+          {
+            "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 169610,
+            "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+          },
+          {
+            "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 398450,
+            "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+          }
+        ]
+      }
+    }
+  ],
+  "selections": [],
+  "rejections": []
+}

@@ -1,0 +1,113 @@
+{
+  "status": "passed-local-preparation-not-owner-approval",
+  "checkedAt": "2026-10-23T11:48:37.085Z",
+  "checks": [
+    {
+      "slug": "istanbul",
+      "cityCode": "IST",
+      "operationalAirports": [
+        "IST",
+        "SAW"
+      ],
+      "searchContext": "passed",
+      "originalContentPin": "unchanged",
+      "draftPublication": "blocked",
+      "newMediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    },
+    {
+      "slug": "barcelona",
+      "cityCode": "BCN",
+      "operationalAirports": [
+        "BCN"
+      ],
+      "searchContext": "passed",
+      "originalContentPin": "unchanged",
+      "draftPublication": "blocked",
+      "newMediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    },
+    {
+      "slug": "singapore",
+      "cityCode": "SIN",
+      "operationalAirports": [
+        "SIN",
+        "XSP"
+      ],
+      "searchContext": "passed",
+      "originalContentPin": "unchanged",
+      "draftPublication": "blocked",
+      "newMediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    },
+    {
+      "slug": "mexico-city",
+      "cityCode": "MEX",
+      "operationalAirports": [
+        "MEX",
+        "TLC",
+        "NLU"
+      ],
+      "searchContext": "passed",
+      "originalContentPin": "unchanged",
+      "draftPublication": "blocked",
+      "newMediaPublication": "blocked",
+      "guideRoute": "not-enabled"
+    }
+  ],
+  "previousReviewManifestUnchanged": true,
+  "previousReviewFilesVerified": 76,
+  "newImages": 3,
+  "responsiveVariants": 9,
+  "physicalMediaValidation": "passed",
+  "runtimeContentWrites": 0,
+  "mediaSelectionsCreated": 0,
+  "publicationReceiptsCreated": 0,
+  "providerRequests": 0,
+  "OpenAIRequests": 0,
+  "RedisRequests": 0,
+  "hostedVerification": "not-run",
+  "targetedTests": {
+    "initialPass": 89,
+    "finalCreditAndBudgetPass": 57,
+    "failed": 0
+  },
+  "fullSuite": {
+    "pass": 1497,
+    "fail": 0,
+    "skip": 1,
+    "total": 1498,
+    "skipReason": "Local Redis server unavailable"
+  },
+  "lint": {
+    "errors": 0,
+    "existingWarnings": 2
+  },
+  "productionBuild": {
+    "status": "passed",
+    "command": "npm run build -- --webpack",
+    "defaultTurbopack": "not verified: CSS worker port denied by environment",
+    "sourceConfigChanges": false
+  },
+  "dependencyAdvisories": "See dependency-advisories.json; separate approval needed for upgrade",
+  "baselineSourceExceptions": [
+    "src/components/discovery/DestinationCards.tsx",
+    "src/components/discovery/DestinationGuide.tsx",
+    "src/components/travel/FullTrip.tsx",
+    "src/components/travel/Provenance.tsx",
+    "src/components/travel/ResultCard.tsx",
+    "src/services/destination-guides.ts"
+  ],
+  "unchangedBaselineFiles": 544,
+  "finalBrowserStatus": "passed",
+  "trackedFilesChanged": [
+    "src/components/discovery/DestinationCards.tsx",
+    "src/components/discovery/DestinationGuide.tsx",
+    "src/components/travel/FullTrip.tsx",
+    "src/components/travel/Provenance.tsx",
+    "src/components/travel/ResultCard.tsx",
+    "src/services/destination-guides.ts",
+    "tests/destination-discovery.test.ts"
+  ],
+  "AI": "OFF by default; no configuration changed"
+}

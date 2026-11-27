@@ -1,0 +1,160 @@
+{
+  "ready": true,
+  "coverage": {
+    "planned": 16,
+    "contributing": 14,
+    "contributing_properties": 8,
+    "weekday": 7,
+    "weekend": 7,
+    "treatments": {
+      "stated_included": 0,
+      "stated_extra": 8,
+      "page_silent": 6
+    },
+    "uncertainty": "wider",
+    "band_percent": 30
+  },
+  "errors": [],
+  "samples": [
+    {
+      "property_id": "mil-rio",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "mil-rio",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "mil-m20-boutique-hotel",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-m20-boutique-hotel",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-gran-duca-di-york",
+      "stay_type": "weekday",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    },
+    {
+      "property_id": "mil-gran-duca-di-york",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "mil-casa-laveni",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-casa-laveni",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-castello",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "mil-castello",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "mil-canada",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-canada",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-manfredo-hotel",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "mil-manfredo-hotel",
+      "stay_type": "weekend",
+      "contributes": false,
+      "tax_treatment": null,
+      "errors": []
+    },
+    {
+      "property_id": "mil-floor",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    },
+    {
+      "property_id": "mil-floor",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_extra",
+      "errors": []
+    }
+  ],
+  "panel_for_review": {
+    "status": "pending_human_review",
+    "currency": "EUR",
+    "planned": 16,
+    "contributing": 14,
+    "contributing_properties": 8,
+    "weekday": 7,
+    "weekend": 7,
+    "treatments": {
+      "stated_included": 0,
+      "stated_extra": 8,
+      "page_silent": 6
+    },
+    "uncertainty": "wider",
+    "band_percent": 30,
+    "weekday_two_night_median_minor": 30700,
+    "weekend_two_night_median_minor": 32400,
+    "standard_room_night_minor": 15775
+  },
+  "classification": {
+    "counts": {
+      "independent": 8,
+      "operator_declared": 0,
+      "unresolved": 0
+    },
+    "notice": "Classification is recorded per property. Different independent national schemes are not necessarily identical."
+  },
+  "meaning": "Data-entry validation only. Human review must check that screenshots support the amount, currency, dates, room/rate choice and tax treatment. A candidate median for human review is not a production price or approval."
+}

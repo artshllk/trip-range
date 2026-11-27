@@ -1,0 +1,12 @@
+Milan OSM geographic frame and derived ordering
+
+Copyright OpenStreetMap contributors. Open Database Licence (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+https://www.openstreetmap.org/copyright
+Regional PBF supplied by Geofabrik.
+
+The OSM extract, candidate geography and derived ordering are made available under ODbL 1.0. Their availability does not imply that a room panel is approved or ready for collection. Retain attribution and the licence when redistributing this database or a derived database.
+
+Named classification records and view metadata were obtained from the separate CC0 1.0 dataset ee8u-8wwr, attributed to PoliS - Lombardia. Its community view is owned by OpenDataMilano; underlying table author is Regione Lombardia. Last data update: 30 September 2024. See classification-review.json for admissibility limits.
+
+No licence to hotel website text, images, logos or booking-engine software is claimed. Only factual review annotations and source links are included. No in-Lombardia catalogue extract is included in this new frame.

@@ -1,0 +1,7 @@
+{
+  "destinationId": "candidate:phase3f-patagonia",
+  "identityState": "unresolved-candidate",
+  "priority": "normal",
+  "reason": "Phase 3F worldwide starter coverage \u2014 model limitation: Patagonia spans Argentina and Chile; identity requires a single country",
+  "status": "blocked"
+}

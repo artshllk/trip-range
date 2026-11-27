@@ -1,0 +1,13 @@
+{
+  "evidence/osm-hotels.json": "e18bc339f4093092f970d28f4fe354ce8741b1e18577e4a2723e0fb444c8bb7d",
+  "evidence/cutoff-classification-records.json": "34d96d0611e38245d567efbfd8e6a16afe3a79c166c47e702f19c45eade72930",
+  "evidence/classification-view-metadata.json": "fa3bb3ff3f532a0d11f37a79c29d9124ad68a04aafaa39590fd8e25c6a19588e",
+  "candidates.json": "f200bbd5955995e8cfd2d909b7f3e6d57e447d1e6dce78ad7964187ada5f4625",
+  "panel.json": "944c419cc4dcec584541817c15295ae23f2466fb31b302c8da180e5d8e4745ef",
+  "derived-ordering.json": "fdad093b23a5ea330621e8047e251a2b23d5bd3d58d182480df8505d0409bb44",
+  "LICENSE.txt": "fe3458ab2e0b74dbbd98b2c7c53744fd971a8c5fe3a1efa685f2114db66f8af2",
+  "evidence/central-point.json": "085bdd04890e7c785920be84aaabb1d818b01369a87699247d0401fc2f6d3e71",
+  "frame-manifest.json": "3bf987be5f6d38a06e5d0f408149312a8f0dcc49ef8425bd3d3d5e7651e9837a",
+  "selection-method.json": "64d5237b7fbefc588d8941c8e4c1ad8ecc2eee136d82a0dcee5a93c7bfd13656",
+  "index.html": "d630934aaae8252492fc58eee5109affe4980c0fe62a99aec29ed42287d8140a"
+}

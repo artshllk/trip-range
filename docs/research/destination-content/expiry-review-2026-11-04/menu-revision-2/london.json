@@ -1,0 +1,736 @@
+{
+  "destinationId": "london",
+  "identitySubject": "london",
+  "contentVersion": 6,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:phase2:london:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:phase2:london:identity",
+      "type": "wikidata",
+      "title": "London (Q84)",
+      "url": "https://www.wikidata.org/wiki/Q84",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-21T14:31:20Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q84"
+      }
+    },
+    {
+      "id": "source:phase2:london:abbey",
+      "type": "official",
+      "title": "Visiting Westminster Abbey",
+      "url": "https://www.westminster-abbey.org/visit-us",
+      "publisher": "Westminster Abbey",
+      "retrievedAt": "2026-11-04T09:50:53Z",
+      "observedAt": "2026-11-04T09:50:53Z"
+    },
+    {
+      "id": "source:phase2:london:gallery",
+      "type": "official",
+      "title": "Plan your National Gallery visit",
+      "url": "https://www.nationalgallery.org.uk/visiting/plan-your-visit",
+      "publisher": "National Gallery",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:tower",
+      "type": "official",
+      "title": "Visit the Tower of London",
+      "url": "https://www.hrp.org.uk/tower-of-london/visit/",
+      "publisher": "Historic Royal Palaces",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:stpauls",
+      "type": "official",
+      "title": "St Paul’s sightseeing visits",
+      "url": "https://www.stpauls.co.uk/ticket-types-and-prices",
+      "publisher": "St Paul’s Cathedral",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:southbank",
+      "type": "official",
+      "title": "South Bank",
+      "url": "https://www.visitlondon.com/things-to-do/london-areas/south-bank",
+      "publisher": "London & Partners",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:westminster",
+      "type": "official",
+      "title": "Westminster",
+      "url": "https://www.visitlondon.com/things-to-do/london-areas/westminster",
+      "publisher": "London & Partners",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:bloomsbury",
+      "type": "official",
+      "title": "Bloomsbury",
+      "url": "https://www.visitlondon.com/things-to-do/london-areas/bloomsbury",
+      "publisher": "London & Partners",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:heathrow",
+      "type": "official",
+      "title": "Heathrow rail connections",
+      "url": "https://www.heathrow.com/transport-and-directions/by-rail-or-train",
+      "publisher": "Heathrow Airport",
+      "retrievedAt": "2026-10-21T15:13:43Z"
+    },
+    {
+      "id": "source:phase2:london:gatwick",
+      "type": "official",
+      "title": "Gatwick train connections",
+      "url": "https://www.gatwickairport.com/transport-options/train.html",
+      "publisher": "London Gatwick Airport",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:stansted",
+      "type": "official",
+      "title": "Stansted train connections",
+      "url": "https://www.stanstedairport.com/getting-to-and-from/by-train/",
+      "publisher": "London Stansted Airport",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:luton",
+      "type": "official",
+      "title": "Luton DART: rail tickets and transfer",
+      "url": "https://www.lutondart.com/help/faqs/",
+      "publisher": "Luton DART",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:city",
+      "type": "official",
+      "title": "London City Airport DLR station",
+      "url": "https://tfl.gov.uk/dlr/stop/940GZZDLLCA/london-city-airport-dlr-station/",
+      "publisher": "Transport for London",
+      "retrievedAt": "2026-10-21T15:13:43Z"
+    },
+    {
+      "id": "source:phase2:london:southend",
+      "type": "official",
+      "title": "Southend Airport trains",
+      "url": "https://londonsouthendairport.com/getting-to-and-from/trains/",
+      "publisher": "London Southend Airport",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:london:bloomsbury-squares",
+      "type": "official",
+      "title": "Bloomsbury Gardens",
+      "url": "https://www.ucl.ac.uk/brain-sciences/sites/brain_sciences/files/bloomsbusy_gardens.pdf",
+      "publisher": "University College London",
+      "retrievedAt": "2026-10-21T15:13:43Z"
+    },
+    {
+      "id": "source:phase4b:london:tickets",
+      "type": "official",
+      "title": "TfL adult fares and caps — 2026 table",
+      "publisher": "Transport for London",
+      "url": "https://content.tfl.gov.uk/adult-fares.pdf",
+      "observedAt": "2026-10-22T19:33:31Z",
+      "retrievedAt": "2026-10-22T19:34:46Z"
+    },
+    {
+      "id": "source:phase4b:london:caps",
+      "type": "official",
+      "title": "TfL caps and payment conditions",
+      "publisher": "Transport for London",
+      "url": "https://tfl.gov.uk/fares/find-fares/caps-and-travelcard-prices",
+      "observedAt": "2026-10-22T19:33:31Z",
+      "retrievedAt": "2026-10-22T19:34:46Z"
+    },
+    {
+      "id": "source:phase4b:london:breakfast",
+      "type": "official",
+      "title": "Dishoom Covent Garden breakfast menu — illustrative basket",
+      "publisher": "Dishoom",
+      "url": "https://www.dishoom.com/menu/breakfast-covent-garden/",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    },
+    {
+      "id": "source:phase4b:london:menu",
+      "type": "official",
+      "title": "Dishoom Covent Garden all-day menu — illustrative basket",
+      "publisher": "Dishoom",
+      "url": "https://www.dishoom.com/menu/covent-garden-all-day/",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    },
+    {
+      "id": "source:phase4b:london:breakfast-pdf",
+      "type": "official",
+      "title": "Dishoom breakfast PDF — checked source version",
+      "publisher": "Dishoom",
+      "url": "https://cdn.sanity.io/files/daku84np/production/ddd9a3df5c185e38227ec34cfd3b0e606ece0ef5.pdf",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    },
+    {
+      "id": "source:phase4b:london:menu-pdf",
+      "type": "official",
+      "title": "Dishoom all-day PDF — checked source version",
+      "publisher": "Dishoom",
+      "url": "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:phase2:london:westminster",
+      "source:phase2:london:southbank",
+      "source:phase2:london:gallery"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "London rewards choosing a few areas rather than crossing the city for every landmark. Pair Westminster with a South Bank walk, save the Tower for another day, and leave space for one gallery. Your airport matters: a London city code is not a Heathrow booking."
+    }
+  },
+  "attractions": [
+    {
+      "id": "attraction:london:westminster-abbey",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:abbey"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Westminster Abbey"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "A historic royal church near Parliament. Choose an interior visit for the architecture and memorials, or begin with the surrounding Westminster streets."
+      },
+      "bookingAdvice": {
+        "en": "Book sightseeing through the Abbey and check its visitor calendar. Sundays are for worship, not sightseeing; choose the exterior walk or another day for the interior."
+      }
+    },
+    {
+      "id": "attraction:london:national-gallery",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:gallery"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "National Gallery"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "Paintings on Trafalgar Square make a focused art stop without planning a whole museum day. Choose a few rooms or works rather than the entire collection."
+      },
+      "bookingAdvice": {
+        "en": "General collection admission is free; some exhibitions are paid. Check entry arrangements. Groups above seven need the gallery’s group booking process."
+      }
+    },
+    {
+      "id": "attraction:london:tower",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:tower"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Tower of London"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A riverside fortress with royal and prison history and the Crown Jewels. This is the Tower of London, not the neighbouring Tower Bridge."
+      },
+      "bookingAdvice": {
+        "en": "Check official tickets, closures and the visitor plan before committing the day."
+      }
+    },
+    {
+      "id": "attraction:london:st-pauls",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:stpauls"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "St Paul’s Cathedral"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "The domed cathedral is a distinct City of London stop. Choose the sightseeing areas you can comfortably visit; the cathedral remains a working place of worship."
+      },
+      "bookingAdvice": {
+        "en": "Check sightseeing hours and access separately from services; verify stairs and accessibility before choosing the dome."
+      }
+    },
+    {
+      "id": "attraction:london:south-bank",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:southbank"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "South Bank riverside"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "A Thames-side walk around Waterloo with cultural venues and city views. Treat the riverside as an outdoor pause, not a promise of entry to nearby attractions."
+      },
+      "bookingAdvice": {
+        "en": "Choose individual venues separately and adapt the walk to weather and access on the day."
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:london:westminster",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:westminster"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Westminster"
+      },
+      "summary": {
+        "en": "Consider a base near the abbey and Parliament if historic sightseeing is your main priority."
+      },
+      "goodFor": [
+        {
+          "en": "Consider a base near the abbey and Parliament if historic sightseeing is your main priority."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The Tower is a separate outing. Check the exact room total and airport route rather than assuming a central address includes transport."
+        }
+      ]
+    },
+    {
+      "id": "area:london:south-bank",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:southbank"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "South Bank / Waterloo"
+      },
+      "summary": {
+        "en": "A riverside base with cultural venues and Waterloo connections; useful for combining a walk with Westminster."
+      },
+      "goodFor": [
+        {
+          "en": "A riverside base with cultural venues and Waterloo connections; useful for combining a walk with Westminster."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the precise address and station access. A district label does not verify a quiet room, accessibility or family occupancy."
+        }
+      ]
+    },
+    {
+      "id": "area:london:bloomsbury",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:bloomsbury",
+        "source:phase2:london:bloomsbury-squares"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Bloomsbury"
+      },
+      "summary": {
+        "en": "An alternative around squares and museums, away from a plan focused only on riverside landmarks."
+      },
+      "goodFor": [
+        {
+          "en": "An alternative around squares and museums, away from a plan focused only on riverside landmarks."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Compare the complete stay price, room capacity and daily route to your chosen sights; no live hotel inventory is checked here."
+        }
+      ]
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:london:airport-choice",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:heathrow",
+        "source:phase2:london:gatwick",
+        "source:phase2:london:stansted",
+        "source:phase2:london:luton",
+        "source:phase2:london:city",
+        "source:phase2:london:southend"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "title": {
+        "en": "Match your actual airport"
+      },
+      "guidance": {
+        "en": "LON is a city code, not an airport. Match LHR, LGW, STN, LTN, LCY or SEN on your flight search with the transfer you check. Verify the fare, last departure and accommodation route separately."
+      }
+    },
+    {
+      "id": "transport:london:heathrow",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:heathrow"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "title": {
+        "en": "LHR — Heathrow"
+      },
+      "guidance": {
+        "en": "Compare the Elizabeth line, Piccadilly line and Heathrow Express for your terminal and destination. Different services have different fares and stopping patterns; check the operator before travel."
+      }
+    },
+    {
+      "id": "transport:london:gatwick-stansted",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:gatwick",
+        "source:phase2:london:stansted"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "title": {
+        "en": "LGW — Gatwick · STN — Stansted"
+      },
+      "guidance": {
+        "en": "From Gatwick, compare Southern, Thameslink and Gatwick Express. From Stansted, check Stansted Express towards Liverpool Street. Choose the London terminal that suits your onward journey, not just the airport name."
+      }
+    },
+    {
+      "id": "transport:london:luton",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:luton"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "title": {
+        "en": "LTN — Luton"
+      },
+      "guidance": {
+        "en": "The DART connects the terminal with Luton Airport Parkway for onward trains. Check whether your rail ticket is to the airport or only to Parkway, and whether it includes the DART."
+      }
+    },
+    {
+      "id": "transport:london:city-southend",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:city",
+        "source:phase2:london:southend"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "title": {
+        "en": "LCY — City · SEN — Southend"
+      },
+      "guidance": {
+        "en": "London City has a DLR station for onward TfL connections. Southend has trains towards Stratford and Liverpool Street. These are different airports and routes; check the flight’s airport code before buying a transfer."
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:london:booking",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:abbey",
+        "source:phase2:london:gallery",
+        "source:phase2:london:tower",
+        "source:phase2:london:stpauls"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "kind": "booking",
+      "text": {
+        "en": "Choose one main paid interior visit per day and verify its admission before paying. Check room occupancy, taxes and cancellation terms separately. Suggested stops do not establish a complete trip price."
+      }
+    },
+    {
+      "id": "note:phase4b:london:transport:1",
+      "destinationId": "london",
+      "kind": "transport",
+      "text": {
+        "en": "Pay as you go charges for the journeys you take. Qualifying adult travel within Zones 1–2 is capped at £8.90 per fare day when you use the same card or device correctly; fewer journeys can cost less."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:london:tickets",
+        "source:phase4b:london:caps"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-22T19:33:31Z",
+        "validUntil": "2026-11-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:london:transport:2",
+      "destinationId": "london",
+      "kind": "transport",
+      "text": {
+        "en": "Airport travel, other zones and some services cost extra."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:london:tickets",
+        "source:phase4b:london:caps"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-22T19:33:31Z",
+        "validUntil": "2026-11-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:london:examples:1",
+      "destinationId": "london",
+      "kind": "other",
+      "text": {
+        "en": "Dishoom Covent Garden example: £55.00 before optional 12.5% service (about £62 with it), removable on request. Menus checked 4 November 2026. One venue’s example, not a daily London food budget. Items: date and banana porridge £9.50, house chai £4.90, paneer roomali roll £12.90, chole puri halwa £15.90, and two fresh nimbu sodas at £5.90 each."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:london:breakfast",
+        "source:phase4b:london:menu",
+        "source:phase4b:london:breakfast-pdf",
+        "source:phase4b:london:menu-pdf"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-04T09:50:53Z",
+        "validUntil": "2026-11-18T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:london:examples:2",
+      "destinationId": "london",
+      "kind": "other",
+      "text": {
+        "en": "Westminster Abbey recommends booking sightseeing tickets ahead. Sundays are for services, so choose another day for sightseeing and check the Abbey’s calendar before planning your visit."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:abbey"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-04T09:50:53Z",
+        "validUntil": "2026-11-18T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "day:london:2-nights",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:gallery",
+        "source:phase2:london:abbey",
+        "source:phase2:london:southbank",
+        "source:phase2:london:stpauls"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights at your own pace"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:london:national-gallery",
+          "day": 1,
+          "notes": {
+            "en": "Keep this optional after arrival; begin outside if there is little time."
+          }
+        },
+        {
+          "attractionId": "attraction:london:westminster-abbey",
+          "day": 2,
+          "notes": {
+            "en": "Check the Abbey’s visitor calendar. On Sundays, plan an exterior Westminster walk; move an interior visit to another sightseeing day."
+          }
+        },
+        {
+          "attractionId": "attraction:london:south-bank",
+          "day": 2,
+          "notes": {
+            "en": "Continue outdoors if the weather and your energy suit a riverside walk."
+          }
+        },
+        {
+          "attractionId": "attraction:london:st-pauls",
+          "day": 3,
+          "notes": {
+            "en": "Optional before departure; leave enough time for your actual airport."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Arrival and departure days are partial days. Adjust the order to your flights, opening days and booked entry slots; skip a stop rather than rush. Tickets and transfers are not included in this outline."
+      }
+    },
+    {
+      "id": "day:london:3-nights",
+      "destinationId": "london",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:london:gallery",
+        "source:phase2:london:abbey",
+        "source:phase2:london:southbank",
+        "source:phase2:london:tower",
+        "source:phase2:london:stpauls"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights at your own pace"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:london:national-gallery",
+          "day": 1,
+          "notes": {
+            "en": "Keep this optional after arrival; begin outside if there is little time."
+          }
+        },
+        {
+          "attractionId": "attraction:london:westminster-abbey",
+          "day": 2,
+          "notes": {
+            "en": "Check the Abbey’s visitor calendar. On Sundays, plan an exterior Westminster walk; move an interior visit to another sightseeing day."
+          }
+        },
+        {
+          "attractionId": "attraction:london:south-bank",
+          "day": 2,
+          "notes": {
+            "en": "Keep the riverside walk flexible; nearby venues need separate arrangements."
+          }
+        },
+        {
+          "attractionId": "attraction:london:tower",
+          "day": 3,
+          "notes": {
+            "en": "Give the fortress its own main visit rather than adding another cross-city museum."
+          }
+        },
+        {
+          "attractionId": "attraction:london:st-pauls",
+          "day": 4,
+          "notes": {
+            "en": "Optional if sightseeing access and your flight permit."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Arrival and departure days are partial days. Adjust the order to your flights, opening days and booked entry slots; skip a stop rather than rush. Tickets and transfers are not included in this outline."
+      }
+    }
+  ]
+}

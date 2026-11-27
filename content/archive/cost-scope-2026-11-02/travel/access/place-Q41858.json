@@ -1,0 +1,47 @@
+{
+  "destinationSubject": "place:Q41858",
+  "relationship": "external-gateway",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T14:41:59.555Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "provider-cities",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "id": "provider-airports",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "id": "official-access",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/visit.aspx",
+      "checkedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "gateways": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "YYC",
+      "cityLabel": {
+        "en": "Calgary",
+        "sq": "Calgary"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access"
+      ],
+      "airportCode": "YYC",
+      "onwardTransfer": {
+        "required": true,
+        "pricing": {
+          "kind": "unpriced"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "paris",
+  "current": {
+    "contentVersion": 3,
+    "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+    "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+    "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "GoEksplo Owner approved the pinned Paris v3 wording, official sources and freshness. The Notre-Dame direct-fetch limitation remains documented in the retained evidence finding; the previously approved attraction content and source are unchanged. This records owner approval, not automated source approval."
+      }
+    ],
+    "reviewer": "GoEksplo Owner",
+    "updatedAt": "2026-10-22T21:46:57.386Z",
+    "reviewedAt": "2026-10-22T21:46:57.386Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:33:19.060Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:33:33.333Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:33:33.333Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:33:40.546Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:33:40.546Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:33:51.365Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:33:51.365Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:33:58.804Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:33:58.804Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:34:07.490Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:34:07.490Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:34:17.048Z",
+      "reason": "Advisory evidence-review: Paris v2 identity, official sources, EN/SQ wording, selection, deliberate omissions and freshness ownership were reviewed for this publication by art. The documented Notre-Dame direct-fetch limitation is accepted. Periodic guidance remains due 2027-01-10."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Paris v2 identity, official sources, EN/SQ wording, selection, deliberate omissions and freshness ownership were reviewed for this publication by art. The documented Notre-Dame direct-fetch limitation is accepted. Periodic guidance remains due 2027-01-10."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:34:17.048Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T11:34:26.444Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "70dbabc8130d99dab8723b3c99ad1db362f44b2cd3f43cad0178d26d2aeb7fac",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Paris v2 identity, official sources, EN/SQ wording, selection, deliberate omissions and freshness ownership were reviewed for this publication by art. The documented Notre-Dame direct-fetch limitation is accepted. Periodic guidance remains due 2027-01-10."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T11:34:26.444Z",
+        "reviewedAt": "2026-10-13T11:34:26.444Z"
+      },
+      "supersededAt": "2026-10-22T21:46:56.877Z",
+      "reason": "GoEksplo Owner explicitly approved the pinned Phase 4B English revision, sources, presentation and freshness. Preserve prior review history; register the unchanged accepted evidence under the supported flat report filename."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:56.877Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:56.945Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:56.945Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:57.010Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:57.010Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:57.075Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:57.075Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:57.141Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:57.141Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:57.204Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:57.204Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:57.321Z",
+      "reason": "Advisory evidence-review: GoEksplo Owner approved the pinned Paris v3 wording, official sources and freshness. The Notre-Dame direct-fetch limitation remains documented in the retained evidence finding; the previously approved attraction content and source are unchanged. This records owner approval, not automated source approval."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner approved the pinned Paris v3 wording, official sources and freshness. The Notre-Dame direct-fetch limitation remains documented in the retained evidence finding; the previously approved attraction content and source are unchanged. This records owner approval, not automated source approval."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:57.321Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:57.386Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

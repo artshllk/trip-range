@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "status": "integrated-locally",
+  "reviewer": "GoEksplo Owner",
+  "approvalBasis": "Explicit owner message approving pinned Vienna v2, London v4, Paris v3 and New York v3 wording, official sources, presentation and documented freshness requirements.",
+  "evidenceRegistration": {
+    "approvedSource": "docs/research/phase4b-cost-evidence-2026-10-22/cost-assumptions-review.md",
+    "operationalCopy": "docs/research/destination-content/phase4b-guide-cost-assumptions.md",
+    "byteIdentical": true,
+    "metadataChanges": [
+      "report normalized to required flat filename",
+      "sourceCount records complete revised guide source count",
+      "existing persisted editorial findings included in operational evidence pin"
+    ],
+    "note": "Approved content and identity pins are unchanged. Operational evidence pins reflect supported registration metadata and retained historical findings; the unsigned review proposal remains unchanged as approval provenance."
+  },
+  "costProfileChanges": 0,
+  "calculationChanges": 0,
+  "commits": 0,
+  "pushes": 0,
+  "deployments": 0,
+  "checks": {
+    "content": {
+      "status": "passed",
+      "mode": "offline",
+      "externalCalls": 0,
+      "aiCalls": 0,
+      "files": 30,
+      "destinations": 30,
+      "attractions": 124
+    },
+    "reviews": {
+      "status": "passed",
+      "records": 30,
+      "destinations": 30,
+      "failures": [],
+      "writes": 0,
+      "externalCalls": 0
+    }
+  },
+  "records": [
+    {
+      "destinationId": "vienna",
+      "contentVersion": 2,
+      "approvedProposalPins": {
+        "contentDigest": "5433bc1219ad4b717dc1d257ad92ba2a028dbf6360ff2b8ad722de7db602ec7b",
+        "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+        "evidenceDigest": "bc8b8f3e3277f716e2c5d8ae7ff4a87a71dd58ab2482c5fd9ddccbaab9a38fcf",
+        "priorApprovedReviewDigest": "38927b76bbfa8bdc4902203fe77dbd0bb1738faf85169c21644c4fac2dcf06d5"
+      },
+      "operationalPins": {
+        "contentDigest": "5433bc1219ad4b717dc1d257ad92ba2a028dbf6360ff2b8ad722de7db602ec7b",
+        "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+        "evidenceDigest": "07e8bd602d70a875b7d227d6b8e72f9aeefcaad2f9261081408a6f435af9532b"
+      },
+      "research": {
+        "destinationId": "vienna",
+        "status": "available",
+        "report": "phase4b-guide-cost-assumptions.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 15,
+        "unresolvedIssues": []
+      },
+      "findings": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ],
+      "dryRun": {
+        "destinationId": "vienna",
+        "contentVersion": 2,
+        "digest": "5433bc1219ad4b717dc1d257ad92ba2a028dbf6360ff2b8ad722de7db602ec7b",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:54.250Z",
+        "approvalTimestamp": "2026-10-22T21:46:54.314Z",
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          }
+        ],
+        "files": [
+          "content/destinations/vienna.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:vienna:stephansdom",
+          "attraction:vienna:schoenbrunn",
+          "attraction:vienna:belvedere",
+          "attraction:vienna:museumsquartier",
+          "attraction:vienna:naschmarkt",
+          "area:vienna:inner-city",
+          "area:vienna:neubau",
+          "area:vienna:leopoldstadt",
+          "transport:vienna:airport-mainline",
+          "transport:vienna:airport-works",
+          "note:vienna:booking",
+          "note:phase4b:vienna:transport:1",
+          "note:phase4b:vienna:transport:2",
+          "note:phase4b:vienna:examples:1",
+          "day:vienna:2-nights",
+          "day:vienna:3-nights"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "vienna",
+        "contentVersion": 2,
+        "digest": "5433bc1219ad4b717dc1d257ad92ba2a028dbf6360ff2b8ad722de7db602ec7b",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:54.250Z",
+        "approvalTimestamp": "2026-10-22T21:46:54.369Z",
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          }
+        ],
+        "files": [
+          "content/destinations/vienna.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:vienna:stephansdom",
+          "attraction:vienna:schoenbrunn",
+          "attraction:vienna:belvedere",
+          "attraction:vienna:museumsquartier",
+          "attraction:vienna:naschmarkt",
+          "area:vienna:inner-city",
+          "area:vienna:neubau",
+          "area:vienna:leopoldstadt",
+          "transport:vienna:airport-mainline",
+          "transport:vienna:airport-works",
+          "note:vienna:booking",
+          "note:phase4b:vienna:transport:1",
+          "note:phase4b:vienna:transport:2",
+          "note:phase4b:vienna:examples:1",
+          "day:vienna:2-nights",
+          "day:vienna:3-nights"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      },
+      "reviewer": "GoEksplo Owner",
+      "decision": "approved"
+    },
+    {
+      "destinationId": "london",
+      "contentVersion": 4,
+      "approvedProposalPins": {
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "557557b020882c909ec677cf6d0fbfd9a6f8438cbbae9e8721c6d1f63826052f",
+        "priorApprovedReviewDigest": "000090493cd079f0388e0a7bd5b8bf528892c46430a4d5b8e526dfa436c3c752"
+      },
+      "operationalPins": {
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b"
+      },
+      "research": {
+        "destinationId": "london",
+        "status": "available",
+        "report": "phase4b-guide-cost-assumptions.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 21,
+        "unresolvedIssues": []
+      },
+      "findings": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ],
+      "dryRun": {
+        "destinationId": "london",
+        "contentVersion": 4,
+        "digest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:55.857Z",
+        "approvalTimestamp": "2026-10-22T21:46:55.922Z",
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner approved London v4 presentation, retaining the existing first three transport entries and final two airport entries behind More transport details."
+          }
+        ],
+        "files": [
+          "content/destinations/london.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:london:westminster-abbey",
+          "attraction:london:national-gallery",
+          "attraction:london:tower",
+          "attraction:london:st-pauls",
+          "attraction:london:south-bank",
+          "area:london:westminster",
+          "area:london:south-bank",
+          "area:london:bloomsbury",
+          "transport:london:airport-choice",
+          "transport:london:heathrow",
+          "transport:london:gatwick-stansted",
+          "transport:london:luton",
+          "transport:london:city-southend",
+          "note:london:booking",
+          "note:phase4b:london:transport:1",
+          "note:phase4b:london:transport:2",
+          "note:phase4b:london:examples:1",
+          "note:phase4b:london:examples:2",
+          "day:london:2-nights",
+          "day:london:3-nights"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "london",
+        "contentVersion": 4,
+        "digest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:55.857Z",
+        "approvalTimestamp": "2026-10-22T21:46:55.979Z",
+        "warningsAcknowledged": [
+          {
+            "id": "phase2-source-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          },
+          {
+            "id": "presentation:8023965be1154c073696",
+            "reason": "GoEksplo Owner approved London v4 presentation, retaining the existing first three transport entries and final two airport entries behind More transport details."
+          }
+        ],
+        "files": [
+          "content/destinations/london.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:london:westminster-abbey",
+          "attraction:london:national-gallery",
+          "attraction:london:tower",
+          "attraction:london:st-pauls",
+          "attraction:london:south-bank",
+          "area:london:westminster",
+          "area:london:south-bank",
+          "area:london:bloomsbury",
+          "transport:london:airport-choice",
+          "transport:london:heathrow",
+          "transport:london:gatwick-stansted",
+          "transport:london:luton",
+          "transport:london:city-southend",
+          "note:london:booking",
+          "note:phase4b:london:transport:1",
+          "note:phase4b:london:transport:2",
+          "note:phase4b:london:examples:1",
+          "note:phase4b:london:examples:2",
+          "day:london:2-nights",
+          "day:london:3-nights"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      },
+      "reviewer": "GoEksplo Owner",
+      "decision": "approved"
+    },
+    {
+      "destinationId": "paris",
+      "contentVersion": 3,
+      "approvedProposalPins": {
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "0a85766759dba8cee31e5336f693cb644b5cde85af6c33be8ddad3eadda35087",
+        "priorApprovedReviewDigest": "19b9f641d0dfbea27607d429854d522a0c857d9ad040bf586373575aacb5ac45"
+      },
+      "operationalPins": {
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb"
+      },
+      "research": {
+        "destinationId": "paris",
+        "status": "available",
+        "report": "phase4b-guide-cost-assumptions.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 10,
+        "unresolvedIssues": []
+      },
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Paris v2 adds direct Notre-Dame location and Louvre palace evidence, source-backed booking guidance and consistent Albanian Eiffel wording. Human checks remain pending for identity, sources, English, Albanian, selection/order and freshness. Notre-Dame evidence was available in official indexed page text; direct retrieval returned 403, so inspect the source during human review. Four attractions and one Montmartre area remain; no cross-city day sequence or access guarantees. Periodic guidance remains due for review on 2027-01-10."
+        }
+      ],
+      "dryRun": {
+        "destinationId": "paris",
+        "contentVersion": 3,
+        "digest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:57.386Z",
+        "approvalTimestamp": "2026-10-22T21:46:57.452Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner approved the pinned Paris v3 wording, official sources and freshness. The Notre-Dame direct-fetch limitation remains documented in the retained evidence finding; the previously approved attraction content and source are unchanged. This records owner approval, not automated source approval."
+          }
+        ],
+        "files": [
+          "content/destinations/paris.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "highlight:paris:1",
+          "highlight:paris:2",
+          "attraction:paris:eiffel-tower",
+          "attraction:paris:louvre",
+          "attraction:paris:notre-dame",
+          "attraction:paris:montmartre",
+          "area:paris:montmartre",
+          "transport:paris:tower-access",
+          "note:paris:museum-entry",
+          "note:phase4b:paris:transport:1",
+          "note:phase4b:paris:examples:1",
+          "note:phase4b:paris:examples:2"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "paris",
+        "contentVersion": 3,
+        "digest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:57.386Z",
+        "approvalTimestamp": "2026-10-22T21:46:57.507Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner approved the pinned Paris v3 wording, official sources and freshness. The Notre-Dame direct-fetch limitation remains documented in the retained evidence finding; the previously approved attraction content and source are unchanged. This records owner approval, not automated source approval."
+          }
+        ],
+        "files": [
+          "content/destinations/paris.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "highlight:paris:1",
+          "highlight:paris:2",
+          "attraction:paris:eiffel-tower",
+          "attraction:paris:louvre",
+          "attraction:paris:notre-dame",
+          "attraction:paris:montmartre",
+          "area:paris:montmartre",
+          "transport:paris:tower-access",
+          "note:paris:museum-entry",
+          "note:phase4b:paris:transport:1",
+          "note:phase4b:paris:examples:1",
+          "note:phase4b:paris:examples:2"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      },
+      "reviewer": "GoEksplo Owner",
+      "decision": "approved"
+    },
+    {
+      "destinationId": "place:Q60",
+      "contentVersion": 3,
+      "approvedProposalPins": {
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "bd5eef4a10c1c9617ee1dd2f8bf0a7652a746975f55a4ecbf9134ea5c1c578b1",
+        "priorApprovedReviewDigest": "145d3392581db37e316196e99452cecf1f1ff021a601b1029face7187600ca18"
+      },
+      "operationalPins": {
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1"
+      },
+      "research": {
+        "destinationId": "place:Q60",
+        "status": "available",
+        "report": "phase4b-guide-cost-assumptions.md",
+        "researchedAt": "2026-10-22T19:34:46Z",
+        "sourceCount": 7,
+        "unresolvedIssues": []
+      },
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Phase 5A v2: five authoritative sources rechecked; NYC DOT Brooklyn Bridge reference corrected. Four attractions, one area and general transport/ferry guidance only; no citywide coverage or single-day itinerary claim. EN/SQ copy is prepared for human review, not approved. Ellis Island remains intentionally unmodelled. No volatile prices, opening hours, durations, live availability, media or travel eligibility claims. Periodic operational review remains required. The separately reviewed provider city/airport binding does not approve editorial content."
+        }
+      ],
+      "dryRun": {
+        "destinationId": "place:Q60",
+        "contentVersion": 3,
+        "digest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:58.923Z",
+        "approvalTimestamp": "2026-10-22T21:46:58.988Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q60.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "highlight:place:Q60:1",
+          "highlight:place:Q60:2",
+          "attraction:place:Q60:met",
+          "attraction:place:Q60:central-park",
+          "attraction:place:Q60:brooklyn-bridge",
+          "attraction:place:Q60:liberty",
+          "area:place:Q60:upper-east-side",
+          "transport:place:Q60:met-access",
+          "note:place:Q60:island-ferry",
+          "note:phase4b:place-Q60:transport:1",
+          "note:phase4b:place-Q60:transport:2",
+          "note:phase4b:place-Q60:examples:1"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "place:Q60",
+        "contentVersion": 3,
+        "digest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-22T21:46:58.923Z",
+        "approvalTimestamp": "2026-10-22T21:46:59.043Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q60.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "highlight:place:Q60:1",
+          "highlight:place:Q60:2",
+          "attraction:place:Q60:met",
+          "attraction:place:Q60:central-park",
+          "attraction:place:Q60:brooklyn-bridge",
+          "attraction:place:Q60:liberty",
+          "area:place:Q60:upper-east-side",
+          "transport:place:Q60:met-access",
+          "note:place:Q60:island-ferry",
+          "note:phase4b:place-Q60:transport:1",
+          "note:phase4b:place-Q60:transport:2",
+          "note:phase4b:place-Q60:examples:1"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      },
+      "reviewer": "GoEksplo Owner",
+      "decision": "approved"
+    }
+  ]
+}

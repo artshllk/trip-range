@@ -1,0 +1,171 @@
+{
+  "status": "dated_menu_examples_not_production_cost_inputs",
+  "records": [
+    {
+      "city": "vienna",
+      "currency": "EUR",
+      "checked_date": "2026-11-04",
+      "items": [
+        {
+          "item": "Viennese breakfast",
+          "quantity": 1,
+          "unit_price_cents": 980,
+          "currency": "EUR",
+          "source_id": "source:phase4b:vienna:menu",
+          "source_name": "Café Prückel",
+          "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+          "pdf_page": 2,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Cappuccino",
+          "quantity": 1,
+          "unit_price_cents": 490,
+          "currency": "EUR",
+          "source_id": "source:phase4b:vienna:menu",
+          "source_name": "Café Prückel",
+          "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+          "pdf_page": 2,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Cheese toast",
+          "quantity": 1,
+          "unit_price_cents": 890,
+          "currency": "EUR",
+          "source_id": "source:phase4b:vienna:menu",
+          "source_name": "Café Prückel",
+          "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+          "pdf_page": 3,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Beef goulash with dumplings",
+          "quantity": 1,
+          "unit_price_cents": 1980,
+          "currency": "EUR",
+          "source_id": "source:phase4b:vienna:menu",
+          "source_name": "Café Prückel",
+          "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+          "pdf_page": 3,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Soda, 0.5 litre",
+          "quantity": 2,
+          "unit_price_cents": 380,
+          "currency": "EUR",
+          "source_id": "source:phase4b:vienna:menu",
+          "source_name": "Café Prückel",
+          "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+          "pdf_page": 4,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        }
+      ],
+      "subtotal_cents": 5100,
+      "calculation": "Sum of quantity multiplied by published unit price. This is our itemised example, not an operator-published daily budget.",
+      "operator_published_total": false
+    },
+    {
+      "city": "london",
+      "currency": "GBP",
+      "checked_date": "2026-11-04",
+      "items": [
+        {
+          "item": "Date and banana porridge",
+          "quantity": 1,
+          "unit_price_cents": 950,
+          "currency": "GBP",
+          "source_id": "source:phase4b:london:breakfast-pdf",
+          "source_name": "Dishoom",
+          "source_url": "https://cdn.sanity.io/files/daku84np/production/ddd9a3df5c185e38227ec34cfd3b0e606ece0ef5.pdf",
+          "pdf_page": 2,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "House chai",
+          "quantity": 1,
+          "unit_price_cents": 490,
+          "currency": "GBP",
+          "source_id": "source:phase4b:london:breakfast-pdf",
+          "source_name": "Dishoom",
+          "source_url": "https://cdn.sanity.io/files/daku84np/production/ddd9a3df5c185e38227ec34cfd3b0e606ece0ef5.pdf",
+          "pdf_page": 2,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Paneer roomali roll",
+          "quantity": 1,
+          "unit_price_cents": 1290,
+          "currency": "GBP",
+          "source_id": "source:phase4b:london:menu-pdf",
+          "source_name": "Dishoom",
+          "source_url": "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf",
+          "pdf_page": 1,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Chole puri halwa",
+          "quantity": 1,
+          "unit_price_cents": 1590,
+          "currency": "GBP",
+          "source_id": "source:phase4b:london:menu-pdf",
+          "source_name": "Dishoom",
+          "source_url": "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf",
+          "pdf_page": 1,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        },
+        {
+          "item": "Fresh nimbu soda",
+          "quantity": 2,
+          "unit_price_cents": 590,
+          "currency": "GBP",
+          "source_id": "source:phase4b:london:menu-pdf",
+          "source_name": "Dishoom",
+          "source_url": "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf",
+          "pdf_page": 2,
+          "checked_date": "2026-11-04",
+          "menu_issue_date": null,
+          "evidence": "Published menu line read during the 4 November source review; no transaction or travel-day availability inferred."
+        }
+      ],
+      "subtotal_cents": 5500,
+      "calculation": "Sum of quantity multiplied by published unit price. This is our itemised example, not an operator-published daily budget.",
+      "operator_published_total": false,
+      "optional_service": {
+        "percent": 12.5,
+        "can_be_removed_on_request": true,
+        "source_name": "Dishoom",
+        "source_url": "https://www.dishoom.com/menu/covent-garden-all-day/",
+        "additional_source_urls": [
+          "https://www.dishoom.com/menu/breakfast-covent-garden/",
+          "https://cdn.sanity.io/files/daku84np/production/ddd9a3df5c185e38227ec34cfd3b0e606ece0ef5.pdf",
+          "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf"
+        ],
+        "checked_date": "2026-11-04",
+        "service_inclusive_example_unrounded": "61.875",
+        "displayed_approximate_total": "62",
+        "currency": "GBP",
+        "rounding": "Nearest whole pound, explicitly described as about £62. This is example arithmetic, not a bill or a quoted transaction price."
+      }
+    }
+  ]
+}

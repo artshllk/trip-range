@@ -1,0 +1,99 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "129513544": {
+        "pageid": 129513544,
+        "ns": 6,
+        "title": "File:New York City Skyline 2016.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 1122801,
+            "width": 7580,
+            "height": 2110,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/New_York_City_Skyline_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:New_York_City_Skyline_2016.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129513544",
+            "sha1": "e542120490743c6f39c2159fc8f7526cc89d7017",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-03-12 01:37:25",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "New York City Skyline 2016",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Manhattan skylines|Lower Manhattan skylines|Views of New York City from north|Views of Manhattan, New York City from above|United States photographs taken on 2016-06-15|June 2016 in Manhattan, New York City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "New York City Panoramic Skyline",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-06-15 14:59:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Forestikai&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Forestikai (page does not exist)\">Aaron Harris</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

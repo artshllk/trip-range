@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch1-final-review-v1",
+  "status": "explicit-owner-approval-local-integration",
+  "reviewer": "GoEksplo Owner",
+  "reviewedAt": "2026-10-23T12:20:38.207Z",
+  "approvalBasis": "Owner explicitly approved the pinned four English v3 drafts and the exact Barcelona, Singapore and Mexico City photographs, hero/card crops, responsive variants, attribution, modification notices and CC BY-SA requirements in this conversation. No tests substitute for this approval.",
+  "content": [
+    {
+      "slug": "istanbul",
+      "destinationId": "istanbul",
+      "contentPath": "content/destinations/istanbul.json",
+      "identityPath": "content/places/istanbul.json",
+      "approvedPins": {
+        "slug": "istanbul",
+        "candidateFile": "../batch-01-review/drafts/istanbul.json",
+        "contentVersion": 3,
+        "contentDigest": "38c5b7cba0da08071cec15914efa70554251336666d23a05948d7d67d14e6106",
+        "identityDigest": "6b9bc3d0e8245bae02ca2df568391dd56cdf82ec26a62b3723e45bb755e8f5ea",
+        "evidenceDigest": "056ae3eba19f652b624c1c58cbdb1579745b261604d4371f43ab084b7720fc88",
+        "fileSha256": "54cdf3e4fb213054711305e7ff5aa71bdc240a1c43fc4731818d274f573b019b",
+        "evidenceFile": "../batch-01-review/drafts/istanbul-evidence.md",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch1-istanbul-v3.md",
+      "evidenceSha256": "af43b80f1bce3c645f8659f4b5631d7b5fb3168332c7fc48a18ea381736d734e",
+      "researchPath": "content/research/destinations/istanbul.json"
+    },
+    {
+      "slug": "barcelona",
+      "destinationId": "city:BCN",
+      "contentPath": "content/destinations/barcelona.json",
+      "identityPath": "content/places/city-BCN.json",
+      "approvedPins": {
+        "slug": "barcelona",
+        "candidateFile": "../batch-01-review/drafts/barcelona.json",
+        "contentVersion": 3,
+        "contentDigest": "81303d9603faae3707650453a6a903d0f4d51f1503de323b81d5b0d57000ff6a",
+        "identityDigest": "604110cba5db3da0e289ef1893e7be3ffdd6d857cfc7a5a0ae2a35b9e56a3aed",
+        "evidenceDigest": "c6e04f5cb9f9c7e749f6225886f464d62146ac039a5abaa0aad400e5a303a62d",
+        "fileSha256": "61bc7706035922a7d37ecc8d2674d5cc5e5c1399738432846715fc1341b01596",
+        "evidenceFile": "../batch-01-review/drafts/barcelona-evidence.md",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch1-barcelona-v3.md",
+      "evidenceSha256": "e4396d24fc0731dd535e055ca748348ca3e493f7e7ab5e479191112a2de2550a",
+      "researchPath": "content/research/destinations/city-BCN.json"
+    },
+    {
+      "slug": "singapore",
+      "destinationId": "place:Q334",
+      "contentPath": "content/destinations/place-Q334.json",
+      "identityPath": "content/places/place-Q334.json",
+      "approvedPins": {
+        "slug": "singapore",
+        "candidateFile": "../batch-01-review/drafts/singapore.json",
+        "contentVersion": 3,
+        "contentDigest": "cd209fe93a253ea425d5a9bf0f29dbbe54c779d72e4bea7ed59232c8c770109b",
+        "identityDigest": "4c864881b3fc6bd71f2861ca0998bbca841a527c35e74ac221507da827b24bf7",
+        "evidenceDigest": "072f1a010cef66a7829906dede26555e8ccfaa0a46ade3c704f2b8ff53f901f6",
+        "fileSha256": "5d1d66ed5eb9833aef180782eabe12533ee0ce8b7aa46c022f238ee27004b4dc",
+        "evidenceFile": "../batch-01-review/drafts/singapore-evidence.md",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch1-singapore-v3.md",
+      "evidenceSha256": "cf751107fb7cd7a436574969336492dce0ad1108cf6f10da8cabf3b80700e846",
+      "researchPath": "content/research/destinations/place-Q334.json"
+    },
+    {
+      "slug": "mexico-city",
+      "destinationId": "place:Q1489",
+      "contentPath": "content/destinations/place-Q1489.json",
+      "identityPath": "content/places/place-Q1489.json",
+      "approvedPins": {
+        "slug": "mexico-city",
+        "candidateFile": "../batch-01-review/drafts/mexico-city.json",
+        "contentVersion": 3,
+        "contentDigest": "e0b34a4854d38918864222cd0255c38a48354ce13d9dc15c5bfe6584930e7b1d",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "2ace6341781e41e625f0badc37f44f20630c0a764e973ce214b97789d400f029",
+        "fileSha256": "276463866be81f4baa9ce39ae5bd02d571bde682a8483f5f03f3097649a132e6",
+        "evidenceFile": "../batch-01-review/drafts/mexico-city-evidence.md",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch1-mexico-city-v3.md",
+      "evidenceSha256": "63010507689bb42cc8310af76c6fc609ed30c1931f72bd02117a38a6dabf73d0",
+      "researchPath": "content/research/destinations/place-Q1489.json"
+    }
+  ],
+  "media": [
+    {
+      "slug": "barcelona",
+      "subject": "city:BCN",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:9050140",
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T12:20:38.207Z",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg",
+      "sourceRevisionId": 1215789678,
+      "sourceEvidence": "../evidence/barcelona-park-guell-metadata.json",
+      "photographer": "Bernard Gagnon",
+      "photographedAt": "2009-09-20",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "attribution": "Bernard Gagnon / Wikimedia Commons / CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "modifications": "Lossy WebP conversion and resizing without upscaling; original aspect ratio retained in responsive files. CSS object-fit cover crops for each role; no generative changes, retouching or compositing. WebP derivatives retain the selected CC BY-SA licence.",
+      "identityEvidence": "The entrance pavilions at Park Güell, Barcelona, Spain. The individual file description, camera location and visible buildings agree. This is a 2009 photograph, not evidence of current works or access.",
+      "notes": "Chosen CC BY-SA 3.0 from the author’s explicit multi-licence offer. The wide hero is a detail crop of the pavilions; the tall right spire is outside that crop. The card retains more of the architecture.",
+      "originalFile": "originals/barcelona-park-guell.jpg",
+      "originalSha256": "1095ef8d9c362ba5adfd0952966f4a3395e559ff35ea020a22b672d9953eb6eb",
+      "originalDimensions": {
+        "width": 2960,
+        "height": 2232
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "alt": {
+            "en": "Gaudí’s entrance pavilions at Park Güell, Barcelona"
+          },
+          "approval": "approved",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "7cf5bd8111ba4b4994300b32a67988e009fe595c"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/barcelona-batch1-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/barcelona-batch1-v1-640.webp",
+                "width": 640,
+                "height": 483,
+                "bytes": 67310,
+                "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+              },
+              {
+                "src": "/destinations/barcelona-batch1-v1-1200.webp",
+                "width": 1200,
+                "height": 905,
+                "bytes": 197078,
+                "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+              },
+              {
+                "src": "/destinations/barcelona-batch1-v1-1920.webp",
+                "width": 1920,
+                "height": 1448,
+                "bytes": 394708,
+                "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.62
+          },
+          "alt": {
+            "en": "Gaudí’s entrance pavilions at Park Güell, Barcelona"
+          },
+          "approval": "approved",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "7cf5bd8111ba4b4994300b32a67988e009fe595c"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/barcelona-batch1-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/barcelona-batch1-v1-640.webp",
+                "width": 640,
+                "height": 483,
+                "bytes": 67310,
+                "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+              },
+              {
+                "src": "/destinations/barcelona-batch1-v1-1200.webp",
+                "width": 1200,
+                "height": 905,
+                "bytes": 197078,
+                "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+              },
+              {
+                "src": "/destinations/barcelona-batch1-v1-1920.webp",
+                "width": 1920,
+                "height": 1448,
+                "bytes": 394708,
+                "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+              }
+            ]
+          }
+        }
+      ],
+      "localDelivery": {
+        "src": "/destinations/barcelona-batch1-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/barcelona-batch1-v1-640.webp",
+            "width": 640,
+            "height": 483,
+            "bytes": 67310,
+            "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+          },
+          {
+            "src": "/destinations/barcelona-batch1-v1-1200.webp",
+            "width": 1200,
+            "height": 905,
+            "bytes": 197078,
+            "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+          },
+          {
+            "src": "/destinations/barcelona-batch1-v1-1920.webp",
+            "width": 1920,
+            "height": 1448,
+            "bytes": 394708,
+            "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "singapore",
+      "subject": "place:Q334",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:88145804",
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T12:20:38.207Z",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg",
+      "sourceRevisionId": 1225666482,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Basile Morin",
+      "photographedAt": "2018-06-10",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "attribution": "Basile Morin / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Lossy WebP conversion and resizing without upscaling; original aspect ratio retained in responsive files. CSS object-fit cover crops for each role; no generative changes, retouching or compositing. WebP derivatives retain the selected CC BY-SA licence.",
+      "identityEvidence": "The Singapore CBD/Civic District waterfront viewed from the Marina Bay Sands observation deck, not a photograph depicting Marina Bay Sands itself. Fullerton, the waterfront and Esplanade agree with the file description.",
+      "notes": "Night skyline from 2018. No claim that every visible building or light display is unchanged.",
+      "originalFile": "originals/singapore.jpg",
+      "originalSha256": "56291984d3d66d5abc78ec321fbc9a2a8736e8944a5b689c1cb2fb1269106ef0",
+      "originalDimensions": {
+        "width": 6517,
+        "height": 3666
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.53,
+            "y": 0.58
+          },
+          "alt": {
+            "en": "Singapore’s Central Business District and Marina Bay waterfront at night"
+          },
+          "approval": "approved",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "bf04ead522beb3930aaeb36840a012abfa9fdb96"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/singapore-batch1-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/singapore-batch1-v1-640.webp",
+                "width": 640,
+                "height": 360,
+                "bytes": 49816,
+                "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+              },
+              {
+                "src": "/destinations/singapore-batch1-v1-1200.webp",
+                "width": 1200,
+                "height": 675,
+                "bytes": 153222,
+                "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+              },
+              {
+                "src": "/destinations/singapore-batch1-v1-1920.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 353130,
+                "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.53,
+            "y": 0.58
+          },
+          "alt": {
+            "en": "Singapore’s Central Business District and Marina Bay waterfront at night"
+          },
+          "approval": "approved",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "bf04ead522beb3930aaeb36840a012abfa9fdb96"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/singapore-batch1-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/singapore-batch1-v1-640.webp",
+                "width": 640,
+                "height": 360,
+                "bytes": 49816,
+                "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+              },
+              {
+                "src": "/destinations/singapore-batch1-v1-1200.webp",
+                "width": 1200,
+                "height": 675,
+                "bytes": 153222,
+                "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+              },
+              {
+                "src": "/destinations/singapore-batch1-v1-1920.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 353130,
+                "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+              }
+            ]
+          }
+        }
+      ],
+      "localDelivery": {
+        "src": "/destinations/singapore-batch1-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/singapore-batch1-v1-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 49816,
+            "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+          },
+          {
+            "src": "/destinations/singapore-batch1-v1-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 153222,
+            "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+          },
+          {
+            "src": "/destinations/singapore-batch1-v1-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 353130,
+            "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mexico-city",
+      "subject": "place:Q1489",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:139259979",
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T12:20:38.207Z",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg",
+      "sourceRevisionId": 1218321706,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "ProtoplasmaKid",
+      "photographedAt": "2023-10-12",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "attribution": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Lossy WebP conversion and resizing without upscaling; original aspect ratio retained in responsive files. CSS object-fit cover crops for each role; no generative changes, retouching or compositing. WebP derivatives retain the selected CC BY-SA licence.",
+      "identityEvidence": "The Palacio de Bellas Artes in Mexico City’s Centro Histórico. The individual file description, coordinates and distinctive domes agree; this is not another similarly named building.",
+      "notes": "The source has inverted Author/Source labels; its explicit creator and required credit name ProtoplasmaKid. Preserve that name, not the metadata string “Own work”. Carry a visible adjacent credit into the eventual published layout.",
+      "originalFile": "originals/mexico-city.jpg",
+      "originalSha256": "3f2bb9abfe4aab7e1afd51566d8c8bd80ea192286f5f45f19bad113d954cb7ec",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 2250
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.44
+          },
+          "alt": {
+            "en": "Overhead view of the Palacio de Bellas Artes and its domes in Mexico City"
+          },
+          "approval": "approved",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "e6fee529ed33bca47aec920cbd59b36238e07422"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/mexico-city-batch1-v1-640.webp",
+                "width": 640,
+                "height": 360,
+                "bytes": 50162,
+                "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+              },
+              {
+                "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+                "width": 1200,
+                "height": 675,
+                "bytes": 157150,
+                "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+              },
+              {
+                "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 395240,
+                "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.44
+          },
+          "alt": {
+            "en": "Overhead view of the Palacio de Bellas Artes and its domes in Mexico City"
+          },
+          "approval": "approved",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "e6fee529ed33bca47aec920cbd59b36238e07422"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/mexico-city-batch1-v1-640.webp",
+                "width": 640,
+                "height": 360,
+                "bytes": 50162,
+                "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+              },
+              {
+                "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+                "width": 1200,
+                "height": 675,
+                "bytes": 157150,
+                "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+              },
+              {
+                "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 395240,
+                "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+              }
+            ]
+          }
+        }
+      ],
+      "localDelivery": {
+        "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/mexico-city-batch1-v1-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 50162,
+            "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+          },
+          {
+            "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 157150,
+            "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+          },
+          {
+            "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 395240,
+            "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+          }
+        ]
+      }
+    }
+  ],
+  "istanbulMediaPreserved": {
+    "assets": [
+      {
+        "id": "commons:34203027",
+        "provider": "wikimedia-commons",
+        "providerFileId": "34203027",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Panorama_Istanbul.jpg",
+        "width": 6009,
+        "height": 1354,
+        "mimeType": "image/jpeg",
+        "author": "Tolga Tüfekçi",
+        "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      }
+    ],
+    "selections": [
+      {
+        "subject": "istanbul",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:34203027",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.55,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Istanbul and its waterways seen from Galata Tower (2014)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "istanbul",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:34203027",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.55,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Istanbul and its waterways seen from Galata Tower (2014)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "registryBeforeSha256": "e65cc4b729f43aefe8f14b81fe4049ddbfd5dd75adf63403721d5444bc6603fe",
+  "scopeExclusions": [
+    "other eight expansion destinations",
+    "additional images",
+    "numerical cost profiles",
+    "pricing/provider changes",
+    "commit",
+    "push",
+    "deployment",
+    "infrastructure changes"
+  ],
+  "reviewPacketFiles": {
+    "originalManifestSha256": "feaeca5e236a2ed630c1a05042f25d8d68530727480162021657bb8c7f7b143f",
+    "finalManifestSha256": "96056abe7d88171d5c4a33fd9429d1a6d6e38a826e819b16bffd45c093a1fcb7"
+  },
+  "evidenceRegistrationNote": "Exact evidence bytes copied to supported flat research filenames. Operational research metadata and retained historical findings produce operational evidence digests; original approved content, identity and evidence pins remain intact in the review packet and this receipt.",
+  "publicationStatus": "integrated-locally-not-deployed"
+}

@@ -1,0 +1,1814 @@
+{
+  "id": "catalogue-batch-01-final-v2",
+  "status": "pending-owner-review",
+  "sourcePacket": "../candidates.json",
+  "sourcePacketSha256": "188c9520a2ed15d1af3c5b6adf4c6116482ec4a6fa9f2fe2c03b350c776fd815",
+  "automaticApproval": false,
+  "automaticPublication": false,
+  "candidates": [
+    {
+      "number": 1,
+      "subject": "brezovica",
+      "name": "Brezovica",
+      "countryCode": "XK",
+      "placeKind": "nature-area",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "nature"
+          },
+          {
+            "origin": "zurich",
+            "style": "quiet"
+          },
+          {
+            "origin": "prishtina",
+            "style": "nature"
+          },
+          {
+            "origin": "prishtina",
+            "style": "quiet"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "brezovica",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Brezovica_Ski_Resort.jpg",
+            "description": "Sunny day at Brezovica Ski Resort"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Winter scene at Brezovica Ski Resort",
+      "date": "2013-01-29 15:50:41",
+      "limitations": "Historical winter photograph. No claim of current snow, operating lifts or hotel inventory.",
+      "sourceMetadata": "metadata/brezovica.json",
+      "originalSha256": "aa1de3508821057b0fe9ed0723ba22a8777a5ee69618efde97e95787ffe3a361",
+      "asset": {
+        "id": "commons:24412078",
+        "provider": "wikimedia-commons",
+        "providerFileId": "24412078",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "b369ef1e70af54e206193ec60893244c1af2dffb"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Brezovica_Ski_Resort.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Brezovica_Ski_Resort.jpg",
+        "width": 3008,
+        "height": 2000,
+        "mimeType": "image/jpeg",
+        "author": "Bujar I Gashi",
+        "attribution": "Bujar I Gashi · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:37.507Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:37.507Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/brezovica-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/brezovica-640.webp",
+              "width": 640,
+              "height": 426,
+              "bytes": 67574,
+              "sha256": "01a8d283b73b5b804001069bb9ea323689795f69c095d91681abdb235d12f94d"
+            },
+            {
+              "src": "/destinations/brezovica-1200.webp",
+              "width": 1200,
+              "height": 798,
+              "bytes": 223420,
+              "sha256": "0afdeb5c100b6e45b1a26d798776a89592713e42d2bcf406504d63d37bb664b0"
+            },
+            {
+              "src": "/destinations/brezovica-1920.webp",
+              "width": 1920,
+              "height": 1277,
+              "bytes": 483628,
+              "sha256": "98e28d4dce20058d7ea4e5b6c1da8d910436d7b4dbedf1f3eeccfbb7dbd34d69"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "alt": {
+        "en": "Winter scene at Brezovica Ski Resort (2013)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.55
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 2,
+      "subject": "crete",
+      "name": "Crete",
+      "countryCode": "GR",
+      "placeKind": "island",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "quiet"
+          },
+          {
+            "origin": "zurich",
+            "style": "beach"
+          },
+          {
+            "origin": "prishtina",
+            "style": "beach"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "crete",
+        "canonicalRegistryPresent": true,
+        "canonicalExternalId": "Q34374",
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+            "description": "Harbor, Venetian shipyards, Megalo Arsenali and Lighthouse in Chania. Crete, Greece.jpg"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Chania old harbour on Crete",
+      "date": "2019-09-12 10:59:52",
+      "limitations": "A specific town on Crete, not an island-wide view or an airport/transfer-distance claim.",
+      "sourceMetadata": "metadata/crete.json",
+      "originalSha256": "a477f28716298c6bedb3de611f104a424ad81f7dd047c79d88c0f61b4df77628",
+      "asset": {
+        "id": "commons:82826175",
+        "provider": "wikimedia-commons",
+        "providerFileId": "82826175",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "a5418625a8f30ceb705da8ea7c53246de3d42db3"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Harbor%2C_Venetian_shipyards_and_Lighthouse_in_Chania._Crete%2C_Greece.jpg",
+        "width": 9626,
+        "height": 3236,
+        "mimeType": "image/jpeg",
+        "author": "Ввласенко",
+        "attribution": "Ввласенко · Wikimedia Commons · CC BY-SA 3.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:38.094Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:38.094Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 461,
+            "top": 0,
+            "width": 8090,
+            "height": 3236
+          },
+          "src": "/destinations/crete-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/crete-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 26304,
+              "sha256": "886870f7376029a8ac86a292c737815b0c1a5902b13bf3532370ef505b70af5e"
+            },
+            {
+              "src": "/destinations/crete-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 83236,
+              "sha256": "befe9cbece378ca7ae814fe6a87300a563ab402513ecdde50eeb372b02b7be42"
+            },
+            {
+              "src": "/destinations/crete-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 196164,
+              "sha256": "67d71f03165c5fc2b740daa2b00a0cc1fb96aa67709430e43beb4c9b0d5d2541"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.3,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Chania old harbour on Crete (2019)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.3,
+            "y": 0.5
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.3,
+            "y": 0.5
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "approvalGate": "Owner photo/crop/rights approval required; no runtime selection exists."
+    },
+    {
+      "number": 3,
+      "subject": "mavrovo",
+      "name": "Mavrovo",
+      "countryCode": "MK",
+      "placeKind": "nature-area",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "nature"
+          },
+          {
+            "origin": "zurich",
+            "style": "quiet"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "mavrovo",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Mavrovo_lake.jpg",
+            "description": "Lake Mavrovo, North Macedonia."
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Mavrovo Lake and surrounding landscape",
+      "date": "2023-10-12 09:35:09",
+      "limitations": "Lake-area photograph, not a promise of current water levels, weather or ski conditions.",
+      "sourceMetadata": "metadata/mavrovo-alternative.json",
+      "originalSha256": "8c773651d7082b1a45bff4f7dacdd12213a4c746f51fe3922a2637290a7afac9",
+      "asset": {
+        "id": "commons:139329059",
+        "provider": "wikimedia-commons",
+        "providerFileId": "139329059",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "70564f27a8dbff7cdd00fc55b74634998be61103"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mavrovo_lake.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mavrovo_lake.jpg",
+        "width": 6030,
+        "height": 2740,
+        "mimeType": "image/jpeg",
+        "author": "kallerna",
+        "attribution": "kallerna · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:40.083Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:40.083Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/mavrovo-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/mavrovo-640.webp",
+              "width": 640,
+              "height": 291,
+              "bytes": 28264,
+              "sha256": "875c2c5cc471ce2e88d27f002f56e0d0ad2e58620996d6aff5e5cae8f5c246ae"
+            },
+            {
+              "src": "/destinations/mavrovo-1200.webp",
+              "width": 1200,
+              "height": 545,
+              "bytes": 95602,
+              "sha256": "2d9559b01761dce446a8b8fc3096c99bd91cb83f43f2de67dd30587f3ad629ca"
+            },
+            {
+              "src": "/destinations/mavrovo-1920.webp",
+              "width": 1920,
+              "height": 872,
+              "bytes": 251804,
+              "sha256": "c84f90c6062faeb78ea5483243782bbb94b6f5259b079ce24b2864f85c856a8c"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.6,
+        "y": 0.65
+      },
+      "alt": {
+        "en": "Mavrovo Lake and surrounding landscape (2023)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.65
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.65
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 4,
+      "subject": "mirusha",
+      "name": "Mirusha Waterfalls",
+      "countryCode": "XK",
+      "placeKind": "nature-area",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "nature"
+          },
+          {
+            "origin": "prishtina",
+            "style": "nature"
+          },
+          {
+            "origin": "prishtina",
+            "style": "quiet"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "mirusha",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Waterfall_in_Kosovo-Mirusha.jpg",
+            "description": "Beautiful waterfall in Kosovo"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Mirusha waterfall in Kosovo",
+      "date": "2023-07-03 13:57:13",
+      "limitations": "Historical waterfall photograph; water flow and access can vary.",
+      "sourceMetadata": "metadata/mirusha.json",
+      "originalSha256": "e2275613e56a8ccd5feb93b65ee18017bd83d8757e3edca436187aa2082bfb0a",
+      "asset": {
+        "id": "commons:133957785",
+        "provider": "wikimedia-commons",
+        "providerFileId": "133957785",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "4e739fef616e8542867f5b23b6297234ae5ea13a"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Waterfall_in_Kosovo-Mirusha.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Waterfall_in_Kosovo-Mirusha.jpg",
+        "width": 5184,
+        "height": 3456,
+        "mimeType": "image/jpeg",
+        "author": "Veton Kastrati",
+        "attribution": "Veton Kastrati · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:40.551Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:40.551Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/mirusha-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/mirusha-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 71916,
+              "sha256": "e3febbdc570bab72f6b2aefa1c54f0bb7b4780709b6021e8af2245b3c13162bf"
+            },
+            {
+              "src": "/destinations/mirusha-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 235476,
+              "sha256": "39ba5db41b48146fd5cdaafe7de7792f0e41eb1fe3e707bc47aa8b20a7a8b101"
+            },
+            {
+              "src": "/destinations/mirusha-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 553308,
+              "sha256": "14c3f873f7cbaa114bdab2f661c81163ea4caa8e5def31080baaac28a67a5482"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.8
+      },
+      "alt": {
+        "en": "Mirusha waterfall in Kosovo (2023)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.8
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.8
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 5,
+      "subject": "prizren",
+      "name": "Prizren",
+      "countryCode": "XK",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "city"
+          },
+          {
+            "origin": "prishtina",
+            "style": "city"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "prizren",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Prizren_Stone_Bridge.jpg",
+            "description": "Prizren Stone Bridge , the symbol of the city , the century old bridge ."
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Stone Bridge in Prizren",
+      "date": "2013-07-28 20:54:18",
+      "limitations": "Prizren’s Stone Bridge, not the similarly named bridge in Skopje.",
+      "sourceMetadata": "metadata/prizren.json",
+      "originalSha256": "b1aa8611e403aa6f6471e6251812b1fff13e311fbc162b104bca26a289d5456d",
+      "asset": {
+        "id": "commons:30821502",
+        "provider": "wikimedia-commons",
+        "providerFileId": "30821502",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "3a70fd781e1aabd25aab79d48ebdac2e229d989e"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Prizren_Stone_Bridge.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Prizren_Stone_Bridge.jpg",
+        "width": 2747,
+        "height": 1820,
+        "mimeType": "image/jpeg",
+        "author": "Bujar Imer Gashi",
+        "attribution": "Bujar Imer Gashi · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:41.275Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:41.275Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/prizren-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prizren-640.webp",
+              "width": 640,
+              "height": 424,
+              "bytes": 74862,
+              "sha256": "d74be86f4a8aa967c0b1f4f709838481dbdfb3cfbcc584f39698aaa0dc3fb226"
+            },
+            {
+              "src": "/destinations/prizren-1200.webp",
+              "width": 1200,
+              "height": 795,
+              "bytes": 221946,
+              "sha256": "6fffe3f7f98a22c89f27506f02de2a260b65f0d189dbdbe6aa929cb043159e4a"
+            },
+            {
+              "src": "/destinations/prizren-1920.webp",
+              "width": 1920,
+              "height": 1272,
+              "bytes": 466976,
+              "sha256": "5f9617f76de5b5c07a88f0c683499fd6ee86c92dab9d27b49a99c01bcf1be46f"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.58
+      },
+      "alt": {
+        "en": "Stone Bridge in Prizren (2013)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 6,
+      "subject": "skopje",
+      "name": "Skopje",
+      "countryCode": "MK",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "city"
+          },
+          {
+            "origin": "prishtina",
+            "style": "city"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "skopje",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+            "description": "Picture of the Stone Bridge across the Vardar River in Skopje."
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Stone Bridge over the Vardar in Skopje",
+      "date": "2014-10-21 00:57:27",
+      "limitations": "Skopje’s Stone Bridge, not the similarly named bridge in Prizren.",
+      "sourceMetadata": "metadata/skopje.json",
+      "originalSha256": "291ea12ce373eb272846eb99173d40724a7c1404d5942d5ca7225a165aaf1e01",
+      "asset": {
+        "id": "commons:36333116",
+        "provider": "wikimedia-commons",
+        "providerFileId": "36333116",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "77bb5054d2031bc548de3cddd0d4340f8237fee6"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Skopje_Stone_Bridge.JPG",
+        "width": 4608,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "author": "Edon Bayrami",
+        "attribution": "Edon Bayrami · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:41.971Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:41.971Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/skopje-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/skopje-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27388,
+              "sha256": "4e170a249ca2c4f62aef065115588966129fe1fe2d320d24b9f29888eb6a784b"
+            },
+            {
+              "src": "/destinations/skopje-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 77472,
+              "sha256": "da32fb9bacb99d08a16eea3f44f8816ee01648ff6e2a152066270178282cff56"
+            },
+            {
+              "src": "/destinations/skopje-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 170478,
+              "sha256": "66234c7f3433b008e65b584138b28c6961053e4d4b7e1734b082478f22fc7ce2"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.46,
+        "y": 0.6
+      },
+      "alt": {
+        "en": "Stone Bridge over the Vardar in Skopje (2014)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.46,
+            "y": 0.6
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.46,
+            "y": 0.6
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 7,
+      "subject": "thessaloniki",
+      "name": "Thessaloniki",
+      "countryCode": "GR",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "city"
+          },
+          {
+            "origin": "zurich",
+            "style": "beach"
+          },
+          {
+            "origin": "prishtina",
+            "style": "city"
+          },
+          {
+            "origin": "prishtina",
+            "style": "beach"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "thessaloniki",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+            "description": "Thessaloniki, White Tower and seafront from southwest"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "White Tower and seafront in Thessaloniki",
+      "date": "2017-10-05",
+      "limitations": "A specific city landmark and waterfront, not beach or airport proximity.",
+      "sourceMetadata": "metadata/thessaloniki.json",
+      "originalSha256": "6fff704873946cfcd2ecfa0a840659cd41f1bdae03b3359628d734853f1d7ce0",
+      "asset": {
+        "id": "commons:71127147",
+        "provider": "wikimedia-commons",
+        "providerFileId": "71127147",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+        "width": 5787,
+        "height": 3582,
+        "mimeType": "image/jpeg",
+        "author": "Berthold Werner",
+        "attribution": "Berthold Werner · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:42.379Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:42.379Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/thessaloniki-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/thessaloniki-640.webp",
+              "width": 640,
+              "height": 396,
+              "bytes": 50314,
+              "sha256": "7f06a4cb7cc0697f4ccfadac32a6f166cb0cd706d5a5e0a7d6ad2db33c11706e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1200.webp",
+              "width": 1200,
+              "height": 743,
+              "bytes": 187164,
+              "sha256": "a7d9e7543a07a6508b10708986c5be3ca217cb2b0a6e3965c58ec876f3de643e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1920.webp",
+              "width": 1920,
+              "height": 1189,
+              "bytes": 448578,
+              "sha256": "c31845d64a60c9932c8eb575b83322847e474070eac2c4c8720679af4c4c0381"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.55
+      },
+      "alt": {
+        "en": "White Tower and seafront in Thessaloniki (2017)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.67,
+            "y": 0.55
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.67,
+            "y": 0.55
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 8,
+      "subject": "ulcinj",
+      "name": "Ulcinj",
+      "countryCode": "ME",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "zurich",
+            "style": "beach"
+          },
+          {
+            "origin": "prishtina",
+            "style": "beach"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "ulcinj",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+            "description": "Panorama of Ulcinj in Montenegro."
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Ulcinj waterfront and hillside buildings",
+      "date": "2011-08-25",
+      "limitations": "Ulcinj town waterfront, not a claim that every stay is beachfront.",
+      "sourceMetadata": "metadata/ulcinj.json",
+      "originalSha256": "62f5f7d31c3b81f61a7be927e082a354befcf11f9e5a418fd03126a2353abfda",
+      "asset": {
+        "id": "commons:18569302",
+        "provider": "wikimedia-commons",
+        "providerFileId": "18569302",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Panorama_of_Ulcinj_in_Montenegro_%281%29.jpg",
+        "width": 3990,
+        "height": 2166,
+        "mimeType": "image/jpeg",
+        "author": "Dudva",
+        "attribution": "Dudva · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:43.020Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.020Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/ulcinj-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/ulcinj-640.webp",
+              "width": 640,
+              "height": 347,
+              "bytes": 49242,
+              "sha256": "f94b20d932cb5e2db352e10653cdd26cca50f215c3325d02b05dfa26cb528bcf"
+            },
+            {
+              "src": "/destinations/ulcinj-1200.webp",
+              "width": 1200,
+              "height": 651,
+              "bytes": 141588,
+              "sha256": "8c3a941bcbc6e5a005b0710d904237df7cbc7b04d00c66029d1860d05612ffd5"
+            },
+            {
+              "src": "/destinations/ulcinj-1920.webp",
+              "width": 1920,
+              "height": 1042,
+              "bytes": 317144,
+              "sha256": "26720bfb6b27c1be6d2ec8da7457e309e9216ba354b217dcc210ef00742d9374"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.55,
+        "y": 0.55
+      },
+      "alt": {
+        "en": "Ulcinj waterfront and hillside buildings (2011)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.55
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.55
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 9,
+      "subject": "rugova",
+      "name": "Rugova Valley",
+      "countryCode": "XK",
+      "placeKind": "nature-area",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "observed-bounded-offline-results",
+      "priorityEvidence": {
+        "kind": "keyless local result composition, not live traffic/popularity",
+        "scenarios": [
+          {
+            "origin": "prishtina",
+            "style": "nature"
+          },
+          {
+            "origin": "prishtina",
+            "style": "quiet"
+          }
+        ]
+      },
+      "identity": {
+        "catalogueSubject": "rugova",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Rugova_Canyon_Kosovo.jpg",
+            "description": "Rugova Canyon close to Pejë (western Kosovo)"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Rugova Canyon near Pejë",
+      "date": "2009-07-16",
+      "limitations": "Rugova Canyon within the wider Rugova destination, not a photo of every mountain village.",
+      "sourceMetadata": "metadata/rugova.json",
+      "originalSha256": "2a02040295eb8ad1f8413beb7e5ab2eaafc7e58aa88f837345a30d135867f0d4",
+      "asset": {
+        "id": "commons:18714546",
+        "provider": "wikimedia-commons",
+        "providerFileId": "18714546",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "7d9d5be3abc9d3ef8d3ce8ba91c64b87bea1873c"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rugova_Canyon_Kosovo.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rugova_Canyon_Kosovo.jpg",
+        "width": 3264,
+        "height": 2448,
+        "mimeType": "image/jpeg",
+        "author": "Tom Turbo",
+        "attribution": "Tom Turbo · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:43.492Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.492Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/rugova-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/rugova-640.webp",
+              "width": 640,
+              "height": 480,
+              "bytes": 31978,
+              "sha256": "544af1c248baedd290d7a68f9a2029db493fc5678f6a05dff31c1b61037fe957"
+            },
+            {
+              "src": "/destinations/rugova-1200.webp",
+              "width": 1200,
+              "height": 900,
+              "bytes": 107702,
+              "sha256": "cfa5e844f20d829eef1167a645f73e566e159996e9a3f5bad5b991616e03b29d"
+            },
+            {
+              "src": "/destinations/rugova-1920.webp",
+              "width": 1920,
+              "height": 1440,
+              "bytes": 225012,
+              "sha256": "4305c691999473b862718fb52ad7deedc1b9a12be18bc0f112289be7acb996cf"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "alt": {
+        "en": "Rugova Canyon near Pejë (2009)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    },
+    {
+      "number": 10,
+      "subject": "istanbul",
+      "name": "Istanbul",
+      "countryCode": "TR",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "existing-content-or-linked-origin",
+      "priorityEvidence": {
+        "kind": "existing catalogue + current reviewed content; not a popularity claim"
+      },
+      "identity": {
+        "catalogueSubject": "istanbul",
+        "canonicalRegistryPresent": true,
+        "canonicalExternalId": "Q406",
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+            "description": "This panoramic view was taken from the Galata Tower in Istanbul"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Istanbul and its waterways seen from Galata Tower",
+      "date": "2014-06-27 22:33:45",
+      "limitations": "Historical view from Galata Tower; no current transport or cruise-service claim.",
+      "sourceMetadata": "metadata/istanbul.json",
+      "originalSha256": "59dc683557cf82b8821f4dc96f6a33e0682ddeebe4ef77eb2400d77e70cb8e59",
+      "asset": {
+        "id": "commons:34203027",
+        "provider": "wikimedia-commons",
+        "providerFileId": "34203027",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Panorama_Istanbul.jpg",
+        "width": 6009,
+        "height": 1354,
+        "mimeType": "image/jpeg",
+        "author": "Tolga Tüfekçi",
+        "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Istanbul and its waterways seen from Galata Tower (2014)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.5
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.5
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "approvalGate": "Owner photo/crop/rights approval required; no runtime selection exists."
+    },
+    {
+      "number": 11,
+      "subject": "prishtina",
+      "name": "Prishtina",
+      "countryCode": "XK",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "existing-content-or-linked-origin",
+      "priorityEvidence": {
+        "kind": "existing catalogue + current reviewed content; not a popularity claim"
+      },
+      "identity": {
+        "catalogueSubject": "prishtina",
+        "canonicalRegistryPresent": true,
+        "canonicalExternalId": "Q25270",
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+            "description": "Individual Commons file page labels Prishtina; actual image visually checked for the city and distinctive National Library. Photographer date and CC0 verified against file-page revision 1247245878."
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Prishtina city view with the National Library and university area",
+      "date": "2024-05-27 18:34:43",
+      "limitations": "Replacement proposal photographed 27 May 2024. Recognizable city view, not live conditions or a claim that every district is shown. The previous 2019 street/overpass candidate is flagged for replacement and excluded from the current approval set.",
+      "sourceMetadata": "evidence/prishtina-selected-replacement.json",
+      "originalSha256": "d20a155a8c09f18d319654eadffab1c85cc9eec07191324d6ccab680bbdb8ad9",
+      "asset": {
+        "id": "commons:148809793",
+        "provider": "wikimedia-commons",
+        "providerFileId": "148809793",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "0a88d014f80d78028537487a8954b259cc6b08d8"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+        "width": 4032,
+        "height": 2268,
+        "mimeType": "image/jpeg",
+        "author": "Planeti",
+        "attribution": "Planeti · Wikimedia Commons · CC0 1.0 · resized to WebP; cropped for hero/card display",
+        "license": {
+          "name": "CC0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "verifiedAt": "2026-10-22T11:02:55.457Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T11:02:55.457Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/prishtina-2024-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prishtina-2024-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50834,
+              "sha256": "3173ac1a3eb634cd542cc0893fcb9106c714756fcfa394b0a403fb5923a8eea1"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 161216,
+              "sha256": "9377bd6359a5ba9acb95d78e788cdaaebc58c3d0d6803c1dab4549eef46c2575"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 378628,
+              "sha256": "5fcf7f017fcad66e39cc03b905d233837b57ca0310693c72145eb3e1c0a555ef"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.54,
+        "y": 0.63
+      },
+      "alt": {
+        "en": "Prishtina city view with the National Library and university area (2024)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.54,
+            "y": 0.63
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.54,
+            "y": 0.63
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "approvalGate": "Owner photo/crop/rights approval required; no runtime selection exists.",
+      "replacesAssetId": "commons:79822459"
+    },
+    {
+      "number": 12,
+      "subject": "zurich",
+      "name": "Zurich",
+      "countryCode": "CH",
+      "placeKind": "city",
+      "status": "pending-owner-review",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "priority": "existing-content-or-linked-origin",
+      "priorityEvidence": {
+        "kind": "existing linked origin and catalogue destination",
+        "path": "/en/trips/from-zurich"
+      },
+      "identity": {
+        "catalogueSubject": "zurich",
+        "canonicalRegistryPresent": false,
+        "canonicalExternalId": null,
+        "evidence": [
+          {
+            "url": "https://commons.wikimedia.org/wiki/File:Zurich_Skyline.jpg",
+            "description": "Zurich Skyline"
+          }
+        ],
+        "verification": "Individual file description/country, image content and existing catalogue identity checked; no new runtime identity record or human approval created."
+      },
+      "caption": "Zurich skyline and the Limmat",
+      "date": "2017-05-16 16:17:25",
+      "limitations": "Zurich city waterfront, not the surrounding canton or the airport.",
+      "sourceMetadata": "metadata/zurich.json",
+      "originalSha256": "61363214e45c7d47c638c86d7a2c88dea9f29e08e6fa43b2a6950ca204233a6a",
+      "asset": {
+        "id": "commons:119510626",
+        "provider": "wikimedia-commons",
+        "providerFileId": "119510626",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "6329cf0ee10b576d4a88b26db1b9d092a599f145"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Zurich_Skyline.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zurich_Skyline.jpg",
+        "width": 3264,
+        "height": 2448,
+        "mimeType": "image/jpeg",
+        "author": "Schuetze75",
+        "attribution": "Schuetze75 · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:45.338Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:45.338Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/zurich-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/zurich-640.webp",
+              "width": 640,
+              "height": 480,
+              "bytes": 37424,
+              "sha256": "d0ea90b9bfb547c69984da8e4fca8e4a4b8c4aa2b8ee0e8fe55eeb35c9425471"
+            },
+            {
+              "src": "/destinations/zurich-1200.webp",
+              "width": 1200,
+              "height": 900,
+              "bytes": 126484,
+              "sha256": "d1215ca6ad60610df89789c0509163c128cf7f8c3f81aa8bdb2a34a5f87a5486"
+            },
+            {
+              "src": "/destinations/zurich-1920.webp",
+              "width": 1920,
+              "height": 1440,
+              "bytes": 287820,
+              "sha256": "3dc48d52a7458e9efb03cc31edc3882e3d14407f83d04423f4818a7fd3b26b11"
+            }
+          ]
+        }
+      },
+      "proposedRoles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.58
+      },
+      "alt": {
+        "en": "Zurich skyline and the Limmat (2017)"
+      },
+      "displayCrops": {
+        "hero": {
+          "aspectRatio": 2.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        },
+        "card": {
+          "aspectRatio": 1.3333333333333333,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.58
+          }
+        }
+      },
+      "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "approvalGate": "Owner photo/crop/rights approval and reviewed neutral identity registration for this existing catalogue subject required before runtime selection."
+    }
+  ],
+  "readiness": {
+    "brezovica": {
+      "status": "identity-verification-blocked",
+      "identity": "identity-verification-blocked",
+      "identityRecord": {
+        "subject": "brezovica",
+        "name": "Brezovica",
+        "countryCode": "XK",
+        "placeKind": "nature-area",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [
+        "Resort versus settlement scope requires explicit human mapping. The existing automatic class policy does not support ski resort Q130003, and the exact catalogue label Brezovica is not the entity label Brezovica Ski Resort."
+      ],
+      "requiredAction": "Confirm the catalogue subject means the Brezovica ski-resort/mountain area, not the nearby settlement or any other Brezovica.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "crete": {
+      "status": "ready-for-owner-review",
+      "identity": "registered-high-constrained-name",
+      "identityRecord": {
+        "subject": "crete",
+        "name": "Crete",
+        "countryCode": "GR",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 35.3097222222,
+          "longitude": 24.8933333333
+        },
+        "iataCodes": [
+          "HER",
+          "CHQ"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q34374"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve the exact photo, both crops and licence/credit terms. Existing registration is high-confidence constrained-name, not marked human-reviewed.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "mavrovo": {
+      "status": "identity-verification-blocked",
+      "identity": "identity-verification-blocked",
+      "identityRecord": {
+        "subject": "mavrovo",
+        "name": "Mavrovo",
+        "countryCode": "MK",
+        "placeKind": "nature-area",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [
+        "The catalogue says Mavrovo without a geographic extent. Park, lake and village are different entities. Do not silently map the whole destination to the photographed reservoir or village."
+      ],
+      "requiredAction": "Confirm whether the subject denotes Mavrovo National Park/wider nature area (proposed), Mavrovo Lake, or Mavrovo village. The photo is specifically the lake.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "mirusha": {
+      "status": "identity-verification-blocked",
+      "identity": "identity-verification-blocked",
+      "identityRecord": {
+        "subject": "mirusha",
+        "name": "Mirusha Waterfalls",
+        "countryCode": "XK",
+        "placeKind": "nature-area",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [
+        "Waterfall class Q34038 is unsupported by the existing automatic geographic-class policy. Wikidata has two distinct non-deprecated Earth coordinates; its English label Miruša Waterfalls also does not normalize to the catalogue spelling Mirusha Waterfalls. No arbitrary point/alias was added."
+      ],
+      "requiredAction": "Verify the waterfall complex Q3299918, approve the catalogue spelling/alias and select a source-backed representative coordinate (or deliberately omit optional coordinates) via human mapping.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "prizren": {
+      "status": "ready-for-owner-review",
+      "identity": "identity-evidence-complete-awaiting-owner",
+      "identityRecord": {
+        "subject": "prizren",
+        "name": "Prizren",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.23,
+          "longitude": 20.74
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q200061"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "skopje": {
+      "status": "ready-for-owner-review",
+      "identity": "identity-evidence-complete-awaiting-owner",
+      "identityRecord": {
+        "subject": "skopje",
+        "name": "Skopje",
+        "countryCode": "MK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.99611111111111,
+          "longitude": 21.431666666666665
+        },
+        "iataCodes": [
+          "SKP"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q384"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "thessaloniki": {
+      "status": "ready-for-owner-review",
+      "identity": "identity-evidence-complete-awaiting-owner",
+      "identityRecord": {
+        "subject": "thessaloniki",
+        "name": "Thessaloniki",
+        "countryCode": "GR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.640277777777776,
+          "longitude": 22.935555555555556
+        },
+        "iataCodes": [
+          "SKG"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q17151"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "ulcinj": {
+      "status": "ready-for-owner-review",
+      "identity": "identity-evidence-complete-awaiting-owner",
+      "identityRecord": {
+        "subject": "ulcinj",
+        "name": "Ulcinj",
+        "countryCode": "ME",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.923611111111,
+          "longitude": 19.205555555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q189969"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "rugova": {
+      "status": "identity-verification-blocked",
+      "identity": "identity-verification-blocked",
+      "identityRecord": {
+        "subject": "rugova",
+        "name": "Rugova Valley",
+        "countryCode": "XK",
+        "placeKind": "region",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [
+        "The wider region entity has an Albania P17 claim despite its Kosovo description; the official Peja source places the Rugova region northwest of Peja. The region and the photographed canyon are not interchangeable. Country was not silently overwritten."
+      ],
+      "requiredAction": "Confirm the wider Kosovo Rugova region mapping, supported by the municipal source, and distinguish its canyon photo from the whole region. Human-reviewed mapping or corrected authority evidence is needed.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "istanbul": {
+      "status": "ready-for-owner-review",
+      "identity": "registered-high-constrained-name",
+      "identityRecord": {
+        "subject": "istanbul",
+        "name": "Istanbul",
+        "countryCode": "TR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.01,
+          "longitude": 28.9602777778
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q406"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve the exact photo, both crops and licence/credit terms. Existing registration is high-confidence constrained-name, not marked human-reviewed.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "prishtina": {
+      "status": "ready-for-owner-review",
+      "identity": "registered-high-constrained-name",
+      "identityRecord": {
+        "subject": "prishtina",
+        "name": "Prishtina",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.6666666667,
+          "longitude": 21.1666666667
+        },
+        "iataCodes": [
+          "PRN"
+        ],
+        "cityCode": "PRN",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q25270"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve the exact photo, both crops and licence/credit terms. Existing registration is high-confidence constrained-name, not marked human-reviewed.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    },
+    "zurich": {
+      "status": "ready-for-owner-review",
+      "identity": "identity-evidence-complete-awaiting-owner",
+      "identityRecord": {
+        "subject": "zurich",
+        "name": "Zurich",
+        "countryCode": "CH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 47.37444444444444,
+          "longitude": 8.54111111111111
+        },
+        "iataCodes": [
+          "ZRH"
+        ],
+        "cityCode": "ZRH",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q72"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "blockingIssues": [],
+      "requiredAction": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate.",
+      "ownerApprovalRecorded": false,
+      "publishable": false
+    }
+  },
+  "excludedPreviousPrishtina": {
+    "assetId": "commons:79822459",
+    "source": "https://commons.wikimedia.org/wiki/File:Prishtin%C3%AB_capital_city_Prishtina.jpg",
+    "date": "2019-06-19 15:55:08",
+    "status": "flagged-for-replacement-not-current-approval-candidate",
+    "originalRecordPreserved": "../candidates.json"
+  },
+  "identityReview": "identity/review.json"
+}

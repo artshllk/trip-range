@@ -1,0 +1,276 @@
+{
+  "destinationId": "place:Q76516549",
+  "identitySubject": "place:Q76516549",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T08:57:31.995Z",
+  "sourceIds": [
+    "source:worldwide:place-Q76516549:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q76516549:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76516549",
+      "title": "Algarve (Q76516549)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T14:41:59.555Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q76516549"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q76516549:region",
+      "type": "official",
+      "url": "https://www.visitportugal.com/en/destinos/algarve",
+      "title": "Algarve",
+      "publisher": "Turismo de Portugal",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q76516549:coast",
+      "type": "official",
+      "url": "https://www.visitportugal.com/en/destinos/algarve/73807",
+      "title": "Algarve coast",
+      "publisher": "Turismo de Portugal",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q76516549:rail",
+      "type": "official",
+      "url": "https://cp.pt/info/en/w/improved-service-algarve-line",
+      "title": "Algarve regional rail service",
+      "publisher": "Comboios de Portugal",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q76516549:access",
+      "type": "official",
+      "url": "https://www.visitportugal.com/en/destinos/algarve/73803",
+      "title": "Faro arrival and transport",
+      "publisher": "Turismo de Portugal",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T08:57:31.995Z",
+    "sourceIds": [
+      "source:worldwide:place-Q76516549:region",
+      "source:worldwide:place-Q76516549:coast"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "The Algarve stretches from rocky western headlands to eastern lagoons and historic towns. A base near your chosen stretch of coast keeps plans focused.",
+      "sq": "Algarve shtrihet nga kepat shkëmborë në perëndim te lagunat dhe qytetet historike në lindje. Zgjidh një bazë pranë pjesës së bregdetit që do të vizitosh."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q76516549:1",
+      "text": {
+        "en": "Rock formations near Lagos",
+        "sq": "Formacione shkëmbore pranë Lagos"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:coast"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q76516549:2",
+      "text": {
+        "en": "Historic centres in Tavira and Faro",
+        "sq": "Qendra historike në Tavira dhe Faro"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:region"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q76516549:piedade",
+      "destinationId": "place:Q76516549",
+      "name": {
+        "en": "Ponta da Piedade",
+        "sq": "Ponta da Piedade"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "Rock formations and sea cliffs lie just outside Lagos.",
+        "sq": "Formacione shkëmbore dhe brigje të thepisura ndodhen pranë Lagos."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:coast"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q76516549:formosa",
+      "destinationId": "place:Q76516549",
+      "name": {
+        "en": "Ria Formosa",
+        "sq": "Ria Formosa"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A coastal lagoon system separates the mainland from barrier islands.",
+        "sq": "Një sistem lagunash bregdetare ndan tokën kontinentale nga ishujt ranorë."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:coast"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q76516549:tavira",
+      "destinationId": "place:Q76516549",
+      "name": {
+        "en": "Tavira historic centre",
+        "sq": "Qendra historike e Tavirës"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Traditional architecture gives Tavira a distinct town-centre setting.",
+        "sq": "Arkitektura tradicionale i jep qendrës së Tavirës karakter të veçantë."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:region"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q76516549:cape",
+      "destinationId": "place:Q76516549",
+      "name": {
+        "en": "Cabo de São Vicente",
+        "sq": "Cabo de São Vicente"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "The headland near Sagres marks a turn in the Algarve coastline.",
+        "sq": "Kepi pranë Sagres shënon një kthesë të vijës bregdetare të rajonit Algarve."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:coast"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q76516549:faro",
+      "destinationId": "place:Q76516549",
+      "name": {
+        "en": "Faro",
+        "sq": "Faro"
+      },
+      "summary": {
+        "en": "A base within the Algarve, with a historic centre, an airport nearby and regional rail connections.",
+        "sq": "Bazë brenda rajonit Algarve, me qendër historike, aeroport pranë dhe lidhje hekurudhore rajonale."
+      },
+      "goodFor": [
+        {
+          "en": "Regional rail trips",
+          "sq": "Udhëtime rajonale me tren"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Western headlands and eastern lagoon visits need separate local or regional journeys.",
+          "sq": "Kepat perëndimorë dhe lagunat lindore kërkojnë udhëtime më vete brenda rajonit."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:access",
+        "source:worldwide:place-Q76516549:region",
+        "source:worldwide:place-Q76516549:rail",
+        "source:worldwide:place-Q76516549:coast"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q76516549:rail",
+      "destinationId": "place:Q76516549",
+      "title": {
+        "en": "Check the Algarve line",
+        "sq": "Kontrollo linjën hekurudhore të rajonit Algarve"
+      },
+      "guidance": {
+        "en": "The Algarve rail line links Lagos, Faro and Vila Real de Santo António. Check current services and the journey from the station to your chosen place; a regional train does not reach every coastal site.",
+        "sq": "Linja hekurudhore e rajonit Algarve lidh Lagos, Faro dhe Vila Real de Santo António. Kontrollo shërbimet aktuale dhe rrugën nga stacioni drejt vendit të zgjedhur; treni rajonal nuk arrin në çdo pikë bregdetare."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:rail"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q76516549:islands",
+      "destinationId": "place:Q76516549",
+      "kind": "other",
+      "text": {
+        "en": "For Ria Formosa island visits, plan the boat crossing as part of the outing.",
+        "sq": "Për vizita në ishujt e Ria Formosa, përfshi kalimin me varkë në plan."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:57:31.995Z",
+      "sourceIds": [
+        "source:worldwide:place-Q76516549:coast"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+    "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+    "approvedAt": "2026-10-15T08:57:31.995Z"
+  }
+}

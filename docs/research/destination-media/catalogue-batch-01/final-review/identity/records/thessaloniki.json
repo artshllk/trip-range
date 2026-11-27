@@ -1,0 +1,22 @@
+{
+  "subject": "thessaloniki",
+  "name": "Thessaloniki",
+  "countryCode": "GR",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 40.640277777777776,
+    "longitude": 22.935555555555556
+  },
+  "iataCodes": [
+    "SKG"
+  ],
+  "external": {
+    "authority": "wikidata",
+    "id": "Q17151"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-22T11:00:42.097Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

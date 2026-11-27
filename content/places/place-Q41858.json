@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q41858",
+  "name": "Banff National Park",
+  "countryCode": "CA",
+  "placeKind": "nature-area",
+  "coordinates": {
+    "latitude": 51.166667,
+    "longitude": -115.55
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q41858"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:37:27Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

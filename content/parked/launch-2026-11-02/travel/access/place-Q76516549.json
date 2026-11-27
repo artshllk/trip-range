@@ -1,0 +1,43 @@
+{
+  "destinationSubject": "place:Q76516549",
+  "relationship": "direct-destination",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T14:41:59.555Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "provider-cities",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "id": "provider-airports",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "id": "official-access",
+      "url": "https://www.visitportugal.com/en/destinos/algarve/73803",
+      "checkedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "directEntries": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "FAO",
+      "cityLabel": {
+        "en": "Faro",
+        "sq": "Faro"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access"
+      ],
+      "airportCodes": [
+        "FAO"
+      ]
+    }
+  ]
+}

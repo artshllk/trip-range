@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5g-non-city-proofs",
+  "preparedAt": "2026-10-14T12:04:14.209Z",
+  "owner": "GoEksplo editorial maintenance",
+  "entries": [
+    {
+      "destinationId": "crete",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "6eda6a3d68c8330d155d530b0c3e0086eed87aee136d6474e3001aff298879cb",
+        "identityDigest": "5fe9a6679d95a464ccb74a569cc9515a132a47c2d101acba74912d88fdb18e41",
+        "evidenceDigest": "e433a65c8d94ff6d1c05c58137b6e4d65a9a7d517913062829692a0ba82aad89"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "legacy-island",
+        "groups": [
+          {
+            "cityCode": "HER",
+            "airports": [
+              "HER"
+            ]
+          },
+          {
+            "cityCode": "CHQ",
+            "airports": [
+              "CHQ"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T11:52:58.680Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q1490",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "5f54d14d95f9febd00271e3815fc518c8e1e909bc5f444913ececd5bfa0da47b",
+        "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+        "evidenceDigest": "a9bade3c021977558c1180105b65f35ed319dcf12b8b564d45e57b145c23f227"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "TYO",
+            "airports": [
+              "HND",
+              "NRT"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T11:52:58.680Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q1273",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+        "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+        "evidenceDigest": "1ff23564719f7a21cb8467f08df6f157153c3c36834ba3dce0aee4c264f48b32"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-destination",
+        "groups": [
+          {
+            "cityCode": "FLR",
+            "airports": [
+              "FLR"
+            ]
+          },
+          {
+            "cityCode": "PSA",
+            "airports": [
+              "PSA"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T11:52:58.680Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q180402",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "external-gateway",
+        "groups": [
+          {
+            "cityCode": "FAT",
+            "airports": [
+              "FAT"
+            ]
+          }
+        ],
+        "checkedAt": "2026-10-14T11:52:58.680Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    }
+  ]
+}

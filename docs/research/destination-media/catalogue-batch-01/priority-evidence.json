@@ -1,0 +1,295 @@
+{
+  "externalCalls": 0,
+  "measurement": "bounded offline current-code result composition; not traffic or popularity measurement",
+  "scenarios": [
+    {
+      "origin": "zurich",
+      "style": "city",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "prizren",
+          "name": "Prizren"
+        },
+        {
+          "id": "skopje",
+          "name": "Skopje"
+        },
+        {
+          "id": "thessaloniki",
+          "name": "Thessaloniki"
+        }
+      ],
+      "results": [
+        "prizren",
+        "skopje",
+        "thessaloniki"
+      ],
+      "fit": [],
+      "ideas": [
+        "prizren",
+        "skopje",
+        "thessaloniki"
+      ]
+    },
+    {
+      "origin": "zurich",
+      "style": "nature",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "rugova",
+          "name": "Rugova Valley"
+        },
+        {
+          "id": "mirusha",
+          "name": "Mirusha Waterfalls"
+        },
+        {
+          "id": "brezovica",
+          "name": "Brezovica"
+        },
+        {
+          "id": "mavrovo",
+          "name": "Mavrovo"
+        },
+        {
+          "id": "ohrid",
+          "name": "Ohrid"
+        }
+      ],
+      "results": [
+        "brezovica",
+        "mavrovo",
+        "mirusha"
+      ],
+      "fit": [],
+      "ideas": [
+        "brezovica",
+        "mavrovo",
+        "mirusha"
+      ]
+    },
+    {
+      "origin": "zurich",
+      "style": "quiet",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "rugova",
+          "name": "Rugova Valley"
+        },
+        {
+          "id": "mirusha",
+          "name": "Mirusha Waterfalls"
+        },
+        {
+          "id": "brezovica",
+          "name": "Brezovica"
+        },
+        {
+          "id": "mavrovo",
+          "name": "Mavrovo"
+        },
+        {
+          "id": "ohrid",
+          "name": "Ohrid"
+        },
+        {
+          "id": "ulcinj",
+          "name": "Ulcinj"
+        },
+        {
+          "id": "crete",
+          "name": "Crete"
+        }
+      ],
+      "results": [
+        "brezovica",
+        "crete",
+        "mavrovo"
+      ],
+      "fit": [],
+      "ideas": [
+        "brezovica",
+        "crete",
+        "mavrovo"
+      ]
+    },
+    {
+      "origin": "zurich",
+      "style": "beach",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "ulcinj",
+          "name": "Ulcinj"
+        },
+        {
+          "id": "thessaloniki",
+          "name": "Thessaloniki"
+        },
+        {
+          "id": "crete",
+          "name": "Crete"
+        }
+      ],
+      "results": [
+        "crete",
+        "thessaloniki",
+        "ulcinj"
+      ],
+      "fit": [],
+      "ideas": [
+        "crete",
+        "thessaloniki",
+        "ulcinj"
+      ]
+    },
+    {
+      "origin": "prishtina",
+      "style": "city",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "prizren",
+          "name": "Prizren"
+        },
+        {
+          "id": "skopje",
+          "name": "Skopje"
+        },
+        {
+          "id": "thessaloniki",
+          "name": "Thessaloniki"
+        }
+      ],
+      "results": [
+        "prizren",
+        "skopje",
+        "thessaloniki"
+      ],
+      "fit": [
+        "prizren",
+        "skopje",
+        "thessaloniki"
+      ],
+      "ideas": []
+    },
+    {
+      "origin": "prishtina",
+      "style": "nature",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "rugova",
+          "name": "Rugova Valley"
+        },
+        {
+          "id": "mirusha",
+          "name": "Mirusha Waterfalls"
+        },
+        {
+          "id": "brezovica",
+          "name": "Brezovica"
+        },
+        {
+          "id": "mavrovo",
+          "name": "Mavrovo"
+        },
+        {
+          "id": "ohrid",
+          "name": "Ohrid"
+        }
+      ],
+      "results": [
+        "mirusha",
+        "rugova",
+        "brezovica"
+      ],
+      "fit": [
+        "mirusha",
+        "rugova",
+        "brezovica"
+      ],
+      "ideas": []
+    },
+    {
+      "origin": "prishtina",
+      "style": "quiet",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "rugova",
+          "name": "Rugova Valley"
+        },
+        {
+          "id": "mirusha",
+          "name": "Mirusha Waterfalls"
+        },
+        {
+          "id": "brezovica",
+          "name": "Brezovica"
+        },
+        {
+          "id": "mavrovo",
+          "name": "Mavrovo"
+        },
+        {
+          "id": "ohrid",
+          "name": "Ohrid"
+        },
+        {
+          "id": "ulcinj",
+          "name": "Ulcinj"
+        },
+        {
+          "id": "crete",
+          "name": "Crete"
+        }
+      ],
+      "results": [
+        "mirusha",
+        "rugova",
+        "brezovica"
+      ],
+      "fit": [
+        "mirusha",
+        "rugova",
+        "brezovica"
+      ],
+      "ideas": []
+    },
+    {
+      "origin": "prishtina",
+      "style": "beach",
+      "fixture": "keyless provider-unavailable composition; no live fare evidence",
+      "templates": [
+        {
+          "id": "ulcinj",
+          "name": "Ulcinj"
+        },
+        {
+          "id": "thessaloniki",
+          "name": "Thessaloniki"
+        },
+        {
+          "id": "crete",
+          "name": "Crete"
+        }
+      ],
+      "results": [
+        "ulcinj",
+        "thessaloniki",
+        "crete"
+      ],
+      "fit": [
+        "ulcinj",
+        "thessaloniki"
+      ],
+      "ideas": [
+        "crete"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q24639",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+    "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+    "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Vancouver v2 identity, municipal and official tourism sources, EN/SQ copy, focused park, market and heritage selection, city-boundary framing, transport guidance and freshness ownership were reviewed and accepted for publication. Regional attractions and volatile opening or transport details are intentionally excluded."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-13T22:33:14.374Z",
+    "reviewedAt": "2026-10-13T22:33:14.374Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:08.578Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:09.410Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:09.410Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:10.229Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:10.229Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:11.057Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:11.057Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:11.880Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:11.880Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:12.709Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:12.709Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:13.545Z",
+      "reason": "Advisory evidence-review: Vancouver v2 identity, municipal and official tourism sources, EN/SQ copy, focused park, market and heritage selection, city-boundary framing, transport guidance and freshness ownership were reviewed and accepted for publication. Regional attractions and volatile opening or transport details are intentionally excluded."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+        "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+        "evidenceDigest": "64c3554cfc542d45b97488e9afd9570ba8dfa766ae7a3714f4ad5b386f19b98b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Vancouver v2 identity, municipal and official tourism sources, EN/SQ copy, focused park, market and heritage selection, city-boundary framing, transport guidance and freshness ownership were reviewed and accepted for publication. Regional attractions and volatile opening or transport details are intentionally excluded."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T22:33:13.545Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T22:33:14.374Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

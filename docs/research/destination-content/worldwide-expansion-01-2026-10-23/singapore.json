@@ -1,0 +1,469 @@
+{
+  "destinationId": "place:Q334",
+  "identitySubject": "place:Q334",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q334:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q334:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q334",
+      "title": "Singapore (Q334)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T21:54:31.358Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q334"
+      }
+    },
+    {
+      "id": "source:expansion01:singapore:gallery",
+      "type": "official",
+      "url": "https://www.nationalgallery.sg/sg/en/architecture-and-history.html",
+      "title": "Architecture and history",
+      "publisher": "National Gallery Singapore",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:temple",
+      "type": "official",
+      "url": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/buddha-tooth-relic-temple/",
+      "title": "Buddha Tooth Relic Temple & Museum",
+      "publisher": "Singapore Tourism Board",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:gardens",
+      "type": "official",
+      "url": "https://www.gardensbythebay.com.sg/",
+      "title": "Gardens by the Bay",
+      "publisher": "Gardens by the Bay",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:botanic",
+      "type": "official",
+      "url": "https://sbg.nparks.gov.sg/",
+      "title": "Singapore Botanic Gardens",
+      "publisher": "NParks",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:areas",
+      "type": "official",
+      "url": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/",
+      "title": "Featured neighbourhoods",
+      "publisher": "Singapore Tourism Board",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:sin",
+      "type": "official",
+      "url": "https://www.changiairport.com/en/at-changi/transport-and-directions/leaving-the-airport.html",
+      "title": "Leaving Changi Airport",
+      "publisher": "Changi Airport Group",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:xsp",
+      "type": "official",
+      "url": "https://www.seletarairport.com/transport.html",
+      "title": "Seletar transport",
+      "publisher": "Seletar Airport",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:lta",
+      "type": "official",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/plan_your_journey.html",
+      "title": "Plan Your Journey",
+      "publisher": "Land Transport Authority",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:singapore:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Singapore offers gardens, art and heritage districts without needing a new base every day. Choose which garden interiors and museum collections matter to you, then connect the outings by public transport rather than treating every attraction as one walk."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:singapore:gallery",
+      "source:expansion01:singapore:temple"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q334:gardens-bay",
+      "destinationId": "place:Q334",
+      "name": {
+        "en": "Gardens by the Bay"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Choose the outdoor spaces and any ticketed attractions separately. Check the official closure notices before selecting a conservatory visit."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:gardens"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q334:national-gallery",
+      "destinationId": "place:Q334",
+      "name": {
+        "en": "National Gallery Singapore"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "Explore art in the former civic buildings. The UOB Southeast Asia Gallery is listed as closed; check which collections are open before choosing a visit."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:gallery"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q334:botanic-gardens",
+      "destinationId": "place:Q334",
+      "name": {
+        "en": "Singapore Botanic Gardens"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Make this a separate garden outing using the official map and visitor notices. It is not the same attraction as Gardens by the Bay."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:botanic"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q334:buddha-temple",
+      "destinationId": "place:Q334",
+      "name": {
+        "en": "Buddha Tooth Relic Temple and Museum"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Visit this Tang-inspired Buddhist temple in Chinatown respectfully. Check which visitor spaces are accessible on your date."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:temple"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q334:expansion01-1",
+      "destinationId": "place:Q334",
+      "name": {
+        "en": "Chinatown"
+      },
+      "summary": {
+        "en": "Consider a base for heritage streets and the temple outing, checking the nearest useful station."
+      },
+      "goodFor": [
+        {
+          "en": "Exploring the surrounding Chinatown area between planned visits."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The two gardens are separate journeys; no citywide hotel-price assumption applies."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:areas",
+        "source:expansion01:singapore:temple",
+        "source:expansion01:singapore:lta"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q334:expansion01-2",
+      "destinationId": "place:Q334",
+      "name": {
+        "en": "Civic District and Marina Bay"
+      },
+      "summary": {
+        "en": "Compare the exact location if art museums or the bay are your main priorities."
+      },
+      "goodFor": [
+        {
+          "en": "Staying close to your chosen central-city outing."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The district name does not establish walking distance to every garden entrance."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:areas",
+        "source:expansion01:singapore:gallery",
+        "source:expansion01:singapore:gardens"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q334:expansion01-1",
+      "destinationId": "place:Q334",
+      "title": {
+        "en": "Arriving at Changi (SIN)"
+      },
+      "guidance": {
+        "en": "Changi’s rail connection uses changes at Tanah Merah or Expo for onward city travel. Follow the airport’s terminal-specific instructions and check current service notices, especially for a late arrival."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:sin"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q334:expansion01-2",
+      "destinationId": "place:Q334",
+      "title": {
+        "en": "Arriving at Seletar (XSP)"
+      },
+      "guidance": {
+        "en": "Seletar is not Changi. Its operator lists bus 102 with North East Line connections, as well as taxi and private-hire options. Plan this airport leg separately from any SIN guidance."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:xsp"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q334:expansion01-3",
+      "destinationId": "place:Q334",
+      "title": {
+        "en": "Between the outings"
+      },
+      "guidance": {
+        "en": "Use LTA’s journey planner for the exact station and garden entrance. Group the gallery with the Civic District, and keep the Botanic Gardens separate from the Marina Bay outing."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:lta",
+        "source:expansion01:singapore:areas",
+        "source:expansion01:singapore:botanic",
+        "source:expansion01:singapore:gardens"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q334:expansion01-history",
+      "destinationId": "place:Q334",
+      "kind": "other",
+      "text": {
+        "en": "The National Gallery occupies the former City Hall and Supreme Court. Chinatown’s Buddha Tooth Relic Temple is a modern Tang-inspired building, not an ancient monument."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:gallery",
+        "source:expansion01:singapore:temple"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q334:expansion01-cost-limits",
+      "destinationId": "place:Q334",
+      "kind": "booking",
+      "text": {
+        "en": "Museum entry and individual garden attractions may need separate tickets. Airport travel, accommodation and meals are not covered by this guide’s non-numerical planning advice."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q334:expansion01-2-nights",
+      "destinationId": "place:Q334",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Singapore"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q334:buddha-temple",
+          "day": 1,
+          "notes": {
+            "en": "A flexible Chinatown visit after settling in."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q334:national-gallery",
+          "day": 2,
+          "notes": {
+            "en": "Check which galleries are open before booking."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q334:gardens-bay",
+          "day": 2,
+          "notes": {
+            "en": "Choose the bay outing and any separate indoor tickets."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q334:botanic-gardens",
+          "day": 3,
+          "notes": {
+            "en": "Visit only if departure leaves time; otherwise choose one garden for the stay."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:temple",
+        "source:expansion01:singapore:gallery",
+        "source:expansion01:singapore:gardens",
+        "source:expansion01:singapore:botanic"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q334:expansion01-3-nights",
+      "destinationId": "place:Q334",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Singapore"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q334:buddha-temple",
+          "day": 1,
+          "notes": {
+            "en": "Begin with the heritage district if visitor access fits arrival."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q334:national-gallery",
+          "day": 2,
+          "notes": {
+            "en": "Plan around the collections actually open."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q334:botanic-gardens",
+          "day": 3,
+          "notes": {
+            "en": "Give the botanic garden its own outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q334:gardens-bay",
+          "day": 4,
+          "notes": {
+            "en": "Use the bay as a final visit only if departure permits; otherwise move this earlier."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:singapore:temple",
+        "source:expansion01:singapore:gallery",
+        "source:expansion01:singapore:botanic",
+        "source:expansion01:singapore:gardens"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

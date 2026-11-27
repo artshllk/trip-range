@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal-only-no-runtime-routes-or-sitemap-writes",
+  "cities": [
+    {
+      "slug": "tokyo",
+      "proposedPath": "/en/destinations/tokyo",
+      "canonical": "https://www.goeksplo.com/en/destinations/tokyo",
+      "title": "Tokyo guide: short stays, areas and airport choices",
+      "h1": "Tokyo: plan a short trip",
+      "description": "Plan a focused Tokyo stay around Asakusa, Meiji Jingu and the Skytree area, with airport choices, neighbourhood bases and honest budget limits.",
+      "intentKeywords": [
+        "Tokyo 3 night itinerary",
+        "Haneda Narita first visit",
+        "Asakusa or Shinjuku where to stay"
+      ],
+      "relatedGuideSlugs": [
+        "singapore"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "futureRelatedGuides": [
+        "kyoto"
+      ]
+    },
+    {
+      "slug": "kyoto",
+      "proposedPath": "/en/destinations/kyoto",
+      "canonical": "https://www.goeksplo.com/en/destinations/kyoto",
+      "title": "Kyoto guide: temples, bases and gateway airports",
+      "h1": "Kyoto: plan a short trip",
+      "description": "Plan a focused Kyoto stay with Kiyomizu-dera, Gion, airport-to-city choices and respectful routes, without assuming missing transfer or hotel costs.",
+      "intentKeywords": [
+        "Kyoto 2 night itinerary",
+        "Kansai airport to Kyoto planning",
+        "Gion or Kyoto Station base"
+      ],
+      "relatedGuideSlugs": [],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "futureRelatedGuides": [
+        "tokyo",
+        "bangkok"
+      ]
+    },
+    {
+      "slug": "bangkok",
+      "proposedPath": "/en/destinations/bangkok",
+      "canonical": "https://www.goeksplo.com/en/destinations/bangkok",
+      "title": "Bangkok guide: temples, Chinatown and airport planning",
+      "h1": "Bangkok: plan a short trip",
+      "description": "Plan Bangkok around the Old City, Wat Arun and Chinatown, with airport-specific arrival choices, sensible sightseeing groups and honest cost limits.",
+      "intentKeywords": [
+        "Bangkok 2 night itinerary",
+        "BKK or DMK arrival planning",
+        "Bangkok Old City where to stay"
+      ],
+      "relatedGuideSlugs": [
+        "singapore"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "futureRelatedGuides": [
+        "kyoto"
+      ]
+    },
+    {
+      "slug": "marrakesh",
+      "proposedPath": "/en/destinations/marrakesh",
+      "canonical": "https://www.goeksplo.com/en/destinations/marrakesh",
+      "title": "Marrakesh guide: medina, gardens and choosing a base",
+      "h1": "Marrakesh: plan a short trip",
+      "description": "Plan a short Marrakesh stay with medina and garden outings, airport arrival guidance and practical base choices, without invented room or ticket prices.",
+      "intentKeywords": [
+        "Marrakesh 3 night itinerary",
+        "Marrakech medina or Gueliz stay",
+        "Marrakech airport arrival planning"
+      ],
+      "relatedGuideSlugs": [
+        "istanbul",
+        "barcelona"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "futureRelatedGuides": []
+    }
+  ]
+}

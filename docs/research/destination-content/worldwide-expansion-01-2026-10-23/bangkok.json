@@ -1,0 +1,471 @@
+{
+  "destinationId": "place:Q1861",
+  "identitySubject": "place:Q1861",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q1861:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q1861:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1861",
+      "title": "Bangkok (Q1861)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T21:54:31.358Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1861"
+      }
+    },
+    {
+      "id": "source:expansion01:bangkok:city",
+      "type": "official",
+      "url": "https://www.tourismthailand.org/Destinations/Provinces/Bangkok/219",
+      "title": "Bangkok destination guide",
+      "publisher": "Tourism Authority of Thailand",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:palace",
+      "type": "official",
+      "url": "https://www.royalgrandpalace.th/en/visit/practical-information",
+      "title": "Grand Palace practical information",
+      "publisher": "Bureau of the Royal Household",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:watpho",
+      "type": "official",
+      "url": "https://watpho.org/en/home",
+      "title": "Wat Pho visitor information",
+      "publisher": "Wat Pho",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:mrt",
+      "type": "official",
+      "url": "https://www.tatnews.org/2024/06/exploring-bangkoks-old-city-and-yaowarat-is-super-easy-with-mrt-blue-line/",
+      "title": "Old City and Yaowarat by MRT",
+      "publisher": "TAT Newsroom",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:bkk",
+      "type": "official",
+      "url": "https://www.thailand.go.th/public/issue-focus-detail/001_01_107-2",
+      "title": "Airport Rail Link connections",
+      "publisher": "Thailand government portal",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:bkk-current",
+      "type": "official",
+      "url": "https://suvarnabhumi.airportthai.co.th/service/airport-guide?lang=th",
+      "title": "Suvarnabhumi airport guide",
+      "publisher": "Airports of Thailand",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:dmk",
+      "type": "official",
+      "url": "https://thailand.go.th/public/issue-focus-detail/don-mueang-airport-operating-normally",
+      "title": "Don Mueang transport advisory, 27 September 2026",
+      "publisher": "Thailand government portal",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:map",
+      "type": "official",
+      "url": "https://www.bts.co.th/btsroutes/btsroutes.pdf",
+      "title": "BTS rail network map",
+      "publisher": "BTS",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:bangkok:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Bangkok’s royal temples, river crossings and Chinatown work best as a few connected outings. Keep the Old City together, leave breaks between interiors and plan your airport journey from the actual airport code."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:bangkok:palace",
+      "source:expansion01:bangkok:watpho",
+      "source:expansion01:bangkok:city"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q1861:grand-palace",
+      "destinationId": "place:Q1861",
+      "name": {
+        "en": "Grand Palace and Wat Phra Kaew"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Make this one planned palace-complex visit. Check current entry arrangements and the dress code before leaving your base."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:palace"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1861:wat-pho",
+      "destinationId": "place:Q1861",
+      "name": {
+        "en": "Wat Pho"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Explore the temple beside the Grand Palace on a separate ticket. Leave room for the courtyards rather than adding it as a rushed photograph stop."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:watpho"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1861:wat-arun",
+      "destinationId": "place:Q1861",
+      "name": {
+        "en": "Wat Arun"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Plan a separate visit on the opposite bank of the river. Confirm the crossing or rail-and-walk route you will use rather than assuming a ferry timetable."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:city",
+        "source:expansion01:bangkok:palace"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1861:yaowarat",
+      "destinationId": "place:Q1861",
+      "name": {
+        "en": "Yaowarat"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Explore Chinatown as its own street outing, using Wat Mangkon MRT for a useful approach. Food choices and stall operation vary; there is no fixed meal budget here."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:city",
+        "source:expansion01:bangkok:mrt"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q1861:expansion01-1",
+      "destinationId": "place:Q1861",
+      "name": {
+        "en": "Old City and the Sanam Chai area"
+      },
+      "summary": {
+        "en": "Compare a base here if the palace and temple cluster drives your visit."
+      },
+      "goodFor": [
+        {
+          "en": "Fewer cross-city trips for these sights."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the exact station or pier connection and the property’s luggage access."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:mrt",
+        "source:expansion01:bangkok:palace"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q1861:expansion01-2",
+      "destinationId": "place:Q1861",
+      "name": {
+        "en": "Asok and Sukhumvit interchange area"
+      },
+      "summary": {
+        "en": "Consider a station-linked base if rail connections are more important than being beside the temples."
+      },
+      "goodFor": [
+        {
+          "en": "An interchange between BTS and MRT services."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The Old City remains a separate journey; do not assume every Sukhumvit address is near the interchange."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:map",
+        "source:expansion01:bangkok:mrt"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q1861:expansion01-1",
+      "destinationId": "place:Q1861",
+      "title": {
+        "en": "Suvarnabhumi (BKK)"
+      },
+      "guidance": {
+        "en": "The Airport Rail Link runs towards Phaya Thai, with an MRT connection from the Makkasan area. Match the final leg to your base and check the current airport guide for service notices. This is not the same route as Don Mueang."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:bkk",
+        "source:expansion01:bangkok:bkk-current"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q1861:expansion01-2",
+      "destinationId": "place:Q1861",
+      "title": {
+        "en": "Don Mueang (DMK)"
+      },
+      "guidance": {
+        "en": "DMK has Red Line and airport-bus options. A September government advisory described transport disruption: check current operator notices before relying on a service. No taxi availability is assumed."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:dmk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q1861:expansion01-3",
+      "destinationId": "place:Q1861",
+      "title": {
+        "en": "Old City, river and Chinatown"
+      },
+      "guidance": {
+        "en": "Use Sanam Chai for Old City planning and Wat Mangkon for Yaowarat. Wat Arun is across the river from the palace area: check the actual crossing or onward route, and allow breaks between temple visits."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:mrt",
+        "source:expansion01:bangkok:city",
+        "source:expansion01:bangkok:palace"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q1861:expansion01-history",
+      "destinationId": "place:Q1861",
+      "kind": "other",
+      "text": {
+        "en": "The Grand Palace and Wat Phra Kaew form the royal and religious core of Rattanakosin. Wat Pho sits nearby, while Wat Arun stands across the Chao Phraya: the river is part of the city’s geography, not just a view."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:palace",
+        "source:expansion01:bangkok:watpho",
+        "source:expansion01:bangkok:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q1861:expansion01-cost-limits",
+      "destinationId": "place:Q1861",
+      "kind": "booking",
+      "text": {
+        "en": "Temple tickets, river crossings, airport travel, meals and rooms need individual checks. This guide gives no reviewed food allowance and does not assume a meal or transfer is included in a ticket."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q1861:expansion01-2-nights",
+      "destinationId": "place:Q1861",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Bangkok"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q1861:yaowarat",
+          "day": 1,
+          "notes": {
+            "en": "Keep arrival-day plans flexible; choose food individually."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1861:grand-palace",
+          "day": 2,
+          "notes": {
+            "en": "Follow the current dress and visitor rules."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1861:wat-pho",
+          "day": 2,
+          "notes": {
+            "en": "Add this nearby temple only if you still want another interior."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1861:wat-arun",
+          "day": 3,
+          "notes": {
+            "en": "A separate river-side visit only if departure leaves time."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:city",
+        "source:expansion01:bangkok:mrt",
+        "source:expansion01:bangkok:palace",
+        "source:expansion01:bangkok:watpho"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q1861:expansion01-3-nights",
+      "destinationId": "place:Q1861",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Bangkok"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q1861:yaowarat",
+          "day": 1,
+          "notes": {
+            "en": "A flexible Chinatown outing after settling in."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1861:grand-palace",
+          "day": 2,
+          "notes": {
+            "en": "Give the palace complex its own main outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1861:wat-pho",
+          "day": 3,
+          "notes": {
+            "en": "A slower temple visit; use the rest of the day for breaks."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1861:wat-arun",
+          "day": 4,
+          "notes": {
+            "en": "Only if airport timing permits; otherwise pair with day three after confirming the crossing."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:bangkok:city",
+        "source:expansion01:bangkok:mrt",
+        "source:expansion01:bangkok:palace",
+        "source:expansion01:bangkok:watpho"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

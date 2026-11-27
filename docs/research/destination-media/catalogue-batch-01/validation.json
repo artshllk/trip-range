@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "mode": "offline",
+  "checkedAt": "2026-10-22T10:47:27.296Z",
+  "assets": 12,
+  "variants": 36,
+  "assetSchema": true,
+  "explicitCropBounds": true,
+  "sourceDimensionsAndChecksums": true,
+  "derivativeBytesDimensionsAndSha256": true,
+  "publicationFrameDimensions": true,
+  "unapprovedRoleBindings": 24,
+  "approvedSelections": 0,
+  "priorProtectedFilesUnchanged": 245,
+  "requiresOwnerApproval": [
+    "brezovica",
+    "crete",
+    "mavrovo",
+    "mirusha",
+    "prizren",
+    "skopje",
+    "thessaloniki",
+    "ulcinj",
+    "rugova",
+    "istanbul",
+    "prishtina",
+    "zurich"
+  ],
+  "requiresNeutralIdentityRegistration": [
+    "brezovica",
+    "mavrovo",
+    "mirusha",
+    "prizren",
+    "skopje",
+    "thessaloniki",
+    "ulcinj",
+    "rugova",
+    "zurich"
+  ],
+  "errors": []
+}

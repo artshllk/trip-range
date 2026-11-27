@@ -1,0 +1,315 @@
+{
+  "destinationId": "place:Q41858",
+  "identitySubject": "place:Q41858",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T09:03:35.654Z",
+  "sourceIds": [
+    "source:worldwide:place-Q41858:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q41858:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41858",
+      "title": "Banff National Park (Q41858)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T14:41:59.555Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q41858"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q41858:park",
+      "type": "official",
+      "url": "https://parks.canada.ca/pn-np/ab/banff",
+      "title": "Banff National Park",
+      "publisher": "Parks Canada",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q41858:places",
+      "type": "official",
+      "url": "https://www.parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking",
+      "title": "Banff and Lake Louise areas — place descriptions and conditions",
+      "publisher": "Parks Canada",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q41858:lakes",
+      "type": "official",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise/faq",
+      "title": "Lake Louise and Moraine Lake transport FAQ",
+      "publisher": "Parks Canada",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q41858:access",
+      "type": "official",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/visit.aspx",
+      "title": "Plan your visit — arrival from Calgary",
+      "publisher": "Parks Canada",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q41858:town",
+      "type": "official",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus",
+      "title": "Travel within Banff National Park",
+      "publisher": "Parks Canada",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q41858:bulletins",
+      "type": "official",
+      "url": "https://parks.canada.ca/pn-np/ab/banff/bulletins",
+      "title": "Current park closures and restrictions",
+      "publisher": "Parks Canada",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T09:03:35.654Z",
+    "sourceIds": [
+      "source:worldwide:place-Q41858:park"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Banff National Park combines Rocky Mountain scenery with lake and canyon visits. Plan access to each area before choosing a base.",
+      "sq": "Parku Kombëtar Banff bashkon peizazhe të Maleve Shkëmbore me liqene dhe kanione. Planifiko si të arrish në secilën zonë para se të zgjedhësh bazën."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q41858:1",
+      "text": {
+        "en": "Mountain and glacial-lake landscapes",
+        "sq": "Peizazhe malore dhe liqene akullnajore"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:park"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q41858:2",
+      "text": {
+        "en": "Separate outings around lakes and canyons",
+        "sq": "Ekskursione të veçanta pranë liqeneve dhe kanioneve"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q41858:louise",
+      "destinationId": "place:Q41858",
+      "name": {
+        "en": "Lake Louise",
+        "sq": "Lake Louise"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A lakeshore setting beneath the mountain landscape.",
+        "sq": "Një breg liqeni rrëzë peizazhit malor."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q41858:moraine",
+      "destinationId": "place:Q41858",
+      "name": {
+        "en": "Moraine Lake",
+        "sq": "Moraine Lake"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A mountain lake in the Lake Louise area. Check current Parks Canada guidance before planning access.",
+        "sq": "Liqen malor në zonën Lake Louise. Kontrollo udhëzimet aktuale të Parks Canada para se të planifikosh vizitën."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:places",
+        "source:worldwide:place-Q41858:lakes"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q41858:johnston",
+      "destinationId": "place:Q41858",
+      "name": {
+        "en": "Johnston Canyon",
+        "sq": "Johnston Canyon"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A canyon with waterfalls. Check current Parks Canada closures before planning a visit.",
+        "sq": "Kanion me ujëvara. Kontrollo njoftimet aktuale të Parks Canada për mbylljet para se të planifikosh vizitën."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:places",
+        "source:worldwide:place-Q41858:bulletins"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q41858:minnewanka",
+      "destinationId": "place:Q41858",
+      "name": {
+        "en": "Lake Minnewanka",
+        "sq": "Lake Minnewanka"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A reservoir with shoreline trails near the Lake Minnewanka day-use area.",
+        "sq": "Rezervuar me shtigje bregliqenore pranë zonës së vizitave ditore Lake Minnewanka."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q41858:town",
+      "destinationId": "place:Q41858",
+      "name": {
+        "en": "Banff town",
+        "sq": "Qyteti Banff"
+      },
+      "summary": {
+        "en": "A town within the national park, with local sights and park transit connections to check before travel.",
+        "sq": "Qytet brenda parkut kombëtar, me pika interesi pranë dhe lidhje transporti në park që duhen kontrolluar para udhëtimit."
+      },
+      "goodFor": [
+        {
+          "en": "Town and nearby outings",
+          "sq": "Qyteti dhe ekskursionet përreth"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Lake access needs separate planning.",
+          "sq": "Qasja te liqenet kërkon planifikim të veçantë."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:town",
+        "source:worldwide:place-Q41858:places"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q41858:arrival",
+      "destinationId": "place:Q41858",
+      "title": {
+        "en": "Calgary arrival is not arrival in the park",
+        "sq": "Mbërritja në Calgary nuk është mbërritje në park"
+      },
+      "guidance": {
+        "en": "Calgary International Airport is outside Banff National Park. Arrange the onward journey to your chosen park base separately, then plan local trips within the park.",
+        "sq": "Aeroporti ndërkombëtar i Calgary ndodhet jashtë Parkut Kombëtar Banff. Organizo veçmas udhëtimin e mëtejshëm drejt bazës së zgjedhur në park, pastaj vizitat brenda tij."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:access"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q41858:lakes",
+      "destinationId": "place:Q41858",
+      "title": {
+        "en": "Arrange lake transport",
+        "sq": "Planifiko transportin te liqenet"
+      },
+      "guidance": {
+        "en": "Check current Parks Canada guidance for Lake Louise and Moraine Lake transport, reservations and seasonal access. Do not assume parking or shuttle service will be available.",
+        "sq": "Kontrollo udhëzimet aktuale të Parks Canada për transportin, rezervimet dhe hyrjen sezonale në Lake Louise dhe Moraine Lake. Mos supozo se do të ketë parkim ose shërbim autobusi."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:lakes"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q41858:conditions",
+      "destinationId": "place:Q41858",
+      "kind": "other",
+      "text": {
+        "en": "Check current trail conditions and park bulletins before an outing.",
+        "sq": "Kontrollo kushtet aktuale të shtigjeve dhe njoftimet e parkut para ekskursionit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:03:35.654Z",
+      "sourceIds": [
+        "source:worldwide:place-Q41858:park",
+        "source:worldwide:place-Q41858:bulletins"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "ec04c764311da74f90926d315aa8db595723de44104a5dd63ca72f27958888b1",
+    "identityDigest": "28e6a4e7db189e5cf19460a61fe6393b615848e09942a69a042b8c71034de0a1",
+    "approvedAt": "2026-10-15T09:03:35.654Z"
+  }
+}

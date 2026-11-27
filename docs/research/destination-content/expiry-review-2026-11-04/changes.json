@@ -1,0 +1,143 @@
+{
+  "status": "source_review_complete_publication_pending",
+  "checked_date": "2026-11-04",
+  "changes": [
+    {
+      "destination": "vienna",
+      "item_id": "note:phase4b:vienna:examples:1",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "A menu-based example from Café Prückel totals €51 for three meals, coffee and two sodas. That is one café example, not a daily Vienna food budget. Check paid palace and museum visits separately.",
+      "replacement_text": "Café Prückel lists breakfast dishes and coffee separately; include drinks when budgeting a meal. For Belvedere, choose Upper or Lower Belvedere before buying admission.",
+      "source_ids": [
+        "source:phase4b:vienna:menu",
+        "source:phase2:vienna:belvedere"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "london",
+      "item_id": "note:phase4b:london:examples:1",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "Our Dishoom menu example totalled £55 before optional service, or about £62 including the 12.5% optional charge and rounding. It is one restaurant example, not a daily London food budget.",
+      "replacement_text": "Dishoom Covent Garden has separate breakfast and all-day menus. Its service charge is optional and can be removed on request. Budget for your chosen dishes and drinks, not a citywide daily allowance.",
+      "source_ids": [
+        "source:phase4b:london:breakfast",
+        "source:phase4b:london:menu",
+        "source:phase4b:london:breakfast-pdf",
+        "source:phase4b:london:menu-pdf"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "london",
+      "item_id": "note:phase4b:london:examples:2",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "Check admission for Westminster Abbey and other paid visits separately.",
+      "replacement_text": "Westminster Abbey recommends booking sightseeing tickets ahead. Sundays are for services, so choose another day for sightseeing and check the Abbey’s calendar before planning your visit.",
+      "source_ids": [
+        "source:phase2:london:abbey"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "paris",
+      "item_id": "note:phase4b:paris:examples:1",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "Compare bakery or café breakfasts, simple takeaway lunches and casual dinners using current menus. The sampled Chartier menu is indicative and changes daily; it cannot establish a daily food budget.",
+      "replacement_text": "Bouillon Chartier’s sample menu is indicative and changes daily with deliveries. Use it to understand the dishes, not to set a daily Paris food budget.",
+      "source_ids": [
+        "source:phase4b:paris:menu"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "paris",
+      "item_id": "note:phase4b:paris:examples:2",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "Check Louvre admission and Eiffel Tower ascent tickets separately.",
+      "replacement_text": "Book the Louvre and Eiffel Tower separately. The Louvre recommends a time slot, including for free admission. For the tower, choose the second floor or summit and stairs or lift before budgeting.",
+      "source_ids": [
+        "source:phase4b:paris:louvre",
+        "source:phase4b:paris:tower"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-05T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "barcelona",
+      "item_id": "attraction:city:BCN:park-guell",
+      "section": "attractions",
+      "field": "shortDescription",
+      "previous_text": "Combine Gaudí’s designed spaces with a park outing. Check current works and ticket arrangements before deciding which parts to visit.",
+      "replacement_text": "Plan a dated, timed visit to Park Güell’s Gaudí-designed spaces and gardens. The operator recommends booking online ahead. Read its access notices before setting off.",
+      "source_ids": [
+        "source:expansion01:barcelona:park",
+        "source:maintenance20261104:barcelona:park-faq"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-06T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "barcelona",
+      "item_id": "note:city:BCN:batch1-museum-days",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "Museu Picasso closes on Mondays. MNAC normally does too, with public-holiday exceptions. Move the museum day if needed and check your chosen date.",
+      "replacement_text": "Museu Picasso closes on Mondays. MNAC also closes on Mondays except public holidays. Check each museum’s calendar before choosing your museum day.",
+      "source_ids": [
+        "source:batch1review:barcelona:picasso-days",
+        "source:batch1review:barcelona:mnac-days"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-06T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    },
+    {
+      "destination": "istanbul",
+      "item_id": "note:istanbul:batch1-palace-day",
+      "section": "practicalNotes",
+      "field": "text",
+      "previous_text": "Topkapı Palace normally closes on Tuesdays. Swap the palace day with another outing when needed, and check holiday exceptions before booking.",
+      "replacement_text": "Topkapı Palace lists Tuesday as its weekly closing day. Put the palace on another day and consult National Palaces’ holiday schedule before arranging your visit.",
+      "source_ids": [
+        "source:batch1review:istanbul:palace-operator"
+      ],
+      "checked_date": "2026-11-04",
+      "previous_expiry": "2026-11-06T00:00:00Z",
+      "proposed_expiry": "2026-11-18T00:00:00Z",
+      "verification": "supported",
+      "unverified_claims": []
+    }
+  ],
+  "freshness_policy": "Keep the existing 14-day volatile review cadence. Proposed expiry is 18 November 2026 at 00:00 UTC, conservatively less than 14 full days from this check. This is an editorial review deadline, not a promise that source facts stay unchanged.",
+  "published_records_changed": false
+}

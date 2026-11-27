@@ -1,0 +1,12 @@
+{
+  "destinationId": "place:Q5465",
+  "status": "available",
+  "report": "worldwide-batch3-cape-town-v4.md",
+  "researchedAt": "2026-10-23T22:32:14Z",
+  "sourceCount": 11,
+  "unresolvedIssues": [
+    "MyCiTi suspension notice is current source evidence, not a service status guarantee for a future trip. Recheck before publication and travel.",
+    "Cableway weather widgets can be stale; only the general weather-dependent service rule is used.",
+    "Bo-Kaap page includes unrelated Newlands template text; only its actual Bo-Kaap introduction is used."
+  ]
+}

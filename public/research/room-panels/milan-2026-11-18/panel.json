@@ -1,0 +1,603 @@
+{
+  "method_version": "room-panel-v9-score-free-dated-classification",
+  "city": "Milan",
+  "city_slug": "milan",
+  "country_code": "IT",
+  "currency": "EUR",
+  "status": "frozen",
+  "selection_date": "2026-11-18",
+  "composition_id": "mil-v9-713fefb8e700",
+  "composition_sha256": "713fefb8e700c15391802b720dc295edd25b363b6d2e2ecba6e7705600aaf2ec",
+  "frame_id": "milan-osm-2026-11-17-e18bc339f409",
+  "classification_basis": "independent",
+  "classification_evidence_vintage": "dated_official_record",
+  "classification_data_as_of": "2024-09-30",
+  "classification_valid_through": "2027-09-30",
+  "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+  "guest_score_gate": false,
+  "production_import_allowed": false,
+  "comparison_context": {
+    "classification_basis": "independent",
+    "classification_evidence_vintage": "dated_official_record",
+    "classification_data_as_of": "2024-09-30",
+    "notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+    "operator_check_role": "exclude_only",
+    "operator_class_checks": [
+      {
+        "property_id": "milan-n1512688449",
+        "checked_date": "2026-11-18",
+        "source_url": "https://hotelriomilano.it/en/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visual check: Hotel Rio logo on the operator homepage displays three stars.",
+        "logo_source_url": "https://hotelriomilano.it/wp-content/themes/grandhotel/images/HotelRioMilano_logo.png"
+      },
+      {
+        "property_id": "milan-n2399642744",
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      {
+        "property_id": "milan-n10010898615",
+        "checked_date": "2026-11-18",
+        "source_url": "https://m20milano.com/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      {
+        "property_id": "milan-n1836751668",
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.ducadiyork.com/en/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      {
+        "property_id": "milan-n9532613679",
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      {
+        "property_id": "milan-n3991744051",
+        "checked_date": "2026-11-18",
+        "source_url": "https://canadahotel.it/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      {
+        "property_id": "milan-n4315739003",
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotelvecchiamilan.com/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      {
+        "property_id": "milan-n4537488522",
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.geniushoteldowntown.com/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Operator homepage JSON-LD starRating.ratingValue = 3."
+      }
+    ]
+  },
+  "properties": [
+    {
+      "property_id": "milan-n1512688449",
+      "name": "Hotel Rio",
+      "osm_type": "node",
+      "osm_id": 1512688449,
+      "osm_version": 8,
+      "coordinates": {
+        "latitude": 45.4631056,
+        "longitude": 9.1883935
+      },
+      "computed_distance_metres": 197.62301000836172,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://hotelriomilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9511252",
+        "denominazione_struttura": "Rio",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Giuseppe Mazzini 8",
+        "cir": "015146-ALB-00306",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9511252",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://hotelriomilano.it/en/",
+        "source_url": "https://bookingengine.otelia.io/book?be_id=67239&be_l=en",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://hotelriomilano.it/servizi/",
+        "room_review": "Operator rooms page lists double/twin rooms; operator services page explicitly lists private bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://hotelriomilano.it/en/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visual check: Hotel Rio logo on the operator homepage displays three stars.",
+        "logo_source_url": "https://hotelriomilano.it/wp-content/themes/grandhotel/images/HotelRioMilano_logo.png"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://hotelriomilano.it/en/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://hotelriomilano.it/servizi/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator rooms page lists double/twin rooms; operator services page explicitly lists private bathroom.",
+        "additional_source_url": "https://hotelriomilano.it/camere/"
+      }
+    },
+    {
+      "property_id": "milan-n2399642744",
+      "name": "Hotel La Madonnina",
+      "osm_type": "node",
+      "osm_id": 2399642744,
+      "osm_version": 5,
+      "coordinates": {
+        "latitude": 45.4630365,
+        "longitude": 9.1883675
+      },
+      "computed_distance_metres": 202.93788911257047,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotellamadonninamilano.it/",
+      "classification_evidence": {
+        "id_struttura": "9531548",
+        "denominazione_struttura": "La Madonnina",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Giuseppe Mazzini 10",
+        "cir": "015146-ALB-00439",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9531548",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "source_url": "https://booking.roomcloud.net/be/se2/hotel.jsp?hotel=513&lang=en",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.hotellamadonninamilano.it/en/rooms.php",
+        "room_review": "Conventional double and twin, both with private bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.hotellamadonninamilano.it/en/index.php",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotellamadonninamilano.it/en/rooms.php",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Conventional double and twin, both with private bathroom."
+      }
+    },
+    {
+      "property_id": "milan-n10010898615",
+      "name": "M20 Boutique Hotel",
+      "osm_type": "node",
+      "osm_id": 10010898615,
+      "osm_version": 1,
+      "coordinates": {
+        "latitude": 45.4617413,
+        "longitude": 9.1883269
+      },
+      "computed_distance_metres": 300.9013183727221,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://m20milano.com/",
+      "classification_evidence": {
+        "id_struttura": "504970734",
+        "denominazione_struttura": "M20 BOUTIQUE HOTEL",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "VIA GIUSEPPE MAZZINI 20",
+        "cir": "015146-ALB-00545",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=504970734",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://m20milano.com/",
+        "source_url": "https://m20boutiquehotel.bookpage.io/",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://m20milano.com/rooms.html",
+        "room_review": "Double room; each room has a private bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://m20milano.com/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://m20milano.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://m20milano.com/rooms.html",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Double room; each room has a private bathroom."
+      }
+    },
+    {
+      "property_id": "milan-n1836751668",
+      "name": "Hotel Gran Duca di York",
+      "osm_type": "node",
+      "osm_id": 1836751668,
+      "osm_version": 7,
+      "coordinates": {
+        "latitude": 45.4636285,
+        "longitude": 9.1853083
+      },
+      "computed_distance_metres": 418.7540355106715,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.ducadiyork.com/",
+      "classification_evidence": {
+        "id_struttura": "9505157",
+        "denominazione_struttura": "Gran Duca di York",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Moneta 1/A",
+        "cir": "015146-ALB-00130",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9505157",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.ducadiyork.com/en/",
+        "source_url": "https://www.simplebooking.it/ibe2/hotel/10048?cur=EUR&lang=EN",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.ducadiyork.com/camere/",
+        "room_review": "Operator Italian rooms page states a double bed and bathroom with shower/bath in every room; Classic room area explicitly includes its bathroom.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.ducadiyork.com/en/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.ducadiyork.com/en/",
+        "reason": "Via Moneta 1 on the operator page and Via Moneta 1/A in the official record identify the named Gran Duca di York property; same website and hotel identity. OSM carries 1a. No competing hotel at this location is evidenced."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.ducadiyork.com/camere/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator Italian rooms page states a double bed and bathroom with shower/bath in every room; Classic room area explicitly includes its bathroom."
+      }
+    },
+    {
+      "property_id": "milan-n9532613679",
+      "name": "Hotel Milano Castello",
+      "osm_type": "node",
+      "osm_id": 9532613679,
+      "osm_version": 2,
+      "coordinates": {
+        "latitude": 45.4673662,
+        "longitude": 9.1850179
+      },
+      "computed_distance_metres": 585.6210137497199,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelmilanocastello.com/",
+      "classification_evidence": {
+        "id_struttura": "57458506",
+        "denominazione_struttura": "Hotel Milano Castello",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "Via San Tomaso 2",
+        "cir": "015146-ALB-00497",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=57458506",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.hotelmilanocastello.com/",
+        "source_url": "https://book.hotelmilanocastello.com/accommodation?channelId=b1b7091e-da1c-4673-8f99-c151cfc7f151&culture=en",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.hotelmilanocastello.com/",
+        "room_review": "Private-bathroom double room; same operator and premises at Via San Tomaso 2.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotelmilanocastello.com/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Private-bathroom double room; same operator and premises at Via San Tomaso 2."
+      }
+    },
+    {
+      "property_id": "milan-n3991744051",
+      "name": "Hotel Canada",
+      "osm_type": "node",
+      "osm_id": 3991744051,
+      "osm_version": 6,
+      "coordinates": {
+        "latitude": 45.4573757,
+        "longitude": 9.1910934
+      },
+      "computed_distance_metres": 725.596960718156,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://canadahotel.it/",
+      "classification_evidence": {
+        "id_struttura": "9504228",
+        "denominazione_struttura": "Canada",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Santa Sofia 16",
+        "cir": "015146-ALB-00102",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9504228",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://canadahotel.it/",
+        "source_url": "https://www.simplebooking.it/ibe2/hotel/1571?cur=EUR&lang=IT",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://canadahotel.it/en/rooms/",
+        "room_review": "Operator Classic room card: double bed, one or two guests, in-room shower amenity icon (icon-doccia.svg); Comfort card offers double/twin. Interpretation of room-specific amenities, not a verbatim private-bathroom claim.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "it"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://canadahotel.it/",
+        "declared_stars": null,
+        "status": "no_explicit_class_found",
+        "use": "exclude_only",
+        "basis": "Homepage, linked room information, available metadata and operator logo reviewed. No explicit current star category located. Silence does not confirm a current three-star award."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://canadahotel.it/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://canadahotel.it/en/rooms/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator Classic room card: double bed, one or two guests, in-room shower amenity icon (icon-doccia.svg); Comfort card offers double/twin. Interpretation of room-specific amenities, not a verbatim private-bathroom claim."
+      }
+    },
+    {
+      "property_id": "milan-n4315739003",
+      "name": "Hotel Vecchia Milano",
+      "osm_type": "node",
+      "osm_id": 4315739003,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4642098,
+        "longitude": 9.181985
+      },
+      "computed_distance_metres": 677.7929906268004,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.hotelvecchiamilan.com/",
+      "classification_evidence": {
+        "id_struttura": "9508070",
+        "denominazione_struttura": "Vecchia Milano",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Borromei 4",
+        "cir": "015146-ALB-00213",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9508070",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.hotelvecchiamilan.com/",
+        "source_url": "https://www.hotelvecchiamilan.com/booking.php",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.hotelvecchiamilan.com/rooms.php",
+        "room_review": "Operator describes double/twin rooms with private bathrooms.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotelvecchiamilan.com/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Visible operator title/body"
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.hotelvecchiamilan.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotelvecchiamilan.com/rooms.php",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator describes double/twin rooms with private bathrooms."
+      }
+    },
+    {
+      "property_id": "milan-n4537488522",
+      "name": "Genius Hotel Downtown",
+      "osm_type": "node",
+      "osm_id": 4537488522,
+      "osm_version": 4,
+      "coordinates": {
+        "latitude": 45.4671478,
+        "longitude": 9.182442
+      },
+      "computed_distance_metres": 736.2471587472438,
+      "osm_star_lead": "3",
+      "eligibility": "eligible",
+      "decision_reason": "Admitted by dated independent three-star record, with current operator exclusion check, matching premises, conventional double/twin and operator-direct booking path. Guest scores are not used.",
+      "review_checked_date": "2026-11-18",
+      "source_url": "https://www.geniushoteldowntown.com/",
+      "classification_evidence": {
+        "id_struttura": "9514243",
+        "denominazione_struttura": "Genius Down Town",
+        "classificazione": "Alberghi 3 stelle",
+        "indirizzo": "via Porlezza 4",
+        "cir": "015146-ALB-00365",
+        "source_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?id_struttura=9514243",
+        "checked_date": "2026-11-18",
+        "data_last_updated": "2024-09-30",
+        "admissibility": "approved_dated_official_record",
+        "identity_match": "OSM name/current operator or known former name and street/civic premises match. Numbers 8/8a, 1/1a and 2/4 variants remain explicitly visible; selected addresses are checked separately."
+      },
+      "direct_booking": {
+        "operator_page_url": "https://www.geniushoteldowntown.com/",
+        "source_url": "https://www.geniushoteldowntown.com/en/camere/matrimoniale/",
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "room_source_url": "https://www.geniushoteldowntown.com/en/camere/matrimoniale/",
+        "room_review": "Conventional double or twin for two, private bathroom. Operator page contains direct booking action.",
+        "manual_only": true,
+        "site_country": "IT",
+        "language": "en"
+      },
+      "operator_class_check": {
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.geniushoteldowntown.com/",
+        "declared_stars": 3,
+        "status": "declares_three",
+        "use": "exclude_only",
+        "basis": "Operator homepage JSON-LD starRating.ratingValue = 3."
+      },
+      "classification_notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award.",
+      "premises_review": {
+        "checked_date": "2026-11-18",
+        "status": "confirmed",
+        "source_url": "https://www.geniushoteldowntown.com/",
+        "reason": "Hotel identity and street/civic address match OSM and dated classification record."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.geniushoteldowntown.com/en/camere/matrimoniale/",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Conventional double or twin for two, private bathroom. Operator page contains direct booking action."
+      }
+    }
+  ],
+  "candidate_audit_sha256": "f200bbd5955995e8cfd2d909b7f3e6d57e447d1e6dce78ad7964187ada5f4625",
+  "method_sha256": "a303b182f6f0d6ee5f7da76a39dbe3dc40563be9cf58fad86c92b285c1ef9774"
+}

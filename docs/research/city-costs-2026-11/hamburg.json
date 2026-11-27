@@ -1,0 +1,847 @@
+{
+  "city": "Hamburg",
+  "country_code": "DE",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "HAM",
+      "public_option_name": "S1 Hamburg Airport–Hamburg Hbf, online/app Hamburg AB single",
+      "public_price": {
+        "value": 3.81,
+        "currency": "EUR",
+        "unit": "per adult online/app Hamburg AB single",
+        "status": "confirmed",
+        "source_name": "City of Hamburg — hvv fare table",
+        "source_url": "https://www.hamburg.de/verkehr/hvv/hvv-preiserhoehung-410930",
+        "checked_date": "2026-11-02",
+        "note": "Directly published online price, not calculated from a percentage discount. Valid for ordinary S1 service; no subscription required. Airport coverage corroborated by the official tourism issuer: https://www.hamburg-tourism.de/business-medien/hamburg-tourismus-gmbh/ueber-die-hamburg-tourismus-gmbh/vertrieb/produktmanagement-entwicklung/hamburg-card/. Online discount is announced to end from 2027-01-01; recheck future travel."
+      },
+      "journey_legs": [
+        {
+          "origin": "Hamburg Airport S-Bahn station",
+          "destination": "Hamburg Hbf",
+          "mode": "S1",
+          "duration_minutes": {
+            "value": 25,
+            "currency": null,
+            "unit": "published approximate rail-leg minutes",
+            "status": "confirmed",
+            "source_name": "Hamburg Airport",
+            "source_url": "https://www.hamburg-airport.de/en/transport-parking/arrival-and-departure-to-the-airport-36990",
+            "checked_date": "2026-11-02",
+            "note": "Excludes terminal walking, waiting and destination transfer."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "EUR",
+        "unit": "per vehicle airport–centre fixed fare",
+        "status": "unconfirmed",
+        "source_name": "City of Hamburg — Taxenordnung",
+        "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+        "checked_date": "2026-11-02",
+        "note": "The ordinance permits distance-based fixed-price packages on explicit request, and prearranged quoted fares. No single airport-to-centre tariff for a named endpoint was verified. A distance package is not selected by estimating airport mileage."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Hamburg metered taxi — first distance band",
+          "applicability": "Ordinary metered trip: first nine kilometres; base is charged once per journey.",
+          "base_fare": {
+            "value": 4.5,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Hamburg metered taxi — first distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Authority current tariff PDF, February 2025; airport-specific surcharge not established. Toll/parking pass-through with passenger agreement is not a universal airport surcharge."
+          },
+          "per_km": {
+            "value": 2.7,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Hamburg metered taxi — first distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Authority current tariff PDF, February 2025; airport-specific surcharge not established. Toll/parking pass-through with passenger agreement is not a universal airport surcharge."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Hamburg metered taxi — first distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Authority current tariff PDF, February 2025; airport-specific surcharge not established. Toll/parking pass-through with passenger agreement is not a universal airport surcharge. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Hamburg metered taxi — first distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Authority current tariff PDF, February 2025; airport-specific surcharge not established. Toll/parking pass-through with passenger agreement is not a universal airport surcharge. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 38,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Hamburg metered taxi — first distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        },
+        {
+          "name": "Hamburg metered taxi — subsequent distance band",
+          "applicability": "Distance beyond the first nine kilometres on the same trip; do not add a second base fare.",
+          "base_fare": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "Hamburg metered taxi — subsequent distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "per_km": {
+            "value": 2,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Hamburg metered taxi — subsequent distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Hamburg metered taxi — subsequent distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Hamburg metered taxi — subsequent distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 38,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Hamburg metered taxi — subsequent distance band",
+            "source_url": "https://www.hamburg.de/resource/blob/1012264/a78519b486f2ab00dfe2b72411cbe683/taxi-taxenordnung-download-02-2025-data.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 3.81,
+      "currency": "EUR",
+      "unit": "per adult online/app Hamburg AB single",
+      "status": "confirmed",
+      "source_name": "City of Hamburg — hvv fare table",
+      "source_url": "https://www.hamburg.de/verkehr/hvv/hvv-preiserhoehung-410930",
+      "checked_date": "2026-11-02",
+      "note": "Current online amount directly listed; channel discount ends 2027-01-01.",
+      "validity_area": "Hamburg AB; includes Hamburg Airport, excludes outer rings."
+    },
+    "day_pass": {
+      "value": 7.63,
+      "currency": "EUR",
+      "unit": "per adult online/app service-day ticket, NOT a rolling 24-hour pass",
+      "status": "confirmed",
+      "source_name": "City of Hamburg — hvv fare table",
+      "source_url": "https://www.hamburg.de/verkehr/hvv/hvv-preiserhoehung-410930",
+      "checked_date": "2026-11-02",
+      "note": "Validity is through 06:00 the following morning, as specified by https://www.hvv.de/de/tickets/einzel-tagestickets. Recorded as the actual day product, not a 24-hour equivalent. A transform requiring a full rolling 24-hour product must reject this record. Online discount ends 2027-01-01.",
+      "validity_area": "Hamburg AB; includes Hamburg Airport, excludes outer rings.",
+      "validity_kind": "service_day",
+      "satisfies_rolling_24h_requirement": false
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per adult rolling 72-hour pass",
+      "status": "unconfirmed",
+      "source_name": "hvv — Hamburg CARD",
+      "source_url": "https://www.hvv.de/de/tickets/weitere-tickets/hamburgcard",
+      "checked_date": "2026-11-02",
+      "note": "Hamburg CARD products count consecutive calendar days and expire at 06:00 after the final day. A three-day product is not a rolling 72-hour pass. No exact 72-hour product verified; this does not prove none exists.",
+      "validity_area": "Hamburg AB; includes Hamburg Airport, excludes outer rings."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2025-01-01",
+        "to": null,
+        "basis": "banded_per_person_per_night_by_net_lodging_price",
+        "rate": {
+          "value": null,
+          "currency": "EUR",
+          "unit": "no scalar rate for this banded shape",
+          "status": "unconfirmed",
+          "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+          "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Structural null: no flat rate exists. Read rate_bands and additional_band_rule. All operational numeric components are separately sourced; never average the bands."
+        },
+        "rate_bands": [
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 10,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 0,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 25,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 0.6,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 50,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 1.2,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 100,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 2.4,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 150,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 3.6,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 200,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 4.8,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          }
+        ],
+        "additional_band_rule": {
+          "kind": "highest_band_charge_plus_increment_for_each_started_price_block",
+          "net_lodging_price_above": {
+            "value": 200,
+            "currency": "EUR",
+            "unit": "net lodging consideration per guest per night",
+            "status": "confirmed",
+            "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "base_charge": {
+            "value": 4.8,
+            "currency": "EUR",
+            "unit": "statutory tax per guest per night at the highest inclusive threshold",
+            "status": "confirmed",
+            "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "price_block_size": {
+            "value": 50,
+            "currency": "EUR",
+            "unit": "additional net lodging consideration per guest per night",
+            "status": "confirmed",
+            "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "charge_per_started_block": {
+            "value": 1.2,
+            "currency": "EUR",
+            "unit": "additional tax per started price block",
+            "status": "confirmed",
+            "source_name": "Hamburg — second amending law, 2023-11-17, HmbGVBl. p. 374",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "block_count_rounding": "ceiling",
+          "note": "Apply only above net_lodging_price_above. Add base_charge once, then charge_per_started_block for each started price_block_size above that threshold. Formula transcribed from the law; no computed examples or averaged values."
+        },
+        "assessment_base": {
+          "kind": "actual_known_net_lodging_consideration_allocated_per_guest_per_night",
+          "excludes": "VAT and separately identifiable non-lodging services.",
+          "allocation": "Use the legally applicable allocation to each occupant, not automatically the room total. Provider/intermediary settlement can differ from the traveller gross package price.",
+          "unsupported_cases": [
+            "statutory_published_room_price_fallback",
+            "statutory_hotel_classification_fallback",
+            "alternative_proven_assessment_base"
+          ],
+          "note": "Fallback assessment rules exist and the classification values change in 2027. They are not encoded as calculable shapes here. If actual assessment consideration cannot be established, refuse; do not use a star-rating average or the observed retail room price as a substitute.",
+          "source_url": "https://www.hamburg.de/resource/blob/207446/2031651327b6dd26e60b0b3266433d3e/ktt-merkblatt-data.pdf",
+          "source_name": "Hamburg Finance Authority — tax guidance",
+          "checked_date": "2026-11-02"
+        },
+        "applicability": {
+          "stay_on_or_after": "2025-01-01",
+          "agreement_on_or_after": "2025-01-01",
+          "agreement_on_or_before": "2026-12-31",
+          "stay_date_alone_sufficient": false,
+          "grandfathering": "The older schedule remains applicable to qualifying earlier agreements after the new schedule commences. Accordingly to=null is intentional; agreement-date bounds select the schedule. Bookings before 2025 are not encoded and must be refused.",
+          "legal_source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+          "transition_source_urls": [
+            "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+            "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf"
+          ],
+          "checked_date": "2026-11-02"
+        },
+        "exemptions": "No general exemption for age or business purpose. Basic emergency housing and specified medical/care institutions are outside scope. Short-term accommodation is less than two months. Tax debtor is the lodging business; guest pass-through is not automatic. See official guidance https://www.hamburg.de/resource/blob/207446/2031651327b6dd26e60b0b3266433d3e/ktt-merkblatt-data.pdf",
+        "legal_source_url": "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "agreement_date",
+            "actual_statutory_net_lodging_consideration_by_guest_and_night",
+            "stay_duration_and_institution_type",
+            "property_pass_through_policy",
+            "VAT_treatment_of_passed_through_tax"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed",
+            "booking predates the encoded agreement periods",
+            "assessment requires any unsupported fallback",
+            "room amount cannot be lawfully allocated among occupants",
+            "a guest total is requested without verified pass-through and VAT handling"
+          ],
+          "evidence_gaps": [
+            "Pre-2025 grandfathered agreements and fallback assessment schedules are not encoded. Property-specific pass-through/inclusion and VAT must be verified separately."
+          ],
+          "status": "conditional",
+          "supported_case": "Statutory tax, using actual known net assessment consideration per person/night and an agreement selected by the encoded date rules.",
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      },
+      {
+        "from": "2027-01-01",
+        "to": null,
+        "basis": "banded_per_person_per_night_by_net_lodging_price",
+        "rate": {
+          "value": null,
+          "currency": "EUR",
+          "unit": "no scalar rate for this banded shape",
+          "status": "unconfirmed",
+          "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+          "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Structural null: no flat rate exists. Read rate_bands and additional_band_rule. All operational numeric components are separately sourced; never average the bands."
+        },
+        "rate_bands": [
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 15,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 0,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 35,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 0.8,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 50,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 1.5,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 100,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 3,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 150,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 4.5,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          },
+          {
+            "net_lodging_price_up_to_inclusive": {
+              "value": 200,
+              "currency": "EUR",
+              "unit": "net lodging consideration per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            },
+            "charge": {
+              "value": 6,
+              "currency": "EUR",
+              "unit": "statutory tax per guest per night",
+              "status": "confirmed",
+              "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+              "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+              "checked_date": "2026-11-02",
+              "note": ""
+            }
+          }
+        ],
+        "additional_band_rule": {
+          "kind": "highest_band_charge_plus_increment_for_each_started_price_block",
+          "net_lodging_price_above": {
+            "value": 200,
+            "currency": "EUR",
+            "unit": "net lodging consideration per guest per night",
+            "status": "confirmed",
+            "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "base_charge": {
+            "value": 6,
+            "currency": "EUR",
+            "unit": "statutory tax per guest per night at the highest inclusive threshold",
+            "status": "confirmed",
+            "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "price_block_size": {
+            "value": 50,
+            "currency": "EUR",
+            "unit": "additional net lodging consideration per guest per night",
+            "status": "confirmed",
+            "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "charge_per_started_block": {
+            "value": 1.5,
+            "currency": "EUR",
+            "unit": "additional tax per started price block",
+            "status": "confirmed",
+            "source_name": "Hamburg — amending law, 2026-03-04, HmbGVBl. pp. 98–99",
+            "source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+            "checked_date": "2026-11-02",
+            "note": ""
+          },
+          "block_count_rounding": "ceiling",
+          "note": "Apply only above net_lodging_price_above. Add base_charge once, then charge_per_started_block for each started price_block_size above that threshold. Formula transcribed from the law; no computed examples or averaged values."
+        },
+        "assessment_base": {
+          "kind": "actual_known_net_lodging_consideration_allocated_per_guest_per_night",
+          "excludes": "VAT and separately identifiable non-lodging services.",
+          "allocation": "Use the legally applicable allocation to each occupant, not automatically the room total. Provider/intermediary settlement can differ from the traveller gross package price.",
+          "unsupported_cases": [
+            "statutory_published_room_price_fallback",
+            "statutory_hotel_classification_fallback",
+            "alternative_proven_assessment_base"
+          ],
+          "note": "Fallback assessment rules exist and the classification values change in 2027. They are not encoded as calculable shapes here. If actual assessment consideration cannot be established, refuse; do not use a star-rating average or the observed retail room price as a substitute.",
+          "source_url": "https://www.hamburg.de/resource/blob/207446/2031651327b6dd26e60b0b3266433d3e/ktt-merkblatt-data.pdf",
+          "source_name": "Hamburg Finance Authority — tax guidance",
+          "checked_date": "2026-11-02"
+        },
+        "applicability": {
+          "stay_on_or_after": "2027-01-01",
+          "agreement_on_or_after": "2027-01-01",
+          "agreement_on_or_before": null,
+          "stay_date_alone_sufficient": false,
+          "grandfathering": "The older schedule remains applicable to qualifying earlier agreements after the new schedule commences. Accordingly to=null is intentional; agreement-date bounds select the schedule. Bookings before 2025 are not encoded and must be refused.",
+          "legal_source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+          "transition_source_urls": [
+            "https://www.luewu.de/wp-content/uploads/2025/08/GVBL_HH_2023-42.pdf",
+            "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf"
+          ],
+          "checked_date": "2026-11-02"
+        },
+        "exemptions": "No general exemption for age or business purpose. Basic emergency housing and specified medical/care institutions are outside scope. Short-term accommodation is less than two months. Tax debtor is the lodging business; guest pass-through is not automatic. See official guidance https://www.hamburg.de/resource/blob/207446/2031651327b6dd26e60b0b3266433d3e/ktt-merkblatt-data.pdf",
+        "legal_source_url": "https://www.luewu.de/wp-content/uploads/2026/03/GVBL_HH_2026-9.pdf",
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "agreement_date",
+            "actual_statutory_net_lodging_consideration_by_guest_and_night",
+            "stay_duration_and_institution_type",
+            "property_pass_through_policy",
+            "VAT_treatment_of_passed_through_tax"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed",
+            "booking predates the encoded agreement periods",
+            "assessment requires any unsupported fallback",
+            "room amount cannot be lawfully allocated among occupants",
+            "a guest total is requested without verified pass-through and VAT handling"
+          ],
+          "evidence_gaps": [
+            "Pre-2025 grandfathered agreements and fallback assessment schedules are not encoded. Property-specific pass-through/inclusion and VAT must be verified separately."
+          ],
+          "status": "conditional",
+          "supported_case": "Statutory tax, using actual known net assessment consideration per person/night and an agreement selected by the encoded date rules.",
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 15.5,
+      "currency": "EUR",
+      "unit": "per pumpkin-quiche main with herb quark and salad",
+      "status": "confirmed",
+      "source_name": "Oberhafen-Kantine — menu from 2026-10-14",
+      "source_url": "https://oberhafenkantine-hamburg.de/wp-content/uploads/2021/06/Speisekarte-ab-14-10-2026.jpg",
+      "checked_date": "2026-11-02",
+      "note": "Official menu image downloaded and visually read. Optional salmon and drinks excluded. A named inexpensive main, not a city-wide statistical average; gratuity excluded."
+    },
+    "midrange_meal_for_two": {
+      "value": 69.5,
+      "currency": "EUR",
+      "unit": "per Oberhafen-Kantinen-Abendbrot for two people",
+      "status": "confirmed",
+      "source_name": "Oberhafen-Kantine — menu from 2026-10-14",
+      "source_url": "https://oberhafenkantine-hamburg.de/wp-content/uploads/2021/06/Speisekarte-ab-14-10-2026.jpg",
+      "checked_date": "2026-11-02",
+      "note": "Menu explicitly publishes separate one-person and two-person totals; the two-person price is copied, not doubled. No drinks or gratuity assumed. Midrange is a research category, not an official restaurant rating."
+    },
+    "coffee": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per cup of coffee",
+      "status": "unconfirmed",
+      "source_name": "Oberhafen-Kantine",
+      "source_url": "https://oberhafenkantine-hamburg.de/speis-trank/",
+      "checked_date": "2026-11-02",
+      "note": "Venue describes its filter coffee but the current food menu image contains no coffee price. No current official drink-price observation obtained; aggregator copies were excluded."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Miniatur Wunderland",
+      "entry_price": {
+        "value": 22,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Miniatur Wunderland — official visitor information",
+        "source_url": "https://www.miniatur-wunderland.de/besuchen/planen/preise",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary adult admission. Official visitor page permits arrival without advance booking, subject to waits and capacity. Reservation recommended is not an absolute booking requirement."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Elbphilharmonie Plaza",
+      "entry_price": {
+        "value": 5,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Elbphilharmonie Plaza — official visitor information",
+        "source_url": "https://www.elbphilharmonie.de/de/plaza",
+        "checked_date": "2026-11-02",
+        "note": "Current Plaza-only access fee, purchasable online or on site. Concert admission may include Plaza access under its own conditions; do not charge twice. This is not a concert ticket. Older free-access/booking-fee material describes a previous policy."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Hamburger Kunsthalle",
+      "entry_price": {
+        "value": 18,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Hamburger Kunsthalle — official visitor information",
+        "source_url": "https://www.hamburger-kunsthalle.de/de/preise-tickets-gutscheine",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary full-price admission; concessions and special products excluded. A mandatory individual advance-purchase rule was not verified."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Tierpark Hagenbeck",
+      "entry_price": {
+        "value": 29,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Tierpark Hagenbeck — official visitor information",
+        "source_url": "https://www.hagenbeck.de/de/tierpark/tierpark/besucherinfos.php",
+        "checked_date": "2026-11-02",
+        "note": "Tierpark-only adult ticket. Tropical Aquarium and combination tickets are separate products. No absolute advance-purchase requirement was established from the checked visitor page."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "St. Michaelis — Michel tower",
+      "entry_price": {
+        "value": 8,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "St. Michaelis — Michel tower — official visitor information",
+        "source_url": "https://www.st-michaelis.de/michel-besuch/oeffnungszeiten-und-preise",
+        "checked_date": "2026-11-02",
+        "note": "Tower-only admission; nave, crypt and night visit have different access/products. Tickets are explicitly offered at the visitor centre and online."
+      },
+      "booking_ahead_required": false
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "Tax booking-date grandfathering applies across both the 2025 and 2027 changes. A transform keyed only by overnight date would be incorrect.",
+    "The day product expires the next morning rather than after 24 hours. Its explicit unit and note must be enforced; it cannot satisfy a strict rolling-hour input.",
+    "No current official coffee price or airport-specific fixed taxi price was verified. No estimated substitute supplied.",
+    "The approved banded representation is now populated from enacted law for 2025 and 2027. The scalar null is structural, not an absent tariff. Agreement-date selectors preserve grandfathering; to=null does not mean both schedules apply to the same booking.",
+    "Exact statutory assessment is supported only for known actual net consideration and agreements in the encoded periods. Historical pre-2025 rates and statutory fallback assessment rules are deliberately flagged unsupported; no approximation is allowed.",
+    "A statutory tax amount is not automatically an additional guest charge. Confirm property pass-through, whether already included in the quote, and applicable VAT before adding anything to a trip total.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero.",
+    "Conditional reframing: this tax depends structurally on the accommodation model. The registry proposes a derived tax component with the stay estimate’s provenance and an explicit incomplete-total state whenever a required charge cannot be represented. No actual room quote is expected from city research; no production calculator or result-card change is made here.",
+    "2026-11-02 owner decision supersedes the earlier model-derived tax proposal: statutory accommodation tax is inside the traveller-payable allowance and must never be added again. Exact legal research remains for plausibility/inclusion checks and future provider reconciliation; no tax transform is implemented."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

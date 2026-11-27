@@ -1,0 +1,44 @@
+{
+  "destinationSubject": "place:Q1490",
+  "relationship": "direct-destination",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T11:56:03.536Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "provider-cities",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "id": "provider-airports",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "id": "official-access",
+      "url": "https://www.gotokyo.org/en/plan/getting-to-tokyo/index.html",
+      "checkedAt": "2026-10-14T11:56:03.536Z"
+    }
+  ],
+  "directEntries": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "TYO",
+      "cityLabel": {
+        "en": "Tokyo",
+        "sq": "Tokio"
+      },
+      "airportCodes": [
+        "HND",
+        "NRT"
+      ],
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access"
+      ]
+    }
+  ]
+}

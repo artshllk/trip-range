@@ -1,0 +1,144 @@
+{
+  "licence": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors. Regional extract supplied by Geofabrik.",
+  "status": "frozen_composition_session_pending",
+  "target_properties": 6,
+  "standard_properties": 8,
+  "frame_id": "berlin-osm-2026-11-17-f487d9069dd9",
+  "composition_id": "ber-v9-5e6ad5a24dbd",
+  "rule": "nearest-remaining-plus-50m-id-v1",
+  "ready": true,
+  "selected_ids": [
+    "berlin-n266593733",
+    "berlin-w105210648",
+    "berlin-n3937513964",
+    "berlin-n330257182",
+    "berlin-n3780854972",
+    "berlin-w188033979"
+  ],
+  "blockers": [],
+  "order": [
+    {
+      "property_id": "berlin-n266593733",
+      "metres": 854.5037342340873,
+      "rank": 1,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "berlin-w105210648",
+      "metres": 990.2599555138779,
+      "rank": 2,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "berlin-n3937513964",
+      "metres": 1230.3602529863865,
+      "rank": 3,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "berlin-n330257182",
+      "metres": 1498.0942298378513,
+      "rank": 4,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "berlin-n3780854972",
+      "metres": 1575.7757594860707,
+      "rank": 5,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "berlin-w188033979",
+      "metres": 1964.6305687579018,
+      "rank": 6,
+      "eligibility": "eligible"
+    }
+  ],
+  "tie_groups": [
+    {
+      "id": 1,
+      "min_metres": 854.5037342340873,
+      "max_metres": 854.5037342340873,
+      "distance_order": [
+        "berlin-n266593733"
+      ],
+      "member_ids": [
+        "berlin-n266593733"
+      ],
+      "selected_id": "berlin-n266593733",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 2,
+      "min_metres": 990.2599555138779,
+      "max_metres": 990.2599555138779,
+      "distance_order": [
+        "berlin-w105210648"
+      ],
+      "member_ids": [
+        "berlin-w105210648"
+      ],
+      "selected_id": "berlin-w105210648",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 3,
+      "min_metres": 1230.3602529863865,
+      "max_metres": 1230.3602529863865,
+      "distance_order": [
+        "berlin-n3937513964"
+      ],
+      "member_ids": [
+        "berlin-n3937513964"
+      ],
+      "selected_id": "berlin-n3937513964",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 4,
+      "min_metres": 1498.0942298378513,
+      "max_metres": 1498.0942298378513,
+      "distance_order": [
+        "berlin-n330257182"
+      ],
+      "member_ids": [
+        "berlin-n330257182"
+      ],
+      "selected_id": "berlin-n330257182",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 5,
+      "min_metres": 1575.7757594860707,
+      "max_metres": 1575.7757594860707,
+      "distance_order": [
+        "berlin-n3780854972"
+      ],
+      "member_ids": [
+        "berlin-n3780854972"
+      ],
+      "selected_id": "berlin-n3780854972",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 6,
+      "min_metres": 1964.6305687579018,
+      "max_metres": 1964.6305687579018,
+      "distance_order": [
+        "berlin-w188033979"
+      ],
+      "member_ids": [
+        "berlin-w188033979"
+      ],
+      "selected_id": "berlin-w188033979",
+      "tie_applied": false,
+      "order_changed": false
+    }
+  ]
+}

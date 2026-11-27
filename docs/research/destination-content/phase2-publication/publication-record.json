@@ -1,0 +1,110 @@
+{
+  "kind": "LOCAL PUBLICATION RECORD — not a deployment",
+  "reviewer": "GoEksplo Owner",
+  "recordedAt": "2026-10-21T20:53:04.982Z",
+  "authorization": "Owner explicitly approved pinned Vienna v1 and London v3 English drafts, sources, identities, itinerary order and freshness, hero/card photographs and licence requirements; accepted final two London airport guides behind More transport details.",
+  "content": [
+    {
+      "destinationId": "vienna",
+      "contentVersion": 1,
+      "publication": {
+        "contentDigest": "e03b4948d393a1ecdeb415dc76a6b7aa3e48add4aed48fd78da9aafb1e4b840a",
+        "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+        "approvedAt": "2026-10-21T20:53:37.872Z"
+      },
+      "review": "content/operations/reviews/vienna.json",
+      "checks": {
+        "identity": "approved",
+        "sources": "approved",
+        "englishCopy": "approved",
+        "selectionAndOrder": "approved",
+        "freshness": "approved"
+      },
+      "acknowledgements": [
+        {
+          "id": "phase2-source-review",
+          "reason": "GoEksplo Owner explicitly approved the exact pinned English wording, sources, destination and airport identities, itinerary order and freshness in the current approval message."
+        }
+      ]
+    },
+    {
+      "destinationId": "london",
+      "contentVersion": 3,
+      "publication": {
+        "contentDigest": "c4a5cc8a195752f2a9ce83e9b71bb4c4e19aa01d8371cb45064bb57e5da51c62",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "approvedAt": "2026-10-21T20:53:38.647Z"
+      },
+      "review": "content/operations/reviews/london.json",
+      "checks": {
+        "identity": "approved",
+        "sources": "approved",
+        "englishCopy": "approved",
+        "selectionAndOrder": "approved",
+        "freshness": "approved"
+      },
+      "acknowledgements": [
+        {
+          "id": "phase2-source-review",
+          "reason": "GoEksplo Owner explicitly approved the exact pinned English wording, sources, destination and airport identities, itinerary order and freshness in the current approval message."
+        },
+        {
+          "id": "presentation:8023965be1154c073696",
+          "reason": "GoEksplo Owner explicitly accepted the final two London airport-guidance entries behind More transport details, preserving the reviewed order."
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "subject": "vienna",
+      "role": "destination.hero",
+      "assetId": "commons:54280496",
+      "revision": 1,
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "reviewerLabel": "GoEksplo Owner",
+      "localDeliveryPinned": true
+    },
+    {
+      "subject": "vienna",
+      "role": "destination.card",
+      "assetId": "commons:54280496",
+      "revision": 1,
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "reviewerLabel": "GoEksplo Owner",
+      "localDeliveryPinned": true
+    },
+    {
+      "subject": "london",
+      "role": "destination.hero",
+      "assetId": "commons:74181523",
+      "revision": 1,
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "reviewerLabel": "GoEksplo Owner",
+      "localDeliveryPinned": true
+    },
+    {
+      "subject": "london",
+      "role": "destination.card",
+      "assetId": "commons:74181523",
+      "revision": 1,
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "reviewerLabel": "GoEksplo Owner",
+      "localDeliveryPinned": true
+    }
+  ],
+  "researchNote": "Original research snapshots and unsigned proposals remain historical evidence. Their pending-approval notes are superseded by the current owner review records and this publication record; their pinned evidence has not been rewritten.",
+  "verification": {
+    "testsPassed": 1448,
+    "testsFailed": 0,
+    "contentReviewGate": "passed: all 30 reviewed records current",
+    "mediaGate": "passed: 2 assets, 4 role selections, 6 local files; original and derivative pins; actual bytes/dimensions checked",
+    "renderedMarkup": "passed: production-resolved English content/media rendered together with responsive srcset, source/licence credit, Upper Belvedere distinction and Sunday alternative/collapsed London transport",
+    "history": "London v2 current review and complete prior history preserved; 28 unrelated canonical records byte-identical to HEAD",
+    "pricingAndEnglishRouting": "Regression suite passed; finance, provider, limiter, affiliate handlers and Netlify configuration unchanged by publication integration",
+    "freshProductionBuild": "unverified: default Turbopack worker port binding denied by execution environment; webpack fallback blocked fetching Google Fonts (DNS unavailable)",
+    "freshBrowserImageDownloads": "unverified: headless Chrome process aborted in execution environment; prior approved crop/mobile delivery evidence retained, not claimed as fresh production evidence",
+    "deployment": "not attempted; local publication only",
+    "typecheck": "passed: Next route type generation and tsc --noEmit in the credential-free isolated workspace; root workspace has stale pre-migration generated dev route types"
+  }
+}

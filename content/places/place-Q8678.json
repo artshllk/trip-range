@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q8678",
+  "name": "Rio de Janeiro",
+  "countryCode": "BR",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": -22.9111111111,
+    "longitude": -43.2055555556
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q8678"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:19:13Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

@@ -1,0 +1,249 @@
+{
+  "kind": "PROPOSAL ONLY — NO MEDIA SELECTION APPROVED",
+  "ownerApprovalRecorded": false,
+  "target": "content/media/approved.json",
+  "assetsAndSelections": [
+    {
+      "destinationId": "vienna",
+      "assetFromRecordedEvidence": {
+        "id": "commons:54280496",
+        "provider": "wikimedia-commons",
+        "providerFileId": "54280496",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+        "width": 5184,
+        "height": 3456,
+        "mimeType": "image/jpeg",
+        "author": "Andrzej Otrębski",
+        "attribution": "Andrzej Otrębski · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-21T14:34:04.767Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-21T14:34:04.767Z"
+        }
+      },
+      "evidenceCheckedAt": "2026-10-21T14:34:04.767Z",
+      "ownerApprovalRecorded": false,
+      "selectionTemplatesInvalidUntilHumanReview": [
+        {
+          "subject": "vienna",
+          "role": "destination.hero",
+          "revision": 1,
+          "status": "approved",
+          "assetId": "commons:54280496",
+          "method": "human-review",
+          "selectedAt": null,
+          "reviewedAt": null,
+          "locked": true,
+          "noneReason": null,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          },
+          "alt": {
+            "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+          },
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+          },
+          "history": []
+        },
+        {
+          "subject": "vienna",
+          "role": "destination.card",
+          "revision": 1,
+          "status": "approved",
+          "assetId": "commons:54280496",
+          "method": "human-review",
+          "selectedAt": null,
+          "reviewedAt": null,
+          "locked": true,
+          "noneReason": null,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "alt": {
+            "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+          },
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+          },
+          "history": []
+        }
+      ],
+      "derivatives": [
+        {
+          "file": "docs/research/destination-media/phase2/vienna-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 36408,
+          "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6",
+          "target": "public/destinations/vienna-640.webp",
+          "runtimeSrc": "/destinations/vienna-640.webp"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/vienna-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 108394,
+          "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5",
+          "target": "public/destinations/vienna-1200.webp",
+          "runtimeSrc": "/destinations/vienna-1200.webp"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/vienna-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 245614,
+          "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c",
+          "target": "public/destinations/vienna-1920.webp",
+          "runtimeSrc": "/destinations/vienna-1920.webp"
+        }
+      ],
+      "deliveryIntegrationRequired": {
+        "status": "not-implemented",
+        "reason": "Current approved media store returns originalUrl and does not carry localVariants. Preview mapping is not publication wiring.",
+        "requiredBehavior": "Resolve the checksum-bound local derivative set only after the same approved subject/role/asset/checksum passes the existing media gate. Preserve identity, author/source/licence and focal point; no fallback to unrelated/unreviewed files.",
+        "requiredChecks": [
+          "Derivative hashes/dimensions/path allowlist",
+          "Reviewed source checksum binding",
+          "Missing/withdrawn/changed approval returns no photo",
+          "Actual card and hero srcset/download sizes in production build",
+          "Attribution and original share-alike requirements remain visible"
+        ]
+      }
+    },
+    {
+      "destinationId": "london",
+      "assetFromRecordedEvidence": {
+        "id": "commons:74181523",
+        "provider": "wikimedia-commons",
+        "providerFileId": "74181523",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:London_Skyline_(125508655).jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg",
+        "width": 2048,
+        "height": 1152,
+        "mimeType": "image/jpeg",
+        "author": "Ilya Grigorik",
+        "attribution": "Ilya Grigorik · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-21T14:34:04.767Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-21T14:34:04.767Z"
+        }
+      },
+      "evidenceCheckedAt": "2026-10-21T14:34:04.767Z",
+      "ownerApprovalRecorded": false,
+      "selectionTemplatesInvalidUntilHumanReview": [
+        {
+          "subject": "london",
+          "role": "destination.hero",
+          "revision": 1,
+          "status": "approved",
+          "assetId": "commons:74181523",
+          "method": "human-review",
+          "selectedAt": null,
+          "reviewedAt": null,
+          "locked": true,
+          "noneReason": null,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          },
+          "alt": {
+            "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+          },
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+          },
+          "history": []
+        },
+        {
+          "subject": "london",
+          "role": "destination.card",
+          "revision": 1,
+          "status": "approved",
+          "assetId": "commons:74181523",
+          "method": "human-review",
+          "selectedAt": null,
+          "reviewedAt": null,
+          "locked": true,
+          "noneReason": null,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "alt": {
+            "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+          },
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+          },
+          "history": []
+        }
+      ],
+      "derivatives": [
+        {
+          "file": "docs/research/destination-media/phase2/london-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 45986,
+          "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac",
+          "target": "public/destinations/london-640.webp",
+          "runtimeSrc": "/destinations/london-640.webp"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/london-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 134292,
+          "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476",
+          "target": "public/destinations/london-1200.webp",
+          "runtimeSrc": "/destinations/london-1200.webp"
+        },
+        {
+          "file": "docs/research/destination-media/phase2/london-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 267994,
+          "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d",
+          "target": "public/destinations/london-1920.webp",
+          "runtimeSrc": "/destinations/london-1920.webp"
+        }
+      ],
+      "deliveryIntegrationRequired": {
+        "status": "not-implemented",
+        "reason": "Current approved media store returns originalUrl and does not carry localVariants. Preview mapping is not publication wiring.",
+        "requiredBehavior": "Resolve the checksum-bound local derivative set only after the same approved subject/role/asset/checksum passes the existing media gate. Preserve identity, author/source/licence and focal point; no fallback to unrelated/unreviewed files.",
+        "requiredChecks": [
+          "Derivative hashes/dimensions/path allowlist",
+          "Reviewed source checksum binding",
+          "Missing/withdrawn/changed approval returns no photo",
+          "Actual card and hero srcset/download sizes in production build",
+          "Attribution and original share-alike requirements remain visible"
+        ]
+      }
+    }
+  ]
+}

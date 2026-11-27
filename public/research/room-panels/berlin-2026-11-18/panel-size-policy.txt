@@ -1,0 +1,22 @@
+# v9 exhausted-frame rule — owner decision, 18 November 2026
+
+Target eight properties. A six- or seven-property panel may freeze when the fixed frame has no further admissible candidates: retain every candidate and exclusion, select every eligible member, and record the reason and decision date. This is a general rule, not a city-name exception. An unsuccessful evidence search establishes ineligibility under this audit, not proof that a property has no classification. New evidence requires a new audited composition.
+
+Do not widen the 2 km radius, change the 50 m fixed-ID order, relax independent classification or extend the 36-month ceiling to fill the panel. This amendment supersedes v9's previous omission of the editorial sample-size band. It does not reinstate the rejected three-star-to-pooled conversion band. Historic v8 London records remain immutable; its size limitation is the model for the general notice, while its operator-declared classification caveat remains specific to its tier.
+
+| Usable stays in the less represented type | Provisional planning band |
+|---|---|
+| 8 | ±25% |
+| 7 | ±30% |
+| 6 | ±35% |
+| 5 | ±40% |
+| 4 | ±45% |
+| Fewer than 4 | Withhold result |
+
+Six is the smallest preplanned panel supported by the approved six/seven/eight table. Four/five are contributing-count outcomes within a frozen panel, not authorization to plan a four-property panel. Every frozen property still has one weekday and one weekend slot. No replacement after seeing a quote, deleted failures or cross-type pooling to reach the floor. Each type independently requires at least four usable stays. A six-member panel tolerates at most two unusable slots per type; a third blocks release even if the other type has six.
+
+The band is provisional editorial guidance, not an empirically calibrated confidence interval or an observed room-price spread. A six-member panel starts at ±35% only if all six contribute in each type. Preserve the sample-size notice beside every result, alongside the actual independent/operator-declared classification provenance.
+
+Composition freeze, session freeze and price-result release are separate. Confirm collector availability and the required Kosovo internet connection before session freeze. Verify capture stages 2/3 before collection. The Christmas blackout applies to target stay nights, not a ban on collecting January quotes in December.
+
+Every result must show the actual collection date and both exact check-in/check-out intervals. For the accepted-in-principle split: Berlin/Vienna 19–21 and 22–24 January; Milan/Barcelona 26–28 and 29–31 January 2027. The 28/31-day leads and weekday mix are controlled; city and stay week are confounded. No identical-seasonality claim or invented seasonal adjustment. A provisional schedule is not an actual collection date. The capture/result stages must consume this contract before they are released.

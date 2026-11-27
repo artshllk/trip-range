@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.test.json",
+  "compilerOptions": { "outDir": ".diagnostic-build" },
+  "include": ["scripts/check-affiliate.ts"],
+  "exclude": ["node_modules"]
+}

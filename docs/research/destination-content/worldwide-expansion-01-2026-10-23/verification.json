@@ -1,0 +1,196 @@
+{
+  "checkedAt": "2026-10-23T09:33:45.547Z",
+  "status": "passed-structural-checks-not-human-editorial-approval",
+  "checks": [
+    {
+      "slug": "barcelona",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 5,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "istanbul",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 4,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "tokyo",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 5,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "kyoto",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 5,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "bangkok",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 4,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "singapore",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 4,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "dubai",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 4,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "marrakesh",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 4,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "cape-town",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 5,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "mexico-city",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 5,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 5,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    },
+    {
+      "slug": "sydney",
+      "contentVersion": 3,
+      "schema": "passed",
+      "publication": "blocked-draft-as-required",
+      "baseRecordUnchanged": true,
+      "identityUnchanged": true,
+      "attractions": 4,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "newObservedPrices": 0,
+      "advisoryCount": 0
+    }
+  ],
+  "externalProviderRequests": 0,
+  "productionContentWrites": 0,
+  "applicationSourceChanges": 0,
+  "newImageApprovals": 0,
+  "hostedChecks": "not-run-as-requested",
+  "resourceArithmetic": "passed-against-existing-budget-and-reserve-functions",
+  "localReviewLinks": "passed",
+  "officialSourceReferences": 96,
+  "existingIstanbulDerivativeHashes": "all-three-matched",
+  "trackedDiff": "empty; research documents only are newly untracked"
+}

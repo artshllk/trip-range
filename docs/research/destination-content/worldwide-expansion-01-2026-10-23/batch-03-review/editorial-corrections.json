@@ -1,0 +1,23 @@
+{
+  "packetId": "worldwide-batch3-review-v1",
+  "changes": {
+    "cape-town": [
+      "Rechecked the explicit MyCiTi airport suspension against the operator; old A01 timetable is not usable evidence.",
+      "Added the museum\u2019s own tour page and conditional weather/demand limits; no tour times or prices copied."
+    ],
+    "rio-de-janeiro": [
+      "Replaced the unsupported port-growth history with the operator-backed estate/art-school context of Parque Lage. Its restoration closure is short-dated, not a permanent city-history claim.",
+      "Updated VLT references to current Motiva operator URLs and retained separate GIG, SDU and unverified RRJ legs. No through-fare or airport metro assumed.",
+      "Added Riotur\u2019s distinct Selar\u00f3n/centre and beach geography; no airport transfer is presented as included."
+    ],
+    "sydney": [
+      "Clarified that the airport station fee is separate from normal Opal travel caps and has its own weekly cap for Opal/contactless. No amount copied.",
+      "Replaced the imminently stale WSI opening-date sentence with an explicit opening/service-notice check. No SYD instructions or direct metro service is implied for WSI.",
+      "Replaced the empty Tubowgule page with the Opera House\u2019s substantive First Nations source; no event dates or attendance promise added."
+    ],
+    "dubai": [
+      "Retained DXB Terminal 1/3 versus DWC bus/taxi distinction; conflicting interchange examples on the airport page are not prescribed.",
+      "Added the official museum map and a conditional exterior creek alternative if entry or a pavilion is unavailable. No whole-museum closing day inferred from an older pavilion-closure marker."
+    ]
+  }
+}

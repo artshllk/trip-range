@@ -1,0 +1,140 @@
+{
+  "ready": true,
+  "coverage": {
+    "planned": 12,
+    "contributing": 12,
+    "contributing_properties": 6,
+    "weekday": 6,
+    "weekend": 6,
+    "treatments": {
+      "stated_included": 0,
+      "stated_extra": 0,
+      "page_silent": 12
+    },
+    "uncertainty": "wider",
+    "band_percent": 35
+  },
+  "errors": [],
+  "samples": [
+    {
+      "property_id": "london-w424202429",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w424202429",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-n296889746",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-n296889746",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w40488185",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w40488185",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w42112145",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w42112145",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w40825875",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w40825875",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w77739550",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "london-w77739550",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    }
+  ],
+  "panel_for_review": {
+    "status": "pending_human_review",
+    "currency": "EUR",
+    "planned": 12,
+    "contributing": 12,
+    "contributing_properties": 6,
+    "weekday": 6,
+    "weekend": 6,
+    "treatments": {
+      "stated_included": 0,
+      "stated_extra": 0,
+      "page_silent": 12
+    },
+    "uncertainty": "wider",
+    "band_percent": 35,
+    "weekday_two_night_median_minor": 32550,
+    "weekend_two_night_median_minor": 38409,
+    "standard_room_night_minor": 17740
+  },
+  "classification": {
+    "counts": {
+      "independent": 0,
+      "operator_declared": 6,
+      "unresolved": 0
+    },
+    "notice": "Includes operator-declared stars: weaker evidence, not strictly equivalent to independently assessed three-star tiers. The score filter and provisional ±25% estimate band have not been shown to cover this difference."
+  },
+  "comparison_context": {
+    "properties": 6,
+    "standard_properties": 8,
+    "relative_uncertainty": "wider_than_eight_property_panels",
+    "additional_uncertainty_percentage_points": null,
+    "classification_basis": "operator_declared",
+    "notice": "London uses six properties rather than eight. Its estimate carries wider uncertainty; the size of that difference has not been measured. All six three-star ratings are operator declarations, not independent assessments. This tier is not strictly equivalent to Vienna’s or Milan’s."
+  },
+  "meaning": "Data-entry validation only. Human review must check that screenshots support the amount, currency, dates, room/rate choice and tax treatment. A candidate median for human review is not a production price or approval."
+}

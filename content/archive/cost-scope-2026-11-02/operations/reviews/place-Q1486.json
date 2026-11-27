@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q1486",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+    "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+    "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Buenos Aires v2 autonomous-city identity, official civic and cultural sources, EN/SQ copy, focused Plaza de Mayo, Teatro Colón, Recoleta and La Boca selection, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids old free-tour, payment, opening-hour and all-city itinerary claims."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-14T11:19:07.517Z",
+    "reviewedAt": "2026-10-14T11:19:07.517Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:01.674Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:02.495Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:02.495Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:03.337Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:03.337Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:04.181Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:04.181Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:05.013Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:05.013Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:05.847Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:05.847Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:06.672Z",
+      "reason": "Advisory evidence-review: Buenos Aires v2 autonomous-city identity, official civic and cultural sources, EN/SQ copy, focused Plaza de Mayo, Teatro Colón, Recoleta and La Boca selection, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids old free-tour, payment, opening-hour and all-city itinerary claims."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Buenos Aires v2 autonomous-city identity, official civic and cultural sources, EN/SQ copy, focused Plaza de Mayo, Teatro Colón, Recoleta and La Boca selection, transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids old free-tour, payment, opening-hour and all-city itinerary claims."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:19:06.672Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:19:07.517Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

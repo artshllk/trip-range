@@ -1,0 +1,181 @@
+[
+  {
+    "city": "vienna",
+    "id": "transport:vienna:airport-works",
+    "oldValidUntil": "2026-11-19T00:00:00Z",
+    "newValidUntil": "2026-12-12T00:00:00Z",
+    "before": "Do not plan a normal direct S7/CAT journey to Wien Mitte during the works. The tourism board lists S-Bahn closures and CAT replacement buses through October 2027. Check the current replacement route; airport buses are another option.",
+    "after": "During the works, the S7 from Vienna Airport ends at St. Marx. For Hauptbahnhof, take the REX7; for Wien Mitte, CAT runs a replacement bus through 31 October 2027. Check your travel-day timetable.",
+    "ifUnrenewed": "Railjet/Intercity airport guidance remains; the dated S7/CAT routing disappears.",
+    "sourceIds": [
+      "source:phase2:vienna:airport-works",
+      "source:phase2:vienna:airport-rail"
+    ]
+  },
+  {
+    "city": "vienna",
+    "id": "note:phase4b:vienna:transport:1",
+    "oldValidUntil": "2026-11-21T00:00:00Z",
+    "newValidUntil": "2026-12-12T00:00:00Z",
+    "before": "Choose tickets around the journeys you expect to make. Adult options include a €3.20 single, a €10.20 24-hour ticket and a €25.20 digital seven-day ticket for the Vienna core zone.",
+    "after": "Choose tickets around the journeys you expect to make. Adult options include a €3.20 single, a €10.20 24-hour ticket and a €25.20 digital seven-day ticket for the Vienna core zone.",
+    "ifUnrenewed": "The single, 24-hour and digital seven-day ticket prices disappear.",
+    "sourceIds": [
+      "source:phase4b:vienna:tickets"
+    ]
+  },
+  {
+    "city": "vienna",
+    "id": "note:phase4b:vienna:transport:2",
+    "oldValidUntil": "2026-11-21T00:00:00Z",
+    "newValidUntil": "2026-12-12T00:00:00Z",
+    "before": "A short stay does not automatically need the seven-day ticket; the airport leg needs separate coverage.",
+    "after": "For a short stay, compare the single and 24-hour tickets before buying seven days. On the S7 or REX7, an adult who already holds a valid Vienna core-zone ticket needs a €2.30 supplement to reach the airport.",
+    "ifUnrenewed": "The short-stay choice and airport-coverage warning disappear.",
+    "sourceIds": [
+      "source:phase4b:vienna:tickets",
+      "source:phase2:vienna:airport-rail"
+    ]
+  },
+  {
+    "city": "vienna",
+    "id": "note:phase4b:vienna:examples:1",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Café Prückel example: €51.00. Menu checked 4 November 2026. One venue’s example, not a daily Vienna food budget. Items: Viennese breakfast €9.80, cappuccino €4.90, cheese toast €8.90, beef goulash with dumplings €19.80, and two 0.5-litre sodas at €3.80 each.",
+    "after": "Café Prückel example: €51.00. Menu checked 12 November 2026. One venue’s example, not a daily Vienna food budget. Items: Viennese breakfast €9.80, cappuccino €4.90, cheese toast €8.90, beef goulash with dumplings €19.80, and two 0.5-litre sodas at €3.80 each.",
+    "ifUnrenewed": "The only priced food example disappears.",
+    "sourceIds": [
+      "source:phase4b:vienna:menu"
+    ]
+  },
+  {
+    "city": "london",
+    "id": "note:phase4b:london:transport:1",
+    "oldValidUntil": "2026-11-21T00:00:00Z",
+    "newValidUntil": "2026-12-12T00:00:00Z",
+    "before": "Pay as you go charges for the journeys you take. Qualifying adult travel within Zones 1–2 is capped at £8.90 per fare day when you use the same card or device correctly; fewer journeys can cost less.",
+    "after": "Pay as you go charges for the journeys you take. Qualifying adult travel within Zones 1–2 is capped at £8.90 per fare day when you use the same card or device correctly; fewer journeys can cost less.",
+    "ifUnrenewed": "The Zone 1–2 daily cap and same-card conditions disappear.",
+    "sourceIds": [
+      "source:phase4b:london:tickets",
+      "source:phase4b:london:caps"
+    ]
+  },
+  {
+    "city": "london",
+    "id": "note:phase4b:london:transport:2",
+    "oldValidUntil": "2026-11-21T00:00:00Z",
+    "newValidUntil": "2026-12-12T00:00:00Z",
+    "before": "Airport travel, other zones and some services cost extra.",
+    "after": "Do not budget for an airport trip using the Zones 1–2 cap. Travelling into other zones can mean a higher cap, and Heathrow Express is outside the cap altogether.",
+    "ifUnrenewed": "The cap exceptions note disappears; individual airport-route guidance remains.",
+    "sourceIds": [
+      "source:phase4b:london:tickets",
+      "source:phase4b:london:caps"
+    ]
+  },
+  {
+    "city": "london",
+    "id": "note:phase4b:london:examples:1",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Dishoom Covent Garden example: £55.00 before optional 12.5% service (about £62 with it), removable on request. Menus checked 4 November 2026. One venue’s example, not a daily London food budget. Items: date and banana porridge £9.50, house chai £4.90, paneer roomali roll £12.90, chole puri halwa £15.90, and two fresh nimbu sodas at £5.90 each.",
+    "after": "Dishoom Covent Garden example: £55.00 before optional 12.5% service (about £62 with it), removable on request. Menus checked 12 November 2026. One venue’s example, not a daily London food budget. Items: date and banana porridge £9.50, house chai £4.90, paneer roomali roll £12.90, chole puri halwa £15.90, and two fresh nimbu sodas at £5.90 each.",
+    "ifUnrenewed": "The only priced food example and its optional-service explanation disappear.",
+    "sourceIds": [
+      "source:phase4b:london:breakfast",
+      "source:phase4b:london:menu",
+      "source:phase4b:london:breakfast-pdf",
+      "source:phase4b:london:menu-pdf"
+    ]
+  },
+  {
+    "city": "london",
+    "id": "note:phase4b:london:examples:2",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Westminster Abbey recommends booking sightseeing tickets ahead. Sundays are for services, so choose another day for sightseeing and check the Abbey’s calendar before planning your visit.",
+    "after": "Westminster Abbey recommends booking sightseeing tickets ahead. Sundays are for services, so choose another day for sightseeing and check the Abbey’s calendar before planning your visit.",
+    "ifUnrenewed": "The Sunday/advance-ticket note disappears. Westminster Abbey and the Westminster itinerary stop remain.",
+    "sourceIds": [
+      "source:phase2:london:abbey"
+    ]
+  },
+  {
+    "city": "paris",
+    "id": "note:phase4b:paris:transport:1",
+    "oldValidUntil": "2026-11-21T00:00:00Z",
+    "newValidUntil": "2026-12-12T00:00:00Z",
+    "before": "Compare single tickets with a day pass for the journeys you plan. Navigo Jour costs €12.30 for a calendar day across Zones 1–5, but excludes airport access. A compatible phone avoids needing to buy a physical pass.",
+    "after": "Compare single tickets with a day pass for the journeys you plan. Navigo Jour costs €12.30 for a calendar day across Zones 1–5, but excludes airport access. A compatible phone avoids needing to buy a physical pass.",
+    "ifUnrenewed": "The priced day pass, airport exclusions and phone guidance disappear; Eiffel Métro/RER access remains.",
+    "sourceIds": [
+      "source:phase4b:paris:tickets"
+    ]
+  },
+  {
+    "city": "paris",
+    "id": "note:phase4b:paris:examples:1",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Bouillon Chartier’s sample menu is indicative and changes daily with deliveries. Use it to understand the dishes, not to set a daily Paris food budget.",
+    "after": "Bouillon Chartier lists main courses at €7–€13.80 on its indicative menu, checked 12 November 2026. Dishes change daily with deliveries. This is one restaurant’s published range, not a daily Paris food budget.",
+    "ifUnrenewed": "The only menu example disappears; the current live note contains no price.",
+    "sourceIds": [
+      "source:phase4b:paris:menu",
+      "source:maintenance20261112:paris:menu-page"
+    ]
+  },
+  {
+    "city": "paris",
+    "id": "note:phase4b:paris:examples:2",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Book the Louvre and Eiffel Tower separately. The Louvre recommends a time slot, including for free admission. For the tower, choose the second floor or summit and stairs or lift before budgeting.",
+    "after": "Book the Louvre and Eiffel Tower separately. The Louvre recommends reserving a time slot, even for free admission. At the tower, choose stairs or lift to the second floor; the final leg to the summit is by lift.",
+    "ifUnrenewed": "The note on booking the two sights separately disappears. Both landmarks, the separate Louvre time-slot reminder and the tower access note remain.",
+    "sourceIds": [
+      "source:phase4b:paris:louvre",
+      "source:phase4b:paris:tower"
+    ]
+  },
+  {
+    "city": "istanbul",
+    "id": "note:istanbul:batch1-palace-day",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Topkapı Palace lists Tuesday as its weekly closing day. Put the palace on another day and consult National Palaces’ holiday schedule before arranging your visit.",
+    "after": "Topkapı Palace lists Tuesday as its weekly closing day. Put the palace on another day and consult National Palaces’ holiday schedule before arranging your visit.",
+    "ifUnrenewed": "Tuesday closing/holiday advice disappears; the palace, the itineraries, and IST/SAW and T1 guidance remain.",
+    "sourceIds": [
+      "source:batch1review:istanbul:palace-operator"
+    ]
+  },
+  {
+    "city": "barcelona",
+    "id": "attraction:city:BCN:park-guell",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Plan a dated, timed visit to Park Güell’s Gaudí-designed spaces and gardens. The operator recommends booking online ahead. Read its access notices before setting off.",
+    "after": "Plan a dated, timed visit to Park Güell’s Gaudí-designed spaces and gardens. The operator recommends booking online ahead. Read its access notices before setting off.",
+    "ifUnrenewed": "The attraction card disappears and both the two- and three-night templates are filtered out. The guide normally shows the two-night template; its day section disappears. Four sights, neighbourhoods and airport guidance remain.",
+    "sourceIds": [
+      "source:expansion01:barcelona:park",
+      "source:maintenance20261104:barcelona:park-faq"
+    ]
+  },
+  {
+    "city": "barcelona",
+    "id": "note:city:BCN:batch1-museum-days",
+    "oldValidUntil": "2026-11-18T00:00:00Z",
+    "newValidUntil": "2026-11-26T00:00:00Z",
+    "before": "Museu Picasso closes on Mondays. MNAC also closes on Mondays except public holidays. Check each museum’s calendar before choosing your museum day.",
+    "after": "Museu Picasso closes on Mondays. MNAC also closes on Mondays except public holidays. Check each museum’s calendar before choosing your museum day.",
+    "ifUnrenewed": "The two-museum Monday/holiday warning disappears; both museum attraction cards remain.",
+    "sourceIds": [
+      "source:batch1review:barcelona:picasso-days",
+      "source:batch1review:barcelona:mnac-days"
+    ]
+  }
+]

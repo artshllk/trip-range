@@ -1,0 +1,110 @@
+{
+  "destinationSubject": "place:Q3593416",
+  "relationship": "direct-destination",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T09:56:04.743Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "provider-cities",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-15T09:52:57.521Z"
+    },
+    {
+      "id": "provider-airports",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-15T09:52:57.954Z"
+    },
+    {
+      "id": "official-access",
+      "url": "https://www.discovertasmania.com.au/planning/getting-here/",
+      "checkedAt": "2026-10-15T09:56:04.743Z"
+    },
+    {
+      "id": "island-identity",
+      "url": "https://www.wikidata.org/wiki/Q3593416",
+      "checkedAt": "2026-10-15T09:56:04.743Z"
+    }
+  ],
+  "directEntries": [
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "HBA",
+      "cityLabel": {
+        "en": "Hobart",
+        "sq": "Hobart"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access",
+        "island-identity"
+      ],
+      "airportCodes": [
+        "HBA"
+      ]
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "LST",
+      "cityLabel": {
+        "en": "Launceston",
+        "sq": "Launceston"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access",
+        "island-identity"
+      ],
+      "airportCodes": [
+        "LST"
+      ]
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "DPO",
+      "cityLabel": {
+        "en": "Devonport",
+        "sq": "Devonport"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access",
+        "island-identity"
+      ],
+      "airportCodes": [
+        "DPO"
+      ]
+    },
+    {
+      "provider": "travelpayouts",
+      "providerCityCode": "BWT",
+      "cityLabel": {
+        "en": "Burnie / Wynyard",
+        "sq": "Burnie / Wynyard"
+      },
+      "sourceIds": [
+        "provider-cities",
+        "provider-airports",
+        "official-access",
+        "island-identity"
+      ],
+      "airportCodes": [
+        "BWT"
+      ]
+    }
+  ],
+  "restoration": {
+    "providerCityCodes": [
+      "HBA",
+      "LST"
+    ],
+    "sourceIds": [
+      "official-access"
+    ],
+    "rationale": "Tourism Tasmania identifies Hobart and Launceston as the two biggest airports. Both are default restoration targets; the source gives no durable reason to prefer Devonport over Burnie or vice versa. A known selected entry is queried first, then this pair, within three targets. All four main-island entries remain recognized; this search policy does not rank fares."
+  }
+}

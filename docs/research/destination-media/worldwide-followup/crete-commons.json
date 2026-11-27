@@ -1,0 +1,115 @@
+{
+  "continue": {
+    "iistart": "2020-06-22T09:01:56Z",
+    "continue": "||"
+  },
+  "query": {
+    "pages": {
+      "82826175": {
+        "pageid": 82826175,
+        "ns": 6,
+        "title": "File:Harbor, Venetian shipyards and Lighthouse in Chania. Crete, Greece.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 18318382,
+            "width": 9626,
+            "height": 3236,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Harbor%2C_Venetian_shipyards_and_Lighthouse_in_Chania._Crete%2C_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82826175",
+            "sha1": "a5418625a8f30ceb705da8ea7c53246de3d42db3",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-22 09:20:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Harbor, Venetian shipyards and Lighthouse in Chania. Crete, Greece",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views of Chania (town)|Chania lighthouse|Chania Old Harbour|Self-published work|Shipyards in Greece|September 2019 Greece photographs|Files with coordinates missing SDC location of creation|Greece photographs taken on 2019-09-12|Photographs by Ввласенко/Volodymyr Vlasenko|Boats in Crete|Panoramas of Chania Old Harbour",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "35.519302",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "24.022046",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Harbor, Venetian shipyards, Megalo Arsenali and Lighthouse in Chania. Crete, Greece.jpg",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2019-09-12 10:59:52",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%92%D0%B2%D0%BB%D0%B0%D1%81%D0%B5%D0%BD%D0%BA%D0%BE\" class=\"mw-redirect\" title=\"User:Ввласенко\">Ввласенко</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

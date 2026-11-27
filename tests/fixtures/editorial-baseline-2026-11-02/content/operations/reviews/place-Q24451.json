@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q24451",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+    "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+    "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Kruger v2 identity, SANParks sources, EN/SQ copy, Lake Panic/Masorini/Albasini/Letaba selection, Skukuza base, camp/gate guidance, wildlife rules and freshness reviewed and accepted. SZK stays direct; MQP via NLP, HDS and PHW stay external with required unpriced onward travel. No sightings, road status, gate times, opening or travel-duration guarantees."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T15:51:42.031Z",
+    "reviewedAt": "2026-10-15T15:51:42.031Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:19.667Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:20.610Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:20.610Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:21.537Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:21.537Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:22.474Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:22.474Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:23.487Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:23.487Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:24.498Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:24.498Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:25.473Z",
+      "reason": "Advisory evidence-review: Kruger v2 identity, SANParks sources, EN/SQ copy, Lake Panic/Masorini/Albasini/Letaba selection, Skukuza base, camp/gate guidance, wildlife rules and freshness reviewed and accepted. SZK stays direct; MQP via NLP, HDS and PHW stay external with required unpriced onward travel. No sightings, road status, gate times, opening or travel-duration guarantees."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+        "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+        "evidenceDigest": "a4459455bac033f13cf188c0df16fd1a1972fe59d12150de168e2c79b41a75e8",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Kruger v2 identity, SANParks sources, EN/SQ copy, Lake Panic/Masorini/Albasini/Letaba selection, Skukuza base, camp/gate guidance, wildlife rules and freshness reviewed and accepted. SZK stays direct; MQP via NLP, HDS and PHW stay external with required unpriced onward travel. No sightings, road status, gate times, opening or travel-duration guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T15:51:25.473Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T15:51:42.031Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "destinationId": "london",
+  "contentVersion": 6,
+  "digest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+  "reviewer": "GoEksplo Owner",
+  "reviewTimestamp": "2026-11-04T12:00:27.911Z",
+  "approvalTimestamp": "2026-11-04T12:00:39.600Z",
+  "warningsAcknowledged": [
+    {
+      "id": "phase2-source-review",
+      "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "id": "presentation:739c4cfed5823bc464d5",
+      "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "id": "presentation:8023965be1154c073696",
+      "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    }
+  ],
+  "files": [
+    "content/destinations/london.json"
+  ],
+  "itemsBecomingReviewed": [
+    "destination",
+    "overview",
+    "attraction:london:westminster-abbey",
+    "attraction:london:national-gallery",
+    "attraction:london:tower",
+    "attraction:london:st-pauls",
+    "attraction:london:south-bank",
+    "area:london:westminster",
+    "area:london:south-bank",
+    "area:london:bloomsbury",
+    "transport:london:airport-choice",
+    "transport:london:heathrow",
+    "transport:london:gatwick-stansted",
+    "transport:london:luton",
+    "transport:london:city-southend",
+    "note:london:booking",
+    "note:phase4b:london:transport:1",
+    "note:phase4b:london:transport:2",
+    "note:phase4b:london:examples:1",
+    "note:phase4b:london:examples:2",
+    "day:london:2-nights",
+    "day:london:3-nights"
+  ],
+  "dryRun": false,
+  "writes": 1,
+  "externalCalls": 0
+}

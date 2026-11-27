@@ -1,0 +1,1 @@
+Editorial decisions only. No file means pending. Use the documented operator commands; validation never approves a destination. Per-destination JSON uses the matching content filename. No production imports.

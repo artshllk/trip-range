@@ -1,0 +1,57 @@
+{
+  "$comment": "Stored editorial indexing decisions. Written by `npm run review:seo-indexing -- --record`; never derived at request time. Missing or invalid records are noindex.",
+  "decisions": [
+    {
+      "pageId": "en-zurich-origin",
+      "decision": "noindex",
+      "reviewedOn": "2026-11-05",
+      "reviewBy": "2027-02-03",
+      "basis": "Outside the Tirana/Prishtina/Skopje launch market; no stored-evidence review."
+    },
+    {
+      "pageId": "en-zurich-weekend",
+      "decision": "noindex",
+      "reviewedOn": "2026-11-05",
+      "reviewBy": "2027-02-03",
+      "basis": "Outside the Tirana/Prishtina/Skopje launch market; no stored-evidence review."
+    },
+    {
+      "pageId": "en-zurich-budget-eur-50000",
+      "decision": "noindex",
+      "reviewedOn": "2026-11-05",
+      "reviewBy": "2027-02-03",
+      "basis": "Outside the Tirana/Prishtina/Skopje launch market; no stored-evidence review."
+    },
+    {
+      "pageId": "en-tirana-origin",
+      "decision": "noindex",
+      "reviewedOn": "2026-11-25",
+      "reviewBy": "2027-02-23",
+      "basis": "G1–G4 gate (docs/seo/indexing-gate.md): passes G1 and G2, fails G3 — stored fares plus city tax for about half the destinations add nothing decisive over live fare-search tools for this query.",
+      "evidence": {
+        "kind": "hub-v1",
+        "source": "fare-store",
+        "snapshotAt": "2026-11-06T14:43:34.825Z",
+        "originCode": "TIA",
+        "qualifyingDestinations": [
+          "ATH",
+          "AYT",
+          "BER",
+          "BUD",
+          "FRA",
+          "GVA",
+          "HAM",
+          "IST",
+          "LON",
+          "MIL",
+          "PAR",
+          "ROM",
+          "SZG",
+          "VIE",
+          "ZAG",
+          "ZRH"
+        ]
+      }
+    }
+  ]
+}

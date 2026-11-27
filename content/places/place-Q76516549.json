@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q76516549",
+  "name": "Algarve",
+  "countryCode": "PT",
+  "placeKind": "region",
+  "coordinates": {
+    "latitude": 37.2337881,
+    "longitude": -8.01109
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q76516549"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:34:38Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

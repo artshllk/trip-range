@@ -1,0 +1,177 @@
+{
+  "status": "passed",
+  "scope": "Local SSR of actual DestinationGuide component; native disclosures; production CSS/fonts; unpublished draft preview, not hosted acceptance",
+  "cases": 12,
+  "externalOrApiRequests": 0,
+  "browserErrors": 0,
+  "results": [
+    {
+      "slug": "vienna",
+      "title": "Vienna",
+      "viewport": 1440,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/vienna-1200.webp",
+        "width": 1200,
+        "alt": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+      },
+      "screenshot": "vienna-1440.jpg"
+    },
+    {
+      "slug": "vienna",
+      "title": "Vienna",
+      "viewport": 390,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/vienna-640.webp",
+        "width": 350,
+        "alt": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+      },
+      "screenshot": "vienna-390.jpg"
+    },
+    {
+      "slug": "vienna",
+      "title": "Vienna",
+      "viewport": 320,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/vienna-640.webp",
+        "width": 279,
+        "alt": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+      },
+      "screenshot": "vienna-320.jpg"
+    },
+    {
+      "slug": "london",
+      "title": "London",
+      "viewport": 1440,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/london-1200.webp",
+        "width": 1200,
+        "alt": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+      },
+      "screenshot": "london-1440.jpg"
+    },
+    {
+      "slug": "london",
+      "title": "London",
+      "viewport": 390,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/london-640.webp",
+        "width": 350,
+        "alt": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+      },
+      "screenshot": "london-390.jpg"
+    },
+    {
+      "slug": "london",
+      "title": "London",
+      "viewport": 320,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/london-640.webp",
+        "width": 279,
+        "alt": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+      },
+      "screenshot": "london-320.jpg"
+    },
+    {
+      "slug": "paris",
+      "title": "Paris",
+      "viewport": 1440,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/paris-1200.webp",
+        "width": 1200,
+        "alt": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "screenshot": "paris-1440.jpg"
+    },
+    {
+      "slug": "paris",
+      "title": "Paris",
+      "viewport": 390,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/paris-640.webp",
+        "width": 350,
+        "alt": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "screenshot": "paris-390.jpg"
+    },
+    {
+      "slug": "paris",
+      "title": "Paris",
+      "viewport": 320,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/paris-640.webp",
+        "width": 279,
+        "alt": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "screenshot": "paris-320.jpg"
+    },
+    {
+      "slug": "new-york",
+      "title": "New York City",
+      "viewport": 1440,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/new-york-1200.webp",
+        "width": 1200,
+        "alt": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "screenshot": "new-york-1440.jpg"
+    },
+    {
+      "slug": "new-york",
+      "title": "New York City",
+      "viewport": 390,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/new-york-640.webp",
+        "width": 350,
+        "alt": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "screenshot": "new-york-390.jpg"
+    },
+    {
+      "slug": "new-york",
+      "title": "New York City",
+      "viewport": 320,
+      "overflow": false,
+      "exactNotesVisible": true,
+      "planningContextPreserved": true,
+      "image": {
+        "src": "/destinations/new-york-640.webp",
+        "width": 279,
+        "alt": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "screenshot": "new-york-320.jpg"
+    }
+  ]
+}

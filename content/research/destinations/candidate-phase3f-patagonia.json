@@ -1,0 +1,12 @@
+{
+  "destinationId": "candidate:phase3f-patagonia",
+  "status": "blocked",
+  "report": "phase3f-candidate-patagonia.md",
+  "researchedAt": "2026-10-12T16:34:38Z",
+  "sourceCount": 2,
+  "unresolvedIssues": [
+    "Patagonia spans Argentina and Chile. The current PlaceIdentity requires one countryCode; assigning either country would misrepresent the candidate.",
+    "No canonical identity or content draft created. Resume after an explicit scope decision or separately justified generic model change."
+  ],
+  "failureCategory": "model-limitation"
+}

@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q5465",
+  "name": "Cape Town",
+  "countryCode": "ZA",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": -33.9252777778,
+    "longitude": 18.4238888889
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q5465"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:23:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "istanbul",
+    "path": "transport/T1",
+    "before": "T1 serves Sultanahmet, Gülhane, Sirkeci and Eminönü. Use the station that fits the entrance you need, then walk locally. Keep prayer restrictions separate from transport planning.",
+    "after": "T1 serves Sultanahmet, Gülhane, Sirkeci and Eminönü. Choose the stop for your entrance, then explore the surrounding streets on foot."
+  },
+  {
+    "slug": "istanbul",
+    "path": "itinerary/2/topkapi",
+    "before": "Give the palace the main part of your sightseeing day.",
+    "after": "Make the palace your main visit; move it to another day if this falls on a Tuesday."
+  },
+  {
+    "slug": "istanbul",
+    "path": "itinerary/3/topkapi",
+    "before": "Keep time for the palace rather than rushing through every interior.",
+    "after": "Make the palace your main visit; move it to another day if this falls on a Tuesday."
+  },
+  {
+    "slug": "barcelona",
+    "path": "attractions/MNAC",
+    "before": "Choose this as an alternative art-museum outing. Check the current collection and entry arrangements rather than assuming another museum’s ticket includes it.",
+    "after": "See Romanesque mural paintings and Catalan modern art in the Palau Nacional on Montjuïc. Treat it as a separate outing from the old-city Picasso collection."
+  },
+  {
+    "slug": "barcelona",
+    "path": "itinerary/2/picasso",
+    "before": "Only with enough time before departure and confirmed access.",
+    "after": "An old-city museum visit when open; move it off Monday and leave enough time before departure."
+  },
+  {
+    "slug": "barcelona",
+    "path": "itinerary/3/picasso",
+    "before": "Make this the main art visit.",
+    "after": "An old-city museum visit when open; move it off Monday and leave enough time before departure."
+  },
+  {
+    "slug": "barcelona",
+    "path": "itinerary/3/MNAC",
+    "before": "An optional second museum only if departure permits; otherwise choose one museum for the stay.",
+    "after": "An optional Montjuïc outing if departure and opening days allow; otherwise choose one art museum for the stay."
+  },
+  {
+    "slug": "singapore",
+    "path": "attractions/National Gallery",
+    "before": "Explore art in the former civic buildings. The UOB Southeast Asia Gallery is listed as closed; check which collections are open before choosing a visit.",
+    "after": "Explore art in the former City Hall and Supreme Court. The UOB Southeast Asia Gallery is temporarily closed; other collections remain open."
+  },
+  {
+    "slug": "singapore",
+    "path": "attractions/Botanic Gardens",
+    "before": "Make this a separate garden outing using the official map and visitor notices. It is not the same attraction as Gardens by the Bay.",
+    "after": "Explore the gardens’ paths and lakes. The National Orchid Garden has separate admission; choose your entrance from the official map."
+  },
+  {
+    "slug": "singapore",
+    "path": "areas/Chinatown",
+    "before": "Consider a base for heritage streets and the temple outing, checking the nearest useful station.",
+    "after": "Consider Chinatown for heritage streets and the temple, checking the station and walking route for your accommodation."
+  },
+  {
+    "slug": "singapore",
+    "path": "practical/costs",
+    "before": "Museum entry and individual garden attractions may need separate tickets. Airport travel, accommodation and meals are not covered by this guide’s non-numerical planning advice.",
+    "after": "Choose garden attractions and museum tickets separately. Hotel costs, meals and airport journeys still need checking; this guide does not supply a complete trip price."
+  },
+  {
+    "slug": "mexico-city",
+    "path": "attractions/Bellas Artes",
+    "before": "Choose between the building, its art spaces and a separately ticketed performance. An exterior look does not imply a show or museum ticket.",
+    "after": "Look for the Art Nouveau exterior and Art Deco interior. Choose museum access or a performance separately; an exterior visit includes neither."
+  },
+  {
+    "slug": "mexico-city",
+    "path": "areas/Roma-Condesa/summary",
+    "before": "Compare a base in these named visitor districts if you prefer to travel into the historic centre and park.",
+    "after": "Consider Roma or Condesa for a neighbourhood base between outings to the historic centre and Chapultepec."
+  },
+  {
+    "slug": "mexico-city",
+    "path": "transport/MEX",
+    "before": "Benito Juárez International (MEX) lists Metrobús service from both terminals to the city. Choose the current onward route for your base and check luggage/payment conditions with the operator. No particular boarding door is assumed.",
+    "after": "Benito Juárez International (MEX) lists Metrobús service from both terminals. Check the current route, payment and luggage conditions for your terminal and base."
+  },
+  {
+    "slug": "mexico-city",
+    "path": "transport/NLU-TLC",
+    "before": "Felipe Ángeles (NLU) publishes its own city ground connections. Toluca (TLC) lists separate authorised taxi and bus services. Neither should inherit MEX directions or a generic airport-transfer allowance.",
+    "after": "Felipe Ángeles (NLU) and Toluca (TLC) publish separate ground connections. Check the operator and destination stop for your flight; MEX directions and fares do not apply."
+  },
+  {
+    "slug": "mexico-city",
+    "path": "itinerary/2/anthropology",
+    "before": "Only if departure leaves time for the museum and return journey; otherwise move earlier.",
+    "after": "Make this the main Chapultepec museum visit when open, not Monday; on departure day, allow for the airport journey."
+  },
+  {
+    "slug": "mexico-city",
+    "path": "itinerary/3/anthropology",
+    "before": "Make this the main museum outing.",
+    "after": "Make this the main Chapultepec museum visit when open, not Monday; on departure day, allow for the airport journey."
+  }
+]

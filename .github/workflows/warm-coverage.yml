@@ -1,0 +1,56 @@
+name: Warm coverage
+# Daily fixed-cutoff measurement of the fare store. It reconstructs what the store
+# held at 09:00 Europe/Belgrade on the measured day, across all collector runs; a
+# late delivery or a later recovery sweep never changes the result. Read-only: no
+# provider calls, no shared rate admission, database read access only.
+# Primary trigger: an Upstash QStash schedule calls workflow_dispatch at 08:23 UTC
+# (scripts/qstash-schedules.mjs); the cron below is a fallback. Duplicates are
+# harmless: the check is read-only and measures the same fixed cutoff.
+on:
+  schedule:
+    # 08:23 UTC is after 09:00 Belgrade in both winter (08:00 UTC) and summer (07:00 UTC).
+    - cron: "23 8 * * *"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Measured day YYYY-MM-DD (default: today in Belgrade)"
+        required: false
+      renewed_since:
+        description: "Optional renewal filter, ISO timestamp at or before the cutoff"
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: warm-coverage
+  cancel-in-progress: false
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      GOEKSPLO_LOG_LEVEL: warn
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - id: measure
+        env:
+          DAY_INPUT: ${{ inputs.day }}
+          RENEWED_SINCE: ${{ inputs.renewed_since }}
+        run: |
+          day="${DAY_INPUT:-$(TZ=Europe/Belgrade date +%F)}"
+          echo "day=$day" >> "$GITHUB_OUTPUT"
+          args=(--on "$day" --origin ALL)
+          if [ -n "$RENEWED_SINCE" ]; then args+=(--renewed-since "$RENEWED_SINCE"); fi
+          npm run -s check:warm-coverage -- "${args[@]}" | tee "warm-coverage-$day.jsonl"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: warm-coverage-${{ steps.measure.outputs.day }}
+          path: warm-coverage-*.jsonl
+          if-no-files-found: warn
+          retention-days: 90

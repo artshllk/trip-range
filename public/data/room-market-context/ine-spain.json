@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "table": "46298",
+  "fetchedAt": "2026-11-20T11:59:49.932Z",
+  "sourceUrl": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/46298?nult=1",
+  "sha256": "e102d2dc8d0bcf88c74cc9861e52428d4e3bf54bbcd620ef63666514eb2e16f4",
+  "observations": [
+    {
+      "seriesId": "EOT43497",
+      "municipality": "Zaragoza",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8018,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43498",
+      "municipality": "Zamora",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7932,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43499",
+      "municipality": "Benavente",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7977,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43500",
+      "municipality": "Bilbao",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 14801,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43501",
+      "municipality": "Valladolid",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8314,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43502",
+      "municipality": "València",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13844,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43503",
+      "municipality": "Gandia",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10107,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43504",
+      "municipality": "Toledo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 11646,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43505",
+      "municipality": "Teruel",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7255,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43506",
+      "municipality": "Albarracín",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7461,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43507",
+      "municipality": "Salou",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9301,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43508",
+      "municipality": "Tarragona",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9513,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43509",
+      "municipality": "Cambrils",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 12930,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43510",
+      "municipality": "Soria",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7989,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43511",
+      "municipality": "Sevilla",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 15596,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43512",
+      "municipality": "Segovia",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9674,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43513",
+      "municipality": "Santander",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13900,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43514",
+      "municipality": "Santa Cruz de Tenerife",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10009,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43515",
+      "municipality": "Puerto de la Cruz",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9486,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43516",
+      "municipality": "Arona",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 12944,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43517",
+      "municipality": "Adeje",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 17019,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43518",
+      "municipality": "Salamanca",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8438,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43519",
+      "municipality": "Vigo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9380,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43520",
+      "municipality": "Sanxenxo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7549,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43521",
+      "municipality": "Grove, O",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10072,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43522",
+      "municipality": "Yaiza",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 15702,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43523",
+      "municipality": "Tías",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13634,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43524",
+      "municipality": "Teguise",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13556,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43525",
+      "municipality": "San Bartolomé de Tirajana",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 14915,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43526",
+      "municipality": "Palmas de Gran Canaria, Las",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9079,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43527",
+      "municipality": "Pájara",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13721,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43528",
+      "municipality": "Mogán",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10195,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43529",
+      "municipality": "Palencia",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7148,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43530",
+      "municipality": "Villaviciosa",
+      "period": "2026-09",
+      "status": "suppressed",
+      "roomNightCents": null,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43531",
+      "municipality": "Oviedo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8858,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43532",
+      "municipality": "Llanes",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10387,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43533",
+      "municipality": "Gijón",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9566,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43534",
+      "municipality": "Cangas de Onís",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7869,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43535",
+      "municipality": "Ourense",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7491,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43536",
+      "municipality": "Pamplona/Iruña",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10563,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43537",
+      "municipality": "Murcia",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6927,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43538",
+      "municipality": "Cartagena",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10053,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43539",
+      "municipality": "Torremolinos",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 16060,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43540",
+      "municipality": "Ronda",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 12418,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43541",
+      "municipality": "Nerja",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 15268,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43542",
+      "municipality": "Marbella",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 28657,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43543",
+      "municipality": "Málaga",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 17954,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43544",
+      "municipality": "Fuengirola",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 11753,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43545",
+      "municipality": "Estepona",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 26930,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43546",
+      "municipality": "Benalmádena",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13715,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43547",
+      "municipality": "Antequera",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7622,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43548",
+      "municipality": "Madrid",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 21296,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43549",
+      "municipality": "Viveiro",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8031,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43550",
+      "municipality": "Ribadeo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9407,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43551",
+      "municipality": "Lugo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6726,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43552",
+      "municipality": "Logroño",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9912,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43553",
+      "municipality": "Vielha e Mijaran",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6795,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43554",
+      "municipality": "Lleida",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7432,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43555",
+      "municipality": "Naut Aran",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8963,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43556",
+      "municipality": "Ponferrada",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6177,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43557",
+      "municipality": "León",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8373,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43558",
+      "municipality": "Cazorla",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8364,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43559",
+      "municipality": "Sallent de Gállego",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6908,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43560",
+      "municipality": "Jaca",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7236,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43561",
+      "municipality": "Benasque",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8654,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43562",
+      "municipality": "Donostia/San Sebastián",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 26067,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43563",
+      "municipality": "Sigüenza",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 12041,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43564",
+      "municipality": "Granada",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10018,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43565",
+      "municipality": "Lloret de Mar",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8844,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43566",
+      "municipality": "Cuenca",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7053,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43567",
+      "municipality": "Santiago de Compostela",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 11068,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43568",
+      "municipality": "Coruña, A",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10098,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43569",
+      "municipality": "Córdoba",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9699,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43570",
+      "municipality": "Ciudad Real",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 5939,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43571",
+      "municipality": "Peníscola/Peñíscola",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10591,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43572",
+      "municipality": "Castelló de la Plana/Castellón de la Plana",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8252,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43573",
+      "municipality": "Tarifa",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13467,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43574",
+      "municipality": "Puerto de Santa María, El",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9102,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43575",
+      "municipality": "Jerez de la Frontera",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8614,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43576",
+      "municipality": "Cádiz",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 14509,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43577",
+      "municipality": "Arcos de la Frontera",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8667,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43578",
+      "municipality": "Algeciras",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7181,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43579",
+      "municipality": "Trujillo",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8664,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43580",
+      "municipality": "Plasencia",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8148,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43581",
+      "municipality": "Cáceres",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8708,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43582",
+      "municipality": "Burgos",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8280,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43583",
+      "municipality": "Sitges",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 16764,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43584",
+      "municipality": "Barcelona",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 20703,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43585",
+      "municipality": "Sant Llorenç des Cardassar",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13140,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43586",
+      "municipality": "Palma",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 18589,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43587",
+      "municipality": "Capdepera",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 14466,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43588",
+      "municipality": "Calvià",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 16763,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43589",
+      "municipality": "Mérida",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6768,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43590",
+      "municipality": "Badajoz",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 6828,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43591",
+      "municipality": "Ávila",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 7132,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43592",
+      "municipality": "Roquetas de Mar",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10564,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43593",
+      "municipality": "Níjar",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9935,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43594",
+      "municipality": "Mojácar",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10928,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43595",
+      "municipality": "Almería",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9686,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43596",
+      "municipality": "Torrevieja",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 9866,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43597",
+      "municipality": "Elx/Elche",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 10078,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43598",
+      "municipality": "Dénia",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 11774,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43599",
+      "municipality": "Benidorm",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13250,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43600",
+      "municipality": "Alacant/Alicante",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 13603,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43601",
+      "municipality": "Albacete",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8519,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT43602",
+      "municipality": "Vitoria-Gasteiz",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 8872,
+      "dataType": 2
+    },
+    {
+      "seriesId": "EOT47824",
+      "municipality": "Chiclana de la Frontera",
+      "period": "2026-09",
+      "status": "available",
+      "roomNightCents": 15808,
+      "dataType": 2
+    }
+  ]
+}

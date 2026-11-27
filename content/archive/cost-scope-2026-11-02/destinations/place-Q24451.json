@@ -1,0 +1,326 @@
+{
+  "destinationId": "place:Q24451",
+  "identitySubject": "place:Q24451",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T15:52:05.912Z",
+  "sourceIds": [
+    "source:worldwide:place-Q24451:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q24451:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q24451",
+      "title": "Kruger National Park (Q24451)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-12T16:37:27Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q24451"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q24451:heritage",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/explore/cultural-heritage",
+      "title": "Cultural heritage",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:masorini",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/explore/cultural-heritage/masorini-ruins",
+      "title": "Masorini Ruins",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:albasini",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/explore/cultural-heritage/albasini-ruins",
+      "title": "Albasini Ruins",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:hall",
+      "type": "official",
+      "url": "https://www.sanparks.org/conservation/parks/kruger/letaba-elephant-hall/overview",
+      "title": "Letaba Elephant Hall",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:skukuza",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/camps/main-rest-camps/skukuza",
+      "title": "Skukuza Rest Camp",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:tips",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/useful-information/visitor-tips",
+      "title": "Visitor tips",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:rules",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/useful-information/vital-information",
+      "title": "Vital information",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24451:letaba",
+      "type": "official",
+      "url": "https://www.sanparks.org/parks/kruger/camps/main-rest-camps/letaba",
+      "title": "Letaba Rest Camp",
+      "publisher": "SANParks",
+      "retrievedAt": "2026-10-15T14:26:48.321Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T15:52:05.912Z",
+    "sourceIds": [
+      "source:worldwide:place-Q24451:heritage",
+      "source:worldwide:place-Q24451:tips"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Kruger combines wildlife landscapes with archaeological sites and camp-based visits. Choose a limited park area rather than trying to cross it in one outing.",
+      "sq": "Kruger ndërthur peizazhe natyrore, vende arkeologjike dhe vizita me bazë në kampet e parkut. Zgjidh një zonë të kufizuar, pa synuar ta përshkosh gjithë parkun në një dalje."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q24451:1",
+      "text": {
+        "en": "Iron-working history at Masorini",
+        "sq": "Historia e përpunimit të hekurit në Masorini"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:masorini"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q24451:2",
+      "text": {
+        "en": "River setting around Skukuza",
+        "sq": "Peizazhi përgjatë lumit pranë Skukuza"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:skukuza"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q24451:panic",
+      "destinationId": "place:Q24451",
+      "name": {
+        "en": "Lake Panic Bird Hide",
+        "sq": "Lake Panic Bird Hide"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A bird-observation hide outside Skukuza Rest Camp, within the park.",
+        "sq": "Një strehë për vëzhgimin e shpendëve jashtë kampit Skukuza Rest Camp, brenda parkut."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:skukuza"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q24451:masorini",
+      "destinationId": "place:Q24451",
+      "name": {
+        "en": "Masorini Ruins",
+        "sq": "Masorini Ruins"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Reconstructed structures interpret BaPhalaborwa iron-working history.",
+        "sq": "Ndërtimet e rindërtuara paraqesin historinë e përpunimit të hekurit nga popullsia BaPhalaborwa."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:masorini"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q24451:albasini",
+      "destinationId": "place:Q24451",
+      "name": {
+        "en": "Albasini Ruins",
+        "sq": "Albasini Ruins"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Remains of a nineteenth-century trading post stand near Phabeni Gate.",
+        "sq": "Mbetjet e një pike tregtare të shekullit XIX ndodhen pranë hyrjes Phabeni."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:albasini"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q24451:hall",
+      "destinationId": "place:Q24451",
+      "name": {
+        "en": "Letaba Elephant Hall",
+        "sq": "Letaba Elephant Hall"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "A museum at Letaba Rest Camp with exhibitions on elephant biology and research.",
+        "sq": "Një muze në kampin Letaba Rest Camp me ekspozita për biologjinë dhe kërkimin shkencor mbi elefantët."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:hall",
+        "source:worldwide:place-Q24451:letaba"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q24451:skukuza",
+      "destinationId": "place:Q24451",
+      "name": {
+        "en": "Skukuza Rest Camp",
+        "sq": "Skukuza Rest Camp"
+      },
+      "summary": {
+        "en": "A southern-park camp base on the Sabie River with visitor facilities.",
+        "sq": "Një kamp në jug të parkut, pranë lumit Sabie, me shërbime për vizitorët."
+      },
+      "goodFor": [
+        {
+          "en": "Southern park visits",
+          "sq": "Vizita në jug të parkut"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Northern stops are not nearby and need separate planning.",
+          "sq": "Vendet në veri të parkut nuk janë afër dhe kërkojnë planifikim të veçantë."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:skukuza"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q24451:roads",
+      "destinationId": "place:Q24451",
+      "title": {
+        "en": "Plan around camps and gates",
+        "sq": "Planifiko sipas kampeve dhe hyrjeve"
+      },
+      "guidance": {
+        "en": "Plan around your camp and entrance gate. Check current SANParks road conditions, permitted routes and gate times before travelling.",
+        "sq": "Planifiko sipas kampit ku qëndron dhe hyrjes që përdor. Para udhëtimit, kontrollo te SANParks gjendjen aktuale të rrugëve, rrugët e lejuara dhe oraret e hyrjeve."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:tips",
+        "source:worldwide:place-Q24451:rules"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q24451:wildlife",
+      "destinationId": "place:Q24451",
+      "kind": "safety",
+      "text": {
+        "en": "Stay in your vehicle except at designated areas and follow park wildlife rules.",
+        "sq": "Qëndro në automjet; dil vetëm në zonat ku lejohet. Ndiq rregullat e parkut për kafshët e egra."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:rules"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q24451:conditions",
+      "destinationId": "place:Q24451",
+      "kind": "other",
+      "text": {
+        "en": "Check current SANParks visitor guidance before planning a visit to Letaba Elephant Hall or other stops. A listed attraction does not guarantee access on your travel dates.",
+        "sq": "Para se të planifikosh një vizitë në Letaba Elephant Hall ose ndalesa të tjera, kontrollo udhëzimet aktuale të SANParks për vizitorët. Përfshirja e një vendi në këtë listë nuk garanton se mund ta vizitosh në datat e udhëtimit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T15:52:05.912Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24451:rules",
+        "source:worldwide:place-Q24451:letaba"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "e71040998e395bd8fb9f101f3130c5573d7d288888696da1e3d1b99a787ba6f3",
+    "identityDigest": "6fea346daaa3cf36875c6af0b719c7a45eb23671d53dfa1947d9ea7d15e1725c",
+    "approvedAt": "2026-10-15T15:52:05.912Z"
+  }
+}

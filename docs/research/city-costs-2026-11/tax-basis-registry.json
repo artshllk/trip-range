@@ -1,0 +1,973 @@
+{
+  "document_type": "research_tax_basis_registry",
+  "method_version": "research-v6",
+  "collected_date": "2026-11-02",
+  "purpose": "Official-source tax and accommodation-charge research used for inclusive-price plausibility checks, property-dependent charge disclosure, traveller explanations and future exact provider-price reconciliation. Never add statutory tax to the inclusive planning accommodation allowance. No runtime research import or tax transform.",
+  "accepted_statuses": [
+    "confirmed",
+    "unconfirmed",
+    "disputed",
+    "not_offered"
+  ],
+  "interpretation_rules": [
+    "Match the exact basis discriminant, then validate its own operational fields. Never approximate one basis with another.",
+    "Every operational threshold, charge and rate uses the provenance envelope. Unconfirmed and not_offered values are null; disputed values are null with sourced alternatives. No unresolved numeric evidence can enter a total.",
+    "For the banded shape only, scalar rate is a structural null and not an operational input. A transform may accept that shape only if every operational band/formula component is confirmed and its selectors and required inputs are supported. A generic all-null-is-zero rule is prohibited.",
+    "A period from/to is not enough where applicability includes agreement dates. Inclusive date bounds apply; a null end is open-ended, not a permission to ignore other selectors.",
+    "calculation.status=conditional means a formula is supported only for supported_case with all required inputs and refusal predicates checked. status=blocked means material research evidence is missing. research_parameters_complete_for_supported_case does not claim a fully determined guest invoice.",
+    "Tax liability, who owes it, guest pass-through, VAT treatment and quote inclusion are separate questions. Never add a confirmed tax or levy twice or apply a conditional property charge universally.",
+    "Vienna, Manchester and Munich are retrofitted to research-v4 with explicit tax calculation metadata; legacy_file_review records the completed migrations and remaining evidence conditions. No placeholder-basis exceptions remain.",
+    "not_levied is a positive legal absence finding, distinct from unresolved. It produces no statutory-tax component with the absence provenance retained; its null rate is not a numeric zero observation.",
+    "Use the currency_conversion_policy for every positive monetary result entering an EUR total. Tax rates that are percentages and nonmonetary quantities are never currency-converted.",
+    "For current planning use allowance_definition. Preserve the displayed rate. A known extra goes once into the trip total; a possible extra informs budget fit and is disclosed outside the headline.",
+    "Empty accommodation_charges arrays do not prove property fees absent. The owner-authorized three-city planning disclosure exception permits a qualified total, never a universal added fee or confirmed budget fit; other unresolved mandatory charges withhold the total.",
+    "The inclusive delivery-readiness counts are a historical view as of 2 November, not v8 panel readiness."
+  ],
+  "basis_types": [
+    {
+      "basis": "percent_of_room_net",
+      "kind": "percentage",
+      "operational_fields": [
+        "rate",
+        "assessment_base"
+      ],
+      "required_shape_rules": [
+        "rate is a confirmed percentage with currency null",
+        "legal room assessment base and exclusions must be explicit"
+      ],
+      "used_by": [
+        "vienna.tourist_tax",
+        "berlin.tourist_tax"
+      ],
+      "required_calculator_inputs": [
+        "legal_net_room_assessment_base",
+        "tax_service_dates",
+        "eligibility",
+        "rounding",
+        "contract_date_where_required",
+        "VAT_and_quote_inclusion"
+      ]
+    },
+    {
+      "basis": "percent_of_accommodation_services_net",
+      "kind": "percentage",
+      "operational_fields": [
+        "rate",
+        "assessment_base"
+      ],
+      "required_shape_rules": [
+        "rate is a confirmed percentage with currency null",
+        "base includes accommodation and bundled services, not room alone"
+      ],
+      "used_by": [
+        "istanbul.tourist_tax"
+      ],
+      "required_calculator_inputs": [
+        "legal_net_accommodation_and_bundled_services_base",
+        "tax_service_date",
+        "eligibility",
+        "rounding",
+        "quote_inclusion"
+      ]
+    },
+    {
+      "basis": "per_person_per_night",
+      "kind": "fixed_amount",
+      "operational_fields": [
+        "rate",
+        "charge_unit",
+        "night_count_rule"
+      ],
+      "required_shape_rules": [
+        "rate has local currency",
+        "count only liable person-nights after city-specific exemptions and continuous-stay limits",
+        "non-statutory use also requires universal and property applicability"
+      ],
+      "used_by": [
+        "basel.tourist_tax",
+        "stuttgart.tourist_tax",
+        "dusseldorf.tourist_tax",
+        "frankfurt.tourist_tax",
+        "zurich.accommodation_charges"
+      ],
+      "required_calculator_inputs": [
+        "taxable_person_nights",
+        "jurisdiction",
+        "eligibility",
+        "prior_continuous_nights",
+        "property_scope_for_nonstatutory_charge",
+        "quote_inclusion"
+      ],
+      "note": "charge_unit and night_count_rule are required for new statutory records. Non-statutory charges instead carry applicability and calculation blockers."
+    },
+    {
+      "basis": "per_room_per_night",
+      "kind": "fixed_amount",
+      "operational_fields": [
+        "rate",
+        "applicability",
+        "universal"
+      ],
+      "required_shape_rules": [
+        "count liable rooms or serviced units, not occupants",
+        "conditional charge must match selected property"
+      ],
+      "used_by": [
+        "manchester.accommodation_charges"
+      ],
+      "required_calculator_inputs": [
+        "liable_room_nights",
+        "property_BID_scope",
+        "guest_pass_through",
+        "VAT_where_applicable",
+        "quote_inclusion"
+      ]
+    },
+    {
+      "basis": "banded_per_person_per_night_by_net_lodging_price",
+      "kind": "banded_with_above_band_formula",
+      "operational_fields": [
+        "rate_bands",
+        "additional_band_rule",
+        "assessment_base",
+        "applicability"
+      ],
+      "required_shape_rules": [
+        "rate is structural null, never an average",
+        "bands are ordered, nonoverlapping upper-inclusive thresholds; use first matching band for nonnegative net assessment consideration, preserving whether the input is observed or modelled",
+        "above final threshold use the separately sourced started-block formula",
+        "Exact-liability mode requires actual known net consideration and rejects unsupported statutory fallback assessments. No banded tax is applied to an inclusive planning allowance.",
+        "apply agreement and stay selectors together"
+      ],
+      "used_by": [
+        "hamburg.tourist_tax"
+      ],
+      "required_calculator_inputs": [
+        "net_lodging_assessment_per_person_night",
+        "agreement_date",
+        "stay_dates",
+        "scope_and_eligibility",
+        "pass_through",
+        "VAT_and_quote_inclusion"
+      ]
+    },
+    {
+      "basis": "unresolved",
+      "kind": "noncomputable_sentinel",
+      "operational_fields": [],
+      "required_shape_rules": [
+        "rate must be null and unconfirmed",
+        "always refuse calculation; absence of verified tax is not a zero rate"
+      ],
+      "used_by": [],
+      "required_calculator_inputs": [],
+      "note": "Retained as a required refusal sentinel for future unresolved regimes; no current city tourist_tax uses it after this follow-up."
+    },
+    {
+      "basis": "not_levied",
+      "kind": "confirmed_absence",
+      "operational_fields": [
+        "rate",
+        "absence_evidence",
+        "legal_source_url"
+      ],
+      "required_shape_rules": [
+        "rate.value must be null and rate.status must be not_offered",
+        "require positive authority evidence of absence and jurisdiction/date scope",
+        "emit no statutory-tax charge; do not interpret arbitrary nulls as zero",
+        "does not waive contractual accommodation charges or VAT"
+      ],
+      "used_by": [
+        "munich.tourist_tax",
+        "manchester.tourist_tax",
+        "copenhagen.tourist_tax",
+        "zurich.tourist_tax"
+      ],
+      "required_calculator_inputs": [
+        "property_jurisdiction",
+        "continued_applicability_for_travel_date"
+      ]
+    }
+  ],
+  "legacy_file_review": [
+    {
+      "file": "vienna.json",
+      "unchanged": false,
+      "previous_method_version": "research-v2",
+      "method_version": "research-v4",
+      "state": "retrofitted_with_remaining_calculation_conditions",
+      "note": "Structured assessment_base, guest liability, calculator evidence and calculation metadata added to both dated periods. Schema absence is resolved; exact net base, exemptions, quote inclusion and applicable rounding/invoice rules still govern whether a particular charge can be emitted."
+    },
+    {
+      "file": "manchester.json",
+      "unchanged": false,
+      "previous_method_version": "research-v2",
+      "method_version": "research-v4",
+      "state": "retrofitted_two_distinct_regimes",
+      "note": "Statutory absence now explicitly uses not_levied with evidence and calculation metadata. Separate BID charge retains per_room_per_night, universal=false, the explicit boundary/rating/membership rules and new calculation requirements. Property match, pass-through, applicable VAT and guest waiver evidence remain conditional."
+    },
+    {
+      "file": "munich.json",
+      "unchanged": false,
+      "previous_method_version": "research-v2",
+      "method_version": "research-v4",
+      "state": "retrofitted_confirmed_absence",
+      "note": "Replaced the former percent_of_room_net placeholder with sourced not_levied and calculation metadata. No percentage tax calculator is applicable. All three retrofits remove dropped fields, retain journey_legs/fixed fares and add tariff components and transit validity areas."
+    }
+  ],
+  "unsupported_variants": [
+    {
+      "city": "Hamburg",
+      "cases": [
+        "pre_2025_agreement_schedule",
+        "published_room_price_fallback",
+        "hotel_classification_fallback",
+        "alternative_proven_assessment_base"
+      ],
+      "handling": "Refuse. These are explicitly outside the recorded computable case, not permission to reuse actual-price bands with an estimated base."
+    },
+    {
+      "city": "Berlin",
+      "cases": [
+        "agreements_before_2025_current_regime"
+      ],
+      "handling": "Refuse until the applicable historical rules are encoded."
+    }
+  ],
+  "change_log": [
+    {
+      "date": "2026-11-02",
+      "change": "Added Hamburg banded shape; separate Istanbul accommodation-services percentage shape; unresolved sentinel replaces false basis placeholders in new files. Legacy three cities remain byte-for-byte unchanged."
+    },
+    {
+      "date": "2026-11-02",
+      "change": "Resolved Copenhagen and Zürich statutory absence with positive official evidence; added not_levied. Zürich contractual City Tax remains a single conditional charge with a verified property case. Added ECB conversion ownership, timestamped provenance/expiry rules, current DKK/TRY support blockers and two scoped city-readiness inventories."
+    },
+    {
+      "date": "2026-11-02",
+      "change": "Authorized DKK/TRY production evidence support and refreshed ECB snapshot. Added per-currency windows with TRY four days, others thirty, returned conversion-window provenance and cached-transfer expiry enforcement. Retrofitted Vienna/Manchester/Munich to research-v4, replacing legacy absence placeholders. Readiness recalculated with unchanged baseline; Istanbul FX refusal becomes conditional."
+    },
+    {
+      "date": "2026-11-02",
+      "change": "Audited current renderer before edits: research tax conditions do not affect completeness. Reframed four percentage/banded cases as structural modelled-base dependencies, separate from three property/billing conditions. Recorded an unimplemented accommodation-tax estimate and incomplete-output proposal. No tax pricing or card behavior changed."
+    },
+    {
+      "date": "2026-11-02",
+      "change": "Owner chose traveller-payable inclusive allowance; statutory additions prohibited. Superseded the net-base derived-tax proposal without implementation. Named property-dependent cases show qualified totals plus disclosure and no fit claim; unresolved actual mandatory charges withhold totals. Planning readiness becomes 9 computable, 3 conditional, 0 refuse. Tax research retained for plausibility, disclosure and future exact-provider reconciliation."
+    }
+  ],
+  "currency_conversion_policy": {
+    "ownership": {
+      "research_collector": "Keep source amounts in their original currency and retain full source envelopes. Do not pre-convert or overwrite the native figures.",
+      "validated_tax_transform": "Future actual provider-price reconciliation only: if separately authorized, resolve exact native legal liability and inclusion before central FX conversion. Never add a statutory tax to the inclusive planning allowance. No transform implemented. Preserve all currency provenance and effective expiry.",
+      "fx_snapshot_updater": "Existing scripts/refresh-fx.mjs owns ECB snapshot ingestion; research files do not refresh or extend production rates.",
+      "production_scope": "User-authorized follow-up adds DKK/TRY evidence currency support, refreshes the ECB snapshot, enforces per-currency windows, and retains FX provenance/expiry on conversions and gateway transfers. The city-cost transform remains unimplemented; research files are not imported into the app."
+    },
+    "rate_selection": {
+      "provider": "European Central Bank",
+      "base_currency": "EUR",
+      "rate_convention": "Foreign currency units per EUR, taken verbatim from the perEuro decimal string of the selected snapshot.rates entry whose currency matches the native amount.",
+      "snapshot_file": "content/money/fx/ecb-reference.json",
+      "reference_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "upstream_feed_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+      "selection_rule": "Use the reviewed repository snapshot available at conversion time only if validated, applicable, within its validity window and containing the source currency. Never fetch an ad hoc market rate or silently use a stale, nearest-currency or earlier fallback rate.",
+      "conversion_rule": "For an EUR target, divide the native major-unit monetary amount by the source-currency perEuro rate. Use exact decimal/rational arithmetic; percentage rates remain dimensionless and apply to the legal native-currency base before conversion.",
+      "band_rule": "Select bands and evaluate the legal formula entirely in its statutory currency. Never convert thresholds or room bases to rounded EUR amounts before deciding the band.",
+      "classification": "A converted result is a derived planning estimate using an ECB reference rate, not an official EUR-denominated tax or a guaranteed card settlement rate."
+    },
+    "validity": {
+      "policy_version": "ecb-currency-windows-v1",
+      "window_days_by_currency": {
+        "EUR": 30,
+        "GBP": 30,
+        "USD": 30,
+        "CHF": 30,
+        "JPY": 30,
+        "DKK": 30,
+        "TRY": 4
+      },
+      "window_origin": "snapshot.sourceDate at 00:00:00Z, not tax checked_date, snapshot checkedAt or conversion time",
+      "cutoff": "Effective expiry is the earliest of snapshot.reviewAfter, sourceDate plus the source-currency window, and sourceDate plus the target-currency window. Reject at or after that instant. The snapshot outer validity remains capped at thirty days; one stale currency does not expire other supported currencies.",
+      "reasoning": {
+        "TRY": "Four calendar days is an application risk limit chosen for the user-identified sensitivity of TRY estimates to stale rates. A Friday ECB rate survives through Monday; longer holiday/publication outages intentionally refuse rather than extending the window. It is not an official ECB tolerance or a quantified guarantee of rate stability.",
+        "DKK": "Retain thirty days because Danmarks Nationalbank pursues a fixed exchange-rate policy against the euro. Continue using the actual dated ECB rate, never substitute a peg or parity value.",
+        "CHF_GBP_USD_JPY": "Retain the existing thirty-day planning ceiling for compatibility. This is a product freshness policy, not a claim those floating currencies cannot move materially. Daily refresh remains the normal operation; the ceiling is only a maximum age.",
+        "EUR": "EUR is the reference base. EUR-to-EUR tax results use the identity/absence rule and require no FX. When EUR participates in a cross-currency conversion its policy ceiling cannot extend the other currency’s shorter window."
+      },
+      "reasoning_sources": [
+        {
+          "source_name": "Danmarks Nationalbank — fixed exchange rate policy",
+          "source_url": "https://www.nationalbanken.dk/en/what-we-do/stable-prices-monetary-policy-and-the-danish-economy/learn-about-inflation-interest-rates-and-the-fixed-exchange-rate-policy",
+          "checked_date": "2026-11-02"
+        },
+        {
+          "source_name": "European Central Bank — euro reference rates and publication schedule",
+          "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "checked_date": "2026-11-02"
+        }
+      ],
+      "required_checks": [
+        "snapshot reviewStatus is reviewed",
+        "snapshot schema and perEuro strings validate",
+        "snapshot checkedAt is not in the future and is not before sourceDate",
+        "source currency supported and present in the selected snapshot",
+        "conversion instant precedes the effective pair-specific expiry",
+        "recheck expiry at every use of a cached converted result"
+      ],
+      "no_age_reset": "A recheck or conversion never renews the rate. The FX policy and effective expiry travel with the amount. Future shortening of policy must invalidate incompatible cached values rather than extending their original expiry.",
+      "source_paths": [
+        "src/domain/money/fx.ts",
+        "src/domain/destination-access/transfer-pricing.ts",
+        "scripts/refresh-fx.mjs",
+        "scripts/check-fx.ts"
+      ]
+    },
+    "rounding": {
+      "native_tax": "Use the verified jurisdiction-specific tax calculation and rounding rule. Missing material legal rounding evidence is a conditional requirement, never permission to invent rounding.",
+      "fx_result": "Existing convertObservedAmount uses rational arithmetic and rounds upward only at the final target minor unit, without markup. Preserve that rule for a converted line; do not independently round nightly components and multiply.",
+      "distinction": "FX rounding is the application’s planning convention, not a jurisdiction’s statutory tax-rounding rule. An already-EUR statutory amount is not a currency conversion."
+    },
+    "converted_result_required_provenance": {
+      "origin": "Original envelope(s), file/record identifiers, basis, applicable statutory period, legal source URL, tax checked_date, native amount/currency and calculation inputs. Keep these unchanged.",
+      "converted_at": "Actual timestamp when conversion was executed, in UTC; never copy the tax check date or sourceDate into this field.",
+      "conversion_date": "UTC date derived from convertedAt; stored as conversionDate. It is distinct from tax checked_date, snapshot sourceDate and checkedAt.",
+      "target_currency": "EUR",
+      "fx_snapshot_id": "Snapshot id plus sourceDate and an immutable content hash/version; id alone is insufficient because ecb-reference is overwritten.",
+      "fx_source_name": "European Central Bank",
+      "fx_source_url": "Selected snapshot sourceUrl plus upstream feed URL where available.",
+      "fx_source_date": "Selected snapshot sourceDate, retained separately from when it was fetched.",
+      "fx_checked_at": "Selected snapshot checkedAt.",
+      "fx_review_after": "Retain both the snapshot outer reviewAfter and the effective pair-specific validUntil. Consumers must use the earlier effective expiry, not the snapshot outer date alone.",
+      "fx_rate_per_eur": "Exact original perEuro decimal string for the source currency; retain the quote direction and base EUR.",
+      "fx_age_at_conversion": "Elapsed milliseconds from sourceDate at UTC midnight to convertedAt; the converter returns ageMilliseconds.",
+      "rounding_and_method": "Native legal rounding evidence, rational FX method and final target-minor-unit rounding convention.",
+      "derived_amount": "Converted EUR amount and derived-estimate classification; never relabel this as an observed confirmed official EUR fare/tax.",
+      "usage_validity": "Carry expiry and recheck at use time; a once-valid conversion cannot stay usable after its source snapshot expires.",
+      "fx_window_policy": "Policy version, source-currency validityDays, target-currency validityDays and appliedWindowDays, alongside the exact perEuro strings. The effective validUntil also respects an earlier snapshot reviewAfter."
+    },
+    "identity_and_absence": {
+      "already_eur": "No FX rate required; preserve the native source and calculation timestamp. Mark conversion not applicable, rather than fabricating an ECB conversion.",
+      "confirmed_absence": "not_levied produces no charge and therefore no FX operation, even if the city uses an unsupported currency. Keep the absence evidence.",
+      "unconfirmed_or_disputed": "Never convert into a numeric value. Refuse the affected component."
+    },
+    "current_repository_audit": {
+      "checked_date": "2026-11-02",
+      "snapshot_id": "ecb-reference",
+      "snapshot_source_date": "2026-11-02",
+      "snapshot_checked_at": "2026-11-02T16:48:27Z",
+      "snapshot_review_after": "2026-12-02T00:00:00Z",
+      "snapshot_content_sha256": "8a2009186f48cf56283f309f832eca984ba4ad2898653f188d9535b7b4418ef7",
+      "review_status": "reviewed",
+      "source_path": "content/money/fx/ecb-reference.json",
+      "evidence_currency_support": [
+        "EUR",
+        "GBP",
+        "USD",
+        "CHF",
+        "JPY",
+        "DKK",
+        "TRY"
+      ],
+      "research_monetary_currencies": [
+        "EUR",
+        "CHF",
+        "DKK",
+        "GBP",
+        "TRY"
+      ],
+      "supported_research_foreign_currencies": [
+        "CHF",
+        "DKK",
+        "GBP",
+        "TRY"
+      ],
+      "unsupported_research_currencies": [],
+      "blocking_code_paths": [],
+      "finding": "DKK and TRY now validate as production evidence/source currencies, and the refreshed official daily snapshot includes both. Existing planning/display currencies remain separate; the requested EUR output needs native-source conversion, not new currency-picker options. No research price or tax was pre-converted.",
+      "additional_integration_gap": "The converter now returns rates, applied windows, conversion date/age and effective expiry; the existing gateway-transfer consumer retains them and clamps cache expiry. The future tax transform must still validate derived tax amounts separately from official-operator observations, preserve tax/formula provenance, and attach an immutable snapshot hash. Research files remain outside application imports.",
+      "implementation_base_revision": "f45b15bacabf7f52f76cb624e5f221aab0ad3d15",
+      "implementation_note": "Audited working-tree implementation for this follow-up; file content hashes identify the implementation included with the eventual commit. This base revision alone predates the authorized changes.",
+      "implementation_file_sha256": {
+        "src/domain/money/fx.ts": "d826c1f836d4571d181af4c9a47132788f7b2fa5fb24bc5a04b26b212cffbc27",
+        "src/domain/destination-access/transfer-pricing.ts": "32c988a9cd795d845bc193895f41c93f191b90cef58fac7f1b1d96c4b787fa12",
+        "scripts/refresh-fx.mjs": "a2817c31316c22cf4a7d53254ef146448db91575ce336421c8cfee92f1d45132",
+        "scripts/check-fx.ts": "cc1607ad075a43fcc81017731bb58d86b5590ecc2ab37f86db48c4b0a8a11d9b"
+      },
+      "effective_source_windows_for_eur": {
+        "CHF": {
+          "days": 30,
+          "valid_until": "2026-12-02T00:00:00Z"
+        },
+        "DKK": {
+          "days": 30,
+          "valid_until": "2026-12-02T00:00:00Z"
+        },
+        "GBP": {
+          "days": 30,
+          "valid_until": "2026-12-02T00:00:00Z"
+        },
+        "TRY": {
+          "days": 4,
+          "valid_until": "2026-11-06T00:00:00Z"
+        }
+      }
+    },
+    "operational_expiry_alert": {
+      "implementation": "Daily expiry audit uses the same per-currency effective cutoff as conversion, independently of refresh-run success or absence.",
+      "lead_hours": 48,
+      "schedule": "06:17 UTC daily, including weekends",
+      "alert_behavior": "A currency with no more than the lead time remaining, an expired rate or an unusable snapshot makes the audit exit nonzero. The workflow opens or updates an alert issue and fails the run for notifications. The alert includes source date, currency, applied window, cutoff, remaining hours and refresh instructions.",
+      "dropped_run_case": "A Friday TRY reference date expires at Tuesday UTC midnight. The Sunday and Monday scheduled audits each fall within the advance-alert window. Moving off the top of the hour reduces one documented contention risk; it does not guarantee delivery if GitHub drops both audits.",
+      "no_renewal": "The warning does not extend the rate window or re-date an unchanged rate. Long publication gaps still fail closed.",
+      "activation": "Workflow scheduling occurs on main only. These branch changes must be merged there before automatic alerts use this implementation.",
+      "implementation_paths": [
+        "scripts/lib/fx-expiry-audit.ts",
+        "scripts/check-expiry.ts",
+        ".github/workflows/expiry-audit.yml"
+      ],
+      "scheduler_source": {
+        "source_name": "GitHub Docs — schedule event",
+        "source_url": "https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule",
+        "checked_date": "2026-11-02"
+      }
+    }
+  },
+  "delivery_readiness": {
+    "as_of": "2026-11-02",
+    "purpose": "Historical inclusive-allowance readiness as of 2 November. Not a v8 baseline or a count of currently reviewed panels.",
+    "baseline": {
+      "stay": "Ordinary short leisure planning stay with a current model allowance and explicit party, rooms, nights and destination. The allowance is inclusive by definition, not evidence of an exact property price. Named property-dependent extras remain outside.",
+      "fx": "For positive non-EUR amounts, the reviewed snapshot and the source/target currency windows must remain valid at execution and later use. TRY expires earlier than the other recorded research currencies. A stale conversion refuses; no fallback rate is used.",
+      "normal_input_rule": "Computable does not mean dates, traveller count or exemption status may be guessed. Missing any required baseline input refuses the actual booking.",
+      "percentage_rule": "No percentage or other statutory accommodation tax is added to the inclusive allowance. The four former modelled-base conditions no longer block planning mode."
+    },
+    "categories": {
+      "computable": "Statutory accommodation tax requires no added calculation because it is embedded in the defined traveller-payable allowance. All other ordinary planning inputs still need to exist.",
+      "conditional": "Named property-dependent charge remains excluded. A qualified total is permitted only when other components are available; disclose the possible extra and withhold budget-fit/flight-ceiling claims.",
+      "refuse": "The tax/charge treatment itself cannot be represented under the approved definition. None of the twelve are in this category under the baseline; unresolved actual provider charges still refuse a complete total."
+    },
+    "cities": [
+      {
+        "city": "Vienna",
+        "file": "vienna.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "vienna.json#/tourist_tax",
+          "vienna.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "conditional",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Istanbul",
+        "file": "istanbul.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "istanbul.json#/tourist_tax",
+          "istanbul.json#/accommodation_charges"
+        ],
+        "fx_currency": "TRY",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "conditional",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Munich",
+        "file": "munich.json",
+        "reason": "Official research confirms statutory accommodation tax is not levied. No statutory tax is added to the inclusive planning allowance. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "munich.json#/tourist_tax",
+          "munich.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "computable",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Zurich",
+        "file": "zurich.json",
+        "reason": "Confirmed statutory absence. The single contractual City Tax requires a property/terms match; the EMA House case is verified, not universal. CHF conversion is supported with a fresh snapshot.",
+        "evidence_paths": [
+          "zurich.json#/tourist_tax",
+          "zurich.json#/accommodation_charges"
+        ],
+        "fx_currency": "CHF",
+        "planning_treatment": "property_charge_disclosed_outside_allowance",
+        "condition_kind": "property_scope_or_guest_billing_dependency",
+        "inclusive_accommodation_planning": "conditional",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Basel",
+        "file": "basel.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "basel.json#/tourist_tax",
+          "basel.json#/accommodation_charges"
+        ],
+        "fx_currency": "CHF",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "computable",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Stuttgart",
+        "file": "stuttgart.json",
+        "reason": "Flat statutory liability is recorded, but the provider is tax debtor. Adding a guest charge requires the property’s pass-through and quote treatment.",
+        "evidence_paths": [
+          "stuttgart.json#/tourist_tax",
+          "stuttgart.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "property_charge_disclosed_outside_allowance",
+        "condition_kind": "property_scope_or_guest_billing_dependency",
+        "inclusive_accommodation_planning": "conditional",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Düsseldorf",
+        "file": "dusseldorf.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "dusseldorf.json#/tourist_tax",
+          "dusseldorf.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "computable",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Hamburg",
+        "file": "hamburg.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "hamburg.json#/tourist_tax",
+          "hamburg.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "conditional",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Berlin",
+        "file": "berlin.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "berlin.json#/tourist_tax",
+          "berlin.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "conditional",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Frankfurt",
+        "file": "frankfurt.json",
+        "reason": "Statutory accommodation tax is embedded in the traveller-payable planning allowance. No statutory add-on or net-base calculation is permitted. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "frankfurt.json#/tourist_tax",
+          "frankfurt.json#/accommodation_charges"
+        ],
+        "fx_currency": "EUR",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "computable",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Copenhagen",
+        "file": "copenhagen.json",
+        "reason": "Official research confirms statutory accommodation tax is not levied. No statutory tax is added to the inclusive planning allowance. This does not validate the underlying room price or resolve other trip-cost gaps.",
+        "evidence_paths": [
+          "copenhagen.json#/tourist_tax",
+          "copenhagen.json#/accommodation_charges"
+        ],
+        "fx_currency": "DKK",
+        "planning_treatment": "statutory_tax_embedded_no_addition",
+        "inclusive_accommodation_planning": "computable",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "computable",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      },
+      {
+        "city": "Manchester",
+        "file": "manchester.json",
+        "reason": "Confirmed statutory absence now has explicit not_levied metadata. The separate BID guest charge still requires property membership, pass-through, guest applicability, applicable VAT and quote inclusion; GBP conversion is supported.",
+        "evidence_paths": [
+          "manchester.json#/tourist_tax",
+          "manchester.json#/accommodation_charges"
+        ],
+        "fx_currency": "GBP",
+        "planning_treatment": "property_charge_disclosed_outside_allowance",
+        "condition_kind": "property_scope_or_guest_billing_dependency",
+        "inclusive_accommodation_planning": "conditional",
+        "historical_exact_charge_assessment": {
+          "statutory_liability_native_currency": "computable",
+          "guest_accommodation_addon_eur_with_current_fx": "conditional",
+          "note": "Pre-decision exact-charge classification, retained for audit only. Current planning readiness is inclusive_accommodation_planning; no statutory add-on is permitted."
+        }
+      }
+    ],
+    "limits": [
+      "Counts are for accommodation-tax/known-levy components only, not complete trips. Airport fare gaps or attraction-price conflicts are not hidden by a computable tax.",
+      "The native statutory view excludes contractual City Tax/BID charges and does not promise a guest invoice.",
+      "All future dates, unsupported historical/fallback cases, missing baseline inputs and stale FX are evaluated per booking and may refuse even a normally computable city.",
+      "Vienna, Manchester and Munich are now research-v4. Their legacy reviews describe completed migrations and remaining evidence requirements rather than allowing legacy placeholder exceptions.",
+      "No production tax transform is implemented. Runtime changes define inclusion and guard unknown/property-dependent charges without importing research values."
+    ],
+    "change_effect": "Five computable plus four formerly model-dependent cities become nine computable planning tax treatments; Zurich, Manchester and Stuttgart remain conditional disclosed-charge cases. Zero refused under this baseline. This is a semantic decision, not nine verified room panels or complete trip totals.",
+    "historical_exact_charge_views": {
+      "statutory_liability_native_currency": {
+        "computable": [
+          "Munich",
+          "Zurich",
+          "Basel",
+          "Stuttgart",
+          "Düsseldorf",
+          "Frankfurt",
+          "Copenhagen",
+          "Manchester"
+        ],
+        "conditional": [
+          "Vienna",
+          "Istanbul",
+          "Hamburg",
+          "Berlin"
+        ],
+        "refuse": [],
+        "counts": {
+          "computable": 8,
+          "conditional": 4,
+          "refuse": 0
+        }
+      },
+      "guest_accommodation_addon_eur_with_current_fx": {
+        "computable": [
+          "Munich",
+          "Basel",
+          "Düsseldorf",
+          "Frankfurt",
+          "Copenhagen"
+        ],
+        "conditional": [
+          "Vienna",
+          "Istanbul",
+          "Zurich",
+          "Stuttgart",
+          "Hamburg",
+          "Berlin",
+          "Manchester"
+        ],
+        "refuse": [],
+        "counts": {
+          "computable": 5,
+          "conditional": 7,
+          "refuse": 0
+        }
+      }
+    },
+    "historical_planning_proposal": {
+      "implemented": false,
+      "fixed_amount_or_sourced_absence": [
+        "Munich",
+        "Basel",
+        "Düsseldorf",
+        "Frankfurt",
+        "Copenhagen"
+      ],
+      "modelled_with_accommodation_proposed": [
+        "Vienna",
+        "Istanbul",
+        "Hamburg",
+        "Berlin"
+      ],
+      "property_conditional": [
+        "Zurich",
+        "Stuttgart",
+        "Manchester"
+      ],
+      "counts": {
+        "fixed_amount_or_sourced_absence": 5,
+        "modelled_with_accommodation_proposed": 4,
+        "property_conditional": 3
+      },
+      "interpretation": "Nine cities have a proposed fixed/absent or model-derived route to a planning accommodation-tax component; three still need property/billing applicability. This is not nine implemented or launch-ready totals: the model input contract, validated transform and incomplete-output gate are not built.",
+      "superseded_by": "allowance_definition; do not compute net-base tax inside the inclusive allowance."
+    },
+    "views": {
+      "inclusive_accommodation_planning": {
+        "computable": [
+          "Vienna",
+          "Istanbul",
+          "Munich",
+          "Basel",
+          "Düsseldorf",
+          "Hamburg",
+          "Berlin",
+          "Frankfurt",
+          "Copenhagen"
+        ],
+        "conditional": [
+          "Zurich",
+          "Manchester",
+          "Stuttgart"
+        ],
+        "refuse": [],
+        "counts": {
+          "computable": 9,
+          "conditional": 3,
+          "refuse": 0
+        }
+      }
+    },
+    "scope_note_2026_11_03": "The inclusive planning counts below are historical under the 2 November definition. They neither count accepted v8 panels nor imply an observed tax treatment. No v8 baseline has been published."
+  },
+  "conditional_case_types": [
+    {
+      "kind": "property_scope_or_guest_billing_dependency",
+      "cities": [
+        "Zurich",
+        "Manchester",
+        "Stuttgart"
+      ],
+      "nature": "Property-dependent charge outside inclusive allowance.",
+      "resolution": "Qualified total plus explicit excluded-charge notice; no budget-fit claim. Resolve exact coverage from selected property/provider evidence."
+    }
+  ],
+  "accommodation_tax_estimate_proposal": {
+    "status": "superseded_not_implemented",
+    "application_import_allowed": false,
+    "owner": "Future validated cost transform and accommodation estimator; research remains observation-only.",
+    "input_contract": [
+      "The accommodation model must expose a native-currency amount per room and night, its model/version and assumptions, and explicit inclusion semantics: net lodging before accommodation tax, VAT treatment, breakfast/bundled services, and any already-included levy.",
+      "Do not relabel the existing generic or reviewed allowance as net if its inclusion semantics are unspecified. Migrate or calibrate that model contract explicitly; until then its tax treatment is incomplete.",
+      "Where the accommodation supplier owes the tax, the model must state its tax-incidence/pass-through assumption as part of the accommodation estimate. A modelled supplier liability is not evidence of a legally mandatory separate guest fee. Unknown treatment cannot silently become a zero or an additional charge; any assumption stays model provenance, never official-price evidence.",
+      "Keep traveller eligibility, room allocation, night-by-night amounts, applicable legal dates, property jurisdiction and quote/allowance inclusion separate. The baseline adult short leisure case is not a universal traveller exemption policy.",
+      "Native modeled values may be derived from an EUR model only through a documented FX operation with the same dated snapshot and carried provenance. Prefer a native-currency model base; never convert rounded band thresholds or substitute a peg rate."
+    ],
+    "basis_evaluation": [
+      {
+        "cities": [
+          "Vienna",
+          "Berlin"
+        ],
+        "basis": "percent_of_room_net",
+        "method": "Apply the recorded statutory percentage to the modelled legal net lodging base. Preserve each city’s exclusions and date selectors. This produces a derived planning estimate, not an observed invoice liability."
+      },
+      {
+        "cities": [
+          "Istanbul"
+        ],
+        "basis": "percent_of_accommodation_services_net",
+        "method": "Apply the dated national percentage to modelled net accommodation plus only the services modelled as sold together with it. Exclude VAT; do not tax all separate food/activity allowances. Preserve the temporary-rate expiry and avoid adding the same bundle twice."
+      },
+      {
+        "cities": [
+          "Hamburg"
+        ],
+        "basis": "banded_per_person_per_night_by_net_lodging_price",
+        "method": "Allocate the modelled net room-night consideration to liable occupants using a stated model allocation policy, then evaluate the exact recorded bands and above-band formula for each person/night. Sum those results. Do not average bands, use an average room category, or round a converted value before selecting a band. A modelled-price case is distinct from statutory fallback assessment, which remains unsupported."
+      }
+    ],
+    "result_contract": {
+      "stay_component": "Return one accommodation estimate with inspectable base and tax/levy components, tax treatment and overall completeness. The tax component shares the base estimate’s provenance; it must not be promoted to confirmed observed-price status.",
+      "tax_treatment_states": [
+        "estimated_from_modelled_base",
+        "included_in_verified_quote",
+        "sourced_absence",
+        "required_unpriced"
+      ],
+      "provenance": [
+        "accommodation_model_id_and_version",
+        "native_modelled_base_and_inclusion_semantics",
+        "room_night_and_person_allocation_assumptions",
+        "tax_basis_period_and_source_envelopes",
+        "eligibility_and_invoice_date_assumptions",
+        "native_formula_and_planning_rounding_policy",
+        "calculation_timestamp",
+        "FX_rate_window_age_conversion_date_and_effective_expiry_when_used",
+        "quote_or_model_component_deduplication_identity"
+      ],
+      "rounding": "Preserve native precision through statutory band selection and formula evaluation. Use a named planning minor-unit rounding convention for the estimated result; do not claim it is an exact invoice-rounding rule. Exact-quote mode still requires any material statutory rounding evidence. FX rounding remains separately identified.",
+      "deduplication": "A verified quote with mandatory taxes included is used once. For a model, the base’s explicit tax-inclusion flag decides whether a new component is added or explained as already included. Unknown inclusion cannot be assumed excluded and cannot be assumed included."
+    },
+    "output_invariant": [
+      "If any required tax or levy has required_unpriced treatment, the plan must expose an incomplete total with missing-charge reasons, even if flight/stay/transfer amounts otherwise exist.",
+      "An incomplete plan may show clearly labelled known costs, but no whole-trip total, Fits your budget label, remaining-budget claim, affordable-flight ceiling, complete-price ranking or complete-price SEO/AI representation.",
+      "If all required accommodation costs are either estimated under an explicit model contract, included in a verified quote, or positively absent, the stay can contribute to a complete planning estimate. The card must preserve estimate labelling; completeness does not mean an exact bookable price.",
+      "A generic fallback must not erase an unknown mandatory-charge condition. Missing source rate, unsupported basis, unresolved material applicability, unknown model inclusion or stale FX remains required_unpriced."
+    ],
+    "research_boundary": "No new observed prices, inferred legal rates, generic child exemptions or universal property-fee assumptions are introduced. The estimate is a proposed production calculation using confirmed rules and explicitly modelled inputs.",
+    "verification_required_before_implementation": [
+      "one source-confirmed example per tax basis plus boundaries",
+      "Hamburg band-edge and above-band cases with different room-night values",
+      "modelled base and derived tax keep estimate provenance",
+      "included quote never gains a duplicate tax",
+      "unknown property levy forces incomplete output and suppresses affordability claims",
+      "missing source/unsupported basis/stale TRY FX stays incomplete",
+      "tax period changes are selected explicitly",
+      "generic allowance with unknown inclusion cannot silently pass"
+    ],
+    "superseded_by": "allowance_definition; owner chose inclusive accommodation on 2026-11-02. The old proposal below is retained as historical reasoning only and must not be implemented."
+  },
+  "allowance_definition": {
+    "id": "displayed-stay-separate-tax-v2",
+    "decision_date": "2026-11-03",
+    "decision_authority": "Explicit owner instruction in this chat",
+    "definition": "Use the displayed public two-night room price. Record stated_included, stated_extra or page_silent for lodging tax after checking checkout and published operator terms; all three are usable. Preserve the wording, location, terms URL, timestamp and any exact whole-stay tax amount. Silence is not proof of inclusion or exclusion. Never add tax to the room allowance. An explicitly extra tax is counted once in the trip total. A possible statutory charge appears beside the headline; compare budget with headline plus possible tax. If its amount is unbounded, do not claim a fit. Property-dependent fees and unknown non-tax mandatory charges retain their separate rules.",
+    "reasoning": "Missing checkout wording creates bounded uncertainty, not an unusable price. Never add possible tax to the headline or ignore it in a budget-fit claim.",
+    "statutory_tax_addition": "never_to_allowance; stated extra once to trip total; possibly extra only in fit test",
+    "property_dependent_exception": {
+      "cities": [
+        "Zurich",
+        "Manchester",
+        "Stuttgart"
+      ],
+      "treatment": "Excluded from the city-level allowance. When all other costs are available, display a labelled estimated total before property-dependent charges and a note that the chosen property may add a charge we cannot predict. Do not claim budget fit, remaining budget or a flight-budget ceiling. Otherwise withhold the total.",
+      "note": "Stuttgart is a statutory supplier liability with property-dependent guest pass-through; it remains statutory research, not reclassified as a contractual levy."
+    },
+    "unknown_required_charges": "An unresolved mandatory/provider-conditional charge outside that named planning exception withholds the total. Falling back to a model allowance does not erase an unknown mandatory-charge finding.",
+    "observation_method": "room-panel-v8-displayed-rate: Keep every frozen slot, including documented exclusions; do not cherry-pick or substitute. At least four eligible weekday and four eligible weekend stays, independently, are needed. A pooled count can hide an absent weekend; six per type leaves London no room for losses. Compute weekday and weekend medians separately; combine with equal stay-type weight for a mixed baseline. Record contributing counts by type, tax treatments and actual property count. Standard planning band ±25%; widen five percentage points per missing observation from eight in the less represented type (4/4: ±45%; London 6/6: ±35%). These are conservative editorial bands, not calibrated confidence intervals. All inputs require human review; the research packet does not publish a baseline.",
+    "current_runtime_evidence": "Before this decision, estimateAccommodation scaled a two-night or room-night allowance and pricePlan added it once without tax. Generic/legacy values had no inclusion proof. Belfast/GBP basket explicitly recorded taxes and fees included. Provider evidence has mandatory-charge reconciliation but no active production adapter. Defining an allowance does not retroactively validate its price evidence.",
+    "scaling_limitation": {
+      "finding": "A scaled city inherits the anchor’s embedded tax, not its own. Barcelona scaled from Milan carries Milan’s embedded tax treatment. Directly observed anchors have no cross-city tax mismatch.",
+      "uncertainty": "Owner expects the effect to be small relative to the ±25% scaled-estimate band; this is not a measured error bound. Existing holdout validation remains required. No scaling model is implemented by this change."
+    },
+    "model_definition_path": "docs/accommodation-pricing-model.md",
+    "runtime_policy_path": "src/domain/accommodation-charges.ts",
+    "transform_started": false
+  },
+  "tax_research_purpose": [
+    "Sanity-check displayed hotel rates and tax itemization; establish dated statutory defaults where public terms are silent.",
+    "Resolve scope and inclusion for the three property-dependent cities without applying a charge universally.",
+    "Explain what was stated or left unstated; distinguish a known extra in the total from a possible charge disclosed outside it and reserved for budget fit.",
+    "Preserve legal basis, dates, sources and exact formulas for future real provider-price reconciliation."
+  ],
+  "historical_renderer_audits": [
+    {
+      "checked_date": "2026-11-02",
+      "code_revision_observed": "0d0edaf47205a073997ebf108d49c7463038a5fa",
+      "research_registry_imported_by_application": false,
+      "tax_completeness_state_exists": false,
+      "finding": "A city labelled conditional here can currently render a complete estimated total and Fits your budget when the existing flight, stay and required-transfer gates pass. Research tax conditions are not evaluated. Generic stay allowances have no explicit tax-base/inclusion contract, so neither tax inclusion nor the exact amount omitted can be inferred. The local-taxes-may-differ copy is not an incompleteness gate.",
+      "existing_provider_quote_exception": "Provider accommodation evidence requires known mandatory-charge amounts and a reconciled total. Unknown mandatory charges reject that quote; subsequent fallback to a generic allowance does not itself solve tax coverage.",
+      "evidence_paths": [
+        "src/domain/pricing.ts",
+        "src/domain/accommodation.ts",
+        "src/domain/accommodation-evidence.ts",
+        "src/domain/types.ts",
+        "src/components/travel/ResultPrice.tsx",
+        "src/components/travel/ResultCard.tsx",
+        "src/i18n/accommodation.ts"
+      ],
+      "change_scope": "Observed before edits. No result-card, accommodation estimator, pricing-completeness type or tax calculator implementation changed in this follow-up.",
+      "launch_blocker": "The future integration must make missing required tax/levy treatment an explicit incomplete-total state. A research refusal that is merely omitted from costs is not safe."
+    },
+    {
+      "checked_date": "2026-11-02",
+      "research_registry_imported_by_application": false,
+      "tax_transform_implemented": false,
+      "charge_completeness_state_exists": true,
+      "finding": "Inclusive planning allowances receive no statutory-tax add-on. Unknown mandatory or unresolved provider conditions produce accommodation-charges-unpriced, with no total, fit or flight ceiling. Zurich, Manchester and Stuttgart model allowances use property-charges-conditional when otherwise priced: a labelled total before property-dependent charges, notice, and no budget-fit claim. If a flight or other required amount is missing no conditional total is produced. Fully reconciled provider coverage is accepted once.",
+      "evidence_paths": [
+        "src/domain/accommodation-charges.ts",
+        "src/domain/accommodation.ts",
+        "src/domain/pricing.ts",
+        "src/domain/types.ts",
+        "src/components/travel/AccommodationChargeNotice.tsx",
+        "tests/accommodation-charges.test.ts"
+      ],
+      "limitations": "This implements the owner’s allowance semantics and presentation guard, not the proposed anchor/scaling model. Generic/legacy allowances retain their original estimate provenance and source limitations."
+    }
+  ],
+  "current_renderer_audit": {
+    "checked_date": "2026-11-03",
+    "research_registry_imported_by_application": false,
+    "tax_transform_implemented": false,
+    "charge_completeness_state_exists": true,
+    "finding": "A reviewed v8 room-panel price carries per-type coverage and lodging-tax treatment. Confirmed extra is a separate cost; a possible extra is outside the headline and inside affordability, including the flight ceiling. Without a bounded possible amount, withhold fit. Existing provider and property-dependent guards remain in force.",
+    "evidence_paths": [
+      "src/domain/accommodation-charges.ts",
+      "src/domain/accommodation.ts",
+      "src/domain/pricing.ts",
+      "src/domain/types.ts",
+      "src/components/travel/AccommodationChargeNotice.tsx",
+      "tests/accommodation-charges.test.ts"
+    ],
+    "limitations": "No raw research imports or reviewed anchor amounts. Prior profile and generic prices do not establish a silent operator checkout."
+  },
+  "historical_allowance_definition_2026_11_02": {
+    "id": "traveller-payable-inclusive-v1",
+    "decision_date": "2026-11-02",
+    "decision_authority": "Explicit owner instruction in this chat",
+    "definition": "Traveller-payable accommodation amount inclusive of statutory accommodation tax and mandatory fees, except separately disclosed property-dependent charges.",
+    "reasoning": "The room-rate observation method collects total prices including taxes and fees. Deriving a net base from an inclusive observation would require jurisdiction-specific inversions and introduce error without improving the planning estimate.",
+    "statutory_tax_addition": "prohibited_for_all_bases_and_periods",
+    "property_dependent_exception": {
+      "cities": [
+        "Zurich",
+        "Manchester",
+        "Stuttgart"
+      ],
+      "treatment": "Excluded from the city-level allowance. When all other costs are available, display a labelled estimated total before property-dependent charges and a note that the chosen property may add a charge we cannot predict. Do not claim budget fit, remaining budget or a flight-budget ceiling. Otherwise withhold the total.",
+      "note": "Stuttgart is a statutory supplier liability with property-dependent guest pass-through; it remains statutory research, not reclassified as a contractual levy."
+    },
+    "unknown_required_charges": "An unresolved mandatory/provider-conditional charge outside that named planning exception withholds the total. Falling back to a model allowance does not erase an unknown mandatory-charge finding.",
+    "observation_method": "docs/specs/non-flight-cost-model.md#room-rate-observation-method; room-panel-v2-inclusive requires explicit inclusive evidence and separately recorded property-dependent charges. Unknown/excluded statutory tax makes a sample ineligible; do not reconstruct a net base.",
+    "current_runtime_evidence": "Before this decision, estimateAccommodation scaled a two-night or room-night allowance and pricePlan added it once without tax. Generic/legacy values had no inclusion proof. Belfast/GBP basket explicitly recorded taxes and fees included. Provider evidence has mandatory-charge reconciliation but no active production adapter. Defining an allowance does not retroactively validate its price evidence.",
+    "scaling_limitation": {
+      "finding": "A scaled city inherits the anchor’s embedded tax, not its own. Barcelona scaled from Milan carries Milan’s embedded tax treatment. Directly observed anchors have no cross-city tax mismatch.",
+      "uncertainty": "Owner expects the effect to be small relative to the ±25% scaled-estimate band; this is not a measured error bound. Existing holdout validation remains required. No scaling model is implemented by this change."
+    },
+    "model_definition_path": "docs/accommodation-pricing-model.md",
+    "runtime_policy_path": "src/domain/accommodation-charges.ts",
+    "transform_started": false
+  }
+}

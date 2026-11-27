@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "kind": "explicit-owner-media-approval",
+  "reviewer": "GoEksplo Owner",
+  "reviewedAt": "2026-10-22T09:43:51.895Z",
+  "authorization": "Exact Paris/New York photographs and shown hero/card crops, destination identity, credits, modification notices and CC BY-SA requirements approved by the owner in this chat; local integration authorized; no commit, push or deployment authorized.",
+  "scope": [
+    "paris",
+    "place:Q60"
+  ],
+  "excludedSubjects": [
+    "istanbul",
+    "crete"
+  ],
+  "reviewPacket": {
+    "file": "owner-review.html",
+    "sha256": "045212449346a84aef678b60852e685bb40351d767862476e64b290b5bab7c8d"
+  },
+  "registryBeforeSha256": "e863d72431b1c82e4fcf5ec80d34b6ceecab24736651034cf879f9e8bb363e01",
+  "assets": [
+    {
+      "subject": "paris",
+      "assetId": "commons:4213147",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "checkedAt": "2026-10-22",
+        "commercialReuse": "permitted subject to attribution, licence link, modification notice and share-alike",
+        "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "author": "MarcusObal",
+      "attribution": "MarcusObal · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "originalDimensions": {
+        "width": 7203,
+        "height": 2247
+      },
+      "approvedFocalPoint": {
+        "x": 0.32,
+        "y": 0.5
+      },
+      "approvedAlt": {
+        "en": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/paris-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/paris-640.webp",
+            "width": 640,
+            "height": 199,
+            "bytes": 20658,
+            "sha256": "2f73127c047a3bfb4a19389981be7afdb6229f1ab5b0e9440ae631cb28321430"
+          },
+          {
+            "src": "/destinations/paris-1200.webp",
+            "width": 1200,
+            "height": 374,
+            "bytes": 64830,
+            "sha256": "39b6593a0868c5de548ae329c9f285134fa6de1f1891f7e169a5fa5e3257cd35"
+          },
+          {
+            "src": "/destinations/paris-1920.webp",
+            "width": 1920,
+            "height": 599,
+            "bytes": 151216,
+            "sha256": "6f895dcbaddba65243d128b8d9a9e3c871539565bc43011d0a89ea43b782d969"
+          }
+        ]
+      },
+      "integrationStatus": "integrated-locally-not-deployed"
+    },
+    {
+      "subject": "place:Q60",
+      "assetId": "commons:129513544",
+      "roles": [
+        "destination.hero",
+        "destination.card"
+      ],
+      "originalChecksum": {
+        "algorithm": "sha1",
+        "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:New_York_City_Skyline_2016.jpg",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "checkedAt": "2026-10-22",
+        "commercialReuse": "permitted subject to attribution, licence link, modification notice and share-alike",
+        "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "author": "Aaron Harris (Forestikai)",
+      "attribution": "Aaron Harris (Forestikai) · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "originalDimensions": {
+        "width": 7580,
+        "height": 2110
+      },
+      "approvedFocalPoint": {
+        "x": 0.68,
+        "y": 0.5
+      },
+      "approvedAlt": {
+        "en": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "reviewedLocalDelivery": {
+        "src": "/destinations/new-york-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/new-york-640.webp",
+            "width": 640,
+            "height": 178,
+            "bytes": 18202,
+            "sha256": "9868e2f76a6a37542554af177044a6454f9da7257128be67f82ce9b83e5414fd"
+          },
+          {
+            "src": "/destinations/new-york-1200.webp",
+            "width": 1200,
+            "height": 334,
+            "bytes": 53500,
+            "sha256": "374ac1b697d5ec86a3ce2583102014b8128f2cbd7dff59e5c368a4719c4975c4"
+          },
+          {
+            "src": "/destinations/new-york-1920.webp",
+            "width": 1920,
+            "height": 534,
+            "bytes": 121696,
+            "sha256": "861c02f801f93d8d6eac3f5f40191bfafd5f7f95b62b7ed2d3f6c1a577bb053b"
+          }
+        ]
+      },
+      "integrationStatus": "integrated-locally-not-deployed"
+    }
+  ],
+  "publicationStatus": "integrated-locally-not-deployed",
+  "localIntegration": {
+    "status": "integrated-locally-not-deployed",
+    "reviewer": "GoEksplo Owner",
+    "recordedAt": "2026-10-22T10:14:31.439Z",
+    "authorization": "Owner explicitly approved crop-metadata support and publication of the previously approved Paris/New York crops in the current chat message.",
+    "composition": "The 2.5:1 source crop uses the approved normalized focal point; the 4:3 card crop at the same point preserves the approved original composition within integer-pixel rounding.",
+    "assets": [
+      {
+        "subject": "paris",
+        "assetId": "commons:4213147",
+        "crop": {
+          "left": 508,
+          "top": 0,
+          "width": 5617,
+          "height": 2247
+        },
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 508,
+            "top": 0,
+            "width": 5617,
+            "height": 2247
+          },
+          "src": "/destinations/paris-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/paris-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 25604,
+              "sha256": "3e0461b5dbcd8c8923e82122ab5ddee04b06ac99c264a2acdb3bf4ff7f5a044b"
+            },
+            {
+              "src": "/destinations/paris-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 80412,
+              "sha256": "6aca5a652ba69d0533be3137d9db43e99a28bd3b6a8d9eb60bdd604bfae1c979"
+            },
+            {
+              "src": "/destinations/paris-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 182064,
+              "sha256": "88a21345c71ffce7fa7ab839a5f6aafa0ffd58d6d06a83b22bbea136f61a4f92"
+            }
+          ]
+        },
+        "attribution": "MarcusObal · Wikimedia Commons · CC BY-SA 3.0 · cropped and resized to WebP; cropped for card display",
+        "originalMetadataPreserved": true
+      },
+      {
+        "subject": "place:Q60",
+        "assetId": "commons:129513544",
+        "crop": {
+          "left": 1567,
+          "top": 0,
+          "width": 5275,
+          "height": 2110
+        },
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1567,
+            "top": 0,
+            "width": 5275,
+            "height": 2110
+          },
+          "src": "/destinations/new-york-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/new-york-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 22314,
+              "sha256": "a5a9c3c1b8a8655a5a9d1c50f7da757286aab828a06de6d6685238179f7156d7"
+            },
+            {
+              "src": "/destinations/new-york-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 64272,
+              "sha256": "e896f51320155cfbeb30ac7958283e5685c3945539a0f39cd4fe32683566bee9"
+            },
+            {
+              "src": "/destinations/new-york-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 135084,
+              "sha256": "11cd23fe7662c5e4628b042532a2a9b6b3702e52cae728392be4775baa040e48"
+            }
+          ]
+        },
+        "attribution": "Aaron Harris (Forestikai) · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for card display",
+        "originalMetadataPreserved": true
+      }
+    ]
+  }
+}

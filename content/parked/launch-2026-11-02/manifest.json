@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "parkedDate": "2026-11-02",
+  "policy": "src/config/parked-destinations.json",
+  "reason": "Owner launch-scope decision based on retained fare evidence. Not a claim about flight service.",
+  "records": [
+    {
+      "id": "crete",
+      "files": [
+        {
+          "from": "content/destinations/crete.json",
+          "to": "content/parked/launch-2026-11-02/destinations/crete.json",
+          "sha256": "4b3226ca48f93f24185ce409cd346a2889f96d70d6b3be11ac726af96d810ac3"
+        },
+        {
+          "from": "content/operations/reviews/crete.json",
+          "to": "content/parked/launch-2026-11-02/operations/reviews/crete.json",
+          "sha256": "97a800e7c55fad76be382748650905bc7657d1964673457bfa9807f896a52536"
+        }
+      ]
+    },
+    {
+      "id": "place:Q40846",
+      "files": [
+        {
+          "from": "content/destinations/place-Q40846.json",
+          "to": "content/parked/launch-2026-11-02/destinations/place-Q40846.json",
+          "sha256": "51e0495239c9ba892e74dfd386157aee72c9ae151b06241a26e43e943ab2a94e"
+        },
+        {
+          "from": "content/travel/access/place-Q40846.json",
+          "to": "content/parked/launch-2026-11-02/travel/access/place-Q40846.json",
+          "sha256": "c24f9d472418a18344ffd1cbb194ef4bc5a072839c9644871d9df795a033ace2"
+        },
+        {
+          "from": "content/operations/reviews/place-Q40846.json",
+          "to": "content/parked/launch-2026-11-02/operations/reviews/place-Q40846.json",
+          "sha256": "1d6343d87aed2fb1be8dffe32bce5aa17fec40a13a43fecda8afa24abb2d38ae"
+        }
+      ]
+    },
+    {
+      "id": "place:Q76516549",
+      "files": [
+        {
+          "from": "content/destinations/place-Q76516549.json",
+          "to": "content/parked/launch-2026-11-02/destinations/place-Q76516549.json",
+          "sha256": "5daaa30666430cc04178bf773a9ac912fe176407330bd0560ebfd7b79f4e3583"
+        },
+        {
+          "from": "content/travel/access/place-Q76516549.json",
+          "to": "content/parked/launch-2026-11-02/travel/access/place-Q76516549.json",
+          "sha256": "a9f16ad8070835ecf9f63a2205c5903b9874a355687dc6962f28fd75712f7e27"
+        },
+        {
+          "from": "content/operations/reviews/place-Q76516549.json",
+          "to": "content/parked/launch-2026-11-02/operations/reviews/place-Q76516549.json",
+          "sha256": "98d4aab20e5bef3a2dc5416b8d66d55b6745819a5d59f3a4dc0f7bda879f1a3b"
+        }
+      ]
+    }
+  ],
+  "researchFilesRetainedInPlace": [
+    "docs/research/city-costs-2026-11/manchester.json",
+    "docs/research/city-costs-2026-11/copenhagen.json",
+    "docs/research/city-costs-2026-11/basel.json"
+  ]
+}

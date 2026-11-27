@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "phase5k-tasmania",
+  "title": "Phase 5K Tasmania island — preparation only",
+  "entries": [
+    {
+      "destinationId": "place:Q3593416",
+      "name": "Tasmania island",
+      "region": "Oceania",
+      "placeKind": "island",
+      "group": "tasmania-preparation"
+    }
+  ]
+}

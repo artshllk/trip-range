@@ -1,0 +1,490 @@
+{
+  "destinationId": "place:Q612",
+  "identitySubject": "place:Q612",
+  "contentVersion": 4,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q612:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q612:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q612",
+      "title": "Dubai (Q612)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q612"
+      }
+    },
+    {
+      "id": "source:expansion01:dubai:fahidi",
+      "type": "official",
+      "url": "https://www.visitdubai.com/places-to-visit/al-fahidi-historical-neighbourhood",
+      "title": "Al Fahidi Historical Neighbourhood",
+      "publisher": "Dubai Department of Economy and Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:museum",
+      "type": "official",
+      "url": "https://www.visitdubai.com/en/places-to-visit/al-shindagha-museum",
+      "title": "Al Shindagha Museum",
+      "publisher": "Dubai Department of Economy and Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:seef",
+      "type": "official",
+      "url": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/al-seef",
+      "title": "Al Seef",
+      "publisher": "Dubai Department of Economy and Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:downtown",
+      "type": "official",
+      "url": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/downtown-dubai",
+      "title": "Downtown Dubai",
+      "publisher": "Dubai Department of Economy and Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:areas",
+      "type": "official",
+      "url": "https://www.dubai.ae/web/dubai.ae/visit/staying-in-dubai/dubai-neighborhoods",
+      "title": "Dubai neighbourhoods",
+      "publisher": "Dubai Government",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:metro",
+      "type": "official",
+      "url": "https://www.rta.ae/wps/portal/rta/ae/public-transport/metro-stations-map",
+      "title": "Metro and tram station map",
+      "publisher": "RTA Dubai",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:dwc",
+      "type": "official",
+      "url": "https://dwc.dubaiairports.ae/transport/metro",
+      "title": "DWC onward metro connection",
+      "publisher": "Dubai Airports",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:dubai:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:batch3:dubai:museum-map",
+      "type": "official",
+      "title": "Al Shindagha Museum official visitor map",
+      "publisher": "Dubai Culture / Al Shindagha Museum",
+      "url": "https://alshindagha.dubaiculture.gov.ae/Documents/LRDCR-2266-ASM%20Brochure-En-OL.pdf",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Dubai is more useful as two focused outings than a list of distant landmarks: creekside heritage in Bur Dubai and the modern skyline around Downtown. Decide which paid interiors you want before choosing a base and calculating local journeys."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:dubai:fahidi",
+      "source:expansion01:dubai:museum",
+      "source:expansion01:dubai:downtown"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q612:fahidi",
+      "destinationId": "place:Q612",
+      "name": {
+        "en": "Al Fahidi Historical Neighbourhood"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Explore lanes and wind-tower architecture that show an earlier side of Dubai. Individual museums and cultural activities have their own access arrangements."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:fahidi"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q612:shindagha",
+      "destinationId": "place:Q612",
+      "name": {
+        "en": "Al Shindagha Museum"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "Choose this museum for context on the city’s creekside history. Confirm the visitor route and ticket scope through its official booking link."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:museum",
+        "source:batch3:dubai:museum-map"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q612:burj-khalifa",
+      "destinationId": "place:Q612",
+      "name": {
+        "en": "Burj Khalifa"
+      },
+      "kind": "viewpoint",
+      "shortDescription": {
+        "en": "See the tower from Downtown or choose a separately booked observation-deck visit. A skyline view from outside is not the same product as an interior ticket."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:downtown"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q612:al-seef",
+      "destinationId": "place:Q612",
+      "name": {
+        "en": "Al Seef"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Take a creekside walk in a contemporary district that draws on heritage design. Do not confuse its recreated streets with untouched historic buildings."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:seef"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q612:expansion01-1",
+      "destinationId": "place:Q612",
+      "name": {
+        "en": "Bur Dubai near the creek"
+      },
+      "summary": {
+        "en": "Consider a base for Al Fahidi, Al Seef and the museum outing."
+      },
+      "goodFor": [
+        {
+          "en": "Keeping heritage visits in the same broad area."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Choose a useful station and check the exact walking approach; Downtown is a separate journey."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:areas",
+        "source:expansion01:dubai:fahidi",
+        "source:expansion01:dubai:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q612:expansion01-2",
+      "destinationId": "place:Q612",
+      "name": {
+        "en": "Downtown"
+      },
+      "summary": {
+        "en": "Compare a base here if the tower and modern-city sights are your priority."
+      },
+      "goodFor": [
+        {
+          "en": "A stay focused on the Downtown outing."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Creek heritage is elsewhere; no lower-price or hotel-availability claim is made."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:downtown",
+        "source:expansion01:dubai:areas",
+        "source:expansion01:dubai:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q612:expansion01-1",
+      "destinationId": "place:Q612",
+      "title": {
+        "en": "Dubai International (DXB)"
+      },
+      "guidance": {
+        "en": "The Red Line serves Airport Terminal 1 and Terminal 3. Confirm your actual terminal and onward station; a flight to Dubai does not establish a walkable metro connection from every terminal."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q612:expansion01-2",
+      "destinationId": "place:Q612",
+      "title": {
+        "en": "Al Maktoum International (DWC)"
+      },
+      "guidance": {
+        "en": "DWC has no direct metro station in the operator’s guidance: a bus or taxi connection is needed. Check the current airport instructions for the onward link rather than following DXB terminal directions."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:dwc"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q612:expansion01-3",
+      "destinationId": "place:Q612",
+      "title": {
+        "en": "Creek heritage and Downtown"
+      },
+      "guidance": {
+        "en": "Plan these as separate outings. Check the RTA map and your final walking leg, and compare any creek crossing separately; this guide does not assume all tickets cover every mode."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:metro",
+        "source:expansion01:dubai:areas",
+        "source:expansion01:dubai:downtown"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q612:expansion01-history",
+      "destinationId": "place:Q612",
+      "kind": "other",
+      "text": {
+        "en": "Al Fahidi preserves traditional wind-tower architecture and streets from the city’s trading past. Al Shindagha’s museum adds context to life around the creek, while Downtown shows a very different stage of the city’s development."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:fahidi",
+        "source:expansion01:dubai:museum",
+        "source:expansion01:dubai:downtown"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q612:expansion01-cost-limits",
+      "destinationId": "place:Q612",
+      "kind": "booking",
+      "text": {
+        "en": "Deck visits, museums, creek crossings and airport links are separate costs. No accommodation price, citywide daily allowance or complete trip total is supplied by this guide."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q612:batch3-entry-alternative",
+      "destinationId": "place:Q612",
+      "kind": "booking",
+      "text": {
+        "en": "Check which museum buildings your ticket covers. If entry is unavailable, keep a creekside outing around Al Seef and Al Fahidi where access allows; this does not include museum interiors or a paid observation deck."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:batch3:dubai:museum-map",
+        "source:expansion01:dubai:fahidi",
+        "source:expansion01:dubai:seef"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q612:expansion01-2-nights",
+      "destinationId": "place:Q612",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Dubai"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q612:al-seef",
+          "day": 1,
+          "notes": {
+            "en": "A flexible creekside walk after arrival."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q612:fahidi",
+          "day": 2,
+          "notes": {
+            "en": "Start with the historical lanes."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q612:shindagha",
+          "day": 2,
+          "notes": {
+            "en": "Use a confirmed museum arrangement if you want an interior visit."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q612:burj-khalifa",
+          "day": 3,
+          "notes": {
+            "en": "A final Downtown outing only if your airport timing permits."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:seef",
+        "source:expansion01:dubai:fahidi",
+        "source:expansion01:dubai:museum",
+        "source:expansion01:dubai:downtown"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q612:expansion01-3-nights",
+      "destinationId": "place:Q612",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Dubai"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q612:al-seef",
+          "day": 1,
+          "notes": {
+            "en": "Keep the first visit close to the creek base if possible."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q612:fahidi",
+          "day": 2,
+          "notes": {
+            "en": "Explore the heritage streets without rushing to Downtown."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q612:shindagha",
+          "day": 3,
+          "notes": {
+            "en": "Give the museum its own outing and rest time."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q612:burj-khalifa",
+          "day": 4,
+          "notes": {
+            "en": "Choose exterior or paid deck; move earlier if departure is too soon."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:dubai:seef",
+        "source:expansion01:dubai:fahidi",
+        "source:expansion01:dubai:museum",
+        "source:expansion01:dubai:downtown"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ]
+}

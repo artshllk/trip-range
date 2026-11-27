@@ -1,0 +1,518 @@
+{
+  "destinationId": "istanbul",
+  "identitySubject": "istanbul",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:istanbul:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:istanbul:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q406",
+      "title": "Istanbul (Q406)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q406"
+      }
+    },
+    {
+      "id": "source:expansion01:istanbul:hagia",
+      "type": "official",
+      "url": "https://www.fatih.bel.tr/en/main/pages/the-hagia-sophia-grand-mosque-ayasofya-i-kebi/578",
+      "title": "Hagia Sophia Grand Mosque",
+      "publisher": "Fatih Municipality",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:palace",
+      "type": "official",
+      "url": "https://goturkiye.com/architecture/ottoman-imperial-architecture",
+      "title": "Ottoman imperial architecture",
+      "publisher": "Go Türkiye",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:cistern",
+      "type": "official",
+      "url": "https://goturkiye.com/architecture/architectural-wonders",
+      "title": "Architectural wonders: Basilica Cistern",
+      "publisher": "Go Türkiye",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:mosque",
+      "type": "official",
+      "url": "https://goturkiye.com/istanbul/blue-mosque",
+      "title": "Blue Mosque",
+      "publisher": "Go Türkiye",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:visits",
+      "type": "official",
+      "url": "https://www.sultanahmetcami.org/sayfa.php?s=ziyaretci-rehberi",
+      "title": "Blue Mosque visitor guide",
+      "publisher": "Sultanahmet Camii",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:ist",
+      "type": "official",
+      "url": "https://dhmi.gov.tr/Sayfalar/Havalimani/Istanbul/Ulasim.aspx",
+      "title": "Istanbul Airport transport",
+      "publisher": "DHMİ",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:saw",
+      "type": "official",
+      "url": "https://www.sabihagokcen.aero/passengers-and-visitors/transport-and-parking/transportation/metro-en",
+      "title": "Sabiha Gökçen metro",
+      "publisher": "Sabiha Gökçen Airport",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:tram",
+      "type": "official",
+      "url": "https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=T1",
+      "title": "T1 Kabataş–Bağcılar tram",
+      "publisher": "Metro Istanbul",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:istanbul:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:batch1review:istanbul:palace-operator",
+      "type": "official",
+      "url": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
+      "title": "Topkapı Palace: official visitor information",
+      "publisher": "National Palaces",
+      "retrievedAt": "2026-10-23T10:13:49Z",
+      "observedAt": "2026-10-23T10:13:49Z"
+    },
+    {
+      "id": "source:batch1review:istanbul:hagia-access",
+      "type": "official",
+      "url": "https://basin.ktb.gov.tr/TR-364045/ayasofya-i-kebir-camiinde-yeni-duzenleme-15-ocakta-basliyor.html",
+      "title": "Hagia Sophia visitor arrangements announced 12 January 2024",
+      "publisher": "Türkiye Ministry of Culture and Tourism",
+      "retrievedAt": "2026-10-23T10:13:49Z"
+    },
+    {
+      "id": "source:batch1review:istanbul:m4",
+      "type": "official",
+      "url": "https://www.metro.istanbul/en/Hatlarimiz/HatDetay?hat=M4",
+      "title": "M4 Kadıköy–Sabiha Gökçen Airport line and interchanges",
+      "publisher": "Metro İstanbul",
+      "retrievedAt": "2026-10-23T10:13:49Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Istanbul’s historic peninsula puts Byzantine and Ottoman landmarks close enough to explore as one area. Keep the major interiors on separate parts of your plan, and choose your base around the airport connection as well as the sights."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:istanbul:hagia",
+      "source:expansion01:istanbul:palace"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:istanbul:hagia-sophia",
+      "destinationId": "istanbul",
+      "name": {
+        "en": "Ayasofya (Hagia Sophia)"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Explore the building’s Byzantine and Ottoman history. Sightseeing arrangements and worship access are different; verify the current visitor entrance before going."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:hagia",
+        "source:batch1review:istanbul:hagia-access"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:istanbul:topkapi",
+      "destinationId": "istanbul",
+      "name": {
+        "en": "Topkapı Palace"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Visit the former Ottoman administrative centre and palace courtyards. Check the official ticket scope before adding optional sections to your plan."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:palace",
+        "source:batch1review:istanbul:palace-operator"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:istanbul:cistern",
+      "destinationId": "istanbul",
+      "name": {
+        "en": "Basilica Cistern"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Go underground to see a surviving Byzantine water-storage structure near Hagia Sophia. Treat it as a separate visit, not part of another landmark’s ticket."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:cistern"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:istanbul:blue-mosque",
+      "destinationId": "istanbul",
+      "name": {
+        "en": "Blue Mosque (Sultanahmet Camii)"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Look for the İznik tilework in this active mosque. Plan sightseeing around worship and follow the visitor guidance on arrival."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:mosque",
+        "source:expansion01:istanbul:visits"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:istanbul:expansion01-1",
+      "destinationId": "istanbul",
+      "name": {
+        "en": "Sultanahmet"
+      },
+      "summary": {
+        "en": "Consider this area for a stay centred on the historic peninsula."
+      },
+      "goodFor": [
+        {
+          "en": "Keeping the four landmark visits in one part of the city."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Airport journeys still need connections; location near a sight does not mean a direct airport ride."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:palace",
+        "source:expansion01:istanbul:tram",
+        "source:expansion01:istanbul:ist",
+        "source:expansion01:istanbul:saw"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:istanbul:expansion01-2",
+      "destinationId": "istanbul",
+      "name": {
+        "en": "Sirkeci and Eminönü"
+      },
+      "summary": {
+        "en": "Compare properties near the T1 corridor if onward tram travel matters to your plan."
+      },
+      "goodFor": [
+        {
+          "en": "Moving between the historic sights and the waterfront tram stops."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the exact stop, walking route and luggage access rather than relying on an area label."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:tram"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:istanbul:expansion01-1",
+      "destinationId": "istanbul",
+      "title": {
+        "en": "Arriving at IST"
+      },
+      "guidance": {
+        "en": "Istanbul Airport (IST) has metro, Havaist coach and IETT bus options. Choose an onward connection for your exact base; the airport metro is not a direct tram to Sultanahmet. Check current routes before departure."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:ist",
+        "source:expansion01:istanbul:tram"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:istanbul:expansion01-2",
+      "destinationId": "istanbul",
+      "title": {
+        "en": "Arriving at SAW"
+      },
+      "guidance": {
+        "en": "Sabiha Gökçen (SAW) is a different airport. M4 links it with Kadıköy and connects with Marmaray at Ayrılık Çeşmesi. Plan the onward leg to a European-side base separately."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:saw",
+        "source:batch1review:istanbul:m4"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:istanbul:expansion01-3",
+      "destinationId": "istanbul",
+      "title": {
+        "en": "Around the historic peninsula"
+      },
+      "guidance": {
+        "en": "T1 serves Sultanahmet, Gülhane, Sirkeci and Eminönü. Choose the stop for your entrance, then explore the surrounding streets on foot."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:tram",
+        "source:expansion01:istanbul:visits"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:istanbul:expansion01-history",
+      "destinationId": "istanbul",
+      "kind": "other",
+      "text": {
+        "en": "Hagia Sophia’s surviving structure dates from the Byzantine period; Topkapı later served as an Ottoman palace and administrative centre. Their different histories are visible within the same compact sightseeing area."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:hagia",
+        "source:expansion01:istanbul:palace"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:istanbul:expansion01-cost-limits",
+      "destinationId": "istanbul",
+      "kind": "booking",
+      "text": {
+        "en": "Airport journeys, attraction tickets and accommodation need separate checks. No ferry, taxi or admission allowance is supplied by this guide, and none should be read as included in a complete trip price."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:istanbul:batch1-palace-day",
+      "destinationId": "istanbul",
+      "kind": "closure",
+      "text": {
+        "en": "Topkapı Palace normally closes on Tuesdays. Swap the palace day with another outing when needed, and check holiday exceptions before booking."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:batch1review:istanbul:palace-operator"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-23T10:13:49Z",
+        "validUntil": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:istanbul:expansion01-2-nights",
+      "destinationId": "istanbul",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Istanbul"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:istanbul:blue-mosque",
+          "day": 1,
+          "notes": {
+            "en": "An arrival-day visit only when sightseeing access is open."
+          }
+        },
+        {
+          "attractionId": "attraction:istanbul:topkapi",
+          "day": 2,
+          "notes": {
+            "en": "Make the palace your main visit; move it to another day if this falls on a Tuesday."
+          }
+        },
+        {
+          "attractionId": "attraction:istanbul:cistern",
+          "day": 2,
+          "notes": {
+            "en": "Add the separate cistern visit only if the day remains comfortable."
+          }
+        },
+        {
+          "attractionId": "attraction:istanbul:hagia-sophia",
+          "day": 3,
+          "notes": {
+            "en": "Fit the visitor entrance to your departure time, or swap this with day two."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:mosque",
+        "source:expansion01:istanbul:visits",
+        "source:expansion01:istanbul:palace",
+        "source:expansion01:istanbul:cistern",
+        "source:expansion01:istanbul:hagia",
+        "source:batch1review:istanbul:palace-operator"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:istanbul:expansion01-3-nights",
+      "destinationId": "istanbul",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Istanbul"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:istanbul:blue-mosque",
+          "day": 1,
+          "notes": {
+            "en": "Begin near your base when worship and sightseeing arrangements allow."
+          }
+        },
+        {
+          "attractionId": "attraction:istanbul:topkapi",
+          "day": 2,
+          "notes": {
+            "en": "Make the palace your main visit; move it to another day if this falls on a Tuesday."
+          }
+        },
+        {
+          "attractionId": "attraction:istanbul:hagia-sophia",
+          "day": 3,
+          "notes": {
+            "en": "Check current tourist access."
+          }
+        },
+        {
+          "attractionId": "attraction:istanbul:cistern",
+          "day": 4,
+          "notes": {
+            "en": "A final separate visit if your departure permits; otherwise move it to day three."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:istanbul:mosque",
+        "source:expansion01:istanbul:visits",
+        "source:expansion01:istanbul:palace",
+        "source:expansion01:istanbul:hagia",
+        "source:expansion01:istanbul:cistern",
+        "source:batch1review:istanbul:palace-operator"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

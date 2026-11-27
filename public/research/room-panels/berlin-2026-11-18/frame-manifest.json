@@ -1,0 +1,33 @@
+{
+  "frame_id": "berlin-osm-2026-11-17-f487d9069dd9",
+  "status": "dated_geographic_extract_frozen_panel_freeze_blocked",
+  "snapshot_utc": "2026-11-17T21:24:30Z",
+  "prepared_date": "2026-11-18",
+  "extract_file": "evidence/osm-hotels.json",
+  "extract_sha256": "f487d9069dd977a3528e334c640889f52a281f3a10895a6dcd5337b9dd709ae1",
+  "source_pbf_url": "https://download.geofabrik.de/europe/germany/berlin-261117.osm.pbf",
+  "source_pbf_sha256": "15d99323b40e24de91e319549e2a82b9023d9caf16526be8e9c20dc769d9f847",
+  "central_point": {
+    "name": "Alexanderplatz — square footprint midpoint",
+    "latitude": 52.5219785,
+    "longitude": 13.4131949,
+    "source_url": "https://www.openstreetmap.org/way/783052052",
+    "coordinate_basis": "bounding_box_midpoint_of_pinned_osm_geometry",
+    "osm_type": "way",
+    "osm_id": 783052052,
+    "osm_version": 42,
+    "geometry_file": "evidence/osm-hotels.json#/centre_evidence",
+    "decision_reason": "User’s named landmark fixed before room prices; source geometry determines point, never moved to fit a panel."
+  },
+  "radius_metres": 2000,
+  "osm_object_count": 107,
+  "deduplicated_property_count": null,
+  "membership": "All tourism=hotel OSM objects within inclusive 2 km by Haversine distance; node point or full-geometry bbox midpoint. OSM stars are leads, never independent classification.",
+  "licence": "ODbL 1.0",
+  "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors. Regional extract supplied by Geofabrik.",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "derived_ordering_licence": "ODbL 1.0",
+  "public_pbf_note": "Public Geofabrik PBF omits user/changeset fields. Versions, timestamps and full contributing geometry retained.",
+  "immutable_id_rule": "Retain property IDs across later geometry/object replacements; no silent tie-key changes."
+}

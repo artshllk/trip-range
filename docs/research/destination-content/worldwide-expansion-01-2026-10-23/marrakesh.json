@@ -1,0 +1,428 @@
+{
+  "destinationId": "place:Q101625",
+  "identitySubject": "place:Q101625",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q101625:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q101625:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q101625",
+      "title": "Marrakesh (Q101625)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q101625"
+      }
+    },
+    {
+      "id": "source:expansion01:marrakesh:medina",
+      "type": "official",
+      "url": "https://www.visitmorocco.com/en/travel/marrakech/medina",
+      "title": "Medina in Marrakech",
+      "publisher": "Moroccan National Tourist Office",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:marrakesh:city",
+      "type": "official",
+      "url": "https://www.visitmorocco.com/fr/voyage/marrakech",
+      "title": "Marrakech",
+      "publisher": "Moroccan National Tourist Office",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:marrakesh:garden",
+      "type": "official",
+      "url": "https://www.jardinmajorelle.com/",
+      "title": "Jardin Majorelle official site",
+      "publisher": "Fondation Jardin Majorelle",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:marrakesh:airport",
+      "type": "official",
+      "url": "https://www.onda.ma/en/Our-Airports/Marrakech-M%C3%A9nara-Airport/Services/Taxi-Bus",
+      "title": "Marrakech-Ménara taxi and bus",
+      "publisher": "ONDA",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:marrakesh:taxi",
+      "type": "official",
+      "url": "https://www.onda.ma/mobile/Je-d%C3%A9couvre-ONDA/Actualit%C3%A9s/A%C3%A9roport-Marrakech-Menara-Mise-en-service-du-Guichet-unique-%C2%AB-kech.cab-%C2%BB-pour-la-pr%C3%A9commande-et-la-r%C3%A9servation-des-taxis",
+      "title": "Airport taxi ordering desk",
+      "publisher": "ONDA",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:marrakesh:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:marrakesh:garden-history",
+      "type": "official",
+      "url": "https://www.jardinmajorelle.com/wp-content/uploads/2022/12/Depliant-jm-en_web.pdf",
+      "title": "Jardin Majorelle English visitor leaflet",
+      "publisher": "Fondation Jardin Majorelle",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Marrakesh rewards a plan that leaves room for the medina as well as gardens outside it. Compare an old-city base with a wider-street district before booking, and ask how you will reach the exact entrance with luggage."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:marrakesh:medina",
+      "source:expansion01:marrakesh:garden"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q101625:jemaa",
+      "destinationId": "place:Q101625",
+      "name": {
+        "en": "Jemaa el-Fna"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Spend time around the square and the medina streets. Performances, food and individual businesses are separate choices, not an included tour or fixed dinner price."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q101625:koutoubia",
+      "destinationId": "place:Q101625",
+      "name": {
+        "en": "Koutoubia"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "See the minaret and its setting as an exterior stop. This itinerary makes no promise of tourist access inside the mosque."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q101625:majorelle",
+      "destinationId": "place:Q101625",
+      "name": {
+        "en": "Jardin Majorelle"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Make a separate garden outing using the operator’s own ticket information. The site currently directs visitors to online tickets; access is not guaranteed by this guide."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q101625:menara",
+      "destinationId": "place:Q101625",
+      "name": {
+        "en": "Menara Gardens"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Visit the olive-grove and basin landscape beyond the medina. Plan the outward and return journeys instead of assuming it is beside the square."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q101625:expansion01-1",
+      "destinationId": "place:Q101625",
+      "name": {
+        "en": "Medina"
+      },
+      "summary": {
+        "en": "Consider a riad-style base if exploring old-city streets is the focus."
+      },
+      "goodFor": [
+        {
+          "en": "Being close to the square and medina outings."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Confirm the vehicle drop-off and final walking approach with the property before arrival."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:city",
+        "source:expansion01:marrakesh:medina"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q101625:expansion01-2",
+      "destinationId": "place:Q101625",
+      "name": {
+        "en": "Guéliz and Hivernage"
+      },
+      "summary": {
+        "en": "Compare these districts outside the walls if wider streets suit your arrival plans."
+      },
+      "goodFor": [
+        {
+          "en": "A different base from the medina’s lane network."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Historic sights still need an onward journey; district choice does not prove a lower room price."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q101625:expansion01-1",
+      "destinationId": "place:Q101625",
+      "title": {
+        "en": "Marrakech-Ménara (RAK)"
+      },
+      "guidance": {
+        "en": "ONDA lists airport taxis and a city-airport bus shuttle. Check the posted taxi fare or current bus route for your destination, and confirm the final approach to your accommodation. No fixed fare or timetable is quoted here."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:airport",
+        "source:expansion01:marrakesh:taxi"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q101625:expansion01-2",
+      "destinationId": "place:Q101625",
+      "title": {
+        "en": "Between the medina and gardens"
+      },
+      "guidance": {
+        "en": "Keep the square and Koutoubia together. Treat Jardin Majorelle and Menara as separate outings with their own transport planning; they are not neighbouring stops on one medina walk."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina",
+        "source:expansion01:marrakesh:city",
+        "source:expansion01:marrakesh:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q101625:expansion01-history",
+      "destinationId": "place:Q101625",
+      "kind": "other",
+      "text": {
+        "en": "A former royal capital, Marrakesh keeps much of its identity in its medina, the Koutoubia minaret and the Menara gardens. Jardin Majorelle adds a different, artist-created garden landscape beyond the old-city core."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina",
+        "source:expansion01:marrakesh:garden",
+        "source:expansion01:marrakesh:garden-history"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q101625:expansion01-cost-limits",
+      "destinationId": "place:Q101625",
+      "kind": "booking",
+      "text": {
+        "en": "Riad taxes and mandatory fees, meals, garden tickets and airport travel need checking for your exact stay. No representative food or accommodation allowance is activated by this guide."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q101625:expansion01-2-nights",
+      "destinationId": "place:Q101625",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Marrakesh"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q101625:jemaa",
+          "day": 1,
+          "notes": {
+            "en": "An arrival-day square outing only if it fits your arrival."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q101625:koutoubia",
+          "day": 2,
+          "notes": {
+            "en": "An exterior stop on the medina side."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q101625:majorelle",
+          "day": 2,
+          "notes": {
+            "en": "Make a separate journey for the garden and its booked entry."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q101625:menara",
+          "day": 3,
+          "notes": {
+            "en": "Only with enough time for the outward and return journeys before departure."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina",
+        "source:expansion01:marrakesh:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q101625:expansion01-3-nights",
+      "destinationId": "place:Q101625",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Marrakesh"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q101625:jemaa",
+          "day": 1,
+          "notes": {
+            "en": "Leave the first outing flexible."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q101625:majorelle",
+          "day": 2,
+          "notes": {
+            "en": "Use the garden’s own ticket arrangements."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q101625:menara",
+          "day": 3,
+          "notes": {
+            "en": "Give this separate garden journey room in the day."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q101625:koutoubia",
+          "day": 4,
+          "notes": {
+            "en": "A final exterior stop if practical, or include it with the first medina outing."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:marrakesh:medina",
+        "source:expansion01:marrakesh:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

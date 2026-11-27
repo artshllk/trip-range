@@ -1,0 +1,298 @@
+{
+  "destinationId": "place:Q180402",
+  "identitySubject": "place:Q180402",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T13:57:05.855Z",
+  "sourceIds": [
+    "source:worldwide:place-Q180402:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q180402:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q180402",
+      "title": "Yosemite National Park (Q180402)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T11:58:22.074Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q180402"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q180402:places",
+      "type": "official",
+      "url": "https://www.nps.gov/yose/planyourvisit/placestogo.htm",
+      "title": "Places to go",
+      "publisher": "National Park Service",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:worldwide:place-Q180402:transport",
+      "type": "official",
+      "url": "https://www.nps.gov/yose/planyourvisit/publictransportation.htm",
+      "title": "Public transportation",
+      "publisher": "National Park Service",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:worldwide:place-Q180402:conditions",
+      "type": "official",
+      "url": "https://www.nps.gov/yose/planyourvisit/conditions.htm",
+      "title": "Current conditions",
+      "publisher": "National Park Service",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:phase5g:place-Q180402:airports",
+      "type": "official",
+      "url": "https://www.nps.gov/yose/planyourvisit/airports.htm",
+      "title": "Airports near Yosemite",
+      "publisher": "National Park Service",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-14T13:57:05.855Z",
+    "sourceIds": [
+      "source:worldwide:place-Q180402:places"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Yosemite spans a granite valley, sequoia groves and high-country meadows. Choose a park area before planning access and overnight stays.",
+      "sq": "Yosemite përfshin një luginë graniti, pyje sekuojash dhe livadhe malore. Zgjidh një zonë të parkut para se të planifikosh hyrjen dhe qëndrimin."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q180402:1",
+      "text": {
+        "en": "Granite cliffs around Yosemite Valley",
+        "sq": "Shkëmbinj graniti rreth Yosemite Valley"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q180402:2",
+      "text": {
+        "en": "Giant sequoias in Mariposa Grove",
+        "sq": "Sekuojat gjigante në Mariposa Grove"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q180402:valley",
+      "destinationId": "place:Q180402",
+      "name": {
+        "en": "Yosemite Valley",
+        "sq": "Yosemite Valley"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "Meadows sit beneath granite cliffs in the central valley.",
+        "sq": "Livadhet shtrihen nën shkëmbinj graniti në luginën qendrore."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q180402:glacier",
+      "destinationId": "place:Q180402",
+      "name": {
+        "en": "Glacier Point",
+        "sq": "Glacier Point"
+      },
+      "kind": "viewpoint",
+      "shortDescription": {
+        "en": "An overlook towards Yosemite Valley and Half Dome. Check road and trail conditions before planning access.",
+        "sq": "Pikë vrojtimi drejt Yosemite Valley dhe Half Dome. Kontrollo kushtet e rrugëve dhe shtigjeve para se të planifikosh vizitën."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:places",
+        "source:worldwide:place-Q180402:conditions"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q180402:grove",
+      "destinationId": "place:Q180402",
+      "name": {
+        "en": "Mariposa Grove",
+        "sq": "Mariposa Grove"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A grove of mature giant sequoias lies near the park’s southern entrance.",
+        "sq": "Një pyll sekuojash gjigante ndodhet pranë hyrjes jugore të parkut."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:places"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q180402:tuolumne",
+      "destinationId": "place:Q180402",
+      "name": {
+        "en": "Tuolumne Meadows",
+        "sq": "Tuolumne Meadows"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "Open high-country meadows along the Tuolumne River. Access depends on current road and seasonal conditions.",
+        "sq": "Livadhe të hapura malore përgjatë lumit Tuolumne. Mbërritja varet nga kushtet aktuale të rrugës dhe të stinës."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:places",
+        "source:worldwide:place-Q180402:conditions"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q180402:valley",
+      "destinationId": "place:Q180402",
+      "name": {
+        "en": "Yosemite Valley",
+        "sq": "Yosemite Valley"
+      },
+      "summary": {
+        "en": "A focus for valley visits. Check current shuttle routes and operating notices before relying on park transport.",
+        "sq": "Pikënisje për vizita në luginë. Kontrollo linjat aktuale të autobusëve dhe njoftimet e shërbimit para se të mbështetesh te transporti i parkut."
+      },
+      "goodFor": [
+        {
+          "en": "Valley visits",
+          "sq": "Vizita në luginë"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Other park areas need separate access planning.",
+          "sq": "Zonat e tjera të parkut kërkojnë planifikim të veçantë."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q180402:gateway",
+      "destinationId": "place:Q180402",
+      "title": {
+        "en": "Plan the journey from the airport",
+        "sq": "Planifiko udhëtimin nga aeroporti"
+      },
+      "guidance": {
+        "en": "Fresno Yosemite International Airport is outside the park. Reaching Yosemite requires a separate journey. Check transport, roads and cost for your chosen park area; the airfare alone does not cover it.",
+        "sq": "Aeroporti Fresno Yosemite International është jashtë parkut. Për Yosemite duhet një udhëtim më vete. Kontrollo transportin, rrugët dhe koston për zonën e zgjedhur; bileta e avionit nuk e mbulon këtë udhëtim."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:phase5g:place-Q180402:airports",
+        "source:worldwide:place-Q180402:conditions"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q180402:shuttles",
+      "destinationId": "place:Q180402",
+      "title": {
+        "en": "Use park transport information",
+        "sq": "Përdor informacionin e transportit të parkut"
+      },
+      "guidance": {
+        "en": "Check YARTS connections and Yosemite Valley shuttles for your dates; service beyond the valley varies by season.",
+        "sq": "Kontrollo lidhjet YARTS dhe autobusët e Yosemite Valley për datat e tua; shërbimi jashtë luginës ndryshon sipas stinës."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q180402:conditions",
+      "destinationId": "place:Q180402",
+      "kind": "other",
+      "text": {
+        "en": "Check NPS road, trail, shuttle and park-entry notices for your dates. High-country access and reservation requirements can change; this selection does not confirm access.",
+        "sq": "Kontrollo njoftimet e NPS për rrugët, shtigjet, autobusët dhe hyrjen në park për datat e tua. Hyrja në zonat malore dhe kërkesat për rezervim mund të ndryshojnë; kjo përzgjedhje nuk konfirmon aksesin."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:57:05.855Z",
+      "sourceIds": [
+        "source:worldwide:place-Q180402:conditions"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+    "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+    "approvedAt": "2026-10-14T13:57:05.855Z"
+  }
+}

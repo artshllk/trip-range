@@ -1,0 +1,48 @@
+{
+  "destinationId": "london",
+  "contentVersion": 5,
+  "digest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+  "reviewer": "GoEksplo Owner",
+  "reviewTimestamp": "2026-11-04T10:12:21.969Z",
+  "approvalTimestamp": "2026-11-04T10:12:33.994Z",
+  "warningsAcknowledged": [
+    {
+      "id": "phase2-source-review",
+      "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    },
+    {
+      "id": "presentation:8023965be1154c073696",
+      "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Westminster Abbey only; original Dishoom text and deadline unchanged, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    }
+  ],
+  "files": [
+    "content/destinations/london.json"
+  ],
+  "itemsBecomingReviewed": [
+    "destination",
+    "overview",
+    "attraction:london:westminster-abbey",
+    "attraction:london:national-gallery",
+    "attraction:london:tower",
+    "attraction:london:st-pauls",
+    "attraction:london:south-bank",
+    "area:london:westminster",
+    "area:london:south-bank",
+    "area:london:bloomsbury",
+    "transport:london:airport-choice",
+    "transport:london:heathrow",
+    "transport:london:gatwick-stansted",
+    "transport:london:luton",
+    "transport:london:city-southend",
+    "note:london:booking",
+    "note:phase4b:london:transport:1",
+    "note:phase4b:london:transport:2",
+    "note:phase4b:london:examples:1",
+    "note:phase4b:london:examples:2",
+    "day:london:2-nights",
+    "day:london:3-nights"
+  ],
+  "dryRun": false,
+  "writes": 1,
+  "externalCalls": 0
+}

@@ -1,0 +1,1198 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5e-batch2-cities",
+  "note": "Operator-only preparation log. Direct requests and source-reader operations are distinct; no claim about underlying search HTTP counts. Reports contain claim assessment. No editorial approvals, media research, airfare observations or paid AI.",
+  "actions": [
+    {
+      "destination": "batch:phase5e-batch2-cities",
+      "sourceUrl": "https://api.travelpayouts.com/data/en/cities.json",
+      "action": "direct-fetch",
+      "purpose": "Verify city/country and typed flightable airport relationships for the nine cities",
+      "result": "Public JSON retrieved once; only matching city and airport identity fields considered.",
+      "limitation": "No route availability or price evidence. Bus/harbour and non-flightable records excluded. No registry coordinate updates.",
+      "timestamp": "2026-10-13T22:53:33.686Z"
+    },
+    {
+      "destination": "batch:phase5e-batch2-cities",
+      "sourceUrl": "https://api.travelpayouts.com/data/en/airports.json",
+      "action": "direct-fetch",
+      "purpose": "Verify city/country and typed flightable airport relationships for the nine cities",
+      "result": "Public JSON retrieved once; only matching city and airport identity fields considered.",
+      "limitation": "No route availability or price evidence. Bus/harbour and non-flightable records excluded. No registry coordinate updates.",
+      "timestamp": "2026-10-13T22:53:34.334Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q25270",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://prishtina.rks-gov.net/wp-content/uploads/2024/12/prishtina_art-online.pdf",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://dtk.rks-gov.net/Objekti?heritageId=8622",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://www.galeriakombetare-rks.com/en/rreth-nesh",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://www.galeriakombetare-rks.com/en",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=55207",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://trafikurban-pr.com/2022/linja-e-aeroportit/",
+      "action": "open",
+      "purpose": "Recheck existing source and durable identity/content/transport claims",
+      "result": "Reader response inspected; source-specific findings recorded in Phase 5E evidence report.",
+      "limitation": "Source-reader failures are not evidence of a dead site; no live visit/access guarantees imported.",
+      "timestamp": "2026-10-13T22:53:36.304Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://dtk.rks-gov.net/Objekti?heritageId=8622",
+      "action": "open",
+      "purpose": "Inspect mosque relationship, gallery role and dated airport-bus notice",
+      "result": "Content inspected; January 2022 airport notice is historical and cannot prove current operation.",
+      "limitation": "No current timetable/entry claim; see evidence report.",
+      "timestamp": "2026-10-13T22:53:53.957Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://www.galeriakombetare-rks.com/en/rreth-nesh",
+      "action": "open",
+      "purpose": "Inspect mosque relationship, gallery role and dated airport-bus notice",
+      "result": "Content inspected; January 2022 airport notice is historical and cannot prove current operation.",
+      "limitation": "No current timetable/entry claim; see evidence report.",
+      "timestamp": "2026-10-13T22:53:53.957Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://trafikurban-pr.com/2022/linja-e-aeroportit/",
+      "action": "open",
+      "purpose": "Inspect mosque relationship, gallery role and dated airport-bus notice",
+      "result": "Content inspected; January 2022 airport notice is historical and cannot prove current operation.",
+      "limitation": "No current timetable/entry claim; see evidence report.",
+      "timestamp": "2026-10-13T22:53:53.957Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://prishtina.rks-gov.net/wp-content/uploads/2024/12/prishtina_art-online.pdf",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:39.364Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://prishtina.rks-gov.net/wp-content/uploads/2024/12/prishtina_art-online.pdf",
+      "result": "PDF retrieved; system pdftotext unavailable. Subsequent bundled pypdf inspection recorded separately."
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://dtk.rks-gov.net/Objekti?heritageId=8622",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:39.364Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://dtk.rks-gov.net/Objekti?heritageId=8622",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://www.galeriakombetare-rks.com/en/rreth-nesh",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:39.364Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.galeriakombetare-rks.com/en/rreth-nesh",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://www.galeriakombetare-rks.com/en",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:39.364Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.galeriakombetare-rks.com/en",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=55207",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:39.585Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://gzk.rks-gov.net/ActDocumentDetail.aspx?ActID=55207",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://trafikurban-pr.com/2022/linja-e-aeroportit/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:39.828Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://trafikurban-pr.com/2022/linja-e-aeroportit/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://caa.rks-gov.net/wp-content/uploads/2015/09/PIA-Incentive-Program-2016-2018.pdf",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:40.054Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://caa.rks-gov.net/wp-content/uploads/2015/09/PIA-Incentive-Program-2016-2018.pdf",
+      "result": "PDF retrieved; system pdftotext unavailable. Subsequent bundled pypdf inspection recorded separately."
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/venues/templo-mayor/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:40.055Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/venues/bellas-artes/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:41.028Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/?lang=en",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:41.291Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/guias-completas-de-rutas-de-la-ciudad-de-mexico/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:41.761Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/getting-around/metrobus/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:41.765Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "URLError: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://www.visitbrasil.com/en/location/rio-de-janeiro-en",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:41.780Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://parquesnaturais.visitbrasil.com/en/parques/tijuca",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:41.785Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://parquesnaturais.visitbrasil.com/en/parques/tijuca",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://feel.visitbrasil.com/en/sunrise-at-parque-bondinho/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:42.027Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://feel.visitbrasil.com/en/sunrise-at-parque-bondinho/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://www.metrorio.com.br/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:42.235Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.metrorio.com.br/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1486",
+      "sourceUrl": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/plaza-de-mayo",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:42.256Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/plaza-de-mayo",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1486",
+      "sourceUrl": "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/teatro-col%C3%B3n",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:42.848Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/teatro-col%C3%B3n",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1486",
+      "sourceUrl": "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/recoleta-cemetery",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:43.306Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://turismo.buenosaires.gob.ar/en/otros-establecimientos/recoleta-cemetery",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1486",
+      "sourceUrl": "https://turismo.buenosaires.gob.ar/es/circuitos-buenos-aires-sur/la-boca-cultural",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:43.899Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://turismo.buenosaires.gob.ar/es/circuitos-buenos-aires-sur/la-boca-cultural",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1486",
+      "sourceUrl": "https://turismo.buenosaires.gob.ar/es/article/moverse-por-la-ciudad",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:44.086Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://turismo.buenosaires.gob.ar/es/article/moverse-por-la-ciudad",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.capetown.travel/10-must-see-experiences-in-and-around-cape-town/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:44.827Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.sanbi.org/gardens/kirstenbosch/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:44.862Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.sanbi.org/gardens/kirstenbosch/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.robben-island.org.za/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:45.273Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.robben-island.org.za/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.sanbi.org/gardens/kirstenboch/visitor-information/information/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:45.300Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.sanbi.org/gardens/kirstenboch/visitor-information/information/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q101625",
+      "sourceUrl": "https://visitmorocco.com/en/discover-morocco/medinas-in-morocco",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:45.670Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://visitmorocco.com/en/discover-morocco/medinas-in-morocco",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q101625",
+      "sourceUrl": "https://www.visitmorocco.com/fr/voyage/marrakech",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:46.247Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitmorocco.com/fr/voyage/marrakech",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q101625",
+      "sourceUrl": "https://www.visitmorocco.com/fr/voyage/marrakech/medina",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:46.761Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitmorocco.com/fr/voyage/marrakech/medina",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q101625",
+      "sourceUrl": "https://www.jardinmajorelle.com/",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:47.245Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.jardinmajorelle.com/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/places-to-visit/dubai-old-town/al-fahidi-historical-neighbourhood",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:47.255Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/en/places-to-visit/dubai-old-town/al-fahidi-historical-neighbourhood",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/articles/things-to-do-in-bur-dubai",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:47.349Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/en/articles/things-to-do-in-bur-dubai",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/downtown-dubai",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:47.666Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/downtown-dubai",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/al-seef",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:47.795Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/al-seef",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/articles/dubai-cultural-walking-tour",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:48.466Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/articles/dubai-cultural-walking-tour",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "istanbul",
+      "sourceUrl": "https://goturkiye.com/architecture/architectural-wonders",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:48.622Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://goturkiye.com/architecture/architectural-wonders",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "istanbul",
+      "sourceUrl": "https://goturkiye.com/istanbul/basilica-cistern",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.025Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://goturkiye.com/istanbul/basilica-cistern",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "istanbul",
+      "sourceUrl": "https://goturkiye.com/tr/istanbul/sultanahmet-camii",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.178Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://goturkiye.com/tr/istanbul/sultanahmet-camii",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "istanbul",
+      "sourceUrl": "https://goturkiye.com/faith/sacred-relics-topkapi-palace",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.306Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://goturkiye.com/faith/sacred-relics-topkapi-palace",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "istanbul",
+      "sourceUrl": "https://www.metro.istanbul/en/Hatlarimiz/HatDetay?hat=T1",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.343Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.metro.istanbul/en/Hatlarimiz/HatDetay?hat=T1",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://www.sydney.com/in/destinations/sydney/sydney-city/sydney-harbour/sydney-opera-house",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.472Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.sydney.com/in/destinations/sydney/sydney-city/sydney-harbour/sydney-opera-house",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://www.sydney.com/destinations/sydney/sydney-city/city-centre/attractions/royal-botanic-garden-and-the-domain",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.568Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.sydney.com/destinations/sydney/sydney-city/city-centre/attractions/royal-botanic-garden-and-the-domain",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://www.sydney.com/in/things-to-do/arts-and-culture/sydney-culture-trails/the-rocks-and-surrounds",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:49.580Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.sydney.com/in/things-to-do/arts-and-culture/sydney-culture-trails/the-rocks-and-surrounds",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://transportnsw.info/document/4688/circular-quay-stop-guide.pdf",
+      "purpose": "Recheck existing source and claim correspondence",
+      "timestamp": "2026-10-13T22:54:50.103Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://transportnsw.info/document/4688/circular-quay-stop-guide.pdf",
+      "result": "PDF retrieved; system pdftotext unavailable. Subsequent bundled pypdf inspection recorded separately."
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:templomayor.inah.gob.mx museo Templo Mayor Tenochtitlan",
+      "action": "search",
+      "purpose": "Find direct institutional corroboration for the existing four-place shortlist",
+      "result": "Official-source results inspected.",
+      "limitation": "Search text considered only for bounded durable claims; detailed follow-ups recorded separately.",
+      "timestamp": "2026-10-13T22:55:34.957Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:mna.inah.gob.mx Museo Nacional Antropologia colecciones Piedra Sol",
+      "action": "search",
+      "purpose": "Find direct institutional corroboration for the existing four-place shortlist",
+      "result": "Official-source results inspected.",
+      "limitation": "Search text considered only for bounded durable claims; detailed follow-ups recorded separately.",
+      "timestamp": "2026-10-13T22:55:34.957Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:palacio.inba.gob.mx Palacio Bellas Artes museo arquitectura",
+      "action": "search",
+      "purpose": "Find direct institutional corroboration for the existing four-place shortlist",
+      "result": "Official-source results inspected.",
+      "limitation": "Search text considered only for bounded durable claims; detailed follow-ups recorded separately.",
+      "timestamp": "2026-10-13T22:55:34.957Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:chapultepec.org.mx bosque Chapultepec",
+      "action": "search",
+      "purpose": "Find direct institutional corroboration for the existing four-place shortlist",
+      "result": "Official-source results inspected.",
+      "limitation": "Search text considered only for bounded durable claims; detailed follow-ups recorded separately.",
+      "timestamp": "2026-10-13T22:55:34.957Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/venues/templo-mayor/",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/venues/bellas-artes/",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/?lang=en",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/guias-completas-de-rutas-de-la-ciudad-de-mexico/",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/getting-around/metrobus/",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://www.visitbrasil.com/en/location/rio-de-janeiro-en",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.capetown.travel/10-must-see-experiences-in-and-around-cape-town/",
+      "action": "open",
+      "purpose": "Use source reader after direct TLS/403 failure",
+      "result": "Reader response inspected; replacement or retained historical evidence explained in destination report.",
+      "limitation": "Direct source failure is recorded separately; no false successful retrieval timestamps.",
+      "timestamp": "2026-10-13T22:55:51.003Z"
+    },
+    {
+      "destination": "prishtina",
+      "source": "Biblioteka Kombëtare Kosovës Pjetër Bogdani official",
+      "action": "search",
+      "purpose": "Strengthen direct institutional sources for retained names and attractions",
+      "result": "Search results inspected; relevant source follow-up recorded separately.",
+      "limitation": "No added attractions or live operational claims.",
+      "timestamp": "2026-10-13T22:56:05.514Z"
+    },
+    {
+      "destination": "place:Q8678",
+      "source": "site:bondinho.com.br Morro Urca Pão de Açúcar official",
+      "action": "search",
+      "purpose": "Strengthen direct institutional sources for retained names and attractions",
+      "result": "Search results inspected; relevant source follow-up recorded separately.",
+      "limitation": "No added attractions or live operational claims.",
+      "timestamp": "2026-10-13T22:56:05.514Z"
+    },
+    {
+      "destination": "place:Q8678",
+      "source": "site:gov.br \"Parque Lage\" jardim",
+      "action": "search",
+      "purpose": "Strengthen direct institutional sources for retained names and attractions",
+      "result": "Search results inspected; relevant source follow-up recorded separately.",
+      "limitation": "No added attractions or live operational claims.",
+      "timestamp": "2026-10-13T22:56:05.514Z"
+    },
+    {
+      "destination": "place:Q5465",
+      "source": "site:capetown.travel \"Bo-Kaap\" colourful houses",
+      "action": "search",
+      "purpose": "Strengthen direct institutional sources for retained names and attractions",
+      "result": "Search results inspected; relevant source follow-up recorded separately.",
+      "limitation": "No added attractions or live operational claims.",
+      "timestamp": "2026-10-13T22:56:05.514Z"
+    },
+    {
+      "destination": "place:Q8678",
+      "source": "site:tremdocorcovado.rio Cristo Redentor Corcovado Parque Tijuca",
+      "action": "search",
+      "purpose": "Find direct operator corroboration and verify heritage wording",
+      "result": "Relevant official indexed source material inspected.",
+      "limitation": "Volatile access and marketing claims excluded.",
+      "timestamp": "2026-10-13T22:56:20.092Z"
+    },
+    {
+      "destination": "place:Q5465",
+      "source": "site:tablemountain.net cableway Table Mountain summit",
+      "action": "search",
+      "purpose": "Find direct operator corroboration and verify heritage wording",
+      "result": "Relevant official indexed source material inspected.",
+      "limitation": "Volatile access and marketing claims excluded.",
+      "timestamp": "2026-10-13T22:56:20.092Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com \"Al Seef\" \"recreated\"",
+      "action": "search",
+      "purpose": "Find direct operator corroboration and verify heritage wording",
+      "result": "Relevant official indexed source material inspected.",
+      "limitation": "Volatile access and marketing claims excluded.",
+      "timestamp": "2026-10-13T22:56:20.092Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:alshindagha.dubaiculture.gov.ae museum Dubai creek history",
+      "action": "search",
+      "purpose": "Find direct operator corroboration and verify heritage wording",
+      "result": "Relevant official indexed source material inspected.",
+      "limitation": "Volatile access and marketing claims excluded.",
+      "timestamp": "2026-10-13T22:56:20.092Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://bkk-pjeterbogdani.rks-gov.net/en/",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:49.272Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://bkk-pjeterbogdani.rks-gov.net/en/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://www.templomayor.inah.gob.mx/historia",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:49.272Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.templomayor.inah.gob.mx/historia",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://palacio.inba.gob.mx/recinto/historia",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:49.272Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://palacio.inba.gob.mx/recinto/historia",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mna.inah.gob.mx/el_museo.php",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:49.272Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "HTTPError: HTTP Error 468: "
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://tremdocorcovado.rio/institucional/historia",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:50.198Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://tremdocorcovado.rio/institucional/historia",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://www.bondinho.com.br/",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:50.872Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.bondinho.com.br/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/explore-dubai/dubai-neighbourhoods/al-seef",
+      "action": "open",
+      "purpose": "Verify heritage-inspired versus historic fabric",
+      "result": "Reader material inspected; no claim of original historic fabric adopted.",
+      "limitation": "No operational access claims.",
+      "timestamp": "2026-10-13T22:56:52.070Z"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://eavparquelage.rj.gov.br/o-parque",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:52.100Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "URLError: <urlopen error timed out>"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.tablemountain.net/plan-your-visit/getting-here",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:52.230Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.tablemountain.net/plan-your-visit/getting-here",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.capetown.travel/neighbourhood/bo-kaap/",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:52.328Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/places-to-visit/al-fahidi-historical-neighbourhood",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:52.608Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/en/places-to-visit/al-fahidi-historical-neighbourhood",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.visitdubai.com/en/places-to-visit/al-shindagha-museum",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:52.705Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.visitdubai.com/en/places-to-visit/al-shindagha-museum",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.burjkhalifa.ae/",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:52.817Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "result": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://www.sydney.com/destinations/sydney/sydney-city/sydney-harbour/sydney-harbour-bridge",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:53.352Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.sydney.com/destinations/sydney/sydney-city/sydney-harbour/sydney-harbour-bridge",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+      "purpose": "Strengthen institution/operator source correspondence",
+      "timestamp": "2026-10-13T22:56:54.061Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1489",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:54.072Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q1489",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q8678",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:54.094Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q8678",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1486",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1486",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:54.867Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q1486",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q5465",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q5465",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:54.940Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q5465",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q101625",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q101625",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:55.525Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q101625",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q612",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:55.592Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q612",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "istanbul",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q406",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:56.045Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q406",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q3130",
+      "purpose": "Recheck city entity distinction; preserve existing registry identity",
+      "timestamp": "2026-10-13T22:56:56.156Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Q3130",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com \"Al Seef\" \"heritage\" \"built\"",
+      "action": "search",
+      "purpose": "Recover specific official heritage evidence from sparse dynamic pages",
+      "result": "Search-indexed official text inspected; limited claims only.",
+      "limitation": "Indexed evidence does not imply a full direct page retrieval.",
+      "timestamp": "2026-10-13T22:57:05.788Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com \"Al Shindagha Museum\" \"maritime\"",
+      "action": "search",
+      "purpose": "Recover specific official heritage evidence from sparse dynamic pages",
+      "result": "Search-indexed official text inspected; limited claims only.",
+      "limitation": "Indexed evidence does not imply a full direct page retrieval.",
+      "timestamp": "2026-10-13T22:57:05.788Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com \"Al Fahidi\" \"wind towers\"",
+      "action": "search",
+      "purpose": "Recover specific official heritage evidence from sparse dynamic pages",
+      "result": "Search-indexed official text inspected; limited claims only.",
+      "limitation": "Indexed evidence does not imply a full direct page retrieval.",
+      "timestamp": "2026-10-13T22:57:05.788Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com/en/explore-dubai/dubai-neighbourhoods/al-seef \"heritage\"",
+      "action": "search",
+      "purpose": "Check full indexed Al Seef description",
+      "result": "Indexed description inspected for contemporary/heritage sections.",
+      "limitation": "Does not establish original historic fabric.",
+      "timestamp": "2026-10-13T22:57:28.001Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/ \"Chapultepec\"",
+      "action": "search",
+      "purpose": "Check retained institutional and geography claims against indexed official text",
+      "result": "Source text inspected.",
+      "limitation": "Indexed text only where direct rendering is incomplete; see evidence report.",
+      "timestamp": "2026-10-13T22:57:56.853Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:mexicocity.cdmx.gob.mx/venues/bellas-artes/ \"Art\"",
+      "action": "search",
+      "purpose": "Check retained institutional and geography claims against indexed official text",
+      "result": "Source text inspected.",
+      "limitation": "Indexed text only where direct rendering is incomplete; see evidence report.",
+      "timestamp": "2026-10-13T22:57:56.853Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com/en/places-to-visit/al-shindagha-museum",
+      "action": "search",
+      "purpose": "Check retained institutional and geography claims against indexed official text",
+      "result": "Source text inspected.",
+      "limitation": "Indexed text only where direct rendering is incomplete; see evidence report.",
+      "timestamp": "2026-10-13T22:57:56.853Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/venues/templo-mayor/",
+      "purpose": "TLS-compatible runtime retry of existing official source",
+      "timestamp": "2026-10-13T22:57:59.366Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://mexicocity.cdmx.gob.mx/venues/templo-mayor/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/venues/bellas-artes/",
+      "purpose": "TLS-compatible runtime retry of existing official source",
+      "timestamp": "2026-10-13T22:57:59.366Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://mexicocity.cdmx.gob.mx/venues/bellas-artes/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/?lang=en",
+      "purpose": "TLS-compatible runtime retry of existing official source",
+      "timestamp": "2026-10-13T22:57:59.366Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/?lang=en",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/guias-completas-de-rutas-de-la-ciudad-de-mexico/",
+      "purpose": "TLS-compatible runtime retry of existing official source",
+      "timestamp": "2026-10-13T22:57:59.367Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://mexicocity.cdmx.gob.mx/e/guias-completas-de-rutas-de-la-ciudad-de-mexico/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/getting-around/metrobus/",
+      "purpose": "TLS-compatible runtime retry of existing official source",
+      "timestamp": "2026-10-13T22:58:01.313Z",
+      "action": "direct-fetch",
+      "limitation": "Public source inspection only; no operational price, schedule or entry guarantees imported.",
+      "status": 200,
+      "finalUrl": "https://mexicocity.cdmx.gob.mx/e/getting-around/metrobus/",
+      "result": "HTML fetched; text saved for claim inspection"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/guias-completas-de-rutas-de-la-ciudad-de-mexico/",
+      "action": "find",
+      "purpose": "Verify source correspondence: Histórico",
+      "result": "Matched source text inspected.",
+      "limitation": "Reader excerpt, not a live operational guarantee.",
+      "timestamp": "2026-10-13T22:58:12.926Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/getting-around/metrobus/",
+      "action": "find",
+      "purpose": "Verify source correspondence: Metrobús",
+      "result": "Matched source text inspected.",
+      "limitation": "Reader excerpt, not a live operational guarantee.",
+      "timestamp": "2026-10-13T22:58:12.926Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "sourceUrl": "https://mexicocity.cdmx.gob.mx/e/el-top-de-ciudad-de-mexico/?lang=en",
+      "action": "find",
+      "purpose": "Verify source correspondence: Antropología",
+      "result": "No match for Spanish Antropología in English page; later direct text inspection found National Museum of Anthropology and Sun Stone.",
+      "limitation": "Reader excerpt, not a live operational guarantee.",
+      "timestamp": "2026-10-13T22:58:12.926Z"
+    },
+    {
+      "destination": "place:Q8678",
+      "sourceUrl": "https://www.visitbrasil.com/en/location/rio-de-janeiro-en",
+      "action": "find",
+      "purpose": "Verify source correspondence: Copacabana",
+      "result": "Matched source text inspected.",
+      "limitation": "Reader excerpt, not a live operational guarantee.",
+      "timestamp": "2026-10-13T22:58:12.926Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com/en/explore-dubai/dubai-neighbourhoods/downtown-dubai \"observation\"",
+      "action": "search",
+      "purpose": "Confirm remaining durable museum/transport/viewpoint claims",
+      "result": "Official indexed text inspected.",
+      "limitation": "No prices, timetables or guaranteed entry imported.",
+      "timestamp": "2026-10-13T22:58:42.762Z"
+    },
+    {
+      "destination": "place:Q612",
+      "source": "site:visitdubai.com/en/places-to-visit/abra-creek-crossing \"Bur Dubai\"",
+      "action": "search",
+      "purpose": "Confirm remaining durable museum/transport/viewpoint claims",
+      "result": "Official indexed text inspected.",
+      "limitation": "No prices, timetables or guaranteed entry imported.",
+      "timestamp": "2026-10-13T22:58:42.762Z"
+    },
+    {
+      "destination": "place:Q1489",
+      "source": "site:mna.inah.gob.mx/historia_detalle.php?id=4 \"colección\"",
+      "action": "search",
+      "purpose": "Confirm remaining durable museum/transport/viewpoint claims",
+      "result": "Official indexed text inspected.",
+      "limitation": "No prices, timetables or guaranteed entry imported.",
+      "timestamp": "2026-10-13T22:58:42.762Z"
+    },
+    {
+      "destination": "prishtina",
+      "sourceUrl": "https://prishtina.rks-gov.net/wp-content/uploads/2024/12/prishtina_art-online.pdf",
+      "action": "local-pdf-inspection",
+      "purpose": "Municipal PDF page 159: library and NEWBORN",
+      "result": "Bundled pypdf extracted relevant pages; complete extracted content inspected.",
+      "limitation": "Inspection time recorded after action; source document is not live operations evidence.",
+      "timestamp": "2026-10-13T23:00:22.794Z",
+      "timestampKind": "recorded-after-action"
+    },
+    {
+      "destination": "place:Q3130",
+      "sourceUrl": "https://transportnsw.info/document/4688/circular-quay-stop-guide.pdf",
+      "action": "local-pdf-inspection",
+      "purpose": "Circular Quay PDF: modes and geographic context",
+      "result": "Bundled pypdf extracted relevant pages; complete extracted content inspected.",
+      "limitation": "Inspection time recorded after action; source document is not live operations evidence.",
+      "timestamp": "2026-10-13T23:00:22.794Z",
+      "timestampKind": "recorded-after-action"
+    },
+    {
+      "destination": "place:Q5465",
+      "purpose": "Recheck precise imprisonment and anti-apartheid wording against the museum historical account",
+      "result": "Official indexed text explicitly describes political prisoners resisting oppression and apartheid; official prison-period overview also identifies colonial and apartheid imprisonment.",
+      "limitation": "Indexed official text inspected; no operational visitor claims adopted.",
+      "timestamp": "2026-10-13T23:05:53.780Z",
+      "sourceUrl": "https://www.robben-island.org.za/resistance-1960-1966/",
+      "action": "official-indexed-text"
+    }
+  ]
+}

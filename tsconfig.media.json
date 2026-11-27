@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.test.json",
+  "compilerOptions": {
+    "outDir": ".media-build"
+  },
+  "include": [
+    "scripts/check-destination-media.ts",
+    "scripts/discover-destination-media.ts",
+    "scripts/calibrate-destination-media.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

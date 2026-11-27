@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q34600",
+  "researchedAt": "2026-10-13T12:21:53Z",
+  "method": "Manual Kyoto-only official-source recheck. Counts are tool-level operations, not underlying HTTP requests. Separate from the immutable historical Phase 3F ledger.",
+  "throttling": [],
+  "limitations": [
+    "Official Yasaka-jinja English page direct open returned HTTP 503. No repeated direct retry or bypass. Search returned indexed shrine text, but no claim in the revision relies on that failed page. Kyoto City Tourism Association and directly retrieved JNTO text supply the retained shrine evidence.",
+    "The site-scoped search also returned unrelated/nonofficial results; none was used. Only official attraction/tourism evidence and Wikidata identity were retained.",
+    "No application research provider, image discovery, media approval, product AI or publication command was used."
+  ],
+  "actions": [
+    {
+      "kind": "open",
+      "count": 5,
+      "targets": [
+        "https://www.wikidata.org/wiki/Q34600",
+        "https://kyoto.travel/en/areas/gion-kiyomizu/",
+        "https://www.kiyomizudera.or.jp/en/learn/",
+        "https://kyoto.travel/en/getting-around/",
+        "https://kyoto.travel/en/itineraries"
+      ]
+    },
+    {
+      "kind": "find",
+      "count": 6,
+      "targets": [
+        {
+          "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+          "pattern": "Yasaka"
+        },
+        {
+          "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+          "pattern": "Maruyama"
+        },
+        {
+          "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+          "pattern": "private"
+        },
+        {
+          "url": "https://www.kiyomizudera.or.jp/en/learn/",
+          "pattern": "stage"
+        },
+        {
+          "url": "https://kyoto.travel/en/getting-around/",
+          "pattern": "comb"
+        },
+        {
+          "url": "https://kyoto.travel/en/itineraries",
+          "pattern": "Kiyomizu"
+        }
+      ]
+    },
+    {
+      "kind": "click",
+      "count": 4,
+      "targets": [
+        {
+          "from": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+          "link": "Responsible Travel | Gion Manner"
+        },
+        {
+          "from": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+          "link": "Hokan-ji Temple (Yasaka Pagoda) details"
+        },
+        {
+          "from": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+          "link": "Yasaka-jinja Shrine details"
+        },
+        {
+          "from": "https://kyoto.travel/en/itineraries",
+          "link": "Higashiyama at Dawn: Kiyomizu-dera Temple to Yasaka-jinja Shrine and Gion"
+        }
+      ]
+    },
+    {
+      "kind": "open",
+      "count": 1,
+      "targets": [
+        "https://kyoto.travel/en/getting-around/"
+      ],
+      "section": "main visitor guidance"
+    },
+    {
+      "kind": "find",
+      "count": 4,
+      "targets": [
+        {
+          "url": "https://kyoto.travel/en/destinations/yasakajinja-shrine/",
+          "pattern": "Shinto"
+        },
+        {
+          "url": "https://kyoto.travel/en/destinations/yasakajinja-shrine/",
+          "pattern": "Official"
+        },
+        {
+          "url": "https://kyoto.travel/en/destinations/hokanji-templeyasaka-pagoda/",
+          "pattern": "pagoda"
+        },
+        {
+          "url": "https://kyoto.travel/en/itineraries/higashiyama-at-dawn/",
+          "pattern": "Yasaka"
+        }
+      ]
+    },
+    {
+      "kind": "click",
+      "count": 1,
+      "targets": [
+        {
+          "from": "https://kyoto.travel/en/destinations/yasakajinja-shrine/",
+          "link": "Official Yasaka-jinja website"
+        }
+      ]
+    },
+    {
+      "kind": "search",
+      "count": 1,
+      "targets": [
+        "site.yasaka-jinja.or.jp/en Shinto"
+      ]
+    },
+    {
+      "kind": "open",
+      "count": 1,
+      "targets": [
+        "https://www.japan.travel/en/spot/78/"
+      ]
+    },
+    {
+      "kind": "find",
+      "count": 1,
+      "targets": [
+        {
+          "url": "https://www.japan.travel/en/spot/78/",
+          "pattern": "Shinto"
+        }
+      ]
+    }
+  ]
+}

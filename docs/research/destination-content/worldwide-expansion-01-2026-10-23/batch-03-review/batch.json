@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch3-review-v1",
+  "preparedAt": "2026-10-23T22:32:14Z",
+  "ownerReviewLocalDate": "2026-10-24",
+  "baseCommit": "6a464b9caa0fdf9a869f26a094640efd9a64f72e",
+  "status": "unpublished-owner-approval-pending",
+  "publicationAuthorized": false,
+  "cities": [
+    {
+      "slug": "cape-town",
+      "name": "Cape Town",
+      "destinationId": "place:Q5465",
+      "region": "Africa",
+      "why": "Existing southern African identity; weather-dependent sights, airport-bus suspension and dispersed journeys need honest practical planning.",
+      "baseRecordPath": "content/destinations/place-Q5465.json",
+      "baseRecordSha256": "c648b2a0f89f67a1bb75c925abec6dc4ee7bcf80f24d6fd760d3ed15251b0d45",
+      "identityPath": "content/places/place-Q5465.json",
+      "identitySha256": "f268b4489aa4957e01875c173bd4bbef1262785ca19e1f31fd610ffaaa27718b",
+      "contentVersion": 4,
+      "candidateFile": "drafts/cape-town.json",
+      "evidenceFile": "drafts/cape-town-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/cape-town",
+        "canonical": "https://www.goeksplo.com/en/destinations/cape-town",
+        "title": "Cape Town guide: short stays and transport planning",
+        "h1": "Cape Town: plan a short trip",
+        "description": "Plan Cape Town around mountain, island and neighbourhood outings, with honest airport guidance and flexible two- or three-night sightseeing plans.",
+        "intentKeywords": [
+          "Cape Town short stay itinerary",
+          "Cape Town airport transfer planning",
+          "Cape Town mountain or island trip budget"
+        ],
+        "relatedGuideSlugs": [
+          "marrakesh"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [
+        {
+          "assetId": "commons:126494271",
+          "status": "candidate-only-owner-approval-pending",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Cape_Town_-View_From_The_Table_Mountain.jpg",
+          "proposal": "media/approval-proposal.json",
+          "publicationEligible": false
+        }
+      ],
+      "limitations": [
+        "MyCiTi suspension notice is current source evidence, not a service status guarantee for a future trip. Recheck before publication and travel.",
+        "Cableway weather widgets can be stale; only the general weather-dependent service rule is used.",
+        "Bo-Kaap page includes unrelated Newlands template text; only its actual Bo-Kaap introduction is used."
+      ],
+      "integrationNotes": [
+        "Unpublished owner candidate; no runtime allowlist or publication change.",
+        "Use the existing shared guide/card components and context-preserving planning action.",
+        "Only link to related guides after their own approved local publication; no direct-flight promise.",
+        "Two- and three-night templates retain conditional arrival/departure stops; no itinerary is a booked package."
+      ],
+      "originalCandidateFile": "../cape-town.json",
+      "originalCandidateSha256": "b85704086dec84a9e701739254c3909280b00c224c40595a6cb78d15f705b74f",
+      "candidateFileSha256": "ccbe808ad520eed8d27d054a5d8d195e67acee5539aa1307a8eeee8df72ce6a5",
+      "accessPath": "content/travel/access/place-Q5465.json",
+      "corrections": [
+        "Rechecked the explicit MyCiTi airport suspension against the operator; old A01 timetable is not usable evidence.",
+        "Added the museum’s own tour page and conditional weather/demand limits; no tour times or prices copied."
+      ],
+      "planningStatus": "passed-existing-city-group-prefill-and-canonical-server-resolution",
+      "mediaStatus": "candidate-only-owner-approval-pending",
+      "accessSha256": "5a8afea9e141e5f76606f6ad24b76603da82220e0124f08e9e6bd4dcf4a5e457"
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "destinationId": "place:Q8678",
+      "region": "South America",
+      "why": "Existing South American identity; separates airports and ticketed viewpoints while retaining a closure caveat instead of promising a mansion visit.",
+      "baseRecordPath": "content/destinations/place-Q8678.json",
+      "baseRecordSha256": "1945057e41eb494153e52dfbeb373b81eb486069b4849631a3af6afd4833c573",
+      "identityPath": "content/places/place-Q8678.json",
+      "identitySha256": "721d420c5fa2c5b1f101b63854508569f4c2404620f685125e207e8123803dcd",
+      "contentVersion": 4,
+      "candidateFile": "drafts/rio-de-janeiro.json",
+      "evidenceFile": "drafts/rio-de-janeiro-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/rio-de-janeiro",
+        "canonical": "https://www.goeksplo.com/en/destinations/rio-de-janeiro",
+        "title": "Rio guide: beaches, viewpoints and arrival planning",
+        "h1": "Rio de Janeiro: plan a short trip",
+        "description": "Plan Rio with separate beach and viewpoint outings, GIG/SDU guidance and clear limits around airport transfers, weather and Parque Lage access.",
+        "intentKeywords": [
+          "Rio de Janeiro 3 night itinerary",
+          "GIG SDU airport planning",
+          "Rio viewpoint tickets trip budget"
+        ],
+        "relatedGuideSlugs": [
+          "mexico-city"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [
+        {
+          "assetId": "commons:133796307",
+          "status": "candidate-only-owner-approval-pending",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Urca_and_Botafogo_Bay,_Rio_de_Janeiro,_Brazil.jpg",
+          "proposal": "media/approval-proposal.json",
+          "publicationEligible": false
+        }
+      ],
+      "limitations": [
+        "RRJ ground transport is unverified; this candidate must not claim complete all-airport guidance.",
+        "Parque Lage source retains generic interior information below its explicit restoration closure notice; the closure takes precedence. No courtyard/interior is included.",
+        "Some tourism pages return only navigation; Riotur and current operator evidence support the limited place/transport copy. No live fares, services or safe-route rating verified."
+      ],
+      "integrationNotes": [
+        "Unpublished owner candidate; no runtime allowlist or publication change.",
+        "Use the existing shared guide/card components and context-preserving planning action.",
+        "Only link to related guides after their own approved local publication; no direct-flight promise.",
+        "Two- and three-night templates retain conditional arrival/departure stops; no itinerary is a booked package."
+      ],
+      "originalCandidateFile": "../rio-de-janeiro.json",
+      "originalCandidateSha256": "6a84d60f1b77e021eab0ee81d0357aa744335de9abc80e2feeb0d2dc9d20751e",
+      "candidateFileSha256": "9c9791ac5f84b2037b123693b9b1faeec44986bd12506412daed56ff8002c86a",
+      "accessPath": "content/travel/access/place-Q8678.json",
+      "corrections": [
+        "Replaced the unsupported port-growth history with the operator-backed estate/art-school context of Parque Lage. Its restoration closure is short-dated, not a permanent city-history claim.",
+        "Updated VLT references to current Motiva operator URLs and retained separate GIG, SDU and unverified RRJ legs. No through-fare or airport metro assumed.",
+        "Added Riotur’s distinct Selarón/centre and beach geography; no airport transfer is presented as included."
+      ],
+      "planningStatus": "passed-existing-city-group-prefill-and-canonical-server-resolution",
+      "mediaStatus": "candidate-only-owner-approval-pending",
+      "accessSha256": "e34a05583d1128ee86dd7b9629e29d51abe253cbcc3d3b54c6321e8e0b646141"
+    },
+    {
+      "slug": "sydney",
+      "name": "Sydney",
+      "destinationId": "place:Q3130",
+      "region": "Oceania",
+      "why": "Existing Oceania identity and connected harbour sights; adds genuine Indigenous context and distinguishes SYD from the new WSI arrangements.",
+      "baseRecordPath": "content/destinations/place-Q3130.json",
+      "baseRecordSha256": "9e328316c9bd22b8629f0c57ef49e862224922889553de259ce0663a3db4b4d9",
+      "identityPath": "content/places/place-Q3130.json",
+      "identitySha256": "a2b5bdb3cc06ad04c8f04eba4d31c1bd76f198437559e620fa728460ac2dbeeb",
+      "contentVersion": 4,
+      "candidateFile": "drafts/sydney.json",
+      "evidenceFile": "drafts/sydney-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/sydney",
+        "canonical": "https://www.goeksplo.com/en/destinations/sydney",
+        "title": "Sydney guide: harbour stays and airport budget checks",
+        "h1": "Sydney: plan a short trip",
+        "description": "Plan a short Sydney harbour stay with The Rocks, Opera House, garden and bridge, plus distinct SYD/WSI guidance and airport-fee cautions.",
+        "intentKeywords": [
+          "Sydney 3 night itinerary",
+          "Sydney airport station fee budget",
+          "SYD WSI difference arrival"
+        ],
+        "relatedGuideSlugs": [
+          "singapore",
+          "london"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [
+        {
+          "assetId": "commons:73107560",
+          "status": "candidate-only-owner-approval-pending",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+          "proposal": "media/approval-proposal.json",
+          "publicationEligible": false
+        }
+      ],
+      "limitations": [
+        "WSI opening is imminent at review time; its operator/service status must be rechecked before publication. The candidate quotes no opening date and promises no current flight or metro operation.",
+        "Several Destination NSW pages were readable only as indexed primary text after 405 responses. Stable place geography is used; hotel listings and prices are not evidence.",
+        "Airport station access fees have separate rules and a separate weekly cap; ordinary daily/weekly caps do not include them."
+      ],
+      "integrationNotes": [
+        "Unpublished owner candidate; no runtime allowlist or publication change.",
+        "Use the existing shared guide/card components and context-preserving planning action.",
+        "Only link to related guides after their own approved local publication; no direct-flight promise.",
+        "Two- and three-night templates retain conditional arrival/departure stops; no itinerary is a booked package."
+      ],
+      "originalCandidateFile": "../sydney.json",
+      "originalCandidateSha256": "c5eda1c517abf26389fd486dfeea24a357a7c1c6874612cf240f6aa8f20733ad",
+      "candidateFileSha256": "f2881cbbda59c5669fc80409b9a837e0fc8aff936798a8d2e06e6ed71933887f",
+      "accessPath": "content/travel/access/place-Q3130.json",
+      "corrections": [
+        "Clarified that the airport station fee is separate from normal Opal travel caps and has its own weekly cap for Opal/contactless. No amount copied.",
+        "Replaced the imminently stale WSI opening-date sentence with an explicit opening/service-notice check. No SYD instructions or direct metro service is implied for WSI.",
+        "Replaced the empty Tubowgule page with the Opera House’s substantive First Nations source; no event dates or attendance promise added."
+      ],
+      "planningStatus": "passed-existing-city-group-prefill-and-canonical-server-resolution",
+      "mediaStatus": "candidate-only-owner-approval-pending",
+      "accessSha256": "593c739d39567c7baed6a1e9bfc0f99b3b821a4c165eedc66914ed562a34358c"
+    },
+    {
+      "slug": "dubai",
+      "name": "Dubai",
+      "destinationId": "place:Q612",
+      "region": "Middle East",
+      "why": "An existing Middle Eastern city identity; balances creek heritage with Downtown and corrects the risk of treating DWC as a metro-served DXB terminal.",
+      "baseRecordPath": "content/destinations/place-Q612.json",
+      "baseRecordSha256": "c87657b96f0e36506938e0b173639297cc1c91d949138e06bc306d26dc8eec38",
+      "identityPath": "content/places/place-Q612.json",
+      "identitySha256": "b2dd131835c7e2bc7074ba8e14d6661c25463cc2bfb1ad46778ace4f670d4328",
+      "contentVersion": 4,
+      "candidateFile": "drafts/dubai.json",
+      "evidenceFile": "drafts/dubai-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/dubai",
+        "canonical": "https://www.goeksplo.com/en/destinations/dubai",
+        "title": "Dubai guide: creek heritage, Downtown and airports",
+        "h1": "Dubai: plan a short trip",
+        "description": "Plan a focused Dubai stay with Al Fahidi, the creek, Downtown and distinct DXB/DWC connections, without treating optional tickets as included costs.",
+        "intentKeywords": [
+          "Dubai 2 night itinerary",
+          "Dubai creek or Downtown where to stay",
+          "DXB DWC metro difference"
+        ],
+        "relatedGuideSlugs": [
+          "istanbul",
+          "singapore"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [
+        {
+          "assetId": "commons:68665373",
+          "status": "candidate-only-owner-approval-pending",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Dubai_Creek_with_dhow_station.jpg",
+          "proposal": "media/approval-proposal.json",
+          "publicationEligible": false
+        }
+      ],
+      "limitations": [
+        "DWC airport copy mixes interchange examples and contains a misleading generic airport-station sentence. RTA map and bus/taxi guidance support only the scoped connection advice.",
+        "Fresh museum visit page could not be fetched. The official museum brochure verifies geography/content, not current pavilion access or a recurring closure day.",
+        "Some Dubai tourism pages expose only headings directly; source-backed indexed primary text is used for stable history and district facts."
+      ],
+      "integrationNotes": [
+        "Unpublished owner candidate; no runtime allowlist or publication change.",
+        "Use the existing shared guide/card components and context-preserving planning action.",
+        "Only link to related guides after their own approved local publication; no direct-flight promise.",
+        "Two- and three-night templates retain conditional arrival/departure stops; no itinerary is a booked package."
+      ],
+      "originalCandidateFile": "../dubai.json",
+      "originalCandidateSha256": "718e33a72327b309da51a622b4597f5a8f6b418528e33e5ce7ca0eb3d036d5d7",
+      "candidateFileSha256": "53a8b04500e14ee9f902916b24faa9997eb92a32ce36ffecafe73904b3f4044f",
+      "accessPath": "content/travel/access/place-Q612.json",
+      "corrections": [
+        "Retained DXB Terminal 1/3 versus DWC bus/taxi distinction; conflicting interchange examples on the airport page are not prescribed.",
+        "Added the official museum map and a conditional exterior creek alternative if entry or a pavilion is unavailable. No whole-museum closing day inferred from an older pavilion-closure marker."
+      ],
+      "planningStatus": "passed-existing-city-group-prefill-and-canonical-server-resolution",
+      "mediaStatus": "candidate-only-owner-approval-pending",
+      "accessSha256": "ec37651dce01e79977fdf17a85b01178f6e26e0a813c1d3d2516e10be0a6f26b"
+    }
+  ]
+}

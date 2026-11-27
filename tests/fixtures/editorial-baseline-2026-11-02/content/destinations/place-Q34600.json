@@ -1,0 +1,502 @@
+{
+  "destinationId": "place:Q34600",
+  "identitySubject": "place:Q34600",
+  "contentVersion": 4,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-23T22:18:26.324Z",
+  "sourceIds": [
+    "source:worldwide:place-Q34600:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q34600:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q34600",
+      "title": "Kyoto (Q34600)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T12:21:53Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q34600"
+      }
+    },
+    {
+      "id": "source:expansion01:kyoto:kiyomizu",
+      "type": "official",
+      "url": "https://www.kiyomizudera.or.jp/en/learn/",
+      "title": "Learn about Kiyomizu-dera",
+      "publisher": "Kiyomizu-dera Temple",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:area",
+      "type": "official",
+      "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "title": "Gion & Kiyomizu",
+      "publisher": "Kyoto City Tourism Association",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:walk",
+      "type": "official",
+      "url": "https://kyoto.travel/en/itineraries/higashiyama-at-dawn/",
+      "title": "Higashiyama walk",
+      "publisher": "Kyoto City Tourism Association",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:shrine",
+      "type": "official",
+      "url": "https://www.japan.travel/en/spot/78/",
+      "title": "Yasaka-jinja Shrine",
+      "publisher": "Japan National Tourism Organization",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:manners",
+      "type": "official",
+      "url": "https://kyoto.travel/en/responsible-travel/gion-manner-message-from-southern-gionmachi/",
+      "title": "Gion visitor manners",
+      "publisher": "Kyoto City Tourism Association / Southern Gionmachi",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:getting",
+      "type": "official",
+      "url": "https://kyoto.travel/en/getting-to",
+      "title": "Getting to Kyoto",
+      "publisher": "Kyoto City Tourism Association",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:around",
+      "type": "official",
+      "url": "https://kyoto.travel/en/getting-around/",
+      "title": "Getting Around Kyoto",
+      "publisher": "Kyoto City Tourism Association",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:inari",
+      "type": "official",
+      "url": "https://www.japan.travel/en/spot/1128/",
+      "title": "Fushimi Inari Taisha",
+      "publisher": "Japan National Tourism Organization",
+      "retrievedAt": "2026-10-23T16:28:16Z"
+    },
+    {
+      "id": "source:expansion01:kyoto:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Start a short Kyoto stay with the eastern temple streets. Kiyomizu-dera, Yasaka Pagoda and Yasaka-jinja fit a focused outing; with another day, consider a separate rail journey to Fushimi Inari. Respect worship spaces and residential lanes."
+    },
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-23T22:18:26.324Z",
+    "sourceIds": [
+      "source:expansion01:kyoto:kiyomizu",
+      "source:expansion01:kyoto:area",
+      "source:expansion01:kyoto:inari"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q34600:kiyomizu",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Kiyomizu-dera"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Visit the hillside temple and its timber stage. The approach is part of the outing; check current access if slopes or steps are a concern."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:kiyomizu",
+        "source:expansion01:kyoto:walk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q34600:yasaka",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Yasaka-jinja"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Explore the shrine at the edge of Gion, with Maruyama Park nearby. Keep worship access and sightseeing etiquette in mind."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:shrine",
+        "source:expansion01:kyoto:area"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q34600:hokanji",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Hokan-ji (Yasaka Pagoda)"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Look for the pagoda among the lanes below Kiyomizu-dera. This plan is for an exterior view and does not assume the building is open inside."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:area",
+        "source:expansion01:kyoto:walk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q34600:maruyama",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Maruyama Park"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Use the park east of Yasaka-jinja as a slower outdoor stop. Do not plan around blossom displays without checking the season and current conditions."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:shrine",
+        "source:expansion01:kyoto:walk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q34600:expansion01-5",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Fushimi Inari Taisha"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Make a separate southern-Kyoto outing to the shrine and torii-lined paths. Choose a walking extent that suits you; the plan does not require a full mountain circuit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:inari"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q34600:expansion01-1",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Gion and southern Higashiyama"
+      },
+      "summary": {
+        "en": "Consider a base around the reviewed eastern sights if you want to explore on foot."
+      },
+      "goodFor": [
+        {
+          "en": "Temple streets and shorter local outings."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check slopes, luggage access and private-lane rules at the exact property."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:area",
+        "source:expansion01:kyoto:manners"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q34600:expansion01-2",
+      "destinationId": "place:Q34600",
+      "name": {
+        "en": "Kyoto Station area"
+      },
+      "summary": {
+        "en": "Consider this base if airport and intercity connections are the main logistical priority."
+      },
+      "goodFor": [
+        {
+          "en": "Access to the station used by airport rail and bus services."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The eastern temple area still needs a separate local connection."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:getting",
+        "source:expansion01:kyoto:around"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q34600:expansion01-1",
+      "destinationId": "place:Q34600",
+      "title": {
+        "en": "Arriving through KIX or ITM"
+      },
+      "guidance": {
+        "en": "From Kansai (KIX), compare Haruka rail and airport-limousine connections. Osaka Itami (ITM) has different bus and rail-change options. Neither airport is in Kyoto: price the actual ground leg separately."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:getting"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q34600:expansion01-2",
+      "destinationId": "place:Q34600",
+      "title": {
+        "en": "Around Kyoto and the eastern sights"
+      },
+      "guidance": {
+        "en": "Use the official planner to reach your base. The eastern walk links Kiyomizu-dera, Yasaka Pagoda and Yasaka-jinja; allow for slopes and crowds. Fushimi Inari is a separate southern-Kyoto rail outing."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:around",
+        "source:expansion01:kyoto:walk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q34600:expansion01-history",
+      "destinationId": "place:Q34600",
+      "kind": "other",
+      "text": {
+        "en": "Kiyomizu-dera’s hillside setting and timber stage help explain the city’s temple landscape. Gion developed around Yasaka-jinja; its traditional entertainment culture is still part of a living neighbourhood."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:kiyomizu",
+        "source:expansion01:kyoto:area"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q34600:expansion01-cost-limits",
+      "destinationId": "place:Q34600",
+      "kind": "booking",
+      "text": {
+        "en": "The Osaka-airport transfer is a required separate planning item. This guide does not price it, hotel rooms, meals or temple entry; missing amounts must not be treated as zero."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q34600:batch2-visitor-alternatives",
+      "destinationId": "place:Q34600",
+      "kind": "booking",
+      "text": {
+        "en": "If a temple visit is unavailable, adapt the eastern outing around public streets and an exterior view of Yasaka Pagoda. Respect signs, private lanes and worshippers; do not treat an exterior stop as permission to enter a building or restricted area."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:walk",
+        "source:expansion01:kyoto:manners"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q34600:expansion01-2-nights",
+      "destinationId": "place:Q34600",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Kyoto"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q34600:yasaka",
+          "day": 1,
+          "notes": {
+            "en": "Begin near Gion if arrival leaves time."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:kiyomizu",
+          "day": 2,
+          "notes": {
+            "en": "Make the hillside temple the main visit."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:hokanji",
+          "day": 2,
+          "notes": {
+            "en": "Continue to an exterior view of the pagoda on the same eastern-city outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:maruyama",
+          "day": 3,
+          "notes": {
+            "en": "An optional nearby park break only if your base and departure time allow it."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:shrine",
+        "source:expansion01:kyoto:area",
+        "source:expansion01:kyoto:walk",
+        "source:expansion01:kyoto:kiyomizu"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q34600:expansion01-3-nights",
+      "destinationId": "place:Q34600",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Kyoto"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q34600:yasaka",
+          "day": 1,
+          "notes": {
+            "en": "A gentle start near Gion, respecting worshippers."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:kiyomizu",
+          "day": 2,
+          "notes": {
+            "en": "Allow time for the hillside approach."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:hokanji",
+          "day": 2,
+          "notes": {
+            "en": "An exterior view on the same eastern-city outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:expansion01-5",
+          "day": 3,
+          "notes": {
+            "en": "Use the rail approach for a separate southern-Kyoto visit."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q34600:maruyama",
+          "day": 4,
+          "notes": {
+            "en": "A final nearby park break only if it fits your base and departure."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:18:26.324Z",
+      "sourceIds": [
+        "source:expansion01:kyoto:shrine",
+        "source:expansion01:kyoto:area",
+        "source:expansion01:kyoto:kiyomizu",
+        "source:expansion01:kyoto:walk",
+        "source:expansion01:kyoto:inari"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "publication": {
+    "contentDigest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+    "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+    "approvedAt": "2026-10-23T22:18:26.324Z"
+  }
+}

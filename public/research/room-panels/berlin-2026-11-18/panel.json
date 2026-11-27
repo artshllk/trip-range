@@ -1,0 +1,617 @@
+{
+  "method_version": "room-panel-v9-score-free-dated-classification",
+  "city": "Berlin",
+  "city_slug": "berlin",
+  "country_code": "DE",
+  "currency": "EUR",
+  "status": "frozen",
+  "target_properties": 6,
+  "standard_properties": 8,
+  "shortfall_from_standard": 2,
+  "size_decision": {
+    "policy": "v9-exhausted-frame-2026-11-18",
+    "approved_date": "2026-11-18",
+    "properties": 6,
+    "standard_properties": 8,
+    "basis": "frame_exhausted",
+    "radius_metres": 2000,
+    "classification_maximum_age_months": 36,
+    "reason": "All 107 fixed OSM frame objects have decisions: six eligible, 101 excluded under the unchanged evidence/room/direct-booking rules. Grimm’s and Allegra excluded for classification ceiling before January use; no admissible replacements established. Owner authorizes freezing six under the general exhausted-frame rule.",
+    "planned_band_percent": 35,
+    "limitation_notice": "This panel uses fewer than eight properties. Its estimate carries wider uncertainty; the size of that difference has not been measured. The planning band is provisional editorial guidance, not a calibrated confidence interval or a guarantee of bookable prices."
+  },
+  "frozen_date": "2026-11-18",
+  "prepared_date": "2026-11-18",
+  "composition_id": "ber-v9-5e6ad5a24dbd",
+  "composition_sha256": "5e6ad5a24dbd86ed8b6c76efa36ba2aa9939d868e36af6ad3e9cebd4111eb04b",
+  "candidate_audit_sha256": "84156f3fbe25bff0c1f5080335c7faa4e688a4bbfcdbcd4a5118b97d3bb74368",
+  "method_sha256": "6d5cd95317f540a66e92e58aa2b38f8a7c72e0156687b89d41e4669ef9af8765",
+  "frame_id": "berlin-osm-2026-11-17-f487d9069dd9",
+  "guest_score_gate": false,
+  "classification_basis": "independent",
+  "classification_notice": "Independent DEHOGA classification notices have different vintages. Source dates, unknown certificate expiry and the 36-month ceiling travel with every sample and result. Current operator declarations can exclude, never admit.",
+  "earliest_classification_ceiling": "2028-04-01",
+  "production_import_allowed": false,
+  "comparison_context": {
+    "properties": 6,
+    "standard_properties": 8,
+    "relative_uncertainty": "wider_than_eight_property_panels",
+    "sample_size_notice": "This panel uses fewer than eight properties. Its estimate carries wider uncertainty; the size of that difference has not been measured. The planning band is provisional editorial guidance, not a calibrated confidence interval or a guarantee of bookable prices.",
+    "planned_band_percent": 35,
+    "classification_basis": "independent",
+    "classification_evidence_vintage": "per_property_dated_issuer_notice",
+    "notice": "Independent DEHOGA classification notices have different vintages. Source dates, unknown certificate expiry and the 36-month ceiling travel with every sample and result. Current operator declarations can exclude, never admit. This panel uses fewer than eight properties. Its estimate carries wider uncertainty; the size of that difference has not been measured. The planning band is provisional editorial guidance, not a calibrated confidence interval or a guarantee of bookable prices."
+  },
+  "properties": [
+    {
+      "property_id": "berlin-n266593733",
+      "name": "ibis Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 266593733,
+      "osm_version": 22,
+      "osm_source_url": "https://www.openstreetmap.org/node/266593733",
+      "coordinates": {
+        "latitude": 52.5290575,
+        "longitude": 13.4181101
+      },
+      "computed_distance_metres": 854.503734234519,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Ibis Hotel Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38455",
+          "hotelName": "Ibis Hotel Berlin Mitte",
+          "street": "Prenzlauer Allee",
+          "streetNumber": "4",
+          "zip": "10405",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Prenzlauer Allee 4, 10405 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/05/Hoga_6_2025%E2%80%93web1.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "a0f4c6439bd76444787b23789ad4a65f8f05c7c2a0b66fd562b3ed2b0b394225",
+        "notice_id": "2025-06",
+        "data_as_of": "2025-06-01",
+        "date_label": "June 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-06-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: June 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-06-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "checked_date": "2026-11-18",
+        "reason": "Prenzlauer Allee 4, 10405 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/0357/room/DBC.en.htm",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Standard double (160 × 200 cm), maximum two guests; room-detail page lists its bathroom and shower facilities. Twin category also listed."
+      },
+      "direct_booking": {
+        "source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "operator_link_source_url": "https://all.accor.com/hotel/0357/index.en.shtml",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-w105210648",
+      "name": "Hotel AMANO",
+      "osm_type": "way",
+      "osm_id": 105210648,
+      "osm_version": 10,
+      "osm_source_url": "https://www.openstreetmap.org/way/105210648",
+      "coordinates": {
+        "latitude": 52.528265250000004,
+        "longitude": 13.4028275
+      },
+      "computed_distance_metres": 990.2599555141759,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Amano",
+        "checked_date": "2026-11-18",
+        "record_match": "no_matching_result",
+        "matched_record": null,
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Auguststraße 43, 10119 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/05/Hoga_6_2025%E2%80%93web1.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "a0f4c6439bd76444787b23789ad4a65f8f05c7c2a0b66fd562b3ed2b0b394225",
+        "notice_id": "2025-06",
+        "data_as_of": "2025-06-01",
+        "date_label": "June 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-06-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "identity_sources": [
+          "https://www.visitberlin.de/de/hotels-in-berlin/design-hotels",
+          "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano"
+        ],
+        "current_lookup_status": "no_matching_result_in_named_search"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: June 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-06-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "no_explicit_class_found",
+        "declared_stars": null,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "checked_date": "2026-11-18",
+        "reason": "Auguststraße 43, 10119 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Comfy hotel room: double or twin beds, bath/shower and bathroom facilities. Exclude all apartment and penthouse categories."
+      },
+      "direct_booking": {
+        "source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "operator_link_source_url": "https://www.amanogroup.com/en/hotels/berlin-mitte-hotel-amano",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n3937513964",
+      "name": "ibis Styles Berlin Mitte",
+      "osm_type": "node",
+      "osm_id": 3937513964,
+      "osm_version": 8,
+      "osm_source_url": "https://www.openstreetmap.org/node/3937513964",
+      "coordinates": {
+        "latitude": 52.5302608,
+        "longitude": 13.401135
+      },
+      "computed_distance_metres": 1230.3602529866178,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "ibis styles Berlin Mitte",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "40639",
+          "hotelName": "ibis styles Berlin Mitte",
+          "street": "Brunnenstraße",
+          "streetNumber": "1-2",
+          "zip": "10119",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Brunnenstraße 1–2, 10119 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/01/Hoga_1_2026%E2%80%93web.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "f8cec721e2c1e7bb87a623c15bb87a59248e785c98336dad611d1f18bb88aaa9",
+        "notice_id": "2026-01",
+        "data_as_of": "2026-01-01",
+        "date_label": "January 2026",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2029-01-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: January 2026; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2029-01-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "checked_date": "2026-11-18",
+        "reason": "Brunnenstraße 1–2, 10119 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://all.accor.com/hotel/7091/room/DBC.en.htm",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Standard double, 160 × 200 cm, maximum two guests; in-room open bathroom listed. Private to the room, not a shared-bathroom product. Twin category also listed."
+      },
+      "direct_booking": {
+        "source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "operator_link_source_url": "https://all.accor.com/hotel/7091/index.en.shtml",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n330257182",
+      "name": "Hotel-Pension Kastanienhof",
+      "osm_type": "node",
+      "osm_id": 330257182,
+      "osm_version": 17,
+      "osm_source_url": "https://www.openstreetmap.org/node/330257182",
+      "coordinates": {
+        "latitude": 52.5347495,
+        "longitude": 13.4061413
+      },
+      "computed_distance_metres": 1498.094229838095,
+      "osm_stars_lead": "3S",
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Kastanienhof",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "39221",
+          "hotelName": "Hotel-Pension Kastanienhof",
+          "street": "Kastanienallee",
+          "streetNumber": "65",
+          "zip": "10119",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Kastanienallee 65, 10119 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 Superior",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/09/Hoga_8-9_web.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "d1e7f035cae270da66ea0f9fcd7a36c600ffbb731c298174218864ea35c32444",
+        "notice_id": "2025-09",
+        "data_as_of": "2025-08-01",
+        "date_label": "August–September 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-08-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: August–September 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-08-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "use": "exclude_only",
+        "note": "Operator-embedded Hotelstars widget displays three stars and Superior. Widget has no award date and does not renew the evidence clock.",
+        "additional_source_url": "https://hotelclass.info/ws/3fca75eb-8812-4c0d-93cb-71dc6bc29003?lang=de"
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "checked_date": "2026-11-18",
+        "reason": "Kastanienallee 65, 10119 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Economy/standard/comfort double or twin rooms explicitly include shower and WC. Engine confirms conventional double categories; exclude suites."
+      },
+      "direct_booking": {
+        "source_url": "https://onepagebooking.com/kastanienhof?lang=en",
+        "operator_link_source_url": "https://www.kastanienhof.berlin/en/rooms",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-n3780854972",
+      "name": "Hotel Dietrich-Bonhoeffer-Haus",
+      "osm_type": "node",
+      "osm_id": 3780854972,
+      "osm_version": 7,
+      "osm_source_url": "https://www.openstreetmap.org/node/3780854972",
+      "coordinates": {
+        "latitude": 52.5236245,
+        "longitude": 13.3900616
+      },
+      "computed_distance_metres": 1575.7757594860884,
+      "osm_stars_lead": null,
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "Dietrich",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "40232",
+          "hotelName": "Hotel Dietrich-Bonhoeffer-Haus",
+          "street": "Ziegelstraße",
+          "streetNumber": "30",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": false,
+          "garni": true
+        },
+        "search_log": "evidence/named-classification-checks.json"
+      },
+      "address": {
+        "text": "Ziegelstraße 30, 10117 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 garni",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/03/Hoga_3_2026_web.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "efde511cf6ff2937ee2e47bc2b3bda4c71cc369d566f0469064facb0097dd8ac",
+        "notice_id": "2026-03",
+        "data_as_of": "2026-03-01",
+        "date_label": "March 2026",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2029-03-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: March 2026; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2029-03-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "declares_three",
+        "declared_stars": 3,
+        "checked_date": "2026-11-18",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "checked_date": "2026-11-18",
+        "reason": "Ziegelstraße 30, 10117 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://www.hotel-dietrich-bonhoeffer.de/hotel-zimmer",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Operator lists double/twin rooms and shower/bath with WC; direct booking engine offers Double Room and Comfort Double Room."
+      },
+      "direct_booking": {
+        "source_url": "https://www.cbooking.de/v4/booking.aspx?id=dbh&module=public&lang=en",
+        "operator_link_source_url": "https://www.hotel-dietrich-bonhoeffer.de/",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    },
+    {
+      "property_id": "berlin-w188033979",
+      "name": "martas Hotel Albrechtshof",
+      "osm_type": "way",
+      "osm_id": 188033979,
+      "osm_version": 9,
+      "osm_source_url": "https://www.openstreetmap.org/way/188033979",
+      "coordinates": {
+        "latitude": 52.52201895,
+        "longitude": 13.384157049999999
+      },
+      "computed_distance_metres": 1964.630568757893,
+      "osm_stars_lead": "3",
+      "eligibility": "eligible",
+      "decision_code": "admitted_dated_independent_evidence",
+      "decision_reason": "Dated independent three-star issuer notice within 36 months; current premises, private double/twin room and operator-direct booking verified; no contrary operator class found.",
+      "classification_search": {
+        "source_url": "https://www.hotelstars.eu/search/proxy.php",
+        "query": "martas Hotel Albrechtshof Berlin",
+        "checked_date": "2026-11-18",
+        "record_match": "matched_premises",
+        "matched_record": {
+          "id": "38404",
+          "hotelName": "martas Hotel Albrechtshof",
+          "street": "Albrechtstraße",
+          "streetNumber": "8",
+          "zip": "10117",
+          "city": "Berlin",
+          "catalogName": "Hotelklassifizierung",
+          "hotelCategory": "3",
+          "superior": true,
+          "garni": false
+        },
+        "search_log": "evidence/supplementary-classification-checks.json"
+      },
+      "address": {
+        "text": "Albrechtstraße 8, 10117 Berlin",
+        "basis": "operator_premises_cross_check",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "checked_date": "2026-11-18"
+      },
+      "classification_evidence": {
+        "basis": "independent",
+        "issuer": "DEHOGA Berlin / Deutsche Hotelklassifizierung",
+        "stars": 3,
+        "subtype": "3 Superior",
+        "admissibility": "dated_issuer_classification_notice",
+        "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/03/Hoga_4_2025_final.pdf",
+        "pdf_page_1_based": 32,
+        "source_sha256": "f4726b1592917919fb00670a77b413809a14d482a988306079d82ca9431b9218",
+        "notice_id": "2025-04",
+        "data_as_of": "2025-04-01",
+        "date_label": "April 2025",
+        "date_precision": "issue_month_or_month_range",
+        "award_date": null,
+        "certificate_expiry": null,
+        "checked_date": "2026-11-18",
+        "valid_through": "2028-04-01",
+        "identity_basis": "Named issuer notice corroborated against operator premises and current Hotelstars address where available.",
+        "current_lookup_status": "matching_three_star_record_found"
+      },
+      "classification_basis": "independent",
+      "classification_notice": "DEHOGA notice: April 2025; exact award date and certificate expiry unknown. Conservative v9 evidence ceiling: 2028-04-01. Operator check on 2026-11-18 does not renew classification.",
+      "operator_class_check": {
+        "status": "no_explicit_class_found",
+        "declared_stars": null,
+        "checked_date": "2026-11-18",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "use": "exclude_only",
+        "note": "No contrary class claim found on the named operator page; not proof of a current award."
+      },
+      "premises_review": {
+        "status": "confirmed",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "checked_date": "2026-11-18",
+        "reason": "Albrechtstraße 8, 10117 Berlin; operator and booking page identify the same premises."
+      },
+      "room_review": {
+        "status": "confirmed",
+        "source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin/zimmer",
+        "checked_date": "2026-11-18",
+        "conventional_double_or_twin": true,
+        "private_ensuite": true,
+        "reason": "Conventional double rooms; operator states all rooms have shower or bath. Distinct property at number 8, not Allegra at number 17."
+      },
+      "direct_booking": {
+        "source_url": "https://onepagebooking.com/martas-albrechtshof?lang=en",
+        "operator_link_source_url": "https://martas.org/hotels/martas-hotel-albrechtshof-berlin",
+        "site_country": "DE",
+        "language": "en",
+        "manual_only": true,
+        "checked_date": "2026-11-18",
+        "status": "operator_direct_path_verified_no_stay_quote_collected",
+        "note": "Public property-specific booking path verified. Dates, party, taxes and cancellation remain to be checked during manual capture. Landing-page teaser prices are not observations."
+      }
+    }
+  ]
+}

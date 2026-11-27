@@ -1,0 +1,643 @@
+[{"COD":"EOT43602", "Nombre":"Vitoria-Gasteiz. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":88.72, "Secreto":false}
+]
+}
+,{"COD":"EOT43496", "Nombre":"Vitoria-Gasteiz. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":7.1, "Secreto":false}
+]
+}
+,{"COD":"EOT43601", "Nombre":"Albacete. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":85.19, "Secreto":false}
+]
+}
+,{"COD":"EOT43495", "Nombre":"Albacete. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":11.16, "Secreto":false}
+]
+}
+,{"COD":"EOT43600", "Nombre":"Alacant/Alicante. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":136.03, "Secreto":false}
+]
+}
+,{"COD":"EOT43494", "Nombre":"Alacant/Alicante. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.82, "Secreto":false}
+]
+}
+,{"COD":"EOT43599", "Nombre":"Benidorm. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":132.5, "Secreto":false}
+]
+}
+,{"COD":"EOT43493", "Nombre":"Benidorm. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":4.49, "Secreto":false}
+]
+}
+,{"COD":"EOT43598", "Nombre":"Dénia. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":117.74, "Secreto":false}
+]
+}
+,{"COD":"EOT43492", "Nombre":"Dénia. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":1.44, "Secreto":false}
+]
+}
+,{"COD":"EOT43597", "Nombre":"Elx/Elche. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":100.78, "Secreto":false}
+]
+}
+,{"COD":"EOT43491", "Nombre":"Elx/Elche. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":23.81, "Secreto":false}
+]
+}
+,{"COD":"EOT43596", "Nombre":"Torrevieja. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":98.66, "Secreto":false}
+]
+}
+,{"COD":"EOT43490", "Nombre":"Torrevieja. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":27.99, "Secreto":false}
+]
+}
+,{"COD":"EOT43595", "Nombre":"Almería. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":96.86, "Secreto":false}
+]
+}
+,{"COD":"EOT43489", "Nombre":"Almería. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":7.7, "Secreto":false}
+]
+}
+,{"COD":"EOT43594", "Nombre":"Mojácar. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":109.28, "Secreto":false}
+]
+}
+,{"COD":"EOT43488", "Nombre":"Mojácar. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":12.76, "Secreto":false}
+]
+}
+,{"COD":"EOT43593", "Nombre":"Níjar. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":99.35, "Secreto":false}
+]
+}
+,{"COD":"EOT43487", "Nombre":"Níjar. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":4.72, "Secreto":false}
+]
+}
+,{"COD":"EOT43592", "Nombre":"Roquetas de Mar. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":105.64, "Secreto":false}
+]
+}
+,{"COD":"EOT43486", "Nombre":"Roquetas de Mar. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-9.64, "Secreto":false}
+]
+}
+,{"COD":"EOT43591", "Nombre":"Ávila. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":71.32, "Secreto":false}
+]
+}
+,{"COD":"EOT43485", "Nombre":"Ávila. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-2.83, "Secreto":false}
+]
+}
+,{"COD":"EOT43590", "Nombre":"Badajoz. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":68.28, "Secreto":false}
+]
+}
+,{"COD":"EOT43484", "Nombre":"Badajoz. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-1.32, "Secreto":false}
+]
+}
+,{"COD":"EOT43589", "Nombre":"Mérida. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":67.68, "Secreto":false}
+]
+}
+,{"COD":"EOT43483", "Nombre":"Mérida. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-2.3, "Secreto":false}
+]
+}
+,{"COD":"EOT43588", "Nombre":"Calvià. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":167.63, "Secreto":false}
+]
+}
+,{"COD":"EOT43482", "Nombre":"Calvià. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":10.11, "Secreto":false}
+]
+}
+,{"COD":"EOT43587", "Nombre":"Capdepera. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":144.66, "Secreto":false}
+]
+}
+,{"COD":"EOT43481", "Nombre":"Capdepera. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":16.99, "Secreto":false}
+]
+}
+,{"COD":"EOT43586", "Nombre":"Palma. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":185.89, "Secreto":false}
+]
+}
+,{"COD":"EOT43480", "Nombre":"Palma. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":8.37, "Secreto":false}
+]
+}
+,{"COD":"EOT43585", "Nombre":"Sant Llorenç des Cardassar. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":131.4, "Secreto":false}
+]
+}
+,{"COD":"EOT43479", "Nombre":"Sant Llorenç des Cardassar. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.08, "Secreto":false}
+]
+}
+,{"COD":"EOT43584", "Nombre":"Barcelona. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":207.03, "Secreto":false}
+]
+}
+,{"COD":"EOT43478", "Nombre":"Barcelona. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":5.57, "Secreto":false}
+]
+}
+,{"COD":"EOT43583", "Nombre":"Sitges. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":167.64, "Secreto":false}
+]
+}
+,{"COD":"EOT43477", "Nombre":"Sitges. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-15.26, "Secreto":false}
+]
+}
+,{"COD":"EOT43582", "Nombre":"Burgos. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":82.8, "Secreto":false}
+]
+}
+,{"COD":"EOT43476", "Nombre":"Burgos. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-1.02, "Secreto":false}
+]
+}
+,{"COD":"EOT43581", "Nombre":"Cáceres. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":87.08, "Secreto":false}
+]
+}
+,{"COD":"EOT43475", "Nombre":"Cáceres. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":1.95, "Secreto":false}
+]
+}
+,{"COD":"EOT43580", "Nombre":"Plasencia. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":81.48, "Secreto":false}
+]
+}
+,{"COD":"EOT43474", "Nombre":"Plasencia. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":6.26, "Secreto":false}
+]
+}
+,{"COD":"EOT43579", "Nombre":"Trujillo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":86.64, "Secreto":false}
+]
+}
+,{"COD":"EOT43473", "Nombre":"Trujillo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":19.85, "Secreto":false}
+]
+}
+,{"COD":"EOT43578", "Nombre":"Algeciras. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":71.81, "Secreto":false}
+]
+}
+,{"COD":"EOT43472", "Nombre":"Algeciras. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":11.73, "Secreto":false}
+]
+}
+,{"COD":"EOT43577", "Nombre":"Arcos de la Frontera. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":86.67, "Secreto":false}
+]
+}
+,{"COD":"EOT43471", "Nombre":"Arcos de la Frontera. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":39.93, "Secreto":false}
+]
+}
+,{"COD":"EOT43576", "Nombre":"Cádiz. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":145.09, "Secreto":false}
+]
+}
+,{"COD":"EOT43470", "Nombre":"Cádiz. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":1.6, "Secreto":false}
+]
+}
+,{"COD":"EOT43575", "Nombre":"Jerez de la Frontera. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":86.14, "Secreto":false}
+]
+}
+,{"COD":"EOT43469", "Nombre":"Jerez de la Frontera. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":5.41, "Secreto":false}
+]
+}
+,{"COD":"EOT43574", "Nombre":"Puerto de Santa María, El. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":91.02, "Secreto":false}
+]
+}
+,{"COD":"EOT43468", "Nombre":"Puerto de Santa María, El. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-5.04, "Secreto":false}
+]
+}
+,{"COD":"EOT43573", "Nombre":"Tarifa. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":134.67, "Secreto":false}
+]
+}
+,{"COD":"EOT43467", "Nombre":"Tarifa. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-5.8, "Secreto":false}
+]
+}
+,{"COD":"EOT43572", "Nombre":"Castelló de la Plana/Castellón de la Plana. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":82.52, "Secreto":false}
+]
+}
+,{"COD":"EOT43466", "Nombre":"Castelló de la Plana/Castellón de la Plana. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.19, "Secreto":false}
+]
+}
+,{"COD":"EOT43571", "Nombre":"Peníscola/Peñíscola. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":105.91, "Secreto":false}
+]
+}
+,{"COD":"EOT43465", "Nombre":"Peníscola/Peñíscola. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.33, "Secreto":false}
+]
+}
+,{"COD":"EOT43570", "Nombre":"Ciudad Real. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":59.39, "Secreto":false}
+]
+}
+,{"COD":"EOT43464", "Nombre":"Ciudad Real. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":10.56, "Secreto":false}
+]
+}
+,{"COD":"EOT43569", "Nombre":"Córdoba. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":96.99, "Secreto":false}
+]
+}
+,{"COD":"EOT43463", "Nombre":"Córdoba. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-1.18, "Secreto":false}
+]
+}
+,{"COD":"EOT43568", "Nombre":"Coruña, A. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":100.98, "Secreto":false}
+]
+}
+,{"COD":"EOT43462", "Nombre":"Coruña, A. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":17.23, "Secreto":false}
+]
+}
+,{"COD":"EOT43567", "Nombre":"Santiago de Compostela. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":110.68, "Secreto":false}
+]
+}
+,{"COD":"EOT43461", "Nombre":"Santiago de Compostela. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.22, "Secreto":false}
+]
+}
+,{"COD":"EOT43566", "Nombre":"Cuenca. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":70.53, "Secreto":false}
+]
+}
+,{"COD":"EOT43460", "Nombre":"Cuenca. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-9.23, "Secreto":false}
+]
+}
+,{"COD":"EOT43565", "Nombre":"Lloret de Mar. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":88.44, "Secreto":false}
+]
+}
+,{"COD":"EOT43459", "Nombre":"Lloret de Mar. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":2.3, "Secreto":false}
+]
+}
+,{"COD":"EOT43564", "Nombre":"Granada. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":100.18, "Secreto":false}
+]
+}
+,{"COD":"EOT43458", "Nombre":"Granada. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-0.61, "Secreto":false}
+]
+}
+,{"COD":"EOT43563", "Nombre":"Sigüenza. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":120.41, "Secreto":false}
+]
+}
+,{"COD":"EOT43457", "Nombre":"Sigüenza. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.61, "Secreto":false}
+]
+}
+,{"COD":"EOT43562", "Nombre":"Donostia/San Sebastián. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":260.67, "Secreto":false}
+]
+}
+,{"COD":"EOT43456", "Nombre":"Donostia/San Sebastián. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":14.99, "Secreto":false}
+]
+}
+,{"COD":"EOT43561", "Nombre":"Benasque. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":86.54, "Secreto":false}
+]
+}
+,{"COD":"EOT43455", "Nombre":"Benasque. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.21, "Secreto":false}
+]
+}
+,{"COD":"EOT43560", "Nombre":"Jaca. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":72.36, "Secreto":false}
+]
+}
+,{"COD":"EOT43454", "Nombre":"Jaca. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-4.37, "Secreto":false}
+]
+}
+,{"COD":"EOT43559", "Nombre":"Sallent de Gállego. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":69.08, "Secreto":false}
+]
+}
+,{"COD":"EOT43453", "Nombre":"Sallent de Gállego. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-4.43, "Secreto":false}
+]
+}
+,{"COD":"EOT43558", "Nombre":"Cazorla. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":83.64, "Secreto":false}
+]
+}
+,{"COD":"EOT43452", "Nombre":"Cazorla. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-4.75, "Secreto":false}
+]
+}
+,{"COD":"EOT43557", "Nombre":"León. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":83.73, "Secreto":false}
+]
+}
+,{"COD":"EOT43451", "Nombre":"León. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":1.65, "Secreto":false}
+]
+}
+,{"COD":"EOT43556", "Nombre":"Ponferrada. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":61.77, "Secreto":false}
+]
+}
+,{"COD":"EOT43450", "Nombre":"Ponferrada. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.31, "Secreto":false}
+]
+}
+,{"COD":"EOT43555", "Nombre":"Naut Aran. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":89.63, "Secreto":false}
+]
+}
+,{"COD":"EOT43449", "Nombre":"Naut Aran. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-6.37, "Secreto":false}
+]
+}
+,{"COD":"EOT43554", "Nombre":"Lleida. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":74.32, "Secreto":false}
+]
+}
+,{"COD":"EOT43448", "Nombre":"Lleida. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":7.46, "Secreto":false}
+]
+}
+,{"COD":"EOT43553", "Nombre":"Vielha e Mijaran. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":67.95, "Secreto":false}
+]
+}
+,{"COD":"EOT43447", "Nombre":"Vielha e Mijaran. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-8.35, "Secreto":false}
+]
+}
+,{"COD":"EOT43552", "Nombre":"Logroño. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":99.12, "Secreto":false}
+]
+}
+,{"COD":"EOT43446", "Nombre":"Logroño. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":7.59, "Secreto":false}
+]
+}
+,{"COD":"EOT43551", "Nombre":"Lugo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":67.26, "Secreto":false}
+]
+}
+,{"COD":"EOT43445", "Nombre":"Lugo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":6.25, "Secreto":false}
+]
+}
+,{"COD":"EOT43550", "Nombre":"Ribadeo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":94.07, "Secreto":false}
+]
+}
+,{"COD":"EOT43444", "Nombre":"Ribadeo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":30.13, "Secreto":false}
+]
+}
+,{"COD":"EOT43549", "Nombre":"Viveiro. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":80.31, "Secreto":false}
+]
+}
+,{"COD":"EOT43443", "Nombre":"Viveiro. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-0.55, "Secreto":false}
+]
+}
+,{"COD":"EOT43548", "Nombre":"Madrid. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":212.96, "Secreto":false}
+]
+}
+,{"COD":"EOT43442", "Nombre":"Madrid. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":11.59, "Secreto":false}
+]
+}
+,{"COD":"EOT43547", "Nombre":"Antequera. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":76.22, "Secreto":false}
+]
+}
+,{"COD":"EOT43441", "Nombre":"Antequera. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-2.17, "Secreto":false}
+]
+}
+,{"COD":"EOT43546", "Nombre":"Benalmádena. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":137.15, "Secreto":false}
+]
+}
+,{"COD":"EOT43440", "Nombre":"Benalmádena. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.37, "Secreto":false}
+]
+}
+,{"COD":"EOT43545", "Nombre":"Estepona. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":269.3, "Secreto":false}
+]
+}
+,{"COD":"EOT43439", "Nombre":"Estepona. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-1.37, "Secreto":false}
+]
+}
+,{"COD":"EOT43544", "Nombre":"Fuengirola. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":117.53, "Secreto":false}
+]
+}
+,{"COD":"EOT43438", "Nombre":"Fuengirola. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":11.6, "Secreto":false}
+]
+}
+,{"COD":"EOT43543", "Nombre":"Málaga. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":179.54, "Secreto":false}
+]
+}
+,{"COD":"EOT43437", "Nombre":"Málaga. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":16.96, "Secreto":false}
+]
+}
+,{"COD":"EOT43542", "Nombre":"Marbella. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":286.57, "Secreto":false}
+]
+}
+,{"COD":"EOT43436", "Nombre":"Marbella. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":13.36, "Secreto":false}
+]
+}
+,{"COD":"EOT43541", "Nombre":"Nerja. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":152.68, "Secreto":false}
+]
+}
+,{"COD":"EOT43435", "Nombre":"Nerja. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":2.84, "Secreto":false}
+]
+}
+,{"COD":"EOT43540", "Nombre":"Ronda. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":124.18, "Secreto":false}
+]
+}
+,{"COD":"EOT43434", "Nombre":"Ronda. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":12.55, "Secreto":false}
+]
+}
+,{"COD":"EOT43539", "Nombre":"Torremolinos. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":160.6, "Secreto":false}
+]
+}
+,{"COD":"EOT43433", "Nombre":"Torremolinos. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.59, "Secreto":false}
+]
+}
+,{"COD":"EOT43538", "Nombre":"Cartagena. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":100.53, "Secreto":false}
+]
+}
+,{"COD":"EOT43432", "Nombre":"Cartagena. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":13.78, "Secreto":false}
+]
+}
+,{"COD":"EOT43537", "Nombre":"Murcia. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":69.27, "Secreto":false}
+]
+}
+,{"COD":"EOT43431", "Nombre":"Murcia. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":3.02, "Secreto":false}
+]
+}
+,{"COD":"EOT43536", "Nombre":"Pamplona/Iruña. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":105.63, "Secreto":false}
+]
+}
+,{"COD":"EOT43430", "Nombre":"Pamplona/Iruña. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":4.94, "Secreto":false}
+]
+}
+,{"COD":"EOT43535", "Nombre":"Ourense. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":74.91, "Secreto":false}
+]
+}
+,{"COD":"EOT43429", "Nombre":"Ourense. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":11.57, "Secreto":false}
+]
+}
+,{"COD":"EOT43534", "Nombre":"Cangas de Onís. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":78.69, "Secreto":false}
+]
+}
+,{"COD":"EOT43428", "Nombre":"Cangas de Onís. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-5.84, "Secreto":false}
+]
+}
+,{"COD":"EOT43533", "Nombre":"Gijón. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":95.66, "Secreto":false}
+]
+}
+,{"COD":"EOT43427", "Nombre":"Gijón. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":5.39, "Secreto":false}
+]
+}
+,{"COD":"EOT43532", "Nombre":"Llanes. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":103.87, "Secreto":false}
+]
+}
+,{"COD":"EOT43426", "Nombre":"Llanes. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.6, "Secreto":false}
+]
+}
+,{"COD":"EOT43531", "Nombre":"Oviedo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":88.58, "Secreto":false}
+]
+}
+,{"COD":"EOT43425", "Nombre":"Oviedo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.19, "Secreto":false}
+]
+}
+,{"COD":"EOT43530", "Nombre":"Villaviciosa. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":null, "Secreto":true}
+]
+}
+,{"COD":"EOT43424", "Nombre":"Villaviciosa. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":null, "Secreto":true}
+]
+}
+,{"COD":"EOT43529", "Nombre":"Palencia. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":71.48, "Secreto":false}
+]
+}
+,{"COD":"EOT43423", "Nombre":"Palencia. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":13.97, "Secreto":false}
+]
+}
+,{"COD":"EOT43528", "Nombre":"Mogán. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":101.95, "Secreto":false}
+]
+}
+,{"COD":"EOT43422", "Nombre":"Mogán. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-9.46, "Secreto":false}
+]
+}
+,{"COD":"EOT43527", "Nombre":"Pájara. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":137.21, "Secreto":false}
+]
+}
+,{"COD":"EOT43421", "Nombre":"Pájara. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.96, "Secreto":false}
+]
+}
+,{"COD":"EOT43526", "Nombre":"Palmas de Gran Canaria, Las. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":90.79, "Secreto":false}
+]
+}
+,{"COD":"EOT43420", "Nombre":"Palmas de Gran Canaria, Las. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":17.59, "Secreto":false}
+]
+}
+,{"COD":"EOT43525", "Nombre":"San Bartolomé de Tirajana. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":149.15, "Secreto":false}
+]
+}
+,{"COD":"EOT43419", "Nombre":"San Bartolomé de Tirajana. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-1.51, "Secreto":false}
+]
+}
+,{"COD":"EOT43524", "Nombre":"Teguise. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":135.56, "Secreto":false}
+]
+}
+,{"COD":"EOT43418", "Nombre":"Teguise. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":8.13, "Secreto":false}
+]
+}
+,{"COD":"EOT43523", "Nombre":"Tías. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":136.34, "Secreto":false}
+]
+}
+,{"COD":"EOT43417", "Nombre":"Tías. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-7.93, "Secreto":false}
+]
+}
+,{"COD":"EOT43522", "Nombre":"Yaiza. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":157.02, "Secreto":false}
+]
+}
+,{"COD":"EOT43416", "Nombre":"Yaiza. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":3.7, "Secreto":false}
+]
+}
+,{"COD":"EOT43521", "Nombre":"Grove, O. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":100.72, "Secreto":false}
+]
+}
+,{"COD":"EOT43415", "Nombre":"Grove, O. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":14.79, "Secreto":false}
+]
+}
+,{"COD":"EOT43520", "Nombre":"Sanxenxo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":75.49, "Secreto":false}
+]
+}
+,{"COD":"EOT43414", "Nombre":"Sanxenxo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":3.64, "Secreto":false}
+]
+}
+,{"COD":"EOT43519", "Nombre":"Vigo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":93.8, "Secreto":false}
+]
+}
+,{"COD":"EOT43413", "Nombre":"Vigo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":16.14, "Secreto":false}
+]
+}
+,{"COD":"EOT43518", "Nombre":"Salamanca. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":84.38, "Secreto":false}
+]
+}
+,{"COD":"EOT43412", "Nombre":"Salamanca. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":15.83, "Secreto":false}
+]
+}
+,{"COD":"EOT43517", "Nombre":"Adeje. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":170.19, "Secreto":false}
+]
+}
+,{"COD":"EOT43411", "Nombre":"Adeje. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":8.8, "Secreto":false}
+]
+}
+,{"COD":"EOT43516", "Nombre":"Arona. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":129.44, "Secreto":false}
+]
+}
+,{"COD":"EOT43410", "Nombre":"Arona. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":0.5, "Secreto":false}
+]
+}
+,{"COD":"EOT43515", "Nombre":"Puerto de la Cruz. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":94.86, "Secreto":false}
+]
+}
+,{"COD":"EOT43409", "Nombre":"Puerto de la Cruz. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":20.52, "Secreto":false}
+]
+}
+,{"COD":"EOT43514", "Nombre":"Santa Cruz de Tenerife. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":100.09, "Secreto":false}
+]
+}
+,{"COD":"EOT43408", "Nombre":"Santa Cruz de Tenerife. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":6.74, "Secreto":false}
+]
+}
+,{"COD":"EOT43513", "Nombre":"Santander. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":139.0, "Secreto":false}
+]
+}
+,{"COD":"EOT43407", "Nombre":"Santander. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":19.77, "Secreto":false}
+]
+}
+,{"COD":"EOT43512", "Nombre":"Segovia. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":96.74, "Secreto":false}
+]
+}
+,{"COD":"EOT43406", "Nombre":"Segovia. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":6.66, "Secreto":false}
+]
+}
+,{"COD":"EOT43511", "Nombre":"Sevilla. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":155.96, "Secreto":false}
+]
+}
+,{"COD":"EOT43405", "Nombre":"Sevilla. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":9.19, "Secreto":false}
+]
+}
+,{"COD":"EOT43510", "Nombre":"Soria. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":79.89, "Secreto":false}
+]
+}
+,{"COD":"EOT43404", "Nombre":"Soria. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":5.34, "Secreto":false}
+]
+}
+,{"COD":"EOT43509", "Nombre":"Cambrils. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":129.3, "Secreto":false}
+]
+}
+,{"COD":"EOT43403", "Nombre":"Cambrils. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-0.09, "Secreto":false}
+]
+}
+,{"COD":"EOT43508", "Nombre":"Tarragona. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":95.13, "Secreto":false}
+]
+}
+,{"COD":"EOT43402", "Nombre":"Tarragona. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":7.4, "Secreto":false}
+]
+}
+,{"COD":"EOT43507", "Nombre":"Salou. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":93.01, "Secreto":false}
+]
+}
+,{"COD":"EOT43401", "Nombre":"Salou. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":10.42, "Secreto":false}
+]
+}
+,{"COD":"EOT43506", "Nombre":"Albarracín. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":74.61, "Secreto":false}
+]
+}
+,{"COD":"EOT43400", "Nombre":"Albarracín. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":21.42, "Secreto":false}
+]
+}
+,{"COD":"EOT43505", "Nombre":"Teruel. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":72.55, "Secreto":false}
+]
+}
+,{"COD":"EOT43399", "Nombre":"Teruel. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":2.55, "Secreto":false}
+]
+}
+,{"COD":"EOT43504", "Nombre":"Toledo. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":116.46, "Secreto":false}
+]
+}
+,{"COD":"EOT43398", "Nombre":"Toledo. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":5.82, "Secreto":false}
+]
+}
+,{"COD":"EOT43503", "Nombre":"Gandia. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":101.07, "Secreto":false}
+]
+}
+,{"COD":"EOT43397", "Nombre":"Gandia. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":15.1, "Secreto":false}
+]
+}
+,{"COD":"EOT43502", "Nombre":"València. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":138.44, "Secreto":false}
+]
+}
+,{"COD":"EOT43396", "Nombre":"València. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":10.29, "Secreto":false}
+]
+}
+,{"COD":"EOT43501", "Nombre":"Valladolid. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":83.14, "Secreto":false}
+]
+}
+,{"COD":"EOT43395", "Nombre":"Valladolid. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-2.89, "Secreto":false}
+]
+}
+,{"COD":"EOT43500", "Nombre":"Bilbao. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":148.01, "Secreto":false}
+]
+}
+,{"COD":"EOT43394", "Nombre":"Bilbao. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":5.98, "Secreto":false}
+]
+}
+,{"COD":"EOT43499", "Nombre":"Benavente. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":79.77, "Secreto":false}
+]
+}
+,{"COD":"EOT43393", "Nombre":"Benavente. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":10.61, "Secreto":false}
+]
+}
+,{"COD":"EOT43498", "Nombre":"Zamora. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":79.32, "Secreto":false}
+]
+}
+,{"COD":"EOT43392", "Nombre":"Zamora. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":12.46, "Secreto":false}
+]
+}
+,{"COD":"EOT43497", "Nombre":"Zaragoza. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":80.18, "Secreto":false}
+]
+}
+,{"COD":"EOT43391", "Nombre":"Zaragoza. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":-0.4, "Secreto":false}
+]
+}
+,{"COD":"EOT47824", "Nombre":"Chiclana de la Frontera. Tarifa media diaria (ADR). Total categorías. Dato. ", "FK_Unidad":7, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":158.08, "Secreto":false}
+]
+}
+,{"COD":"EOT47823", "Nombre":"Chiclana de la Frontera. Tarifa media diaria (ADR). Total categorías. Tasa de variación interanual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1788213600000, "FK_TipoDato":2, "FK_Periodo":9, "Anyo":2026, "Valor":1.29, "Secreto":false}
+]
+}
+]

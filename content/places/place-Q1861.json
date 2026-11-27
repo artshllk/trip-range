@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q1861",
+  "name": "Bangkok",
+  "countryCode": "TH",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 13.75,
+    "longitude": 100.5166666667
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q1861"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:19:13Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

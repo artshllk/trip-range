@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "status": "integrated-locally-not-deployed",
+  "reviewer": "GoEksplo Owner",
+  "records": [
+    {
+      "slug": "tokyo",
+      "destinationId": "place:Q1490",
+      "approvedProposalPins": {
+        "slug": "tokyo",
+        "destinationId": "place:Q1490",
+        "candidateFile": "drafts/tokyo.json",
+        "fileSha256": "9468beab4e1c9413db5445bb017a84374cd1f1f02035228ffb47ca79c2852314",
+        "evidenceFile": "drafts/tokyo-evidence.md",
+        "evidenceFileSha256": "8f4c145fc93559cc59021b2eb609a3bd5fc0144c29b3b99dcc42f6e7c08ac2df",
+        "contentVersion": 4,
+        "contentDigest": "281b25051b5d223809b908e5a85d753473195e31fa5e1b8b78e008f540a113d2",
+        "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+        "evidenceDigest": "dd40bd3eb59a9a194e4d7eaf8069adad4b6cf181cdc24f4e914f9dc0c06f5da2",
+        "findings": [
+          {
+            "id": "batch2-final:tokyo:source-limit-1",
+            "message": "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalPins": {
+        "contentVersion": 4,
+        "contentDigest": "281b25051b5d223809b908e5a85d753473195e31fa5e1b8b78e008f540a113d2",
+        "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+        "evidenceDigest": "86eb7d58d9a9079edee5c5845e2dc8f8f76365d9ad983ebc3e3c55b623c56fd2"
+      },
+      "dryRun": {
+        "destinationId": "place:Q1490",
+        "contentVersion": 4,
+        "digest": "281b25051b5d223809b908e5a85d753473195e31fa5e1b8b78e008f540a113d2",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:23.976Z",
+        "approvalTimestamp": "2026-10-23T22:18:23.998Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          },
+          {
+            "id": "presentation:b5fdcc388f262654c071",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch2-final-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q1490.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q1490:sensoji",
+          "attraction:place:Q1490:meiji-jingu",
+          "attraction:place:Q1490:yoyogi",
+          "attraction:place:Q1490:skytree",
+          "attraction:place:Q1490:expansion01-5",
+          "area:place:Q1490:expansion01-1",
+          "area:place:Q1490:expansion01-2",
+          "transport:place:Q1490:expansion01-1",
+          "transport:place:Q1490:expansion01-2",
+          "note:place:Q1490:expansion01-history",
+          "note:place:Q1490:expansion01-cost-limits",
+          "note:place:Q1490:batch2-visitor-alternatives",
+          "template:place:Q1490:expansion01-2-nights",
+          "template:place:Q1490:expansion01-3-nights"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "place:Q1490",
+        "contentVersion": 4,
+        "digest": "281b25051b5d223809b908e5a85d753473195e31fa5e1b8b78e008f540a113d2",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:23.976Z",
+        "approvalTimestamp": "2026-10-23T22:18:25.499Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          },
+          {
+            "id": "presentation:b5fdcc388f262654c071",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch2-final-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q1490.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q1490:sensoji",
+          "attraction:place:Q1490:meiji-jingu",
+          "attraction:place:Q1490:yoyogi",
+          "attraction:place:Q1490:skytree",
+          "attraction:place:Q1490:expansion01-5",
+          "area:place:Q1490:expansion01-1",
+          "area:place:Q1490:expansion01-2",
+          "transport:place:Q1490:expansion01-1",
+          "transport:place:Q1490:expansion01-2",
+          "note:place:Q1490:expansion01-history",
+          "note:place:Q1490:expansion01-cost-limits",
+          "note:place:Q1490:batch2-visitor-alternatives",
+          "template:place:Q1490:expansion01-2-nights",
+          "template:place:Q1490:expansion01-3-nights"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      }
+    },
+    {
+      "slug": "kyoto",
+      "destinationId": "place:Q34600",
+      "approvedProposalPins": {
+        "slug": "kyoto",
+        "destinationId": "place:Q34600",
+        "candidateFile": "drafts/kyoto.json",
+        "fileSha256": "e6f653ab950c6cc9de75bcbb085783ed1b29365de778f94d029406ee42fac2c8",
+        "evidenceFile": "drafts/kyoto-evidence.md",
+        "evidenceFileSha256": "5f56fc2d014decdb598836edad757538636be5286f9524dcb4131a7e5a77082f",
+        "contentVersion": 4,
+        "contentDigest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+        "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+        "evidenceDigest": "6e43f244d242c564d8b782cbf1bd2363093d072f3fc3023bacc5b5f2a5576bb5",
+        "findings": [
+          {
+            "id": "batch2-final:kyoto:source-limit-1",
+            "message": "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalPins": {
+        "contentVersion": 4,
+        "contentDigest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+        "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+        "evidenceDigest": "63b0a14bdfe0a5a35b19743ea55e6290565ceeff9a4123255e25d67bafea3610"
+      },
+      "dryRun": {
+        "destinationId": "place:Q34600",
+        "contentVersion": 4,
+        "digest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:24.193Z",
+        "approvalTimestamp": "2026-10-23T22:18:24.214Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          },
+          {
+            "id": "presentation:8427a93362f3f69ee0a9",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch2-final-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q34600.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q34600:kiyomizu",
+          "attraction:place:Q34600:yasaka",
+          "attraction:place:Q34600:hokanji",
+          "attraction:place:Q34600:maruyama",
+          "attraction:place:Q34600:expansion01-5",
+          "area:place:Q34600:expansion01-1",
+          "area:place:Q34600:expansion01-2",
+          "transport:place:Q34600:expansion01-1",
+          "transport:place:Q34600:expansion01-2",
+          "note:place:Q34600:expansion01-history",
+          "note:place:Q34600:expansion01-cost-limits",
+          "note:place:Q34600:batch2-visitor-alternatives",
+          "template:place:Q34600:expansion01-2-nights",
+          "template:place:Q34600:expansion01-3-nights"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "place:Q34600",
+        "contentVersion": 4,
+        "digest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:24.193Z",
+        "approvalTimestamp": "2026-10-23T22:18:26.324Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          },
+          {
+            "id": "presentation:8427a93362f3f69ee0a9",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch2-final-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q34600.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q34600:kiyomizu",
+          "attraction:place:Q34600:yasaka",
+          "attraction:place:Q34600:hokanji",
+          "attraction:place:Q34600:maruyama",
+          "attraction:place:Q34600:expansion01-5",
+          "area:place:Q34600:expansion01-1",
+          "area:place:Q34600:expansion01-2",
+          "transport:place:Q34600:expansion01-1",
+          "transport:place:Q34600:expansion01-2",
+          "note:place:Q34600:expansion01-history",
+          "note:place:Q34600:expansion01-cost-limits",
+          "note:place:Q34600:batch2-visitor-alternatives",
+          "template:place:Q34600:expansion01-2-nights",
+          "template:place:Q34600:expansion01-3-nights"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      }
+    },
+    {
+      "slug": "bangkok",
+      "destinationId": "place:Q1861",
+      "approvedProposalPins": {
+        "slug": "bangkok",
+        "destinationId": "place:Q1861",
+        "candidateFile": "drafts/bangkok.json",
+        "fileSha256": "078202298d2425fcdcdbdb884b246819fcf9fe51f74f4c32add5c9a7ecbdab0f",
+        "evidenceFile": "drafts/bangkok-evidence.md",
+        "evidenceFileSha256": "aa79dec54ea4bd1cc956448cc6fd3c9cdd3e35ef5e1a74f51405a0b5da843e19",
+        "contentVersion": 4,
+        "contentDigest": "77e36dd1b2f2e4a8897900327bda24b23479ea478daf1cbca07371e5091f6fee",
+        "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+        "evidenceDigest": "57b864bd26832b54bd99295c2e4da69dde389f08320f6231394e64c5450f68a8",
+        "findings": [
+          {
+            "id": "batch2-final:bangkok:source-limit-1",
+            "message": "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim."
+          },
+          {
+            "id": "batch2-final:bangkok:source-limit-2",
+            "message": "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalPins": {
+        "contentVersion": 4,
+        "contentDigest": "77e36dd1b2f2e4a8897900327bda24b23479ea478daf1cbca07371e5091f6fee",
+        "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+        "evidenceDigest": "bd978440c19d3a8c2d52f5785df65d738ca609b262fbc076871e2fb4aa7700bf"
+      },
+      "dryRun": {
+        "destinationId": "place:Q1861",
+        "contentVersion": 4,
+        "digest": "77e36dd1b2f2e4a8897900327bda24b23479ea478daf1cbca07371e5091f6fee",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:24.413Z",
+        "approvalTimestamp": "2026-10-23T22:18:24.435Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          },
+          {
+            "id": "presentation:f42aa1b5f04464353e65",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch2-final-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q1861.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q1861:grand-palace",
+          "attraction:place:Q1861:wat-pho",
+          "attraction:place:Q1861:wat-arun",
+          "attraction:place:Q1861:yaowarat",
+          "area:place:Q1861:expansion01-1",
+          "area:place:Q1861:expansion01-2",
+          "transport:place:Q1861:expansion01-1",
+          "transport:place:Q1861:expansion01-2",
+          "transport:place:Q1861:expansion01-3",
+          "note:place:Q1861:expansion01-history",
+          "note:place:Q1861:expansion01-cost-limits",
+          "note:place:Q1861:batch2-visitor-alternatives",
+          "template:place:Q1861:expansion01-2-nights",
+          "template:place:Q1861:expansion01-3-nights"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "place:Q1861",
+        "contentVersion": 4,
+        "digest": "77e36dd1b2f2e4a8897900327bda24b23479ea478daf1cbca07371e5091f6fee",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:24.413Z",
+        "approvalTimestamp": "2026-10-23T22:18:27.150Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          },
+          {
+            "id": "presentation:f42aa1b5f04464353e65",
+            "reason": "GoEksplo Owner approved this exact v4 wording and shown presentation in worldwide-batch2-final-review-v1. Retain the concise excerpt and full conditional visitor guidance behind the existing Read more disclosure; do not alter the approved copy."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q1861.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q1861:grand-palace",
+          "attraction:place:Q1861:wat-pho",
+          "attraction:place:Q1861:wat-arun",
+          "attraction:place:Q1861:yaowarat",
+          "area:place:Q1861:expansion01-1",
+          "area:place:Q1861:expansion01-2",
+          "transport:place:Q1861:expansion01-1",
+          "transport:place:Q1861:expansion01-2",
+          "transport:place:Q1861:expansion01-3",
+          "note:place:Q1861:expansion01-history",
+          "note:place:Q1861:expansion01-cost-limits",
+          "note:place:Q1861:batch2-visitor-alternatives",
+          "template:place:Q1861:expansion01-2-nights",
+          "template:place:Q1861:expansion01-3-nights"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      }
+    },
+    {
+      "slug": "marrakesh",
+      "destinationId": "place:Q101625",
+      "approvedProposalPins": {
+        "slug": "marrakesh",
+        "destinationId": "place:Q101625",
+        "candidateFile": "drafts/marrakesh.json",
+        "fileSha256": "65948f56016c1cfbb4d50f1428b408094fa0ab6a0c62657a58d6b515f0454bba",
+        "evidenceFile": "drafts/marrakesh-evidence.md",
+        "evidenceFileSha256": "71c2e78464af90ae6477a4b7894a6e97f38e4d51ea0e011effa561203d3aa249",
+        "contentVersion": 4,
+        "contentDigest": "46d0181933beb42addf5da83e80241c69ec85ca5bb81d8c3945023360918a743",
+        "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+        "evidenceDigest": "9932e48061b33f9991f6298dfb79b83eafa3d454987f34f7dda7f8dc790aa899",
+        "findings": [
+          {
+            "id": "batch2-final:marrakesh:source-limit-1",
+            "message": "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified."
+          },
+          {
+            "id": "batch2-final:marrakesh:source-limit-2",
+            "message": "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalPins": {
+        "contentVersion": 4,
+        "contentDigest": "46d0181933beb42addf5da83e80241c69ec85ca5bb81d8c3945023360918a743",
+        "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+        "evidenceDigest": "de32fe393c6c01d148881e4aafa5aeaf16e02900a3df406b704bb865dc51991c"
+      },
+      "dryRun": {
+        "destinationId": "place:Q101625",
+        "contentVersion": 4,
+        "digest": "46d0181933beb42addf5da83e80241c69ec85ca5bb81d8c3945023360918a743",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:24.606Z",
+        "approvalTimestamp": "2026-10-23T22:18:24.627Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q101625.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q101625:jemaa",
+          "attraction:place:Q101625:koutoubia",
+          "attraction:place:Q101625:majorelle",
+          "attraction:place:Q101625:menara",
+          "area:place:Q101625:expansion01-1",
+          "area:place:Q101625:expansion01-2",
+          "transport:place:Q101625:expansion01-1",
+          "transport:place:Q101625:expansion01-2",
+          "note:place:Q101625:expansion01-history",
+          "note:place:Q101625:expansion01-cost-limits",
+          "note:place:Q101625:batch2-visitor-alternatives",
+          "template:place:Q101625:expansion01-2-nights",
+          "template:place:Q101625:expansion01-3-nights"
+        ],
+        "dryRun": true,
+        "writes": 0,
+        "externalCalls": 0
+      },
+      "applied": {
+        "destinationId": "place:Q101625",
+        "contentVersion": 4,
+        "digest": "46d0181933beb42addf5da83e80241c69ec85ca5bb81d8c3945023360918a743",
+        "reviewer": "GoEksplo Owner",
+        "reviewTimestamp": "2026-10-23T22:18:24.606Z",
+        "approvalTimestamp": "2026-10-23T22:18:27.971Z",
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved the pinned English v4 wording, identities, sources, itinerary order and freshness in worldwide-batch2-final-review-v1. Retain scope limits and operational rechecks; no current service, fare or availability guarantee. English-only V1; no new Albanian approval."
+          }
+        ],
+        "files": [
+          "content/destinations/place-Q101625.json"
+        ],
+        "itemsBecomingReviewed": [
+          "destination",
+          "overview",
+          "attraction:place:Q101625:jemaa",
+          "attraction:place:Q101625:koutoubia",
+          "attraction:place:Q101625:majorelle",
+          "attraction:place:Q101625:menara",
+          "area:place:Q101625:expansion01-1",
+          "area:place:Q101625:expansion01-2",
+          "transport:place:Q101625:expansion01-1",
+          "transport:place:Q101625:expansion01-2",
+          "note:place:Q101625:expansion01-history",
+          "note:place:Q101625:expansion01-cost-limits",
+          "note:place:Q101625:batch2-visitor-alternatives",
+          "template:place:Q101625:expansion01-2-nights",
+          "template:place:Q101625:expansion01-3-nights"
+        ],
+        "dryRun": false,
+        "writes": 1,
+        "externalCalls": 0
+      }
+    }
+  ]
+}

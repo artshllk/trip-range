@@ -1,0 +1,30 @@
+{
+  "retrievedAt": "2026-10-22T10:59:38.727104+00:00",
+  "sourceUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3APrishtina+n%C3%AB+fund+t%C3%AB+majit.jpg&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "148809793": {
+          "pageid": 148809793,
+          "ns": 6,
+          "title": "File:Prishtina në fund të majit.jpg",
+          "revisions": [
+            {
+              "revid": 1247245878,
+              "parentid": 1029725833,
+              "timestamp": "2026-07-13T08:44:54Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{sq|1=Prishtina në fund të majit}}\n|date=2024-05-27 18:34:43\n|source={{own}}\n|author=[[User:Planeti|Planeti]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-zero}}\n\n[[Category:Public domain]]\n[[Category:Views of Pristina]]\n[[Category:Ismet Azizi]]"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

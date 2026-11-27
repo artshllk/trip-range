@@ -1,0 +1,12 @@
+{
+  "destinationId": "place:Q612",
+  "status": "available",
+  "report": "worldwide-batch3-dubai-v4.md",
+  "researchedAt": "2026-10-23T22:32:14Z",
+  "sourceCount": 10,
+  "unresolvedIssues": [
+    "DWC airport copy mixes interchange examples and contains a misleading generic airport-station sentence. RTA map and bus/taxi guidance support only the scoped connection advice.",
+    "Fresh museum visit page could not be fetched. The official museum brochure verifies geography/content, not current pavilion access or a recurring closure day.",
+    "Some Dubai tourism pages expose only headings directly; source-backed indexed primary text is used for stable history and district facts."
+  ]
+}

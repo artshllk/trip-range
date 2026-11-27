@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q4648",
+  "name": "Bali",
+  "countryCode": "ID",
+  "placeKind": "island",
+  "coordinates": {
+    "latitude": -8.3563888889,
+    "longitude": 115.0719388889
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q4648"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:28:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

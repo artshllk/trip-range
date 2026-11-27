@@ -1,0 +1,13 @@
+{
+  "id": "catalogue-batch-01-final-v2",
+  "status": "pending-owner-review",
+  "approvedCandidates": [],
+  "reviewer": null,
+  "reviewedAt": null,
+  "files": {
+    "candidates.json": "01272026c426fbf68f8027c83adca55c5f6125dc0dbd244b82890670290367e9",
+    "gallery.html": "8a0f898fc19618ff589f6114bac0918a0067ff6b499cc0f5fe63983378b4dca8",
+    "identity/review.json": "2d11035088db6b860f5132bcd37e858d778ab3c384f3c2536146b4eb5e7c923a",
+    "README.md": "f9d665a3b0a34639b74537bed622e2b4d9d0ada743178c1203d8b9306db1ecbf"
+  }
+}

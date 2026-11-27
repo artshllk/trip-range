@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q612",
+  "name": "Dubai",
+  "countryCode": "AE",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 25.2697222222,
+    "longitude": 55.3094444444
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q612"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:23:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

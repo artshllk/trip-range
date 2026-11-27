@@ -1,0 +1,344 @@
+{
+  "city": "Düsseldorf",
+  "country_code": "DE",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "DUS",
+      "public_option_name": "S11, Düsseldorf Flughafen Terminal–Düsseldorf Hbf, ordinary VRR A single",
+      "public_price": {
+        "value": 3.8,
+        "currency": "EUR",
+        "unit": "per adult second-class single within Düsseldorf",
+        "status": "confirmed",
+        "source_name": "Rheinbahn",
+        "source_url": "https://www.rheinbahn.de/tickets-und-tarife/gelegenheitsfahrer/einzelticket",
+        "checked_date": "2026-11-02",
+        "note": "Preisstufe A applies within one city: https://www.rheinbahn.de/tickets-und-tarife/tarif-preisstufen. S11 terminal route: https://www.dus.com/de-de/anreisen/bus-und-bahn. Ordinary single, not a subscription or dynamically calculated eezy fare; cheapest possible check-in quote was not verified."
+      },
+      "journey_legs": [
+        {
+          "origin": "Düsseldorf Flughafen Terminal S-Bahn station",
+          "destination": "Düsseldorf Hbf",
+          "mode": "S11",
+          "duration_minutes": {
+            "value": 12,
+            "currency": null,
+            "unit": "approximate published rail-leg minutes",
+            "status": "confirmed",
+            "source_name": "Düsseldorf Tourismus",
+            "source_url": "https://www.visitduesseldorf.de/informieren/anreise",
+            "checked_date": "2026-11-02",
+            "note": "Direct terminal-station service, excluding baggage collection, walking and waiting. Do not confuse with the separate long-distance airport station requiring SkyTrain."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": 25,
+        "currency": "EUR",
+        "unit": "per vehicle Düsseldorf Airport–any Messe Düsseldorf entrance, either direction",
+        "status": "confirmed",
+        "source_name": "City of Düsseldorf — Taxentarifordnung § 2a(5)",
+        "source_url": "https://www.duesseldorf.de/stadtrecht/3/33/33-202",
+        "checked_date": "2026-11-02",
+        "note": "Destination is the trade fair, NOT the city centre or main station. This published route price must not be used for a central-city hotel. Do not assume every surcharge condition is waived; confirm total for the selected vehicle. Preordered fixed prices to other endpoints are individually agreed within a legal corridor, not a single published airport-city fare."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Düsseldorf municipal metered taxi tariff",
+          "applicability": "Düsseldorf-licensed taxis in compulsory tariff area; airport surcharge applies both to and from DUS.",
+          "base_fare": {
+            "value": 5,
+            "currency": "EUR",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Düsseldorf municipal metered taxi tariff",
+            "source_url": "https://www.duesseldorf.de/stadtrecht/3/33/33-202",
+            "checked_date": "2026-11-02",
+            "note": "Schedule enacted 2025-02-26, current city legal collection. Separate large-vehicle conditions apply. Waiting is published per hour and meter tick; no per-minute value derived."
+          },
+          "per_km": {
+            "value": 2.7,
+            "currency": "EUR",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Düsseldorf municipal metered taxi tariff",
+            "source_url": "https://www.duesseldorf.de/stadtrecht/3/33/33-202",
+            "checked_date": "2026-11-02",
+            "note": "Schedule enacted 2025-02-26, current city legal collection. Separate large-vehicle conditions apply. Waiting is published per hour and meter tick; no per-minute value derived."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Düsseldorf municipal metered taxi tariff",
+            "source_url": "https://www.duesseldorf.de/stadtrecht/3/33/33-202",
+            "checked_date": "2026-11-02",
+            "note": "Schedule enacted 2025-02-26, current city legal collection. Separate large-vehicle conditions apply. Waiting is published per hour and meter tick; no per-minute value derived. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": 2,
+            "currency": "EUR",
+            "unit": "per vehicle per journey to or from Düsseldorf Airport",
+            "status": "confirmed",
+            "source_name": "Düsseldorf municipal metered taxi tariff",
+            "source_url": "https://www.duesseldorf.de/stadtrecht/3/33/33-202",
+            "checked_date": "2026-11-02",
+            "note": "Schedule enacted 2025-02-26, current city legal collection. Separate large-vehicle conditions apply. Waiting is published per hour and meter tick; no per-minute value derived."
+          },
+          "published_waiting_rate": {
+            "value": 43,
+            "currency": "EUR",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Düsseldorf municipal metered taxi tariff",
+            "source_url": "https://www.duesseldorf.de/stadtrecht/3/33/33-202",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 3.8,
+      "currency": "EUR",
+      "unit": "per adult second-class ordinary single",
+      "status": "confirmed",
+      "source_name": "Rheinbahn",
+      "source_url": "https://www.rheinbahn.de/tickets-und-tarife/gelegenheitsfahrer/einzelticket",
+      "checked_date": "2026-11-02",
+      "note": "Valid in one direction up to 90 minutes; transfers allowed, no round/return trips.",
+      "validity_area": "Preisstufe A, Düsseldorf city tariff area; includes DUS."
+    },
+    "day_pass": {
+      "value": 7.6,
+      "currency": "EUR",
+      "unit": "per adult 24StundenTicket, one person",
+      "status": "confirmed",
+      "source_name": "Rheinbahn",
+      "source_url": "https://www.rheinbahn.de/tickets-und-tarife/gelegenheitsfahrer/24-stundenticket",
+      "checked_date": "2026-11-02",
+      "note": "Rolling 24 hours from validation; second class, not calendar-day validity.",
+      "validity_area": "Preisstufe A, Düsseldorf city tariff area; includes DUS.",
+      "validity_kind": "consecutive_hours",
+      "satisfies_rolling_24h_requirement": true
+    },
+    "pass_72h": {
+      "value": 27.9,
+      "currency": "EUR",
+      "unit": "per individual DüsseldorfCard for 72 consecutive hours",
+      "status": "confirmed",
+      "source_name": "Düsseldorf Tourismus — 2026 card brochure",
+      "source_url": "https://prospektbestellung.toubiz.de/duesseldorf/default/redirect.php?prospekt_id=8017&redirect_id=33321",
+      "checked_date": "2026-11-02",
+      "note": "Bundled visitor card including transit. FAQ confirms consecutive hours from chosen start and airport coverage: https://www.visitduesseldorf.de/buchen/duesseldorfcard/duesseldorfcard-faqs. Not the wider regional PLUS card.",
+      "validity_area": "Düsseldorf and surrounding area: brochure specifies tariff area 43 Düsseldorf Central/North and adjoining tariff areas, second-class surcharge-free trains and local buses/trams. Airport included. Exact outer boundary must follow the issuer map; not assumed to be the whole VRR."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2024-01-01",
+        "to": null,
+        "basis": "per_person_per_night",
+        "rate": {
+          "value": 3,
+          "currency": "EUR",
+          "unit": "per liable guest per chargeable overnight stay",
+          "status": "confirmed",
+          "source_name": "City of Düsseldorf — Beherbergungssteuersatzung §§ 2, 3, 15",
+          "source_url": "https://www.duesseldorf.de/stadtrecht/2/22/22104-beherbergungssteuersatzung",
+          "checked_date": "2026-11-02",
+          "note": "Private and business accommodation beyond basic residential need. Liability is capped at the first 21 days of an uninterrupted stay in the same establishment. No enacted/announced dated Düsseldorf rate change verified."
+        },
+        "exemptions": "Minors; school/class, vocational-college and youth trips including accompanying persons. Basic residential accommodation, including avoidance of homelessness, outside scope. From the 22nd uninterrupted night in the same establishment no tax is collected.",
+        "legal_source_url": "https://www.duesseldorf.de/stadtrecht/2/22/22104-beherbergungssteuersatzung",
+        "charge_unit": "liable_person_night",
+        "night_count_rule": {
+          "kind": "actual_qualifying_nights_in_jurisdiction",
+          "cap": {
+            "value": 21,
+            "currency": null,
+            "unit": "taxable days per uninterrupted same-property stay",
+            "status": "confirmed",
+            "source_name": "City of Düsseldorf — Beherbergungssteuersatzung §§ 2, 3, 15",
+            "source_url": "https://www.duesseldorf.de/stadtrecht/2/22/22104-beherbergungssteuersatzung",
+            "checked_date": "2026-11-02",
+            "note": "Section 3(3); includes any already accumulated nights in this stay."
+          },
+          "cap_status": "confirmed",
+          "note": "Resolve the city-specific exemption and stay rules before counting. A null cap is not proof that no cap exists."
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "taxable_person_nights",
+            "guest_age_and_trip_category",
+            "continuous_stay_history_at_same_property"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed",
+            "a property has a special section 8 agreed assessment basis not recorded here"
+          ],
+          "evidence_gaps": [],
+          "status": "conditional",
+          "supported_case": "Ordinary paid short leisure stay with independently resolved taxable person-nights and no special assessment agreement."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 9.9,
+      "currency": "EUR",
+      "unit": "per Thekentopf goulash soup with bread at Füchschen",
+      "status": "confirmed",
+      "source_name": "Brauerei im Füchschen — menu effective 2026-10-30",
+      "source_url": "https://fuechschen.de/Speisekarte/Speisen_und_Getraenkekarte.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Named inexpensive light meal, not a city average. Direct PDF is newer than the search-index April version. VAT included; drink excluded."
+    },
+    "midrange_meal_for_two": {
+      "value": null,
+      "currency": "EUR",
+      "unit": "per Gran Misto di Pesce alla griglia for two at Ristorante Amici",
+      "status": "disputed",
+      "source_name": "Ristorante Amici",
+      "source_url": "https://ristorante-amici.de/speisekarte/",
+      "checked_date": "2026-11-02",
+      "note": "Conflicting official live webpage and undated PDF for the same sharing fish dish. No value selected. Both warn that prices can fluctuate; neither supplies an effective date resolving the discrepancy. Main dish only, not a three-course total.",
+      "alternatives": [
+        {
+          "value": 82,
+          "currency": "EUR",
+          "unit": "per sharing fish main for two",
+          "status": "confirmed",
+          "source_name": "Ristorante Amici — live menu",
+          "source_url": "https://ristorante-amici.de/speisekarte/",
+          "checked_date": "2026-11-02",
+          "note": "VAT and service included; current website observation."
+        },
+        {
+          "value": 62,
+          "currency": "EUR",
+          "unit": "per sharing fish main for two",
+          "status": "confirmed",
+          "source_name": "Ristorante Amici — official menu PDF",
+          "source_url": "https://ristorante-amici.de/SpeisekarteAmici.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Undated PDF indexed on official domain; lower amount is not assumed current."
+        }
+      ]
+    },
+    "coffee": {
+      "value": 2.8,
+      "currency": "EUR",
+      "unit": "per freshly brewed cup of coffee at Füchschen",
+      "status": "confirmed",
+      "source_name": "Brauerei im Füchschen — menu effective 2026-10-30",
+      "source_url": "https://fuechschen.de/Speisekarte/Speisen_und_Getraenkekarte.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Brewed coffee, not cappuccino. Named restaurant observation with VAT included."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Rheinturm — observation level",
+      "entry_price": {
+        "value": 12.5,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Rheinturm — observation level — official visitor information",
+        "source_url": "https://www.rheinturm.de/tickets",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary adult admission; early/late discounts are separate. Venue explicitly permits online or on-site card purchase, so advance booking is not required."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "K20 — collection",
+      "entry_price": {
+        "value": 10,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "K20 — collection — official visitor information",
+        "source_url": "https://www.kunstsammlung.de/de/visit",
+        "checked_date": "2026-11-02",
+        "note": "Collection-only adult ticket. Timed special-exhibition products have different prices and booking rules; not included. Collection does not require a timeslot, but an explicit advance-purchase requirement was not established."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "K21 — collection",
+      "entry_price": {
+        "value": 9,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "K21 — collection — official visitor information",
+        "source_url": "https://www.kunstsammlung.de/de/visit",
+        "checked_date": "2026-11-02",
+        "note": "Collection-only adult ticket. Exhibition combination costs differently. Collection has no timeslot requirement; advance-purchase obligation otherwise unconfirmed. Published November closure exceptions must be checked for visit date."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Aquazoo Löbbecke Museum — base adult admission",
+      "entry_price": {
+        "value": 10,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "City of Düsseldorf — Aquazoo price decision",
+        "source_url": "https://www.duesseldorf.de/?tx_pld_frontpage%5BfileUrl%5D=%2Ffileadmin%2FAmt13%2Fpld%2Fpdf%2F20260507-17_20.pdf&type=1467722032",
+        "checked_date": "2026-11-02",
+        "note": "City decision announced 2026-05-07, effective 2026-07-01, directly publishes the base price. The venue page https://aquazoo-duesseldorf.de/besuchen displays a higher amount with the optional conservation contribution, and higher advance-sale pricing. These are different inclusions/channels, not an unresolved same-product conflict. Counter sales explicitly offered; contribution can be declined."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Kunstpalast",
+      "entry_price": {
+        "value": 17,
+        "currency": "EUR",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Kunstpalast — official visitor information",
+        "source_url": "https://www.kunstpalast.de/de/besuch/",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary adult collection/exhibition admission. Discounted afternoon/free collection periods are separate. Mandatory advance registration is stated for groups, not enough to settle ordinary individual advance-purchase policy."
+      },
+      "booking_ahead_required": null
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "Airport-centre dynamic eezy price not quoted; ordinary published fare recorded without an exhaustive cheapest claim. DUS only is in the checked destination catalogue; no Weeze/NRN airport transfer has been assumed.",
+    "The conditional fixed fare is for the Messe. Do not promote it to a general airport-centre total or combine it blindly with meter components.",
+    "The Amici two-person main is disputed between two official menus. DüsseldorfCard outer boundary should be read from the issuer map for out-of-city itineraries.",
+    "Neighbouring Neuss has a separate announced tax regime from 2027, which is not a future Düsseldorf rate. Always match hotel municipality.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

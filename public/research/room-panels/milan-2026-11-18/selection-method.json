@@ -1,0 +1,30 @@
+{
+  "method_version": "room-panel-v9-score-free-dated-classification",
+  "classification": {
+    "required_basis_italy": "independent",
+    "dated_official_record_admission": true,
+    "operator_declaration_role": "exclude_only",
+    "contradictory_class_action": "Exclude if current operator explicitly declares any class other than three; do not upgrade or admit using operator claims.",
+    "no_declaration_action": "Record no_explicit_class_found and searched operator URLs. Lack of a declaration is not independent confirmation and does not negate an otherwise admissible official record.",
+    "unreachable_site_action": "Unresolved current check blocks admission.",
+    "check_cadence": "At selection and before each collection session; preserve dated results, never overwrite the official evidence date.",
+    "maximum_age_months": 36,
+    "maximum_age_status": "proposed_editorial_default_in_draft_v9",
+    "age_anchor": "Official record effective/as-of date, or identifiable dated official dataset snapshot where record-level award date is absent. Never retrieval/check date, crawl date or unrelated metadata-edit date.",
+    "validity": "Valid through the 36-calendar-month anniversary, or an earlier stated certificate expiry, whichever comes first. Evaluate at selection, each capture and publication of a current result. Unknown date or age over the ceiling fails.",
+    "milan_data_as_of": "2024-09-30",
+    "milan_record_award_date_known": false,
+    "milan_valid_through": "2027-09-30",
+    "reasoning": "Classification is an administrative category, distinct from a changing room price. A three-year maximum permits the approved roughly 26-month-old official source but prevents indefinite reuse. The counter-check can detect contrary claims, not prove no change. The limit is an editorial risk tolerance, not a measured stability estimate.",
+    "expiry_action": "Seek newer independent evidence. Without it, withhold current class-qualified results; retain historical observations with their original dates. Do not silently replace panel members or reset the age using an operator declaration.",
+    "notice": "Three-star classification recorded in regional data last updated 30 September 2024. Operator sites checked 18 November 2026 for contradictory class claims; this does not renew the official classification or establish a current award."
+  },
+  "guest_score_gate": false,
+  "frame_source": "OpenStreetMap",
+  "radius_metres": 2000,
+  "panel_size": 8,
+  "algorithm": "Use unrounded Haversine distance, Earth radius 6371008.8 m. Among candidates not excluded, find the nearest remaining distance. Form the inclusive window through nearest +50 m, choose its lowest immutable property_id in ASCII order, remove only that winner and repeat. Unknown eligibility in any of the first eight windows blocks selection. Keep all excluded and unreviewed candidates in the audit.",
+  "classification_admission": "Independent dated regional three-star record required. Operator claims can veto admission, never establish it. Current room/premises identity and operator-direct booking path required.",
+  "exclusion_scope": "More distant reserves outside the completed cutoff need not be certified; they remain unknown, not excluded. A replacement requires review of its whole new cutoff window.",
+  "state": "Panel frozen; no room rates collected or published. Collection calendar and capture software have separate release gates."
+}

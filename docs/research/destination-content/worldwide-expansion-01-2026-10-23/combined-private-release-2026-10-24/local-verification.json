@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "status": "local-release-review-passed-not-yet-deployed",
+  "baseCommit": "6a464b9caa0fdf9a869f26a094640efd9a64f72e",
+  "branch": "experiment/netlify-free",
+  "scope": [
+    "Tokyo v4",
+    "Kyoto v4",
+    "Bangkok v4",
+    "Marrakesh v4",
+    "Cape Town v4",
+    "Rio de Janeiro v4",
+    "Sydney v4",
+    "Dubai v4"
+  ],
+  "ownerEditorialReviewer": "GoEksplo Owner",
+  "media": {
+    "approvedAssets": 8,
+    "humanReviewedRoleSelections": 16,
+    "responsiveWebps": 24,
+    "priorAssetsAndSelections": "unchanged"
+  },
+  "wsiRecheck": "passed-existing-qualified-copy; airport opening remains scheduled, not witnessed; retain 2026-10-26 recheck",
+  "fullSuite": {
+    "total": 1514,
+    "passed": 1513,
+    "failed": 0,
+    "skipped": 1,
+    "skipReason": "optional local Redis-server test; no live diagnostic"
+  },
+  "editorialAndMedia": "passed, including pinned receipts, source scope and exact derivative bytes",
+  "productionBuild": {
+    "status": "passed",
+    "next": "16.4.1",
+    "node": 24,
+    "bundler": "webpack",
+    "buildConfigurationChanged": false
+  },
+  "localBrowser": {
+    "guideViewportChecks": 16,
+    "homepageChecks": 2,
+    "widths": [
+      390,
+      320
+    ],
+    "contextNavigationReloadBack": "passed",
+    "sourceLicenceAndCredits": "passed",
+    "actualHeroDownloads": 640,
+    "overflow": false,
+    "browserErrors": [],
+    "externalRequests": 0,
+    "providerRequests": 0,
+    "RedisRequests": 0,
+    "OpenAIRequests": 0
+  },
+  "earlierVisualChecks": "original desktop and 390/375/360/320 review packets preserved",
+  "netlifySafeguards": {
+    "evidence": "one explicit current manual owner confirmation in this conversation; no authenticated Netlify connector/CLI available",
+    "projectId": "761a30c5-1c32-4da2-be90-c564063cf6a2",
+    "repository": "artshllk/goeksplo",
+    "productionBranch": "experiment/netlify-free",
+    "productionAccess": "Private",
+    "deployPreviewAccess": "Private",
+    "customDomains": []
+  },
+  "preserved": [
+    "canonical identities and airport access",
+    "English-only routing and request-specific noindex",
+    "AI OFF",
+    "deterministic prices/reserves/FX/cost profiles",
+    "shared provider admission and bounded fan-out",
+    "affiliate payload and origin/rate-limit guards",
+    "Netlify/Vercel/dependency configuration"
+  ],
+  "newRuntimeContentOutsideApprovedEight": false,
+  "hostedStatus": "pending-one-automatic-Git-connected-build; no hosted tests claimed",
+  "deploymentId": null,
+  "manualDeploymentAuthorized": false,
+  "automaticRetryAuthorized": false
+}

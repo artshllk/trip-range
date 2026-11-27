@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "phase5i-standard-non-city",
+  "title": "Phase 5I standard non-city destinations — preparation only",
+  "entries": [
+    {
+      "destinationId": "place:Q4648",
+      "name": "Bali",
+      "region": "Asia",
+      "placeKind": "island",
+      "group": "standard-non-city"
+    },
+    {
+      "destinationId": "place:Q40846",
+      "name": "Tenerife",
+      "region": "Europe",
+      "placeKind": "island",
+      "group": "standard-non-city"
+    },
+    {
+      "destinationId": "place:Q2656389",
+      "name": "Mauritius island",
+      "region": "Africa",
+      "placeKind": "island",
+      "group": "standard-non-city"
+    },
+    {
+      "destinationId": "place:Q131347",
+      "name": "Oahu",
+      "region": "North America",
+      "placeKind": "island",
+      "group": "standard-non-city"
+    },
+    {
+      "destinationId": "place:Q76516549",
+      "name": "Algarve",
+      "region": "Europe",
+      "placeKind": "region",
+      "group": "standard-non-city"
+    },
+    {
+      "destinationId": "place:Q41858",
+      "name": "Banff National Park",
+      "region": "North America",
+      "placeKind": "nature-area",
+      "group": "standard-non-city"
+    }
+  ]
+}

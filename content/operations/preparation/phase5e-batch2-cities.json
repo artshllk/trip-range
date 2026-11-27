@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5e-batch2-cities",
+  "preparedAt": "2026-10-13T23:06:05.936Z",
+  "owner": "GoEksplo editorial maintenance",
+  "entries": [
+    {
+      "destinationId": "prishtina",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "legacy-catalogue",
+        "cityCode": "PRN",
+        "airports": [
+          "PRN"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q1489",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "4c8c149efa3a0749ba50e5244b6454be5dd3e77be157ac1eaf6ddd51c19ce99e",
+        "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+        "evidenceDigest": "305d2241f468a0c5cb2730a7646ac093cca5307e406b4c5021292b0dcafb8c8e"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "MEX",
+        "airports": [
+          "MEX",
+          "TLC",
+          "NLU"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q8678",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "7e6592d5f213ef7f70af61b38b4fe2ee6d564241eb700c9ee4b23e6a946aa3ce",
+        "identityDigest": "8e14ddc3b00159ebef8ea586f020094cdd199541bd9815b21b3dd3dc6f0c8ed3",
+        "evidenceDigest": "33fcd33f3d8a96bd7c0ff3b887d5c63a8ff0125e6bd21f77d5d8b96ee47859a1"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "RIO",
+        "airports": [
+          "SDU",
+          "GIG",
+          "RRJ"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q1486",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "c16750e18795e75445e45d88f394472a4b43e5482c320c1c2057af65a450ef34",
+        "identityDigest": "08ff5bde6ae92763ea48ae1733ed7f3e31f5f552c589260bb05714bf9942d8bd",
+        "evidenceDigest": "01b116dcfb613df455efdc8ffcb47880ef18b8e38cdbef9b71eaa0c2f8622974"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "BUE",
+        "airports": [
+          "AEP",
+          "EZE"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q5465",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "3f7bf8c37e77c9eeaab75c37a4a635f1ac3b809a7e574627637f44deb09a513c",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "d581b147c18559acb3d3e5c56e5eaa75eed3cc848cf9cf89bd5a293a71efbf4b"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "CPT",
+        "airports": [
+          "CPT"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q101625",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "75deaac862c63de66ece65a6bcae407950aa78a2a548e1ad4a50bc386d744b57",
+        "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+        "evidenceDigest": "92956ddf448d72495ced894a5989d76703e47e213bcb17c77bbec1ba43779b03"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "RAK",
+        "airports": [
+          "RAK"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q612",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "73d1cc62b00541e133f7dbcb953374824a2a15ebc47a827a051254deaf381d44",
+        "identityDigest": "e87df9e93be4dbf8426393cd035a18607b303d0ee6a0fa6da88c085b21a0aaa0",
+        "evidenceDigest": "99aa07ebb5ba139a01dfa79f61c31f0349304cb27b859d0f06e4a7d64c9472af"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "DXB",
+        "airports": [
+          "DWC",
+          "DXB"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "istanbul",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "4fc3169e04daa911713b94deb1fe3e902c4804690f67bd1076d97c00c77ff858",
+        "identityDigest": "6b9bc3d0e8245bae02ca2df568391dd56cdf82ec26a62b3723e45bb755e8f5ea",
+        "evidenceDigest": "cb5d9f365714757402eeb7f7bb04929a0de240ecf0cb22c8828ef627d5d88ec1"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "legacy-catalogue",
+        "cityCode": "IST",
+        "airports": [
+          "SAW",
+          "IST"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    },
+    {
+      "destinationId": "place:Q3130",
+      "pins": {
+        "contentVersion": 2,
+        "contentDigest": "e82dfb14bded7d149f34d7952bf65d04bf5440cc24be89e475a3da233c316f14",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "df1abd74c003d31f291ce92ce983920b52e3985a447a9a5b62e545e6af1ff01e"
+      },
+      "prepared": {
+        "identity": true,
+        "sources": true,
+        "englishCopy": true,
+        "albanianCopy": true,
+        "selectionAndOrder": true,
+        "freshness": true
+      },
+      "travel": {
+        "kind": "direct-city",
+        "cityCode": "SYD",
+        "airports": [
+          "WSI",
+          "SYD"
+        ],
+        "checkedAt": "2026-10-13T22:53:34.334Z",
+        "reviewAfter": "2027-01-10T00:00:00Z",
+        "sources": [
+          "https://api.travelpayouts.com/data/en/cities.json",
+          "https://api.travelpayouts.com/data/en/airports.json"
+        ]
+      }
+    }
+  ]
+}

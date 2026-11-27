@@ -1,0 +1,369 @@
+{
+  "retrievedAt": "2026-10-23T09:52:06.393415+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "15606487": {
+          "pageid": 15606487,
+          "ns": 6,
+          "title": "File:Barcelona city view.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2363789,
+              "width": 3867,
+              "height": 1643,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Barcelona_city_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barcelona_city_view.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15606487",
+              "sha1": "e30d57c7b4278207e8bf87178ff235965cdf3d6f",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-06-24 20:18:31",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Barcelona city view",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Nikon D60|Flickr images uploaded by Flickr upload bot|Skylines of Barcelona|Panoramas of Barcelona",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Taken from the road on top of the parc güell",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2010-03-27 12:56:16",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/22399204@N08/4498359656\">Barcelona city view</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22399204@N08\">Ivan Mlinaric</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 24 June 2011, 20:17 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:Tm\" title=\"User:Tm\">Tm</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/2.0/deed.en\">Attribution 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1132567565,
+              "parentid": 1080894838,
+              "timestamp": "2025-12-17T08:54:58Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "{{Information\n|Description\t= Taken from the road on top of the parc güell\n|Source\t\t= [[Flickr]]: [https://www.flickr.com/photos/22399204@N08/4498359656 Barcelona city view]\n|Date\t\t= 2010-03-27 12:56:16\n|Author\t\t= [https://www.flickr.com/people/22399204@N08 Ivan Mlinaric] \n|Permission\t= {{User:Flickr upload bot/upload|date=20:17, 24 June 2011 (UTC)|reviewer=Tm}}\n{{cc-by-2.0}}\n|other_versions\t=\n}}\n[[Category:Panoramas of Barcelona]]\n[[Category:Skylines of Barcelona]]\n[[Category:Taken with Nikon D60]]"
+                }
+              }
+            }
+          ]
+        },
+        "88145804": {
+          "pageid": 88145804,
+          "ns": 6,
+          "title": "File:Skylines of the Central Business District at night in Singapore.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 10120259,
+              "width": 6517,
+              "height": 3666,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88145804",
+              "sha1": "bf04ead522beb3930aaeb36840a012abfa9fdb96",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-03-16 04:34:28",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Skylines of the Central Business District at night in Singapore",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Skyscrapers in Singapore|Images with annotations|Views from Marina Bay Sands|Taken with Canon EOS 5D Mark IV and Canon EF 24-70mm F2.8L II USM|Self-published work|Dusk in Singapore|The Fullerton Hotel Singapore at night|Files with coordinates missing SDC location of creation|Singapore photographs taken on 2018-06-10|Photographs by Basile Morin|Long exposure photography in architecture|Night skylines of the Central Business District, Singapore|Esplanade - Theatres on the Bay at night|Esplanade Bridge at night|Published photographs by Basile Morin",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "1.285278",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "103.861111",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Skylines of the <a href=\"https://en.wikipedia.org/wiki/Central_Area,_Singapore\" class=\"extiw\" title=\"en:Central Area, Singapore\">Central Business District</a>, featuring from left to right, the <a href=\"https://en.wikipedia.org/wiki/UOB_Plaza\" class=\"extiw\" title=\"en:UOB Plaza\">UOB Plaza One</a> skyscraper, the <a href=\"https://en.wikipedia.org/wiki/Maybank_Tower_(Singapore)\" class=\"extiw\" title=\"en:Maybank Tower (Singapore)\">Maybank Tower</a>, <a href=\"https://en.wikipedia.org/wiki/The_Fullerton_Hotel_Singapore\" class=\"extiw\" title=\"en:The Fullerton Hotel Singapore\">The Fullerton Hotel</a>, the <a href=\"https://en.wikipedia.org/wiki/Esplanade_Bridge\" class=\"extiw\" title=\"en:Esplanade Bridge\">Esplanade Bridge</a>, the Old Parliament House (The Arts House), the Singapore Cricket Club, the <a href=\"https://en.wikipedia.org/wiki/National_Gallery_Singapore\" class=\"extiw\" title=\"en:National Gallery Singapore\">National Gallery of Singapore</a>, and the domes of the <a href=\"https://en.wikipedia.org/wiki/Esplanade_%E2%80%93_Theatres_on_the_Bay\" class=\"extiw\" title=\"en:Esplanade – Theatres on the Bay\">Theatres on the Bay (Esplanade)</a>, at night in <a href=\"https://en.wikipedia.org/wiki/Singapore\" class=\"extiw\" title=\"en:Singapore\">Singapore</a>, from the sky observation deck of the <a href=\"https://en.wikipedia.org/wiki/Marina_Bay_Sands\" class=\"extiw\" title=\"en:Marina Bay Sands\">Marina Bay Sands</a> skyscraper.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2018-06-10 19:09:37",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Basile_Morin\" title=\"User:Basile Morin\">Basile Morin</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1225666482,
+              "parentid": 1144921344,
+              "timestamp": "2026-06-04T08:50:25Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=Skylines of the [[:en:Central_Area,_Singapore|Central Business District]], featuring from left to right, the [[:en:UOB_Plaza|UOB Plaza One]] skyscraper, the [[:en:Maybank Tower (Singapore)|Maybank Tower]], [[:en:The_Fullerton_Hotel_Singapore|The Fullerton Hotel]], the [[:en:Esplanade Bridge|Esplanade Bridge]], the Old Parliament House (The Arts House), the Singapore Cricket Club, the [[:en:National_Gallery_Singapore|National Gallery of Singapore]], and the domes of the [[:en:Esplanade_–_Theatres_on_the_Bay|Theatres on the Bay (Esplanade)]], at night in [[:en:Singapore|Singapore]], from the sky observation deck of the [[:en:Marina_Bay_Sands|Marina Bay Sands]] skyscraper.}}\n{{fr|1=Gratte-ciels du Central Business District, montrant de gauche à droite, le gratte-ciel UOB Plaza One, la tour Maybank, l'hôtel [[:en:The_Fullerton_Hotel_Singapore|The Fullerton]], le pont de l'[[:en:Esplanade Bridge|Esplanade]], l'ancien parlement (The Arts House), le Singapore Cricket Club, la galerie nationale de Singapore, et les dômes du théâtre de l'[[:en:Esplanade_–_Theatres_on_the_Bay|Esplanade – Theatres on the Bay]], la nuit à [[:fr:Singapour|Singapour]], depuis la plateforme d'observation en haut du gratte-ciel Marina Bay Sands.}}\n|date=2018-06-10 19:09:37\n|source={{own}}\n|author=[[User:Basile Morin|Basile Morin]]\n|permission=\n|other versions=\n}}\n{{Location|1.285278|103.861111}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n{{ImageNote|id=1|x=375|y=1906|w=1792|h=1067|dimx=6517|dimy=3666|style=2}}\n[[File:Aerial_photographs_of_The_Fullerton_Hotel_of_Singapore_at_night.jpg|300px]]\n\n[[:en:The_Fullerton_Hotel_Singapore|The Fullerton Hotel]]\n{{ImageNoteEnd|id=1}}\n{{ImageNote|id=2|x=2102|y=2208|w=2289|h=652|dimx=6517|dimy=3666|style=2}}\n[[:en:Esplanade Bridge|Esplanade Bridge]]\n{{ImageNoteEnd|id=2}}\n{{ImageNote|id=3|x=4472|y=2134|w=1923|h=798|dimx=6517|dimy=3666|style=2}}\n[[:en:Esplanade_–_Theatres_on_the_Bay|Theatres on the Bay (Esplanade)]]\n{{ImageNoteEnd|id=3}}\n{{ImageNote|id=4|x=3356|y=1597|w=1344|h=505|dimx=6517|dimy=3666|style=2}}\n[[:en:National_Gallery_Singapore|National Gallery of Singapore]]\n{{ImageNoteEnd|id=4}}\n{{ImageNote|id=5|x=3030|y=1947|w=326|h=293|dimx=6517|dimy=3666|style=2}}\nSingapore Cricket Club\n{{ImageNoteEnd|id=5}}\n{{ImageNote|id=6|x=2395|y=1776|w=627|h=424|dimx=6517|dimy=3666|style=2}}\nOld Parliament House (The Arts House)\n{{ImageNoteEnd|id=6}}\n{{ImageNote|id=7|x=244|y=220|w=350|h=1646|dimx=6517|dimy=3666|style=2}}\n[[:en:UOB_Plaza|UOB Plaza One]]\n{{ImageNoteEnd|id=7}}\n{{ImageNote|id=8|x=603|y=937|w=448|h=1141|dimx=6517|dimy=3666|style=2}}\n[[:en:Maybank Tower (Singapore)|Maybank Tower]]\n{{ImageNoteEnd|id=8}}\n{{QualityImage}}\n\n[[Category:Photographs by Basile Morin]]\n[[Category:Taken with Canon EOS 5D Mark IV and Canon EF 24-70mm F2.8L II USM]]\n[[Category:Night skylines of the Central Business District, Singapore]]\n[[Category:Skyscrapers in Singapore]]\n[[Category:Long exposure photography in architecture]]\n[[Category:Dusk in Singapore]]\n[[Category:Views from Marina Bay Sands]]\n[[Category:Esplanade Bridge at night]]\n[[Category:Esplanade - Theatres on the Bay at night]]\n[[Category:The Fullerton Hotel Singapore at night]]\n[[Category:Quality images by Basile Morin]]\n[[Category:Quality images by Basile Morin/Architecture]]\n[[Category:Quality images of buildings in Singapore]]\n[[Category:Singapore photographs taken on 2018-06-10]]\n[[Category:Quality images of skyscrapers]]\n[[Category:Quality images with long exposure]]\n[[Category:Published photographs by Basile Morin]]"
+                }
+              }
+            }
+          ]
+        },
+        "139259979": {
+          "pageid": 139259979,
+          "ns": 6,
+          "title": "File:Vista aérea del Palacio Bellas Artes.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7158006,
+              "width": 4000,
+              "height": 2250,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139259979",
+              "sha1": "e6fee529ed33bca47aec920cbd59b36238e07422",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-10-20 20:38:26",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Vista aérea del Palacio Bellas Artes",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Mexico photographs taken on 2023-10-12|October 2023 in Mexico City|Information field template with formatting|Aerial photographs of Mexico City|Files with coordinates missing SDC location of creation|Photos taken with WMMX drone|Taken with DJI FC3682|Photos and video from unmanned aerial vehicles of Mexico|Images of Cuauhtémoc by User:ProtoplasmaKid|2023 photographs by User:ProtoplasmaKid|Aerial views of Palacio de Bellas Artes|Photos taken with WMMX drone in Mexico City|Aerial drone photos by User:ProtoplasmaKid",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "19.435236",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-99.141267",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Overhead shot of the Palacio Bellas Artes and its dome.\nHistoric Center of Mexico City, Mexico.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-10-12 19:15:58",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table style=\"background-color:#e0e0e0; border:dotted 1px #dfded3; padding:1px; font-size:14px; color:#000000;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"left\">\n</td>\n<td>\n<p><br>\n</p>\n<figure class=\"mw-halign-center\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:WP20Symbols_Coatlicue.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/WP20Symbols_Coatlicue.svg/250px-WP20Symbols_Coatlicue.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"117\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/WP20Symbols_Coatlicue.svg/330px-WP20Symbols_Coatlicue.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"401\"></a><figcaption></figcaption></figure>\n<p><a href=\"https://upload.wikimedia.org/wikipedia/commons/a/a5/Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=api&amp;utm_content=original\" class=\"internal\" title=\"Vista aérea del Palacio Bellas Artes.jpg\"><b>This creative work</b></a> was created by <a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a> It is licensed under a Creative Commons License. You are free to use and distribute it as you wish.\n</p>\n<div class=\"center\">\n<dl><dd><b>On the condition that you always place my attribution next to the material or in the credits of your derivative work in a visible, prominently, and intentional manner, as follows:</b></dd>\n<dd><big><b>ProtoplasmaKid / Wikimedia Commons / CC-BY-SA 4.0</b></big></dd></dl>\n</div>\n<p>Although this work, or modified versions of it, may appear on many websites, this is the original material, and using it for free ONLY requires adhering to the license.<br><small>Also, it would be greatly appreciated if you notify me of the use of my photo, or if you want a different shot or version or a license for full commercial use, contact me by email or on my <a href=\"//commons.wikimedia.org/wiki/User_talk:ProtoplasmaKid\" title=\"User talk:ProtoplasmaKid\">discussion page</a>.</small>\n</p>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "© ProtoplasmaKid / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1218321706,
+              "parentid": 1079748891,
+              "timestamp": "2026-05-22T14:30:29Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{es|1=Toma cenital del Palacio Bellas Artes y su cúpula.\nCentro Histórico de la Ciudad de México, México.}}\n{{en|1=Overhead shot of the Palacio Bellas Artes and its dome.\nHistoric Center of Mexico City, Mexico.}}\n|date=2023-10-12 19:15:58\n|author = {{own}}\n|source             =[[User:ProtoplasmaKid|ProtoplasmaKid]]\n|permission         ={{User:ProtoplasmaKid/Credit}}\n|other versions=\n|other_fields=\n{{Credit line |Author = © ProtoplasmaKid \n |Other = Wikimedia Commons |License = CC-BY-SA-4.0}}\n{{Taken on |1=2023-10-12 |cat= |location=Mexico |source= }}\n{{Taken with|DJI FC3682|+|link=}}\n}}\n{{Location|19.435236|-99.141267}}\n{{WMMX drone grant}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Aerial photographs of Mexico City]]\n[[Category:Photos and video from unmanned aerial vehicles of Mexico]]\n[[Category:Aerial views of Palacio de Bellas Artes]]\n[[Category:Mexico photographs taken on 2023-10-12]]\n[[Category:October 2023 in Mexico City]]\n[[Category:Images of Cuauhtémoc by User:ProtoplasmaKid]]\n[[Category:Photos taken with WMMX drone in Mexico City]]\n[[Category:Aerial drone photos by User:ProtoplasmaKid]]\n[[Category:2023 photographs by User:ProtoplasmaKid]]"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 2,
+  "assets": [
+    {
+      "id": "commons:54280496",
+      "provider": "wikimedia-commons",
+      "providerFileId": "54280496",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+      "width": 5184,
+      "height": 3456,
+      "mimeType": "image/jpeg",
+      "author": "Andrzej Otrębski",
+      "attribution": "Andrzej Otrębski · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-21T14:34:04.767Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-21T14:34:04.767Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/vienna-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/vienna-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 36408,
+            "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+          },
+          {
+            "src": "/destinations/vienna-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 108394,
+            "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+          },
+          {
+            "src": "/destinations/vienna-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 245614,
+            "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:74181523",
+      "provider": "wikimedia-commons",
+      "providerFileId": "74181523",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:London_Skyline_(125508655).jpeg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg",
+      "width": 2048,
+      "height": 1152,
+      "mimeType": "image/jpeg",
+      "author": "Ilya Grigorik",
+      "attribution": "Ilya Grigorik · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-21T14:34:04.767Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-21T14:34:04.767Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/london-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/london-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 45986,
+            "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+          },
+          {
+            "src": "/destinations/london-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 134292,
+            "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+          },
+          {
+            "src": "/destinations/london-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 267994,
+            "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:4213147",
+      "provider": "wikimedia-commons",
+      "providerFileId": "4213147",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+      "width": 7203,
+      "height": 2247,
+      "mimeType": "image/jpeg",
+      "author": "MarcusObal",
+      "attribution": "MarcusObal · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-22T09:43:51.895Z"
+      },
+      "health": {
+        "status": "unchecked",
+        "checkedAt": null
+      },
+      "localDelivery": {
+        "src": "/destinations/paris-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/paris-640.webp",
+            "width": 640,
+            "height": 199,
+            "bytes": 20658,
+            "sha256": "2f73127c047a3bfb4a19389981be7afdb6229f1ab5b0e9440ae631cb28321430"
+          },
+          {
+            "src": "/destinations/paris-1200.webp",
+            "width": 1200,
+            "height": 374,
+            "bytes": 64830,
+            "sha256": "39b6593a0868c5de548ae329c9f285134fa6de1f1891f7e169a5fa5e3257cd35"
+          },
+          {
+            "src": "/destinations/paris-1920.webp",
+            "width": 1920,
+            "height": 599,
+            "bytes": 151216,
+            "sha256": "6f895dcbaddba65243d128b8d9a9e3c871539565bc43011d0a89ea43b782d969"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:129513544",
+      "provider": "wikimedia-commons",
+      "providerFileId": "129513544",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:New_York_City_Skyline_2016.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/New_York_City_Skyline_2016.jpg",
+      "width": 7580,
+      "height": 2110,
+      "mimeType": "image/jpeg",
+      "author": "Aaron Harris (Forestikai)",
+      "attribution": "Aaron Harris (Forestikai) · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-22T09:43:51.895Z"
+      },
+      "health": {
+        "status": "unchecked",
+        "checkedAt": null
+      },
+      "localDelivery": {
+        "src": "/destinations/new-york-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/new-york-640.webp",
+            "width": 640,
+            "height": 178,
+            "bytes": 18202,
+            "sha256": "9868e2f76a6a37542554af177044a6454f9da7257128be67f82ce9b83e5414fd"
+          },
+          {
+            "src": "/destinations/new-york-1200.webp",
+            "width": 1200,
+            "height": 334,
+            "bytes": 53500,
+            "sha256": "374ac1b697d5ec86a3ce2583102014b8128f2cbd7dff59e5c368a4719c4975c4"
+          },
+          {
+            "src": "/destinations/new-york-1920.webp",
+            "width": 1920,
+            "height": 534,
+            "bytes": 121696,
+            "sha256": "861c02f801f93d8d6eac3f5f40191bfafd5f7f95b62b7ed2d3f6c1a577bb053b"
+          }
+        ]
+      }
+    }
+  ],
+  "selections": [
+    {
+      "subject": "vienna",
+      "role": "destination.hero",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:54280496",
+      "method": "human-review",
+      "selectedAt": "2026-10-21T20:53:04.982Z",
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "alt": {
+        "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/vienna-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/vienna-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 36408,
+            "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+          },
+          {
+            "src": "/destinations/vienna-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 108394,
+            "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+          },
+          {
+            "src": "/destinations/vienna-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 245614,
+            "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "vienna",
+      "role": "destination.card",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:54280496",
+      "method": "human-review",
+      "selectedAt": "2026-10-21T20:53:04.982Z",
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/vienna-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/vienna-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 36408,
+            "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+          },
+          {
+            "src": "/destinations/vienna-1200.webp",
+            "width": 1200,
+            "height": 800,
+            "bytes": 108394,
+            "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+          },
+          {
+            "src": "/destinations/vienna-1920.webp",
+            "width": 1920,
+            "height": 1280,
+            "bytes": 245614,
+            "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "london",
+      "role": "destination.hero",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:74181523",
+      "method": "human-review",
+      "selectedAt": "2026-10-21T20:53:04.982Z",
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "alt": {
+        "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/london-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/london-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 45986,
+            "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+          },
+          {
+            "src": "/destinations/london-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 134292,
+            "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+          },
+          {
+            "src": "/destinations/london-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 267994,
+            "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "london",
+      "role": "destination.card",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:74181523",
+      "method": "human-review",
+      "selectedAt": "2026-10-21T20:53:04.982Z",
+      "reviewedAt": "2026-10-21T20:53:04.982Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/london-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/london-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 45986,
+            "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+          },
+          {
+            "src": "/destinations/london-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 134292,
+            "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+          },
+          {
+            "src": "/destinations/london-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 267994,
+            "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "paris",
+      "role": "destination.hero",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:4213147",
+      "method": "human-review",
+      "selectedAt": "2026-10-22T09:43:51.895Z",
+      "reviewedAt": "2026-10-22T09:43:51.895Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.32,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/paris-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/paris-640.webp",
+            "width": 640,
+            "height": 199,
+            "bytes": 20658,
+            "sha256": "2f73127c047a3bfb4a19389981be7afdb6229f1ab5b0e9440ae631cb28321430"
+          },
+          {
+            "src": "/destinations/paris-1200.webp",
+            "width": 1200,
+            "height": 374,
+            "bytes": 64830,
+            "sha256": "39b6593a0868c5de548ae329c9f285134fa6de1f1891f7e169a5fa5e3257cd35"
+          },
+          {
+            "src": "/destinations/paris-1920.webp",
+            "width": 1920,
+            "height": 599,
+            "bytes": 151216,
+            "sha256": "6f895dcbaddba65243d128b8d9a9e3c871539565bc43011d0a89ea43b782d969"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "paris",
+      "role": "destination.card",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:4213147",
+      "method": "human-review",
+      "selectedAt": "2026-10-22T09:43:51.895Z",
+      "reviewedAt": "2026-10-22T09:43:51.895Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.32,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/paris-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/paris-640.webp",
+            "width": 640,
+            "height": 199,
+            "bytes": 20658,
+            "sha256": "2f73127c047a3bfb4a19389981be7afdb6229f1ab5b0e9440ae631cb28321430"
+          },
+          {
+            "src": "/destinations/paris-1200.webp",
+            "width": 1200,
+            "height": 374,
+            "bytes": 64830,
+            "sha256": "39b6593a0868c5de548ae329c9f285134fa6de1f1891f7e169a5fa5e3257cd35"
+          },
+          {
+            "src": "/destinations/paris-1920.webp",
+            "width": 1920,
+            "height": 599,
+            "bytes": 151216,
+            "sha256": "6f895dcbaddba65243d128b8d9a9e3c871539565bc43011d0a89ea43b782d969"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "place:Q60",
+      "role": "destination.hero",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:129513544",
+      "method": "human-review",
+      "selectedAt": "2026-10-22T09:43:51.895Z",
+      "reviewedAt": "2026-10-22T09:43:51.895Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/new-york-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/new-york-640.webp",
+            "width": 640,
+            "height": 178,
+            "bytes": 18202,
+            "sha256": "9868e2f76a6a37542554af177044a6454f9da7257128be67f82ce9b83e5414fd"
+          },
+          {
+            "src": "/destinations/new-york-1200.webp",
+            "width": 1200,
+            "height": 334,
+            "bytes": 53500,
+            "sha256": "374ac1b697d5ec86a3ce2583102014b8128f2cbd7dff59e5c368a4719c4975c4"
+          },
+          {
+            "src": "/destinations/new-york-1920.webp",
+            "width": 1920,
+            "height": 534,
+            "bytes": 121696,
+            "sha256": "861c02f801f93d8d6eac3f5f40191bfafd5f7f95b62b7ed2d3f6c1a577bb053b"
+          }
+        ]
+      }
+    },
+    {
+      "subject": "place:Q60",
+      "role": "destination.card",
+      "revision": 1,
+      "status": "approved",
+      "assetId": "commons:129513544",
+      "method": "human-review",
+      "selectedAt": "2026-10-22T09:43:51.895Z",
+      "reviewedAt": "2026-10-22T09:43:51.895Z",
+      "locked": true,
+      "noneReason": null,
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.5
+      },
+      "alt": {
+        "en": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "reviewedChecksum": {
+        "algorithm": "sha1",
+        "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+      },
+      "history": [],
+      "reviewedLocalDelivery": {
+        "src": "/destinations/new-york-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/new-york-640.webp",
+            "width": 640,
+            "height": 178,
+            "bytes": 18202,
+            "sha256": "9868e2f76a6a37542554af177044a6454f9da7257128be67f82ce9b83e5414fd"
+          },
+          {
+            "src": "/destinations/new-york-1200.webp",
+            "width": 1200,
+            "height": 334,
+            "bytes": 53500,
+            "sha256": "374ac1b697d5ec86a3ce2583102014b8128f2cbd7dff59e5c368a4719c4975c4"
+          },
+          {
+            "src": "/destinations/new-york-1920.webp",
+            "width": 1920,
+            "height": 534,
+            "bytes": 121696,
+            "sha256": "861c02f801f93d8d6eac3f5f40191bfafd5f7f95b62b7ed2d3f6c1a577bb053b"
+          }
+        ]
+      }
+    }
+  ],
+  "rejections": []
+}

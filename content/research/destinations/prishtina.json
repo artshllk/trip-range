@@ -1,0 +1,10 @@
+{
+  "destinationId": "prishtina",
+  "status": "available",
+  "report": "phase5e-prishtina.md",
+  "researchedAt": "2026-10-13T23:00:22.794Z",
+  "sourceCount": 9,
+  "unresolvedIssues": [
+    "Human source, EN/SQ copy and selection review remains pending."
+  ]
+}

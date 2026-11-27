@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "paris",
+  "researchedAt": "2026-10-12T20:29:27Z",
+  "method": "Manual Paris-only official-source recheck. Counts are tool-level operations, not underlying HTTP requests. Separate from the immutable historical Phase 3F ledger.",
+  "throttling": [],
+  "limitations": [
+    "Notre-Dame history direct open returned an internal retrieval error.",
+    "Notre-Dame access direct open returned HTTP 403. Its substantive official indexed page text was available in a domain-restricted search; the tool reported a crawl two days earlier. No bypass or repeated direct retry.",
+    "Unrelated results returned by search were not used. Only official Paris/site evidence and Wikidata identity were retained.",
+    "No application research provider, image discovery, media approval, product AI or publication command was used."
+  ],
+  "actions": [
+    {
+      "kind": "open",
+      "count": 4,
+      "targets": [
+        "https://parisjetaime.com/eng/article/the-essentials-a264",
+        "https://www.toureiffel.paris/en/access-map",
+        "https://www.louvre.fr/en/visit",
+        "https://www.notredamedeparis.fr/en/understand/history/"
+      ]
+    },
+    {
+      "kind": "find",
+      "count": 2,
+      "target": "https://www.louvre.fr/en/visit",
+      "patterns": ["time", "palace"]
+    },
+    {
+      "kind": "search",
+      "count": 2,
+      "queries": [
+        "site.notredamedeparis.fr/en \"Île de la Cité\"",
+        "site.louvre.fr/en \"royal palace\" \"museum\""
+      ]
+    },
+    {
+      "kind": "open",
+      "count": 4,
+      "targets": [
+        "https://www.notredamedeparis.fr/en/visit/practical-information/access/",
+        "https://presse.louvre.fr/le-musee-du-louvre-en-bref-1063000220316/?lang=en",
+        "https://www.wikidata.org/wiki/Q90",
+        "https://www.louvre.fr/en/visit"
+      ]
+    },
+    {
+      "kind": "search",
+      "count": 1,
+      "domains": ["notredamedeparis.fr"],
+      "queries": ["site:notredamedeparis.fr/en/visit/practical-information/access/ \"Located\" \"cathedral\""]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "destinationSubject": "place:Q60",
+  "relationship": "direct-city",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-13T21:00:30.627Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "travelpayouts-city-data-2026-10-13",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-13T20:56:39.815Z"
+    },
+    {
+      "id": "travelpayouts-airport-data-2026-10-13",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-13T20:56:41.198Z"
+    }
+  ],
+  "directCity": {
+    "provider": "travelpayouts",
+    "providerCityCode": "NYC",
+    "airportCodes": [
+      "JFK",
+      "LGA",
+      "EWR"
+    ],
+    "sourceIds": [
+      "travelpayouts-city-data-2026-10-13",
+      "travelpayouts-airport-data-2026-10-13"
+    ]
+  }
+}

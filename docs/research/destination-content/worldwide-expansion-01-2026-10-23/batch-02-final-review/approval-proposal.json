@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch2-final-review-v1",
+  "priorPacket": "worldwide-batch2-review-v1",
+  "status": "unsigned-owner-proposal-not-publication",
+  "preparedAt": "2026-10-23T16:51:04.048Z",
+  "candidates": [
+    {
+      "slug": "tokyo",
+      "destinationId": "place:Q1490",
+      "candidateFile": "drafts/tokyo.json",
+      "fileSha256": "9468beab4e1c9413db5445bb017a84374cd1f1f02035228ffb47ca79c2852314",
+      "evidenceFile": "drafts/tokyo-evidence.md",
+      "evidenceFileSha256": "8f4c145fc93559cc59021b2eb609a3bd5fc0144c29b3b99dcc42f6e7c08ac2df",
+      "contentVersion": 4,
+      "contentDigest": "281b25051b5d223809b908e5a85d753473195e31fa5e1b8b78e008f540a113d2",
+      "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+      "evidenceDigest": "dd40bd3eb59a9a194e4d7eaf8069adad4b6cf181cdc24f4e914f9dc0c06f5da2",
+      "findings": [
+        {
+          "id": "batch2-final:tokyo:source-limit-1",
+          "message": "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "kyoto",
+      "destinationId": "place:Q34600",
+      "candidateFile": "drafts/kyoto.json",
+      "fileSha256": "e6f653ab950c6cc9de75bcbb085783ed1b29365de778f94d029406ee42fac2c8",
+      "evidenceFile": "drafts/kyoto-evidence.md",
+      "evidenceFileSha256": "5f56fc2d014decdb598836edad757538636be5286f9524dcb4131a7e5a77082f",
+      "contentVersion": 4,
+      "contentDigest": "06775e61bf75f37c23f367d8a822681d7676dd83549ae68246b2944ce3db378e",
+      "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+      "evidenceDigest": "6e43f244d242c564d8b782cbf1bd2363093d072f3fc3023bacc5b5f2a5576bb5",
+      "findings": [
+        {
+          "id": "batch2-final:kyoto:source-limit-1",
+          "message": "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "bangkok",
+      "destinationId": "place:Q1861",
+      "candidateFile": "drafts/bangkok.json",
+      "fileSha256": "078202298d2425fcdcdbdb884b246819fcf9fe51f74f4c32add5c9a7ecbdab0f",
+      "evidenceFile": "drafts/bangkok-evidence.md",
+      "evidenceFileSha256": "aa79dec54ea4bd1cc956448cc6fd3c9cdd3e35ef5e1a74f51405a0b5da843e19",
+      "contentVersion": 4,
+      "contentDigest": "77e36dd1b2f2e4a8897900327bda24b23479ea478daf1cbca07371e5091f6fee",
+      "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+      "evidenceDigest": "57b864bd26832b54bd99295c2e4da69dde389f08320f6231394e64c5450f68a8",
+      "findings": [
+        {
+          "id": "batch2-final:bangkok:source-limit-1",
+          "message": "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim."
+        },
+        {
+          "id": "batch2-final:bangkok:source-limit-2",
+          "message": "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "marrakesh",
+      "destinationId": "place:Q101625",
+      "candidateFile": "drafts/marrakesh.json",
+      "fileSha256": "65948f56016c1cfbb4d50f1428b408094fa0ab6a0c62657a58d6b515f0454bba",
+      "evidenceFile": "drafts/marrakesh-evidence.md",
+      "evidenceFileSha256": "71c2e78464af90ae6477a4b7894a6e97f38e4d51ea0e011effa561203d3aa249",
+      "contentVersion": 4,
+      "contentDigest": "46d0181933beb42addf5da83e80241c69ec85ca5bb81d8c3945023360918a743",
+      "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+      "evidenceDigest": "9932e48061b33f9991f6298dfb79b83eafa3d454987f34f7dda7f8dc790aa899",
+      "findings": [
+        {
+          "id": "batch2-final:marrakesh:source-limit-1",
+          "message": "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified."
+        },
+        {
+          "id": "batch2-final:marrakesh:source-limit-2",
+          "message": "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    }
+  ],
+  "mediaProposal": "media/approval-proposal.json",
+  "mediaProposalSha256": "a4d49343305852822841ca8418691a4639eec23f98ee96e25c8059108623cc50",
+  "reviewer": null,
+  "reviewedAt": null
+}

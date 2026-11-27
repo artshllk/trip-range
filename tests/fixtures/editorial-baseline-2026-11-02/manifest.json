@@ -1,0 +1,385 @@
+{
+  "purpose": "Immutable historical regression fixture. Never regenerate during routine content reviews. Never imported by production.",
+  "baseline_git_commit": "c59db4d998ebdacdd5e56dec57c0f168c047ab38",
+  "source": "Pre-refresh HEAD content plus preserved archived and parked records; assembled by the unchanged historical fixture in the isolated diagnostic control.",
+  "scenario_clock": "2026-10-26T16:00:00Z",
+  "records": 30,
+  "files": [
+    {
+      "file": "access.json",
+      "sha256": "812fcaef6ac560a6f1333d3dee93b9e99118669acbdfc306feb97cd188dfc899"
+    },
+    {
+      "file": "content/destinations/barcelona.json",
+      "sha256": "2e947d62034f6f97ebb6553e79d1d1dbd212c71776df85bda5488ac6108abcc4"
+    },
+    {
+      "file": "content/destinations/crete.json",
+      "sha256": "4b3226ca48f93f24185ce409cd346a2889f96d70d6b3be11ac726af96d810ac3"
+    },
+    {
+      "file": "content/destinations/istanbul.json",
+      "sha256": "adf5f3c0ac2c28c37d3428797fa66b4feda5fd39c16b7a60ebb221455b3f6379"
+    },
+    {
+      "file": "content/destinations/london.json",
+      "sha256": "cf26ced91090e70894a93b798c91288a811671f57befc77cbfec9c9e79f8eda4"
+    },
+    {
+      "file": "content/destinations/paris.json",
+      "sha256": "0deee8d218208e297fd263625c13e39cfac12e974e715fdb8daf49a4e3961e6a"
+    },
+    {
+      "file": "content/destinations/place-Q101625.json",
+      "sha256": "60e42378fab87cdd5df031e6164f49e0556bfb5897ae846f6bc20129e3563349"
+    },
+    {
+      "file": "content/destinations/place-Q1273.json",
+      "sha256": "2d6524779e734b3f269a3f72308744d0099f46096de6e613b9f272b0f892a56d"
+    },
+    {
+      "file": "content/destinations/place-Q131347.json",
+      "sha256": "2181e52a56ceeb8a87df890db143a234427404a13c45017ba1f69d7a3cd03d1b"
+    },
+    {
+      "file": "content/destinations/place-Q1486.json",
+      "sha256": "f2e361b44a8f3f17c914aa8822fbad454bf5c42b660f1fb63ecd748e02c3eee0"
+    },
+    {
+      "file": "content/destinations/place-Q1489.json",
+      "sha256": "192312b2d48f42aaf835d0fb53ae6215f2fe6550f24987de676b66733e142a8f"
+    },
+    {
+      "file": "content/destinations/place-Q1490.json",
+      "sha256": "97993bb5f363d93cffc2e14ae319cc8755df2b1059d88d40743449681c3bf2e5"
+    },
+    {
+      "file": "content/destinations/place-Q180402.json",
+      "sha256": "3fe0b341ee78fa3ab65165c7dc0d2046ba2956d8abdbfc67e21a55194e0c7466"
+    },
+    {
+      "file": "content/destinations/place-Q1861.json",
+      "sha256": "300ca60af246130d43bf6de5ad3c6657d13affe3eab14a9184a1c3790b8d5e41"
+    },
+    {
+      "file": "content/destinations/place-Q24451.json",
+      "sha256": "ea6d7ef77a402c8c7c51a65f8650b0d7d9b77e7e9027394f622bc58ed96464eb"
+    },
+    {
+      "file": "content/destinations/place-Q24639.json",
+      "sha256": "8ffe7cdbb6ce82fa18b9041acead20c5b4634c8aebe4e639e53a9d9fa5d93d04"
+    },
+    {
+      "file": "content/destinations/place-Q2656389.json",
+      "sha256": "0607834853b3fd5823422d691dd06d8d846cf10af22c5afc48dfae0c5962c56b"
+    },
+    {
+      "file": "content/destinations/place-Q3130.json",
+      "sha256": "4bedaed70d172e7d62b914115442722320fab61a9ca34aadb3aca6508814d0ed"
+    },
+    {
+      "file": "content/destinations/place-Q334.json",
+      "sha256": "7d7e673415965e36b89a037b3775212c6a489473b33b9282aa4470e5da0a38f8"
+    },
+    {
+      "file": "content/destinations/place-Q34600.json",
+      "sha256": "615c1e5a0d70f508268498fe586fac98f90fb275f28e6021080a00d4e715c934"
+    },
+    {
+      "file": "content/destinations/place-Q3593416.json",
+      "sha256": "7eb180f837ca9258eda2c0dbf6a792a15e6627acebe4d052a92c316e35238d30"
+    },
+    {
+      "file": "content/destinations/place-Q40846.json",
+      "sha256": "51e0495239c9ba892e74dfd386157aee72c9ae151b06241a26e43e943ab2a94e"
+    },
+    {
+      "file": "content/destinations/place-Q41858.json",
+      "sha256": "0ff62cb6b966ebca6f8212389fead2cfb0633f43c1b7a31000a660f109af9dd2"
+    },
+    {
+      "file": "content/destinations/place-Q4648.json",
+      "sha256": "33830033ca2faf04ac87a684e9e27a6d3464d8f60adfea4b1c980ebc85776979"
+    },
+    {
+      "file": "content/destinations/place-Q5465.json",
+      "sha256": "d5ec5d0af5751faca250f276cc88e2d6efdf58b707e401a38f6700b3dbd41e07"
+    },
+    {
+      "file": "content/destinations/place-Q60.json",
+      "sha256": "ff20542a7508c86c35fe613489f80b42690bf1b8d92c0277bb3a0b5e225580b2"
+    },
+    {
+      "file": "content/destinations/place-Q612.json",
+      "sha256": "c107ac9767e6583e5b56debf0da8e1edb0521c1123ccbfed11cddf963a684f7a"
+    },
+    {
+      "file": "content/destinations/place-Q76516549.json",
+      "sha256": "5daaa30666430cc04178bf773a9ac912fe176407330bd0560ebfd7b79f4e3583"
+    },
+    {
+      "file": "content/destinations/place-Q8678.json",
+      "sha256": "8cf1e598ce17b87fa1b8828b7c0753d9c9c99eeb5fad88efb2da70ce2da443c1"
+    },
+    {
+      "file": "content/destinations/prishtina.json",
+      "sha256": "b23f4866a3a271a3d2632cd7aa214e1804b67fd104faca91fcb5b96cfe7a8988"
+    },
+    {
+      "file": "content/destinations/records.ts",
+      "sha256": "593a98936d802cfbd29bbdadc321f6061cede6b5d93c3018e76a16760e543da1"
+    },
+    {
+      "file": "content/destinations/vienna.json",
+      "sha256": "2228cdd8dfaf039d5474c3bf97c9e935dd13c4b490c501a0ee5349e0af1bee36"
+    },
+    {
+      "file": "content/operations/editorial-findings.json",
+      "sha256": "2463fda701b7eb1e8002981c43fc497dc027351e0dbd19ab284a905deccb16c5"
+    },
+    {
+      "file": "content/operations/queue/records.ts",
+      "sha256": "593a98936d802cfbd29bbdadc321f6061cede6b5d93c3018e76a16760e543da1"
+    },
+    {
+      "file": "content/operations/reviews/barcelona.json",
+      "sha256": "169ae0f8162fed83f72fc72c043a16f929cd5ccb7c7b3776be0f6364c47ec2c1"
+    },
+    {
+      "file": "content/operations/reviews/crete.json",
+      "sha256": "97a800e7c55fad76be382748650905bc7657d1964673457bfa9807f896a52536"
+    },
+    {
+      "file": "content/operations/reviews/istanbul.json",
+      "sha256": "3db48de2b8069733347bbe4c6a25fa63d225537ace2a11739b9a01bbc2b9df9c"
+    },
+    {
+      "file": "content/operations/reviews/london.json",
+      "sha256": "e2f103fa645c43ab9f4e81c87a62097799bfa1a204a3a97368c30bae82213688"
+    },
+    {
+      "file": "content/operations/reviews/paris.json",
+      "sha256": "15936a56d02758b7ec3e5f79791b4bf58b700b4857be52931b4516931dc00ba3"
+    },
+    {
+      "file": "content/operations/reviews/place-Q101625.json",
+      "sha256": "6e066a1c7ec83ad9a5a8f661f844017ca56b80bf38f51950ec2ed5aefac1a8ea"
+    },
+    {
+      "file": "content/operations/reviews/place-Q1273.json",
+      "sha256": "04a9d2c3c9c3f840a5395d5820130667fac62effe16b3cd8f9d56c493f3817c6"
+    },
+    {
+      "file": "content/operations/reviews/place-Q131347.json",
+      "sha256": "7af12eeca183aec72493a1977da1a77e0c2dd8689c307ad146b8a3be21a6c851"
+    },
+    {
+      "file": "content/operations/reviews/place-Q1486.json",
+      "sha256": "ebdcbb0c98b23a078d32ea68a1a753be4626eec0a6c72e069ee1b3ae33232bbd"
+    },
+    {
+      "file": "content/operations/reviews/place-Q1489.json",
+      "sha256": "3c618bd7734e75ebbd40ae47da3dc8fc49a560c7ae63c51d50bfbad133327f15"
+    },
+    {
+      "file": "content/operations/reviews/place-Q1490.json",
+      "sha256": "e962e04ef82ba8dbb74f53fe82e5083eb28dc3f88c1025a2c430f5eab238af8c"
+    },
+    {
+      "file": "content/operations/reviews/place-Q180402.json",
+      "sha256": "b405badcba308d207d85994e54d62ca4b829ede50ab0ba6878adba56b9768a24"
+    },
+    {
+      "file": "content/operations/reviews/place-Q1861.json",
+      "sha256": "5a9cb2ff81202b28dc2a2f28c72591e640e992d62a0b34a21d3a53b0c4535568"
+    },
+    {
+      "file": "content/operations/reviews/place-Q24451.json",
+      "sha256": "5197698fa4785066523661c3a7a1727e5fe8f9b9ac7bc1df2b9907bff6baa4a7"
+    },
+    {
+      "file": "content/operations/reviews/place-Q24639.json",
+      "sha256": "319d102ec5b1ca6899e0288f9f4cf9d9a3ca57c9d119906df39569d448c994c1"
+    },
+    {
+      "file": "content/operations/reviews/place-Q2656389.json",
+      "sha256": "1fc37623112f4eb1a95cc81ee818be301809aa6ec3decd3e7e3994516574d4b3"
+    },
+    {
+      "file": "content/operations/reviews/place-Q3130.json",
+      "sha256": "d800ced65c895ff2f6493de57e5e2cedacf7b7df0881eb3b324b5b663ffb8af8"
+    },
+    {
+      "file": "content/operations/reviews/place-Q334.json",
+      "sha256": "14a036f94628bed06ce1eda549dc16e1e7b65c4f569ac9549cfca6afef5f3d06"
+    },
+    {
+      "file": "content/operations/reviews/place-Q34600.json",
+      "sha256": "8875fa9433bfa67f48e8a8f05821a4f7ed7d9e4b5a236f8cdaf8d03b4d5e57f6"
+    },
+    {
+      "file": "content/operations/reviews/place-Q3593416.json",
+      "sha256": "00725015dda98b57982bdf353a2adf5a005ab467c252721d4ed161ae80216ec9"
+    },
+    {
+      "file": "content/operations/reviews/place-Q40846.json",
+      "sha256": "1d6343d87aed2fb1be8dffe32bce5aa17fec40a13a43fecda8afa24abb2d38ae"
+    },
+    {
+      "file": "content/operations/reviews/place-Q41858.json",
+      "sha256": "98f2d2f3b16143104297584a41a1ab3f494a881cd68d86264efc2938d4fbb625"
+    },
+    {
+      "file": "content/operations/reviews/place-Q4648.json",
+      "sha256": "9f6f694fb5f191acfd20c48f663fc0b3c56b0d464759d7ea03ed72835d5e68a1"
+    },
+    {
+      "file": "content/operations/reviews/place-Q5465.json",
+      "sha256": "7527763bcda692b7ec02c2152ad5b88488f93ba74c3f6a434db77628ff55c3b0"
+    },
+    {
+      "file": "content/operations/reviews/place-Q60.json",
+      "sha256": "ef4b6cf75218a8271d91cdda2426f094da432b72991946116e072f08085712b0"
+    },
+    {
+      "file": "content/operations/reviews/place-Q612.json",
+      "sha256": "4bae0398e3dc51f0e79af489bfcfcb62a954620712863ecf1484960bfa4ec664"
+    },
+    {
+      "file": "content/operations/reviews/place-Q76516549.json",
+      "sha256": "98d4aab20e5bef3a2dc5416b8d66d55b6745819a5d59f3a4dc0f7bda879f1a3b"
+    },
+    {
+      "file": "content/operations/reviews/place-Q8678.json",
+      "sha256": "4df03e6688793a1fa5b9bee89454dd777f21cc7dc08c5bd3b9c55ba430a684b2"
+    },
+    {
+      "file": "content/operations/reviews/prishtina.json",
+      "sha256": "2486c992861283e6fc1884551ef914c180ba8ad38f273fd7ad4b0ee54a75ab3c"
+    },
+    {
+      "file": "content/operations/reviews/vienna.json",
+      "sha256": "88460965eeeeef71326b6593427d64e40177bd24c61e19f8c22033504a4adcf1"
+    },
+    {
+      "file": "content/places/records.ts",
+      "sha256": "593a98936d802cfbd29bbdadc321f6061cede6b5d93c3018e76a16760e543da1"
+    },
+    {
+      "file": "content/research/destinations/records.ts",
+      "sha256": "593a98936d802cfbd29bbdadc321f6061cede6b5d93c3018e76a16760e543da1"
+    },
+    {
+      "file": "docs/research/destination-content/phase4b-guide-cost-assumptions.md",
+      "sha256": "f49c28872483f0ce88b3a8a6565d3bb0cfdbd8fbde222e1a32196af7acb8b390"
+    },
+    {
+      "file": "docs/research/destination-content/phase5c-place-Q24639.md",
+      "sha256": "479021c46d3e898a2432b8955f7b1a7865b70aeca10a8cb424bdb9cb14d2aea7"
+    },
+    {
+      "file": "docs/research/destination-content/phase5e-place-Q1486.md",
+      "sha256": "8eb8c2b1121e43670d72478cc86d5ca6e75c31f8ada95ebe7cf4fa5da0050689"
+    },
+    {
+      "file": "docs/research/destination-content/phase5e-prishtina.md",
+      "sha256": "2b45ec3884d471f3d63b2c70151089b186d68e79816b7f12542a058556b759f3"
+    },
+    {
+      "file": "docs/research/destination-content/phase5g-crete.md",
+      "sha256": "53f35f53629b1abdc7943703af5a684910eae19a1fb78cebd0a4102586fd7730"
+    },
+    {
+      "file": "docs/research/destination-content/phase5g-place-Q1273.md",
+      "sha256": "191c9c15e73113242c9ff81a866dd42c50a640260dde664fde41a6403ebf7617"
+    },
+    {
+      "file": "docs/research/destination-content/phase5g-place-Q180402.md",
+      "sha256": "85eddf8fc0009335687d855d82ee338381a77bdfd000d9f47f5f7391b25d01ff"
+    },
+    {
+      "file": "docs/research/destination-content/phase5i-place-Q131347.md",
+      "sha256": "fbd59bc17a92d9d95165bf7e463883b855d45c63de7a3fda380ee0fbe92b730d"
+    },
+    {
+      "file": "docs/research/destination-content/phase5i-place-Q2656389.md",
+      "sha256": "33a177d227287af2dfa0ac87d603081bd2e68af3a474c22ec7c70d58cdc919d7"
+    },
+    {
+      "file": "docs/research/destination-content/phase5i-place-Q40846.md",
+      "sha256": "21bc6475687f39f4e60c60bc757e600f5cf0daf7dedb73a72f6c4f371caf63b8"
+    },
+    {
+      "file": "docs/research/destination-content/phase5i-place-Q41858.md",
+      "sha256": "8307128c8eeb9061b549ef11fbe5f46368db6d434834f7df942c6e029947db96"
+    },
+    {
+      "file": "docs/research/destination-content/phase5i-place-Q4648.md",
+      "sha256": "63225609fc4f14a972a5368432e1a1882cc066bff53f4b1f434d0146d4c2560b"
+    },
+    {
+      "file": "docs/research/destination-content/phase5i-place-Q76516549.md",
+      "sha256": "4b917c1a0812daae94128614ad4d97b3fd43223d3f0f5688daf64c050160494e"
+    },
+    {
+      "file": "docs/research/destination-content/phase5k-place-Q3593416.md",
+      "sha256": "b10094929b9d2a6a239a85c429cf847c8c4e49a6ace392a5a1b99b4605d74706"
+    },
+    {
+      "file": "docs/research/destination-content/phase5m-place-Q24451.md",
+      "sha256": "35df5fe23b07d467ac536f599044e00c408578f76b50952d144c04fd08a05a03"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch1-barcelona-v3.md",
+      "sha256": "e4396d24fc0731dd535e055ca748348ca3e493f7e7ab5e479191112a2de2550a"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch1-istanbul-v3.md",
+      "sha256": "af43b80f1bce3c645f8659f4b5631d7b5fb3168332c7fc48a18ea381736d734e"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch1-mexico-city-v3.md",
+      "sha256": "63010507689bb42cc8310af76c6fc609ed30c1931f72bd02117a38a6dabf73d0"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch1-singapore-v3.md",
+      "sha256": "cf751107fb7cd7a436574969336492dce0ad1108cf6f10da8cabf3b80700e846"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch2-bangkok-v4.md",
+      "sha256": "aa79dec54ea4bd1cc956448cc6fd3c9cdd3e35ef5e1a74f51405a0b5da843e19"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch2-kyoto-v4.md",
+      "sha256": "5f56fc2d014decdb598836edad757538636be5286f9524dcb4131a7e5a77082f"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch2-marrakesh-v4.md",
+      "sha256": "71c2e78464af90ae6477a4b7894a6e97f38e4d51ea0e011effa561203d3aa249"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch2-tokyo-v4.md",
+      "sha256": "8f4c145fc93559cc59021b2eb609a3bd5fc0144c29b3b99dcc42f6e7c08ac2df"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch3-cape-town-v4.md",
+      "sha256": "aeeecdfe1561449ffe8037861c8580469b55eb7073830fe700c04ab1a908579d"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch3-dubai-v4.md",
+      "sha256": "ed0307a5896fa13fbf20fb53a103f63c22ab022694a4a4cbfda8ec9b3cd75cb0"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch3-rio-de-janeiro-v4.md",
+      "sha256": "7ae2edfac0613ffcc224e6c41a19b4113a1576a683e845e499712d4259cd1ea9"
+    },
+    {
+      "file": "docs/research/destination-content/worldwide-batch3-sydney-v4.md",
+      "sha256": "cc803df0ea5a2d22f53d799186bed77054d113a0ad8122332c12bbf0425e793d"
+    },
+    {
+      "file": "operations.json",
+      "sha256": "b6ccffd859a81643f363e879ee6d832d53ec741f26898973e6ea1a469e71aed1"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "existing-dependency-advisories-not-an-exploit-confirmation",
+  "installedNext": "16.4.0",
+  "installedSharp": "0.35.5",
+  "maintainerPatchedNext": "16.4.1",
+  "advisories": [
+    {
+      "title": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used",
+      "severity": "critical",
+      "range": ">=16.0.0 <=16.4.0",
+      "url": "https://github.com/advisories/GHSA-2464-fhr4-w9xw",
+      "maintainerURL": "https://github.com/vercel/next.js/security/advisories/GHSA-2464-fhr4-w9xw"
+    },
+    {
+      "title": "Next.js: Denial of Service in App Router using Server Actions",
+      "severity": "high",
+      "range": ">=16.0.0 <=16.4.0",
+      "url": "https://github.com/advisories/GHSA-p3m5-59mp-jv5r",
+      "maintainerURL": "https://github.com/vercel/next.js/security/advisories/GHSA-p3m5-59mp-jv5r"
+    },
+    {
+      "title": "Next.js: Unauthenticated Remote Code Execution in `use cache` functions returning typed arrays",
+      "severity": "critical",
+      "range": ">=16.0.0 <=16.4.0",
+      "url": "https://github.com/advisories/GHSA-673q-mjm6-r5xr",
+      "maintainerURL": "https://github.com/vercel/next.js/security/advisories/GHSA-673q-mjm6-r5xr"
+    }
+  ],
+  "applicationExposure": "Not established by this focused review. Sharp matches documented image workaround; no use server/use cache/Cache Components configuration found in source scan.",
+  "dependencyChanges": false,
+  "upgradeAuthorization": "not granted in this task"
+}

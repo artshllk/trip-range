@@ -1,0 +1,11 @@
+{
+  "status": "blocked",
+  "errors": [
+    "selections[4]:unsuitable-dimensions",
+    "selections[5]:unsuitable-dimensions",
+    "selections[6]:unsuitable-dimensions",
+    "selections[7]:unsuitable-dimensions"
+  ],
+  "registryChanged": false,
+  "publicFilesChanged": false
+}

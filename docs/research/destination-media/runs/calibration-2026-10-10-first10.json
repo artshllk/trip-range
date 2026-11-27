@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "worldwide-media-v1",
+  "datasetHash": "136eacb32ac7c6b42299769e17065eadf564dfd9a9bbdb61a4a78620c2fb406b",
+  "mode": "live",
+  "startedAt": "2026-10-10T17:03:02.845Z",
+  "finishedAt": "2026-10-10T17:03:03.542Z",
+  "automaticApproval": false,
+  "automaticIngestion": false,
+  "stopReason": "rate-limit",
+  "rows": [
+    {
+      "input": {
+        "subject": "london",
+        "name": "London",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 51.5074,
+          "longitude": -0.1278
+        },
+        "iataCodes": [
+          "LHR",
+          "LGW"
+        ]
+      },
+      "identity": {
+        "subject": "london",
+        "name": "London",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 51.5074,
+          "longitude": -0.1278
+        },
+        "iataCodes": [
+          "LHR",
+          "LGW"
+        ],
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "provider-unavailable-or-bounded",
+        "policyVersion": "destination-media-v1"
+      },
+      "identityEvidence": [],
+      "identityReview": {
+        "identityCorrect": "uncertain",
+        "reviewedAt": null,
+        "reviewerNotes": "Identity review pending; expected-ID comparison is a separate metric."
+      },
+      "status": "unavailable",
+      "requests": {
+        "wikidata": 1,
+        "commons": 0
+      },
+      "failures": [
+        {
+          "service": "wikidata",
+          "reason": "rate-limit",
+          "httpStatus": 200
+        }
+      ],
+      "failureCategories": [
+        "provider-unavailable"
+      ],
+      "candidates": [],
+      "missedGoodImageNotes": []
+    }
+  ]
+}

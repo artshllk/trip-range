@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-08",
+  "purpose": "public-source-cost-research-not-fare-evidence",
+  "profilePolicy": "Exact city/currency, partial units allowed, complete reviewed basket required for candidate cost gate",
+  "reviewedDestinationCurrencyPairs": 5,
+  "partialProfilesAccepted": 3,
+  "fullProfilesAccepted": 0,
+  "fullBasketsDeferred": 5,
+  "profilesEntirelyDeferred": 2,
+  "records": [
+    {
+      "destinationId": "city:BFS",
+      "destination": "Belfast",
+      "currency": "GBP",
+      "selectionSource": "selection-2026-10-08.json",
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "fullBasketStatus": "deferred",
+      "components": [
+        {
+          "component": "stay",
+          "status": "deferred",
+          "normalized": null,
+          "observation": {
+            "startDate": "2026-11-28",
+            "endDate": "2026-11-30",
+            "adults": 2,
+            "children": 0,
+            "rooms": 1,
+            "roomBasis": "Standard private room; hostel beds and luxury outliers excluded",
+            "locationCriteria": "Convenient to the city visit; property-level distances not verifiable",
+            "taxFeeTreatment": "unavailable",
+            "amountObserved": null
+          },
+          "sources": [
+            {
+              "id": "booking-attempt",
+              "url": "https://www.booking.com/searchresults.html?ss=Belfast&checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1&group_children=0&selected_currency=GBP",
+              "type": "accommodation-observation",
+              "checkedAt": "2026-10-08",
+              "access": "fetch-error-no-price-observed"
+            }
+          ],
+          "methodology": "Exact dates/party/currency attempted; no reproducible prices or fee treatment obtained. No cheapest-only or mixed-class third-party aggregate accepted."
+        },
+        {
+          "component": "food",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [
+            {
+              "id": "belfast-offers",
+              "url": "https://visitbelfast.com/plan/offers-link/food-drink-offers/",
+              "type": "official-tourism",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Conditional weekday and early-bird restaurant offers cannot establish a full Saturday–Monday food basket."
+        },
+        {
+          "component": "localTransport",
+          "status": "reviewed",
+          "normalized": {
+            "amount": {
+              "cents": 400,
+              "currency": "GBP"
+            },
+            "unit": "person-day"
+          },
+          "sources": [
+            {
+              "id": "translink-mlink",
+              "url": "https://www.translink.co.uk/our-apps/mlink-ticketing-app/ticket-types",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Adult mLink Metro/Glider day ticket; one each day; no child discount; airport separate."
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [],
+          "methodology": "Actual arrival airport and appropriate round-trip city connection not validated. Existing generic party allowance retained; city pass not assumed to cover it."
+        },
+        {
+          "component": "activities",
+          "status": "planning-allowance",
+          "normalized": null,
+          "sources": [],
+          "methodology": "No specific paid attraction basket researched. Retain explicitly disclosed general discretionary allowance; do not invent admissions."
+        }
+      ]
+    },
+    {
+      "destinationId": "city:MIL",
+      "destination": "Milan",
+      "currency": "EUR",
+      "selectionSource": "selection-2026-10-08.json",
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "fullBasketStatus": "deferred",
+      "components": [
+        {
+          "component": "stay",
+          "status": "deferred",
+          "normalized": null,
+          "observation": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-16",
+            "adults": 2,
+            "children": 0,
+            "rooms": 1,
+            "roomBasis": "Standard private room; hostel beds and luxury outliers excluded",
+            "locationCriteria": "Convenient to the city visit; property-level distances not verifiable",
+            "taxFeeTreatment": "unavailable",
+            "amountObserved": null
+          },
+          "sources": [
+            {
+              "id": "booking-attempt",
+              "url": "https://www.booking.com/searchresults.html?ss=Milan&checkin=2026-11-14&checkout=2026-11-16&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
+              "type": "accommodation-observation",
+              "checkedAt": "2026-10-08",
+              "access": "fetch-error-no-price-observed"
+            }
+          ],
+          "methodology": "Exact dates/party/currency attempted; no reproducible prices or fee treatment obtained. No cheapest-only or mixed-class third-party aggregate accepted."
+        },
+        {
+          "component": "food",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [],
+          "methodology": "No reproducible dated meal basket established. Conference/brochure material does not establish ordinary visitor food costs."
+        },
+        {
+          "component": "localTransport",
+          "status": "reviewed",
+          "normalized": {
+            "amount": {
+              "cents": 1550,
+              "currency": "EUR"
+            },
+            "unit": "person-trip"
+          },
+          "sources": [
+            {
+              "id": "atm-three-day",
+              "url": "https://www.atm.it/en/ViaggiaConNoi/Biglietti/Pages/tickets_milan.aspx",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Adult ATM Mi1–Mi3 three-consecutive-day ticket; city zones only; airport coverage not assumed. Service-day cutoff 03:45; actual flight times not validated."
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [],
+          "methodology": "Actual arrival airport and appropriate round-trip city connection not validated. Existing generic party allowance retained; city pass not assumed to cover it."
+        },
+        {
+          "component": "activities",
+          "status": "planning-allowance",
+          "normalized": null,
+          "sources": [],
+          "methodology": "No specific paid attraction basket researched. Retain explicitly disclosed general discretionary allowance; do not invent admissions."
+        }
+      ]
+    },
+    {
+      "destinationId": "city:BRU",
+      "destination": "Brussels",
+      "currency": "EUR",
+      "selectionSource": "selection-2026-10-08.json",
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "fullBasketStatus": "deferred",
+      "components": [
+        {
+          "component": "stay",
+          "status": "deferred",
+          "normalized": null,
+          "observation": {
+            "startDate": "2026-11-28",
+            "endDate": "2026-11-30",
+            "adults": 2,
+            "children": 0,
+            "rooms": 1,
+            "roomBasis": "Standard private room; hostel beds and luxury outliers excluded",
+            "locationCriteria": "Convenient to the city visit; property-level distances not verifiable",
+            "taxFeeTreatment": "unavailable",
+            "amountObserved": null
+          },
+          "sources": [
+            {
+              "id": "booking-attempt",
+              "url": "https://www.booking.com/searchresults.html?ss=Brussels&checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1&group_children=0&selected_currency=EUR",
+              "type": "accommodation-observation",
+              "checkedAt": "2026-10-08",
+              "access": "fetch-error-no-price-observed"
+            }
+          ],
+          "methodology": "Exact dates/party/currency attempted; no reproducible prices or fee treatment obtained. No cheapest-only or mixed-class third-party aggregate accepted."
+        },
+        {
+          "component": "food",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [
+            {
+              "id": "brussels-budget",
+              "url": "https://www.visit.brussels/en/visitors/what-to-do/brussels-on-a-budget",
+              "type": "official-tourism",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Qualitative budget guidance does not supply a current priced daily meal basket."
+        },
+        {
+          "component": "localTransport",
+          "status": "reviewed",
+          "normalized": {
+            "amount": {
+              "cents": 850,
+              "currency": "EUR"
+            },
+            "unit": "person-day"
+          },
+          "sources": [
+            {
+              "id": "stib-contactless-cap",
+              "url": "https://www.stib-mivb.be/home/client-support/fares-and-transport-tickets",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Adult STIB contactless daily spending cap reserved for each day; fewer rides may cost less. Each traveller needs a payment method; other operators and airport journeys separate."
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [],
+          "methodology": "Actual arrival airport and appropriate round-trip city connection not validated. Existing generic party allowance retained; city pass not assumed to cover it."
+        },
+        {
+          "component": "activities",
+          "status": "planning-allowance",
+          "normalized": null,
+          "sources": [],
+          "methodology": "No specific paid attraction basket researched. Retain explicitly disclosed general discretionary allowance; do not invent admissions."
+        }
+      ]
+    },
+    {
+      "destinationId": "city:LAS",
+      "destination": "Las Vegas",
+      "currency": "USD",
+      "selectionSource": "selection-2026-10-08.json",
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "fullBasketStatus": "deferred",
+      "components": [
+        {
+          "component": "stay",
+          "status": "deferred",
+          "normalized": null,
+          "observation": {
+            "startDate": "2026-11-14",
+            "endDate": "2026-11-16",
+            "adults": 2,
+            "children": 0,
+            "rooms": 1,
+            "roomBasis": "Standard private room; hostel beds and luxury outliers excluded",
+            "locationCriteria": "Convenient to the city visit; property-level distances not verifiable",
+            "taxFeeTreatment": "unavailable",
+            "amountObserved": null
+          },
+          "sources": [
+            {
+              "id": "booking-attempt",
+              "url": "https://www.booking.com/searchresults.html?ss=Las+Vegas&checkin=2026-11-14&checkout=2026-11-16&group_adults=2&no_rooms=1&group_children=0&selected_currency=USD",
+              "type": "accommodation-observation",
+              "checkedAt": "2026-10-08",
+              "access": "fetch-error-no-price-observed"
+            }
+          ],
+          "methodology": "Exact dates/party/currency attempted; no reproducible prices or fee treatment obtained. No cheapest-only or mixed-class third-party aggregate accepted."
+        },
+        {
+          "component": "food",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [
+            {
+              "id": "vegas-budget-food",
+              "url": "https://www.visitlasvegas.com/experience/post/eat-on-budget-vegas/",
+              "type": "official-tourism",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Official tourism examples support budget-conscious options, but do not establish a full November meal basket including tax/tip."
+        },
+        {
+          "component": "localTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [
+            {
+              "id": "rtc-fares",
+              "url": "https://www.rtcsnv.com/ways-to-travel/fares-passes/",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08",
+              "access": "blocked-403-not-bypassed"
+            }
+          ],
+          "methodology": "Search-indexed official fare snippet exists, but direct source access returned 403. No bypass; no runtime rate accepted from the snippet."
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [],
+          "methodology": "Actual arrival airport and appropriate round-trip city connection not validated. Existing generic party allowance retained; city pass not assumed to cover it."
+        },
+        {
+          "component": "activities",
+          "status": "planning-allowance",
+          "normalized": null,
+          "sources": [],
+          "methodology": "No specific paid attraction basket researched. Retain explicitly disclosed general discretionary allowance; do not invent admissions."
+        }
+      ]
+    },
+    {
+      "destinationId": "city:DUB",
+      "destination": "Dublin",
+      "currency": "GBP",
+      "selectionSource": "selection-2026-10-08.json",
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "fullBasketStatus": "deferred",
+      "components": [
+        {
+          "component": "stay",
+          "status": "deferred",
+          "normalized": null,
+          "observation": {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-09",
+            "adults": 2,
+            "children": 0,
+            "rooms": 1,
+            "roomBasis": "Standard private room",
+            "locationCriteria": "Convenient for city visit; no property-level criteria verified",
+            "taxFeeTreatment": "unavailable",
+            "amountObserved": null
+          },
+          "sources": [
+            {
+              "id": "visit-dublin-stays",
+              "url": "https://www.visitdublin.com/accommodation",
+              "type": "official-tourism",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Tourism directory provides no reproducible GBP two-adult quote for the candidate weekend. Previously inaccessible booking pages were not bypassed or repeatedly requested."
+        },
+        {
+          "component": "food",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [
+            {
+              "id": "visit-dublin-food",
+              "url": "https://www.visitdublin.com/guides/budget-dining-dublin",
+              "type": "official-tourism",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Official budget-dining guide uses EUR lunch/main-course categories, not a GBP daily basket. No FX conversion or full-meal assumption."
+        },
+        {
+          "component": "localTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sourceObservation": {
+            "amount": {
+              "cents": 600,
+              "currency": "EUR"
+            },
+            "unit": "adult-day-cap-zone-1"
+          },
+          "sources": [
+            {
+              "id": "tfi-leap",
+              "url": "https://www.transportforireland.ie/fares/leap-card/",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08",
+              "access": "read"
+            }
+          ],
+          "methodology": "Official Zone 1 adult daily cap is in EUR. Manchester candidate plans in GBP; no matching-currency normalization without FX. No GBP runtime profile created. Card purchase/deposit and airport route not validated."
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "deferred",
+          "normalized": null,
+          "sources": [],
+          "methodology": "Actual airport round-trip basis and GBP evidence unavailable. Retain general allowance."
+        },
+        {
+          "component": "activities",
+          "status": "planning-allowance",
+          "normalized": null,
+          "sources": [],
+          "methodology": "No selected paid attraction basket. Retain disclosed general planning allowance."
+        }
+      ]
+    }
+  ]
+}

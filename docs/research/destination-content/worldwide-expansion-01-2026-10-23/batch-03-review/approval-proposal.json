@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch3-review-v1",
+  "status": "unsigned-owner-proposal-not-publication",
+  "preparedAt": "2026-10-23T22:38:24.098Z",
+  "candidates": [
+    {
+      "slug": "cape-town",
+      "destinationId": "place:Q5465",
+      "candidateFile": "drafts/cape-town.json",
+      "fileSha256": "ccbe808ad520eed8d27d054a5d8d195e67acee5539aa1307a8eeee8df72ce6a5",
+      "evidenceFile": "drafts/cape-town-evidence.md",
+      "evidenceFileSha256": "aeeecdfe1561449ffe8037861c8580469b55eb7073830fe700c04ab1a908579d",
+      "contentVersion": 4,
+      "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+      "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+      "evidenceDigest": "1749414a34da14f8028b7c8be41239c78b3003ad9a649c48071b3a7c7ef150f0",
+      "findings": [
+        {
+          "id": "batch3:cape-town:source-limit-1",
+          "message": "MyCiTi suspension notice is current source evidence, not a service status guarantee for a future trip. Recheck before publication and travel."
+        },
+        {
+          "id": "batch3:cape-town:source-limit-2",
+          "message": "Cableway weather widgets can be stale; only the general weather-dependent service rule is used."
+        },
+        {
+          "id": "batch3:cape-town:source-limit-3",
+          "message": "Bo-Kaap page includes unrelated Newlands template text; only its actual Bo-Kaap introduction is used."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "destinationId": "place:Q8678",
+      "candidateFile": "drafts/rio-de-janeiro.json",
+      "fileSha256": "9c9791ac5f84b2037b123693b9b1faeec44986bd12506412daed56ff8002c86a",
+      "evidenceFile": "drafts/rio-de-janeiro-evidence.md",
+      "evidenceFileSha256": "7ae2edfac0613ffcc224e6c41a19b4113a1576a683e845e499712d4259cd1ea9",
+      "contentVersion": 4,
+      "contentDigest": "195561a2abe6f8eb296e6b5858c5207d747986ba7ebffad5a6192ad65889bce2",
+      "identityDigest": "8e14ddc3b00159ebef8ea586f020094cdd199541bd9815b21b3dd3dc6f0c8ed3",
+      "evidenceDigest": "b351bb4bfce6ce4cfbc35728eceb4781c53215b5af16c92ce0b2c028c9e9cb92",
+      "findings": [
+        {
+          "id": "batch3:rio-de-janeiro:source-limit-1",
+          "message": "RRJ ground transport is unverified; this candidate must not claim complete all-airport guidance."
+        },
+        {
+          "id": "batch3:rio-de-janeiro:source-limit-2",
+          "message": "Parque Lage source retains generic interior information below its explicit restoration closure notice; the closure takes precedence. No courtyard/interior is included."
+        },
+        {
+          "id": "batch3:rio-de-janeiro:source-limit-3",
+          "message": "Some tourism pages return only navigation; Riotur and current operator evidence support the limited place/transport copy. No live fares, services or safe-route rating verified."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "sydney",
+      "destinationId": "place:Q3130",
+      "candidateFile": "drafts/sydney.json",
+      "fileSha256": "f2881cbbda59c5669fc80409b9a837e0fc8aff936798a8d2e06e6ed71933887f",
+      "evidenceFile": "drafts/sydney-evidence.md",
+      "evidenceFileSha256": "cc803df0ea5a2d22f53d799186bed77054d113a0ad8122332c12bbf0425e793d",
+      "contentVersion": 4,
+      "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+      "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+      "evidenceDigest": "7a3784c0765bc298c2d80196608fda1ec376328c848d5b04d608d0f83a8b69a7",
+      "findings": [
+        {
+          "id": "batch3:sydney:source-limit-1",
+          "message": "WSI opening is imminent at review time; its operator/service status must be rechecked before publication. The candidate quotes no opening date and promises no current flight or metro operation."
+        },
+        {
+          "id": "batch3:sydney:source-limit-2",
+          "message": "Several Destination NSW pages were readable only as indexed primary text after 405 responses. Stable place geography is used; hotel listings and prices are not evidence."
+        },
+        {
+          "id": "batch3:sydney:source-limit-3",
+          "message": "Airport station access fees have separate rules and a separate weekly cap; ordinary daily/weekly caps do not include them."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "dubai",
+      "destinationId": "place:Q612",
+      "candidateFile": "drafts/dubai.json",
+      "fileSha256": "53a8b04500e14ee9f902916b24faa9997eb92a32ce36ffecafe73904b3f4044f",
+      "evidenceFile": "drafts/dubai-evidence.md",
+      "evidenceFileSha256": "ed0307a5896fa13fbf20fb53a103f63c22ab022694a4a4cbfda8ec9b3cd75cb0",
+      "contentVersion": 4,
+      "contentDigest": "c625fc45fe2c8b359e7a65d385dc1964fab0017a864684311b515e9697de6fad",
+      "identityDigest": "e87df9e93be4dbf8426393cd035a18607b303d0ee6a0fa6da88c085b21a0aaa0",
+      "evidenceDigest": "78b2c13d5d688f94ff873c1ca5b3c7b5ec62f3faac936c881e8b0c83b460bfd2",
+      "findings": [
+        {
+          "id": "batch3:dubai:source-limit-1",
+          "message": "DWC airport copy mixes interchange examples and contains a misleading generic airport-station sentence. RTA map and bus/taxi guidance support only the scoped connection advice."
+        },
+        {
+          "id": "batch3:dubai:source-limit-2",
+          "message": "Fresh museum visit page could not be fetched. The official museum brochure verifies geography/content, not current pavilion access or a recurring closure day."
+        },
+        {
+          "id": "batch3:dubai:source-limit-3",
+          "message": "Some Dubai tourism pages expose only headings directly; source-backed indexed primary text is used for stable history and district facts."
+        }
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "decision": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    }
+  ],
+  "mediaProposal": "media/approval-proposal.json",
+  "mediaProposalSha256": "a630f638ce533cda5508ac93aa9f6ccfad2e03bb56a19c6a63ddb5dd7e93f044",
+  "reviewer": null,
+  "reviewedAt": null
+}

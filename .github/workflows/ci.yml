@@ -1,0 +1,45 @@
+name: Verify
+on:
+  pull_request:
+  push:
+    branches: [main, pivot/ai-travel-v2]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run check:dependencies
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Ensure real Redis tests cannot be skipped
+        run: |
+          if ! command -v redis-server; then
+            sudo apt-get update
+            sudo apt-get install -y redis-server
+          fi
+      - run: node --test scripts/netlify-ignore-build.test.mjs
+      - run: npm run check:security
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run check:places
+      - run: npm run check:accommodation
+      - run: npm run check:fx
+      - run: npm run check:destination-access
+      - run: npm run check:destination-media
+      - run: npm run check:destination-content
+      - run: npm run check:destination-reviews
+      - run: npm test
+        env:
+          GOEKSPLO_REQUIRE_TEST_REDIS: "1"
+      - run: npm run build
+      - run: node --conditions=react-server scripts/check-locale-rewrite-order.mjs
+      - run: python3 scripts/verify-legal-bodies.py
+      # No provider secrets, environment secrets or live smoke calls in PR CI.

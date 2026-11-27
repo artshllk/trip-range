@@ -1,0 +1,382 @@
+{
+  "destinationId": "crete",
+  "identitySubject": "crete",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T13:52:23.183Z",
+  "sourceIds": [
+    "source:pilot:crete:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:pilot:crete:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q34374",
+      "title": "Crete (Q34374)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T11:58:22.074Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q34374"
+      }
+    },
+    {
+      "id": "source:pilot:crete:island",
+      "type": "official",
+      "url": "https://www.visitgreece.gr/en/mainland/Crete",
+      "title": "Crete",
+      "publisher": "Greek National Tourism Organisation",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:heraklion",
+      "type": "official",
+      "url": "https://www.visitgreece.gr/en/mainland/Crete/irakleio",
+      "title": "Heraklion",
+      "publisher": "Greek National Tourism Organisation",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:chania",
+      "type": "official",
+      "url": "https://www.visitgreece.gr/en/islands/Crete/Chania",
+      "title": "Chania",
+      "publisher": "Greek National Tourism Organisation",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:rethymno",
+      "type": "official",
+      "url": "https://www.visitgreece.gr/en/mainland/Crete/rethymno",
+      "title": "Rethymno",
+      "publisher": "Greek National Tourism Organisation",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:knossos",
+      "type": "official",
+      "url": "https://www.hh.gr/en/destinations/knossos/",
+      "title": "Knossos — archaeological site",
+      "publisher": "Hellenic Heritage",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:museum",
+      "type": "official",
+      "url": "https://heraklionmuseum.gr/en/exhibition/",
+      "title": "Exhibition — Heraklion Archaeological Museum",
+      "publisher": "Heraklion Archaeological Museum",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:airport-bus",
+      "type": "official",
+      "url": "https://www.chq-airport.gr/en/category-detailed/ctg_id-69/nd_id-450",
+      "title": "By Public Bus — Chania Airport",
+      "publisher": "Fraport Greece",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:pilot:crete:airports",
+      "type": "official",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "title": "Public airport metadata — HER and CHQ identities only",
+      "publisher": "Travelpayouts",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-14T13:52:23.183Z",
+    "sourceIds": [
+      "source:pilot:crete:island",
+      "source:pilot:crete:rethymno"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Crete has distinct towns and archaeological sites across a large island. Choose Heraklion for a focus on Minoan history or Chania for its old harbour. Rethymno is a separate town between them; choose a base before planning journeys across the island.",
+      "sq": "Kreta ka qytete dhe vende arkeologjike në pjesë të ndryshme të një ishulli të madh. Zgjidh Heraklionin për historinë minoike ose Chania-n për portin e vjetër. Rethymno është qytet më vete mes tyre; zgjidh bazën para se të planifikosh udhëtimet nëpër ishull."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:crete:minoans",
+      "text": {
+        "en": "Minoan archaeology around Heraklion",
+        "sq": "Arkeologji minoike rreth Heraklionit"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:heraklion",
+        "source:pilot:crete:museum"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:crete:harbours",
+      "text": {
+        "en": "Historic harbour areas in Chania and Rethymno",
+        "sq": "Zona historike portuale në Chania dhe Rethymno"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:chania",
+        "source:pilot:crete:rethymno"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:crete:towns",
+      "text": {
+        "en": "Different towns offer distinct starting points across the island",
+        "sq": "Qytete të ndryshme ofrojnë pikënisje të veçanta në ishull"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:island"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:crete:knossos",
+      "destinationId": "crete",
+      "name": {
+        "en": "Knossos",
+        "sq": "Knossos"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A Minoan palace site near Heraklion. Its remains and later reconstructions offer a way to explore the island’s ancient history.",
+        "sq": "Vend i një pallati minoik pranë Heraklionit. Rrënojat dhe rindërtimet e mëvonshme ndihmojnë për të njohur historinë e lashtë të ishullit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:knossos",
+        "source:pilot:crete:heraklion"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:crete:archaeological-museum",
+      "destinationId": "crete",
+      "name": {
+        "en": "Heraklion Archaeological Museum",
+        "sq": "Muzeu Arkeologjik i Heraklionit"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "A museum in Heraklion with archaeological collections from Crete, including Minoan objects and frescoes. It adds context to visits to the island’s ancient sites.",
+        "sq": "Muze në Heraklion me koleksione arkeologjike nga Kreta, përfshirë objekte dhe afreske minoike. Ndihmon për të kuptuar vendet antike të ishullit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:museum"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:crete:koules",
+      "destinationId": "crete",
+      "name": {
+        "en": "Koules Fortress",
+        "sq": "Kalaja Koules"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A Venetian fortress at Heraklion’s old harbour. Include it when exploring the city’s waterfront history.",
+        "sq": "Kala venedikase në portin e vjetër të Heraklionit. Mund ta përfshish gjatë eksplorimit të historisë së zonës bregdetare të qytetit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:heraklion"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:crete:chania-harbour",
+      "destinationId": "crete",
+      "name": {
+        "en": "Chania Old Venetian Harbour",
+        "sq": "Porti i Vjetër Venedikas i Chania-s"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Chania’s historic harbour, framed by old waterfront buildings and its lighthouse. It provides a starting point for exploring the old town.",
+        "sq": "Porti historik i Chania-s, me ndërtesa të vjetra buzë ujit dhe farin e tij. Është një pikënisje për të eksploruar qytetin e vjetër."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:chania"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:crete:fortezza",
+      "destinationId": "crete",
+      "name": {
+        "en": "Fortezza of Rethymno",
+        "sq": "Fortezza e Rethymno-s"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A Venetian fortress above Rethymno’s old town. Its position connects a visit with the history of the town’s defences.",
+        "sq": "Kala venedikase mbi qytetin e vjetër të Rethymno-s. Pozicioni i saj e lidh vizitën me historinë e mbrojtjes së qytetit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:rethymno"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:crete:heraklion",
+      "destinationId": "crete",
+      "name": {
+        "en": "Heraklion",
+        "sq": "Heraklion"
+      },
+      "summary": {
+        "en": "A north-coast city with an archaeological museum and an old harbour; Knossos lies outside the centre.",
+        "sq": "Qytet në bregun verior me muze arkeologjik dhe port të vjetër; Knossos ndodhet jashtë qendrës."
+      },
+      "goodFor": [
+        {
+          "en": "Consider a base here if Minoan archaeology is your main interest.",
+          "sq": "Merre parasysh si bazë nëse të intereson arkeologjia minoike."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the separate journey to Knossos; the selected sights are not all in the centre.",
+          "sq": "Kontrollo veçmas rrugën për Knossos; jo të gjitha vendet e përzgjedhura janë në qendër."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:heraklion",
+        "source:pilot:crete:museum"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:crete:chania",
+      "destinationId": "crete",
+      "name": {
+        "en": "Chania",
+        "sq": "Chania"
+      },
+      "summary": {
+        "en": "A town in western Crete with an old harbour and historic streets.",
+        "sq": "Qytet në Kretën perëndimore me port të vjetër dhe rrugë historike."
+      },
+      "goodFor": [
+        {
+          "en": "Consider it for a stay centred on the old town and western Crete.",
+          "sq": "Merre parasysh për një qëndrim të përqendruar te qyteti i vjetër dhe Kreta perëndimore."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Heraklion’s archaeological sights are in another part of the island; do not assume they are local stops.",
+          "sq": "Vendet arkeologjike të Heraklionit janë në një pjesë tjetër të ishullit; mos i llogarit si ndalesa pranë."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:chania",
+        "source:pilot:crete:heraklion"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:crete:airport-and-base",
+      "destinationId": "crete",
+      "title": {
+        "en": "Match the airport to your base",
+        "sq": "Përshtat aeroportin me vendin e qëndrimit"
+      },
+      "guidance": {
+        "en": "HER and CHQ serve different parts of Crete. Match the airport to your base and check current bus information. Heraklion–Chania is an intercity journey, not a local airport transfer.",
+        "sq": "HER dhe CHQ shërbejnë pjesë të ndryshme të Kretës. Përshtat aeroportin me bazën dhe kontrollo informacionin aktual të autobusëve. Heraklion–Chania është udhëtim ndërqytetas, jo transfer vendor nga aeroporti."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:airports",
+        "source:pilot:crete:airport-bus",
+        "source:pilot:crete:island"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:crete:site-information",
+      "destinationId": "crete",
+      "kind": "booking",
+      "text": {
+        "en": "Check the official visit information for Knossos and the archaeological museum before arranging entries. This shortlist does not confirm admission or current opening conditions.",
+        "sq": "Kontrollo informacionin zyrtar për vizitat në Knossos dhe në muzeun arkeologjik përpara se të organizosh hyrjet. Kjo përzgjedhje nuk konfirmon hyrjen apo kushtet aktuale të hapjes."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:52:23.183Z",
+      "sourceIds": [
+        "source:pilot:crete:knossos",
+        "source:pilot:crete:museum"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "6eda6a3d68c8330d155d530b0c3e0086eed87aee136d6474e3001aff298879cb",
+    "identityDigest": "5fe9a6679d95a464ccb74a569cc9515a132a47c2d101acba74912d88fdb18e41",
+    "approvedAt": "2026-10-14T13:52:23.183Z"
+  }
+}

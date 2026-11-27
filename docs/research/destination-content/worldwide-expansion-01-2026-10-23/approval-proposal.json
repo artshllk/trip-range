@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "status": "unsigned-owner-review-proposal-not-a-publication-receipt",
+  "preparedAt": "2026-10-23T09:33:45.547Z",
+  "publicationWrites": 0,
+  "candidates": [
+    {
+      "destinationId": "city:BCN",
+      "candidateFile": "barcelona.json",
+      "evidenceFile": "barcelona-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "e0a1644b97945902c43580fdde562992ed727fc8c0c610755cf5f2f4fdc83353",
+      "identityDigest": "604110cba5db3da0e289ef1893e7be3ffdd6d857cfc7a5a0ae2a35b9e56a3aed",
+      "evidenceDigest": "91ccf5d60b9ee6b3ec88675fbecebd9b8dd5fd083c8e4282a4e94fd194e0eaf6",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "istanbul",
+      "candidateFile": "istanbul.json",
+      "evidenceFile": "istanbul-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "48e21291f19be3888b966bdbe17929840c8d64abb906c11bdf62f7605eb100d0",
+      "identityDigest": "6b9bc3d0e8245bae02ca2df568391dd56cdf82ec26a62b3723e45bb755e8f5ea",
+      "evidenceDigest": "4a5e9d6287160abb580cb441c2b8eade3219e767c0ed5bb70b839841e44305cd",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q1490",
+      "candidateFile": "tokyo.json",
+      "evidenceFile": "tokyo-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "45621f361eab481bd6eb85812329839a582e48aad04045b4a42c27835da554b5",
+      "identityDigest": "87e870f5f738aa03572745a9b38c80e04f96bd0e6bb5298b7fb95273557f0aac",
+      "evidenceDigest": "31a1692ee69369f65c31a44d4425f66a3ec2a1a79dbc00a89a3e02537afd6f3d",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q34600",
+      "candidateFile": "kyoto.json",
+      "evidenceFile": "kyoto-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "8ce4eb8eb91ab01af91dd5d142c550a1694464043149a0cd9e273e5e016ee2f5",
+      "identityDigest": "6ae8c0fb46a47d8bfa2bdeee87d293f094a66db50bd42e192c5290537362a157",
+      "evidenceDigest": "8d5030ca2e5613344d34ad0352bbb1ce7644be8932de10e80f9b65998eb8ba2f",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q1861",
+      "candidateFile": "bangkok.json",
+      "evidenceFile": "bangkok-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "ee9a23b0afeb4f3288179123bdd978c819fbce233c93163e8a4a76e6d1f37e1d",
+      "identityDigest": "de620a6275caba55f5cf0e231a7c8356c1a339bbd8382faeeda04c6d085f903d",
+      "evidenceDigest": "7ad1c5d35daba90cd3f8b3a0a6967dc31e409363a8107549aa3b859b8d733841",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q334",
+      "candidateFile": "singapore.json",
+      "evidenceFile": "singapore-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "f8fffb3eb283ae23d6965737a4e687219d4e429c75ba8d1c56a91f8792321a4a",
+      "identityDigest": "4c864881b3fc6bd71f2861ca0998bbca841a527c35e74ac221507da827b24bf7",
+      "evidenceDigest": "62a95b1cb4d2e6f2a2709b3fdf259516ccb9e6de5baae3c9b846e141afe6a10f",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q612",
+      "candidateFile": "dubai.json",
+      "evidenceFile": "dubai-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "a12b1be68d90f01f15862515c51360035524e374986679fc506a5c9d2c70e11a",
+      "identityDigest": "e87df9e93be4dbf8426393cd035a18607b303d0ee6a0fa6da88c085b21a0aaa0",
+      "evidenceDigest": "a8712b5076fa6fe37e0bf813bc0ee3b518d4b9d63fb704e865f580e7de9d3b5a",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q101625",
+      "candidateFile": "marrakesh.json",
+      "evidenceFile": "marrakesh-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "aca3096fb3d8d7515ced26b53ab7fa55db8efd065e6bf50764036eb90c956fcd",
+      "identityDigest": "d2b19203184197725442d609499f48ed38524053996e5b735ef3e2a3b91cd0dc",
+      "evidenceDigest": "699a86f220276b4581a9298f2baaa7e9f96dee63c61ca723831e6dcfe13315c1",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q5465",
+      "candidateFile": "cape-town.json",
+      "evidenceFile": "cape-town-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "de0fbff4cba370c7d4d890af095b9c4cabeb83492068ba3ef1200f2ce88af251",
+      "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+      "evidenceDigest": "8156a77ffd4f5217a677e634636425a5cfd0ecbbcce65ad32236af71ac652276",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q1489",
+      "candidateFile": "mexico-city.json",
+      "evidenceFile": "mexico-city-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "6e52fad0f579bb7231770c6a76a00d26c96be25d1a6911c70c031a1f3a551106",
+      "identityDigest": "68a517ed9d6227c0574f9c8889630a9690a66a74345603265ad6d0b09b33e52a",
+      "evidenceDigest": "33f1b6c9ab5f0b260e60f92b0d770933cb9834934a082a5fefd9e575d8ae346b",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q8678",
+      "candidateFile": "rio-de-janeiro.json",
+      "evidenceFile": "rio-de-janeiro-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "bc2c8426d09e078e9aecda2b37cee3505a33216f53fd72bb85bbd1c312e6a211",
+      "identityDigest": "8e14ddc3b00159ebef8ea586f020094cdd199541bd9815b21b3dd3dc6f0c8ed3",
+      "evidenceDigest": "a146b818f66e3e755043568ac69361a65a5f7e09032cbee53bc9b89229e14c9c",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    },
+    {
+      "destinationId": "place:Q3130",
+      "candidateFile": "sydney.json",
+      "evidenceFile": "sydney-evidence.md",
+      "contentVersion": 3,
+      "contentDigest": "a5814474634460324d2221df20213c4b59d708afef24137f286f861ad7f04ba5",
+      "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+      "evidenceDigest": "bfd698cefc012f7059a4fed9a8d61fdc8e7eb9ae8416f30c702a27ba40554313",
+      "decision": "pending",
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false,
+      "advisories": []
+    }
+  ],
+  "batchMetadataSha256": "47840567a7f5a03d9aae6fb644b0be9415c5f3f3b640412fef7f247c24629f06",
+  "metadataApproval": "pending-separate-from-content-pins"
+}

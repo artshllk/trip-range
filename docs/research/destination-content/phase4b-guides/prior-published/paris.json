@@ -1,0 +1,280 @@
+{
+  "destinationId": "paris",
+  "identitySubject": "paris",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-13T11:35:06.188Z",
+  "sourceIds": [
+    "source:worldwide:paris:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:paris:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q90",
+      "title": "Paris (Q90)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-12T20:29:27Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q90"
+      }
+    },
+    {
+      "id": "source:worldwide:paris:city",
+      "type": "official",
+      "url": "https://parisjetaime.com/eng/article/the-essentials-a264",
+      "title": "Paris essentials",
+      "publisher": "Paris je t’aime — Tourist Office",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:tower",
+      "type": "official",
+      "url": "https://www.toureiffel.paris/en/access-map",
+      "title": "Access to the Eiffel Tower",
+      "publisher": "Société d’Exploitation de la Tour Eiffel",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:louvre",
+      "type": "official",
+      "url": "https://www.louvre.fr/en/visit",
+      "title": "Visit the Louvre",
+      "publisher": "Musée du Louvre",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:louvre-history",
+      "type": "official",
+      "url": "https://presse.louvre.fr/le-musee-du-louvre-en-bref-1063000220316/?lang=en",
+      "title": "The Musée du Louvre at a glance",
+      "publisher": "Musée du Louvre",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:notre-dame",
+      "type": "official",
+      "url": "https://www.notredamedeparis.fr/en/visit/practical-information/access/",
+      "title": "Access and Transportation — Notre-Dame de Paris",
+      "publisher": "Notre-Dame de Paris",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13T11:35:06.188Z",
+    "sourceIds": [
+      "source:worldwide:paris:city"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Paris combines riverfront landmarks with museums and hilltop neighbourhoods. Choose a few areas for a short stay.",
+      "sq": "Parisi bashkon monumentet buzë lumit me muzetë dhe lagjet kodrinore. Për një qëndrim të shkurtër, zgjidh disa zona."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:paris:1",
+      "text": {
+        "en": "Art at the Louvre",
+        "sq": "Art në Louvre"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:louvre-history"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:paris:2",
+      "text": {
+        "en": "Montmartre’s hilltop streets",
+        "sq": "Rrugët në kodrën e Montmartre"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:city"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:paris:eiffel-tower",
+      "destinationId": "paris",
+      "name": {
+        "en": "Eiffel Tower",
+        "sq": "Kulla Eiffel"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "The tower stands on the Champ de Mars in the seventh arrondissement.",
+        "sq": "Kulla ndodhet në Champ de Mars, në distriktin e shtatë."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:tower"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:paris:louvre",
+      "destinationId": "paris",
+      "name": {
+        "en": "Musée du Louvre",
+        "sq": "Musée du Louvre"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "An art museum housed in a former royal palace.",
+        "sq": "Muze arti në një pallat të dikurshëm mbretëror."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:louvre-history"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:paris:notre-dame",
+      "destinationId": "paris",
+      "name": {
+        "en": "Notre-Dame de Paris",
+        "sq": "Notre-Dame de Paris"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "A cathedral on the Île de la Cité in central Paris.",
+        "sq": "Katedrale në Île de la Cité, në qendër të Parisit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:notre-dame"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:paris:montmartre",
+      "destinationId": "paris",
+      "name": {
+        "en": "Montmartre",
+        "sq": "Montmartre"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "A hilltop neighbourhood with views across Paris.",
+        "sq": "Lagje kodrinore me pamje mbi Paris."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:city"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:paris:montmartre",
+      "destinationId": "paris",
+      "name": {
+        "en": "Montmartre",
+        "sq": "Montmartre"
+      },
+      "summary": {
+        "en": "A hilltop area beyond the riverfront landmarks.",
+        "sq": "Zonë kodrinore përtej monumenteve buzë lumit."
+      },
+      "goodFor": [
+        {
+          "en": "Neighbourhood walks and city views.",
+          "sq": "Shëtitje në lagje dhe pamje të qytetit."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Plan a separate journey to the Eiffel Tower.",
+          "sq": "Planifiko një udhëtim më vete për në Kullën Eiffel."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:paris:tower-access",
+      "destinationId": "paris",
+      "title": {
+        "en": "Choose a station for the Eiffel Tower",
+        "sq": "Zgjidh stacionin për Kullën Eiffel"
+      },
+      "guidance": {
+        "en": "The tower’s official access guide lists Métro and RER options. Check the station and walking route before travelling.",
+        "sq": "Udhëzuesi zyrtar i Kullës Eiffel liston mundësi me Métro dhe RER. Kontrollo stacionin dhe rrugën në këmbë para nisjes."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:tower"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:paris:museum-entry",
+      "destinationId": "paris",
+      "kind": "booking",
+      "text": {
+        "en": "Time-slot booking is recommended when planning a Louvre visit.",
+        "sq": "Rekomandohet rezervimi i një orari kur planifikon vizitën në Louvre."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T11:35:06.188Z",
+      "sourceIds": [
+        "source:worldwide:paris:louvre"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "06630ba7dfa8b915e5ce54288b979dd6fb67325ba110fc23d171646901471c09",
+    "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+    "approvedAt": "2026-10-13T11:35:06.188Z"
+  }
+}

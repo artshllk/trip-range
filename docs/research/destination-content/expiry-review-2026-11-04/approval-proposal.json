@@ -1,0 +1,189 @@
+{
+  "status": "pending_owner_approval",
+  "prepared_at": "2026-11-04T09:50:53Z",
+  "reviewer": null,
+  "reviewedAt": null,
+  "source_checks_sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8",
+  "changes_sha256": "0280a631c2f0a56e53216b69173307bac013e0849932acf51e5b79cdec4570af",
+  "publication_rule": "Approval applies only to these exact candidate pins, English text, official source correspondence, preserved selection/order and the eight proposed 2026-11-18T00:00:00Z deadlines. Prior approvals are historical and are not renewed by this packet.",
+  "records": [
+    {
+      "destinationId": "vienna",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/vienna.json",
+      "candidate_sha256": "048b3bbf768d245a06f107d57e07c2a4b39d50a01e7e23a2aa29961469676753",
+      "candidate_pins_with_existing_evidence": {
+        "contentVersion": 3,
+        "contentDigest": "6524f07cb2e1941c306e5bd35179e361a5360898656a95beb733a5d74728f78f",
+        "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+        "evidenceDigest": "07e8bd602d70a875b7d227d6b8e72f9aeefcaad2f9261081408a6f435af9532b"
+      },
+      "additional_evidence": {
+        "path": "docs/research/destination-content/expiry-review-2026-11-04/source-checks.json",
+        "sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8"
+      },
+      "base_content": {
+        "path": "content/destinations/vienna.json",
+        "sha256": "2228cdd8dfaf039d5474c3bf97c9e935dd13c4b490c501a0ee5349e0af1bee36",
+        "contentDigest": "5433bc1219ad4b717dc1d257ad92ba2a028dbf6360ff2b8ad722de7db602ec7b"
+      },
+      "base_review": {
+        "path": "content/operations/reviews/vienna.json",
+        "sha256": "88460965eeeeef71326b6593427d64e40177bd24c61e19f8c22033504a4adcf1"
+      },
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "item_ids": [
+        "note:phase4b:vienna:examples:1"
+      ],
+      "publication_required": "Use the existing editorial workflow after owner approval. This unsigned proposal is not a publication receipt."
+    },
+    {
+      "destinationId": "london",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/london.json",
+      "candidate_sha256": "23563dc6df18ae00556992f8d4c2ae4100f08bdd1a8853b24d43dbb5585f7022",
+      "candidate_pins_with_existing_evidence": {
+        "contentVersion": 5,
+        "contentDigest": "7729808ccda5f4128cd715f2fd226c2c1c5b82fe394e8ec25a749d3dd71d29b9",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "0387f795d165cc8cf80207890426d5457ac820594fcdd7bee54e194a654e692b"
+      },
+      "additional_evidence": {
+        "path": "docs/research/destination-content/expiry-review-2026-11-04/source-checks.json",
+        "sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8"
+      },
+      "base_content": {
+        "path": "content/destinations/london.json",
+        "sha256": "cf26ced91090e70894a93b798c91288a811671f57befc77cbfec9c9e79f8eda4",
+        "contentDigest": "9a4661fc37eca579016cc44cd9c50b8cebb6dd66a210d9bf504df2474ea62acf"
+      },
+      "base_review": {
+        "path": "content/operations/reviews/london.json",
+        "sha256": "e2f103fa645c43ab9f4e81c87a62097799bfa1a204a3a97368c30bae82213688"
+      },
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "item_ids": [
+        "note:phase4b:london:examples:1",
+        "note:phase4b:london:examples:2"
+      ],
+      "publication_required": "Use the existing editorial workflow after owner approval. This unsigned proposal is not a publication receipt."
+    },
+    {
+      "destinationId": "paris",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/paris.json",
+      "candidate_sha256": "5ef0a570378cfcd9b002d764d87cb022350dc0948cd5fe76997c047b3b18200d",
+      "candidate_pins_with_existing_evidence": {
+        "contentVersion": 4,
+        "contentDigest": "8b6c7ba3e3eb31fab53e4a9606267e62c7bb00943730164e67fac7c51e82953c",
+        "identityDigest": "89202fd8a8090da2e8e0b226828b1cb550ae27bdbc5cf4982571cb55585e7f8c",
+        "evidenceDigest": "7dd691d8b6e2595ccdf60303fdb0fbdbd98fb70b4028ee1d150661cbd71555fb"
+      },
+      "additional_evidence": {
+        "path": "docs/research/destination-content/expiry-review-2026-11-04/source-checks.json",
+        "sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8"
+      },
+      "base_content": {
+        "path": "content/destinations/paris.json",
+        "sha256": "0deee8d218208e297fd263625c13e39cfac12e974e715fdb8daf49a4e3961e6a",
+        "contentDigest": "5a968651f22920054786a53ac1083bd98a002f2b74bf8c61f784b6c3138a4e9b"
+      },
+      "base_review": {
+        "path": "content/operations/reviews/paris.json",
+        "sha256": "15936a56d02758b7ec3e5f79791b4bf58b700b4857be52931b4516931dc00ba3"
+      },
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "item_ids": [
+        "note:phase4b:paris:examples:1",
+        "note:phase4b:paris:examples:2"
+      ],
+      "publication_required": "Use the existing editorial workflow after owner approval. This unsigned proposal is not a publication receipt."
+    },
+    {
+      "destinationId": "city:BCN",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/barcelona.json",
+      "candidate_sha256": "e01e63c628513c2b22137534eaaf687de7e9c9f297db55cc98f22e956e7cb7b8",
+      "candidate_pins_with_existing_evidence": {
+        "contentVersion": 4,
+        "contentDigest": "9c1830dfb32a875da6b6ef7823680a72687fb54f976fa8ed0bf557ecc377e2ad",
+        "identityDigest": "604110cba5db3da0e289ef1893e7be3ffdd6d857cfc7a5a0ae2a35b9e56a3aed",
+        "evidenceDigest": "1a40bcac6a07cca59a71c624673b4d94caae1ded8fe08215e435c2fa6a9df397"
+      },
+      "additional_evidence": {
+        "path": "docs/research/destination-content/expiry-review-2026-11-04/source-checks.json",
+        "sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8"
+      },
+      "base_content": {
+        "path": "content/destinations/barcelona.json",
+        "sha256": "2e947d62034f6f97ebb6553e79d1d1dbd212c71776df85bda5488ac6108abcc4",
+        "contentDigest": "81303d9603faae3707650453a6a903d0f4d51f1503de323b81d5b0d57000ff6a"
+      },
+      "base_review": {
+        "path": "content/operations/reviews/barcelona.json",
+        "sha256": "169ae0f8162fed83f72fc72c043a16f929cd5ccb7c7b3776be0f6364c47ec2c1"
+      },
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "item_ids": [
+        "attraction:city:BCN:park-guell",
+        "note:city:BCN:batch1-museum-days"
+      ],
+      "publication_required": "Use the existing editorial workflow after owner approval. This unsigned proposal is not a publication receipt."
+    },
+    {
+      "destinationId": "istanbul",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/istanbul.json",
+      "candidate_sha256": "f9c28d591e6ccf42115d560cbb7f78f94f326af12d5addcc9c16af9758ff0270",
+      "candidate_pins_with_existing_evidence": {
+        "contentVersion": 4,
+        "contentDigest": "303230bc7b9ae815c5ebfd05ad1f3e65dceacebf46fb9e88ea1132c5f6da6f6a",
+        "identityDigest": "6b9bc3d0e8245bae02ca2df568391dd56cdf82ec26a62b3723e45bb755e8f5ea",
+        "evidenceDigest": "fe909d34278f9a21c097512300979f8262a18145df49f172530fb744ef10d484"
+      },
+      "additional_evidence": {
+        "path": "docs/research/destination-content/expiry-review-2026-11-04/source-checks.json",
+        "sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8"
+      },
+      "base_content": {
+        "path": "content/destinations/istanbul.json",
+        "sha256": "adf5f3c0ac2c28c37d3428797fa66b4feda5fd39c16b7a60ebb221455b3f6379",
+        "contentDigest": "38c5b7cba0da08071cec15914efa70554251336666d23a05948d7d67d14e6106"
+      },
+      "base_review": {
+        "path": "content/operations/reviews/istanbul.json",
+        "sha256": "3db48de2b8069733347bbe4c6a25fa63d225537ace2a11739b9a01bbc2b9df9c"
+      },
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "item_ids": [
+        "note:istanbul:batch1-palace-day"
+      ],
+      "publication_required": "Use the existing editorial workflow after owner approval. This unsigned proposal is not a publication receipt."
+    }
+  ]
+}

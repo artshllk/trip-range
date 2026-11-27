@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "assets": [
+    {
+      "id": "commons:9050140",
+      "provider": "wikimedia-commons",
+      "providerFileId": "9050140",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "7cf5bd8111ba4b4994300b32a67988e009fe595c"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Park_G%C3%BCell_02.jpg",
+      "width": 2960,
+      "height": 2232,
+      "mimeType": "image/jpeg",
+      "author": "Bernard Gagnon",
+      "attribution": "Bernard Gagnon / Wikimedia Commons / CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verifiedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/barcelona-batch1-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/barcelona-batch1-v1-640.webp",
+            "width": 640,
+            "height": 483,
+            "bytes": 67310,
+            "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+          },
+          {
+            "src": "/destinations/barcelona-batch1-v1-1200.webp",
+            "width": 1200,
+            "height": 905,
+            "bytes": 197078,
+            "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+          },
+          {
+            "src": "/destinations/barcelona-batch1-v1-1920.webp",
+            "width": 1920,
+            "height": 1448,
+            "bytes": 394708,
+            "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:88145804",
+      "provider": "wikimedia-commons",
+      "providerFileId": "88145804",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "bf04ead522beb3930aaeb36840a012abfa9fdb96"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg",
+      "width": 6517,
+      "height": 3666,
+      "mimeType": "image/jpeg",
+      "author": "Basile Morin",
+      "attribution": "Basile Morin / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/singapore-batch1-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/singapore-batch1-v1-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 49816,
+            "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+          },
+          {
+            "src": "/destinations/singapore-batch1-v1-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 153222,
+            "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+          },
+          {
+            "src": "/destinations/singapore-batch1-v1-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 353130,
+            "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:139259979",
+      "provider": "wikimedia-commons",
+      "providerFileId": "139259979",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "e6fee529ed33bca47aec920cbd59b36238e07422"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg",
+      "width": 4000,
+      "height": 2250,
+      "mimeType": "image/jpeg",
+      "author": "ProtoplasmaKid",
+      "attribution": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T10:04:38.143Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/mexico-city-batch1-v1-640.webp",
+            "width": 640,
+            "height": 360,
+            "bytes": 50162,
+            "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+          },
+          {
+            "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+            "width": 1200,
+            "height": 675,
+            "bytes": 157150,
+            "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+          },
+          {
+            "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+            "width": 1920,
+            "height": 1080,
+            "bytes": 395240,
+            "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+          }
+        ]
+      }
+    }
+  ],
+  "selections": [],
+  "rejections": []
+}

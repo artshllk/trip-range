@@ -1,0 +1,11 @@
+{
+  "destinationId": "place:Q101625",
+  "status": "available",
+  "report": "worldwide-batch2-marrakesh-v4.md",
+  "researchedAt": "2026-10-23T16:51:03Z",
+  "sourceCount": 7,
+  "unresolvedIssues": [
+    "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified.",
+    "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+  ]
+}

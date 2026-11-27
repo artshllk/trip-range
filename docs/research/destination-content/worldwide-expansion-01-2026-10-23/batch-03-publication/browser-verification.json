@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-23T22:50:28.768Z",
+  "scope": "actual local production-built Next.js 16.4.1 routes using isolated keyless runtime; not hosted Netlify verification",
+  "guideViewportChecks": 8,
+  "homepageViewportChecks": 2,
+  "checks": [
+    {
+      "slug": "cape-town",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "canonical": "https://www.goeksplo.com/en/destinations/cape-town",
+      "image": "/destinations/cape-town-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "cape-town",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "canonical": "https://www.goeksplo.com/en/destinations/cape-town",
+      "image": "/destinations/cape-town-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "canonical": "https://www.goeksplo.com/en/destinations/rio-de-janeiro",
+      "image": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "canonical": "https://www.goeksplo.com/en/destinations/rio-de-janeiro",
+      "image": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "canonical": "https://www.goeksplo.com/en/destinations/sydney",
+      "image": "/destinations/sydney-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "canonical": "https://www.goeksplo.com/en/destinations/sydney",
+      "image": "/destinations/sydney-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "canonical": "https://www.goeksplo.com/en/destinations/dubai",
+      "image": "/destinations/dubai-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "canonical": "https://www.goeksplo.com/en/destinations/dubai",
+      "image": "/destinations/dubai-batch3-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "page": "homepage",
+      "width": 390,
+      "cards": 16,
+      "status": "passed"
+    },
+    {
+      "page": "homepage",
+      "width": 320,
+      "cards": 16,
+      "status": "passed"
+    }
+  ],
+  "browserErrors": [],
+  "externalRequests": [],
+  "attemptedApiRequests": [],
+  "providerCalls": 0,
+  "RedisCalls": 0,
+  "OpenAICalls": 0
+}

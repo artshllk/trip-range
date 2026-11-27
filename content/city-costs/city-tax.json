@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "city": "PAR",
+      "name": "Paris",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 260,
+        "2": 325,
+        "3": 553,
+        "4": 845,
+        "5": 1170
+      },
+      "scope": "Classified tourist hotels in the City of Paris, per adult per night (taxe de séjour au réel; under-18s are exempt). The amount is DGFiP's tarif_total, which includes the departmental and regional additional taxes. Unclassified accommodation is taxed as a percentage instead and is not covered by this record.",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2026-12-31",
+      "reviewBy": "2027-01-15",
+      "source": {
+        "publisher": "DGFiP (Ministère de l'Économie), open data",
+        "title": "Tarifs taxe de séjour – Delta à partir de 2024 (Licence Ouverte 2.0), Ville de Paris, 2026, hôtels de tourisme",
+        "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/delta_deliberation_ts_tarif0/records?select=date_effet%2Chebergement%2Ctarif%2Cunite%2Ctarif_total&where=libelle_commune%3D%22VILLE%20DE%20PARIS%22%20and%20date_effet%3Ddate%272026-01-01%27%20and%20hebergement%20like%20%22H%C3%B4tels%20de%20tourisme%2A%22&order_by=hebergement&limit=10",
+        "retrievedAt": "2026-11-24",
+        "quote": "{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 1 étoile\",\"tarif\":0.8,\"unite\":\"€\",\"tarif_total\":2.6},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 2 étoiles\",\"tarif\":1,\"unite\":\"€\",\"tarif_total\":3.25},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 3 étoiles\",\"tarif\":1.7,\"unite\":\"€\",\"tarif_total\":5.53},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 4 étoiles\",\"tarif\":2.6,\"unite\":\"€\",\"tarif_total\":8.45},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 5 étoiles\",\"tarif\":3.6,\"unite\":\"€\",\"tarif_total\":11.7}",
+        "language": "fr"
+      }
+    },
+    {
+      "city": "PAR",
+      "name": "Paris",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 260,
+        "2": 325,
+        "3": 553,
+        "4": 845,
+        "5": 1170
+      },
+      "scope": "Classified tourist hotels in the City of Paris, per adult per night (taxe de séjour au réel; under-18s are exempt), including the departmental and Île-de-France additional taxes. Unclassified accommodation is taxed as a percentage instead and is not covered.",
+      "effectiveFrom": "2027-01-01",
+      "effectiveTo": "2027-12-31",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "DGFiP (impots.gouv.fr)",
+        "title": "Catalogue des tarifs de la taxe de séjour (DELTA), applicable au 1er janvier 2027: Paris",
+        "url": "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/taxe_sejour/taxe_sejour_donnees_deliberations.zip",
+        "retrievedAt": "2026-11-24",
+        "quote": "<collectiviteDeliberante siren=\"217500016\"><nom>PARIS</nom><codeInsee>75056</codeInsee><departement><numero>75</numero><libelle>DEP PARIS</libelle></departement></collectiviteDeliberante></saisie><date>03/06/2025</date><millesime>2019</millesime><loyerMaximumNuit></loyerMaximumNuit><loyerMaximumSemaine></loyerMaximumSemaine><loyerMaximumMois>100.00</loyerMaximumMois><taxeAdditionnelleDepartementale>true</taxeAdditionnelleDepartementale><taxeAdditionnelleRegionale>true</taxeAdditionnelleRegionale><taxeAdditionnelleLGV>false</taxeAdditionnelleLGV><taxeAdditionnelleArticleL2531-18>true</taxeAdditionnelleArticleL2531-18><collectivites/><regimes><regime natureId=\"1\">Réel</regime><regime natureId=\"2\">Réel</regime><regime natureId=\"3\">Réel</regime><regime natureId=\"4\">Réel</regime><regime natureId=\"5\">Réel</regime><regime natureId=\"6\">Réel</regime><regime natureId=\"7\">Réel</regime><regime natureId=\"8\">Réel</regime><regime natureId=\"9\">Réel</regime><regime natureId=\"10\">Réel</regime><regime natureId=\"11\">Réel</regime></regimes><periodes><periode><dateDebut>01 janvier</dateDebut><dateFin>31 décembre</dateFin><tarifs><tarif categorieId=\"1\" isMax=\"true\">4.90</tarif><tarif categorieId=\"2\">3.60</tarif><tarif categorieId=\"3\">2.60</tarif><tarif categorieId=\"4\">1.70</tarif><tarif categorieId=\"5\">1.00</tarif><tarif categorieId=\"6\">0.80</tarif>",
+        "language": "fr"
+      },
+      "supportingSources": [
+        {
+          "publisher": "DGFiP (impots.gouv.fr)",
+          "title": "Catalogue des tarifs de la taxe de séjour 2027: catégories d'hébergement",
+          "url": "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/taxe_sejour/taxe_sejour_donnees_deliberations.zip",
+          "retrievedAt": "2026-11-24",
+          "quote": "<date>01/01/2027</date><categories><millesime annee=\"2019\"><libelle>à/c du 01/01/2019</libelle><categorie id=\"1\"><libelle>Palaces</libelle><tarification><plancher>0.70</plancher><plafond>4.90</plafond><unite>€</unite></tarification></categorie><categorie id=\"2\"><libelle>Hôtels de tourisme 5 étoiles, résidences de tourisme 5 étoiles, meublés de tourisme 5 étoiles</libelle><tarification><plancher>0.70</plancher><plafond>3.60</plafond><unite>€</unite></tarification></categorie><categorie id=\"3\"><libelle>Hôtels de tourisme 4 étoiles, résidences de tourisme 4 étoiles, meublés de tourisme 4 étoiles</libelle><tarification><plancher>0.70</plancher><plafond>2.60</plafond><unite>€</unite></tarification></categorie><categorie id=\"4\"><libelle>Hôtels de tourisme 3 étoiles, résidences de tourisme 3 étoiles, meublés de tourisme 3 étoiles</libelle><tarification><plancher>0.50</plancher><plafond>1.70</plafond><unite>€</unite></tarification></categorie><categorie id=\"5\"><libelle>Hôtels de tourisme 2 étoiles, résidences de tourisme 2 étoiles, meublés de tourisme 2 étoiles, villages de vacances 4 et 5 étoiles</libelle><tarification><plancher>0.30</plancher><plafond>1.00</plafond><unite>€</unite></tarification></categorie><categorie id=\"6\"><libelle>Hôtels de tourisme 1 étoile, résidences de tourisme 1 étoile, meublés de tourisme 1 étoile, villages de vacances 1, 2 et 3 étoiles, chambres d'hôtes, auberges collectives</libelle><tarification><plancher>0.20</plancher><plafond>0.80</plafond><unite>€</unite></tarification></categorie>",
+          "language": "fr"
+        },
+        {
+          "publisher": "Ministère de l'Intérieur, collectivites-locales.gouv.fr",
+          "title": "Taxe de séjour: taxes additionnelles",
+          "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/fiscalite-locale/fiscalite-indirecte-locale/taxe-de-sejour",
+          "retrievedAt": "2026-11-24",
+          "quote": "Il s’agit de la taxe additionnelle départementale de 10% (article L. 3333-1 du CGCT)",
+          "language": "fr"
+        },
+        {
+          "publisher": "Ministère de l'Intérieur, collectivites-locales.gouv.fr",
+          "title": "Taxe de séjour: taxes additionnelles",
+          "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/fiscalite-locale/fiscalite-indirecte-locale/taxe-de-sejour",
+          "retrievedAt": "2026-11-24",
+          "quote": "Ainsi s’appliquent en Île de France une taxe additionnelle de 15 % au profit de la société des grands projets et de 200% au profit d’Île-de-France Mobilité.",
+          "language": "fr"
+        },
+        {
+          "publisher": "DGFiP (Ministère de l'Économie), open data",
+          "title": "Tarifs taxe de séjour – Delta à partir de 2024 (Licence Ouverte 2.0), Ville de Paris, 2026, hôtels de tourisme",
+          "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/delta_deliberation_ts_tarif0/records?select=date_effet%2Chebergement%2Ctarif%2Cunite%2Ctarif_total&where=libelle_commune%3D%22VILLE%20DE%20PARIS%22%20and%20date_effet%3Ddate%272026-01-01%27%20and%20hebergement%20like%20%22H%C3%B4tels%20de%20tourisme%2A%22&order_by=hebergement&limit=10",
+          "retrievedAt": "2026-11-24",
+          "quote": "{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 1 étoile\",\"tarif\":0.8,\"unite\":\"€\",\"tarif_total\":2.6},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 2 étoiles\",\"tarif\":1,\"unite\":\"€\",\"tarif_total\":3.25},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 3 étoiles\",\"tarif\":1.7,\"unite\":\"€\",\"tarif_total\":5.53},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 4 étoiles\",\"tarif\":2.6,\"unite\":\"€\",\"tarif_total\":8.45},{\"date_effet\":\"2026\",\"hebergement\":\"Hôtels de tourisme 5 étoiles\",\"tarif\":3.6,\"unite\":\"€\",\"tarif_total\":11.7}",
+          "language": "fr"
+        }
+      ],
+      "derivation": "Paris's deliberation of 3 June 2025 in the 2027 catalogue sets €0.80, €1.00, €1.70, €2.60 and €3.60 (1- to 5-star) and applies the departmental, regional and article L2531-18 additional taxes. The ministry gives these as 10%, 15% and 200% in Île-de-France, so the total is the rate × 3.25, rounded to the cent. This is exactly how DGFiP's 2026 tarif_total relates to the same rates (1.7 → 5.53). In the DGFiP catalogue, categories 6, 5, 4, 3 and 2 are 1- to 5-star tourist hotels."
+    },
+    {
+      "city": "MIL",
+      "name": "Milan",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 300,
+        "2": 400,
+        "3": 700,
+        "4": 1000,
+        "5": 1200
+      },
+      "scope": "Hotels in the City of Milan, per person per night (imposta di soggiorno), rates from 1 April 2026 (Giunta resolution 144 of 12 February 2026). The 2027 rates (resolution 1481 of 12 November 2026) are not yet on the Comune's site, so stays from 1 January 2027 are not covered.",
+      "effectiveFrom": "2026-04-01",
+      "effectiveTo": "2026-12-31",
+      "reviewBy": "2027-01-15",
+      "source": {
+        "publisher": "Comune di Milano",
+        "title": "Imposta di soggiorno – Tariffe 2026 dall'1/4/2026",
+        "url": "https://www.comune.milano.it/en/documents/20118/1016509/Tariffe+2026+decorrenza+1%C2%B0aprile+2026.pdf/d101078f-26b0-4446-d16b-787845b76bca?version=1.1&t=1771602332605&download=true",
+        "retrievedAt": "2026-11-24",
+        "quote": "TARIFFE 2026 dall’1/4/2026 Alberghi o hotel 1 Stella 3,00 € Alberghi o hotel 2 Stelle 4,00 € Alberghi o hotel 3 Stelle 7,00 € Alberghi o hotel 4 Stelle 10,00 € Alberghi o hotel 5 Stelle 12,00 €",
+        "language": "it"
+      }
+    },
+    {
+      "city": "MIL",
+      "name": "Milan",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 300,
+        "2": 380,
+        "3": 480,
+        "4": 500,
+        "5": 500
+      },
+      "scope": "Hotels in the City of Milan, per person per night, for 2027 (Giunta resolution 1481 of 12 November 2026), published on the Comune's tax portal, which its imposta di soggiorno page links to. The Giunta has said it may revise the rates if the national budget law changes them before year-end, so the record is re-read in January.",
+      "effectiveFrom": "2027-01-01",
+      "effectiveTo": "2027-12-31",
+      "reviewBy": "2027-01-15",
+      "source": {
+        "publisher": "Comune di Milano (EntrateOnline, the Comune's tax portal)",
+        "title": "Tariffe imposta di soggiorno per l'anno 2027",
+        "url": "https://milano.entrateonline.net/read_newss.php?meta=00b0d7395322efaea15b903bd33dc5c6",
+        "retrievedAt": "2026-11-24",
+        "quote": "Con deliberazione n. 1481 del 12/11/2026 la Giunta Comunale ha approvato le seguenti tariffe dell'imposta di soggiorno per l'anno 2027. Le tariffe si applicano per persona e per giorno di permanenza, prendendo come riferimento la registrazione presso la struttura e la categoria alberghiera o extra alberghiera: Alberghi o hotel 1 Stella 3,00 € Alberghi o hotel 2 Stelle 3,80 € Alberghi o hotel 3 Stelle 4,80 € Alberghi o hotel 4 Stelle 5,00 € Alberghi o hotel 5 Stelle 5,00 €",
+        "language": "it"
+      }
+    },
+    {
+      "city": "ROM",
+      "name": "Rome",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 400,
+        "2": 500,
+        "3": 600,
+        "4": 750,
+        "5": 1000
+      },
+      "scope": "Hotels in Roma Capitale, per person per night, for up to 10 consecutive nights (contributo di soggiorno; Giunta Capitolina resolution 255 of 17 July 2023, in force since 1 October 2023). No later tariff resolution was found.",
+      "effectiveFrom": "2023-10-01",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "Roma Capitale",
+        "title": "Nuove tariffe contributo di soggiorno dal 01.10.2023",
+        "url": "https://www.comune.roma.it/web-resources/cms/documents/Nuove_tariffe_contributo_di_soggiorno_dal_01.10.2023_logo.pdf",
+        "retrievedAt": "2026-11-24",
+        "quote": "Albergo a 1 stella ed eventuale Dipendenza a 1 stella Euro 4,00 10 Albergo a 2 stelle ed eventuale Dipendenza a 2 stelle Euro 5.00 10 Albergo a 3 stelle ed eventuale Dipendenza a 3 stelle Euro 6,00 10 Albergo a 4 stelle ed eventuale Dipendenza a 4 stelle Euro 7,50 10 Albergo a 5 stelle o a maggiore classificazione ed eventuale Dipendenza a 5 stelle Euro 10,00 10",
+        "language": "it"
+      }
+    },
+    {
+      "city": "VIE",
+      "name": "Vienna",
+      "status": "levied",
+      "basis": "percent-of-room",
+      "currency": "EUR",
+      "value": 5,
+      "percentOf": "price-excluding-vat",
+      "scope": "Paid stays in Vienna: 5% of the price for the stay excluding VAT and breakfast. The source does not state the VAT rate, so the tax is counted on the full price.",
+      "effectiveFrom": "2026-07-01",
+      "effectiveTo": "2027-06-30",
+      "reviewBy": "2027-03-31",
+      "source": {
+        "publisher": "Stadt Wien (MA 6)",
+        "title": "Ortstaxe – Abgabe",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+        "retrievedAt": "2026-11-24",
+        "quote": "Höhe der Ortstaxe ab 1. Juli 2026 bis 30. Juni 2027: 5 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "language": "de"
+      }
+    },
+    {
+      "city": "PRG",
+      "name": "Prague",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "CZK",
+      "value": 5000,
+      "scope": "Paid stays in Prague: 50 Kč per person for each day of the stay except the day of arrival (místní poplatek z pobytu), which is one charge per night.",
+      "effectiveFrom": "2022-01-01",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "Hlavní město Praha (Sbírka právních předpisů)",
+        "title": "Obecně závazná vyhláška č. 19/2021 Sb. hl. m. Prahy, kterou se mění vyhláška č. 18/2019 Sb. hl. m. Prahy, o místním poplatku z pobytu",
+        "url": "https://sbirkapp.gov.cz/detail/SPPT2LCJU5OPC5JY/text",
+        "retrievedAt": "2026-11-24",
+        "quote": "V § 3 se částka „21 Kč“ nahrazuje částkou „50 Kč“.",
+        "language": "cs"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Hlavní město Praha (Sbírka právních předpisů)",
+          "title": "Obecně závazná vyhláška č. 18/2019 Sb. hl. m. Prahy, o místním poplatku z pobytu",
+          "url": "https://sbirkapp.gov.cz/detail/SPP3LKRRXBRGXIGC/text",
+          "retrievedAt": "2026-11-24",
+          "quote": "Sazba poplatku činí 21 Kč za osobu a každý započatý den pobytu, s výjimkou dne počátku",
+          "language": "cs"
+        },
+        {
+          "publisher": "Sbírka právních předpisů územních samosprávných celků",
+          "title": "Vyhláška č. 18/2019: platnost a novelizace",
+          "url": "https://sbirkapp.gov.cz/detail/SPP3LKRRXBRGXIGC",
+          "retrievedAt": "2026-11-24",
+          "quote": "19/2021 Novelizace 01.01.2022 17.12.2021",
+          "language": "cs"
+        }
+      ],
+      "derivation": "Decree 18/2019 sets the fee per person for each day of the stay except the day of arrival. Decree 19/2021, in force from 1 January 2022, replaces 21 Kč with 50 Kč. The official collection lists 19/2021 as the only amendment to 18/2019, which it marks as in force."
+    },
+    {
+      "city": "BCN",
+      "name": "Barcelona",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 770,
+        "2": 770,
+        "3": 770,
+        "4": 924,
+        "5": 1320
+      },
+      "scope": "Hotels in the city of Barcelona, per person per night, for up to 7 nights: the Catalan tax plus the Barcelona City Council surcharge, plus the 10% VAT charged on them, from 1 April 2026 to 31 March 2027.",
+      "effectiveFrom": "2026-04-01",
+      "effectiveTo": "2027-03-31",
+      "reviewBy": "2027-03-01",
+      "source": {
+        "publisher": "Agència Tributària de Catalunya",
+        "title": "Tax on stays in tourism establishments in Catalonia: rates",
+        "url": "https://atc.gencat.cat/web/.content/atc_tributs/ieet/documents/IEET-info-rates-en.pdf",
+        "retrievedAt": "2026-11-24",
+        "quote": "Barcelona: rate per person and unit of stay as of April 1, 2026 Type of accommodation General rate City Council surcharge Total tax 5-star hotel, grand luxe hotel, luxury campsite and establishment of similar category 7,00 € 5,00 € 12,00 € 4-star hotel, 4-star hotel superior and establishment of similar category 3,40 € 5,00 € 8,40 € Dwelling for tourist use 4,50 € 5,00 € 9,50 € Youth hostel 1,00 € 5,00 € 6,00 € Other campsites and establishments 2,00 € 5,00 € 7,00 €",
+        "language": "en"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Agència Tributària de Catalunya",
+          "title": "Tax on stays in tourism establishments in Catalonia: rates",
+          "url": "https://atc.gencat.cat/web/.content/atc_tributs/ieet/documents/IEET-info-rates-en.pdf",
+          "retrievedAt": "2026-11-24",
+          "quote": "The tax fee is part of the tax base for calculating the VAT.",
+          "language": "en"
+        },
+        {
+          "publisher": "Agència Tributària de Catalunya",
+          "title": "Quota tributària, tarifes i recàrrecs municipals",
+          "url": "https://atc.gencat.cat/ca/tributs/ieet/quota-tributaria/",
+          "retrievedAt": "2026-11-24",
+          "quote": "Tarifa general (de l'01.04.2026 a 31.03.2027) Recàrrec de l'Ajuntament de Barcelona de l'01.04.2026 al 31.03.2027",
+          "language": "ca"
+        },
+        {
+          "publisher": "Agencia Tributaria",
+          "title": "Manual práctico de IVA: tipo impositivo reducido del 10 por ciento",
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "retrievedAt": "2026-11-24",
+          "quote": "Se aplica el tipo del 10 por ciento a las siguientes operaciones:",
+          "language": "es"
+        },
+        {
+          "publisher": "Agencia Tributaria",
+          "title": "Manual práctico de IVA: tipo impositivo reducido del 10 por ciento",
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2025/capitulo-04-sujetos-pasivos-repercusion-impositivo/tipo-impositivo/tipo-impositivo-reducido-10-ciento.html",
+          "retrievedAt": "2026-11-24",
+          "quote": "Los servicios de hostelería, acampamento y balneario",
+          "language": "es"
+        }
+      ],
+      "derivation": "The total tax per person and night is €12.00 (5-star), €8.40 (4-star) and €7.00 (other establishments). The categories are exhaustive, so 1- to 3-star hotels fall under 'other establishments'. The tax is part of the VAT base, and hotel stays carry 10% VAT, so the guest pays the total × 1.10: €13.20, €9.24 and €7.70. Rates and surcharge are set from 1 April 2026 to 31 March 2027."
+    },
+    {
+      "city": "AMS",
+      "name": "Amsterdam",
+      "status": "levied",
+      "basis": "percent-of-room",
+      "currency": "EUR",
+      "value": 12.5,
+      "percentOf": "price-excluding-vat",
+      "scope": "Overnight stays in Amsterdam: 12.5% of the charge for the stay that is subject to VAT (that is, before VAT). The source does not state the VAT rate, so the tax is counted on the full price. The council has approved a higher rate for 2027, so stays from 1 January 2027 are not covered.",
+      "effectiveFrom": "2024-01-01",
+      "effectiveTo": "2026-12-31",
+      "reviewBy": "2027-01-15",
+      "source": {
+        "publisher": "Gemeente Amsterdam (Lokale wet- en regelgeving, overheid.nl)",
+        "title": "Verordening Toeristenbelasting 2024 (geldend van 21-11-2023 t/m heden)",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR703815",
+        "retrievedAt": "2026-11-24",
+        "quote": "De belasting bedraagt per overnachting 12,5 procent van de vergoeding bedoeld in artikel 4 van deze Verordening.",
+        "language": "nl"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Gemeente Amsterdam (Lokale wet- en regelgeving, overheid.nl)",
+          "title": "Verordening Toeristenbelasting 2024, artikel 4",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR703815",
+          "retrievedAt": "2026-11-24",
+          "quote": "Als vergoeding wordt aangemerkt het bedrag dat als verschuldigd wegens logies aan de heffing van omzetbelasting is onderworpen",
+          "language": "nl"
+        }
+      ],
+      "derivation": "The tax is 12.5% of the charge defined in article 4. Article 4 defines that charge as the lodging amount subject to VAT, which is the price before VAT."
+    },
+    {
+      "city": "EDI",
+      "name": "Edinburgh",
+      "status": "levied",
+      "basis": "percent-of-room",
+      "currency": "GBP",
+      "value": 5,
+      "percentOf": "price-excluding-vat",
+      "scope": "Paid overnight accommodation in Edinburgh, first five consecutive nights, charged on the cost before VAT. The source quoted does not state the VAT rate, so the levy is counted on the full price.",
+      "effectiveFrom": "2026-07-24",
+      "reviewBy": "2027-03-31",
+      "source": {
+        "publisher": "The City of Edinburgh Council",
+        "title": "Visitor Levy for Edinburgh",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh",
+        "retrievedAt": "2026-11-24",
+        "quote": "is a 5% payment on the cost of the paid, overnight accommodation. It will be charged before VAT",
+        "language": "en"
+      }
+    },
+    {
+      "city": "BRU",
+      "name": "Brussels",
+      "status": "levied",
+      "basis": "per-room-night",
+      "currency": "EUR",
+      "value": 500,
+      "scope": "Standard tourist accommodation in the Brussels-Capital Region: €5 per night per accommodation unit (bedroom), including the communal additional cents. It is levied on the operator, which normally passes it on to guests.",
+      "effectiveFrom": "2026-01-01",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "Région de Bruxelles-Capitale (be.brussels)",
+        "title": "Taxe sur les établissements d’hébergement touristique : augmentation des tarifs au 1er janvier 2026",
+        "url": "https://be.brussels/fr/impots-financement/taxe-sur-les-etablissements-dhebergement-touristique-augmentation-des-tarifs-au-1er-janvier-2026",
+        "retrievedAt": "2026-11-24",
+        "quote": "Pour les établissements standards , la taxe s'élèvera à 5 EUR par nuitée et par unité d’hébergement, après l'ajout des centimes additionnels communaux.",
+        "language": "fr"
+      }
+    },
+    {
+      "city": "NCE",
+      "name": "Nice",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 107,
+        "2": 134,
+        "3": 228,
+        "4": 348,
+        "5": 469
+      },
+      "scope": "Classified tourist hotels in the Métropole Nice Côte d'Azur, per adult per night (taxe de séjour au réel), including the 34% regional additional tax. Stays before 1 January 2027 are not covered, because DGFiP's 2025 open data lists Nice's rates both with and without that tax.",
+      "effectiveFrom": "2027-01-01",
+      "effectiveTo": "2027-12-31",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "DGFiP (impots.gouv.fr)",
+        "title": "Catalogue des tarifs de la taxe de séjour (DELTA), applicable au 1er janvier 2027: Métropole Nice Côte d'Azur (includes Nice, INSEE 06088)",
+        "url": "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/taxe_sejour/taxe_sejour_donnees_deliberations.zip",
+        "retrievedAt": "2026-11-24",
+        "quote": "<collectiviteDeliberante siren=\"200030195\"><nom>METROPOLE NICE COTE D AZUR</nom><codeInsee/><departement><numero>06</numero><libelle>DEP DES ALPES MARITIMES</libelle></departement></collectiviteDeliberante></saisie><date>10/07/2024</date><millesime>2019</millesime><loyerMaximumNuit>23.00</loyerMaximumNuit><loyerMaximumSemaine>161.00</loyerMaximumSemaine><loyerMaximumMois>713.00</loyerMaximumMois><taxeAdditionnelleDepartementale>false</taxeAdditionnelleDepartementale><taxeAdditionnelleRegionale>false</taxeAdditionnelleRegionale><taxeAdditionnelleLGV>true</taxeAdditionnelleLGV><taxeAdditionnelleArticleL2531-18>false</taxeAdditionnelleArticleL2531-18><collectivites><collectivite siren=\"210600060\"><nom>ASPREMONT</nom><codeInsee>06006</codeInsee></collectivite><collectivite siren=\"210600094\"><nom>BAIROLS</nom><codeInsee>06009</codeInsee></collectivite><collectivite siren=\"210600110\"><nom>BEAULIEU-SUR-MER</nom><codeInsee>06011</codeInsee></collectivite><collectivite siren=\"210600136\"><nom>BELVÉDÈRE</nom><codeInsee>06013</codeInsee></collectivite><collectivite siren=\"210600219\"><nom>BONSON</nom><codeInsee>06021</codeInsee></collectivite><collectivite siren=\"210600276\"><nom>CAGNES-SUR-MER</nom><codeInsee>06027</codeInsee></collectivite><collectivite siren=\"210600326\"><nom>CAP-D'AIL</nom><codeInsee>06032</codeInsee></collectivite><collectivite siren=\"210600334\"><nom>CARROS</nom><codeInsee>06033</codeInsee></collectivite><collectivite siren=\"210600342\"><nom>CASTAGNIERS</nom><codeInsee>06034</codeInsee></collectivite><collectivite siren=\"210600391\"><nom>CHÂTEAUNEUF-VILLEVIEILLE</nom><codeInsee>06039</codeInsee></collectivite><collectivite siren=\"210600425\"><nom>CLANS</nom><codeInsee>06042</codeInsee></collectivite><collectivite siren=\"210600466\"><nom>COLOMARS</nom><codeInsee>06046</codeInsee></collectivite><collectivite siren=\"210600540\"><nom>DRAP</nom><codeInsee>06054</codeInsee></collectivite><collectivite siren=\"210600557\"><nom>DURANUS</nom><codeInsee>06055</codeInsee></collectivite><collectivite siren=\"210600599\"><nom>ÈZE</nom><codeInsee>06059</codeInsee></collectivite><collectivite siren=\"210600607\"><nom>FALICON</nom><codeInsee>06060</codeInsee></collectivite><collectivite siren=\"210600649\"><nom>GATTIÈRES</nom><codeInsee>06064</codeInsee></collectivite><collectivite siren=\"210600664\"><nom>GILETTE</nom><codeInsee>06066</codeInsee></collectivite><collectivite siren=\"210600722\"><nom>ILONSE</nom><codeInsee>06072</codeInsee></collectivite><collectivite siren=\"210600730\"><nom>ISOLA</nom><codeInsee>06073</codeInsee></collectivite><collectivite siren=\"210600201\"><nom>LA BOLLÈNE-VÉSUBIE</nom><codeInsee>06020</codeInsee></collectivite><collectivite siren=\"210600656\"><nom>LA GAUDE</nom><codeInsee>06065</codeInsee></collectivite><collectivite siren=\"210600748\"><nom>LANTOSQUE</nom><codeInsee>06074</codeInsee></collectivite><collectivite siren=\"210601092\"><nom>LA ROQUETTE-SUR-VAR</nom><codeInsee>06109</codeInsee></collectivite><collectivite siren=\"210601449\"><nom>LA TOUR</nom><codeInsee>06144</codeInsee></collectivite><collectivite siren=\"210601498\"><nom>LA TRINITÉ</nom><codeInsee>06149</codeInsee></collectivite><collectivite siren=\"210600250\"><nom>LE BROC</nom><codeInsee>06025</codeInsee></collectivite><collectivite siren=\"210600755\"><nom>LEVENS</nom><codeInsee>06075</codeInsee></collectivite><collectivite siren=\"210600805\"><nom>MARIE</nom><codeInsee>06080</codeInsee></collectivite><collectivite siren=\"210600888\"><nom>NICE</nom><codeInsee>06088</codeInsee></collectivite><collectivite siren=\"210601027\"><nom>RIMPLAS</nom><codeInsee>06102</codeInsee></collectivite><collectivite siren=\"210601035\"><nom>ROQUEBILLIÈRE</nom><codeInsee>06103</codeInsee></collectivite><collectivite siren=\"210601100\"><nom>ROUBION</nom><codeInsee>06110</codeInsee></collectivite><collectivite siren=\"210601118\"><nom>ROURE</nom><codeInsee>06111</codeInsee></collectivite><collectivite siren=\"210601142\"><nom>SAINT-ANDRÉ-DE-LA-ROCHE</nom><codeInsee>06114</codeInsee></collectivite><collectivite siren=\"210601175\"><nom>SAINT-BLAISE</nom><codeInsee>06117</codeInsee></collectivite><collectivite siren=\"210601191\"><nom>SAINT-DALMAS-LE-SELVAGE</nom><codeInsee>06119</codeInsee></collectivite><collectivite siren=\"210601209\"><nom>SAINT-ÉTIENNE-DE-TINÉE</nom><codeInsee>06120</codeInsee></collectivite><collectivite siren=\"210601217\"><nom>SAINT-JEAN-CAP-FERRAT</nom><codeInsee>06121</codeInsee></collectivite><collectivite siren=\"210601225\"><nom>SAINT-JEANNET</nom><codeInsee>06122</codeInsee></collectivite><collectivite siren=\"210601233\"><nom>SAINT-LAURENT-DU-VAR</nom><codeInsee>06123</codeInsee></collectivite><collectivite siren=\"210601266\"><nom>SAINT-MARTIN-DU-VAR</nom><codeInsee>06126</codeInsee></collectivite><collectivite siren=\"210601274\"><nom>SAINT-MARTIN-VÉSUBIE</nom><codeInsee>06127</codeInsee></collectivite><collectivite siren=\"210601290\"><nom>SAINT-SAUVEUR-SUR-TINÉE</nom><codeInsee>06129</codeInsee></collectivite><collectivite siren=\"210601464\"><nom>TOURNEFORT</nom><codeInsee>06146</codeInsee></collectivite><collectivite siren=\"210601472\"><nom>TOURRETTE-LEVENS</nom><codeInsee>06147</codeInsee></collectivite><collectivite siren=\"210601514\"><nom>UTELLE</nom><codeInsee>06151</codeInsee></collectivite><collectivite siren=\"210601530\"><nom>VALDEBLORE</nom><codeInsee>06153</codeInsee></collectivite><collectivite siren=\"210601563\"><nom>VENANSON</nom><codeInsee>06156</codeInsee></collectivite><collectivite siren=\"210601571\"><nom>VENCE</nom><codeInsee>06157</codeInsee></collectivite><collectivite siren=\"210601597\"><nom>VILLEFRANCHE-SUR-MER</nom><codeInsee>06159</codeInsee></collectivite></collectivites><regimes><regime natureId=\"1\">Réel</regime><regime natureId=\"2\">Réel</regime><regime natureId=\"3\">Réel</regime><regime natureId=\"4\">Réel</regime><regime natureId=\"5\">Réel</regime><regime natureId=\"6\">Réel</regime><regime natureId=\"7\">Réel</regime><regime natureId=\"8\">Réel</regime><regime natureId=\"9\">Réel</regime><regime natureId=\"10\">Réel</regime><regime natureId=\"11\">Réel</regime></regimes><periodes><periode><dateDebut>01 janvier</dateDebut><dateFin>31 décembre</dateFin><tarifs><tarif categorieId=\"1\" isMax=\"true\">4.80</tarif><tarif categorieId=\"2\">3.50</tarif><tarif categorieId=\"3\">2.60</tarif><tarif categorieId=\"4\">1.70</tarif><tarif categorieId=\"5\">1.00</tarif><tarif categorieId=\"6\">0.80</tarif>",
+        "language": "fr"
+      },
+      "supportingSources": [
+        {
+          "publisher": "DGFiP (impots.gouv.fr)",
+          "title": "Catalogue des tarifs de la taxe de séjour 2027: catégories d'hébergement",
+          "url": "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/taxe_sejour/taxe_sejour_donnees_deliberations.zip",
+          "retrievedAt": "2026-11-24",
+          "quote": "<date>01/01/2027</date><categories><millesime annee=\"2019\"><libelle>à/c du 01/01/2019</libelle><categorie id=\"1\"><libelle>Palaces</libelle><tarification><plancher>0.70</plancher><plafond>4.90</plafond><unite>€</unite></tarification></categorie><categorie id=\"2\"><libelle>Hôtels de tourisme 5 étoiles, résidences de tourisme 5 étoiles, meublés de tourisme 5 étoiles</libelle><tarification><plancher>0.70</plancher><plafond>3.60</plafond><unite>€</unite></tarification></categorie><categorie id=\"3\"><libelle>Hôtels de tourisme 4 étoiles, résidences de tourisme 4 étoiles, meublés de tourisme 4 étoiles</libelle><tarification><plancher>0.70</plancher><plafond>2.60</plafond><unite>€</unite></tarification></categorie><categorie id=\"4\"><libelle>Hôtels de tourisme 3 étoiles, résidences de tourisme 3 étoiles, meublés de tourisme 3 étoiles</libelle><tarification><plancher>0.50</plancher><plafond>1.70</plafond><unite>€</unite></tarification></categorie><categorie id=\"5\"><libelle>Hôtels de tourisme 2 étoiles, résidences de tourisme 2 étoiles, meublés de tourisme 2 étoiles, villages de vacances 4 et 5 étoiles</libelle><tarification><plancher>0.30</plancher><plafond>1.00</plafond><unite>€</unite></tarification></categorie><categorie id=\"6\"><libelle>Hôtels de tourisme 1 étoile, résidences de tourisme 1 étoile, meublés de tourisme 1 étoile, villages de vacances 1, 2 et 3 étoiles, chambres d'hôtes, auberges collectives</libelle><tarification><plancher>0.20</plancher><plafond>0.80</plafond><unite>€</unite></tarification></categorie>",
+          "language": "fr"
+        },
+        {
+          "publisher": "Ministère de l'Intérieur, collectivites-locales.gouv.fr",
+          "title": "Taxe de séjour: taxes additionnelles",
+          "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/fiscalite-locale/fiscalite-indirecte-locale/taxe-de-sejour",
+          "retrievedAt": "2026-11-24",
+          "quote": "Des taxes additionnelles régionales de 34% sont également mises en œuvre au profit de la Société de la Ligne Nouvelle Provence Côte d’Azur",
+          "language": "fr"
+        }
+      ],
+      "derivation": "The Métropole's deliberation of 10 July 2024 in the 2027 catalogue covers Nice (06088). It sets €0.80, €1.00, €1.70, €2.60 and €3.50 (1- to 5-star) and applies only the LGV regional additional tax, which the ministry gives as 34%. So the total is the rate × 1.34, rounded to the cent. In the DGFiP catalogue, categories 6, 5, 4, 3 and 2 are 1- to 5-star tourist hotels."
+    },
+    {
+      "city": "DUS",
+      "name": "Düsseldorf",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "value": 300,
+      "scope": "Paid overnight stays in Düsseldorf (Beherbergungssteuer), per person per night.",
+      "effectiveFrom": "2024-01-01",
+      "reviewBy": "2027-01-15",
+      "source": {
+        "publisher": "Landeshauptstadt Düsseldorf, Steueramt",
+        "title": "Beherbergungssteuer",
+        "url": "https://www.duesseldorf.de/steueramt/beherbergungssteuer",
+        "retrievedAt": "2026-11-24",
+        "quote": "Der Steuersatz beträgt pro Person und pro Übernachtung 3 Euro.",
+        "language": "de"
+      }
+    },
+    {
+      "city": "BER",
+      "name": "Berlin",
+      "status": "levied",
+      "basis": "percent-of-room",
+      "currency": "EUR",
+      "value": 7.5,
+      "percentOf": "price-excluding-vat",
+      "scope": "Paid overnight stays in Berlin (Übernachtungsteuer): 7.5% of the net charge for the stay, excluding extras such as breakfast. The source does not state the VAT rate, so the tax is counted on the full price.",
+      "effectiveFrom": "2025-01-01",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "Land Berlin (service.berlin.de)",
+        "title": "Übernachtungsteuer (City Tax)",
+        "url": "https://service.berlin.de/dienstleistung/326105/",
+        "retrievedAt": "2026-11-24",
+        "quote": "Die Höhe der Übernachtungsteuer beträgt 7,5 % des Nettoentgelts für die Übernachtung (ohne Nebenkosten, wie z.B. Frühstück).",
+        "language": "de"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Senatsverwaltung für Finanzen Berlin",
+          "title": "FAQ Übernachtungsteuer (City Tax)",
+          "url": "https://www.berlin.de/sen/finanzen/steuern/informationen-fuer-steuerzahler-/faq-steuern/artikel.57911.php",
+          "retrievedAt": "2026-11-24",
+          "quote": "Ab dem 1. Januar 2025 gelten insbesondere folgende Änderungen**: • Der Steuersatz wurde auf 7,5 % angehoben.",
+          "language": "de"
+        }
+      ],
+      "derivation": "7.5% of the net charge for the stay. The Senate finance department says the rate became 7.5% on 1 January 2025."
+    },
+    {
+      "city": "GVA",
+      "name": "Geneva",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "CHF",
+      "value": 425,
+      "scope": "Hotel stays in the canton of Geneva: a single rate of CHF 4.25 per person per night (taxe de séjour, RTour art. 10, amended with effect from 1 January 2026).",
+      "effectiveFrom": "2026-01-01",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "République et canton de Genève (SILGeneve)",
+        "title": "Règlement d'exécution de la loi sur le tourisme (RTour), I 1 60.01, art. 10",
+        "url": "https://silgeneve.ch/legis/data/rsg_i1_60p01.htm",
+        "retrievedAt": "2026-11-24",
+        "quote": "les montants de la taxe de séjour par personne et par nuitée sont les suivants : a) tarif unique 4,25 fr.",
+        "language": "fr"
+      }
+    },
+    {
+      "city": "LON",
+      "name": "London",
+      "status": "none",
+      "scope": "No overnight visitor levy applies in England. The government intends to give English mayors the power to introduce one, but has not yet legislated. Scotland and Wales already have the power.",
+      "effectiveFrom": "2025-11-26",
+      "reviewBy": "2027-06-30",
+      "source": {
+        "publisher": "HM Treasury and MHCLG (GOV.UK)",
+        "title": "Overnight visitor levy in England: consultation",
+        "url": "https://assets.publishing.service.gov.uk/media/6926e212a245b0985f03409c/overnight-visitor-levy-in-england.pdf",
+        "retrievedAt": "2026-11-24",
+        "quote": "The Government intends to introduce a visitor levy power in England to enable Mayors and potentially other local leaders to take full advantage of the economic opportunities offered by the visitor economy, as seen elsewhere in Great Britain. In Scotland and Wales, all local authorities already have the legal power to apply a visitor levy.",
+        "language": "en"
+      },
+      "supportingSources": [
+        {
+          "publisher": "HM Treasury and MHCLG (GOV.UK)",
+          "title": "Visitor Levy in England: government response",
+          "url": "https://assets.publishing.service.gov.uk/media/6aa285844e17456e2cdf5303/Visitor_Levy_in_England_-_government_response.pdf",
+          "retrievedAt": "2026-11-24",
+          "quote": "Subject to Parliamentary approval, we expect local leaders to be able to set out plans for how revenues will be invested by March 2028.",
+          "language": "en"
+        }
+      ],
+      "derivation": "English local authorities do not have the power to levy a visitor tax, unlike those in Scotland and Wales. The government's response says the power still needs Parliamentary approval, with local plans expected by March 2028. So no levy applies in London now."
+    },
+    {
+      "city": "KRK",
+      "name": "Kraków",
+      "status": "none",
+      "scope": "Kraków stopped charging its opłata miejscowa (local fee) after 2015. A resolution to reintroduce it from 2027 is in public consultation (6–27 November 2026), so stays from 1 January 2027 are not covered.",
+      "effectiveFrom": "2016-01-01",
+      "effectiveTo": "2026-12-31",
+      "reviewBy": "2027-01-01",
+      "source": {
+        "publisher": "Urząd Miasta Krakowa (BIP)",
+        "title": "Konsultacje społeczne: Na jakich zasadach wprowadzić tzw. opłatę turystyczną w Krakowie?",
+        "url": "https://bip.krakow.pl/?news_id=265963",
+        "retrievedAt": "2026-11-24",
+        "quote": "Od 6 do 27 listopada 2026 r. potrwają konsultacje społeczne projektu uchwały dotyczącej wprowadzenia w Krakowie opłaty miejscowej",
+        "language": "pl"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Urząd Miasta Krakowa (krakow.pl)",
+          "title": "Radni przyjęli rezolucję w sprawie opłaty turystycznej",
+          "url": "https://krakow.pl/aktualnosci/287555,26,komunikat,radni_przyjeli_rezolucje_w_sprawie_oplaty_turystycznej.html",
+          "retrievedAt": "2026-11-24",
+          "quote": "Taka opłata miejscowa była pobierana w Krakowie w latach 2004–2015, ale jej pobór wstrzymano",
+          "language": "pl"
+        }
+      ],
+      "derivation": "The city says the fee was charged from 2004 to 2015 and then stopped. Its November 2026 consultation is on introducing it again (wprowadzenie), so no fee applies until a resolution takes effect."
+    },
+    {
+      "city": "SXB",
+      "name": "Strasbourg",
+      "status": "levied",
+      "basis": "per-person-night",
+      "currency": "EUR",
+      "byClass": {
+        "1": 88,
+        "2": 110,
+        "3": 187,
+        "4": 286,
+        "5": 396
+      },
+      "scope": "Classified tourist hotels in the Eurométropole de Strasbourg, per adult per night (taxe de séjour au réel), including the 10% departmental additional tax.",
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2027-12-31",
+      "reviewBy": "2027-01-31",
+      "source": {
+        "publisher": "DGFiP (impots.gouv.fr)",
+        "title": "Catalogue des tarifs de la taxe de séjour (DELTA), applicable au 1er janvier 2027: Eurométropole de Strasbourg (includes Strasbourg, INSEE 67482)",
+        "url": "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/taxe_sejour/taxe_sejour_donnees_deliberations.zip",
+        "retrievedAt": "2026-11-24",
+        "quote": "<collectiviteDeliberante siren=\"246700488\"><nom>EUROMETROPOLE DE STRASBOURG</nom><codeInsee/><departement><numero>67</numero><libelle>DEP BAS-RHIN</libelle></departement></collectiviteDeliberante></saisie><date>27/06/2025</date><millesime>2019</millesime><loyerMaximumNuit>1.00</loyerMaximumNuit><loyerMaximumSemaine></loyerMaximumSemaine><loyerMaximumMois></loyerMaximumMois><taxeAdditionnelleDepartementale>true</taxeAdditionnelleDepartementale><taxeAdditionnelleRegionale>false</taxeAdditionnelleRegionale><taxeAdditionnelleLGV>false</taxeAdditionnelleLGV><taxeAdditionnelleArticleL2531-18>false</taxeAdditionnelleArticleL2531-18><collectivites><collectivite siren=\"216700013\"><nom>ACHENHEIM</nom><codeInsee>67001</codeInsee></collectivite><collectivite siren=\"216700435\"><nom>BISCHHEIM</nom><codeInsee>67043</codeInsee></collectivite><collectivite siren=\"216700492\"><nom>BLAESHEIM</nom><codeInsee>67049</codeInsee></collectivite><collectivite siren=\"216700658\"><nom>BREUSCHWICKERSHEIM</nom><codeInsee>67065</codeInsee></collectivite><collectivite siren=\"216701185\"><nom>ECKBOLSHEIM</nom><codeInsee>67118</codeInsee></collectivite><collectivite siren=\"216701193\"><nom>ECKWERSHEIM</nom><codeInsee>67119</codeInsee></collectivite><collectivite siren=\"216701243\"><nom>ENTZHEIM</nom><codeInsee>67124</codeInsee></collectivite><collectivite siren=\"216701318\"><nom>ESCHAU</nom><codeInsee>67131</codeInsee></collectivite><collectivite siren=\"216701375\"><nom>FEGERSHEIM</nom><codeInsee>67137</codeInsee></collectivite><collectivite siren=\"216701524\"><nom>GEISPOLSHEIM</nom><codeInsee>67152</codeInsee></collectivite><collectivite siren=\"216701821\"><nom>HANGENBIETEN</nom><codeInsee>67182</codeInsee></collectivite><collectivite siren=\"216702043\"><nom>HŒNHEIM</nom><codeInsee>67204</codeInsee></collectivite><collectivite siren=\"216702126\"><nom>HOLTZHEIM</nom><codeInsee>67212</codeInsee></collectivite><collectivite siren=\"216702183\"><nom>ILLKIRCH-GRAFFENSTADEN</nom><codeInsee>67218</codeInsee></collectivite><collectivite siren=\"216702472\"><nom>KOLBSHEIM</nom><codeInsee>67247</codeInsee></collectivite><collectivite siren=\"216702563\"><nom>LAMPERTHEIM</nom><codeInsee>67256</codeInsee></collectivite><collectivite siren=\"216705194\"><nom>LA WANTZENAU</nom><codeInsee>67519</codeInsee></collectivite><collectivite siren=\"216702670\"><nom>LINGOLSHEIM</nom><codeInsee>67267</codeInsee></collectivite><collectivite siren=\"216702688\"><nom>LIPSHEIM</nom><codeInsee>67268</codeInsee></collectivite><collectivite siren=\"216702969\"><nom>MITTELHAUSBERGEN</nom><codeInsee>67296</codeInsee></collectivite><collectivite siren=\"216703090\"><nom>MUNDOLSHEIM</nom><codeInsee>67309</codeInsee></collectivite><collectivite siren=\"216703264\"><nom>NIEDERHAUSBERGEN</nom><codeInsee>67326</codeInsee></collectivite><collectivite siren=\"216703439\"><nom>OBERHAUSBERGEN</nom><codeInsee>67343</codeInsee></collectivite><collectivite siren=\"216703504\"><nom>OBERSCHAEFFOLSHEIM</nom><codeInsee>67350</codeInsee></collectivite><collectivite siren=\"216703637\"><nom>OSTHOFFEN</nom><codeInsee>67363</codeInsee></collectivite><collectivite siren=\"216703652\"><nom>OSTWALD</nom><codeInsee>67365</codeInsee></collectivite><collectivite siren=\"216703785\"><nom>PLOBSHEIM</nom><codeInsee>67378</codeInsee></collectivite><collectivite siren=\"216703892\"><nom>REICHSTETT</nom><codeInsee>67389</codeInsee></collectivite><collectivite siren=\"216704478\"><nom>SCHILTIGHEIM</nom><codeInsee>67447</codeInsee></collectivite><collectivite siren=\"216704718\"><nom>SOUFFELWEYERSHEIM</nom><codeInsee>67471</codeInsee></collectivite><collectivite siren=\"216704825\"><nom>STRASBOURG</nom><codeInsee>67482</codeInsee></collectivite><collectivite siren=\"216705061\"><nom>VENDENHEIM</nom><codeInsee>67506</codeInsee></collectivite><collectivite siren=\"216705517\"><nom>WOLFISHEIM</nom><codeInsee>67551</codeInsee></collectivite></collectivites><regimes><regime natureId=\"1\">Réel</regime><regime natureId=\"2\">Réel</regime><regime natureId=\"3\">Réel</regime><regime natureId=\"4\">Réel</regime><regime natureId=\"5\">Réel</regime><regime natureId=\"6\">Réel</regime><regime natureId=\"7\">Réel</regime><regime natureId=\"8\">Réel</regime><regime natureId=\"9\">Réel</regime><regime natureId=\"10\">Réel</regime><regime natureId=\"11\">Réel</regime></regimes><periodes><periode><dateDebut>01 janvier</dateDebut><dateFin>31 décembre</dateFin><tarifs><tarif categorieId=\"1\" isMax=\"true\">4.90</tarif><tarif categorieId=\"2\">3.60</tarif><tarif categorieId=\"3\">2.60</tarif><tarif categorieId=\"4\">1.70</tarif><tarif categorieId=\"5\">1.00</tarif><tarif categorieId=\"6\">0.80</tarif>",
+        "language": "fr"
+      },
+      "supportingSources": [
+        {
+          "publisher": "DGFiP (impots.gouv.fr)",
+          "title": "Catalogue des tarifs de la taxe de séjour 2027: catégories d'hébergement",
+          "url": "https://www.impots.gouv.fr/sites/default/files/media/1_metier/2_professionnel/taxe_sejour/taxe_sejour_donnees_deliberations.zip",
+          "retrievedAt": "2026-11-24",
+          "quote": "<date>01/01/2027</date><categories><millesime annee=\"2019\"><libelle>à/c du 01/01/2019</libelle><categorie id=\"1\"><libelle>Palaces</libelle><tarification><plancher>0.70</plancher><plafond>4.90</plafond><unite>€</unite></tarification></categorie><categorie id=\"2\"><libelle>Hôtels de tourisme 5 étoiles, résidences de tourisme 5 étoiles, meublés de tourisme 5 étoiles</libelle><tarification><plancher>0.70</plancher><plafond>3.60</plafond><unite>€</unite></tarification></categorie><categorie id=\"3\"><libelle>Hôtels de tourisme 4 étoiles, résidences de tourisme 4 étoiles, meublés de tourisme 4 étoiles</libelle><tarification><plancher>0.70</plancher><plafond>2.60</plafond><unite>€</unite></tarification></categorie><categorie id=\"4\"><libelle>Hôtels de tourisme 3 étoiles, résidences de tourisme 3 étoiles, meublés de tourisme 3 étoiles</libelle><tarification><plancher>0.50</plancher><plafond>1.70</plafond><unite>€</unite></tarification></categorie><categorie id=\"5\"><libelle>Hôtels de tourisme 2 étoiles, résidences de tourisme 2 étoiles, meublés de tourisme 2 étoiles, villages de vacances 4 et 5 étoiles</libelle><tarification><plancher>0.30</plancher><plafond>1.00</plafond><unite>€</unite></tarification></categorie><categorie id=\"6\"><libelle>Hôtels de tourisme 1 étoile, résidences de tourisme 1 étoile, meublés de tourisme 1 étoile, villages de vacances 1, 2 et 3 étoiles, chambres d'hôtes, auberges collectives</libelle><tarification><plancher>0.20</plancher><plafond>0.80</plafond><unite>€</unite></tarification></categorie>",
+          "language": "fr"
+        },
+        {
+          "publisher": "Ministère de l'Intérieur, collectivites-locales.gouv.fr",
+          "title": "Taxe de séjour: taxes additionnelles",
+          "url": "https://www.collectivites-locales.gouv.fr/gerer-les-finances-publiques-locales/fiscalite-locale/fiscalite-indirecte-locale/taxe-de-sejour",
+          "retrievedAt": "2026-11-24",
+          "quote": "Il s’agit de la taxe additionnelle départementale de 10% (article L. 3333-1 du CGCT)",
+          "language": "fr"
+        }
+      ],
+      "derivation": "The Eurométropole's deliberation of 27 June 2025 is still the one in force in the 2027 catalogue. Under DGFiP's rules it took effect on 1 January 2026. It covers Strasbourg (67482) and sets €0.80, €1.00, €1.70, €2.60 and €3.60 (1- to 5-star) with only the departmental additional tax, which is 10%. So the total is the rate × 1.10. In the DGFiP catalogue, categories 6, 5, 4, 3 and 2 are 1- to 5-star tourist hotels."
+    },
+    {
+      "city": "ALC",
+      "name": "Alicante",
+      "status": "none",
+      "scope": "No tourist tax applies in the Comunitat Valenciana. The regional tourist-stay tax (IVET, popularly the «tasa turística») and its voluntary municipal surcharge were repealed by Decreto ley 12/2023 before they took effect.",
+      "effectiveFrom": "2023-11-15",
+      "reviewBy": "2027-06-30",
+      "source": {
+        "publisher": "Generalitat Valenciana (DOGV)",
+        "title": "Decreto ley 12/2023, de 10 de noviembre, del Consell, de derogación de la Ley 7/2022 (DOGV núm. 9719, 14 de noviembre de 2023)",
+        "url": "https://dogv.gva.es/datos/2023/11/14/pdf/2023_11345.pdf",
+        "retrievedAt": "2026-11-24",
+        "quote": "Queda derogada la Ley 7/2022, de 16 de diciembre, de la Generalitat, de medidas fiscales para impulsar el turismo sostenible",
+        "language": "es"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Generalitat Valenciana (DOGV)",
+          "title": "Decreto ley 12/2023, preámbulo",
+          "url": "https://dogv.gva.es/datos/2023/11/14/pdf/2023_11345.pdf",
+          "retrievedAt": "2026-11-24",
+          "quote": "su objeto es la creación del Impuesto Valenciano sobre Estancias Turísticas (IVET), como un impuesto propio de la Generalitat Valenciana que grava la capacidad económica puesta de manifiesto por su estancia en determinados establecimientos turísticos situados en el territorio de la Comunitat Valenciana, impuesto que ha sido popularmente conocido como «tasa turística»",
+          "language": "es"
+        },
+        {
+          "publisher": "Generalitat Valenciana (DOGV)",
+          "title": "Decreto ley 12/2023, preámbulo",
+          "url": "https://dogv.gva.es/datos/2023/11/14/pdf/2023_11345.pdf",
+          "retrievedAt": "2026-11-24",
+          "quote": "momento a partir del cual los ayuntamientos podrían decidir aplicar de manera voluntaria el recargo establecido en la disposición adicional primera",
+          "language": "es"
+        }
+      ],
+      "derivation": "Ley 7/2022 created the Valencian tourist-stay tax and the only basis for a municipal surcharge on it. Decreto ley 12/2023 repeals that law before it took effect, so no tourist tax applies in Alicante. No later law creating one was found."
+    }
+  ]
+}

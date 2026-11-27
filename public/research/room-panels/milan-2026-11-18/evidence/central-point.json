@@ -1,0 +1,1158 @@
+{
+  "source_name": "OpenStreetMap contributors",
+  "licence": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "licence_url": "https://www.openstreetmap.org/copyright",
+  "retrieved_at": "2026-11-02T23:25:10.295957Z",
+  "retrieval_timestamp_basis": "Local response-file completion timestamp",
+  "query_url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.1888000,45.4621000,9.1928000,45.4661000",
+  "source_response_sha256": "473e4564df969faf39c0e93f1cf108e91ee70e5154af3ad0031618a9bd5c45b9",
+  "source_osm_base_timestamp": null,
+  "scope": "Selected named landmark and complete contributing geometry only; unrelated map features and contributor account names omitted. OSM is used solely as geography.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 463529462,
+      "version": 32,
+      "changeset": 188267688,
+      "timestamp": "2026-08-30T19:25:19Z",
+      "tags": {
+        "name": "Piazza del Duomo",
+        "name:en": "Cathedral Square",
+        "place": "square",
+        "wikidata": "Q51108"
+      },
+      "nodes": [
+        4336642880,
+        9238996034,
+        1274820786,
+        9238996035,
+        1202984676,
+        9356475750,
+        2991414090,
+        1202984673,
+        4170018791,
+        1526202846,
+        4170021889,
+        1526202848,
+        4587974844,
+        4332021415,
+        723072595,
+        11760629169,
+        1526202850,
+        9888148633,
+        1202984659,
+        9356475760,
+        9888144405,
+        4170005589,
+        251899369,
+        11760553168,
+        27654230,
+        4170020489,
+        27654232,
+        4170003890,
+        9761192374,
+        2147024558,
+        2147024565,
+        2147024571,
+        4170004390,
+        2147024568,
+        9734948180,
+        4587974850,
+        9356475753,
+        303021954,
+        4170004690,
+        13389646478,
+        7026372937,
+        4170022590,
+        566341285,
+        4170021291,
+        566341287,
+        566341286,
+        5287291868,
+        5287291867,
+        566341299,
+        566341298,
+        5287291801,
+        2407086058,
+        566341297,
+        9474113520,
+        4587974848,
+        566339316,
+        13001958903,
+        9238996039,
+        9356475754,
+        566339231,
+        4587974847,
+        3479695675,
+        3479695676,
+        4587974846,
+        4381971913,
+        9238996038,
+        4381971533,
+        566336036,
+        951637193,
+        951637231,
+        951637288,
+        951637127,
+        2498347969,
+        12304246873,
+        12304246868,
+        1538000168,
+        12304246871,
+        12304246875,
+        2498348214,
+        951637132,
+        951637180,
+        9353052137,
+        951637221,
+        951637264,
+        14135679049,
+        9356475751,
+        13001958924,
+        9356475752,
+        951637155,
+        9238996037,
+        419123693,
+        5143801612,
+        4336642882,
+        4381967547,
+        4336642887,
+        573362199,
+        4336642881,
+        4336642880
+      ]
+    },
+    {
+      "type": "node",
+      "id": 4336642880,
+      "version": 1,
+      "changeset": 41254446,
+      "timestamp": "2016-08-05T08:17:31Z",
+      "tags": {},
+      "lat": 45.4638805,
+      "lon": 9.1883468
+    },
+    {
+      "type": "node",
+      "id": 9238996034,
+      "version": 1,
+      "changeset": 113582892,
+      "timestamp": "2021-11-09T20:34:28Z",
+      "tags": {},
+      "lat": 45.4638676,
+      "lon": 9.1883647
+    },
+    {
+      "type": "node",
+      "id": 1274820786,
+      "version": 2,
+      "changeset": 17360279,
+      "timestamp": "2013-08-15T14:44:34Z",
+      "tags": {},
+      "lat": 45.4637433,
+      "lon": 9.188538
+    },
+    {
+      "type": "node",
+      "id": 9238996035,
+      "version": 2,
+      "changeset": 115225303,
+      "timestamp": "2021-12-21T20:41:05Z",
+      "tags": {},
+      "lat": 45.4636713,
+      "lon": 9.1885837
+    },
+    {
+      "type": "node",
+      "id": 1202984676,
+      "version": 6,
+      "changeset": 63134525,
+      "timestamp": "2018-10-02T18:58:51Z",
+      "tags": {},
+      "lat": 45.4636411,
+      "lon": 9.1886026
+    },
+    {
+      "type": "node",
+      "id": 9356475750,
+      "version": 1,
+      "changeset": 115225303,
+      "timestamp": "2021-12-21T20:41:05Z",
+      "tags": {},
+      "lat": 45.4636393,
+      "lon": 9.1890236
+    },
+    {
+      "type": "node",
+      "id": 2991414090,
+      "version": 6,
+      "changeset": 182171515,
+      "timestamp": "2026-05-03T17:38:16Z",
+      "tags": {
+        "amenity": "clock"
+      },
+      "lat": 45.463637,
+      "lon": 9.189569
+    },
+    {
+      "type": "node",
+      "id": 1202984673,
+      "version": 4,
+      "changeset": 63111167,
+      "timestamp": "2018-10-02T02:35:54Z",
+      "tags": {},
+      "lat": 45.4636368,
+      "lon": 9.1895951
+    },
+    {
+      "type": "node",
+      "id": 4170018791,
+      "version": 3,
+      "changeset": 74539970,
+      "timestamp": "2019-09-16T15:49:04Z",
+      "tags": {},
+      "lat": 45.4636195,
+      "lon": 9.1895948
+    },
+    {
+      "type": "node",
+      "id": 1526202846,
+      "version": 4,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635648,
+      "lon": 9.1895906
+    },
+    {
+      "type": "node",
+      "id": 4170021889,
+      "version": 4,
+      "changeset": 170732664,
+      "timestamp": "2025-08-20T15:12:31Z",
+      "tags": {},
+      "lat": 45.4635649,
+      "lon": 9.1898488
+    },
+    {
+      "type": "node",
+      "id": 1526202848,
+      "version": 4,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635653,
+      "lon": 9.1898912
+    },
+    {
+      "type": "node",
+      "id": 4587974844,
+      "version": 3,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635635,
+      "lon": 9.1899832
+    },
+    {
+      "type": "node",
+      "id": 4332021415,
+      "version": 5,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.463561,
+      "lon": 9.1901107
+    },
+    {
+      "type": "node",
+      "id": 723072595,
+      "version": 12,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.463561,
+      "lon": 9.1901392
+    },
+    {
+      "type": "node",
+      "id": 11760629169,
+      "version": 2,
+      "changeset": 149263669,
+      "timestamp": "2024-03-28T11:15:20Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:housenumber": "6",
+        "addr:postcode": "20123",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4635622,
+      "lon": 9.1903584
+    },
+    {
+      "type": "node",
+      "id": 1526202850,
+      "version": 7,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635624,
+      "lon": 9.1903862
+    },
+    {
+      "type": "node",
+      "id": 9888148633,
+      "version": 1,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635075,
+      "lon": 9.1903868
+    },
+    {
+      "type": "node",
+      "id": 1202984659,
+      "version": 4,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635077,
+      "lon": 9.1904257
+    },
+    {
+      "type": "node",
+      "id": 9356475760,
+      "version": 2,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4635073,
+      "lon": 9.1904574
+    },
+    {
+      "type": "node",
+      "id": 9888144405,
+      "version": 1,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4633247,
+      "lon": 9.1904596
+    },
+    {
+      "type": "node",
+      "id": 4170005589,
+      "version": 3,
+      "changeset": 149122735,
+      "timestamp": "2024-03-25T10:02:33Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:housenumber": "8",
+        "addr:postcode": "20123",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4632949,
+      "lon": 9.1904599
+    },
+    {
+      "type": "node",
+      "id": 251899369,
+      "version": 9,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4632244,
+      "lon": 9.1904606
+    },
+    {
+      "type": "node",
+      "id": 11760553168,
+      "version": 1,
+      "changeset": 149122735,
+      "timestamp": "2024-03-25T10:02:33Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:housenumber": "10",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4630999,
+      "lon": 9.1905772
+    },
+    {
+      "type": "node",
+      "id": 27654230,
+      "version": 11,
+      "changeset": 172905768,
+      "timestamp": "2025-10-06T10:17:29Z",
+      "tags": {},
+      "lat": 45.4629966,
+      "lon": 9.1906821
+    },
+    {
+      "type": "node",
+      "id": 4170020489,
+      "version": 3,
+      "changeset": 145145979,
+      "timestamp": "2023-12-15T10:58:43Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:housenumber": "12",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4631707,
+      "lon": 9.1911184
+    },
+    {
+      "type": "node",
+      "id": 27654232,
+      "version": 12,
+      "changeset": 52586563,
+      "timestamp": "2017-10-03T07:24:49Z",
+      "tags": {},
+      "lat": 45.4633479,
+      "lon": 9.1915279
+    },
+    {
+      "type": "node",
+      "id": 4170003890,
+      "version": 2,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "14",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4634716,
+      "lon": 9.1914622
+    },
+    {
+      "type": "node",
+      "id": 9761192374,
+      "version": 2,
+      "changeset": 123623632,
+      "timestamp": "2022-07-14T19:58:33Z",
+      "tags": {},
+      "lat": 45.4636086,
+      "lon": 9.1913861
+    },
+    {
+      "type": "node",
+      "id": 2147024558,
+      "version": 4,
+      "changeset": 172875026,
+      "timestamp": "2025-10-05T16:04:59Z",
+      "tags": {},
+      "lat": 45.4636006,
+      "lon": 9.1914028
+    },
+    {
+      "type": "node",
+      "id": 2147024565,
+      "version": 4,
+      "changeset": 172875026,
+      "timestamp": "2025-10-05T16:04:59Z",
+      "tags": {},
+      "lat": 45.4636299,
+      "lon": 9.1915278
+    },
+    {
+      "type": "node",
+      "id": 2147024571,
+      "version": 4,
+      "changeset": 172875026,
+      "timestamp": "2025-10-05T16:04:59Z",
+      "tags": {},
+      "lat": 45.4636204,
+      "lon": 9.1915315
+    },
+    {
+      "type": "node",
+      "id": 4170004390,
+      "version": 4,
+      "changeset": 172875026,
+      "timestamp": "2025-10-05T16:04:59Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "14a",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4636215,
+      "lon": 9.1918831
+    },
+    {
+      "type": "node",
+      "id": 2147024568,
+      "version": 3,
+      "changeset": 172875026,
+      "timestamp": "2025-10-05T16:04:59Z",
+      "tags": {},
+      "lat": 45.4636235,
+      "lon": 9.1920644
+    },
+    {
+      "type": "node",
+      "id": 9734948180,
+      "version": 2,
+      "changeset": 176159000,
+      "timestamp": "2025-12-19T22:23:29Z",
+      "tags": {},
+      "lat": 45.4636242,
+      "lon": 9.1920857
+    },
+    {
+      "type": "node",
+      "id": 4587974850,
+      "version": 4,
+      "changeset": 176159000,
+      "timestamp": "2025-12-19T22:23:29Z",
+      "tags": {},
+      "lat": 45.4636251,
+      "lon": 9.1921199
+    },
+    {
+      "type": "node",
+      "id": 9356475753,
+      "version": 4,
+      "changeset": 176159000,
+      "timestamp": "2025-12-19T22:23:29Z",
+      "tags": {},
+      "lat": 45.4636255,
+      "lon": 9.1921428
+    },
+    {
+      "type": "node",
+      "id": 303021954,
+      "version": 5,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4636263,
+      "lon": 9.1921651
+    },
+    {
+      "type": "node",
+      "id": 4170004690,
+      "version": 3,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "16",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4636304,
+      "lon": 9.1923291
+    },
+    {
+      "type": "node",
+      "id": 13389646478,
+      "version": 1,
+      "changeset": 176159000,
+      "timestamp": "2025-12-19T22:23:29Z",
+      "tags": {},
+      "lat": 45.4636378,
+      "lon": 9.1929749
+    },
+    {
+      "type": "node",
+      "id": 7026372937,
+      "version": 5,
+      "changeset": 176159000,
+      "timestamp": "2025-12-19T22:23:29Z",
+      "tags": {},
+      "lat": 45.4636549,
+      "lon": 9.1929747
+    },
+    {
+      "type": "node",
+      "id": 4170022590,
+      "version": 3,
+      "changeset": 117318772,
+      "timestamp": "2022-02-12T12:07:13Z",
+      "tags": {},
+      "lat": 45.4637265,
+      "lon": 9.1929777
+    },
+    {
+      "type": "node",
+      "id": 566341285,
+      "version": 7,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4638185,
+      "lon": 9.1929751
+    },
+    {
+      "type": "node",
+      "id": 4170021291,
+      "version": 3,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4638408,
+      "lon": 9.1929749
+    },
+    {
+      "type": "node",
+      "id": 566341287,
+      "version": 5,
+      "changeset": 54675695,
+      "timestamp": "2017-12-16T10:05:53Z",
+      "tags": {},
+      "lat": 45.4638739,
+      "lon": 9.1929741
+    },
+    {
+      "type": "node",
+      "id": 566341286,
+      "version": 6,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4638753,
+      "lon": 9.1928946
+    },
+    {
+      "type": "node",
+      "id": 5287291868,
+      "version": 3,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "18",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4639998,
+      "lon": 9.1928948
+    },
+    {
+      "type": "node",
+      "id": 5287291867,
+      "version": 4,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:housenumber": "20",
+        "addr:postcode": "20122",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.4642679,
+      "lon": 9.1928982
+    },
+    {
+      "type": "node",
+      "id": 566341299,
+      "version": 6,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4644677,
+      "lon": 9.1928972
+    },
+    {
+      "type": "node",
+      "id": 566341298,
+      "version": 6,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4644666,
+      "lon": 9.1929788
+    },
+    {
+      "type": "node",
+      "id": 5287291801,
+      "version": 3,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4644797,
+      "lon": 9.192979
+    },
+    {
+      "type": "node",
+      "id": 2407086058,
+      "version": 8,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4645351,
+      "lon": 9.192982
+    },
+    {
+      "type": "node",
+      "id": 566341297,
+      "version": 6,
+      "changeset": 172837256,
+      "timestamp": "2025-10-04T16:07:12Z",
+      "tags": {},
+      "lat": 45.4646527,
+      "lon": 9.1929817
+    },
+    {
+      "type": "node",
+      "id": 9474113520,
+      "version": 2,
+      "changeset": 117318772,
+      "timestamp": "2022-02-12T12:07:13Z",
+      "tags": {},
+      "lat": 45.4646692,
+      "lon": 9.192972
+    },
+    {
+      "type": "node",
+      "id": 4587974848,
+      "version": 4,
+      "changeset": 130198797,
+      "timestamp": "2022-12-17T23:01:38Z",
+      "tags": {},
+      "lat": 45.4647161,
+      "lon": 9.1929137
+    },
+    {
+      "type": "node",
+      "id": 566339316,
+      "version": 3,
+      "changeset": 149617472,
+      "timestamp": "2024-04-05T14:16:18Z",
+      "tags": {},
+      "lat": 45.4647869,
+      "lon": 9.192817
+    },
+    {
+      "type": "node",
+      "id": 13001958903,
+      "version": 1,
+      "changeset": 168967986,
+      "timestamp": "2025-07-15T14:17:38Z",
+      "tags": {},
+      "lat": 45.4647831,
+      "lon": 9.1926483
+    },
+    {
+      "type": "node",
+      "id": 9238996039,
+      "version": 2,
+      "changeset": 115055831,
+      "timestamp": "2021-12-17T12:52:45Z",
+      "tags": {},
+      "lat": 45.4647821,
+      "lon": 9.1925318
+    },
+    {
+      "type": "node",
+      "id": 9356475754,
+      "version": 1,
+      "changeset": 115225303,
+      "timestamp": "2021-12-21T20:41:05Z",
+      "tags": {},
+      "lat": 45.4647818,
+      "lon": 9.1925169
+    },
+    {
+      "type": "node",
+      "id": 566339231,
+      "version": 5,
+      "changeset": 149617472,
+      "timestamp": "2024-04-05T14:16:18Z",
+      "tags": {},
+      "lat": 45.4647786,
+      "lon": 9.1923623
+    },
+    {
+      "type": "node",
+      "id": 4587974847,
+      "version": 2,
+      "changeset": 175591804,
+      "timestamp": "2025-12-06T16:03:54Z",
+      "tags": {},
+      "lat": 45.4647794,
+      "lon": 9.1923034
+    },
+    {
+      "type": "node",
+      "id": 3479695675,
+      "version": 3,
+      "changeset": 173367462,
+      "timestamp": "2025-10-16T13:53:35Z",
+      "tags": {},
+      "lat": 45.4647778,
+      "lon": 9.1922183
+    },
+    {
+      "type": "node",
+      "id": 3479695676,
+      "version": 3,
+      "changeset": 173367462,
+      "timestamp": "2025-10-16T13:53:35Z",
+      "tags": {},
+      "lat": 45.4647808,
+      "lon": 9.191466
+    },
+    {
+      "type": "node",
+      "id": 4587974846,
+      "version": 2,
+      "changeset": 173367462,
+      "timestamp": "2025-10-16T13:53:35Z",
+      "tags": {},
+      "lat": 45.4647801,
+      "lon": 9.1913975
+    },
+    {
+      "type": "node",
+      "id": 4381971913,
+      "version": 2,
+      "changeset": 173367462,
+      "timestamp": "2025-10-16T13:53:35Z",
+      "tags": {},
+      "lat": 45.4647789,
+      "lon": 9.1913258
+    },
+    {
+      "type": "node",
+      "id": 9238996038,
+      "version": 3,
+      "changeset": 175636205,
+      "timestamp": "2025-12-07T18:59:55Z",
+      "tags": {},
+      "lat": 45.4647796,
+      "lon": 9.191096
+    },
+    {
+      "type": "node",
+      "id": 4381971533,
+      "version": 3,
+      "changeset": 173482142,
+      "timestamp": "2025-10-19T09:39:10Z",
+      "tags": {},
+      "lat": 45.4647755,
+      "lon": 9.1908304
+    },
+    {
+      "type": "node",
+      "id": 566336036,
+      "version": 3,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:54Z",
+      "tags": {},
+      "lat": 45.4647747,
+      "lon": 9.1907554
+    },
+    {
+      "type": "node",
+      "id": 951637193,
+      "version": 2,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:52Z",
+      "tags": {},
+      "lat": 45.4647738,
+      "lon": 9.1903894
+    },
+    {
+      "type": "node",
+      "id": 951637231,
+      "version": 2,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:53Z",
+      "tags": {},
+      "lat": 45.464789,
+      "lon": 9.1903884
+    },
+    {
+      "type": "node",
+      "id": 951637288,
+      "version": 2,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:54Z",
+      "tags": {},
+      "lat": 45.4647888,
+      "lon": 9.1902239
+    },
+    {
+      "type": "node",
+      "id": 951637127,
+      "version": 3,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {},
+      "lat": 45.4647531,
+      "lon": 9.1902238
+    },
+    {
+      "type": "node",
+      "id": 2498347969,
+      "version": 3,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {
+        "man_made": "surveillance"
+      },
+      "lat": 45.4647532,
+      "lon": 9.190178
+    },
+    {
+      "type": "node",
+      "id": 12304246873,
+      "version": 1,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {},
+      "lat": 45.4647534,
+      "lon": 9.1901466
+    },
+    {
+      "type": "node",
+      "id": 12304246868,
+      "version": 1,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {},
+      "lat": 45.4647529,
+      "lon": 9.1900735
+    },
+    {
+      "type": "node",
+      "id": 1538000168,
+      "version": 1,
+      "changeset": 10072185,
+      "timestamp": "2011-12-09T11:12:55Z",
+      "tags": {},
+      "lat": 45.4647525,
+      "lon": 9.1900262
+    },
+    {
+      "type": "node",
+      "id": 12304246871,
+      "version": 1,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {},
+      "lat": 45.4647533,
+      "lon": 9.1899561
+    },
+    {
+      "type": "node",
+      "id": 12304246875,
+      "version": 1,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {},
+      "lat": 45.4647542,
+      "lon": 9.1898771
+    },
+    {
+      "type": "node",
+      "id": 2498348214,
+      "version": 3,
+      "changeset": 158614787,
+      "timestamp": "2024-11-01T11:33:47Z",
+      "tags": {
+        "man_made": "surveillance"
+      },
+      "lat": 45.4647549,
+      "lon": 9.1898585
+    },
+    {
+      "type": "node",
+      "id": 951637132,
+      "version": 2,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:52Z",
+      "tags": {},
+      "lat": 45.464754,
+      "lon": 9.1897943
+    },
+    {
+      "type": "node",
+      "id": 951637180,
+      "version": 2,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:52Z",
+      "tags": {},
+      "lat": 45.4647918,
+      "lon": 9.1897927
+    },
+    {
+      "type": "node",
+      "id": 9353052137,
+      "version": 2,
+      "changeset": 115225303,
+      "timestamp": "2021-12-21T20:41:05Z",
+      "tags": {},
+      "lat": 45.4647916,
+      "lon": 9.1897766
+    },
+    {
+      "type": "node",
+      "id": 951637221,
+      "version": 2,
+      "changeset": 8068919,
+      "timestamp": "2011-05-06T21:12:53Z",
+      "tags": {},
+      "lat": 45.4647901,
+      "lon": 9.1896225
+    },
+    {
+      "type": "node",
+      "id": 951637264,
+      "version": 3,
+      "changeset": 173170225,
+      "timestamp": "2025-10-12T09:23:14Z",
+      "tags": {},
+      "lat": 45.4647834,
+      "lon": 9.1896067
+    },
+    {
+      "type": "node",
+      "id": 14135679049,
+      "version": 1,
+      "changeset": 188267688,
+      "timestamp": "2026-08-30T19:25:19Z",
+      "tags": {},
+      "lat": 45.4647867,
+      "lon": 9.1892508
+    },
+    {
+      "type": "node",
+      "id": 9356475751,
+      "version": 2,
+      "changeset": 173170225,
+      "timestamp": "2025-10-12T09:23:14Z",
+      "tags": {},
+      "lat": 45.4647852,
+      "lon": 9.1890432
+    },
+    {
+      "type": "node",
+      "id": 13001958924,
+      "version": 2,
+      "changeset": 173170225,
+      "timestamp": "2025-10-12T09:23:14Z",
+      "tags": {},
+      "lat": 45.4647862,
+      "lon": 9.1888752
+    },
+    {
+      "type": "node",
+      "id": 9356475752,
+      "version": 2,
+      "changeset": 173170225,
+      "timestamp": "2025-10-12T09:23:14Z",
+      "tags": {},
+      "lat": 45.4647857,
+      "lon": 9.1887818
+    },
+    {
+      "type": "node",
+      "id": 951637155,
+      "version": 5,
+      "changeset": 173170225,
+      "timestamp": "2025-10-12T09:23:14Z",
+      "tags": {},
+      "lat": 45.4647869,
+      "lon": 9.1886231
+    },
+    {
+      "type": "node",
+      "id": 9238996037,
+      "version": 1,
+      "changeset": 113582892,
+      "timestamp": "2021-11-09T20:34:28Z",
+      "tags": {},
+      "lat": 45.4647721,
+      "lon": 9.1886063
+    },
+    {
+      "type": "node",
+      "id": 419123693,
+      "version": 3,
+      "changeset": 21671138,
+      "timestamp": "2014-04-13T18:34:18Z",
+      "tags": {},
+      "lat": 45.4646992,
+      "lon": 9.188549
+    },
+    {
+      "type": "node",
+      "id": 5143801612,
+      "version": 4,
+      "changeset": 124351666,
+      "timestamp": "2022-08-01T15:22:01Z",
+      "tags": {},
+      "lat": 45.4646489,
+      "lon": 9.1884649
+    },
+    {
+      "type": "node",
+      "id": 4336642882,
+      "version": 1,
+      "changeset": 41254446,
+      "timestamp": "2016-08-05T08:17:31Z",
+      "tags": {},
+      "lat": 45.464628,
+      "lon": 9.1884299
+    },
+    {
+      "type": "node",
+      "id": 4381967547,
+      "version": 2,
+      "changeset": 149123402,
+      "timestamp": "2024-03-25T10:19:15Z",
+      "tags": {
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "17",
+        "addr:postcode": "20121",
+        "addr:street": "Piazza del Duomo"
+      },
+      "lat": 45.46454,
+      "lon": 9.1884282
+    },
+    {
+      "type": "node",
+      "id": 4336642887,
+      "version": 1,
+      "changeset": 41254446,
+      "timestamp": "2016-08-05T08:17:31Z",
+      "tags": {},
+      "lat": 45.4644576,
+      "lon": 9.1884282
+    },
+    {
+      "type": "node",
+      "id": 573362199,
+      "version": 4,
+      "changeset": 41254446,
+      "timestamp": "2016-08-05T08:17:34Z",
+      "tags": {},
+      "lat": 45.4641917,
+      "lon": 9.1884256
+    },
+    {
+      "type": "node",
+      "id": 4336642881,
+      "version": 1,
+      "changeset": 41254446,
+      "timestamp": "2016-08-05T08:17:31Z",
+      "tags": {},
+      "lat": 45.4639398,
+      "lon": 9.1884232
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "34203027": {
+        "pageid": 34203027,
+        "ns": 6,
+        "title": "File:Panorama Istanbul.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7140502,
+            "width": 6009,
+            "height": 1354,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Panorama_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34203027",
+            "sha1": "b5797017584deaef6a69cf042b1d1c5862e46461",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-07-25 20:52:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Panorama Istanbul",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views from the Galata Tower|Self-published work|Panoramics in Istanbul",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "41.025570",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "28.974280",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This panoramic view was taken from the Galata Tower in Istanbul",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-06-27 22:33:45",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tolga83\" title=\"User:Tolga83\">Tolga Tüfekçi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1113 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "destinationSubject": "place:Q1273",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:56:03.536Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T11:52:58.680Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T11:52:58.680Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.visittuscany.com/en/getting-here",
+          "checkedAt": "2026-10-14T11:56:03.536Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "FLR",
+          "cityLabel": {
+            "en": "Florence",
+            "sq": "Firence"
+          },
+          "airportCodes": [
+            "FLR"
+          ],
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ]
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "PSA",
+          "cityLabel": {
+            "en": "Pisa",
+            "sq": "Piza"
+          },
+          "airportCodes": [
+            "PSA"
+          ],
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ]
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q101625",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "RAK",
+        "airportCodes": [
+          "RAK"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q131347",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T14:41:59.555Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T14:36:22.152Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T14:36:22.183Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.gohawaii.com/trip-planning/planning-your-trip/post-arrival",
+          "checkedAt": "2026-10-14T14:41:59.555Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "HNL",
+          "cityLabel": {
+            "en": "Honolulu",
+            "sq": "Honolulu"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "airportCodes": [
+            "HNL"
+          ]
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q1486",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "BUE",
+        "airportCodes": [
+          "AEP",
+          "EZE"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q1489",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "MEX",
+        "airportCodes": [
+          "MEX",
+          "TLC",
+          "NLU"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q1490",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:56:03.536Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T11:52:58.680Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T11:52:58.680Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.gotokyo.org/en/plan/getting-to-tokyo/index.html",
+          "checkedAt": "2026-10-14T11:56:03.536Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "TYO",
+          "cityLabel": {
+            "en": "Tokyo",
+            "sq": "Tokio"
+          },
+          "airportCodes": [
+            "HND",
+            "NRT"
+          ],
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ]
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q180402",
+      "relationship": "external-gateway",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T11:56:03.536Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T11:52:58.680Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T11:52:58.680Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.nps.gov/yose/planyourvisit/airports.htm",
+          "checkedAt": "2026-10-14T11:56:03.536Z"
+        }
+      ],
+      "gateways": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "FAT",
+          "cityLabel": {
+            "en": "Fresno",
+            "sq": "Fresno"
+          },
+          "airportCode": "FAT",
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "unpriced"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q1861",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:54:31.358Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-city-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T21:47:38.474Z"
+        },
+        {
+          "id": "travelpayouts-airport-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T21:47:39.172Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "BKK",
+        "airportCodes": [
+          "BKK",
+          "DMK"
+        ],
+        "sourceIds": [
+          "travelpayouts-city-data-2026-10-13",
+          "travelpayouts-airport-data-2026-10-13"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q24451",
+      "relationship": "mixed-access",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T14:26:48.321Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-15T14:23:28.263Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-15T14:23:28.263Z"
+        },
+        {
+          "id": "official-air-access",
+          "url": "https://www.sanparks.org/parks/kruger/travel/how-to-get-there",
+          "checkedAt": "2026-10-15T14:26:48.321Z"
+        },
+        {
+          "id": "official-regions",
+          "url": "https://www.sanparks.org/parks/kruger/travel/distances-directions",
+          "checkedAt": "2026-10-15T14:26:48.321Z"
+        },
+        {
+          "id": "internal-airport",
+          "url": "https://www.sanparks.org/wp-content/uploads/2025/09/Information-Memorandum_-Skukuza-Airport-1.pdf",
+          "checkedAt": "2026-10-15T14:26:48.321Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "SZK",
+          "airportCodes": [
+            "SZK"
+          ],
+          "cityLabel": {
+            "en": "Skukuza",
+            "sq": "Skukuza"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-air-access",
+            "internal-airport"
+          ]
+        }
+      ],
+      "gateways": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "NLP",
+          "airportCode": "MQP",
+          "cityLabel": {
+            "en": "Mbombela / Nelspruit",
+            "sq": "Mbombela / Nelspruit"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-air-access",
+            "official-regions"
+          ],
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "unpriced"
+            }
+          }
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "HDS",
+          "airportCode": "HDS",
+          "cityLabel": {
+            "en": "Hoedspruit",
+            "sq": "Hoedspruit"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-air-access",
+            "official-regions"
+          ],
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "unpriced"
+            }
+          }
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "PHW",
+          "airportCode": "PHW",
+          "cityLabel": {
+            "en": "Phalaborwa",
+            "sq": "Phalaborwa"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-air-access",
+            "official-regions"
+          ],
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "unpriced"
+            }
+          }
+        }
+      ],
+      "restoration": {
+        "providerCityCodes": [
+          "SZK",
+          "NLP",
+          "HDS"
+        ],
+        "sourceIds": [
+          "internal-airport",
+          "official-regions"
+        ],
+        "rationale": "GoEksplo coverage policy: first the internal Skukuza arrival, then the southern external gateway Kruger Mpumalanga, then Hoedspruit, listed by SANParks for central and northern access. Phalaborwa remains a recognized northern alternative. This is a bounded geographic coverage choice, not an official airport ranking, popularity or fare claim. Any recognized selected arrival is restored first, then these defaults, deduplicated and capped at three groups."
+      }
+    },
+    {
+      "destinationSubject": "place:Q24639",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:54:31.358Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-city-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T21:47:38.474Z"
+        },
+        {
+          "id": "travelpayouts-airport-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T21:47:39.172Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "YVR",
+        "airportCodes": [
+          "YVR",
+          "CXH",
+          "YDT"
+        ],
+        "sourceIds": [
+          "travelpayouts-city-data-2026-10-13",
+          "travelpayouts-airport-data-2026-10-13"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q2656389",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T14:41:59.555Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T14:36:22.152Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T14:36:22.183Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://aml.mru.aero/index.php/contact-us",
+          "checkedAt": "2026-10-14T14:41:59.555Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "MRU",
+          "cityLabel": {
+            "en": "Mauritius",
+            "sq": "Mauritius"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "airportCodes": [
+            "MRU"
+          ]
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q3130",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "SYD",
+        "airportCodes": [
+          "WSI",
+          "SYD"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q334",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:54:31.358Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-city-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T21:47:38.474Z"
+        },
+        {
+          "id": "travelpayouts-airport-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T21:47:39.172Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "SIN",
+        "airportCodes": [
+          "SIN",
+          "XSP"
+        ],
+        "sourceIds": [
+          "travelpayouts-city-data-2026-10-13",
+          "travelpayouts-airport-data-2026-10-13"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q34600",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T15:02:14Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "kyoto-official-access",
+          "url": "https://kyoto.travel/en/getting-to/",
+          "checkedAt": "2026-10-13T15:02:14Z"
+        },
+        {
+          "id": "jr-west-kansai-access",
+          "url": "https://www.westjr.co.jp/global/en/travel/shopping/access/train.html",
+          "checkedAt": "2026-10-13T15:02:14Z"
+        }
+      ],
+      "gateways": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "OSA",
+          "cityLabel": {
+            "en": "Osaka area (airport unconfirmed)",
+            "sq": "Zona e Osakës (aeroporti i pakonfirmuar)"
+          },
+          "airportCode": "KIX",
+          "sourceIds": [
+            "kyoto-official-access",
+            "jr-west-kansai-access"
+          ],
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "observed",
+              "reviewStatus": "reviewed",
+              "reviewAfter": "2026-11-12T00:00:00Z",
+              "mode": "bus",
+              "basis": {
+                "en": "Regular airport bus to Kyoto Station Hachijo-guchi. Reserve the Kyoto-to-airport service.",
+                "sq": "Autobus i rregullt drejt stacionit Kyoto Hachijo-guchi. Rezervo shërbimin nga Kyoto drejt aeroportit."
+              },
+              "observation": {
+                "currencyCode": "JPY",
+                "minorAmount": 2800,
+                "minorUnits": 0,
+                "observedAt": "2026-10-13T15:53:03Z",
+                "source": {
+                  "id": "kate-kyoto-bus",
+                  "url": "https://www.kate.co.jp/en/timetable/detail/KY",
+                  "authority": "official-operator"
+                }
+              },
+              "unit": "adult-one-way",
+              "sameFareBothDirections": true,
+              "fxSnapshotId": "ecb-reference"
+            }
+          }
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "OSA",
+          "cityLabel": {
+            "en": "Osaka area (airport unconfirmed)",
+            "sq": "Zona e Osakës (aeroporti i pakonfirmuar)"
+          },
+          "airportCode": "ITM",
+          "sourceIds": [
+            "kyoto-official-access"
+          ],
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "observed",
+              "reviewStatus": "reviewed",
+              "reviewAfter": "2026-11-12T00:00:00Z",
+              "mode": "bus",
+              "basis": {
+                "en": "Regular airport bus to Kyoto Station Hachijo-guchi. First come, first served; no reservations.",
+                "sq": "Autobus i rregullt drejt stacionit Kyoto Hachijo-guchi. Hipja sipas radhës së mbërritjes; pa rezervim."
+              },
+              "observation": {
+                "currencyCode": "JPY",
+                "minorAmount": 1500,
+                "minorUnits": 0,
+                "observedAt": "2026-10-13T15:53:03Z",
+                "source": {
+                  "id": "hankyu-kyoto-bus",
+                  "url": "https://www.hankyu-kankobus.co.jp/limousine/timetable/K/",
+                  "authority": "official-operator"
+                }
+              },
+              "unit": "adult-one-way",
+              "sameFareBothDirections": true,
+              "fxSnapshotId": "ecb-reference"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q3593416",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T09:56:04.743Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-15T09:52:57.521Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-15T09:52:57.954Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.discovertasmania.com.au/planning/getting-here/",
+          "checkedAt": "2026-10-15T09:56:04.743Z"
+        },
+        {
+          "id": "island-identity",
+          "url": "https://www.wikidata.org/wiki/Q3593416",
+          "checkedAt": "2026-10-15T09:56:04.743Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "HBA",
+          "cityLabel": {
+            "en": "Hobart",
+            "sq": "Hobart"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access",
+            "island-identity"
+          ],
+          "airportCodes": [
+            "HBA"
+          ]
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "LST",
+          "cityLabel": {
+            "en": "Launceston",
+            "sq": "Launceston"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access",
+            "island-identity"
+          ],
+          "airportCodes": [
+            "LST"
+          ]
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "DPO",
+          "cityLabel": {
+            "en": "Devonport",
+            "sq": "Devonport"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access",
+            "island-identity"
+          ],
+          "airportCodes": [
+            "DPO"
+          ]
+        },
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "BWT",
+          "cityLabel": {
+            "en": "Burnie / Wynyard",
+            "sq": "Burnie / Wynyard"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access",
+            "island-identity"
+          ],
+          "airportCodes": [
+            "BWT"
+          ]
+        }
+      ],
+      "restoration": {
+        "providerCityCodes": [
+          "HBA",
+          "LST"
+        ],
+        "sourceIds": [
+          "official-access"
+        ],
+        "rationale": "Tourism Tasmania identifies Hobart and Launceston as the two biggest airports. Both are default restoration targets; the source gives no durable reason to prefer Devonport over Burnie or vice versa. A known selected entry is queried first, then this pair, within three targets. All four main-island entries remain recognized; this search policy does not rank fares."
+      }
+    },
+    {
+      "destinationSubject": "place:Q41858",
+      "relationship": "external-gateway",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T14:41:59.555Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T14:36:22.152Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T14:36:22.183Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://parks.canada.ca/pn-np/ab/banff/visit.aspx",
+          "checkedAt": "2026-10-14T14:41:59.555Z"
+        }
+      ],
+      "gateways": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "YYC",
+          "cityLabel": {
+            "en": "Calgary",
+            "sq": "Calgary"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "airportCode": "YYC",
+          "onwardTransfer": {
+            "required": true,
+            "pricing": {
+              "kind": "unpriced"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q4648",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T14:41:59.555Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T14:36:22.152Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T14:36:22.183Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/bali/denpasar",
+          "checkedAt": "2026-10-14T14:41:59.555Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "DPS",
+          "cityLabel": {
+            "en": "Denpasar",
+            "sq": "Denpasar"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "airportCodes": [
+            "DPS"
+          ]
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q5465",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "CPT",
+        "airportCodes": [
+          "CPT"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q60",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:00:30.627Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-city-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T20:56:39.815Z"
+        },
+        {
+          "id": "travelpayouts-airport-data-2026-10-13",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T20:56:41.198Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "NYC",
+        "airportCodes": [
+          "JFK",
+          "LGA",
+          "EWR"
+        ],
+        "sourceIds": [
+          "travelpayouts-city-data-2026-10-13",
+          "travelpayouts-airport-data-2026-10-13"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q612",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "DXB",
+        "airportCodes": [
+          "DWC",
+          "DXB"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q8678",
+      "relationship": "direct-city",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T23:00:22.794Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "travelpayouts-cities-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-13T22:53:33.686Z"
+        },
+        {
+          "id": "travelpayouts-airports-data-phase5e",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-13T22:53:34.334Z"
+        }
+      ],
+      "directCity": {
+        "provider": "travelpayouts",
+        "providerCityCode": "RIO",
+        "airportCodes": [
+          "SDU",
+          "GIG",
+          "RRJ"
+        ],
+        "sourceIds": [
+          "travelpayouts-cities-data-phase5e",
+          "travelpayouts-airports-data-phase5e"
+        ]
+      }
+    },
+    {
+      "destinationSubject": "place:Q40846",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T14:41:59.555Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T14:36:22.152Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T14:36:22.183Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.webtenerife.com/planea-viaje/viajar/aeropuertos/",
+          "checkedAt": "2026-10-14T14:41:59.555Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "TCI",
+          "cityLabel": {
+            "en": "Tenerife",
+            "sq": "Tenerife"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "airportCodes": [
+            "TFN",
+            "TFS"
+          ]
+        }
+      ]
+    },
+    {
+      "destinationSubject": "place:Q76516549",
+      "relationship": "direct-destination",
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T14:41:59.555Z",
+      "reviewAfter": "2027-01-10T00:00:00Z",
+      "reviewOwner": "GoEksplo travel-data maintenance",
+      "sources": [
+        {
+          "id": "provider-cities",
+          "url": "https://api.travelpayouts.com/data/en/cities.json",
+          "checkedAt": "2026-10-14T14:36:22.152Z"
+        },
+        {
+          "id": "provider-airports",
+          "url": "https://api.travelpayouts.com/data/en/airports.json",
+          "checkedAt": "2026-10-14T14:36:22.183Z"
+        },
+        {
+          "id": "official-access",
+          "url": "https://www.visitportugal.com/en/destinos/algarve/73803",
+          "checkedAt": "2026-10-14T14:41:59.555Z"
+        }
+      ],
+      "directEntries": [
+        {
+          "provider": "travelpayouts",
+          "providerCityCode": "FAO",
+          "cityLabel": {
+            "en": "Faro",
+            "sq": "Faro"
+          },
+          "sourceIds": [
+            "provider-cities",
+            "provider-airports",
+            "official-access"
+          ],
+          "airportCodes": [
+            "FAO"
+          ]
+        }
+      ]
+    }
+  ]
+}

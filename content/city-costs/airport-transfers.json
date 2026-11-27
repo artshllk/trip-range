@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "airport": "ATH",
+      "city": "ATH",
+      "route": "OASA airport express bus (X95 to Syntagma)",
+      "currency": "EUR",
+      "oneWayAdult": 550,
+      "effectiveFrom": "2026-11-24",
+      "reviewBy": "2027-03-31",
+      "source": {
+        "publisher": "OASA (Athens Urban Transport Organisation)",
+        "title": "Τιμολογιακή πολιτική – Εισιτήρια γραμμών αεροδρομίου",
+        "url": "https://www.oasa.gr/%CE%B5%CE%B9%CF%83%CE%B9%CF%84%CE%AE%CF%81%CE%B9%CE%B1/%CF%84%CE%B9%CE%BC%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%B1%CE%BA%CE%AE/",
+        "retrievedAt": "2026-11-24",
+        "quote": "ΛΕΩΦΟΡΙΑΚΕΣ ΓΡΑΜΜΕΣ EXPRESS Ολόκληρο: 5,50 €",
+        "language": "el"
+      }
+    },
+    {
+      "airport": "DUB",
+      "city": "DUB",
+      "route": "Dublin Bus (routes 16 or 41) to the city centre, cash fare paid to the driver",
+      "currency": "EUR",
+      "oneWayAdult": 260,
+      "effectiveFrom": "2026-11-24",
+      "reviewBy": "2027-03-31",
+      "source": {
+        "publisher": "Dublin Bus",
+        "title": "Dublin Airport hub",
+        "url": "https://www.dublinbus.ie/journey-information/dublin-airport-hub",
+        "retrievedAt": "2026-11-24",
+        "quote": "Standard cash fare of €2.60 can be paid to the driver on the bus.",
+        "language": "en"
+      }
+    },
+    {
+      "airport": "PRG",
+      "city": "PRG",
+      "route": "PID bus 59 to Nádraží Veleslavín, then metro line A (90-minute ticket from a ticket machine)",
+      "currency": "CZK",
+      "oneWayAdult": 5000,
+      "effectiveFrom": "2026-01-01",
+      "reviewBy": "2027-03-31",
+      "source": {
+        "publisher": "Pražská integrovaná doprava (PID)",
+        "title": "Travel to Airport and Stations",
+        "url": "https://pid.cz/en/travel-information/airport-and-stations/",
+        "retrievedAt": "2026-11-24",
+        "quote": "90-minute ticket: Paper: 50 Kč | App: 46 Kč | SMS: 55 Kč",
+        "language": "en"
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "sources": [
+    {
+      "id": "2024-01",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "January 2024",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2024/04/Hoga_1_2024_final_online.pdf",
+      "pdf_page_1_based": 30,
+      "source_sha256": "a36e69429e36926b987402de8f9e52ea14ee7e59e68d4e92827d10b1aa00b9ae",
+      "data_as_of": "2024-01-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-n1780648823",
+          "matched_property_name": "Grimm’s Hotel Berlin Mitte",
+          "stars": 3,
+          "subtype": "3 Superior garni"
+        },
+        {
+          "property_id": "berlin-w422928024",
+          "matched_property_name": "martas Hotel Allegra Berlin",
+          "stars": 3,
+          "subtype": "3 garni"
+        }
+      ]
+    },
+    {
+      "id": "2025-04",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "April 2025",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/03/Hoga_4_2025_final.pdf",
+      "pdf_page_1_based": 32,
+      "source_sha256": "f4726b1592917919fb00670a77b413809a14d482a988306079d82ca9431b9218",
+      "data_as_of": "2025-04-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-w188033979",
+          "matched_property_name": "martas Hotel Albrechtshof",
+          "stars": 3,
+          "subtype": "3 Superior"
+        }
+      ]
+    },
+    {
+      "id": "2025-06",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "June 2025",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/05/Hoga_6_2025%E2%80%93web1.pdf",
+      "pdf_page_1_based": 32,
+      "source_sha256": "a0f4c6439bd76444787b23789ad4a65f8f05c7c2a0b66fd562b3ed2b0b394225",
+      "data_as_of": "2025-06-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-n266593733",
+          "matched_property_name": "ibis Berlin Mitte",
+          "stars": 3,
+          "subtype": "3 garni"
+        },
+        {
+          "property_id": "berlin-w105210648",
+          "matched_property_name": "Hotel AMANO",
+          "stars": 3,
+          "subtype": "3 garni"
+        }
+      ]
+    },
+    {
+      "id": "2025-09",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "August–September 2025",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2025/09/Hoga_8-9_web.pdf",
+      "pdf_page_1_based": 32,
+      "source_sha256": "d1e7f035cae270da66ea0f9fcd7a36c600ffbb731c298174218864ea35c32444",
+      "data_as_of": "2025-08-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-n330257182",
+          "matched_property_name": "Hotel-Pension Kastanienhof",
+          "stars": 3,
+          "subtype": "3 Superior"
+        }
+      ]
+    },
+    {
+      "id": "2026-01",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "January 2026",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/01/Hoga_1_2026%E2%80%93web.pdf",
+      "pdf_page_1_based": 32,
+      "source_sha256": "f8cec721e2c1e7bb87a623c15bb87a59248e785c98336dad611d1f18bb88aaa9",
+      "data_as_of": "2026-01-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-n3937513964",
+          "matched_property_name": "ibis Styles Berlin Mitte",
+          "stars": 3,
+          "subtype": "3 garni"
+        },
+        {
+          "property_id": "berlin-n3655999636",
+          "matched_property_name": "Nikolai Residence",
+          "stars": 3,
+          "subtype": "3 Superior"
+        }
+      ]
+    },
+    {
+      "id": "2026-03",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "March 2026",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/03/Hoga_3_2026_web.pdf",
+      "pdf_page_1_based": 32,
+      "source_sha256": "efde511cf6ff2937ee2e47bc2b3bda4c71cc369d566f0469064facb0097dd8ac",
+      "data_as_of": "2026-03-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-n3780854972",
+          "matched_property_name": "Hotel Dietrich-Bonhoeffer-Haus",
+          "stars": 3,
+          "subtype": "3 garni"
+        }
+      ]
+    },
+    {
+      "id": "2026-04",
+      "publisher": "DEHOGA Berlin",
+      "publication": "hoga AKTIV",
+      "issue": "April 2026",
+      "source_url": "https://dehoga-berlin.de/wp-content/uploads/2026/04/Hoga_4_2026_final_Druckausgabe.pdf",
+      "pdf_page_1_based": 32,
+      "source_sha256": "0ad1a89a435a53fc1a62971287b1c8849cb7ddeb4b335d3d6168b1bd42ad9d87",
+      "data_as_of": "2026-04-01",
+      "date_precision": "issue_month_or_month_range",
+      "age_anchor_rule": "Conservative first day of earliest issue month. This is a dated classifier notice, not a known award day or certificate expiry. The URL upload month is not the evidence date.",
+      "checked_date": "2026-11-18",
+      "notice_heading": "Deutsche Hotelklassifizierung",
+      "visual_check": "Stars and property grouping inspected on rendered page",
+      "redistribution": "Source PDF, images and article text are not included; factual annotations and source references only.",
+      "classified_properties": [
+        {
+          "property_id": "berlin-n1134199097",
+          "matched_property_name": "Hotel 38",
+          "stars": 3,
+          "subtype": "3"
+        }
+      ]
+    }
+  ]
+}

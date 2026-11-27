@@ -1,0 +1,44 @@
+{
+  "destinationId": "vienna",
+  "contentVersion": 3,
+  "digest": "a87b6430d2f0a2b3ba7fa2618b6dd2d8a9a42eb8d813f0a44f31164f36b2a3af",
+  "reviewer": "GoEksplo Owner",
+  "reviewTimestamp": "2026-11-04T12:00:27.729Z",
+  "approvalTimestamp": "2026-11-04T12:00:27.745Z",
+  "warningsAcknowledged": [
+    {
+      "id": "phase2-source-review",
+      "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    },
+    {
+      "id": "presentation:bc37b776a18135a0750d",
+      "reason": "GoEksplo Owner explicitly approved the second menu revision on 4 November: itemised dishes, sourced prices, totals, check date and venue-only qualifier, with optional Dishoom service where applicable and 18 November deadline. Longer itemisation uses the existing disclosure; total, date and qualifier remain in its preview. Other accepted content, sources, identity and order are unchanged."
+    }
+  ],
+  "files": [
+    "content/destinations/vienna.json"
+  ],
+  "itemsBecomingReviewed": [
+    "destination",
+    "overview",
+    "attraction:vienna:stephansdom",
+    "attraction:vienna:schoenbrunn",
+    "attraction:vienna:belvedere",
+    "attraction:vienna:museumsquartier",
+    "attraction:vienna:naschmarkt",
+    "area:vienna:inner-city",
+    "area:vienna:neubau",
+    "area:vienna:leopoldstadt",
+    "transport:vienna:airport-mainline",
+    "transport:vienna:airport-works",
+    "note:vienna:booking",
+    "note:phase4b:vienna:transport:1",
+    "note:phase4b:vienna:transport:2",
+    "note:phase4b:vienna:examples:1",
+    "day:vienna:2-nights",
+    "day:vienna:3-nights"
+  ],
+  "dryRun": true,
+  "writes": 0,
+  "externalCalls": 0
+}

@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-23T16:28:16Z",
+  "scope": "public editorial sources only; no provider API calls",
+  "checks": [
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:asakusa",
+      "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 502; indexed page updated 4 February 2026, crawled two months earlier",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:meiji",
+      "url": "https://www.gotokyo.org/en/spot/76/index.html",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 502; indexed page updated 16 October 2025, crawled two months earlier",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:yoyogi",
+      "url": "https://www.sangyo-rodo1.metro.tokyo.lg.jp/tourism/accessible/en/course16_08.html",
+      "publisher": "Tokyo Metropolitan Government",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 403; accessibility information describes January 2026 conditions, not a current accessibility guarantee",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:skytree",
+      "url": "https://www.tokyo-skytree.jp/",
+      "publisher": "Tobu Tower Skytree",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "official visitor/ticket site; no ticket price or hours copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:river",
+      "url": "https://www.gotokyo.org/book/wp-content/uploads/2026/04/AO_2604_sumidariverwalk_low_EN.pdf",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-PDF",
+      "limitations": "official April 2026 map; used for geography only",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:airports",
+      "url": "https://www.gotokyo.org/en/plan/getting-to-tokyo/",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 502; indexed page updated 1 September 2026, crawled last month",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:shinjuku",
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 502; indexed page updated 19 December 2025",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "tokyo",
+      "id": "source:expansion01:tokyo:riverwalk",
+      "url": "https://www.gotokyo.org/en/spot/1795/index.html",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 502; indexed page updated 27 November 2025; no hours copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:kiyomizu",
+      "url": "https://www.kiyomizudera.or.jp/en/learn/",
+      "publisher": "Kiyomizu-dera Temple",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "temple hillside setting/main hall; no admission price or hours copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:area",
+      "url": "https://kyoto.travel/en/areas/gion-kiyomizu/",
+      "publisher": "Kyoto City Tourism Association",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "Gion, Kiyomizu and Hokan-ji identities/area geography",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:walk",
+      "url": "https://kyoto.travel/en/itineraries/higashiyama-at-dawn/",
+      "publisher": "Kyoto City Tourism Association",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "temple/sloping-street/pagoda/shrine sequence; no copied walking times",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:shrine",
+      "url": "https://www.japan.travel/en/spot/78/",
+      "publisher": "Japan National Tourism Organization",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "Yasaka-jinja and nearby Maruyama Park",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:manners",
+      "url": "https://kyoto.travel/en/responsible-travel/gion-manner-message-from-southern-gionmachi/",
+      "publisher": "Kyoto City Tourism Association / Southern Gionmachi",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "dated 9 January 2024; respect private areas and people; no legal penalties copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:getting",
+      "url": "https://kyoto.travel/en/getting-to",
+      "publisher": "Kyoto City Tourism Association",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "KIX Haruka/bus and ITM bus/monorail; no fares or durations copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:around",
+      "url": "https://kyoto.travel/en/getting-around/",
+      "publisher": "Kyoto City Tourism Association",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "rail/bus modes, station/route-planning guidance; no universal pass coverage assumed",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "kyoto",
+      "id": "source:expansion01:kyoto:inari",
+      "url": "https://www.japan.travel/en/spot/1128/",
+      "publisher": "Japan National Tourism Organization",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "southern Kyoto; JR Inari/Keihan approaches, torii paths",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "bangkok",
+      "id": "source:expansion01:bangkok:city",
+      "url": "https://www.tourismthailand.org/Destinations/Provinces/Bangkok/219",
+      "publisher": "Tourism Authority of Thailand",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "TAT identities; no popularity claims copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "bangkok",
+      "id": "source:expansion01:bangkok:palace",
+      "url": "https://www.royalgrandpalace.th/en/visit/practical-information",
+      "publisher": "Bureau of the Royal Household",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "entry planning/dress code/compound location; source has obvious template contamination about Trianon, which is NOT used",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "bangkok",
+      "id": "source:expansion01:bangkok:mrt",
+      "url": "https://www.tatnews.org/2024/06/exploring-bangkoks-old-city-and-yaowarat-is-super-easy-with-mrt-blue-line/",
+      "publisher": "TAT Newsroom",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "TAT article dated 28 June 2024; used for geography only",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "bangkok",
+      "id": "source:expansion01:bangkok:bkk-current",
+      "url": "https://suvarnabhumi.airportthai.co.th/service/airport-guide?lang=th",
+      "publisher": "Airports of Thailand",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "navigation-shell-only",
+      "limitations": "page body contains airport navigation links; not independent proof of rail details",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "bangkok",
+      "id": "source:expansion01:bangkok:map",
+      "url": "https://www.bts.co.th/btsroutes/btsroutes.pdf",
+      "publisher": "BTS",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-PDF",
+      "limitations": "network geography; does not prove current service operation",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "bangkok",
+      "id": "source:expansion01:bangkok:dmk-operator",
+      "url": "https://donmueang.airportthai.co.th/explore/attration/detail/884",
+      "publisher": "Airports of Thailand",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct request timed out; airport article dated 7 July 2022; mode choices only, no current taxi/rail/bus availability asserted",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "marrakesh",
+      "id": "source:expansion01:marrakesh:medina",
+      "url": "https://www.visitmorocco.com/en/travel/marrakech/medina",
+      "publisher": "Moroccan National Tourist Office",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 403; indexed six days earlier; square/minaret/Menara identity",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "marrakesh",
+      "id": "source:expansion01:marrakesh:city",
+      "url": "https://www.visitmorocco.com/en/travel/marrakesh",
+      "publisher": "Moroccan National Tourist Office",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 403; English page indexed six days earlier; base districts/riad context, not costs or safety ratings",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "marrakesh",
+      "id": "source:expansion01:marrakesh:garden",
+      "url": "https://www.jardinmajorelle.com/",
+      "publisher": "Fondation Jardin Majorelle",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-page",
+      "limitations": "current online-only ticket notice; no availability, prices or hours copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "marrakesh",
+      "id": "source:expansion01:marrakesh:airport",
+      "url": "https://www.onda.ma/en/Our-Airports/Marrakech-M%C3%A9nara-Airport/Services/Taxi-Bus",
+      "publisher": "ONDA",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "indexed-primary-text",
+      "limitations": "direct 403; indexed last month; general taxi/bus options and posted fares; no service frequency copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    },
+    {
+      "destination": "marrakesh",
+      "id": "source:expansion01:marrakesh:garden-history",
+      "url": "https://www.jardinmajorelle.com/wp-content/uploads/2022/12/Depliant-jm-en_web.pdf",
+      "publisher": "Fondation Jardin Majorelle",
+      "checkedAt": "2026-10-23T16:28:16Z",
+      "method": "readable-primary-PDF",
+      "limitations": "historical operator leaflet used for garden history only; its hours differ from the current home page and are NOT copied",
+      "sourcePublicationDateInferred": false,
+      "liveServiceStatusVerified": false
+    }
+  ],
+  "removedReferences": [
+    {
+      "destination": "kyoto",
+      "reason": "old KIX FAQ returned navigation shell; official getting-to page supplies evidence"
+    },
+    {
+      "destination": "bangkok",
+      "reason": "dated September disruption notice, inaccessible Wat Pho page and timed-out government BKK route page are excluded from candidate claims"
+    },
+    {
+      "destination": "marrakesh",
+      "reason": "2023 taxi-ordering process is not presented as current; generic ONDA guidance retained"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+name: Fare warm
+run-name: >-
+  ${{ github.event_name == 'workflow_dispatch' && format('Fare warm · {0} (dispatch)', inputs.mode)
+  || (github.event.schedule == '47 * * * *' && 'Fare warm · catch-up (cron fallback)'
+  || 'Fare warm · sweep (cron fallback)') }}
+# Primary trigger: Upstash QStash schedules call the workflow_dispatch API
+# (scripts/qstash-schedules.mjs): sweeps at 04:17 and 16:17 UTC (mode=sweep) and an
+# hourly catch-up at :47 (mode=catch-up). GitHub's own cron below is only a fallback;
+# it delivered 1-7 of 28 daily triggers in November 2026, often hours late. Both may
+# fire: runs queue in one concurrency group, and a sweep skips any month that
+# succeeded within 10 hours, so a duplicate makes no provider calls. Catch-up collects
+# a month only after 14 hours (refreshHours 12 + graceHours 2) without a success.
+on:
+  schedule:
+    - cron: "17 4,16 * * *"
+    - cron: "47 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "sweep: skip months fresh within 10 h · catch-up: only months stale for 14 h · force: collect everything"
+        type: choice
+        options: [force, sweep, catch-up]
+        default: force
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: fare-warm
+  cancel-in-progress: false
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    # Origins share one global 300 ms dispatch pacer: four origins (~2,400 calls)
+    # take about 17 minutes.
+    timeout-minutes: 50
+    env:
+      TRAVELPAYOUTS_API_TOKEN: ${{ secrets.TRAVELPAYOUTS_API_TOKEN }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      RATE_LIMIT_REDIS_REST_URL: ${{ secrets.RATE_LIMIT_REDIS_REST_URL }}
+      RATE_LIMIT_REDIS_REST_TOKEN: ${{ secrets.RATE_LIMIT_REDIS_REST_TOKEN }}
+      GOEKSPLO_LOG_LEVEL: warn
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - id: warm
+        env:
+          COLLECTION_SCHEDULE: ${{ github.event.schedule }}
+          MODE: >-
+            ${{ github.event_name == 'workflow_dispatch' && inputs.mode
+            || (github.event.schedule == '47 * * * *' && 'catch-up' || 'sweep') }}
+        run: |
+          set +e
+          echo "mode=$MODE"
+          npm run -s warm:fares -- --mode "$MODE" > warm.txt 2>&1
+          code=$?
+          cat warm.txt
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Open or update the alert issue
+        if: steps.warm.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Fare warm job failing"
+          # Status lines only: issue text is not secret-masked like logs are.
+          # Failing origins first, so a single failure among seven is not cut off.
+          status=$( { grep -E '^fare-warm:' warm.txt; grep -E '"status":"(failed|aborted)"' warm.txt | cut -c1-300; grep -E '"expectedWrites"|"recordedFetches"|"providerOk"' warm.txt; } | head -20)
+          body=$(printf 'The fare warm run failed; fares were not (fully) collected.\n\n```\n%s\n```\n\nFull log: %s/%s/actions/runs/%s' "$status" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+          number=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
+      - name: Fail the run so GitHub emails
+        if: steps.warm.outputs.code != '0'
+        run: exit 1

@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "method": "Manual web research; counts are search queries, page opens, link follows and find operations, not underlying HTTP request counts.",
+  "throttling": [],
+  "limitations": [
+    "Some page opens returned cache misses or an internal error; alternative official evidence used.",
+    "One Parks Canada page open timed out; no repeated automated retry.",
+    "No application ingestion APIs, media research, OSM, or product AI used."
+  ],
+  "actions": [
+    {
+      "group": "A",
+      "kind": "open",
+      "count": 5
+    },
+    {
+      "group": "A",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "A",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "A",
+      "kind": "search",
+      "count": 2
+    },
+    {
+      "group": "A",
+      "kind": "open",
+      "count": 4
+    },
+    {
+      "group": "A",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "A",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "A",
+      "kind": "find",
+      "count": 4
+    },
+    {
+      "group": "A",
+      "kind": "search",
+      "count": 3
+    },
+    {
+      "group": "A",
+      "kind": "find",
+      "count": 2
+    },
+    {
+      "group": "A",
+      "kind": "open",
+      "count": 1
+    },
+    {
+      "group": "A",
+      "kind": "click",
+      "count": 2
+    },
+    {
+      "group": "A",
+      "kind": "find",
+      "count": 2
+    },
+    {
+      "group": "A",
+      "kind": "search",
+      "count": 3
+    },
+    {
+      "group": "B",
+      "kind": "open",
+      "count": 5
+    },
+    {
+      "group": "B",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "B",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "B",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "B",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "B",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "B",
+      "kind": "open",
+      "count": 1
+    },
+    {
+      "group": "B",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "B",
+      "kind": "find",
+      "count": 2
+    },
+    {
+      "group": "B",
+      "kind": "open",
+      "count": 3
+    },
+    {
+      "group": "C",
+      "kind": "open",
+      "count": 5
+    },
+    {
+      "group": "C",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "C",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "C",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "C",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "C",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "C",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "D",
+      "kind": "open",
+      "count": 1
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "open",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 1
+    },
+    {
+      "group": "D",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "D",
+      "kind": "click",
+      "count": 1
+    },
+    {
+      "group": "D",
+      "kind": "find",
+      "count": 3
+    },
+    {
+      "group": "D",
+      "kind": "find",
+      "count": 2
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 3
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "D",
+      "kind": "search",
+      "count": 3
+    },
+    {
+      "group": "D",
+      "kind": "open",
+      "count": 1
+    },
+    {
+      "group": "E",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "E",
+      "kind": "open",
+      "count": 5
+    },
+    {
+      "group": "E",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "E",
+      "kind": "find",
+      "count": 4
+    },
+    {
+      "group": "E",
+      "kind": "open",
+      "count": 1
+    },
+    {
+      "group": "E",
+      "kind": "search",
+      "count": 2
+    },
+    {
+      "group": "E",
+      "kind": "open",
+      "count": 4
+    },
+    {
+      "group": "E",
+      "kind": "click",
+      "count": 1
+    },
+    {
+      "group": "E",
+      "kind": "search",
+      "count": 3
+    },
+    {
+      "group": "E",
+      "kind": "find",
+      "count": 4
+    },
+    {
+      "group": "E",
+      "kind": "open",
+      "count": 3
+    },
+    {
+      "group": "E",
+      "kind": "search",
+      "count": 3
+    },
+    {
+      "group": "E",
+      "kind": "open",
+      "count": 5
+    },
+    {
+      "group": "E",
+      "kind": "click",
+      "count": 4
+    },
+    {
+      "group": "E",
+      "kind": "open",
+      "count": 3
+    },
+    {
+      "group": "E",
+      "kind": "find",
+      "count": 5
+    },
+    {
+      "group": "F",
+      "kind": "search",
+      "count": 4
+    },
+    {
+      "group": "F",
+      "kind": "search",
+      "count": 2
+    },
+    {
+      "group": "F",
+      "kind": "open",
+      "count": 1
+    },
+    {
+      "group": "F",
+      "kind": "search",
+      "count": 2
+    },
+    {
+      "group": "F",
+      "kind": "open",
+      "count": 3
+    },
+    {
+      "group": "F",
+      "kind": "open",
+      "count": 2
+    },
+    {
+      "group": "F",
+      "kind": "find",
+      "count": 1
+    },
+    {
+      "group": "F",
+      "kind": "click",
+      "count": 1
+    }
+  ]
+}

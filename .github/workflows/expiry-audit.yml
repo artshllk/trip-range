@@ -1,0 +1,142 @@
+name: Fail-closed audit
+# Advance FX alert (48 h before each currency cutoff) and same-day alert when a dated input (destination access, transfer pricing,
+# destination content, cost profiles) passes its date and production starts failing
+# closed. Failing closed is right; failing closed silently is not (2026-10-28).
+# Published guide deadlines warn seven days ahead with affected itinerary names.
+# Alert channel: this run fails (GitHub emails) and an issue is opened or updated.
+# Also checks fare collection coverage: a scheduled run that never starts alerts no one.
+# Storage review trigger: usage above 600 MiB, or 60% of the enforced Neon cluster limit if lower.
+# Primary trigger: an Upstash QStash schedule calls workflow_dispatch at 08:37 UTC
+# (scripts/qstash-schedules.mjs); the cron below is a fallback. 08:37 UTC is after the
+# 09:00 Europe/Belgrade coverage cutoff in winter (08:00 UTC) and summer (07:00 UTC):
+# the coverage step measures today's cutoff and fails if it has not happened yet.
+on:
+  schedule:
+    # A Friday TRY rate warns on Sunday, leaving another daily audit opportunity
+    # if that run is dropped.
+    - cron: "37 8 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+  actions: read
+# A duplicate (QStash plus fallback cron) waits for the first and at most repeats a
+# comment on an already-open issue.
+concurrency:
+  group: expiry-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - id: storage
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          set +e
+          npm run -s check:storage > storage.txt 2>&1
+          code=$?
+          cat storage.txt
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - id: audit
+        run: |
+          set +e
+          npm run -s check:expiry -- --days 14 > audit.txt 2>&1
+          code=$?
+          cat audit.txt
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Open or update the alert issue
+        if: always() && steps.audit.outputs.code != '' && steps.audit.outputs.code != '0' && steps.audit.outputs.code != '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Fail-closed audit: expired inputs or FX nearing expiry"
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from 'node:fs';
+          const run = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
+          writeFileSync('audit-body.md', [
+            'The audit found expired inputs, an unusable FX snapshot, or an FX currency within 48 hours of its cutoff.',
+            'FX rows identify the currency, ECB source date, applied window, exact cutoff and remaining hours. A green or missing refresh run does not override rate age.',
+            'For FX: run the Refresh FX workflow (fx-refresh.yml) on main, then rerun this audit. Investigate feed/publish failures; do not extend the validity window. Other expired content requires source re-verification, not a date-only renewal.',
+            '```', readFileSync('audit.txt', 'utf8'), '```', `Run: ${run}`,
+          ].join('\n\n'));
+          NODE
+          number=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file audit-body.md
+          else
+            gh issue create --title "$title" --body-file audit-body.md
+          fi
+      - id: cadence
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          set +e
+          npm run -s check:warm-coverage > cadence.txt 2>&1
+          code=$?
+          cat cadence.txt
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      # Alert on reduced refresh health or fewer than three fresh two-night destinations.
+      - name: Open or update the coverage issue
+        if: steps.cadence.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Fare collection falling behind"
+          body=$(printf 'Fare collection is not keeping up:\n\n```\n%s\n```\n\nRun: %s/%s/actions/runs/%s' "$(grep -E '::warning::|coverage check failed|"(status|coveredIn48h|runsLast24h)"' cadence.txt)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+          number=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
+      - name: Open or update the storage issue
+        if: ${{ !cancelled() && steps.storage.outputs.code != '' && steps.storage.outputs.code != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Database storage needs attention"
+          # Whitelist the monitor's safe summary; never copy driver errors/secrets.
+          status=$(grep -E '^storage:|^storage check failed:' storage.txt || true)
+          printf 'Storage exceeded the 600 MiB review trigger (or 60%% of the limit, if lower), or the check could not verify usage and the limit.\n\n%s\n\nExpected four-origin steady state is about 430 MB (about 530 MB early in a month); check that fare clean-up is running and whether origins or cadence changed. No automatic retention, cadence or plan changes.\n\nRun: %s/%s/actions/runs/%s\n' "$status" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" > storage-body.md
+          number=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file storage-body.md
+          else
+            gh issue create --title "$title" --body-file storage-body.md
+          fi
+      - name: Notify the owner about guide content expiring within seven days
+        if: always() && !cancelled() && steps.audit.outputs.code != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Destination guides expiring within seven days"
+          issue=$(gh issue list --state open --search "$title in:title" --json number,title,body --jq 'map(select(.title == "Destination guides expiring within seven days")) | first // {}')
+          number=$(jq -r '.number // empty' <<< "$issue")
+          # An incomplete audit must never clear an existing warning.
+          if ! grep -q '"guideAlerts":' audit.txt; then exit 1; fi
+          sed -n 's/^::warning::Guide expiry: /- /p' audit.txt > guide-alerts.md
+          if [ -s guide-alerts.md ]; then
+            if [ -z "$number" ]; then
+              gh issue create --title "$title" --body-file guide-alerts.md --assignee "$GITHUB_REPOSITORY_OWNER"
+            elif [ "$(jq -r '.body' <<< "$issue")" != "$(cat guide-alerts.md)" ]; then
+              gh issue edit "$number" --body-file guide-alerts.md
+              gh issue comment "$number" --body "The published items approaching expiry have changed. See the updated list above."
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment "The daily audit found no published guide items due within seven days."
+          fi
+      - name: Fail the run so GitHub emails
+        if: steps.audit.outputs.code != '0' || steps.cadence.outputs.code != '0' || steps.storage.outputs.code != '0'
+        run: exit 1

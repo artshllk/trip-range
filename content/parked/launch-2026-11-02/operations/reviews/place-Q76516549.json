@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q76516549",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+    "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+    "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Algarve v2 regional identity, authoritative tourism and transport sources, EN/SQ copy, focused regional coast, lagoon, eastern-town and headland selection, Faro base framing, regional journey guidance and freshness ownership were reviewed and accepted for publication. The content does not imply Faro is adjacent to every stop or guarantee boat timetables, swimming conditions, universal station access or fixed rail schedules."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T08:56:37.300Z",
+    "reviewedAt": "2026-10-15T08:56:37.300Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:31.165Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:32.054Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:32.054Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:32.939Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:32.939Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:33.823Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:33.823Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:34.720Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:34.720Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:35.576Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:35.576Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:36.433Z",
+      "reason": "Advisory evidence-review: Algarve v2 regional identity, authoritative tourism and transport sources, EN/SQ copy, focused regional coast, lagoon, eastern-town and headland selection, Faro base framing, regional journey guidance and freshness ownership were reviewed and accepted for publication. The content does not imply Faro is adjacent to every stop or guarantee boat timetables, swimming conditions, universal station access or fixed rail schedules."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c678b1653d427b83ea3310272621b67b96eee60ce3989d09dc73d2fe6518f92f",
+        "identityDigest": "81b4930e8e2a8ff931975fd4ec51261aa4ae94d52d5f939042b61623d3251ccf",
+        "evidenceDigest": "3fbc8dee8a062e0ca4499f6dddaf91514cfa9e4debce9d1c0db1b7b5cf7b033d",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Algarve v2 regional identity, authoritative tourism and transport sources, EN/SQ copy, focused regional coast, lagoon, eastern-town and headland selection, Faro base framing, regional journey guidance and freshness ownership were reviewed and accepted for publication. The content does not imply Faro is adjacent to every stop or guarantee boat timetables, swimming conditions, universal station access or fixed rail schedules."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:36.433Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:37.300Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

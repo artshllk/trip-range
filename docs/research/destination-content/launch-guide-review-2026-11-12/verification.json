@@ -1,0 +1,139 @@
+{
+  "scope": "Current main against each old expiry boundary; reviewed launch projection is in memory only. No approval receipt or review was written.",
+  "verification": [
+    {
+      "city": "vienna",
+      "oldExpiryBehaviour": [
+        {
+          "at": "2026-11-18T00:00:00Z",
+          "itemsLost": [
+            "note:phase4b:vienna:examples:1"
+          ],
+          "displayedDayBefore": "day:vienna:2-nights",
+          "displayedDayAfter": "day:vienna:2-nights"
+        },
+        {
+          "at": "2026-11-19T00:00:00Z",
+          "itemsLost": [
+            "transport:vienna:airport-works"
+          ],
+          "displayedDayBefore": "day:vienna:2-nights",
+          "displayedDayAfter": "day:vienna:2-nights"
+        },
+        {
+          "at": "2026-11-21T00:00:00Z",
+          "itemsLost": [
+            "note:phase4b:vienna:transport:1",
+            "note:phase4b:vienna:transport:2"
+          ],
+          "displayedDayBefore": "day:vienna:2-nights",
+          "displayedDayAfter": "day:vienna:2-nights"
+        }
+      ],
+      "structuralBlockers": [],
+      "launchSimulation": {
+        "at": "2026-11-19T12:00:00Z",
+        "allCurrentEditorialItemsRetained": true,
+        "displayedDay": "day:vienna:2-nights"
+      }
+    },
+    {
+      "city": "london",
+      "oldExpiryBehaviour": [
+        {
+          "at": "2026-11-18T00:00:00Z",
+          "itemsLost": [
+            "note:phase4b:london:examples:1",
+            "note:phase4b:london:examples:2"
+          ],
+          "displayedDayBefore": "day:london:2-nights",
+          "displayedDayAfter": "day:london:2-nights"
+        },
+        {
+          "at": "2026-11-21T00:00:00Z",
+          "itemsLost": [
+            "note:phase4b:london:transport:1",
+            "note:phase4b:london:transport:2"
+          ],
+          "displayedDayBefore": "day:london:2-nights",
+          "displayedDayAfter": "day:london:2-nights"
+        }
+      ],
+      "structuralBlockers": [],
+      "launchSimulation": {
+        "at": "2026-11-19T12:00:00Z",
+        "allCurrentEditorialItemsRetained": true,
+        "displayedDay": "day:london:2-nights"
+      }
+    },
+    {
+      "city": "paris",
+      "oldExpiryBehaviour": [
+        {
+          "at": "2026-11-18T00:00:00Z",
+          "itemsLost": [
+            "note:phase4b:paris:examples:1",
+            "note:phase4b:paris:examples:2"
+          ],
+          "displayedDayBefore": null,
+          "displayedDayAfter": null
+        },
+        {
+          "at": "2026-11-21T00:00:00Z",
+          "itemsLost": [
+            "note:phase4b:paris:transport:1"
+          ],
+          "displayedDayBefore": null,
+          "displayedDayAfter": null
+        }
+      ],
+      "structuralBlockers": [],
+      "launchSimulation": {
+        "at": "2026-11-19T12:00:00Z",
+        "allCurrentEditorialItemsRetained": true,
+        "displayedDay": null
+      }
+    },
+    {
+      "city": "istanbul",
+      "oldExpiryBehaviour": [
+        {
+          "at": "2026-11-18T00:00:00Z",
+          "itemsLost": [
+            "note:istanbul:batch1-palace-day"
+          ],
+          "displayedDayBefore": "template:istanbul:expansion01-2-nights",
+          "displayedDayAfter": "template:istanbul:expansion01-2-nights"
+        }
+      ],
+      "structuralBlockers": [],
+      "launchSimulation": {
+        "at": "2026-11-19T12:00:00Z",
+        "allCurrentEditorialItemsRetained": true,
+        "displayedDay": "template:istanbul:expansion01-2-nights"
+      }
+    },
+    {
+      "city": "barcelona",
+      "oldExpiryBehaviour": [
+        {
+          "at": "2026-11-18T00:00:00Z",
+          "itemsLost": [
+            "attraction:city:BCN:park-guell",
+            "note:city:BCN:batch1-museum-days",
+            "template:city:BCN:expansion01-2-nights",
+            "template:city:BCN:expansion01-3-nights"
+          ],
+          "displayedDayBefore": "template:city:BCN:expansion01-2-nights",
+          "displayedDayAfter": null
+        }
+      ],
+      "structuralBlockers": [],
+      "launchSimulation": {
+        "at": "2026-11-19T12:00:00Z",
+        "allCurrentEditorialItemsRetained": true,
+        "displayedDay": "template:city:BCN:expansion01-2-nights"
+      }
+    }
+  ]
+}

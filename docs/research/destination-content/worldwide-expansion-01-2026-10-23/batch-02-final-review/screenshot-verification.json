@@ -1,0 +1,65 @@
+{
+  "scope": "local review artifacts; captures before offscreen Read more navigation",
+  "checks": [
+    {
+      "slug": "tokyo",
+      "width": 1440,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "tokyo",
+      "width": 390,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "tokyo",
+      "width": 320,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "kyoto",
+      "width": 1440,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "kyoto",
+      "width": 390,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "kyoto",
+      "width": 320,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "bangkok",
+      "width": 1440,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "bangkok",
+      "width": 390,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "bangkok",
+      "width": 320,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "marrakesh",
+      "width": 1440,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "marrakesh",
+      "width": 390,
+      "status": "captured-with-hero-in-viewport"
+    },
+    {
+      "slug": "marrakesh",
+      "width": 320,
+      "status": "captured-with-hero-in-viewport"
+    }
+  ]
+}

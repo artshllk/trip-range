@@ -1,0 +1,20 @@
+{
+  "subject": "crete",
+  "name": "Crete",
+  "countryCode": "GR",
+  "placeKind": "island",
+  "coordinates": {
+    "latitude": 35.3097222222,
+    "longitude": 24.8933333333
+  },
+  "iataCodes": ["HER", "CHQ"],
+  "external": {
+    "authority": "wikidata",
+    "id": "Q34374"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T00:00:00Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

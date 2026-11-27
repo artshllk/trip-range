@@ -1,0 +1,529 @@
+{
+  "city": "Basel",
+  "country_code": "CH",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "BSL",
+      "public_option_name": "BVB bus 50 from the Swiss-sector forecourt to Basel SBB; ordinary three-zone ticket",
+      "public_price": {
+        "value": 6.6,
+        "currency": "CHF",
+        "unit": "per full-fare adult second-class three-zone single",
+        "status": "confirmed",
+        "source_name": "TNW — single tickets",
+        "source_url": "https://www.tnw.ch/tickets-preise/billette/einzelbillette",
+        "checked_date": "2026-11-02",
+        "note": "The price is published directly for three zones, not calculated. Airport route/three-zone requirement: https://www.basel.com/en/attractions/flughafen-basel-euroairport-98cc2db20e. A qualifying Basel hotel/Airbnb booking confirmation gives the initial transfer at no additional charge under https://www.basel.com/en/baselcard; that conditional entitlement must be established per booking. This is the ordinary paid option for passengers without that entitlement."
+      },
+      "journey_legs": [
+        {
+          "origin": "EuroAirport Swiss-sector arrivals forecourt",
+          "destination": "Basel SBB railway station",
+          "mode": "BVB bus 50",
+          "duration_minutes": {
+            "value": 20,
+            "currency": null,
+            "unit": "approximate published bus-leg minutes",
+            "status": "confirmed",
+            "source_name": "EuroAirport",
+            "source_url": "https://www.euroairport.com/en/transport",
+            "checked_date": "2026-11-02",
+            "note": "Airport-published approximate bus time; walking from another terminal sector, waiting and travel beyond SBB excluded. BSL and MLH refer to the same physical airport."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "CHF",
+        "unit": "per vehicle fixed airport–Basel centre fare",
+        "status": "unconfirmed",
+        "source_name": "EuroAirport",
+        "source_url": "https://www.euroairport.com/en/transport",
+        "checked_date": "2026-11-02",
+        "note": "The airport lists an approximate Basel taxi cost and fixed tariffs for other destinations; the latter do not establish a Basel fixed fare."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Basel-Stadt maximum tariff — tariff 1",
+          "applicability": "Basel-licensed metered taxis, weekdays 06:00–20:00 within the canton; legal ceiling rather than guaranteed operator price.",
+          "base_fare": {
+            "value": 6.5,
+            "currency": "CHF",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band."
+          },
+          "per_km": {
+            "value": 4,
+            "currency": "CHF",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 74,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        },
+        {
+          "name": "Basel-Stadt maximum tariff — tariff 2",
+          "applicability": "Basel-licensed metered taxis at night, Sundays/public holidays and outside the canton; airport-sector/operator jurisdiction must be checked.",
+          "base_fare": {
+            "value": 6.5,
+            "currency": "CHF",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1."
+          },
+          "per_km": {
+            "value": 4.5,
+            "currency": "CHF",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 74,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    },
+    {
+      "airport_iata": "MLH",
+      "public_option_name": "BVB bus 50 from the Swiss-sector forecourt to Basel SBB; ordinary three-zone ticket",
+      "public_price": {
+        "value": 6.6,
+        "currency": "CHF",
+        "unit": "per full-fare adult second-class three-zone single",
+        "status": "confirmed",
+        "source_name": "TNW — single tickets",
+        "source_url": "https://www.tnw.ch/tickets-preise/billette/einzelbillette",
+        "checked_date": "2026-11-02",
+        "note": "The price is published directly for three zones, not calculated. Airport route/three-zone requirement: https://www.basel.com/en/attractions/flughafen-basel-euroairport-98cc2db20e. A qualifying Basel hotel/Airbnb booking confirmation gives the initial transfer at no additional charge under https://www.basel.com/en/baselcard; that conditional entitlement must be established per booking. This is the ordinary paid option for passengers without that entitlement."
+      },
+      "journey_legs": [
+        {
+          "origin": "EuroAirport Swiss-sector arrivals forecourt",
+          "destination": "Basel SBB railway station",
+          "mode": "BVB bus 50",
+          "duration_minutes": {
+            "value": 20,
+            "currency": null,
+            "unit": "approximate published bus-leg minutes",
+            "status": "confirmed",
+            "source_name": "EuroAirport",
+            "source_url": "https://www.euroairport.com/en/transport",
+            "checked_date": "2026-11-02",
+            "note": "Airport-published approximate bus time; walking from another terminal sector, waiting and travel beyond SBB excluded. BSL and MLH refer to the same physical airport."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "CHF",
+        "unit": "per vehicle fixed airport–Basel centre fare",
+        "status": "unconfirmed",
+        "source_name": "EuroAirport",
+        "source_url": "https://www.euroairport.com/en/transport",
+        "checked_date": "2026-11-02",
+        "note": "The airport lists an approximate Basel taxi cost and fixed tariffs for other destinations; the latter do not establish a Basel fixed fare."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Basel-Stadt maximum tariff — tariff 1",
+          "applicability": "Basel-licensed metered taxis, weekdays 06:00–20:00 within the canton; legal ceiling rather than guaranteed operator price.",
+          "base_fare": {
+            "value": 6.5,
+            "currency": "CHF",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band."
+          },
+          "per_km": {
+            "value": 4,
+            "currency": "CHF",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Section 2 of the current consolidated ordinance. Airport is outside the canton: this band is not a whole-airport-journey rate. VAT and gratuity included. Base is charged once per journey, not again for each band. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 74,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 1",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        },
+        {
+          "name": "Basel-Stadt maximum tariff — tariff 2",
+          "applicability": "Basel-licensed metered taxis at night, Sundays/public holidays and outside the canton; airport-sector/operator jurisdiction must be checked.",
+          "base_fare": {
+            "value": 6.5,
+            "currency": "CHF",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1."
+          },
+          "per_km": {
+            "value": 4.5,
+            "currency": "CHF",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published maximum band from section 2; no airport surcharge or France-licensed taxi tariff was verified. Base is not cumulative with tariff 1. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "published_waiting_rate": {
+            "value": 74,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting hour",
+            "status": "confirmed",
+            "source_name": "Basel-Stadt maximum tariff — tariff 2",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/5957/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "Published hourly amount retained without division; per_waiting_minute remains unconfirmed unless separately published."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 4.2,
+      "currency": "CHF",
+      "unit": "per full-fare adult second-class one-zone single",
+      "status": "confirmed",
+      "source_name": "TNW",
+      "source_url": "https://www.tnw.ch/tickets-preise/billette/einzelbillette",
+      "checked_date": "2026-11-02",
+      "note": "One-hour validity; ordinary fare, no Half Fare Card.",
+      "validity_area": "TNW zone 10, Basel city; airport journey needs additional zones."
+    },
+    "day_pass": {
+      "value": 11.2,
+      "currency": "CHF",
+      "unit": "per full-fare ticket triregio mini for 24 consecutive hours",
+      "status": "confirmed",
+      "source_name": "TNW — cross-border products",
+      "source_url": "https://www.tnw.ch/tickets-preise/grenzueberschreitende-angebote/angebote-ch-d-f",
+      "checked_date": "2026-11-02",
+      "note": "The 24-hour validity is corroborated by https://www.tnw.ch/en/service/services/information-fuer-touristen. The cheaper Basel Tageskarte is valid only until the following service-day cutoff and is not relabelled as rolling 24 hours. No U-Abo/GA assumed.",
+      "validity_area": "TNW 10, 11, 13 (EuroAirport), 14, 15, 40; RVL 1, 2, 3, 8; SNCF Basel SBB–Sierentz and Distribus, per the dedicated product page. Wider coverage than city single.",
+      "validity_kind": "consecutive_hours",
+      "satisfies_rolling_24h_requirement": true
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "CHF",
+      "unit": "per adult for 72 consecutive hours",
+      "status": "unconfirmed",
+      "source_name": "TNW — day-ticket catalogue",
+      "source_url": "https://www.tnw.ch/tickets-preise/billette/tageskarte",
+      "checked_date": "2026-11-02",
+      "note": "The checked catalogue shows other day/multi-day products but does not explicitly rule out every 72-hour product. No exact 72-hour fare verified; no multiplication of day tickets.",
+      "validity_area": "Basel city/TNW scope sought; no applicable 72-hour product verified."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2025-03-01",
+        "to": null,
+        "basis": "per_person_per_night",
+        "rate": {
+          "value": 4.2,
+          "currency": "CHF",
+          "unit": "per liable guest per overnight stay",
+          "status": "confirmed",
+          "source_name": "Kanton Basel-Stadt — Gasttaxenverordnung § 2",
+          "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/6488/pdf_file",
+          "checked_date": "2026-11-02",
+          "note": "Rate and effective amendment date are in the consolidated ordinance and change table. Applies to accommodation in Basel-Stadt, not nearby Basel-Landschaft, France or Germany. No later announced change was verified in the authority material checked."
+        },
+        "exemptions": "Gasttaxengesetz § 4: children under 12; continuous same-property stays from the 31st night; qualifying hospitals, care/social/educational institutions; billeted military/civil defence; weekly/short-stay permit holders; Rhine cruise passengers. Tax residence/stay conditions apply. Statutory exemptions source: https://www.gesetzessammlung.bs.ch/api/de/versions/4320/pdf_file. Authority also identifies Basel-Stadt residents as exempt.",
+        "legal_source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/6488/pdf_file",
+        "charge_unit": "liable_person_night",
+        "night_count_rule": {
+          "kind": "actual_qualifying_nights_in_jurisdiction",
+          "cap": {
+            "value": 30,
+            "currency": null,
+            "unit": "taxable nights per continuous same-property stay",
+            "status": "confirmed",
+            "source_name": "Kanton Basel-Stadt — Gasttaxengesetz § 4",
+            "source_url": "https://www.gesetzessammlung.bs.ch/api/de/versions/4320/pdf_file",
+            "checked_date": "2026-11-02",
+            "note": "The law exempts nights after thirty; this is a statutory cap, not an observed trip length."
+          },
+          "cap_status": "confirmed",
+          "note": "Resolve the city-specific exemption and stay rules before counting. A null cap is not proof that no cap exists."
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "taxable_person_nights",
+            "guest_age_and_trip_category",
+            "continuous_stay_history_at_same_property",
+            "Basel_Stadt_residence_and_permit_status",
+            "institution_or_cruise_status"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed"
+          ],
+          "evidence_gaps": [],
+          "status": "conditional",
+          "supported_case": "Ordinary paid short leisure stay with independently resolved taxable person-nights and no special assessment agreement."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 12,
+      "currency": "CHF",
+      "unit": "per falafel plate at İsbilir Food, Clarastrasse 53",
+      "status": "confirmed",
+      "source_name": "İsbilir Food Basel",
+      "source_url": "https://isbilir-food.ch/",
+      "checked_date": "2026-11-02",
+      "note": "Official current homepage lists FALAFEL TELLER. Side dishes and a menu effective date were not specified; no drink is assumed."
+    },
+    "midrange_meal_for_two": {
+      "value": 98,
+      "currency": "CHF",
+      "unit": "per Karisik Izgara sharing main for two at MEZEM",
+      "status": "confirmed",
+      "source_name": "MEZEM Basel — official menu",
+      "source_url": "https://www.mezem-restaurant.ch/Menu",
+      "checked_date": "2026-11-02",
+      "note": "The menu explicitly publishes a two-person sharing price. Mixed grill with grilled vegetables, bulgur and haydari; drinks, starters and dessert not included in this observation. Not doubled from the individual dish."
+    },
+    "coffee": {
+      "value": 5.6,
+      "currency": "CHF",
+      "unit": "per cappuccino at MEZEM Basel",
+      "status": "confirmed",
+      "source_name": "MEZEM Basel — official menu",
+      "source_url": "https://www.mezem-restaurant.ch/Menu",
+      "checked_date": "2026-11-02",
+      "note": "Named restaurant coffee observation; the site uses an unusual duplicated decimal/dash display, read as its CHF price. No city average or extras inferred."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Kunstmuseum Basel — collection and exhibitions",
+      "entry_price": {
+        "value": 25,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Kunstmuseum Basel — collection and exhibitions — official visitor information",
+        "source_url": "https://kunstmuseumbasel.ch/de/besuch/besuch-planen",
+        "checked_date": "2026-11-02",
+        "note": "Standard adult aged 20+ collection/exhibitions product; the separately priced major special-exhibition bundle is excluded. Some scheduled periods give free collection entry. No explicit individual prebooking obligation verified."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Fondation Beyeler, Riehen",
+      "entry_price": {
+        "value": 30,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Fondation Beyeler, Riehen — official visitor information",
+        "source_url": "https://www.fondationbeyeler.ch/de/besuch/tickets",
+        "checked_date": "2026-11-02",
+        "note": "Explicitly valid from 2026-10-18; ordinary adult above the free youth threshold. Counter tickets available if online allocation is not sold out, so advance purchase is not an absolute requirement. The archive-2026 site carries a superseded exhibition price and is not current-rate evidence."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Zoo Basel — displayed ticket including voluntary conservation contribution",
+      "entry_price": {
+        "value": 22,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Zoo Basel — displayed ticket including voluntary conservation contribution — official visitor information",
+        "source_url": "https://www.zoobasel.ch/de/zoobesuch/index.php",
+        "checked_date": "2026-11-02",
+        "note": "Displayed adult tariff includes the optional conservation contribution. A lower ticket is available on request at the counter, but no subtraction was performed. This is not the minimum compulsory entry cost. Counter purchase is explicitly described; no absolute prebooking requirement."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Museum Tinguely",
+      "entry_price": {
+        "value": 18,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Museum Tinguely — official visitor information",
+        "source_url": "https://www.tinguely.ch/de/information/eintrittspreise.html",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary adult admission; the listed Thursday-evening free period is separate. The page invites advance timeslot planning without establishing a mandatory individual booking rule."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Basler Papiermühle",
+      "entry_price": {
+        "value": 20,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Basler Papiermühle — official visitor information",
+        "source_url": "https://www.baslerpapiermuehle.ch/informationen/",
+        "checked_date": "2026-11-02",
+        "note": "Normal admission; concessions and family products excluded. The checked official information did not settle a mandatory individual booking rule."
+      },
+      "booking_ahead_required": null
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "BSL and MLH are catalogue aliases for one physical EuroAirport. Entries intentionally use the same Swiss-sector route; do not count two airport transfers. Access from the French sector and the actual airline arrival designation require itinerary-level confirmation.",
+    "Eligible overnight guests can have public transport included through BaselCard. The ordinary paid fares here must not be added automatically when that entitlement is established. Conversely, the inclusion cannot be assumed for accommodation outside Basel-Stadt.",
+    "Basel-Landschaft has a distinct statutory guest-tax regime, not another dated period for Basel-Stadt. Its amended legal publication https://bl.clex.ch/api/de/versions/4279/pdf_file must be checked for any hotel outside this file’s canton scope.",
+    "Taxi values are legal maximum tariffs for the named jurisdiction, not a verified full cross-border airport tariff. Hourly waiting prices are preserved directly. Airport surcharge, fixed Basel transfer and a 72-hour transit product remain unconfirmed.",
+    "No future Basel-Stadt guest-tax amendment was found in the official law and authority search. This is a search finding, not a guarantee against later changes.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

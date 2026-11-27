@@ -1,0 +1,44 @@
+Sydney transport refresh — 2026-10-26
+Separate from the Trip Range application rebrand.
+
+Authority: user request “Final Branding Acceptance and Sydney Freshness Fix”
+explicitly authorizes verified operational corrections. Verification performed by
+Codex; this is not a new human owner approval. The original GoEksplo Owner v4
+approval and all earlier review history remain intact.
+
+Checked 2026-10-26, approximately 15:21–15:23 UTC:
+1. https://transportnsw.info/travel-info/airport-travel/getting-to-from-western-sydney-international-airport-wsi
+   Official Transport for NSW page retrieved today. Lists WSI Link via St Marys,
+   other regional buses, no direct train, and the metro under construction.
+2. https://transportnsw.info/wsi-link
+   Official page retrieved today. Describes the temporary St Marys connection
+   and conditions tied to passenger operations and future metro availability.
+3. https://www.wsiairport.com.au/how-get-wsi
+   Official airport transport page. Direct extraction only returned its JS
+   accessibility shell; the search index supplied page text crawled two weeks
+   earlier. That text corroborates the St Marys bus connection and future metro,
+   but still uses pre-opening wording. It is not proof of live operations.
+4. https://transportnsw.info/travel-info/airport-travel/getting-to-from-sydney-airport
+   Official SYD guidance retrieved today. Confirms the T8 terminal stations,
+   additional station access fee and separate access-fee cap. SYD copy and
+   source record are unchanged; no fee amount imported.
+
+Decision: replace the vague opening/planner statement with qualified guidance
+that names WSI Link via St Marys and preserves the metro construction warning.
+Retain date-specific notices/planner advice and the explicit SYD/WSI distinction.
+Do not assert that the airport has opened or that a bus is running right now.
+Do not import dates, frequencies, fares, journey times or total transfer costs.
+Do not equate a potentially free bus leg with a free complete airport transfer.
+
+New review deadline: 2026-11-02T00:00:00Z, less than one week after this check.
+Reason: sources retain transitional opening language; use a short operational
+review interval, not the quarterly interval used for stable destination copy.
+The unchanged runtime expiry gate hides the item at that instant. The historical
+v4 fixture retains its 2026-10-26 expiry and remains covered by regression tests.
+
+Only the WSI guidance, its source metadata, one corroborating airport source and
+its review deadline change factually. The content version and publication/review
+receipts are renewed through the existing editorial commands; lifecycle dates
+are consequently renewed for the record. Other content is carried forward.
+No pricing, transfers, airport identities, provider, affiliate, SEO or brand
+artwork logic is changed. Historical operational evidence is retained unchanged.

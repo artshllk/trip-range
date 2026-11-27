@@ -1,0 +1,479 @@
+{
+  "destinationId": "place:Q1490",
+  "identitySubject": "place:Q1490",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q1490:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q1490:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1490",
+      "title": "Tokyo (Q1490)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T11:58:22.074Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1490"
+      }
+    },
+    {
+      "id": "source:expansion01:tokyo:asakusa",
+      "type": "official",
+      "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "title": "A guide to Asakusa",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:meiji",
+      "type": "official",
+      "url": "https://www.gotokyo.org/en/spot/76/index.html",
+      "title": "Meiji Shrine",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:yoyogi",
+      "type": "official",
+      "url": "https://www.sangyo-rodo1.metro.tokyo.lg.jp/tourism/accessible/en/course16_08.html",
+      "title": "Harajuku accessibility route",
+      "publisher": "Tokyo Metropolitan Government",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:skytree",
+      "type": "official",
+      "url": "https://www.tokyo-skytree.jp/",
+      "title": "Tokyo Skytree official site",
+      "publisher": "Tobu Tower Skytree",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:river",
+      "type": "official",
+      "url": "https://www.gotokyo.org/book/wp-content/uploads/2026/04/AO_2604_sumidariverwalk_low_EN.pdf",
+      "title": "Sumida River Walk area map",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:airports",
+      "type": "official",
+      "url": "https://www.gotokyo.org/en/plan/getting-to-tokyo/",
+      "title": "Getting to Tokyo",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:shinjuku",
+      "type": "official",
+      "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shinjuku/index.html",
+      "title": "A guide to Shinjuku",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:riverwalk",
+      "type": "official",
+      "url": "https://www.gotokyo.org/en/spot/1795/index.html",
+      "title": "TOKYO mizumachi / Sumida River Walk",
+      "publisher": "Tokyo Convention & Visitors Bureau",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:tokyo:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Tokyo is easier to plan as a few neighbourhood outings than a citywide checklist. Pair Asakusa with the Skytree area, and keep Meiji Jingu and Yoyogi Park together on a different day. Your airport and nearest station matter as much as the district name."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:tokyo:asakusa",
+      "source:expansion01:tokyo:meiji",
+      "source:expansion01:tokyo:river"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q1490:sensoji",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Sensoji and Nakamise"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Approach Sensoji through Kaminarimon and the Nakamise shopping street. Leave room to explore the surrounding Asakusa streets rather than treating the gate as the whole visit."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:asakusa"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1490:meiji-jingu",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Meiji Jingu"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "Walk through the shrine forest near Harajuku. Respect worshippers and check the shrine’s current visitor guidance."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:meiji"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1490:yoyogi",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Yoyogi Park"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Take an outdoor break beside the Meiji Jingu area. The park and shrine are separate places, even though they pair well in one outing."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:yoyogi",
+        "source:expansion01:tokyo:meiji"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1490:skytree",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Tokyo Skytree"
+      },
+      "kind": "viewpoint",
+      "shortDescription": {
+        "en": "Choose whether you want the paid observation decks or simply the surrounding riverside outing. Check the official ticket options; skyline visibility is not guaranteed."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:skytree",
+        "source:expansion01:tokyo:river"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q1490:expansion01-5",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Sumida River Walk"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Use the named pedestrian connection between Asakusa and the Skytree side for a river outing. Check current access and choose rail if the walk does not suit you."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:riverwalk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q1490:expansion01-1",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Asakusa"
+      },
+      "summary": {
+        "en": "Compare bases near the station if the temple streets and eastern Tokyo are priorities."
+      },
+      "goodFor": [
+        {
+          "en": "Sensoji and the Sumida-side outing."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Western Tokyo still needs a rail journey; check the airport connection for your terminal."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:asakusa",
+        "source:expansion01:tokyo:airports"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q1490:expansion01-2",
+      "destinationId": "place:Q1490",
+      "name": {
+        "en": "Shinjuku"
+      },
+      "summary": {
+        "en": "Consider a station-linked base for rail connections and the western side of the city."
+      },
+      "goodFor": [
+        {
+          "en": "A busy district with dining and transport options."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The large station and different exits make the exact address important, especially with luggage."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:shinjuku"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q1490:expansion01-1",
+      "destinationId": "place:Q1490",
+      "title": {
+        "en": "Check HND versus NRT"
+      },
+      "guidance": {
+        "en": "Haneda (HND) and Narita (NRT) have different rail and airport-bus connections. Compare the service to your actual station or hotel and check the final service for your arrival time. A Tokyo city code does not identify your terminal."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:airports"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q1490:expansion01-2",
+      "destinationId": "place:Q1490",
+      "title": {
+        "en": "Plan by neighbourhood and station"
+      },
+      "guidance": {
+        "en": "Keep Asakusa and the Skytree area in the same outing. Use rail for the separate Meiji Jingu–Yoyogi outing near Harajuku. Check the station exit and any access needs before choosing a walking route."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:asakusa",
+        "source:expansion01:tokyo:river",
+        "source:expansion01:tokyo:yoyogi"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q1490:expansion01-history",
+      "destinationId": "place:Q1490",
+      "kind": "other",
+      "text": {
+        "en": "Sensoji anchors Asakusa’s temple streets. Across the city, Meiji Jingu honours Emperor Meiji and Empress Shōken in a planted forest, giving a short stay two very different views of Tokyo’s history."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:asakusa",
+        "source:expansion01:tokyo:meiji"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q1490:expansion01-cost-limits",
+      "destinationId": "place:Q1490",
+      "kind": "booking",
+      "text": {
+        "en": "No citywide rail pass is assumed to cover every operator, airport service or ticketed sight. Accommodation, meals, airport travel and chosen admissions remain costs to check, not reviewed totals."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q1490:expansion01-2-nights",
+      "destinationId": "place:Q1490",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Tokyo"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q1490:sensoji",
+          "day": 1,
+          "notes": {
+            "en": "Explore the temple approach only if arrival leaves time."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:meiji-jingu",
+          "day": 2,
+          "notes": {
+            "en": "Travel to the Harajuku side for a separate outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:yoyogi",
+          "day": 2,
+          "notes": {
+            "en": "Add the adjacent park rather than another cross-city transfer."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:skytree",
+          "day": 3,
+          "notes": {
+            "en": "Choose a deck booking only if your departure leaves enough time."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:asakusa",
+        "source:expansion01:tokyo:meiji",
+        "source:expansion01:tokyo:yoyogi",
+        "source:expansion01:tokyo:skytree",
+        "source:expansion01:tokyo:river"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q1490:expansion01-3-nights",
+      "destinationId": "place:Q1490",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Tokyo"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q1490:sensoji",
+          "day": 1,
+          "notes": {
+            "en": "Keep the first outing around Asakusa."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:meiji-jingu",
+          "day": 2,
+          "notes": {
+            "en": "Use a separate western-city outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:yoyogi",
+          "day": 2,
+          "notes": {
+            "en": "Add the adjacent park instead of another cross-city transfer."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:skytree",
+          "day": 3,
+          "notes": {
+            "en": "Choose a deck visit or the surrounding area."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q1490:expansion01-5",
+          "day": 4,
+          "notes": {
+            "en": "A final eastern-side walk only if it fits your base and airport timing."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:tokyo:asakusa",
+        "source:expansion01:tokyo:meiji",
+        "source:expansion01:tokyo:yoyogi",
+        "source:expansion01:tokyo:skytree",
+        "source:expansion01:tokyo:river",
+        "source:expansion01:tokyo:riverwalk"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

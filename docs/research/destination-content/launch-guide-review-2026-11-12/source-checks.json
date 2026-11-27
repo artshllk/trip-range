@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-11-12T11:07:27Z",
+  "checks": [
+    {
+      "id": "source:phase2:vienna:airport-rail",
+      "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644",
+      "publisher": "Vienna Tourist Board",
+      "verified": "Airport connections and tickets for airport journeys: two zones; city boundary supplement €2.30 for an adult already holding valid Vienna core-zone coverage on S7/REX7."
+    },
+    {
+      "id": "source:phase2:vienna:airport-works",
+      "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+      "publisher": "Vienna Tourist Board",
+      "verified": "Vienna Tourist Board, CAT by bus and S7 sections: CAT replacement to Wien Mitte through 31 October 2027; S7 runs to St. Marx; REX7 runs to Hauptbahnhof."
+    },
+    {
+      "id": "source:phase4b:vienna:menu",
+      "url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+      "publisher": "Café Prückel",
+      "verified": "Current PDF linked by the venue: p. 2 breakfast €9.80 and cappuccino €4.90; p. 3 cheese toast €8.90 and beef goulash with dumplings €19.80; p. 4 half-litre soda €3.80. One of each and two sodas: €51.00."
+    },
+    {
+      "id": "source:phase4b:vienna:tickets",
+      "url": "https://www.wien.info/en/travel-info/transport/tickets-361360",
+      "publisher": "Vienna Tourist Board",
+      "verified": "Adult ticket list: €3.20 single, €10.20 for 24 hours, €25.20 for seven days digitally (personal ticket). The core zone ends before the airport."
+    },
+    {
+      "id": "source:phase2:london:abbey",
+      "url": "https://www.westminster-abbey.org/visit-us",
+      "publisher": "Westminster Abbey",
+      "verified": "Visit us, Tickets and Opening times: recommends advance sightseeing tickets; Sunday is open for worship."
+    },
+    {
+      "id": "source:phase4b:london:breakfast",
+      "url": "https://www.dishoom.com/menu/breakfast-covent-garden/",
+      "publisher": "Dishoom",
+      "verified": "Covent Garden breakfast menu links the checked breakfast PDF. Optional service can be removed on request."
+    },
+    {
+      "id": "source:phase4b:london:breakfast-pdf",
+      "url": "https://cdn.sanity.io/files/daku84np/production/ddd9a3df5c185e38227ec34cfd3b0e606ece0ef5.pdf",
+      "publisher": "Dishoom",
+      "verified": "Page 2: date and banana porridge £9.50; house chai £4.90; optional 12.5% service."
+    },
+    {
+      "id": "source:phase4b:london:caps",
+      "url": "https://tfl.gov.uk/fares/find-fares/caps-and-travelcard-prices",
+      "publisher": "Transport for London",
+      "verified": "Adult pay-as-you-go daily capping requires using the same payment card or device for the qualifying journeys."
+    },
+    {
+      "id": "source:phase4b:london:menu",
+      "url": "https://www.dishoom.com/menu/covent-garden-all-day/",
+      "publisher": "Dishoom",
+      "verified": "Covent Garden all-day menu links the checked all-day PDF. Optional service can be removed on request."
+    },
+    {
+      "id": "source:phase4b:london:menu-pdf",
+      "url": "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf",
+      "publisher": "Dishoom",
+      "verified": "Pages 1–2: paneer roomali roll £12.90; chole puri halwa £15.90; fresh nimbu soda £5.90. Including two sodas and the breakfast lines: £55.00. With optional service: £61.875 before rounding, about £62."
+    },
+    {
+      "id": "source:phase4b:london:tickets",
+      "url": "https://content.tfl.gov.uk/adult-fares.pdf",
+      "publisher": "Transport for London",
+      "verified": "2026 adult fares, p. 1: Zones 1–2 PAYG daily cap £8.90. Higher caps for outer zones; Heathrow Express is excluded."
+    },
+    {
+      "id": "source:maintenance20261112:paris:menu-page",
+      "url": "https://www.bouillon-chartier.com/la-carte/",
+      "publisher": "Bouillon Chartier",
+      "verified": "La carte: menu changes daily with deliveries; the listed dishes and main-course range (€7–€13.80) are indicative, not confirmed for any particular day."
+    },
+    {
+      "id": "source:phase4b:paris:louvre",
+      "url": "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
+      "publisher": "Musée du Louvre",
+      "verified": "Hours and admission, ticket reservations: a time slot is recommended, including for visitors eligible for free entry."
+    },
+    {
+      "id": "source:phase4b:paris:menu",
+      "url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+      "publisher": "Bouillon Chartier",
+      "verified": "Indicative downloadable menu: mains range from €7 to €13.80; the range is not an item-specific quote."
+    },
+    {
+      "id": "source:phase4b:paris:tickets",
+      "url": "https://www.ratp.fr/en/titres-et-tarifs/forfait-navigo-jour",
+      "publisher": "RATP",
+      "verified": "Navigo Jour pass: €12.30, Zones 1–5, calendar day, excluding airport access. Compatible phones can hold the pass."
+    },
+    {
+      "id": "source:phase4b:paris:tower",
+      "url": "https://www.toureiffel.paris/en/rates-opening-times",
+      "publisher": "Société d’Exploitation de la Tour Eiffel",
+      "verified": "Rates and opening times: separate ticket choices for the second floor or summit. Stairs go to the second floor; the last leg to the summit uses a lift."
+    },
+    {
+      "id": "source:batch1review:istanbul:palace-operator",
+      "url": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
+      "publisher": "National Palaces",
+      "verified": "Topkapı Palace visitor information, Closed Days: Tuesday. Holiday arrangements should be checked separately."
+    },
+    {
+      "id": "source:batch1review:barcelona:mnac-days",
+      "url": "https://www.museunacional.cat/es/horarios-y-precios",
+      "publisher": "Museu Nacional d’Art de Catalunya",
+      "verified": "Horarios y precios, opening hours of the museum (not the library): closed Mondays except public holidays."
+    },
+    {
+      "id": "source:batch1review:barcelona:picasso-days",
+      "url": "https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours",
+      "publisher": "Museu Picasso Barcelona",
+      "verified": "Tickets and opening hours: closed on Mondays."
+    },
+    {
+      "id": "source:expansion01:barcelona:park",
+      "url": "https://parkguell.barcelona/en",
+      "publisher": "Barcelona City Council",
+      "verified": "Official Park Güell site: the park, Gaudí and official visitor information."
+    },
+    {
+      "id": "source:maintenance20261104:barcelona:park-faq",
+      "url": "https://parkguell.barcelona/en/planning-your-visit/faqs",
+      "publisher": "Park Güell / Barcelona City Council",
+      "verified": "Ticket reservations: online advance purchase recommended; choose a date and entry time."
+    }
+  ]
+}

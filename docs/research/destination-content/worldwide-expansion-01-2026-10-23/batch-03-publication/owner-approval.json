@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch3-review-v1",
+  "status": "explicit-owner-approval-local-integration",
+  "reviewer": "GoEksplo Owner",
+  "reviewedAt": "2026-10-23T22:47:04.903Z",
+  "ownerLocalDate": "2026-10-24",
+  "ownerTimezone": "Europe/Belgrade",
+  "approvalBasis": "Owner explicitly approved the exact pinned Cape Town, Rio de Janeiro, Sydney and Dubai English v4 drafts, sources, identities, itinerary order and freshness, plus the four exact photographs and displayed hero/card crops, attribution, source/licence links, modification notices and responsive variants in batch-03-review. Preserve Rio RRJ uncertainty, Sydney WSI recheck, separate DXB/DWC access and Cape Town airport-bus suspension. CC BY-SA 4.0 applies to Cape Town, Sydney and Dubai; Rio is CC0 with courtesy credit. Tests do not substitute for this approval.",
+  "content": [
+    {
+      "slug": "cape-town",
+      "destinationId": "place:Q5465",
+      "contentPath": "content/destinations/place-Q5465.json",
+      "identityPath": "content/places/place-Q5465.json",
+      "approvedPins": {
+        "slug": "cape-town",
+        "destinationId": "place:Q5465",
+        "candidateFile": "drafts/cape-town.json",
+        "fileSha256": "ccbe808ad520eed8d27d054a5d8d195e67acee5539aa1307a8eeee8df72ce6a5",
+        "evidenceFile": "drafts/cape-town-evidence.md",
+        "evidenceFileSha256": "aeeecdfe1561449ffe8037861c8580469b55eb7073830fe700c04ab1a908579d",
+        "contentVersion": 4,
+        "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+        "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+        "evidenceDigest": "1749414a34da14f8028b7c8be41239c78b3003ad9a649c48071b3a7c7ef150f0",
+        "findings": [
+          {
+            "id": "batch3:cape-town:source-limit-1",
+            "message": "MyCiTi suspension notice is current source evidence, not a service status guarantee for a future trip. Recheck before publication and travel."
+          },
+          {
+            "id": "batch3:cape-town:source-limit-2",
+            "message": "Cableway weather widgets can be stale; only the general weather-dependent service rule is used."
+          },
+          {
+            "id": "batch3:cape-town:source-limit-3",
+            "message": "Bo-Kaap page includes unrelated Newlands template text; only its actual Bo-Kaap introduction is used."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch3-cape-town-v4.md",
+      "evidenceSha256": "aeeecdfe1561449ffe8037861c8580469b55eb7073830fe700c04ab1a908579d",
+      "researchPath": "content/research/destinations/place-Q5465.json"
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "destinationId": "place:Q8678",
+      "contentPath": "content/destinations/place-Q8678.json",
+      "identityPath": "content/places/place-Q8678.json",
+      "approvedPins": {
+        "slug": "rio-de-janeiro",
+        "destinationId": "place:Q8678",
+        "candidateFile": "drafts/rio-de-janeiro.json",
+        "fileSha256": "9c9791ac5f84b2037b123693b9b1faeec44986bd12506412daed56ff8002c86a",
+        "evidenceFile": "drafts/rio-de-janeiro-evidence.md",
+        "evidenceFileSha256": "7ae2edfac0613ffcc224e6c41a19b4113a1576a683e845e499712d4259cd1ea9",
+        "contentVersion": 4,
+        "contentDigest": "195561a2abe6f8eb296e6b5858c5207d747986ba7ebffad5a6192ad65889bce2",
+        "identityDigest": "8e14ddc3b00159ebef8ea586f020094cdd199541bd9815b21b3dd3dc6f0c8ed3",
+        "evidenceDigest": "b351bb4bfce6ce4cfbc35728eceb4781c53215b5af16c92ce0b2c028c9e9cb92",
+        "findings": [
+          {
+            "id": "batch3:rio-de-janeiro:source-limit-1",
+            "message": "RRJ ground transport is unverified; this candidate must not claim complete all-airport guidance."
+          },
+          {
+            "id": "batch3:rio-de-janeiro:source-limit-2",
+            "message": "Parque Lage source retains generic interior information below its explicit restoration closure notice; the closure takes precedence. No courtyard/interior is included."
+          },
+          {
+            "id": "batch3:rio-de-janeiro:source-limit-3",
+            "message": "Some tourism pages return only navigation; Riotur and current operator evidence support the limited place/transport copy. No live fares, services or safe-route rating verified."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch3-rio-de-janeiro-v4.md",
+      "evidenceSha256": "7ae2edfac0613ffcc224e6c41a19b4113a1576a683e845e499712d4259cd1ea9",
+      "researchPath": "content/research/destinations/place-Q8678.json"
+    },
+    {
+      "slug": "sydney",
+      "destinationId": "place:Q3130",
+      "contentPath": "content/destinations/place-Q3130.json",
+      "identityPath": "content/places/place-Q3130.json",
+      "approvedPins": {
+        "slug": "sydney",
+        "destinationId": "place:Q3130",
+        "candidateFile": "drafts/sydney.json",
+        "fileSha256": "f2881cbbda59c5669fc80409b9a837e0fc8aff936798a8d2e06e6ed71933887f",
+        "evidenceFile": "drafts/sydney-evidence.md",
+        "evidenceFileSha256": "cc803df0ea5a2d22f53d799186bed77054d113a0ad8122332c12bbf0425e793d",
+        "contentVersion": 4,
+        "contentDigest": "2f4cfd353729d6ba08e76a192d626fce2ca2ac262e184f2c3349fa62631ec2ff",
+        "identityDigest": "4d9b93f7e2b918ad22e81c3e4875f725f38cad20c8a1e4fbfb36f327e0c3dbff",
+        "evidenceDigest": "7a3784c0765bc298c2d80196608fda1ec376328c848d5b04d608d0f83a8b69a7",
+        "findings": [
+          {
+            "id": "batch3:sydney:source-limit-1",
+            "message": "WSI opening is imminent at review time; its operator/service status must be rechecked before publication. The candidate quotes no opening date and promises no current flight or metro operation."
+          },
+          {
+            "id": "batch3:sydney:source-limit-2",
+            "message": "Several Destination NSW pages were readable only as indexed primary text after 405 responses. Stable place geography is used; hotel listings and prices are not evidence."
+          },
+          {
+            "id": "batch3:sydney:source-limit-3",
+            "message": "Airport station access fees have separate rules and a separate weekly cap; ordinary daily/weekly caps do not include them."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch3-sydney-v4.md",
+      "evidenceSha256": "cc803df0ea5a2d22f53d799186bed77054d113a0ad8122332c12bbf0425e793d",
+      "researchPath": "content/research/destinations/place-Q3130.json"
+    },
+    {
+      "slug": "dubai",
+      "destinationId": "place:Q612",
+      "contentPath": "content/destinations/place-Q612.json",
+      "identityPath": "content/places/place-Q612.json",
+      "approvedPins": {
+        "slug": "dubai",
+        "destinationId": "place:Q612",
+        "candidateFile": "drafts/dubai.json",
+        "fileSha256": "53a8b04500e14ee9f902916b24faa9997eb92a32ce36ffecafe73904b3f4044f",
+        "evidenceFile": "drafts/dubai-evidence.md",
+        "evidenceFileSha256": "ed0307a5896fa13fbf20fb53a103f63c22ab022694a4a4cbfda8ec9b3cd75cb0",
+        "contentVersion": 4,
+        "contentDigest": "c625fc45fe2c8b359e7a65d385dc1964fab0017a864684311b515e9697de6fad",
+        "identityDigest": "e87df9e93be4dbf8426393cd035a18607b303d0ee6a0fa6da88c085b21a0aaa0",
+        "evidenceDigest": "78b2c13d5d688f94ff873c1ca5b3c7b5ec62f3faac936c881e8b0c83b460bfd2",
+        "findings": [
+          {
+            "id": "batch3:dubai:source-limit-1",
+            "message": "DWC airport copy mixes interchange examples and contains a misleading generic airport-station sentence. RTA map and bus/taxi guidance support only the scoped connection advice."
+          },
+          {
+            "id": "batch3:dubai:source-limit-2",
+            "message": "Fresh museum visit page could not be fetched. The official museum brochure verifies geography/content, not current pavilion access or a recurring closure day."
+          },
+          {
+            "id": "batch3:dubai:source-limit-3",
+            "message": "Some Dubai tourism pages expose only headings directly; source-backed indexed primary text is used for stable history and district facts."
+          }
+        ],
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "publicationEligible": false
+      },
+      "operationalEvidence": "docs/research/destination-content/worldwide-batch3-dubai-v4.md",
+      "evidenceSha256": "ed0307a5896fa13fbf20fb53a103f63c22ab022694a4a4cbfda8ec9b3cd75cb0",
+      "researchPath": "content/research/destinations/place-Q612.json"
+    }
+  ],
+  "media": [
+    {
+      "slug": "cape-town",
+      "subject": "place:Q5465",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:126494271",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cape_Town_-View_From_The_Table_Mountain.jpg",
+      "sourceRevisionId": 847682946,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Sumit Surai",
+      "photographedAt": "2018-07-17",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "Sumit Surai / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "The individual file describes Camps Bay viewed from Table Mountain; the visible coastal neighbourhood and mountain chain match that specific Cape Town viewpoint. This is not a City Bowl, Robben Island or airport photograph.",
+      "limitations": "Historical photograph from July 2018. Clear weather and vegetation in this image are not forecasts or evidence of current cableway access. The proposed hero reduces the large sky area.",
+      "originalFile": "originals/cape-town.jpg",
+      "originalSha256": "3451e46c3a7c13012c860fd09d48791282e045361a94285c79a977cc86ddd5bb",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 2836
+      },
+      "localDelivery": {
+        "src": "/destinations/cape-town-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/cape-town-batch3-v1-640.webp",
+            "width": 640,
+            "height": 454,
+            "bytes": 48062,
+            "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+          },
+          {
+            "src": "/destinations/cape-town-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 851,
+            "bytes": 160680,
+            "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+          },
+          {
+            "src": "/destinations/cape-town-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1361,
+            "bytes": 381312,
+            "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.48,
+            "y": 0.74
+          },
+          "alt": {
+            "en": "Camps Bay and the Atlantic coast seen from Table Mountain in Cape Town"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "5051c58045e5c1e0d5eb7db9e9e0b71ed66cb759"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/cape-town-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/cape-town-batch3-v1-640.webp",
+                "width": 640,
+                "height": 454,
+                "bytes": 48062,
+                "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+              },
+              {
+                "src": "/destinations/cape-town-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 851,
+                "bytes": 160680,
+                "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+              },
+              {
+                "src": "/destinations/cape-town-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 1361,
+                "bytes": 381312,
+                "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.48,
+            "y": 0.74
+          },
+          "alt": {
+            "en": "Camps Bay and the Atlantic coast seen from Table Mountain in Cape Town"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "5051c58045e5c1e0d5eb7db9e9e0b71ed66cb759"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/cape-town-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/cape-town-batch3-v1-640.webp",
+                "width": 640,
+                "height": 454,
+                "bytes": 48062,
+                "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+              },
+              {
+                "src": "/destinations/cape-town-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 851,
+                "bytes": 160680,
+                "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+              },
+              {
+                "src": "/destinations/cape-town-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 1361,
+                "bytes": 381312,
+                "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:47:04.903Z",
+      "publicationEligible": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "subject": "place:Q8678",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:133796307",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Urca_and_Botafogo_Bay,_Rio_de_Janeiro,_Brazil.jpg",
+      "sourceRevisionId": 1269410141,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Wilfredor",
+      "photographedAt": "2023-06-03",
+      "licence": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "Wilfredor / Wikimedia Commons / CC0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "Individual source description identifies Urca and Botafogo Bay, Rio de Janeiro; the waterfront geometry and boats are visible in the source. No Christ statue, Sugarloaf summit, Copacabana beach or airport is substituted for the photographed subject.",
+      "limitations": "Historical aerial view from June 2023. Boats and waterfront access shown are not evidence of current transport, swimming conditions or bookable tours. This clean source replaces the excluded watermarked photograph.",
+      "originalFile": "originals/rio-de-janeiro-clean.jpg",
+      "originalSha256": "c3b104f19dfbf4376633dcd11246d44397b0d53c92ec770a1f0634c77cfa6c7a",
+      "originalDimensions": {
+        "width": 7778,
+        "height": 5030
+      },
+      "localDelivery": {
+        "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+            "width": 640,
+            "height": 413,
+            "bytes": 63346,
+            "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+          },
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 776,
+            "bytes": 220130,
+            "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+          },
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1242,
+            "bytes": 556550,
+            "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.5
+          },
+          "alt": {
+            "en": "Urca waterfront and boats on Botafogo Bay in Rio de Janeiro"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "d500e132d45e649fb3297b39e84661e5e04f2054"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+                "width": 640,
+                "height": 413,
+                "bytes": 63346,
+                "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+              },
+              {
+                "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 776,
+                "bytes": 220130,
+                "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+              },
+              {
+                "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 1242,
+                "bytes": 556550,
+                "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.5
+          },
+          "alt": {
+            "en": "Urca waterfront and boats on Botafogo Bay in Rio de Janeiro"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "d500e132d45e649fb3297b39e84661e5e04f2054"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+                "width": 640,
+                "height": 413,
+                "bytes": 63346,
+                "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+              },
+              {
+                "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 776,
+                "bytes": 220130,
+                "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+              },
+              {
+                "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 1242,
+                "bytes": 556550,
+                "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:47:04.903Z",
+      "publicationEligible": true
+    },
+    {
+      "slug": "sydney",
+      "subject": "place:Q3130",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:73107560",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+      "sourceRevisionId": 1174563721,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "peter abery (Poidabro)",
+      "photographedAt": "2018-03-03",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "peter abery (Poidabro) / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "The individual source names Blues Point Reserve and both Sydney landmarks. Its author field is Poidabro; embedded author metadata names peter abery, both retained in the proposed credit. The Opera House sails and bridge structure are directly identifiable.",
+      "limitations": "Long-exposure night photograph from March 2018. Lighting is historical; it does not promise a current illumination event, performance, pedestrian access or weather. Hero crop keeps the Opera House and bridge structure; it may omit the bridge flag.",
+      "originalFile": "originals/sydney.jpg",
+      "originalSha256": "0b1d81c2b04b420c23c77c82819ed8c2f01a9b25aa6b774f1eb33b515a003fc6",
+      "originalDimensions": {
+        "width": 7360,
+        "height": 4912
+      },
+      "localDelivery": {
+        "src": "/destinations/sydney-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/sydney-batch3-v1-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 27594,
+            "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+          },
+          {
+            "src": "/destinations/sydney-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 801,
+            "bytes": 79512,
+            "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+          },
+          {
+            "src": "/destinations/sydney-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1281,
+            "bytes": 181270,
+            "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.68,
+            "y": 0.7
+          },
+          "alt": {
+            "en": "Sydney Opera House and Harbour Bridge illuminated at night, seen from Blues Point Reserve"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "549d0c76537c0d9b0cc2b87c8616c58405fd51e5"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/sydney-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/sydney-batch3-v1-640.webp",
+                "width": 640,
+                "height": 427,
+                "bytes": 27594,
+                "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+              },
+              {
+                "src": "/destinations/sydney-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 801,
+                "bytes": 79512,
+                "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+              },
+              {
+                "src": "/destinations/sydney-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 1281,
+                "bytes": 181270,
+                "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.68,
+            "y": 0.7
+          },
+          "alt": {
+            "en": "Sydney Opera House and Harbour Bridge illuminated at night, seen from Blues Point Reserve"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "549d0c76537c0d9b0cc2b87c8616c58405fd51e5"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/sydney-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/sydney-batch3-v1-640.webp",
+                "width": 640,
+                "height": 427,
+                "bytes": 27594,
+                "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+              },
+              {
+                "src": "/destinations/sydney-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 801,
+                "bytes": 79512,
+                "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+              },
+              {
+                "src": "/destinations/sydney-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 1281,
+                "bytes": 181270,
+                "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:47:04.903Z",
+      "publicationEligible": true
+    },
+    {
+      "slug": "dubai",
+      "subject": "place:Q612",
+      "status": "owner-approved-integrated-locally",
+      "assetId": "commons:68665373",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Dubai_Creek_with_dhow_station.jpg",
+      "sourceRevisionId": 903741780,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Vedaant Jamaiyar",
+      "photographedAt": "2018-04-13",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "Vedaant Jamaiyar / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "Individual source identifies the old Dubai Creek boarding scene. Visible traditional boats and creekside waterfront support that identity. The source calls the boats dhows; the guide uses the neutral passenger-boat description rather than claiming a specific service or fare.",
+      "limitations": "Historical photograph from April 2018. It is a creek transport scene, not a Burj Khalifa skyline or a current RTA service guarantee. Advertising, boarding arrangements and buildings may have changed. The licensed source carries no architectural-rights warning; excluded skyline sources are not used.",
+      "originalFile": "originals/dubai-station.jpg",
+      "originalSha256": "4d01b8addac6a22ef44ec6c277fc841b857c5d436ab885a57eff46e0c54b24d8",
+      "originalDimensions": {
+        "width": 4032,
+        "height": 1960
+      },
+      "localDelivery": {
+        "src": "/destinations/dubai-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/dubai-batch3-v1-640.webp",
+            "width": 640,
+            "height": 311,
+            "bytes": 46566,
+            "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+          },
+          {
+            "src": "/destinations/dubai-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 583,
+            "bytes": 145352,
+            "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+          },
+          {
+            "src": "/destinations/dubai-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 933,
+            "bytes": 342718,
+            "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          },
+          "alt": {
+            "en": "Traditional passenger boats and the waterfront boarding area on Dubai Creek"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "027b8f32b8e41ad20c420366ebdc7149e9c76254"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/dubai-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/dubai-batch3-v1-640.webp",
+                "width": 640,
+                "height": 311,
+                "bytes": 46566,
+                "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+              },
+              {
+                "src": "/destinations/dubai-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 583,
+                "bytes": 145352,
+                "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+              },
+              {
+                "src": "/destinations/dubai-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 933,
+                "bytes": 342718,
+                "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+              }
+            ]
+          }
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          },
+          "alt": {
+            "en": "Traditional passenger boats and the waterfront boarding area on Dubai Creek"
+          },
+          "approval": "approved",
+          "reviewer": "GoEksplo Owner",
+          "reviewedAt": "2026-10-23T22:47:04.903Z",
+          "reviewedChecksum": {
+            "algorithm": "sha1",
+            "value": "027b8f32b8e41ad20c420366ebdc7149e9c76254"
+          },
+          "reviewedLocalDelivery": {
+            "src": "/destinations/dubai-batch3-v1-1200.webp",
+            "variants": [
+              {
+                "src": "/destinations/dubai-batch3-v1-640.webp",
+                "width": 640,
+                "height": 311,
+                "bytes": 46566,
+                "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+              },
+              {
+                "src": "/destinations/dubai-batch3-v1-1200.webp",
+                "width": 1200,
+                "height": 583,
+                "bytes": 145352,
+                "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+              },
+              {
+                "src": "/destinations/dubai-batch3-v1-1920.webp",
+                "width": 1920,
+                "height": 933,
+                "bytes": 342718,
+                "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+              }
+            ]
+          }
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-23T22:47:04.903Z",
+      "publicationEligible": true
+    }
+  ],
+  "registryBeforeSha256": "4f59f9bfb390108885714552423e6ad3a012cc0f266f5b70a0500bfb15eff7d6",
+  "reviewPacketManifestSha256": "a78ab8cd18d272856acb681ab05f71a1b72d4a817c9bc782ca3ce5c6bfe90820",
+  "scopeExclusions": [
+    "other destinations",
+    "other media",
+    "numerical cost profiles",
+    "pricing or provider changes",
+    "commit",
+    "push",
+    "deployment",
+    "infrastructure changes"
+  ],
+  "evidenceRegistrationNote": "Exact pinned evidence bytes copied to supported flat research filenames. Updated operational research metadata and preserved historical findings produce operational evidence digests. Original candidate, identity and evidence pins remain preserved in the unchanged review packet."
+}

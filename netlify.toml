@@ -1,0 +1,30 @@
+# Local portability experiment only. No site/account identifiers or credentials.
+# Netlify automatically installs its supported Next.js/OpenNext adapter.
+[build]
+  ignore = "node ./scripts/netlify-ignore-build.mjs"
+  command = "npm ci && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+  GOEKSPLO_NETLIFY_CONTEXT = "deploy-preview"
+
+[context.production.environment]
+  GOEKSPLO_NETLIFY_CONTEXT = "production"
+
+[context.deploy-preview.environment]
+  GOEKSPLO_NETLIFY_CONTEXT = "deploy-preview"
+
+[context.branch-deploy.environment]
+  GOEKSPLO_NETLIFY_CONTEXT = "branch-deploy"
+
+[context.dev.environment]
+  GOEKSPLO_NETLIFY_CONTEXT = "dev"
+
+# These settings supply BUILD values only. Before any hosted preview, the owner
+# must supply the same nonsecret context variable in the UI with Functions scope
+# (all scopes on Free), using matching production/deploy-preview/branch values.
+# Missing runtime scope intentionally fails closed; never infer production from
+# NODE_ENV, a hostname, a request header, or a branch name.
+# Next embeds GOEKSPLO_NETLIFY_BUILD_CONTEXT from native CONTEXT. Do not configure
+# that generated value in the UI; runtime overrides cannot change the bundle.

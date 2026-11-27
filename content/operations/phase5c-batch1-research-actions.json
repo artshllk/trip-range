@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "batchId": "phase5c-batch1",
+  "note": "Operator-only preparation log. Reader operations are recorded separately; no claim about underlying HTTP request counts. Follow-up reports contain the claim assessment. No media research, airfare observations, editorial approvals or paid AI.",
+  "actions": [
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://www.museunacional.cat/en/museum",
+      "action": "open",
+      "purpose": "Original source recheck",
+      "result": "Museum collection/location page inspected.",
+      "limitation": "Action occurred before the per-call ledger began; timestamp is retrospective recording time, not a fabricated request time.",
+      "timestamp": "2026-10-13T21:54:59.627Z",
+      "timestampKind": "recorded-after-action"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://museupicassobcn.cat/en/collection/artworks",
+      "action": "open",
+      "purpose": "Original source recheck",
+      "result": "Source reader failed (502); subsequently replaced with directly retrieved collection page.",
+      "limitation": "Action occurred before the per-call ledger began; timestamp is retrospective recording time, not a fabricated request time.",
+      "timestamp": "2026-10-13T21:54:59.627Z",
+      "timestampKind": "recorded-after-action"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://parkguell.barcelona/en",
+      "action": "open",
+      "purpose": "Original source recheck",
+      "result": "Official park page inspected.",
+      "limitation": "Action occurred before the per-call ledger began; timestamp is retrospective recording time, not a fabricated request time.",
+      "timestamp": "2026-10-13T21:54:59.627Z",
+      "timestampKind": "recorded-after-action"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://sagradafamilia.org/en/",
+      "action": "open",
+      "purpose": "Original source recheck",
+      "result": "Official basilica page inspected.",
+      "limitation": "Action occurred before the per-call ledger began; timestamp is retrospective recording time, not a fabricated request time.",
+      "timestamp": "2026-10-13T21:54:59.626Z",
+      "timestampKind": "recorded-after-action"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/prods/9/especial-patrimoni-de-la-humanitat.html",
+      "action": "open",
+      "purpose": "Recheck retained district, heritage and transport sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:47:59.931Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/19/eixample.html",
+      "action": "open",
+      "purpose": "Recheck retained district, heritage and transport sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:47:59.931Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/1052/gothic-quarter.html",
+      "action": "open",
+      "purpose": "Recheck retained district, heritage and transport sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:47:59.931Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://www.aena.es/en/josep-tarradellas-barcelona-el-prat.html",
+      "action": "open",
+      "purpose": "Recheck retained district, heritage and transport sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:47:59.931Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://static-web.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+      "action": "open",
+      "purpose": "Recheck retained district, heritage and transport sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:47:59.931Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/19/eixample.html",
+      "action": "find",
+      "purpose": "Check retained district/art/metro claims and find an accessible direct Picasso collection source: locate \"Cerdà\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:48:13.215Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/1052/gothic-quarter.html",
+      "action": "find",
+      "purpose": "Check retained district/art/metro claims and find an accessible direct Picasso collection source: locate \"Roman\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:48:13.215Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://static-web.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+      "action": "find",
+      "purpose": "Check retained district/art/metro claims and find an accessible direct Picasso collection source: locate \"Terminal\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:48:13.215Z"
+    },
+    {
+      "destination": "batch1",
+      "sourceUrl": "turn217view3",
+      "action": "find",
+      "purpose": "Check retained district/art/metro claims and find an accessible direct Picasso collection source: locate \"Romanesque\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:48:13.215Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:museupicassobcn.cat/en collection artworks paintings drawings",
+      "purpose": "Check retained district/art/metro claims and find an accessible direct Picasso collection source",
+      "result": "Discovery of primary-source candidates; searches alone do not verify claims.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:48:13.215Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://museupicassobcn.cat/en/picasso-collection",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source-reader fetch failed.",
+      "limitation": "Not counted as a successful direct source verification.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/top-ten-attractions",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.visitlondon.com/things-to-do/london-areas/westminster",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.visitlondon.com/traveller-information/getting-around-london",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.nationalgallery.org.uk/research/library-and-archive/research-guides/history-of-the-building",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.westminster-abbey.org/",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.stpauls.co.uk/",
+      "action": "open",
+      "purpose": "Recheck official attraction, area and transport evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:19.843Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.gardensbythebay.com.sg/",
+      "action": "open",
+      "purpose": "Read claim passages and Singapore original sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://sbg.nparks.gov.sg/",
+      "action": "open",
+      "purpose": "Read claim passages and Singapore original sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.nationalgallery.sg/sg/en/architecture-and-history.html",
+      "action": "open",
+      "purpose": "Read claim passages and Singapore original sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/buddha-tooth-relic-temple/",
+      "action": "open",
+      "purpose": "Read claim passages and Singapore original sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/content/mice/en/tools-and-resources/plan-your-trip/",
+      "action": "open",
+      "purpose": "Read claim passages and Singapore original sources",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.visitlondon.com/things-to-do/london-areas/westminster",
+      "action": "find",
+      "purpose": "Read claim passages and Singapore original sources: locate \"St James\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.visitlondon.com/traveller-information/getting-around-london",
+      "action": "find",
+      "purpose": "Read claim passages and Singapore original sources: locate \"river\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.nationalgallery.org.uk/research/library-and-archive/research-guides/history-of-the-building",
+      "action": "find",
+      "purpose": "Read claim passages and Singapore original sources: locate \"Trafalgar\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.westminster-abbey.org/",
+      "action": "find",
+      "purpose": "Read claim passages and Singapore original sources: locate \"church\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.hrp.org.uk/tower-of-london/",
+      "action": "find",
+      "purpose": "Read claim passages and Singapore original sources: locate \"fortress\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.stpauls.co.uk/",
+      "action": "find",
+      "purpose": "Read claim passages and Singapore original sources: locate \"dome\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:30.603Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/buddha-tooth-relic-temple/",
+      "action": "open",
+      "purpose": "Check precise claims and find transport/temple authority",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/content/mice/en/tools-and-resources/plan-your-trip/",
+      "action": "open",
+      "purpose": "Check precise claims and find transport/temple authority",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.gardensbythebay.com.sg/",
+      "action": "find",
+      "purpose": "Check precise claims and find transport/temple authority: locate \"Cloud Forest\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://sbg.nparks.gov.sg/",
+      "action": "find",
+      "purpose": "Check precise claims and find transport/temple authority: locate \"Orchid\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.nationalgallery.sg/sg/en/architecture-and-history.html",
+      "action": "find",
+      "purpose": "Check precise claims and find transport/temple authority: locate \"Supreme\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:lta.gov.sg Singapore MRT LRT bus getting around",
+      "purpose": "Check precise claims and find transport/temple authority",
+      "result": "Discovery of primary-source candidates; searches alone do not verify claims.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:watpho.com reclining Buddha",
+      "purpose": "Check precise claims and find transport/temple authority",
+      "result": "Discovery of primary-source candidates; searches alone do not verify claims.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:watarun.net temple prang",
+      "purpose": "Check precise claims and find transport/temple authority",
+      "result": "No usable direct Wat Arun authority found; retain Tourism Authority evidence.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:51:41.142Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": "https://www.royalgrandpalace.th/en/visit/practical-information",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "batch1",
+      "sourceUrl": "https://www.tatnews.org/2024/06/exploring-bangkoks-old-city-and-yaowarat-is-super-easy-with-mrt-blue-line/",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": "https://watpho.com/en/buddha/detail/204",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/plan_your_journey.html",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://granvilleisland.com/public-market",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source-reader fetch failed.",
+      "limitation": "Not counted as a successful direct source verification.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/home-property-development/vancouvers-heritage-areas.aspx",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://granvilleisland.com/directions-and-parking",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source-reader fetch failed.",
+      "limitation": "Not counted as a successful direct source verification.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park-directions.aspx",
+      "action": "open",
+      "purpose": "Reopen original source URLs and direct transport/temple evidence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:51:56.266Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1492",
+      "action": "open",
+      "purpose": "Read exact claim correspondence and recheck identity URLs",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q48435",
+      "action": "open",
+      "purpose": "Read exact claim correspondence and recheck identity URLs",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "london",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q84",
+      "action": "open",
+      "purpose": "Read exact claim correspondence and recheck identity URLs",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q334",
+      "action": "open",
+      "purpose": "Read exact claim correspondence and recheck identity URLs",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q1861",
+      "action": "open",
+      "purpose": "Read exact claim correspondence and recheck identity URLs",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q24639",
+      "action": "open",
+      "purpose": "Read exact claim correspondence and recheck identity URLs",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"forest\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"quarry\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/home-property-development/vancouvers-heritage-areas.aspx",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"Gastown\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park-directions.aspx",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"Canada\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "batch1",
+      "sourceUrl": "https://www.tatnews.org/2024/06/exploring-bangkoks-old-city-and-yaowarat-is-super-easy-with-mrt-blue-line/",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"Yaowarat\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": "https://watpho.com/en/buddha/detail/204",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"Reclining\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/plan_your_journey.html",
+      "action": "find",
+      "purpose": "Read exact claim correspondence and recheck identity URLs: locate \"MRT\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:12.036Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/buddha-tooth-relic-temple/",
+      "action": "open",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence",
+      "result": "Source-reader fetch failed.",
+      "limitation": "Not counted as a successful direct source verification.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/content/mice/en/tools-and-resources/plan-your-trip/",
+      "action": "open",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://static-web.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+      "action": "open",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.nationalgallery.sg/sg/en/architecture-and-history.html",
+      "action": "find",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence: locate \"Southeast\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.wikidata.org/wiki/Q334",
+      "action": "find",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence: locate \"city-state\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx",
+      "action": "find",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence: locate \"North Shore\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+      "action": "find",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence: locate \"Seawall\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.gardensbythebay.com.sg/",
+      "action": "click",
+      "purpose": "Resolve remaining gallery, city-state, park and conservatory claim correspondence: follow source link 15",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:52:45.727Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+      "action": "find",
+      "purpose": "Find authoritative fallback for blocked market sources; assess Wat Arun direct authority; verify conservatory wording: locate \"cool\"",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:53:04.039Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:destinationvancouver.com Granville Island Public Market indoor fresh produce",
+      "purpose": "Find authoritative fallback for blocked market sources; assess Wat Arun direct authority; verify conservatory wording",
+      "result": "Discovery of primary-source candidates; searches alone do not verify claims.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:53:04.039Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:destinationvancouver.com Granville Island getting here",
+      "purpose": "Find authoritative fallback for blocked market sources; assess Wat Arun direct authority; verify conservatory wording",
+      "result": "Discovery of primary-source candidates; searches alone do not verify claims.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:53:04.039Z"
+    },
+    {
+      "destination": "place:Q1861",
+      "sourceUrl": null,
+      "action": "search_query",
+      "query": "site:watarun.net official temple Wat Arun",
+      "purpose": "Find authoritative fallback for blocked market sources; assess Wat Arun direct authority; verify conservatory wording",
+      "result": "No usable direct Wat Arun authority found; retain Tourism Authority evidence.",
+      "limitation": "No search snippet is treated as sole approval evidence.",
+      "timestamp": "2026-10-13T21:53:04.039Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://www.destinationvancouver.com/inspirations/food-and-drink/granville-island-public-market-guide",
+      "action": "open",
+      "purpose": "Directly inspect authoritative replacement market/access source and conservatory description",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:53:19.285Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://www.destinationvancouver.com/neighbourhoods/granville-island",
+      "action": "open",
+      "purpose": "Directly inspect authoritative replacement market/access source and conservatory description",
+      "result": "Source reader returned material; claim-level assessment recorded in destination follow-up.",
+      "limitation": "Only durable selected claims considered; no volatile price/access guarantees.",
+      "timestamp": "2026-10-13T21:53:19.285Z"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/flower-dome.html",
+      "action": "find",
+      "purpose": "Directly inspect authoritative replacement market/access source and conservatory description: locate \"conservator\"",
+      "result": "No matching passage returned.",
+      "limitation": "Find is a reader operation, not a new full source inspection.",
+      "timestamp": "2026-10-13T21:53:19.285Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://museupicassobcn.cat/en/picasso-collection",
+      "action": "bounded-direct-fetch",
+      "purpose": "Resolve source-reader failure without relying only on snippets",
+      "result": "HTTP 200; selected source passages inspected.",
+      "limitation": "Only selected durable claims used; no volatile prices or religious authenticity claim.",
+      "timestamp": "2026-10-13T21:52:35.427387+00:00"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://granvilleisland.com/public-market",
+      "action": "bounded-direct-fetch",
+      "purpose": "Resolve source-reader failure without relying only on snippets",
+      "result": "HTTP error; not counted as verified.",
+      "limitation": "No retry loop; failed market citations replaced by official tourism evidence.",
+      "timestamp": "2026-10-13T21:52:36.630857+00:00"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://granvilleisland.com/directions-and-parking",
+      "action": "bounded-direct-fetch",
+      "purpose": "Resolve source-reader failure without relying only on snippets",
+      "result": "HTTP error; not counted as verified.",
+      "limitation": "No retry loop; failed market citations replaced by official tourism evidence.",
+      "timestamp": "2026-10-13T21:52:36.906942+00:00"
+    },
+    {
+      "destination": "place:Q334",
+      "sourceUrl": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/buddha-tooth-relic-temple/",
+      "action": "bounded-direct-fetch",
+      "purpose": "Resolve source-reader failure without relying only on snippets",
+      "result": "HTTP 200; selected source passages inspected.",
+      "limitation": "Only selected durable claims used; no volatile prices or religious authenticity claim.",
+      "timestamp": "2026-10-13T21:52:37.104019+00:00"
+    },
+    {
+      "destination": "batch1",
+      "sourceUrl": "https://api.travelpayouts.com/data/en/cities.json",
+      "action": "public-provider-metadata",
+      "purpose": "Verify exact city-group identity and flightable airport membership for only the five batch cities",
+      "result": "HTTP 200; BCN, LON, SIN, BKK and YVR rows inspected. Non-flightable and rail/bus records excluded.",
+      "limitation": "Identity metadata only, not route availability, fares or editorial approval.",
+      "timestamp": "2026-10-13T21:47:38.474Z"
+    },
+    {
+      "destination": "batch1",
+      "sourceUrl": "https://api.travelpayouts.com/data/en/airports.json",
+      "action": "public-provider-metadata",
+      "purpose": "Verify exact city-group identity and flightable airport membership for only the five batch cities",
+      "result": "HTTP 200; BCN, LON, SIN, BKK and YVR rows inspected. Non-flightable and rail/bus records excluded.",
+      "limitation": "Identity metadata only, not route availability, fares or editorial approval.",
+      "timestamp": "2026-10-13T21:47:39.172Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://www.aena.es/en/josep-tarradellas-barcelona-el-prat.html",
+      "action": "find",
+      "purpose": "Confirm retained airport transport modes",
+      "result": "Aena lists Underground L9 Sud, bus lines and trains.",
+      "limitation": "No fares, timetables or access guarantees copied.",
+      "timestamp": "2026-10-13T22:06:43.669Z"
+    },
+    {
+      "destination": "city:BCN",
+      "sourceUrl": "https://www.aena.es/en/josep-tarradellas-barcelona-el-prat.html",
+      "action": "find",
+      "purpose": "Locate Metro wording",
+      "result": "No matching Metro passage; Aena uses Underground terminology.",
+      "limitation": "No additional factual claim inferred.",
+      "timestamp": "2026-10-13T22:06:43.669Z"
+    },
+    {
+      "destination": "place:Q24639",
+      "sourceUrl": "https://www.destinationvancouver.com/neighbourhoods/granville-island",
+      "action": "find",
+      "purpose": "Confirm area/access context",
+      "result": "Tourism page locates Granville Island in Vancouver and describes False Creek history and transport links.",
+      "limitation": "No travel times, walk scores or seasonal claims copied.",
+      "timestamp": "2026-10-13T22:06:43.669Z"
+    }
+  ]
+}

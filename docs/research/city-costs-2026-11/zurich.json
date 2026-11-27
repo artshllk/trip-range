@@ -1,0 +1,487 @@
+{
+  "city": "Zurich",
+  "country_code": "CH",
+  "method_version": "research-v5",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "ZRH",
+      "public_option_name": "ZVV train or S-Bahn, Zürich Flughafen–Zürich HB; three-zone ordinary single",
+      "public_price": {
+        "value": null,
+        "currency": "CHF",
+        "unit": "per adult second-class ZRH–Zürich HB single ticket",
+        "status": "disputed",
+        "source_name": "ZVV and Zürich Tourismus",
+        "source_url": "https://www.zvv.ch/content/dam/zvv/abos-und-tickets/Abo_und_Ticketpreise_ab_14_Dezember_2025.pdf",
+        "checked_date": "2026-11-02",
+        "note": "Official sources disagree: the operator tariff effective 2025-12-14 lists the three-zone fare below, while the tourism airport page still displays a lower single fare. No value is selected for the model. The dated operator tariff is the stronger current evidence; the discrepancy remains recorded as requested.",
+        "alternatives": [
+          {
+            "value": 7.2,
+            "currency": "CHF",
+            "unit": "per adult second-class three-zone single ticket",
+            "status": "confirmed",
+            "source_name": "ZVV — published tariff effective 2025-12-14",
+            "source_url": "https://www.zvv.ch/content/dam/zvv/abos-und-tickets/Abo_und_Ticketpreise_ab_14_Dezember_2025.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Zürich city zone 110 counts twice, plus airport zone 121. One-hour ticket. Airport-zone example corroborated by https://www.zvv.ch/de/ueber-uns/zuercher-verkehrsverbund/medien/medienmitteilungen/2026/2026-03-31-Tarifanpassung-im-Dezember-2026--ZVV-startet-Vernehmlassung.html."
+          },
+          {
+            "value": 7,
+            "currency": "CHF",
+            "unit": "per adult airport–city single ticket",
+            "status": "confirmed",
+            "source_name": "Zürich Tourismus — airport to city centre",
+            "source_url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+            "checked_date": "2026-11-02",
+            "note": "Undated live tourism table; conflicts with the dated ZVV tariff. This lower amount must not be assumed current."
+          }
+        ]
+      },
+      "journey_legs": [
+        {
+          "origin": "Zürich Flughafen railway station",
+          "destination": "Zürich HB",
+          "mode": "Train / S-Bahn",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes for the station-to-station rail leg",
+            "status": "unconfirmed",
+            "source_name": "Zürich Tourismus",
+            "source_url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+            "checked_date": "2026-11-02",
+            "note": "Published rail timing is a range; scalar intentionally empty, with the two published bounds retained below. No midpoint or single bound promoted as the duration."
+          },
+          "duration_minutes_low": {
+            "value": 10,
+            "currency": null,
+            "unit": "published lower bound of approximate rail-leg minutes",
+            "status": "confirmed",
+            "source_name": "Zürich Tourismus — airport rail transfer",
+            "source_url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+            "checked_date": "2026-11-02",
+            "note": "Rail transfer to Zürich HB; excludes waiting and terminal walking."
+          },
+          "duration_minutes_high": {
+            "value": 15,
+            "currency": null,
+            "unit": "published upper bound of approximate rail-leg minutes",
+            "status": "confirmed",
+            "source_name": "Zürich Tourismus — airport rail transfer",
+            "source_url": "https://www.zuerich.com/en/inform-plan/getting-there-and-mobility-on-location/travel-to-zurich/zurich-airport-to-city-center",
+            "checked_date": "2026-11-02",
+            "note": "Published range, not a promised maximum door-to-centre travel time."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "CHF",
+        "unit": "per vehicle for a fixed airport–city transfer",
+        "status": "unconfirmed",
+        "source_name": "Flughafen Zürich",
+        "source_url": "https://www.flughafen-zuerich.ch/en/passengers/practical/parking-and-transport/taxi-und-limousinen",
+        "checked_date": "2026-11-02",
+        "note": "The airport publishes an approximate cost, not a guaranteed fixed tariff. It has not been relabelled as a fixed fare."
+      },
+      "taxi_tariffs": [
+        {
+          "name": "Airport Taxi Zürich",
+          "applicability": "Official airport-rank taxis; current operator meter tariff not retrieved.",
+          "base_fare": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "Airport Taxi Zürich",
+            "source_url": "https://www.flughafen-zuerich.ch/en/passengers/practical/parking-and-transport/taxi-und-limousinen",
+            "checked_date": "2026-11-02",
+            "note": "The operator link https://www.airporttaxi-zuerich.ch/ was inaccessible. The former city maximum tariff is explicitly out of force from 2026-01-01: https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/amtliche-sammlung/9/935/440.html. Do not use that repealed schedule. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "unconfirmed",
+            "source_name": "Airport Taxi Zürich",
+            "source_url": "https://www.flughafen-zuerich.ch/en/passengers/practical/parking-and-transport/taxi-und-limousinen",
+            "checked_date": "2026-11-02",
+            "note": "The operator link https://www.airporttaxi-zuerich.ch/ was inaccessible. The former city maximum tariff is explicitly out of force from 2026-01-01: https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/amtliche-sammlung/9/935/440.html. Do not use that repealed schedule. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Airport Taxi Zürich",
+            "source_url": "https://www.flughafen-zuerich.ch/en/passengers/practical/parking-and-transport/taxi-und-limousinen",
+            "checked_date": "2026-11-02",
+            "note": "The operator link https://www.airporttaxi-zuerich.ch/ was inaccessible. The former city maximum tariff is explicitly out of force from 2026-01-01: https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/amtliche-sammlung/9/935/440.html. Do not use that repealed schedule. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "CHF",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Airport Taxi Zürich",
+            "source_url": "https://www.flughafen-zuerich.ch/en/passengers/practical/parking-and-transport/taxi-und-limousinen",
+            "checked_date": "2026-11-02",
+            "note": "The operator link https://www.airporttaxi-zuerich.ch/ was inaccessible. The former city maximum tariff is explicitly out of force from 2026-01-01: https://www.stadt-zuerich.ch/de/politik-und-verwaltung/politik-und-recht/amtliche-sammlung/9/935/440.html. Do not use that repealed schedule. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 4.7,
+      "currency": "CHF",
+      "unit": "per adult second-class single, one-hour validity",
+      "status": "confirmed",
+      "source_name": "ZVV",
+      "source_url": "https://www.zvv.ch/content/dam/zvv/abos-und-tickets/Abo_und_Ticketpreise_ab_14_Dezember_2025.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Published tariff effective 2025-12-14; ordinary full fare, no Half Fare Card.",
+      "validity_area": "Zürich city zone 110; counted as two zones. Airport zone 121 excluded."
+    },
+    "day_pass": {
+      "value": 9.4,
+      "currency": "CHF",
+      "unit": "per adult second-class 24h ticket",
+      "status": "confirmed",
+      "source_name": "ZVV",
+      "source_url": "https://www.zvv.ch/content/dam/zvv/abos-und-tickets/Abo_und_Ticketpreise_ab_14_Dezember_2025.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Published consecutive-hour product; not the cheaper calendar-day/check-in product.",
+      "validity_area": "Zürich city zone 110, counted as two zones; airport excluded.",
+      "validity_kind": "consecutive_hours",
+      "satisfies_rolling_24h_requirement": true
+    },
+    "pass_72h": {
+      "value": 56,
+      "currency": "CHF",
+      "unit": "per adult Zürich Card for 72 consecutive hours",
+      "status": "confirmed",
+      "source_name": "Zürich Tourismus — Zürich Card",
+      "source_url": "https://www.zuerich.com/de/zuerich-card-city-guide-app/zuerich-card",
+      "checked_date": "2026-11-02",
+      "note": "Bundled tourist card, not a transport-only pass. Official page announces changed prices for validity beginning from 2026-12-13; no future amount was verified. Current price must not be carried past that date. Zone and rolling-hour terms: https://www.zuerich.com/en/zurich-card-city-guide-app/zurich-card/questions-and-answers-about-the-zc.",
+      "validity_area": "ZVV zones 110, 111, 121, 140, 150, 154 and 155, second class, including the airport; wider than the single/day city-only observations."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2026-11-02",
+        "to": null,
+        "period_semantics": "observation_date_not_enactment_date",
+        "basis": "not_levied",
+        "rate": {
+          "value": null,
+          "currency": "CHF",
+          "unit": "no statutory accommodation visitor-tax rate",
+          "status": "not_offered",
+          "source_name": "Swiss Federal Office for Housing (BWO) — Steuern und andere Abgaben, published 2026-08-28",
+          "source_url": "https://www.bwo.admin.ch/de/rechtsgebiet-steuern-und-andere-abgaben",
+          "checked_date": "2026-11-02",
+          "note": "BWO explicitly identifies Zürich among the cantons without a statutory Beherbergungsabgabe. The city council separately states that the local Kurtaxe/City Tax is not a public tax, and current Zürich Tourismus statutes identify hotel-agreement funding. The contractual City Tax is represented exactly once in accommodation_charges. No second statutory city charge has been verified."
+        },
+        "exemptions": "Not applicable to the absent statutory accommodation visitor tax. VAT and contractual property charges are separate.",
+        "legal_source_url": "https://www.bwo.admin.ch/de/rechtsgebiet-steuern-und-andere-abgaben",
+        "legal_source_kind": "official_authority_legal_explanation_not_an_enacted_zero_rate",
+        "absence_evidence": [
+          {
+            "source_name": "Swiss Federal Office for Housing (BWO)",
+            "source_url": "https://www.bwo.admin.ch/de/rechtsgebiet-steuern-und-andere-abgaben",
+            "checked_date": "2026-11-02",
+            "finding": "Current federal legal explanation explicitly says Zürich has not introduced a Beherbergungsabgabe; municipalities can tax only within cantonal authorisation.",
+            "published_date": "2026-08-28"
+          },
+          {
+            "source_name": "Zürich City Council — resolution 115 of 2014-02-26, answer to question 5, p. 3",
+            "source_url": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/stadtratsbeschluesse/2014/Feb/StZH_StRB_2014_0115.pdf",
+            "checked_date": "2026-11-02",
+            "finding": "Explains that the locally named Kurtaxe is not a public tax, but the hotels’ City Tax contribution to Zürich Tourismus."
+          },
+          {
+            "source_name": "Zürich Tourismus — current statutes, article 3",
+            "source_url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/statuten",
+            "checked_date": "2026-11-02",
+            "finding": "Logiernachttaxen are funded under agreements with the hotel association and other hotel businesses."
+          }
+        ],
+        "calculation": {
+          "status": "computable_absence",
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "supported_case": "No statutory accommodation visitor-tax component in the named jurisdiction as checked; this does not resolve other hotel fees.",
+          "required_inputs": [
+            "property_jurisdiction",
+            "continued_applicability_for_travel_date"
+          ],
+          "refuse_when": [
+            "evidence no longer applies to the travel date or property jurisdiction",
+            "a new enacted rule supersedes this observation"
+          ],
+          "evidence_gaps": [],
+          "result_rule": "Emit no statutory-tax charge, with the absence evidence attached. Do not manufacture a numeric source rate or require currency conversion for an absent charge."
+        }
+      }
+    ],
+    "relationship_to_accommodation_charges": "No duplicate statutory layer: the positively sourced absent statutory tax and the one conditional contractual City Tax describe different classifications, not two payable charges."
+  },
+  "accommodation_charges": [
+    {
+      "name": "Zürich Tourismus City Tax — contractual tourism contribution",
+      "from": null,
+      "to": null,
+      "basis": "per_person_per_night",
+      "rate": {
+        "value": 3.5,
+        "currency": "CHF",
+        "unit": "per guest per night at a property within the applicable agreement",
+        "status": "confirmed",
+        "source_name": "City of Zürich — tourism funding announcement",
+        "source_url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/11/der-tourismus-bleibt-der-stadt-zuerich-wichtig.html",
+        "checked_date": "2026-11-02",
+        "note": "The authority reports the increase in May 2023; the first day is not independently established by that announcement and must not be treated as an exact legal commencement. Current organisation financing page corroborates the amount: https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/nachhaltigkeitsberichte/nachhaltigkeitsbericht-2024/finanzen. This is a contractual contribution, not a citywide statutory tax."
+      },
+      "universal": false,
+      "applicability": {
+        "scope": "Hotels bound by the Zürich Hotelier Verein / Zürich Tourismus agreement or an individual participating-hotel agreement; no geographic presence alone establishes liability.",
+        "membership_rule": "Zürich Tourismus statutes article 3 identifies hotel contributions under agreements; article 5 links lodging membership to the hotel association or GastroZürich, subject to exceptions.",
+        "basis_source_url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/statuten",
+        "property_match_required": true,
+        "property_register_url": null,
+        "exclusions": "Being in Zürich alone does not establish an agreement or guest charge. No complete live hotel register or platform-collection rule was verified. A selected property may establish applicability through its own terms; the verified EMA House case below is not a citywide exemption policy.",
+        "verified_property_cases": [
+          {
+            "property_operator": "EMA House AG — Hotel Suites and Serviced Apartments",
+            "match_rule": "Only a reservation at an EMA House property governed by the cited EMA House terms; not all Zürich accommodation. Confirm the exact property and any contractual departure from the standard terms.",
+            "rate": {
+              "value": 3.5,
+              "currency": "CHF",
+              "unit": "per liable guest per night, including VAT",
+              "status": "confirmed",
+              "source_name": "EMA House — terms section 1.3",
+              "source_url": "https://ema-house.ch/de/agb/",
+              "checked_date": "2026-11-02",
+              "note": "Operator explicitly identifies remittance to Zürich Tourismus. Same City Tax as the scheme-level entry, not an additional charge."
+            },
+            "exempt_age_up_to_inclusive": {
+              "value": 12,
+              "currency": null,
+              "unit": "guest age in years",
+              "status": "confirmed",
+              "source_name": "EMA House — terms section 1.3",
+              "source_url": "https://ema-house.ch/de/agb/",
+              "checked_date": "2026-11-02",
+              "note": "The wording exempts children and young people up to twelve."
+            },
+            "maximum_chargeable_nights": {
+              "value": 30,
+              "currency": null,
+              "unit": "nights in the qualifying long stay",
+              "status": "confirmed",
+              "source_name": "EMA House — terms section 1.3",
+              "source_url": "https://ema-house.ch/de/agb/",
+              "checked_date": "2026-11-02",
+              "note": "Operator states the fee ceases from the following night of a long stay."
+            },
+            "vat_included": true,
+            "quote_inclusion": "Resolve against the booking: the same terms also describe prices as including taxes. Do not add the charge if the booking already includes it.",
+            "source_name": "EMA House AG",
+            "source_url": "https://ema-house.ch/de/agb/",
+            "checked_date": "2026-11-02"
+          }
+        ]
+      },
+      "charge_unit": "liable_person_night",
+      "calculation": {
+        "status": "conditional",
+        "research_parameters_complete_for_supported_case": true,
+        "exact_guest_total_from_record_alone": false,
+        "supported_case": "A selected EMA House booking governed by the recorded terms, with age, chargeable nights and quote inclusion resolved; other hotels require their own verified terms.",
+        "required_inputs": [
+          "exact_property_and_applicable_terms",
+          "guest_age",
+          "continuous_stay_nights",
+          "booking_quote_fee_inclusion",
+          "fresh_supported_CHF_EUR_conversion"
+        ],
+        "refuse_when": [
+          "no verified property match or applicable terms",
+          "guest exemption or quote inclusion unresolved",
+          "any selected tariff or FX input unconfirmed/disputed/expired"
+        ],
+        "evidence_gaps": [
+          "An exhaustive property register and scheme-wide age/long-stay/VAT rules are not verified; do not extrapolate the EMA House case. Exact historical commencement day remains unverified, so historical pricing is unsupported."
+        ]
+      },
+      "charge_id": "zurich-tourismus-city-tax",
+      "classification": "contractual_tourism_contribution",
+      "classification_evidence": [
+        {
+          "source_name": "Zürich City Council",
+          "source_url": "https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/stadtratsbeschluesse/2014/Feb/StZH_StRB_2014_0115.pdf",
+          "checked_date": "2026-11-02",
+          "finding": "The City Tax is not a public tax."
+        },
+        {
+          "source_name": "Swiss Federal Office for Housing",
+          "source_url": "https://www.bwo.admin.ch/de/rechtsgebiet-steuern-und-andere-abgaben",
+          "checked_date": "2026-11-02",
+          "finding": "No statutory Zürich Beherbergungsabgabe."
+        },
+        {
+          "source_name": "Zürich Tourismus statutes",
+          "source_url": "https://www.zuerich.com/de/business/ueber-zuerich-tourismus/organisation/statuten",
+          "checked_date": "2026-11-02",
+          "finding": "Hotel-agreement basis."
+        },
+        {
+          "source_name": "Hotel Central Plaza Zürich — FAQ",
+          "source_url": "https://www.central.ch/de/faq",
+          "checked_date": "2026-11-02",
+          "finding": "The hotel describes the City Tax as levied by the city. This conflicts with the legal classification given by the public authorities. Retained as a terminology conflict, not evidence of a separate additive charge; governmental legal explanation governs classification."
+        }
+      ],
+      "deduplication_rule": {
+        "identity": "zurich-tourismus-city-tax",
+        "aliases": [
+          "City Tax",
+          "Kurtaxe",
+          "Beherbergungstaxe",
+          "Übernachtungs-Abgabe"
+        ],
+        "same_charge_as_property_cases": true,
+        "never_add_as_statutory_tax": true,
+        "booking_rule": "Match scheme, property, guest and nights. A scheme observation, a hotel tariff and a booking line for the same contribution are evidence of one liability, not three charges. Labels alone are insufficient to identify a different fee; require separate issuer, purpose and legal/contractual basis before adding another."
+      }
+    }
+  ],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 15.8,
+      "currency": "CHF",
+      "unit": "per Menu 1 meal at Sternen Grill Bellevue",
+      "status": "confirmed",
+      "source_name": "Sternen Grill — take-away menu",
+      "source_url": "https://www.sternengrill.ch/take-away-en",
+      "checked_date": "2026-11-02",
+      "note": "Bratwurst with bread roll, mustard and potato salad; VAT included. Named counter-service meal, not a city average. Menu has no explicit effective date."
+    },
+    "midrange_meal_for_two": {
+      "value": null,
+      "currency": "CHF",
+      "unit": "per explicitly priced restaurant meal for two",
+      "status": "unconfirmed",
+      "source_name": "Zeughauskeller",
+      "source_url": "https://www.zeughauskeller.ch/",
+      "checked_date": "2026-11-02",
+      "note": "Official site returned 403 and no current explicit two-person total was verified. Individual prices have not been doubled and a shop pack of uncooked sausages is not a restaurant meal."
+    },
+    "coffee": {
+      "value": 6.2,
+      "currency": "CHF",
+      "unit": "per cappuccino at Sprüngli Café & Bar Löwenplatz",
+      "status": "confirmed",
+      "source_name": "Confiserie Sprüngli — venue drinks menu",
+      "source_url": "https://www.spruengli.ch/images/spruengli-welt/kaffeekultur-gastronomie/g4-getraenkekarte-spruengli-cafe-bar-loewenplatz-zuerich.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Official venue menu PDF, indexed as published in 2026. No expiry or explicit tariff commencement established. Named café observation; extras not assumed."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Kunsthaus Zürich — collection and small exhibitions",
+      "entry_price": {
+        "value": 24,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Kunsthaus Zürich — collection and small exhibitions — official visitor information",
+        "source_url": "https://kunsthaus.ch/en/besuch-planen/",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary adult collection ticket; separate major exhibitions cost differently. Collection is free on Wednesdays. The page describes online and counter ticket purchase, supporting non-mandatory advance purchase for ordinary individual admission; groups require registration."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Swiss National Museum / Landesmuseum Zürich",
+      "entry_price": {
+        "value": 13,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Swiss National Museum / Landesmuseum Zürich — official visitor information",
+        "source_url": "https://www.landesmuseum.ch/tickets",
+        "checked_date": "2026-11-02",
+        "note": "Standard adult admission. The separately free Einfach Zürich exhibition is not this product. Page distinguishes reservations for guided tours, but no explicit ordinary-individual advance-booking rule was verified; boolean unknown."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Lindt Home of Chocolate, Kilchberg",
+      "entry_price": {
+        "value": 17,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Lindt Home of Chocolate, Kilchberg — official visitor information",
+        "source_url": "https://www.lindt-home-of-chocolate.com/de/tickets-und-preise/",
+        "checked_date": "2026-11-02",
+        "note": "Individual adult museum admission, not a workshop. Located in Kilchberg outside the city boundary. FAQ asks visitors to book online in advance due to demand: https://www.lindt-home-of-chocolate.com/de/tickets-und-preise/haeufige-fragen/. That request alone does not prove an absolute no-walk-in rule, so booking obligation remains unknown."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "FIFA Museum",
+      "entry_price": {
+        "value": 26,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "FIFA Museum — official visitor information",
+        "source_url": "https://www.fifamuseum.com/en/zurich/plan-your-visit/tickets",
+        "checked_date": "2026-11-02",
+        "note": "Standard adult admission. Ticket FAQ https://www.fifamuseum.com/en/zurich/plan-your-visit/tickets/ticketing-faq confirms online/mobile tickets but the retrieved content did not establish an obligatory advance purchase; no availability claim."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Zoo Zürich",
+      "entry_price": {
+        "value": null,
+        "currency": "CHF",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "unconfirmed",
+        "source_name": "Zoo Zürich — official visitor information",
+        "source_url": "https://zoo.ch/en/plan-your-visit/tickets-prices",
+        "checked_date": "2026-11-02",
+        "note": "The official single-admission interface requires a visit date and the retrieved text did not expose an adult price. Guided-tour additional-person prices are different products and were not substituted. Current ordinary price and advance-booking obligation remain unconfirmed."
+      },
+      "booking_ahead_required": null
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "The ZRH fare is disputed between the dated operator schedule and the tourism page; the model must not silently choose the lower price. All ZVV prices require rechecking for trips from the announced December 2026 change.",
+    "The City Tax is stored as a conditional accommodation charge with universal=false. Its exact commencement day and complete property/exemption mapping remain unverified; no citywide tax or universal application is asserted.",
+    "Taxi operator tariff retrieval, Zoo Zürich date-specific admission, the two-person restaurant total and several explicit booking rules remain unresolved.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero.",
+    "Final taxi cross-check: the tourism page gives a general most-taxis tariff, but named operator 7x7 publishes no meter schedule at https://www.7x7.ch/en/chauffeur-services/taxis/. Its airport-pickup page https://www.7x7.ch/en/chauffeur-services/airport-pickup/ quotes a meet-and-greet service fee, not a fare to a specified city endpoint. Neither was relabelled as a verified airport-rank meter tariff or fixed transfer. Checked 2026-11-02.",
+    "Tax follow-up resolves the earlier statutory uncertainty: BWO and city-council evidence support not_offered. Beherbergungsabgabe/Kurtaxe/City Tax terminology alone does not prove a statutory tax. The existing contractual charge remains once, with universal=false.",
+    "The new EMA House case verifies one operator’s guest tariff, VAT inclusion and exemptions; it does not turn that charge into a universal Zürich levy. Other property and platform agreements still require evidence. Avoid duplicate addition when the booking already includes the City Tax."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

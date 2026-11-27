@@ -1,0 +1,497 @@
+{
+  "destinationId": "place:Q5465",
+  "identitySubject": "place:Q5465",
+  "contentVersion": 4,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-23T22:47:28.038Z",
+  "sourceIds": [
+    "source:worldwide:place-Q5465:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q5465:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q5465",
+      "title": "Cape Town (Q5465)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q5465"
+      }
+    },
+    {
+      "id": "source:expansion01:cape-town:bokaap",
+      "type": "official",
+      "url": "https://www.capetown.travel/neighbourhood/bo-kaap/",
+      "title": "Bo-Kaap",
+      "publisher": "Cape Town Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:island",
+      "type": "official",
+      "url": "https://www.robben-island.org.za/",
+      "title": "Robben Island Museum",
+      "publisher": "Robben Island Museum",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:mountain",
+      "type": "official",
+      "url": "https://www.tablemountain.net/plan-your-visit/getting-here",
+      "title": "Getting to Table Mountain Cableway",
+      "publisher": "Table Mountain Aerial Cableway",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:garden",
+      "type": "official",
+      "url": "https://www.sanbi.org/gardens/kirstenbosch/",
+      "title": "Kirstenbosch",
+      "publisher": "SANBI",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:bases",
+      "type": "official",
+      "url": "https://www.capetown.travel/the-best-areas-to-stay-in-cape-town/",
+      "title": "Areas to stay in Cape Town",
+      "publisher": "Cape Town Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:airport",
+      "type": "official",
+      "url": "https://www.airports.co.za/airports/cape-town-international-airport/transport/public-transport",
+      "title": "CPT public transport",
+      "publisher": "Airports Company South Africa",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:bus",
+      "type": "official",
+      "url": "https://www.myciti.org.za/en/routes-stops/airport-services/",
+      "title": "Airport services notice",
+      "publisher": "MyCiTi",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:city",
+      "type": "official",
+      "url": "https://www.capetown.travel/areas/central-city/",
+      "title": "Central City",
+      "publisher": "Cape Town Tourism",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:cape-town:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:batch3:cape-town:museum-tour",
+      "type": "official",
+      "title": "Robben Island tour arrangements",
+      "publisher": "Robben Island Museum",
+      "url": "https://www.robben-island.org.za/tour-types/",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Cape Town combines a working harbour, neighbourhood history and mountain scenery. A short stay needs flexibility: the cableway and island visit depend on conditions, and not every outing is connected by a simple city walk."
+    },
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-23T22:47:28.038Z",
+    "sourceIds": [
+      "source:expansion01:cape-town:bokaap",
+      "source:expansion01:cape-town:island"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q5465:table-mountain",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "Table Mountain Cableway"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "Choose a cableway visit only when the operator confirms service and conditions. Keep another city outing available rather than promising a summit view."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:mountain"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q5465:robben-island",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "Robben Island Museum"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Use the museum’s tour and ferry arrangements, which depend on weather and demand. Confirm departure, return and cancellation terms before placing another timed booking after it."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:island",
+        "source:batch3:cape-town:museum-tour"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q5465:kirstenbosch",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "Kirstenbosch National Botanical Garden"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Visit the garden on the mountain’s eastern slopes as its own outing. It is not beside the cableway’s lower station."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:garden",
+        "source:expansion01:cape-town:mountain"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q5465:bo-kaap",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "Bo-Kaap"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Explore the neighbourhood’s streets with respect for residents and its Cape Malay heritage. Homes and worship spaces are not unrestricted photo locations."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bokaap",
+        "source:expansion01:cape-town:bases"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q5465:expansion01-5",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "V&A Waterfront"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Use the harbour precinct as a flexible city outing. Individual museums, boat trips and other attractions have separate tickets and operating conditions."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bases",
+        "source:expansion01:cape-town:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q5465:expansion01-1",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "City Bowl"
+      },
+      "summary": {
+        "en": "Compare exact addresses for city outings and connections to the mountain."
+      },
+      "goodFor": [
+        {
+          "en": "Combining neighbourhood visits with a central base."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Slopes and routes vary; check each journey and the evening return with your accommodation."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bases",
+        "source:expansion01:cape-town:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q5465:expansion01-2",
+      "destinationId": "place:Q5465",
+      "name": {
+        "en": "V&A Waterfront"
+      },
+      "summary": {
+        "en": "Consider a base around the harbour if the waterfront and island departure arrangements are priorities."
+      },
+      "goodFor": [
+        {
+          "en": "A harbour-focused stay with visitor services."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Kirstenbosch and Table Mountain still need separate transport; no room-rate comparison is implied."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bases",
+        "source:expansion01:cape-town:island",
+        "source:expansion01:cape-town:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q5465:expansion01-1",
+      "destinationId": "place:Q5465",
+      "title": {
+        "en": "Cape Town International (CPT)"
+      },
+      "guidance": {
+        "en": "Use authorised airport taxis/shuttles or the listed app-based options. MyCiTi marks the direct airport bus suspended: do not rely on the old timetable lower on that page. Recheck before travel."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:airport",
+        "source:expansion01:cape-town:bus"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q5465:expansion01-2",
+      "destinationId": "place:Q5465",
+      "title": {
+        "en": "Plan each city-to-sight journey"
+      },
+      "guidance": {
+        "en": "The garden, cableway and island departure are different journeys. Check current local routes for both ends and arrange the return, rather than assuming a pass or shared transfer covers them all."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:garden",
+        "source:expansion01:cape-town:mountain",
+        "source:expansion01:cape-town:island",
+        "source:expansion01:cape-town:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q5465:expansion01-history",
+      "destinationId": "place:Q5465",
+      "kind": "other",
+      "text": {
+        "en": "Bo-Kaap is a living community with Cape Malay heritage. Robben Island tells an essential part of South Africa’s history; use the museum’s tour arrangements rather than treating it as a viewpoint excursion."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bokaap",
+        "source:expansion01:cape-town:island"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q5465:expansion01-cost-limits",
+      "destinationId": "place:Q5465",
+      "kind": "booking",
+      "text": {
+        "en": "Weather changes do not create replacement tickets or confirmed availability. Airport travel, local transfers, rooms, meals and chosen tours remain unpriced here; no complete trip total is implied."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q5465:expansion01-2-nights",
+      "destinationId": "place:Q5465",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Cape Town"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q5465:bo-kaap",
+          "day": 1,
+          "notes": {
+            "en": "A flexible city visit after settling in."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:table-mountain",
+          "day": 2,
+          "notes": {
+            "en": "Keep this day movable for weather; use the waterfront if the cableway is not operating."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:expansion01-5",
+          "day": 2,
+          "notes": {
+            "en": "An optional harbour outing, without stacking another timed tour."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:kirstenbosch",
+          "day": 3,
+          "notes": {
+            "en": "Only if there is room for the full return journey before departure."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bokaap",
+        "source:expansion01:cape-town:bases",
+        "source:expansion01:cape-town:mountain",
+        "source:expansion01:cape-town:city",
+        "source:expansion01:cape-town:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q5465:expansion01-3-nights",
+      "destinationId": "place:Q5465",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Cape Town"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q5465:bo-kaap",
+          "day": 1,
+          "notes": {
+            "en": "Begin with the city neighbourhood if arrival permits."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:table-mountain",
+          "day": 2,
+          "notes": {
+            "en": "Keep the mountain day movable and do not assume visibility."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:kirstenbosch",
+          "day": 2,
+          "notes": {
+            "en": "Optional separate garden journey only if the day remains comfortable; otherwise choose one."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:robben-island",
+          "day": 3,
+          "notes": {
+            "en": "Use a confirmed museum tour and leave the rest of the day flexible."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q5465:expansion01-5",
+          "day": 4,
+          "notes": {
+            "en": "A final harbour visit if it fits departure."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.038Z",
+      "sourceIds": [
+        "source:expansion01:cape-town:bokaap",
+        "source:expansion01:cape-town:bases",
+        "source:expansion01:cape-town:mountain",
+        "source:expansion01:cape-town:garden",
+        "source:expansion01:cape-town:island",
+        "source:expansion01:cape-town:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "publication": {
+    "contentDigest": "575e307944cd931442dddac18d907ec0e3fd534cd0b4ecd7b5fa590597d3cf34",
+    "identityDigest": "48c33ee44cc988aecdd2b7415d6a6157a05dcc91df4cbd11cbb2fe1776590846",
+    "approvedAt": "2026-10-23T22:47:28.038Z"
+  }
+}

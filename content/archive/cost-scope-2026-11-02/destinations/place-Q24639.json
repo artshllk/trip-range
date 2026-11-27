@@ -1,0 +1,313 @@
+{
+  "destinationId": "place:Q24639",
+  "identitySubject": "place:Q24639",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-13T22:33:26.494Z",
+  "sourceIds": [
+    "source:worldwide:place-Q24639:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q24639:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q24639",
+      "title": "Vancouver (Q24639)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T21:54:31.358Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q24639"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q24639:stanley",
+      "type": "official",
+      "url": "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx",
+      "title": "Stanley Park",
+      "publisher": "City of Vancouver",
+      "retrievedAt": "2026-10-13T21:54:31.358Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24639:queen",
+      "type": "official",
+      "url": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park.aspx",
+      "title": "Queen Elizabeth Park",
+      "publisher": "City of Vancouver",
+      "retrievedAt": "2026-10-13T21:54:31.358Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24639:market",
+      "type": "official",
+      "url": "https://www.destinationvancouver.com/inspirations/food-and-drink/granville-island-public-market-guide",
+      "title": "Granville Island Public Market guide",
+      "publisher": "Destination Vancouver",
+      "retrievedAt": "2026-10-13T21:54:31.358Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24639:heritage",
+      "type": "official",
+      "url": "https://vancouver.ca/home-property-development/vancouvers-heritage-areas.aspx",
+      "title": "Vancouver heritage areas",
+      "publisher": "City of Vancouver",
+      "retrievedAt": "2026-10-13T21:54:31.358Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24639:transport",
+      "type": "official",
+      "url": "https://www.destinationvancouver.com/neighbourhoods/granville-island",
+      "title": "Granville Island neighbourhood",
+      "publisher": "Destination Vancouver",
+      "retrievedAt": "2026-10-13T21:54:31.358Z"
+    },
+    {
+      "id": "source:worldwide:place-Q24639:park-access",
+      "type": "official",
+      "url": "https://vancouver.ca/parks-recreation-culture/queen-elizabeth-park-directions.aspx",
+      "title": "Queen Elizabeth Park directions",
+      "publisher": "City of Vancouver",
+      "retrievedAt": "2026-10-13T21:54:31.358Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13T22:33:26.494Z",
+    "sourceIds": [
+      "source:worldwide:place-Q24639:stanley",
+      "source:worldwide:place-Q24639:market",
+      "source:worldwide:place-Q24639:heritage"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Vancouver combines waterfront parks, a public market and historic districts. Pick a few areas rather than extending a city visit to Vancouver Island.",
+      "sq": "Vancouver ndërthur parqet buzë ujit me tregun publik dhe lagjet historike. Zgjidh disa zona për vizitën; Vancouver Island është destinacion më vete."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q24639:1",
+      "text": {
+        "en": "Forest and seawall at Stanley Park",
+        "sq": "Pyll dhe shëtitore bregdetare në Stanley Park"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:stanley"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q24639:2",
+      "text": {
+        "en": "Food stalls at Granville Island Public Market",
+        "sq": "Tezga ushqimi në Granville Island Public Market"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:market"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q24639:stanley",
+      "destinationId": "place:Q24639",
+      "name": {
+        "en": "Stanley Park",
+        "sq": "Stanley Park"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "An urban forest park with trails, beaches and a waterfront seawall.",
+        "sq": "Park pyjor urban me shtigje, plazhe dhe shëtitore buzë ujit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:stanley"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q24639:market",
+      "destinationId": "place:Q24639",
+      "name": {
+        "en": "Granville Island Public Market",
+        "sq": "Granville Island Public Market"
+      },
+      "kind": "market",
+      "shortDescription": {
+        "en": "An indoor market with food and produce stalls, alongside local craft vendors.",
+        "sq": "Treg i mbuluar me tezga ushqimesh e prodhimesh të freskëta, si edhe shitës artizanati lokal."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:market"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q24639:gastown",
+      "destinationId": "place:Q24639",
+      "name": {
+        "en": "Gastown",
+        "sq": "Gastown"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "A protected historic district north of Hastings Street.",
+        "sq": "Distrikt historik i mbrojtur në veri të Hastings Street."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:heritage"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q24639:queen",
+      "destinationId": "place:Q24639",
+      "name": {
+        "en": "Queen Elizabeth Park",
+        "sq": "Queen Elizabeth Park"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "A hilltop park with quarry gardens and views towards the North Shore mountains.",
+        "sq": "Park në kodër me kopshte në ish-gurore dhe pamje drejt maleve North Shore."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:queen"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q24639:gastown",
+      "destinationId": "place:Q24639",
+      "name": {
+        "en": "Gastown",
+        "sq": "Gastown"
+      },
+      "summary": {
+        "en": "A historic area in downtown Vancouver.",
+        "sq": "Zonë historike në qendër të qytetit Vancouver."
+      },
+      "goodFor": [
+        {
+          "en": "Exploring the city’s older streets.",
+          "sq": "Eksplorimi i rrugëve të vjetra të qytetit."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Granville Island is across False Creek.",
+          "sq": "Granville Island ndodhet përtej False Creek."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:heritage",
+        "source:worldwide:place-Q24639:transport",
+        "source:worldwide:place-Q24639:market"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q24639:market-access",
+      "destinationId": "place:Q24639",
+      "title": {
+        "en": "Plan the approach to Granville Island",
+        "sq": "Planifiko rrugën për Granville Island"
+      },
+      "guidance": {
+        "en": "Check current transport information for Granville Island and the final walk to the market. Choose the route for your starting point.",
+        "sq": "Kontrollo informacionin aktual të transportit për Granville Island dhe pjesën e rrugës që duhet bërë në këmbë deri te tregu. Zgjidh rrugën sipas vendit nga nisesh."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q24639:park-access",
+      "destinationId": "place:Q24639",
+      "title": {
+        "en": "Use Canada Line for the park area",
+        "sq": "Përdor Canada Line për zonën e parkut"
+      },
+      "guidance": {
+        "en": "Queen Elizabeth Park is near King Edward and Oakridge–41st stations. Check the park entrance and remaining walk when choosing a station.",
+        "sq": "Queen Elizabeth Park është pranë stacioneve King Edward dhe Oakridge–41st. Kontrollo hyrjen e parkut dhe ecjen e mbetur kur zgjedh stacionin."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:park-access"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q24639:park-map",
+      "destinationId": "place:Q24639",
+      "kind": "accessibility",
+      "text": {
+        "en": "Use the city’s park accessibility map to check trails and amenities for your visit.",
+        "sq": "Përdor hartën e aksesueshmërisë së parkut të qytetit për të kontrolluar shtigjet dhe shërbimet."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T22:33:26.494Z",
+      "sourceIds": [
+        "source:worldwide:place-Q24639:stanley"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "1928424ad50b927eb365e36a4a123f63ee55f69878001a3252a8e1384a6bbf27",
+    "identityDigest": "f9ea59a10db31a8c016eb9a0bd0cd1d466bc19ca548357d5cdc1492e34c1e356",
+    "approvedAt": "2026-10-13T22:33:26.494Z"
+  }
+}

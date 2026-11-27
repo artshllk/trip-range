@@ -1,0 +1,21 @@
+{
+  "subject": "prishtina",
+  "name": "Prishtina",
+  "countryCode": "XK",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 42.6666666667,
+    "longitude": 21.1666666667
+  },
+  "iataCodes": ["PRN"],
+  "cityCode": "PRN",
+  "external": {
+    "authority": "wikidata",
+    "id": "Q25270"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T00:00:00Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

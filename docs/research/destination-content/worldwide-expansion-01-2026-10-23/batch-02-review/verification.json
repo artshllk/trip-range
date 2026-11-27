@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-23T16:30:59.836Z",
+  "status": "passed-structural-checks-not-human-approval",
+  "checks": [
+    {
+      "slug": "tokyo",
+      "status": "passed-structural-review-only",
+      "schema": true,
+      "identityUnchanged": true,
+      "accessUnchanged": true,
+      "runtimeRecordUnchanged": true,
+      "publicationBlocked": true,
+      "ownerDecision": "pending",
+      "attractions": 5,
+      "areas": 2,
+      "transport": 2,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "media": "no-approved-photo",
+      "planningTarget": "requires-place-aware-planning-integration-check"
+    },
+    {
+      "slug": "kyoto",
+      "status": "passed-structural-review-only",
+      "schema": true,
+      "identityUnchanged": true,
+      "accessUnchanged": true,
+      "runtimeRecordUnchanged": true,
+      "publicationBlocked": true,
+      "ownerDecision": "pending",
+      "attractions": 5,
+      "areas": 2,
+      "transport": 2,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "media": "no-approved-photo",
+      "planningTarget": "requires-place-aware-planning-integration-check"
+    },
+    {
+      "slug": "bangkok",
+      "status": "passed-structural-review-only",
+      "schema": true,
+      "identityUnchanged": true,
+      "accessUnchanged": true,
+      "runtimeRecordUnchanged": true,
+      "publicationBlocked": true,
+      "ownerDecision": "pending",
+      "attractions": 4,
+      "areas": 2,
+      "transport": 3,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "media": "no-approved-photo",
+      "planningTarget": "BKK"
+    },
+    {
+      "slug": "marrakesh",
+      "status": "passed-structural-review-only",
+      "schema": true,
+      "identityUnchanged": true,
+      "accessUnchanged": true,
+      "runtimeRecordUnchanged": true,
+      "publicationBlocked": true,
+      "ownerDecision": "pending",
+      "attractions": 4,
+      "areas": 2,
+      "transport": 2,
+      "nightTemplates": [
+        2,
+        3
+      ],
+      "media": "no-approved-photo",
+      "planningTarget": "RAK"
+    }
+  ],
+  "externalProviderRequests": 0,
+  "RedisRequests": 0,
+  "OpenAIRequests": 0,
+  "applicationSourceChanges": 0,
+  "publicationWrites": 0,
+  "newImageApprovals": 0,
+  "hostedProbe": "not-run",
+  "productionBuild": "not-repeated; research-only changes",
+  "trackedFilesUnchanged": 1669,
+  "originalResearchPacketFilesUnchanged": 55,
+  "localReviewLinksChecked": 61,
+  "browserPacketChecks": {
+    "passed": 15,
+    "widths": [
+      1440,
+      390,
+      320
+    ],
+    "scope": "offline editorial review only; not hosted product checks",
+    "externalRequests": 0
+  }
+}

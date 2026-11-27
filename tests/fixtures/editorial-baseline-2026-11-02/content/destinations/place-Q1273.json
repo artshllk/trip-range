@@ -1,0 +1,394 @@
+{
+  "destinationId": "place:Q1273",
+  "identitySubject": "place:Q1273",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-14T13:56:18.952Z",
+  "sourceIds": [
+    "source:worldwide:place-Q1273:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q1273:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1273",
+      "title": "Tuscany (Q1273)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T11:58:22.074Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1273"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q1273:region",
+      "type": "official",
+      "url": "https://www.visittuscany.com/en/",
+      "title": "Visit Tuscany",
+      "publisher": "Toscana Promozione Turistica",
+      "retrievedAt": "2026-10-12T16:34:38Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1273:squares",
+      "type": "official",
+      "url": "https://www.visittuscany.com/en/ideas/the-most-striking-piazzas-in-tuscany/",
+      "title": "Squares in Tuscany",
+      "publisher": "Visit Tuscany",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1273:rail",
+      "type": "official",
+      "url": "https://www.visittuscany.com/en/ideas/tuscany-by-train/",
+      "title": "Tuscany by train",
+      "publisher": "Visit Tuscany",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:worldwide:place-Q1273:transport",
+      "type": "official",
+      "url": "https://www.visittuscany.com/en/getting-around",
+      "title": "Getting around Tuscany",
+      "publisher": "Visit Tuscany",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:phase5g:place-Q1273:arrival",
+      "type": "official",
+      "url": "https://www.visittuscany.com/en/getting-here",
+      "title": "Getting to Tuscany",
+      "publisher": "Toscana Promozione Turistica",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "id": "source:phase5g:place-Q1273:ztl",
+      "type": "official",
+      "url": "https://www.visittuscany.com/en/ideas/moving-around-tuscany-by-car/",
+      "title": "Moving around Tuscany by car",
+      "publisher": "Toscana Promozione Turistica",
+      "retrievedAt": "2026-10-14T11:58:22.074Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-14T13:56:18.952Z",
+    "sourceIds": [
+      "source:worldwide:place-Q1273:squares",
+      "source:worldwide:place-Q1273:rail"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Tuscany is a region, not a single city. Florence, Siena, Pisa and Lucca are separate bases with different journeys between them. For a short stay, choose one base and a small number of visits rather than trying to cover the region in a day.",
+      "sq": "Toskana është rajon, jo një qytet i vetëm. Firence, Siena, Piza dhe Lucca janë baza të veçanta që kërkojnë udhëtime mes tyre. Për një qëndrim të shkurtër, zgjidh një bazë dhe pak vizita, në vend që të përpiqesh të përshkosh rajonin brenda një dite."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q1273:1",
+      "text": {
+        "en": "Historic squares across several cities",
+        "sq": "Sheshe historike në disa qytete"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q1273:2",
+      "text": {
+        "en": "Regional rail connections from Florence",
+        "sq": "Lidhje rajonale hekurudhore nga Firence"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:rail"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q1273:duomo",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Piazza del Duomo, Florence",
+        "sq": "Piazza del Duomo, Firence"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Florence’s cathedral, bell tower and baptistery share this square.",
+        "sq": "Katedralja, kambanorja dhe pagëzimorja e Firences ndodhen në këtë shesh."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q1273:campo",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Piazza del Campo, Siena",
+        "sq": "Piazza del Campo, Siena"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Siena’s shell-shaped square faces Palazzo Pubblico.",
+        "sq": "Sheshi në formë guaske i Sienës ndodhet përballë Palazzo Pubblico."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q1273:miracoli",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Piazza dei Miracoli, Pisa",
+        "sq": "Piazza dei Miracoli, Piza"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Pisa’s cathedral complex includes the leaning tower and baptistery.",
+        "sq": "Kompleksi i katedrales së Pizës përfshin kullën e anuar dhe pagëzimoren."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q1273:anfiteatro",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Piazza dell’Anfiteatro, Lucca",
+        "sq": "Piazza dell’Anfiteatro, Lucca"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "This elliptical square follows the shape of a Roman amphitheatre.",
+        "sq": "Ky shesh eliptik ndjek formën e një amfiteatri romak."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q1273:florence",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Florence",
+        "sq": "Firence"
+      },
+      "summary": {
+        "en": "A city base for its cathedral square, with rail connections for selected regional trips.",
+        "sq": "Bazë qytetare për sheshin e katedrales, me lidhje hekurudhore për udhëtime të përzgjedhura në rajon."
+      },
+      "goodFor": [
+        {
+          "en": "Travel by train",
+          "sq": "Udhëtime me tren"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check onward connections for smaller places.",
+          "sq": "Kontrollo lidhjet e mëtejshme për vendet e vogla."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:rail",
+        "source:worldwide:place-Q1273:squares"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q1273:siena",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Siena",
+        "sq": "Siena"
+      },
+      "summary": {
+        "en": "A separate city base around Piazza del Campo.",
+        "sq": "Bazë në një qytet më vete, rreth Piazza del Campo."
+      },
+      "goodFor": [
+        {
+          "en": "Focusing the stay on this city",
+          "sq": "Përqendrimin e qëndrimit në këtë qytet"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check connections separately before adding another city.",
+          "sq": "Kontrollo veçmas lidhjet para se të shtosh një qytet tjetër."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares",
+        "source:worldwide:place-Q1273:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q1273:pisa",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Pisa",
+        "sq": "Piza"
+      },
+      "summary": {
+        "en": "A city base for the cathedral complex at Piazza dei Miracoli.",
+        "sq": "Bazë qytetare për kompleksin e katedrales në Piazza dei Miracoli."
+      },
+      "goodFor": [
+        {
+          "en": "Focusing the stay on this city",
+          "sq": "Përqendrimin e qëndrimit në këtë qytet"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check connections separately before adding another city.",
+          "sq": "Kontrollo veçmas lidhjet para se të shtosh një qytet tjetër."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares",
+        "source:worldwide:place-Q1273:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q1273:lucca",
+      "destinationId": "place:Q1273",
+      "name": {
+        "en": "Lucca",
+        "sq": "Lucca"
+      },
+      "summary": {
+        "en": "A distinct city base around historic squares, including Piazza dell’Anfiteatro.",
+        "sq": "Bazë në një qytet të veçantë me sheshe historike, përfshirë Piazza dell’Anfiteatro."
+      },
+      "goodFor": [
+        {
+          "en": "Focusing the stay on this city",
+          "sq": "Përqendrimin e qëndrimit në këtë qytet"
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check connections separately before adding another city.",
+          "sq": "Kontrollo veçmas lidhjet para se të shtosh një qytet tjetër."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:squares",
+        "source:worldwide:place-Q1273:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q1273:regional",
+      "destinationId": "place:Q1273",
+      "title": {
+        "en": "Combine rail and bus",
+        "sq": "Kombino trenin dhe autobusin"
+      },
+      "guidance": {
+        "en": "Florence and Pisa are arrival points inside Tuscany. Match the airport to your chosen base, then check rail and bus connections for each further journey. A regional transport estimate does not confirm those routes or their cost.",
+        "sq": "Firence dhe Piza janë pika mbërritjeje brenda Toskanës. Përshtat aeroportin me bazën e zgjedhur, pastaj kontrollo lidhjet me tren dhe autobus për çdo udhëtim tjetër. Vlerësimi i transportit rajonal nuk konfirmon linjat apo koston e tyre."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:worldwide:place-Q1273:transport",
+        "source:phase5g:place-Q1273:arrival"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q1273:traffic",
+      "destinationId": "place:Q1273",
+      "kind": "other",
+      "text": {
+        "en": "Check local access rules before driving into historic centres with restricted traffic.",
+        "sq": "Kontrollo rregullat vendore para se të hysh me makinë në qendra historike me trafik të kufizuar."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-14T13:56:18.952Z",
+      "sourceIds": [
+        "source:phase5g:place-Q1273:ztl"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "8f7a6fb49f12e107fd70c13fd4871e8f8ff0ef0835d687cb616a00112bae32a4",
+    "identityDigest": "c87259a891074fc9b80ad74fe2c098868f06ec65abd1b80f13690425b8cb2260",
+    "approvedAt": "2026-10-14T13:56:18.952Z"
+  }
+}

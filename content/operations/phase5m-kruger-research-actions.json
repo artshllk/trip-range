@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "phase": "5M",
+  "actions": [
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/explore/cultural-heritage",
+      "purpose": "Recheck Cultural heritage",
+      "result": "Archaeological/historical scope retained without site counts or superlatives.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/explore/cultural-heritage/masorini-ruins",
+      "purpose": "Recheck Masorini Ruins",
+      "result": "Reconstructed huts/furnace and BaPhalaborwa iron-working correspondence confirmed.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/explore/cultural-heritage/albasini-ruins",
+      "purpose": "Recheck Albasini Ruins",
+      "result": "Nineteenth-century trading-post remains at Phabeni confirmed; no access promise.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/conservation/parks/kruger/letaba-elephant-hall/overview",
+      "purpose": "Recheck Letaba Elephant Hall",
+      "result": "Institutional museum subject covers elephant biology and research; no opening assertion.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/camps/main-rest-camps/skukuza",
+      "purpose": "Recheck Skukuza Rest Camp",
+      "result": "Lake Panic listed outside the camp; Sabie River camp base remains geographically limited.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/useful-information/visitor-tips",
+      "purpose": "Recheck Visitor tips",
+      "result": "Official advice discourages covering too much ground; no driving times imported.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/useful-information/vital-information",
+      "purpose": "Recheck Vital information",
+      "result": "Vehicle/designated-area, permitted-road and gate compliance reconfirmed.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/camps/main-rest-camps/letaba",
+      "purpose": "Recheck Letaba Rest Camp",
+      "result": "Hall/camp relationship confirmed; promotional wildlife and flight schedule claims excluded.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Validate travel-access identity/policy",
+      "result": "Exact ZA groups SZK, NLP, HDS and PHW present.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Validate travel-access identity/policy",
+      "result": "SZK, MQP under NLP, HDS and PHW are flightable; airport NLP is not flightable.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/travel/how-to-get-there",
+      "purpose": "Validate travel-access identity/policy",
+      "result": "Four arrival approaches corroborated; peripheral arrivals require an onward journey.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/travel/distances-directions",
+      "purpose": "Validate travel-access identity/policy",
+      "result": "Regional coverage supports GoEksplo default SZK/NLP/HDS; PHW retained as selected northern alternative.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/wp-content/uploads/2025/09/Information-Memorandum_-Skukuza-Airport-1.pdf",
+      "purpose": "Validate travel-access identity/policy",
+      "result": "SANParks airport memorandum establishes internal park relationship; not equality with the whole park.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/news/minister-maynier-marks-major-flood-recovery-progress-in-kruger-and-announces-kickoff-of-sa-national-parks-week",
+      "purpose": "Recheck 2026 flood recovery",
+      "result": "September notice reports Letaba bridge/facility recovery with work remaining. It does not establish current Elephant Hall opening; no dated status imported.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/travel/plan/travel-information/road-conditions",
+      "purpose": "Locate current road guidance",
+      "result": "Official link resolves to general road-information resources, not a comprehensive current park-road status assertion.",
+      "limitation": "No opening, service, price or availability guarantee; no human editorial approval.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/travel/road-conditions",
+      "purpose": "Check initially assumed road-information path",
+      "result": "This path was not accessible; followed the official navigation link instead.",
+      "limitation": "Failed lookup is not evidence; see corrected official road-information URL.",
+      "timestamp": "2026-10-15T14:26:48.321Z"
+    }
+  ],
+  "providerMetadata": {
+    "cities": [
+      {
+        "code": "NLP",
+        "name": "Nelspruit",
+        "country_code": "ZA"
+      },
+      {
+        "code": "SZK",
+        "name": "Skukuza",
+        "country_code": "ZA"
+      },
+      {
+        "code": "HDS",
+        "name": "Hoedspruit",
+        "country_code": "ZA"
+      },
+      {
+        "code": "PHW",
+        "name": "Phalaborwa",
+        "country_code": "ZA"
+      }
+    ],
+    "airports": [
+      {
+        "code": "SZK",
+        "name": "Skukuza Airport",
+        "city_code": "SZK",
+        "country_code": "ZA",
+        "flightable": true,
+        "iata_type": "airport"
+      },
+      {
+        "code": "HDS",
+        "name": "Hoedspruit Airport",
+        "city_code": "HDS",
+        "country_code": "ZA",
+        "flightable": true,
+        "iata_type": "airport"
+      },
+      {
+        "code": "MQP",
+        "name": "Kruger Mpumalanga International Airport",
+        "city_code": "NLP",
+        "country_code": "ZA",
+        "flightable": true,
+        "iata_type": "airport"
+      },
+      {
+        "code": "PHW",
+        "name": "Phalaborwa Airport",
+        "city_code": "PHW",
+        "country_code": "ZA",
+        "flightable": true,
+        "iata_type": "airport"
+      },
+      {
+        "code": "NLP",
+        "name": "Nelspruit Airport",
+        "city_code": "NLP",
+        "country_code": "ZA",
+        "flightable": false,
+        "iata_type": "airport"
+      }
+    ],
+    "checkedAt": "2026-10-15T14:23:28.263Z"
+  }
+}

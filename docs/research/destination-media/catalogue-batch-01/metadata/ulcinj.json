@@ -1,0 +1,98 @@
+{
+  "query": {
+    "pages": {
+      "18569302": {
+        "pageid": 18569302,
+        "ns": 6,
+        "title": "File:Panorama of Ulcinj in Montenegro (1).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2061117,
+            "width": 3990,
+            "height": 2166,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Panorama_of_Ulcinj_in_Montenegro_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=18569302",
+            "sha1": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-03-03 16:12:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Panorama of Ulcinj in Montenegro (1)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Panasonic Lumix DMC-FZ38|Ulcinj|Beaches of Montenegro|Self-published work|Beaches of Ulcinj",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Panorama of Ulcinj in Montenegro.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-08-25",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dudva\" title=\"User:Dudva\">Dudva</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

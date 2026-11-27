@@ -1,0 +1,23 @@
+{
+  "subject": "zurich",
+  "name": "Zurich",
+  "countryCode": "CH",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": 47.37444444444444,
+    "longitude": 8.54111111111111
+  },
+  "iataCodes": [
+    "ZRH"
+  ],
+  "cityCode": "ZRH",
+  "external": {
+    "authority": "wikidata",
+    "id": "Q72"
+  },
+  "resolutionMethod": "reviewed",
+  "confidence": "reviewed",
+  "resolvedAt": "2026-10-22T11:50:36.378Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

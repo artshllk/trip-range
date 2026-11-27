@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "status": "pending-owner-review",
+  "runtimeRegistrationWritten": false,
+  "ownerApprovalRecorded": false,
+  "reviewer": null,
+  "reviewedAt": null,
+  "existingRegistrations": [
+    {
+      "subject": "crete",
+      "name": "Crete",
+      "countryCode": "GR",
+      "placeKind": "island",
+      "coordinates": {
+        "latitude": 35.3097222222,
+        "longitude": 24.8933333333
+      },
+      "iataCodes": [
+        "HER",
+        "CHQ"
+      ],
+      "external": {
+        "authority": "wikidata",
+        "id": "Q34374"
+      },
+      "resolutionMethod": "constrained-name",
+      "confidence": "high",
+      "resolvedAt": "2026-10-12T00:00:00Z",
+      "unresolvedReason": null,
+      "policyVersion": "destination-media-v1"
+    },
+    {
+      "subject": "istanbul",
+      "name": "Istanbul",
+      "countryCode": "TR",
+      "placeKind": "city",
+      "coordinates": {
+        "latitude": 41.01,
+        "longitude": 28.9602777778
+      },
+      "external": {
+        "authority": "wikidata",
+        "id": "Q406"
+      },
+      "resolutionMethod": "constrained-name",
+      "confidence": "high",
+      "resolvedAt": "2026-10-12T16:23:10Z",
+      "unresolvedReason": null,
+      "policyVersion": "destination-media-v1"
+    },
+    {
+      "subject": "prishtina",
+      "name": "Prishtina",
+      "countryCode": "XK",
+      "placeKind": "city",
+      "coordinates": {
+        "latitude": 42.6666666667,
+        "longitude": 21.1666666667
+      },
+      "iataCodes": [
+        "PRN"
+      ],
+      "cityCode": "PRN",
+      "external": {
+        "authority": "wikidata",
+        "id": "Q25270"
+      },
+      "resolutionMethod": "constrained-name",
+      "confidence": "high",
+      "resolvedAt": "2026-10-12T00:00:00Z",
+      "unresolvedReason": null,
+      "policyVersion": "destination-media-v1"
+    }
+  ],
+  "proposals": [
+    {
+      "subject": "prizren",
+      "status": "identity-evidence-complete-awaiting-owner",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "prizren",
+        "name": "Prizren",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.23,
+          "longitude": 20.74
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q200061"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "method": "Existing resolvePlaceEvidence constrained-name resolver replayed against source-checked current preferred country, geographic class, exact entity label and coordinate evidence. No source code or automatic resolver policy changed.",
+      "normalizationNotes": [
+        "Use preferred current-country claim; retain raw historic/disputed country claims in evidence.",
+        "City class confirmed among non-deprecated P31 statements.",
+        "Coordinates copied from the one Earth P625 claim; catalogue previously has no coordinates.",
+        "Preserve only existing catalogue airport/city mappings; do not infer airports from photo location."
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q200061",
+        "evidence/wikidata-sitelink-identities.json"
+      ],
+      "blockingIssues": [],
+      "requiredApproval": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate."
+    },
+    {
+      "subject": "skopje",
+      "status": "identity-evidence-complete-awaiting-owner",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "skopje",
+        "name": "Skopje",
+        "countryCode": "MK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.99611111111111,
+          "longitude": 21.431666666666665
+        },
+        "iataCodes": [
+          "SKP"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q384"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "method": "Existing resolvePlaceEvidence constrained-name resolver replayed against source-checked current preferred country, geographic class, exact entity label and coordinate evidence. No source code or automatic resolver policy changed.",
+      "normalizationNotes": [
+        "Use preferred current-country claim; retain raw historic/disputed country claims in evidence.",
+        "City class confirmed among non-deprecated P31 statements.",
+        "Coordinates copied from the one Earth P625 claim; catalogue previously has no coordinates.",
+        "Preserve only existing catalogue airport/city mappings; do not infer airports from photo location."
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q384",
+        "evidence/wikidata-entities.json"
+      ],
+      "blockingIssues": [],
+      "requiredApproval": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate."
+    },
+    {
+      "subject": "thessaloniki",
+      "status": "identity-evidence-complete-awaiting-owner",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "thessaloniki",
+        "name": "Thessaloniki",
+        "countryCode": "GR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.640277777777776,
+          "longitude": 22.935555555555556
+        },
+        "iataCodes": [
+          "SKG"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q17151"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "method": "Existing resolvePlaceEvidence constrained-name resolver replayed against source-checked current preferred country, geographic class, exact entity label and coordinate evidence. No source code or automatic resolver policy changed.",
+      "normalizationNotes": [
+        "Use preferred current-country claim; retain raw historic/disputed country claims in evidence.",
+        "City class confirmed among non-deprecated P31 statements.",
+        "Coordinates copied from the one Earth P625 claim; catalogue previously has no coordinates.",
+        "Preserve only existing catalogue airport/city mappings; do not infer airports from photo location."
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17151",
+        "evidence/wikidata-entities.json"
+      ],
+      "blockingIssues": [],
+      "requiredApproval": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate."
+    },
+    {
+      "subject": "ulcinj",
+      "status": "identity-evidence-complete-awaiting-owner",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "ulcinj",
+        "name": "Ulcinj",
+        "countryCode": "ME",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.923611111111,
+          "longitude": 19.205555555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q189969"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "method": "Existing resolvePlaceEvidence constrained-name resolver replayed against source-checked current preferred country, geographic class, exact entity label and coordinate evidence. No source code or automatic resolver policy changed.",
+      "normalizationNotes": [
+        "Use preferred current-country claim; retain raw historic/disputed country claims in evidence.",
+        "City class confirmed among non-deprecated P31 statements.",
+        "Coordinates copied from the one Earth P625 claim; catalogue previously has no coordinates.",
+        "Preserve only existing catalogue airport/city mappings; do not infer airports from photo location."
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q189969",
+        "evidence/wikidata-sitelink-identities.json"
+      ],
+      "blockingIssues": [],
+      "requiredApproval": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate."
+    },
+    {
+      "subject": "zurich",
+      "status": "identity-evidence-complete-awaiting-owner",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "zurich",
+        "name": "Zurich",
+        "countryCode": "CH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 47.37444444444444,
+          "longitude": 8.54111111111111
+        },
+        "iataCodes": [
+          "ZRH"
+        ],
+        "cityCode": "ZRH",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q72"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-22T11:00:42.097Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      "method": "Existing resolvePlaceEvidence constrained-name resolver replayed against source-checked current preferred country, geographic class, exact entity label and coordinate evidence. No source code or automatic resolver policy changed.",
+      "normalizationNotes": [
+        "Use preferred current-country claim; retain raw historic/disputed country claims in evidence.",
+        "City class confirmed among non-deprecated P31 statements.",
+        "Coordinates copied from the one Earth P625 claim; catalogue previously has no coordinates.",
+        "Preserve only existing catalogue airport/city mappings; do not infer airports from photo location."
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q72",
+        "evidence/wikidata-entities.json"
+      ],
+      "blockingIssues": [],
+      "requiredApproval": "Approve this exact stable-subject/entity/country mapping before local registration; media/crop approval remains separate."
+    },
+    {
+      "subject": "brezovica",
+      "status": "identity-verification-blocked",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "brezovica",
+        "name": "Brezovica",
+        "countryCode": "XK",
+        "placeKind": "nature-area",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "candidateExternalIds": [
+        "Q16953614"
+      ],
+      "blockingIssues": [
+        "Resort versus settlement scope requires explicit human mapping. The existing automatic class policy does not support ski resort Q130003, and the exact catalogue label Brezovica is not the entity label Brezovica Ski Resort."
+      ],
+      "requiredApproval": "Confirm the catalogue subject means the Brezovica ski-resort/mountain area, not the nearby settlement or any other Brezovica.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16953614",
+        "https://www.brezovica.info/contact.php?lang=en",
+        "https://en.wikipedia.org/wiki/Brezovica_ski_resort"
+      ]
+    },
+    {
+      "subject": "mavrovo",
+      "status": "identity-verification-blocked",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "mavrovo",
+        "name": "Mavrovo",
+        "countryCode": "MK",
+        "placeKind": "nature-area",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "candidateExternalIds": [
+        "Q569069",
+        "Q1785612",
+        "Q1396930"
+      ],
+      "blockingIssues": [
+        "The catalogue says Mavrovo without a geographic extent. Park, lake and village are different entities. Do not silently map the whole destination to the photographed reservoir or village."
+      ],
+      "requiredApproval": "Confirm whether the subject denotes Mavrovo National Park/wider nature area (proposed), Mavrovo Lake, or Mavrovo village. The photo is specifically the lake.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q569069",
+        "https://www.wikidata.org/wiki/Q1785612",
+        "https://www.wikidata.org/wiki/Q1396930",
+        "https://npmavrovo.org.mk/en/%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D1%82%D0%B5%D1%82%D0%B8-2/"
+      ]
+    },
+    {
+      "subject": "mirusha",
+      "status": "identity-verification-blocked",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "mirusha",
+        "name": "Mirusha Waterfalls",
+        "countryCode": "XK",
+        "placeKind": "nature-area",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "candidateExternalIds": [
+        "Q3299918"
+      ],
+      "blockingIssues": [
+        "Waterfall class Q34038 is unsupported by the existing automatic geographic-class policy. Wikidata has two distinct non-deprecated Earth coordinates; its English label Miruša Waterfalls also does not normalize to the catalogue spelling Mirusha Waterfalls. No arbitrary point/alias was added."
+      ],
+      "requiredApproval": "Verify the waterfall complex Q3299918, approve the catalogue spelling/alias and select a source-backed representative coordinate (or deliberately omit optional coordinates) via human mapping.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3299918",
+        "https://en.wikipedia.org/wiki/Mirusha_waterfalls",
+        "https://www.ecmandryshe.org/repository/docs/150911141331_Mix_ENG_compressed.pdf"
+      ]
+    },
+    {
+      "subject": "rugova",
+      "status": "identity-verification-blocked",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "registration": {
+        "subject": "rugova",
+        "name": "Rugova Valley",
+        "countryCode": "XK",
+        "placeKind": "region",
+        "external": null,
+        "resolutionMethod": "unresolved",
+        "confidence": "unresolved",
+        "resolvedAt": null,
+        "unresolvedReason": "awaiting-human-identity-review",
+        "policyVersion": "destination-media-v1"
+      },
+      "candidateExternalIds": [
+        "Q15978682"
+      ],
+      "blockingIssues": [
+        "The wider region entity has an Albania P17 claim despite its Kosovo description; the official Peja source places the Rugova region northwest of Peja. The region and the photographed canyon are not interchangeable. Country was not silently overwritten."
+      ],
+      "requiredApproval": "Confirm the wider Kosovo Rugova region mapping, supported by the municipal source, and distinguish its canyon photo from the whole region. Human-reviewed mapping or corrected authority evidence is needed.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q15978682",
+        "https://peja.rks-gov.net/en/rugova/",
+        "https://en.wikipedia.org/wiki/Rugova_(region)"
+      ]
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "existingRecords": 30,
+    "proposedRecords": 9,
+    "completeEvidence": 5,
+    "blocked": 4
+  },
+  "rejectedEntityLookups": [
+    {
+      "id": "Q4332",
+      "reason": "Not Prizren; basketball player. Not proposed."
+    },
+    {
+      "id": "Q160925",
+      "reason": "Not Ulcinj; plant taxon. Not proposed."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "packetId": "worldwide-batch2-final-review-v1",
+  "changes": {
+    "tokyo": [
+      "Added operator-supported daylight/entry guidance and an existing-attraction alternative if Skytree deck entry is unavailable. No museum visit or fixed closing day is invented."
+    ],
+    "kyoto": [
+      "Grouped Hokan-ji with Kiyomizu-dera on day two of the two-night outline; moved the optional Maruyama Park break to the final day. This avoids a separate return to the hillside just for the pagoda.",
+      "Added a conditional public-street/exterior alternative when temple entry is unavailable, with private-lane and worship restrictions preserved."
+    ],
+    "bangkok": [
+      "Added the official palace calendar and explained that the palace and Wat Phra Kaew can have different access restrictions. The current calendar actually lists the palace closed on 23 October 2026; no permanent weekly rule is inferred.",
+      "Added Wat Pho or Wat Arun as alternatives only after checking their own visitor arrangements; no availability or ticket equivalence is promised."
+    ],
+    "marrakesh": [
+      "Changed the garden source to its official English page and explicitly limited the guide to Jardin Majorelle, without implying access to Villa Oasis or either separately ticketed museum.",
+      "Added a medina/Koutoubia exterior alternative if garden entry is unavailable. No museum closing-day rule is needed by the proposed itinerary."
+    ]
+  },
+  "newOperationalFactsNotCopiedAsPermanentRules": {
+    "bangkok": "23 October 2026 palace closure is evidence for checking the calendar, not a standing closure rule",
+    "marrakesh": "Villa Oasis Wednesday restriction applies to that private garden, not a closure of Jardin Majorelle"
+  }
+}

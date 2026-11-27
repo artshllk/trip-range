@@ -1,0 +1,98 @@
+{
+  "query": {
+    "pages": {
+      "36333116": {
+        "pageid": 36333116,
+        "ns": 6,
+        "title": "File:Skopje Stone Bridge.JPG",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3408080,
+            "width": 4608,
+            "height": 3072,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Skopje_Stone_Bridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36333116",
+            "sha1": "77bb5054d2031bc548de3cddd0d4340f8237fee6",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-10-23 10:29:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Skopje Stone Bridge",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3100|Stone Bridge (Skopje)|Self-published work|2014 in Skopje",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Picture of the Stone Bridge across the Vardar River in Skopje.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2014-10-21 00:57:27",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bayramiedon&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bayramiedon (page does not exist)\">Edon Bayrami</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

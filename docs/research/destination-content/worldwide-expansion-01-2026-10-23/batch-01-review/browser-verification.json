@@ -1,0 +1,626 @@
+{
+  "status": "local-shared-preview-passed-with-known-Barcelona-planning-defect",
+  "checkedAt": "2026-10-23T10:19:44.374Z",
+  "browser": "system Chrome via headless Playwright, isolated session",
+  "scope": "SSR of unchanged shared components using test-only draft projection, not live Next routes or hosted tests",
+  "deviceScaleFactor": 1,
+  "checks": [
+    {
+      "slug": "istanbul",
+      "width": 1440,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/istanbul-1200.webp",
+        "width": 1200,
+        "height": 480,
+        "displayWidth": 1100,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "istanbul",
+      "width": 390,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/istanbul-640.webp",
+        "width": 350,
+        "height": 140,
+        "displayWidth": 350,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "istanbul",
+      "width": 375,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/istanbul-640.webp",
+        "width": 335,
+        "height": 134,
+        "displayWidth": 335,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "istanbul",
+      "width": 360,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/istanbul-640.webp",
+        "width": 320,
+        "height": 128,
+        "displayWidth": 320,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "istanbul",
+      "width": 320,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/istanbul-640.webp",
+        "width": 279,
+        "height": 111,
+        "displayWidth": 280,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "barcelona",
+      "width": 1440,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/barcelona-batch1-v1-1200.webp",
+        "width": 1200,
+        "height": 905,
+        "displayWidth": 1100,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "missing-confirmed-defect",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "barcelona",
+      "width": 390,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+        "width": 350,
+        "height": 264,
+        "displayWidth": 350,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "missing-confirmed-defect",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "barcelona",
+      "width": 375,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+        "width": 335,
+        "height": 252,
+        "displayWidth": 335,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "missing-confirmed-defect",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "barcelona",
+      "width": 360,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+        "width": 320,
+        "height": 241,
+        "displayWidth": 320,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "missing-confirmed-defect",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "barcelona",
+      "width": 320,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+        "width": 279,
+        "height": 211,
+        "displayWidth": 280,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "missing-confirmed-defect",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "singapore",
+      "width": 1440,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/singapore-batch1-v1-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "displayWidth": 1100,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "singapore",
+      "width": 390,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+        "width": 350,
+        "height": 196,
+        "displayWidth": 350,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "singapore",
+      "width": 375,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+        "width": 335,
+        "height": 188,
+        "displayWidth": 335,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "singapore",
+      "width": 360,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+        "width": 320,
+        "height": 180,
+        "displayWidth": 320,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "singapore",
+      "width": 320,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+        "width": 279,
+        "height": 157,
+        "displayWidth": 280,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 1440,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/mexico-city-batch1-v1-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "displayWidth": 1100,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 390,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+        "width": 350,
+        "height": 196,
+        "displayWidth": 350,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 375,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+        "width": 335,
+        "height": 188,
+        "displayWidth": 335,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 360,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+        "width": 320,
+        "height": 180,
+        "displayWidth": 320,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "width": 320,
+      "overflow": false,
+      "actualSharedGuide": true,
+      "hero": {
+        "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+        "width": 279,
+        "height": 157,
+        "displayWidth": 280,
+        "decoded": true
+      },
+      "AIControls": 0,
+      "planLinksPreserveContext": true,
+      "planningDestinationTarget": "correct",
+      "reloadURLRetained": true,
+      "sections": [
+        "Places worth seeing",
+        "Choosing a base",
+        "Your trip",
+        "Getting around",
+        "Before you go",
+        "Plan with the source in view",
+        "Start with what you can spend.",
+        "Owner review: exact three-night template"
+      ]
+    },
+    {
+      "page": "shared-cards",
+      "width": 1440,
+      "images": [
+        {
+          "src": "/media/variants/destinations/istanbul-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "decoded": true
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "shared-cards",
+      "width": 390,
+      "images": [
+        {
+          "src": "/media/variants/destinations/istanbul-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "decoded": true
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "page": "shared-cards",
+      "width": 320,
+      "images": [
+        {
+          "src": "/media/variants/destinations/istanbul-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/barcelona-batch1-v1-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/singapore-batch1-v1-640.webp",
+          "decoded": true
+        },
+        {
+          "src": "/media/variants/destinations/mexico-city-batch1-v1-640.webp",
+          "decoded": true
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "browserErrors": [],
+  "externalRequestsBlocked": [],
+  "providerRequests": 0,
+  "OpenAIRequests": 0,
+  "publicationChanges": 0,
+  "knownDefects": [
+    "Barcelona has no destination planning target in the current shared service"
+  ]
+}

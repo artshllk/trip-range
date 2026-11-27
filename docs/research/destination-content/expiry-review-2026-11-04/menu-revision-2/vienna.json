@@ -1,0 +1,601 @@
+{
+  "destinationId": "vienna",
+  "identitySubject": "vienna",
+  "contentVersion": 3,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:phase2:vienna:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:phase2:vienna:identity",
+      "type": "wikidata",
+      "title": "Vienna (Q1741)",
+      "url": "https://www.wikidata.org/wiki/Q1741",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-21T14:31:20Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1741"
+      }
+    },
+    {
+      "id": "source:phase2:vienna:stephansdom",
+      "type": "official",
+      "title": "St Stephen’s Cathedral",
+      "url": "https://www.wien.info/en/see-do/sights-from-a-to-z/st-stephens-cathedral-359690",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:schoenbrunn",
+      "type": "official",
+      "title": "Schönbrunn visitor information",
+      "url": "https://www.schoenbrunn.at/en/visitor-information/opening-times",
+      "publisher": "Schönbrunn Group",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:belvedere",
+      "type": "official",
+      "title": "Visit the Belvedere",
+      "url": "https://www.belvedere.at/en/visit",
+      "publisher": "Belvedere",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:mq",
+      "type": "official",
+      "title": "MuseumsQuartier Wien",
+      "url": "https://www.wien.info/en/art-culture/museums-exhibitions/top-museums/mq/museumsquartier-wien-880280",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:naschmarkt",
+      "type": "official",
+      "title": "Naschmarkt",
+      "url": "https://www.wien.info/en/dine-drink/markets/naschmarkt-353536",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:inner-city",
+      "type": "official",
+      "title": "In the footsteps of the Habsburgs",
+      "url": "https://www.wien.info/en/art-culture/imperial-sights/footsteps-habsburgs-346190",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:neubau",
+      "type": "official",
+      "title": "Districts to savor",
+      "url": "https://www.wien.info/en/dine-drink/markets/districts-to-savor-344620",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:leopoldstadt",
+      "type": "official",
+      "title": "Karmeliter district",
+      "url": "https://www.wien.info/en/dine-drink/markets/karmeliter-district-349606",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:airport-works",
+      "type": "official",
+      "title": "Airport travel: changes in 2026–2027",
+      "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z",
+      "observedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:airport-rail",
+      "type": "official",
+      "title": "S-Bahn S7 airport connections",
+      "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/express-train-s7-345644",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T14:31:20Z"
+    },
+    {
+      "id": "source:phase2:vienna:schoenbrunn-history",
+      "type": "official",
+      "title": "Schönbrunn palace and imperial summer residence",
+      "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/the-palace",
+      "publisher": "Schönbrunn Group",
+      "retrievedAt": "2026-10-21T15:13:43Z"
+    },
+    {
+      "id": "source:phase2:vienna:belvedere-venues",
+      "type": "official",
+      "title": "Belvedere — palace and museum venues",
+      "url": "https://www.wien.info/en/art-culture/museums-exhibitions/top-museums/belvedere-341062",
+      "publisher": "Vienna Tourist Board",
+      "retrievedAt": "2026-10-21T15:13:43Z"
+    },
+    {
+      "id": "source:phase4b:vienna:tickets",
+      "type": "official",
+      "title": "Vienna adult core-zone ticket options",
+      "publisher": "Vienna Tourist Board",
+      "url": "https://www.wien.info/en/travel-info/transport/tickets-361360",
+      "observedAt": "2026-10-22T19:33:31Z",
+      "retrievedAt": "2026-10-22T19:34:46Z"
+    },
+    {
+      "id": "source:phase4b:vienna:menu",
+      "type": "official",
+      "title": "Café Prückel published menu — illustrative basket",
+      "publisher": "Café Prückel",
+      "url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:phase2:vienna:stephansdom",
+      "source:phase2:vienna:mq",
+      "source:phase2:vienna:inner-city"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Start with Vienna’s old centre, then choose between palace rooms, art collections and market streets. For a short stay, give each day one main visit and leave room for cafés and walking. Schönbrunn is a separate outing, not another stop beside Stephansplatz."
+    }
+  },
+  "attractions": [
+    {
+      "id": "attraction:vienna:stephansdom",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:stephansdom"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "St Stephen’s Cathedral"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "The cathedral anchors Stephansplatz in the old centre. Start outside to take in the patterned roof and the surrounding streets."
+      },
+      "bookingAdvice": {
+        "en": "Check access separately for the church, towers and guided visits; worship and visitor access are different."
+      }
+    },
+    {
+      "id": "attraction:vienna:schoenbrunn",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:schoenbrunn",
+        "source:phase2:vienna:schoenbrunn-history"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Schönbrunn Palace"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "The former imperial summer residence combines palace interiors with a large park. Choose the rooms or grounds that interest you rather than trying every attraction."
+      },
+      "bookingAdvice": {
+        "en": "Check the exact ticket, entry slot and seasonal access on the palace website before setting off."
+      }
+    },
+    {
+      "id": "attraction:vienna:belvedere",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:belvedere",
+        "source:phase2:vienna:belvedere-venues"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Upper Belvedere"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "A Baroque palace with an art collection including Gustav Klimt. Upper and Lower Belvedere are distinct visits; choose the collection you want."
+      },
+      "bookingAdvice": {
+        "en": "Upper Belvedere uses timed admission. Confirm the venue and slot on the official site."
+      }
+    },
+    {
+      "id": "attraction:vienna:museumsquartier",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:mq"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "MuseumsQuartier"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Courtyards and cultural institutions in the former imperial stables. Use the courtyards as a pause, then choose a museum such as Leopold Museum or mumok."
+      },
+      "bookingAdvice": {
+        "en": "Museums have separate programmes and admission. Check the institution you actually plan to enter."
+      }
+    },
+    {
+      "id": "attraction:vienna:naschmarkt",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:naschmarkt"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Naschmarkt"
+      },
+      "kind": "market",
+      "shortDescription": {
+        "en": "A food market with stalls and places to eat. It makes a different kind of stop from the palaces and galleries."
+      },
+      "bookingAdvice": {
+        "en": "Check trading days and individual opening hours; do not assume every stall is open on your departure day."
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:vienna:inner-city",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:inner-city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Innere Stadt"
+      },
+      "summary": {
+        "en": "A base for the cathedral and historic centre; consider it if central sightseeing is your priority."
+      },
+      "goodFor": [
+        {
+          "en": "A base for the cathedral and historic centre; consider it if central sightseeing is your priority."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Compare the actual room total and street location. Being central does not include airport travel or attraction admission."
+        }
+      ]
+    },
+    {
+      "id": "area:vienna:neubau",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:neubau"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Neubau / Spittelberg"
+      },
+      "summary": {
+        "en": "Consider this area for MuseumsQuartier, smaller streets and places to eat around Spittelberg."
+      },
+      "goodFor": [
+        {
+          "en": "Consider this area for MuseumsQuartier, smaller streets and places to eat around Spittelberg."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check your accommodation’s route to the airport and the palace separately; a neighbourhood name alone does not establish travel time."
+        }
+      ]
+    },
+    {
+      "id": "area:vienna:leopoldstadt",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:leopoldstadt"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "name": {
+        "en": "Leopoldstadt / Karmeliterviertel"
+      },
+      "summary": {
+        "en": "A neighbourhood option around Karmelitermarkt, across the canal from the old centre."
+      },
+      "goodFor": [
+        {
+          "en": "A neighbourhood option around Karmelitermarkt, across the canal from the old centre."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the exact address, station access and room occupancy. This guide does not verify hotel availability or family room capacity."
+        }
+      ]
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:vienna:airport-mainline",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:airport-works"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "title": {
+        "en": "VIE → Hauptbahnhof / Meidling"
+      },
+      "guidance": {
+        "en": "Railjet and Intercity services connect the airport with Hauptbahnhof and Meidling. Choose the onward route for your actual accommodation and check the travel-day timetable."
+      }
+    },
+    {
+      "id": "transport:vienna:airport-works",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:airport-works",
+        "source:phase2:vienna:airport-rail"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-21T14:31:20Z",
+        "validUntil": "2026-11-19T00:00:00Z"
+      },
+      "title": {
+        "en": "VIE: S7 and CAT changes in 2026–2027"
+      },
+      "guidance": {
+        "en": "Do not plan a normal direct S7/CAT journey to Wien Mitte during the works. The tourism board lists S-Bahn closures and CAT replacement buses through October 2027. Check the current replacement route; airport buses are another option."
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:vienna:booking",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:schoenbrunn",
+        "source:phase2:vienna:belvedere",
+        "source:phase2:vienna:naschmarkt"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "kind": "booking",
+      "text": {
+        "en": "Choose paid visits before reserving accommodation, then check the full room price, occupancy and cancellation terms. The itinerary is a suggestion, not a ticket package or a verified hotel quote."
+      }
+    },
+    {
+      "id": "note:phase4b:vienna:transport:1",
+      "destinationId": "vienna",
+      "kind": "transport",
+      "text": {
+        "en": "Choose tickets around the journeys you expect to make. Adult options include a €3.20 single, a €10.20 24-hour ticket and a €25.20 digital seven-day ticket for the Vienna core zone."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:vienna:tickets"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-22T19:33:31Z",
+        "validUntil": "2026-11-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:vienna:transport:2",
+      "destinationId": "vienna",
+      "kind": "transport",
+      "text": {
+        "en": "A short stay does not automatically need the seven-day ticket; the airport leg needs separate coverage."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:vienna:tickets"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-22T19:33:31Z",
+        "validUntil": "2026-11-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:vienna:examples:1",
+      "destinationId": "vienna",
+      "kind": "other",
+      "text": {
+        "en": "Café Prückel example: €51.00. Menu checked 4 November 2026. One venue’s example, not a daily Vienna food budget. Items: Viennese breakfast €9.80, cappuccino €4.90, cheese toast €8.90, beef goulash with dumplings €19.80, and two 0.5-litre sodas at €3.80 each."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:vienna:menu"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-04T09:50:53Z",
+        "validUntil": "2026-11-18T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "day:vienna:2-nights",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:stephansdom",
+        "source:phase2:vienna:schoenbrunn",
+        "source:phase2:vienna:mq",
+        "source:phase2:vienna:belvedere",
+        "source:phase2:vienna:belvedere-venues"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights at your own pace"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:vienna:stephansdom",
+          "day": 1,
+          "notes": {
+            "en": "Keep this optional after arrival; begin outside if there is little time."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:schoenbrunn",
+          "day": 2,
+          "notes": {
+            "en": "Make the palace your main visit today."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:museumsquartier",
+          "day": 2,
+          "notes": {
+            "en": "Choose a courtyard pause or one museum, depending on energy and opening hours."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:belvedere",
+          "day": 3,
+          "notes": {
+            "en": "Only book a morning visit if it leaves enough time for your actual airport journey."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Arrival and departure days are partial days. Adjust the order to your flights, opening days and booked entry slots; skip a stop rather than rush. Tickets and transfers are not included in this outline."
+      }
+    },
+    {
+      "id": "day:vienna:3-nights",
+      "destinationId": "vienna",
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase2:vienna:stephansdom",
+        "source:phase2:vienna:schoenbrunn",
+        "source:phase2:vienna:mq",
+        "source:phase2:vienna:belvedere",
+        "source:phase2:vienna:naschmarkt",
+        "source:phase2:vienna:belvedere-venues"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-15T00:00:00Z"
+      },
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights at your own pace"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:vienna:stephansdom",
+          "day": 1,
+          "notes": {
+            "en": "Keep this optional after arrival; begin outside if there is little time."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:schoenbrunn",
+          "day": 2,
+          "notes": {
+            "en": "Set aside the main part of the day for the palace and your chosen grounds."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:museumsquartier",
+          "day": 2,
+          "notes": {
+            "en": "An optional courtyard stop after returning to the centre."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:belvedere",
+          "day": 3,
+          "notes": {
+            "en": "Visit Upper Belvedere and confirm its ticket and entry slot. Lower Belvedere is a separate visit."
+          }
+        },
+        {
+          "attractionId": "attraction:vienna:naschmarkt",
+          "day": 4,
+          "notes": {
+            "en": "Optional food stop if trading hours and your flight permit."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Arrival and departure days are partial days. Adjust the order to your flights, opening days and booked entry slots; skip a stop rather than rush. Tickets and transfers are not included in this outline."
+      }
+    }
+  ]
+}

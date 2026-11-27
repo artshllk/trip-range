@@ -1,0 +1,11 @@
+Proposed owner response — no approval recorded yet.
+
+I have reviewed and approve the pinned Tokyo, Kyoto, Bangkok and Marrakesh English v4 drafts in worldwide-batch2-final-review-v1, including their identities, sources, itinerary order, conditional closure alternatives and freshness requirements.
+
+I also approve these exact photographs and shown desktop/mobile hero/card crops, responsive variants, attribution, modification notices and CC BY-SA 4.0 requirements:
+- Tokyo — commons:80694116
+- Kyoto — commons:53593907
+- Bangkok — commons:82660408
+- Marrakesh — commons:72262779
+
+Record reviewer GoEksplo Owner and integrate the approved content and media locally through the existing editorial/media gates. Preserve canonical place planning, Tokyo entry-airport identities, Kyoto gateway transfers, AI OFF, English-only routing, pricing safeguards and provider limits. Do not commit, push, deploy or change infrastructure.

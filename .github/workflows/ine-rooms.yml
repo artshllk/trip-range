@@ -1,0 +1,42 @@
+name: Refresh Spain room context
+# Primary trigger: an Upstash QStash schedule calls workflow_dispatch at 10:20 UTC on
+# the 24th and 28th (scripts/qstash-schedules.mjs); the cron below is a fallback. A
+# duplicate finds the file unchanged and commits nothing.
+on:
+  schedule:
+    # INE publishes monthly around the 23rd. Retry after the release window.
+    - cron: "20 10 24,28 * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ine-rooms
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run refresh:ine-rooms
+      - name: Save validated candidate for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: ine-room-context
+          path: |
+            content/rooms/ine-spain.json
+            public/data/room-market-context/ine-spain.json
+            public/data/room-market-context/ine-source.json
+          retention-days: 60
+      - name: Report pending publication
+        run: |
+          if ! git diff --quiet -- content/rooms/ine-spain.json; then
+            echo "New INE figures validated. Review and merge the artifact before publishing." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "INE room figures unchanged." >> "$GITHUB_STEP_SUMMARY"
+          fi

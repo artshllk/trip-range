@@ -1,0 +1,503 @@
+{
+  "destinationId": "place:Q8678",
+  "identitySubject": "place:Q8678",
+  "contentVersion": 4,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-23T22:47:28.843Z",
+  "sourceIds": [
+    "source:worldwide:place-Q8678:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q8678:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8678",
+      "title": "Rio de Janeiro (Q8678)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q8678"
+      }
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:city",
+      "type": "official",
+      "url": "https://riotur.rio/en/editorial/rio-de-janeiro/",
+      "title": "Discover Rio",
+      "publisher": "Riotur",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:cristo",
+      "type": "official",
+      "url": "https://riotur.rio/que_fazer/cristoredentor/",
+      "title": "Cristo Redentor",
+      "publisher": "Riotur",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:sugar",
+      "type": "official",
+      "url": "https://www.bondinho.com.br/",
+      "title": "Parque Bondinho Pão de Açúcar",
+      "publisher": "Parque Bondinho",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:lage",
+      "type": "official",
+      "url": "https://eavparquelage.rj.gov.br/o-parque",
+      "title": "Parque Lage",
+      "publisher": "Escola de Artes Visuais do Parque Lage",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:metro",
+      "type": "official",
+      "url": "https://www.metrorio.com.br/",
+      "title": "MetrôRio network",
+      "publisher": "MetrôRio",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:gig",
+      "type": "official",
+      "url": "https://guiadopassageiro.riogaleao.com/voos-domesticos/chegando/saida-do-riogaleao/",
+      "title": "Leaving RIOgaleão",
+      "publisher": "RIOgaleão",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:vlt",
+      "type": "official",
+      "url": "https://trilhos.motiva.com.br/vltrio/duvidas-frequentes/",
+      "title": "VLT Rio FAQs",
+      "publisher": "Motiva / VLT Carioca",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:gentileza",
+      "type": "official",
+      "url": "https://trilhos.motiva.com.br/vltrio/linha-1---azul/",
+      "title": "Santos Dumont–Terminal Gentileza connections",
+      "publisher": "Motiva / VLT Carioca",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:rio-de-janeiro:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Rio combines beach neighbourhoods with hilltop viewpoints and a city centre that needs its own outing. Build your stay around a few journeys, keeping weather-sensitive views flexible and checking the return from each attraction."
+    },
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-23T22:47:28.843Z",
+    "sourceIds": [
+      "source:expansion01:rio-de-janeiro:city",
+      "source:expansion01:rio-de-janeiro:lage"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q8678:corcovado",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Cristo Redentor at Corcovado"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Choose a confirmed transport and visitor arrangement for the monument. Keep the outing movable when visibility or access conditions change."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:cristo"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q8678:sugarloaf",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Pão de Açúcar"
+      },
+      "kind": "viewpoint",
+      "shortDescription": {
+        "en": "Plan the cableway as a separately ticketed outing. Check the operator’s current service before choosing a time; a clear skyline is not guaranteed."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:sugar"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q8678:copacabana",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Copacabana"
+      },
+      "kind": "beach",
+      "shortDescription": {
+        "en": "Use the beachfront for a flexible walk and a look at the surrounding neighbourhood. This guide makes no guarantee about swimming conditions or beach services."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:city",
+        "source:expansion01:rio-de-janeiro:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q8678:parque-lage",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Parque Lage"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Check current park access first. The operator lists the mansion as closed for restoration; this plan includes neither the interior nor courtyard access."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:lage"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q8678:expansion01-5",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Escadaria Selarón"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "See the tiled steps as part of a separate Lapa/centre outing, checking your exact route and return. Do not add it as if it were beside the beach."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q8678:expansion01-1",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Copacabana near a useful metro stop"
+      },
+      "summary": {
+        "en": "Compare the exact address if beach time and metro journeys are priorities."
+      },
+      "goodFor": [
+        {
+          "en": "A beach-neighbourhood base with station options."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Viewpoint visits still need onward transport; no safety, room-price or availability ranking is made."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:city",
+        "source:expansion01:rio-de-janeiro:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q8678:expansion01-2",
+      "destinationId": "place:Q8678",
+      "name": {
+        "en": "Ipanema near a useful metro stop"
+      },
+      "summary": {
+        "en": "Consider a base for the beach district if it fits your airport and sightseeing routes."
+      },
+      "goodFor": [
+        {
+          "en": "A different beach-area base rather than a hotel recommendation."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "The airport and historic centre remain separate journeys; check the last leg."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:city",
+        "source:expansion01:rio-de-janeiro:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q8678:expansion01-1",
+      "destinationId": "place:Q8678",
+      "title": {
+        "en": "Galeão (GIG)"
+      },
+      "guidance": {
+        "en": "The airport lists BRT and authorised taxi/app options. For a Gentileza connection, check the current BRT service and onward VLT or metro route. No direct airport metro train or bundled fare is assumed."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:gig",
+        "source:expansion01:rio-de-janeiro:gentileza",
+        "source:expansion01:rio-de-janeiro:vlt"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q8678:expansion01-2",
+      "destinationId": "place:Q8678",
+      "title": {
+        "en": "Santos Dumont (SDU) and Jacarepaguá (RRJ)"
+      },
+      "guidance": {
+        "en": "VLT connects Santos Dumont (SDU) with the centre and onward metro. Jacarepaguá (RRJ) is different: its ground route is unverified here. Arrange and price that leg before calling an RRJ trip complete."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:vlt",
+        "source:expansion01:rio-de-janeiro:metro"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q8678:expansion01-3",
+      "destinationId": "place:Q8678",
+      "title": {
+        "en": "Beach districts and viewpoints"
+      },
+      "guidance": {
+        "en": "Use MetrôRio’s actual station map for beach-to-city journeys, then check the last connection to a viewpoint. A metro stop in the district does not include mountain transport or an attraction ticket."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:metro",
+        "source:expansion01:rio-de-janeiro:cristo",
+        "source:expansion01:rio-de-janeiro:sugar"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q8678:expansion01-history",
+      "destinationId": "place:Q8678",
+      "kind": "other",
+      "text": {
+        "en": "Parque Lage brings a former estate landscape together with a visual arts school. Its mansion is currently listed as closed for restoration; this plan includes neither the interior nor courtyard access."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:lage"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q8678:expansion01-cost-limits",
+      "destinationId": "place:Q8678",
+      "kind": "booking",
+      "text": {
+        "en": "Viewpoint transport, attraction tickets and all airport legs need separate checks. The RRJ arrival and Parque Lage access limit are explicit gaps; unknown amounts must not become zero or a complete trip price."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q8678:expansion01-2-nights",
+      "destinationId": "place:Q8678",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Rio de Janeiro"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q8678:copacabana",
+          "day": 1,
+          "notes": {
+            "en": "A flexible beachfront outing after settling in."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:corcovado",
+          "day": 2,
+          "notes": {
+            "en": "Choose confirmed transport and leave time for weather changes."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:parque-lage",
+          "day": 2,
+          "notes": {
+            "en": "Optional park visit only if current access and the separate journey work."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:sugarloaf",
+          "day": 3,
+          "notes": {
+            "en": "Only if departure leaves time; otherwise choose one viewpoint for the stay."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:city",
+        "source:expansion01:rio-de-janeiro:metro",
+        "source:expansion01:rio-de-janeiro:cristo",
+        "source:expansion01:rio-de-janeiro:lage",
+        "source:expansion01:rio-de-janeiro:sugar"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q8678:expansion01-3-nights",
+      "destinationId": "place:Q8678",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Rio de Janeiro"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q8678:copacabana",
+          "day": 1,
+          "notes": {
+            "en": "Keep the first outing flexible."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:corcovado",
+          "day": 2,
+          "notes": {
+            "en": "Use the best workable day for the viewpoint, without a visibility promise."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:parque-lage",
+          "day": 2,
+          "notes": {
+            "en": "Optional park setting; no mansion or courtyard visit is included."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:sugarloaf",
+          "day": 3,
+          "notes": {
+            "en": "Make a separate cableway outing."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q8678:expansion01-5",
+          "day": 4,
+          "notes": {
+            "en": "Only if the centre-side journey suits your departure; otherwise move earlier or omit."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-23T22:47:28.843Z",
+      "sourceIds": [
+        "source:expansion01:rio-de-janeiro:city",
+        "source:expansion01:rio-de-janeiro:metro",
+        "source:expansion01:rio-de-janeiro:cristo",
+        "source:expansion01:rio-de-janeiro:lage",
+        "source:expansion01:rio-de-janeiro:sugar"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "publication": {
+    "contentDigest": "195561a2abe6f8eb296e6b5858c5207d747986ba7ebffad5a6192ad65889bce2",
+    "identityDigest": "8e14ddc3b00159ebef8ea586f020094cdd199541bd9815b21b3dd3dc6f0c8ed3",
+    "approvedAt": "2026-10-23T22:47:28.843Z"
+  }
+}

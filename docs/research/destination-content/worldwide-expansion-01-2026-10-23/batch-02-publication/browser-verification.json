@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-23T22:24:59.952Z",
+  "scope": "actual local production-built Next.js 16.4.1 routes using isolated keyless runtime; not hosted Netlify verification",
+  "guideViewportChecks": 8,
+  "homepageViewportChecks": 2,
+  "checks": [
+    {
+      "slug": "tokyo",
+      "width": 390,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "canonical": "https://www.goeksplo.com/en/destinations/tokyo",
+      "image": "/destinations/tokyo-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "tokyo",
+      "width": 320,
+      "status": "passed",
+      "targetId": "place:Q1490",
+      "canonical": "https://www.goeksplo.com/en/destinations/tokyo",
+      "image": "/destinations/tokyo-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 390,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "canonical": "https://www.goeksplo.com/en/destinations/kyoto",
+      "image": "/destinations/kyoto-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "kyoto",
+      "width": 320,
+      "status": "passed",
+      "targetId": "place:Q34600",
+      "canonical": "https://www.goeksplo.com/en/destinations/kyoto",
+      "image": "/destinations/kyoto-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "canonical": "https://www.goeksplo.com/en/destinations/bangkok",
+      "image": "/destinations/bangkok-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "bangkok",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:BKK",
+      "canonical": "https://www.goeksplo.com/en/destinations/bangkok",
+      "image": "/destinations/bangkok-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "canonical": "https://www.goeksplo.com/en/destinations/marrakesh",
+      "image": "/destinations/marrakesh-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "marrakesh",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:RAK",
+      "canonical": "https://www.goeksplo.com/en/destinations/marrakesh",
+      "image": "/destinations/marrakesh-batch2-v1-640.webp",
+      "creditAndLicence": true,
+      "contextPreserved": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "page": "homepage",
+      "width": 390,
+      "cards": 12,
+      "status": "passed"
+    },
+    {
+      "page": "homepage",
+      "width": 320,
+      "cards": 12,
+      "status": "passed"
+    }
+  ],
+  "browserErrors": [],
+  "externalRequests": [],
+  "attemptedApiRequests": [],
+  "providerCalls": 0,
+  "RedisCalls": 0,
+  "OpenAICalls": 0
+}

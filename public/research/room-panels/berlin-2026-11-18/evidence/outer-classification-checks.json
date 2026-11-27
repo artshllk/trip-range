@@ -1,0 +1,839 @@
+[
+  {
+    "property_id": "berlin-n66917101",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Neuer Fritz Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n66917107",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Meliá Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [
+      {
+        "id": "41296",
+        "hotelName": "Innside by Meliá Berlin Mitte",
+        "street": "Chausseestraße",
+        "streetNumber": "33",
+        "zip": "10115",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "4",
+        "superior": false,
+        "garni": false
+      },
+      {
+        "id": "41046",
+        "hotelName": "Melia Berlin",
+        "street": "Friedrichstraße",
+        "streetNumber": "103",
+        "zip": "10117",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "4",
+        "superior": true,
+        "garni": false
+      }
+    ],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n66917193",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "NH Collection",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [
+      {
+        "id": "40781",
+        "hotelName": "NH Collection Berlin Mitte",
+        "street": "Leipziger Str.",
+        "streetNumber": "106-111",
+        "zip": "10117",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "4",
+        "superior": true,
+        "garni": false
+      },
+      {
+        "id": "36226",
+        "hotelName": "NH Collection Berlin-Friedrichstrasse",
+        "street": "Friedrichstraße",
+        "streetNumber": "96",
+        "zip": "10117",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "4",
+        "superior": true,
+        "garni": false
+      }
+    ],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n66917205",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Maritim proArte Hotel Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n86001788",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "The Westin Grand Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n86001831",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Gendarm",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n86001840",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hilton Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [
+      {
+        "id": "91332",
+        "hotelName": "Hampton by Hilton Berlin City East Side Gallery",
+        "street": "Mildred-Harnack-Straße ",
+        "streetNumber": "15",
+        "zip": "10243",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "3",
+        "superior": true,
+        "garni": true
+      },
+      {
+        "id": "42690",
+        "hotelName": "Hampton by Hilton Berlin City West",
+        "street": "Uhlandstraße",
+        "streetNumber": "188-189",
+        "zip": "10623",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "3",
+        "superior": true,
+        "garni": true
+      }
+    ],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n332554289",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Amelie",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n1129787533",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Märkischer Hof",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n1257750727",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Gendarm nouveau",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n1385272346",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Melarose",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n1738271360",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Garner Hotel Berlin - Gendarmenmarkt by IHG",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n1830206154",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Honigmond Hotel",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n2181178541",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Lebensquelle",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n2842306125",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Adina Apartment Hotel Berlin Checkpoint Charlie",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [
+      {
+        "id": "41689",
+        "hotelName": "Adina Apartment Hotel Berlin Checkpoint Charlie",
+        "street": "Krausenstraße",
+        "streetNumber": "35-36",
+        "zip": "10117",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "4",
+        "superior": false,
+        "garni": false
+      }
+    ],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n3139370871",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Leonardo Berlin Mitte",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n3733679785",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Clipper City Home",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n3734954312",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Novalis",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n3780138653",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "NH Berlin Kreuzberg",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n3780963364",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Luc, Autograph Collection",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n4095897082",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Hotel Oderberger",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-n11372835433",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Château Royal",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-r9729459",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Amo by Amano",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-r14587479",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Motel One Berlin-Mitte",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w42163095",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Me and All Hotel Berlin East Side",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w131381658",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "B&B Hotel Berlin-Mitte",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w188033979",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "martas Hotel Albrechtshof Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w336063501",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "IntercityHotel Berlin Ostbahnhof",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w404775652",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Moxy Berlin Ostbahnhof",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w422928024",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "martas Hotel Allegra Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [
+      {
+        "id": "42766",
+        "hotelName": "martas Hotel Allegra Berlin",
+        "street": "Albrechtstraße",
+        "streetNumber": "17",
+        "zip": "10117",
+        "city": "Berlin",
+        "catalogName": "Hotelklassifizierung",
+        "hotelCategory": "3",
+        "superior": false,
+        "garni": true
+      }
+    ],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w425327567",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "Arcotel Velvet Berlin",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  },
+  {
+    "property_id": "berlin-w970032515",
+    "source_url": "https://www.hotelstars.eu/search/proxy.php",
+    "request": {
+      "countryCodes": [
+        "DE"
+      ],
+      "companyName": "AMANO",
+      "companyAddress": "Berlin",
+      "hotelCategories": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "filters": []
+    },
+    "checked_date": "2026-11-18",
+    "records": [],
+    "status": "response_received",
+    "date_limitation": "The public record supplies no award date or certificate expiry. Retrieval does not reset the v9 clock."
+  }
+]

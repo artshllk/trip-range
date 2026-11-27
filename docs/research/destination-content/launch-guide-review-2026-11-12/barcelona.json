@@ -1,0 +1,544 @@
+{
+  "destinationId": "city:BCN",
+  "identitySubject": "city:BCN",
+  "contentVersion": 5,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:pilot:bcn:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:pilot:bcn:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1492",
+      "title": "Barcelona (Q1492)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T21:54:31.358Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q1492"
+      }
+    },
+    {
+      "id": "source:expansion01:barcelona:eixample",
+      "type": "official",
+      "url": "https://bid.barcelonaturisme.com/wv3/en/page/19/eixample.html",
+      "title": "Eixample",
+      "publisher": "Turisme de Barcelona",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:gothic",
+      "type": "official",
+      "url": "https://bid.barcelonaturisme.com/wv3/en/page/1052/gothic-quarter.html",
+      "title": "Gothic Quarter",
+      "publisher": "Turisme de Barcelona",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:sagrada",
+      "type": "official",
+      "url": "https://sagradafamilia.org/en/",
+      "title": "Sagrada Família official visitor site",
+      "publisher": "Sagrada Família",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:park",
+      "type": "official",
+      "url": "https://parkguell.barcelona/en",
+      "title": "Park Güell",
+      "publisher": "Barcelona City Council",
+      "retrievedAt": "2026-11-12T11:07:27Z",
+      "observedAt": "2026-11-12T11:07:27Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:picasso",
+      "type": "official",
+      "url": "https://museupicassobcn.cat/en/picasso-collection",
+      "title": "Picasso Collection",
+      "publisher": "Museu Picasso Barcelona",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:airport",
+      "type": "official",
+      "url": "https://www.tmb.cat/en/visit-barcelona/public-transport/metro-airport",
+      "title": "From the airport by metro",
+      "publisher": "TMB",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:mnac",
+      "type": "official",
+      "url": "https://www.museunacional.cat/en/collection",
+      "title": "The collection",
+      "publisher": "Museu Nacional d’Art de Catalunya",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:expansion01:barcelona:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    },
+    {
+      "id": "source:batch1review:barcelona:mnac-museum",
+      "type": "official",
+      "url": "https://www.museunacional.cat/en/museum",
+      "title": "The Museum and its collections",
+      "publisher": "Museu Nacional d’Art de Catalunya",
+      "retrievedAt": "2026-10-23T10:13:49Z"
+    },
+    {
+      "id": "source:batch1review:barcelona:mnac-days",
+      "type": "official",
+      "url": "https://www.museunacional.cat/es/horarios-y-precios",
+      "title": "Opening times and prices",
+      "publisher": "Museu Nacional d’Art de Catalunya",
+      "retrievedAt": "2026-11-12T11:07:27Z",
+      "observedAt": "2026-11-12T11:07:27Z"
+    },
+    {
+      "id": "source:batch1review:barcelona:picasso-days",
+      "type": "official",
+      "url": "https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours",
+      "title": "Tickets and opening hours",
+      "publisher": "Museu Picasso Barcelona",
+      "retrievedAt": "2026-11-12T11:07:27Z",
+      "observedAt": "2026-11-12T11:07:27Z"
+    },
+    {
+      "id": "source:batch1review:barcelona:casa-batllo",
+      "type": "official",
+      "url": "https://guia.barcelona.cat/ca/detall/casa-batllo_75990398260.html",
+      "title": "Casa Batlló: address and visitor information",
+      "publisher": "Barcelona City Council",
+      "retrievedAt": "2026-10-23T10:13:49Z"
+    },
+    {
+      "id": "source:maintenance20261104:barcelona:park-faq",
+      "type": "official",
+      "title": "Park Güell visitor booking guidance",
+      "publisher": "Park Güell / Barcelona City Council",
+      "url": "https://parkguell.barcelona/en/planning-your-visit/faqs",
+      "retrievedAt": "2026-11-12T11:07:27Z",
+      "observedAt": "2026-11-12T11:07:27Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Barcelona works well when you plan by neighbourhood: Gaudí buildings in the Eixample, the lanes of the old city and art museums on separate outings. Choose the interiors that matter to you before adding up tickets."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:barcelona:eixample",
+      "source:expansion01:barcelona:gothic"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:city:BCN:sagrada-familia",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Sagrada Família"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "See Gaudí’s basilica as a planned interior visit rather than assuming you can walk straight in. Check the official visitor options for your date."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:sagrada"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      },
+      "externalIdentities": [
+        {
+          "authority": "wikidata",
+          "id": "Q48435"
+        }
+      ]
+    },
+    {
+      "id": "attraction:city:BCN:park-guell",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Park Güell"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Plan a dated, timed visit to Park Güell’s Gaudí-designed spaces and gardens. The operator recommends booking online ahead. Read its access notices before setting off."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:park",
+        "source:maintenance20261104:barcelona:park-faq"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-12T11:07:27Z",
+        "validUntil": "2026-11-26T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:city:BCN:casa-batllo",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Casa Batlló"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Look for modernista detail on Passeig de Gràcia. An exterior walk and an interior visit are different choices for your budget."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:eixample",
+        "source:batch1review:barcelona:casa-batllo"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:city:BCN:museu-picasso",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Museu Picasso"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "Use the collection to explore Picasso’s formative years; it offers a different focus from a Gaudí architecture day."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:picasso"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:city:BCN:museu-nacional",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Museu Nacional d’Art de Catalunya"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "See Romanesque mural paintings and Catalan modern art in the Palau Nacional on Montjuïc. Treat it as a separate outing from the old-city Picasso collection."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:mnac",
+        "source:batch1review:barcelona:mnac-museum"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:city:BCN:expansion01-1",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Eixample"
+      },
+      "summary": {
+        "en": "Consider a base near a useful metro station for architecture outings and cross-city travel."
+      },
+      "goodFor": [
+        {
+          "en": "Gaudí buildings and a street-grid base."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the exact block and station; Eixample is a large district."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:eixample",
+        "source:expansion01:barcelona:airport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:city:BCN:expansion01-2",
+      "destinationId": "city:BCN",
+      "name": {
+        "en": "Gothic Quarter"
+      },
+      "summary": {
+        "en": "Consider the old city if historic lanes are the main reason for your visit."
+      },
+      "goodFor": [
+        {
+          "en": "Exploring the Roman and medieval centre on foot."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the property entrance, luggage access and noise conditions directly."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:gothic"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:city:BCN:expansion01-1",
+      "destinationId": "city:BCN",
+      "title": {
+        "en": "Arriving at Barcelona–El Prat (BCN)"
+      },
+      "guidance": {
+        "en": "L9 Sud serves both airport terminals and connects with other metro lines. Compare the connection to your accommodation, not just the airport station. Some ordinary tickets are not valid at the airport metro gates."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:airport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:city:BCN:expansion01-2",
+      "destinationId": "city:BCN",
+      "title": {
+        "en": "Getting between neighbourhoods"
+      },
+      "guidance": {
+        "en": "Group the Eixample buildings together and plan a separate old-city outing. Park Güell needs its own approach; check TMB’s route information rather than assuming every sight is an easy walk."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:eixample",
+        "source:expansion01:barcelona:gothic",
+        "source:expansion01:barcelona:park",
+        "source:expansion01:barcelona:airport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:city:BCN:expansion01-history",
+      "destinationId": "city:BCN",
+      "kind": "other",
+      "text": {
+        "en": "The Gothic Quarter follows the Roman and medieval core. The later Eixample grid gave the expanding city room for the modernista buildings that still shape its streets."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:eixample",
+        "source:expansion01:barcelona:gothic"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:city:BCN:expansion01-cost-limits",
+      "destinationId": "city:BCN",
+      "kind": "booking",
+      "text": {
+        "en": "Interior tickets, local journeys and airport travel are separate choices. This guide supplies no reviewed accommodation, meal or complete attraction budget. Check the actual property total and chosen tickets."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:city:BCN:batch1-museum-days",
+      "destinationId": "city:BCN",
+      "kind": "closure",
+      "text": {
+        "en": "Museu Picasso closes on Mondays. MNAC also closes on Mondays except public holidays. Check each museum’s calendar before choosing your museum day."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:batch1review:barcelona:picasso-days",
+        "source:batch1review:barcelona:mnac-days"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-12T11:07:27Z",
+        "validUntil": "2026-11-26T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:city:BCN:expansion01-2-nights",
+      "destinationId": "city:BCN",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Barcelona"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:city:BCN:casa-batllo",
+          "day": 1,
+          "notes": {
+            "en": "Start with the exterior and the surrounding Eixample streets if arrival leaves time."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:sagrada-familia",
+          "day": 2,
+          "notes": {
+            "en": "Use your confirmed entry arrangement; leave time to enjoy the interior."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:park-guell",
+          "day": 2,
+          "notes": {
+            "en": "Make a separate connection to the park; do not assume the two Gaudí sites are adjacent."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:museu-picasso",
+          "day": 3,
+          "notes": {
+            "en": "An old-city museum visit when open; move it off Monday and leave enough time before departure."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:eixample",
+        "source:expansion01:barcelona:sagrada",
+        "source:expansion01:barcelona:park",
+        "source:expansion01:barcelona:picasso",
+        "source:batch1review:barcelona:picasso-days",
+        "source:batch1review:barcelona:mnac-days"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:city:BCN:expansion01-3-nights",
+      "destinationId": "city:BCN",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Barcelona"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:city:BCN:casa-batllo",
+          "day": 1,
+          "notes": {
+            "en": "An exterior architecture walk if arrival leaves time."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:sagrada-familia",
+          "day": 2,
+          "notes": {
+            "en": "Use your confirmed basilica visit."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:park-guell",
+          "day": 2,
+          "notes": {
+            "en": "A separate park journey; leave room for a break."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:museu-picasso",
+          "day": 3,
+          "notes": {
+            "en": "An old-city museum visit when open; move it off Monday and leave enough time before departure."
+          }
+        },
+        {
+          "attractionId": "attraction:city:BCN:museu-nacional",
+          "day": 4,
+          "notes": {
+            "en": "An optional Montjuïc outing if departure and opening days allow; otherwise choose one art museum for the stay."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:barcelona:eixample",
+        "source:expansion01:barcelona:sagrada",
+        "source:expansion01:barcelona:park",
+        "source:expansion01:barcelona:picasso",
+        "source:expansion01:barcelona:mnac",
+        "source:batch1review:barcelona:picasso-days",
+        "source:batch1review:barcelona:mnac-days"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ]
+}

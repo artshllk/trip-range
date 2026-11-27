@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-candidate-preparation-not-publication",
+  "checkedAt": "2026-10-23T22:44:37.312769+00:00",
+  "checks": [
+    {
+      "slug": "cape-town",
+      "editorial": "PASS-for-narrowed-source-backed-candidate-not-owner-approval",
+      "contentVersion": 4,
+      "canonicalSubject": "place:Q5465",
+      "targetId": "city:CPT",
+      "providerGroup": "CPT",
+      "operationalAirports": [
+        "CPT"
+      ],
+      "publication": "blocked-owner-approval-required",
+      "media": "candidate-no-selections",
+      "responsiveFileValidation": "passed"
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "editorial": "PASS-for-narrowed-source-backed-candidate-not-owner-approval",
+      "contentVersion": 4,
+      "canonicalSubject": "place:Q8678",
+      "targetId": "city:RIO",
+      "providerGroup": "RIO",
+      "operationalAirports": [
+        "SDU",
+        "GIG",
+        "RRJ"
+      ],
+      "publication": "blocked-owner-approval-required",
+      "media": "candidate-no-selections",
+      "responsiveFileValidation": "passed"
+    },
+    {
+      "slug": "sydney",
+      "editorial": "PASS-for-narrowed-source-backed-candidate-not-owner-approval",
+      "contentVersion": 4,
+      "canonicalSubject": "place:Q3130",
+      "targetId": "city:SYD",
+      "providerGroup": "SYD",
+      "operationalAirports": [
+        "WSI",
+        "SYD"
+      ],
+      "publication": "blocked-owner-approval-required",
+      "media": "candidate-no-selections",
+      "responsiveFileValidation": "passed"
+    },
+    {
+      "slug": "dubai",
+      "editorial": "PASS-for-narrowed-source-backed-candidate-not-owner-approval",
+      "contentVersion": 4,
+      "canonicalSubject": "place:Q612",
+      "targetId": "city:DXB",
+      "providerGroup": "DXB",
+      "operationalAirports": [
+        "DWC",
+        "DXB"
+      ],
+      "publication": "blocked-owner-approval-required",
+      "media": "candidate-no-selections",
+      "responsiveFileValidation": "passed"
+    }
+  ],
+  "newMediaAssets": 4,
+  "newMediaSelections": 0,
+  "responsiveFiles": 12,
+  "publicFilesWritten": 0,
+  "runtimeContentWrites": 0,
+  "sourceCodeChanged": false,
+  "externalProviderRequests": 0,
+  "RedisRequests": 0,
+  "OpenAIRequests": 0,
+  "browserChecks": {
+    "status": "passed",
+    "guideViewportChecks": 20,
+    "galleryAndCardsChecks": 6,
+    "widths": [
+      1440,
+      390,
+      375,
+      360,
+      320
+    ],
+    "navigationReloadAndBack": 20,
+    "actualHeroDownloads": {
+      "mobileDpr1": 640,
+      "desktopDpr1": 1200
+    },
+    "browserErrors": [],
+    "scope": "actual shared guide/card components in unpublished operator previews; planning links open isolated keyless production-built homepage; NOT hosted Netlify checks"
+  },
+  "build": {
+    "status": "passed",
+    "version": "Next.js 16.4.1",
+    "command": "npm run build -- --webpack",
+    "buildConfigurationChanged": false
+  },
+  "targetedTests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "fullSuite": {
+    "total": 1510,
+    "passed": 1509,
+    "failed": 0,
+    "skipped": 1,
+    "skipReason": "optional local Redis service test"
+  },
+  "typecheck": "passed",
+  "newRegressionLint": "passed",
+  "diffWhitespace": "passed",
+  "baselinePreservation": {
+    "files": 1880,
+    "changedExistingFiles": []
+  },
+  "newTestFiles": [
+    "tests/batch3-planning.test.ts"
+  ],
+  "productionApplicationCodeChanged": false,
+  "newOwnerApprovalRecords": 0,
+  "candidatePhotographs": 4,
+  "candidateContentVersion": 4,
+  "freshnessBlockers": [
+    "Sydney WSI opening/services recheck by 2026-10-26 and before publication; no current opening claim is made."
+  ],
+  "explicitEvidenceGaps": [
+    "Rio RRJ ground transport unverified/unpriced; no complete all-airport guidance claim."
+  ],
+  "publicationStatus": "blocked-exact-owner-approval-and-due-operational-rechecks"
+}

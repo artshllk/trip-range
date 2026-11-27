@@ -1,0 +1,5614 @@
+{
+  "context": {
+    "identities": [
+      {
+        "subject": "city:BCN",
+        "name": "Barcelona",
+        "countryCode": "ES",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.3825,
+          "longitude": 2.1769444444
+        },
+        "iataCodes": [
+          "BCN"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1492"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1",
+        "cityCode": "BCN"
+      },
+      {
+        "subject": "crete",
+        "name": "Crete",
+        "countryCode": "GR",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 35.3097222222,
+          "longitude": 24.8933333333
+        },
+        "iataCodes": [
+          "HER",
+          "CHQ"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q34374"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "istanbul",
+        "name": "Istanbul",
+        "countryCode": "TR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.01,
+          "longitude": 28.9602777778
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q406"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "london",
+        "name": "London",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 51.5072222222,
+          "longitude": -0.1275
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q84"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "paris",
+        "name": "Paris",
+        "countryCode": "FR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.8566666667,
+          "longitude": 2.3522222222
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q90"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q101625",
+        "name": "Marrakesh",
+        "countryCode": "MA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 31.6294694444,
+          "longitude": -7.9810805556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q101625"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1273",
+        "name": "Tuscany",
+        "countryCode": "IT",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 43.45,
+          "longitude": 11.2
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1273"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q131347",
+        "name": "Oahu",
+        "countryCode": "US",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 21.485,
+          "longitude": -157.965
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q131347"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1486",
+        "name": "Buenos Aires",
+        "countryCode": "AR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -34.5997222222,
+          "longitude": -58.3819444444
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1486"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1489",
+        "name": "Mexico City",
+        "countryCode": "MX",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 19.3537730556,
+          "longitude": -99.13589
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1489"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1490",
+        "name": "Tokyo",
+        "countryCode": "JP",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 35.6894444444,
+          "longitude": 139.6916666667
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1490"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q180402",
+        "name": "Yosemite National Park",
+        "countryCode": "US",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": 37.7425,
+          "longitude": -119.5375
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q180402"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1861",
+        "name": "Bangkok",
+        "countryCode": "TH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 13.75,
+          "longitude": 100.5166666667
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1861"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q24451",
+        "name": "Kruger National Park",
+        "countryCode": "ZA",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": -24.011389,
+          "longitude": 31.485281
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q24451"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:37:27Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q24639",
+        "name": "Vancouver",
+        "countryCode": "CA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 49.2608333333,
+          "longitude": -123.1138888889
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q24639"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q2656389",
+        "name": "Mauritius Island",
+        "countryCode": "MU",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -20.3,
+          "longitude": 57.5833333333
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q2656389"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q3130",
+        "name": "Sydney",
+        "countryCode": "AU",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -33.8677777778,
+          "longitude": 151.21
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q3130"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q334",
+        "name": "Singapore",
+        "countryCode": "SG",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 1.3,
+          "longitude": 103.8
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q334"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q34600",
+        "name": "Kyoto",
+        "countryCode": "JP",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 35.0116111111,
+          "longitude": 135.7681111111
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q34600"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q3593416",
+        "name": "Tasmania",
+        "countryCode": "AU",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -42,
+          "longitude": 147
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q3593416"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q40846",
+        "name": "Tenerife",
+        "countryCode": "ES",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 28.2686111111,
+          "longitude": -16.6055555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q40846"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q41858",
+        "name": "Banff National Park",
+        "countryCode": "CA",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": 51.166667,
+          "longitude": -115.55
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q41858"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:37:27Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q4648",
+        "name": "Bali",
+        "countryCode": "ID",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -8.3563888889,
+          "longitude": 115.0719388889
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q4648"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q5465",
+        "name": "Cape Town",
+        "countryCode": "ZA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -33.9252777778,
+          "longitude": 18.4238888889
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q5465"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q60",
+        "name": "New York City",
+        "countryCode": "US",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.7127777778,
+          "longitude": -74.0061111111
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q60"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q612",
+        "name": "Dubai",
+        "countryCode": "AE",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 25.2697222222,
+          "longitude": 55.3094444444
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q612"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q76516549",
+        "name": "Algarve",
+        "countryCode": "PT",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 37.2337881,
+          "longitude": -8.01109
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q76516549"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q8678",
+        "name": "Rio de Janeiro",
+        "countryCode": "BR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -22.9111111111,
+          "longitude": -43.2055555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q8678"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "prishtina",
+        "name": "Prishtina",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.6666666667,
+          "longitude": 21.1666666667
+        },
+        "iataCodes": [
+          "PRN"
+        ],
+        "cityCode": "PRN",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q25270"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "prizren",
+        "name": "Prizren",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.23,
+          "longitude": 20.74
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q200061"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "skopje",
+        "name": "Skopje",
+        "countryCode": "MK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.99611111111111,
+          "longitude": 21.431666666666665
+        },
+        "iataCodes": [
+          "SKP"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q384"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "thessaloniki",
+        "name": "Thessaloniki",
+        "countryCode": "GR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.640277777777776,
+          "longitude": 22.935555555555556
+        },
+        "iataCodes": [
+          "SKG"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q17151"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "ulcinj",
+        "name": "Ulcinj",
+        "countryCode": "ME",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.923611111111,
+          "longitude": 19.205555555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q189969"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "vienna",
+        "name": "Vienna",
+        "countryCode": "AT",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.208333333333336,
+          "longitude": 16.3725
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1741"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-21T14:31:20Z",
+        "policyVersion": "destination-media-v1",
+        "unresolvedReason": null
+      },
+      {
+        "subject": "zurich",
+        "name": "Zurich",
+        "countryCode": "CH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 47.37444444444444,
+          "longitude": 8.54111111111111
+        },
+        "iataCodes": [
+          "ZRH"
+        ],
+        "cityCode": "ZRH",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q72"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      }
+    ],
+    "mediaSubjects": [
+      "city:BCN",
+      "crete",
+      "istanbul",
+      "london",
+      "paris",
+      "place:Q101625",
+      "place:Q1273",
+      "place:Q131347",
+      "place:Q1486",
+      "place:Q1489",
+      "place:Q1490",
+      "place:Q180402",
+      "place:Q1861",
+      "place:Q24451",
+      "place:Q24639",
+      "place:Q2656389",
+      "place:Q3130",
+      "place:Q334",
+      "place:Q34600",
+      "place:Q3593416",
+      "place:Q40846",
+      "place:Q41858",
+      "place:Q4648",
+      "place:Q5465",
+      "place:Q60",
+      "place:Q612",
+      "place:Q76516549",
+      "place:Q8678",
+      "prishtina",
+      "prizren",
+      "skopje",
+      "thessaloniki",
+      "ulcinj",
+      "vienna",
+      "zurich"
+    ]
+  },
+  "media": {
+    "schemaVersion": 1,
+    "assets": [
+      {
+        "id": "commons:54280496",
+        "provider": "wikimedia-commons",
+        "providerFileId": "54280496",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wien_katedra_sw_Szczepana_widok_z_wiezy_6.jpg",
+        "width": 5184,
+        "height": 3456,
+        "mimeType": "image/jpeg",
+        "author": "Andrzej Otrębski",
+        "attribution": "Andrzej Otrębski · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-21T14:34:04.767Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-21T14:34:04.767Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/vienna-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/vienna-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 36408,
+              "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+            },
+            {
+              "src": "/destinations/vienna-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 108394,
+              "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+            },
+            {
+              "src": "/destinations/vienna-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 245614,
+              "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:74181523",
+        "provider": "wikimedia-commons",
+        "providerFileId": "74181523",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:London_Skyline_(125508655).jpeg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg",
+        "width": 2048,
+        "height": 1152,
+        "mimeType": "image/jpeg",
+        "author": "Ilya Grigorik",
+        "attribution": "Ilya Grigorik · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-21T14:34:04.767Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-21T14:34:04.767Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/london-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/london-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 45986,
+              "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+            },
+            {
+              "src": "/destinations/london-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 134292,
+              "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+            },
+            {
+              "src": "/destinations/london-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 267994,
+              "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:4213147",
+        "provider": "wikimedia-commons",
+        "providerFileId": "4213147",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+        "width": 7203,
+        "height": 2247,
+        "mimeType": "image/jpeg",
+        "author": "MarcusObal",
+        "attribution": "MarcusObal · Wikimedia Commons · CC BY-SA 3.0 · cropped and resized to WebP; cropped for card display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T09:43:51.895Z"
+        },
+        "health": {
+          "status": "unchecked",
+          "checkedAt": null
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 508,
+            "top": 0,
+            "width": 5617,
+            "height": 2247
+          },
+          "src": "/destinations/paris-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/paris-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 25604,
+              "sha256": "3e0461b5dbcd8c8923e82122ab5ddee04b06ac99c264a2acdb3bf4ff7f5a044b"
+            },
+            {
+              "src": "/destinations/paris-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 80412,
+              "sha256": "6aca5a652ba69d0533be3137d9db43e99a28bd3b6a8d9eb60bdd604bfae1c979"
+            },
+            {
+              "src": "/destinations/paris-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 182064,
+              "sha256": "88a21345c71ffce7fa7ab839a5f6aafa0ffd58d6d06a83b22bbea136f61a4f92"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:129513544",
+        "provider": "wikimedia-commons",
+        "providerFileId": "129513544",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:New_York_City_Skyline_2016.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/New_York_City_Skyline_2016.jpg",
+        "width": 7580,
+        "height": 2110,
+        "mimeType": "image/jpeg",
+        "author": "Aaron Harris (Forestikai)",
+        "attribution": "Aaron Harris (Forestikai) · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for card display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T09:43:51.895Z"
+        },
+        "health": {
+          "status": "unchecked",
+          "checkedAt": null
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 1567,
+            "top": 0,
+            "width": 5275,
+            "height": 2110
+          },
+          "src": "/destinations/new-york-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/new-york-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 22314,
+              "sha256": "a5a9c3c1b8a8655a5a9d1c50f7da757286aab828a06de6d6685238179f7156d7"
+            },
+            {
+              "src": "/destinations/new-york-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 64272,
+              "sha256": "e896f51320155cfbeb30ac7958283e5685c3945539a0f39cd4fe32683566bee9"
+            },
+            {
+              "src": "/destinations/new-york-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 135084,
+              "sha256": "11cd23fe7662c5e4628b042532a2a9b6b3702e52cae728392be4775baa040e48"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:82826175",
+        "provider": "wikimedia-commons",
+        "providerFileId": "82826175",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "a5418625a8f30ceb705da8ea7c53246de3d42db3"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Harbor%2C_Venetian_shipyards_and_Lighthouse_in_Chania._Crete%2C_Greece.jpg",
+        "width": 9626,
+        "height": 3236,
+        "mimeType": "image/jpeg",
+        "author": "Ввласенко",
+        "attribution": "Ввласенко · Wikimedia Commons · CC BY-SA 3.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:38.094Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:38.094Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 461,
+            "top": 0,
+            "width": 8090,
+            "height": 3236
+          },
+          "src": "/destinations/crete-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/crete-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 26304,
+              "sha256": "886870f7376029a8ac86a292c737815b0c1a5902b13bf3532370ef505b70af5e"
+            },
+            {
+              "src": "/destinations/crete-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 83236,
+              "sha256": "befe9cbece378ca7ae814fe6a87300a563ab402513ecdde50eeb372b02b7be42"
+            },
+            {
+              "src": "/destinations/crete-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 196164,
+              "sha256": "67d71f03165c5fc2b740daa2b00a0cc1fb96aa67709430e43beb4c9b0d5d2541"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:34203027",
+        "provider": "wikimedia-commons",
+        "providerFileId": "34203027",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Panorama_Istanbul.jpg",
+        "width": 6009,
+        "height": 1354,
+        "mimeType": "image/jpeg",
+        "author": "Tolga Tüfekçi",
+        "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.925Z"
+        },
+        "localDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:148809793",
+        "provider": "wikimedia-commons",
+        "providerFileId": "148809793",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "0a88d014f80d78028537487a8954b259cc6b08d8"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Prishtina_n%C3%AB_fund_t%C3%AB_majit.jpg",
+        "width": 4032,
+        "height": 2268,
+        "mimeType": "image/jpeg",
+        "author": "Planeti",
+        "attribution": "Planeti · Wikimedia Commons · CC0 1.0 · resized to WebP; cropped for hero/card display",
+        "license": {
+          "name": "CC0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "verifiedAt": "2026-10-22T11:02:55.457Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T11:02:55.457Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/prishtina-2024-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prishtina-2024-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50834,
+              "sha256": "3173ac1a3eb634cd542cc0893fcb9106c714756fcfa394b0a403fb5923a8eea1"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 161216,
+              "sha256": "9377bd6359a5ba9acb95d78e788cdaaebc58c3d0d6803c1dab4549eef46c2575"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 378628,
+              "sha256": "5fcf7f017fcad66e39cc03b905d233837b57ca0310693c72145eb3e1c0a555ef"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:30821502",
+        "provider": "wikimedia-commons",
+        "providerFileId": "30821502",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "3a70fd781e1aabd25aab79d48ebdac2e229d989e"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Prizren_Stone_Bridge.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Prizren_Stone_Bridge.jpg",
+        "width": 2747,
+        "height": 1820,
+        "mimeType": "image/jpeg",
+        "author": "Bujar Imer Gashi",
+        "attribution": "Bujar Imer Gashi · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:41.275Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:41.275Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/prizren-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prizren-640.webp",
+              "width": 640,
+              "height": 424,
+              "bytes": 74862,
+              "sha256": "d74be86f4a8aa967c0b1f4f709838481dbdfb3cfbcc584f39698aaa0dc3fb226"
+            },
+            {
+              "src": "/destinations/prizren-1200.webp",
+              "width": 1200,
+              "height": 795,
+              "bytes": 221946,
+              "sha256": "6fffe3f7f98a22c89f27506f02de2a260b65f0d189dbdbe6aa929cb043159e4a"
+            },
+            {
+              "src": "/destinations/prizren-1920.webp",
+              "width": 1920,
+              "height": 1272,
+              "bytes": 466976,
+              "sha256": "5f9617f76de5b5c07a88f0c683499fd6ee86c92dab9d27b49a99c01bcf1be46f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:36333116",
+        "provider": "wikimedia-commons",
+        "providerFileId": "36333116",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "77bb5054d2031bc548de3cddd0d4340f8237fee6"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Skopje_Stone_Bridge.JPG",
+        "width": 4608,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "author": "Edon Bayrami",
+        "attribution": "Edon Bayrami · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:41.971Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:41.971Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/skopje-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/skopje-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27388,
+              "sha256": "4e170a249ca2c4f62aef065115588966129fe1fe2d320d24b9f29888eb6a784b"
+            },
+            {
+              "src": "/destinations/skopje-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 77472,
+              "sha256": "da32fb9bacb99d08a16eea3f44f8816ee01648ff6e2a152066270178282cff56"
+            },
+            {
+              "src": "/destinations/skopje-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 170478,
+              "sha256": "66234c7f3433b008e65b584138b28c6961053e4d4b7e1734b082478f22fc7ce2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:71127147",
+        "provider": "wikimedia-commons",
+        "providerFileId": "71127147",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+        "width": 5787,
+        "height": 3582,
+        "mimeType": "image/jpeg",
+        "author": "Berthold Werner",
+        "attribution": "Berthold Werner · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:42.379Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:42.379Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/thessaloniki-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/thessaloniki-640.webp",
+              "width": 640,
+              "height": 396,
+              "bytes": 50314,
+              "sha256": "7f06a4cb7cc0697f4ccfadac32a6f166cb0cd706d5a5e0a7d6ad2db33c11706e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1200.webp",
+              "width": 1200,
+              "height": 743,
+              "bytes": 187164,
+              "sha256": "a7d9e7543a07a6508b10708986c5be3ca217cb2b0a6e3965c58ec876f3de643e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1920.webp",
+              "width": 1920,
+              "height": 1189,
+              "bytes": 448578,
+              "sha256": "c31845d64a60c9932c8eb575b83322847e474070eac2c4c8720679af4c4c0381"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:18569302",
+        "provider": "wikimedia-commons",
+        "providerFileId": "18569302",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Panorama_of_Ulcinj_in_Montenegro_%281%29.jpg",
+        "width": 3990,
+        "height": 2166,
+        "mimeType": "image/jpeg",
+        "author": "Dudva",
+        "attribution": "Dudva · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-22T10:40:43.020Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:43.020Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/ulcinj-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/ulcinj-640.webp",
+              "width": 640,
+              "height": 347,
+              "bytes": 49242,
+              "sha256": "f94b20d932cb5e2db352e10653cdd26cca50f215c3325d02b05dfa26cb528bcf"
+            },
+            {
+              "src": "/destinations/ulcinj-1200.webp",
+              "width": 1200,
+              "height": 651,
+              "bytes": 141588,
+              "sha256": "8c3a941bcbc6e5a005b0710d904237df7cbc7b04d00c66029d1860d05612ffd5"
+            },
+            {
+              "src": "/destinations/ulcinj-1920.webp",
+              "width": 1920,
+              "height": 1042,
+              "bytes": 317144,
+              "sha256": "26720bfb6b27c1be6d2ec8da7457e309e9216ba354b217dcc210ef00742d9374"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:119510626",
+        "provider": "wikimedia-commons",
+        "providerFileId": "119510626",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "6329cf0ee10b576d4a88b26db1b9d092a599f145"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Zurich_Skyline.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zurich_Skyline.jpg",
+        "width": 3264,
+        "height": 2448,
+        "mimeType": "image/jpeg",
+        "author": "Schuetze75",
+        "attribution": "Schuetze75 · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-22T10:40:45.338Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-22T10:40:45.338Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/zurich-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/zurich-640.webp",
+              "width": 640,
+              "height": 480,
+              "bytes": 37424,
+              "sha256": "d0ea90b9bfb547c69984da8e4fca8e4a4b8c4aa2b8ee0e8fe55eeb35c9425471"
+            },
+            {
+              "src": "/destinations/zurich-1200.webp",
+              "width": 1200,
+              "height": 900,
+              "bytes": 126484,
+              "sha256": "d1215ca6ad60610df89789c0509163c128cf7f8c3f81aa8bdb2a34a5f87a5486"
+            },
+            {
+              "src": "/destinations/zurich-1920.webp",
+              "width": 1920,
+              "height": 1440,
+              "bytes": 287820,
+              "sha256": "3dc48d52a7458e9efb03cc31edc3882e3d14407f83d04423f4818a7fd3b26b11"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:9050140",
+        "provider": "wikimedia-commons",
+        "providerFileId": "9050140",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "7cf5bd8111ba4b4994300b32a67988e009fe595c"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Park_G%C3%BCell_02.jpg",
+        "width": 2960,
+        "height": 2232,
+        "mimeType": "image/jpeg",
+        "author": "Bernard Gagnon",
+        "attribution": "Bernard Gagnon / Wikimedia Commons / CC BY-SA 3.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "verifiedAt": "2026-10-23T10:04:38.143Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T10:04:38.143Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/barcelona-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/barcelona-batch1-v1-640.webp",
+              "width": 640,
+              "height": 483,
+              "bytes": 67310,
+              "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+            },
+            {
+              "src": "/destinations/barcelona-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 905,
+              "bytes": 197078,
+              "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+            },
+            {
+              "src": "/destinations/barcelona-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1448,
+              "bytes": 394708,
+              "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:88145804",
+        "provider": "wikimedia-commons",
+        "providerFileId": "88145804",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "bf04ead522beb3930aaeb36840a012abfa9fdb96"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Skylines_of_the_Central_Business_District_at_night_in_Singapore.jpg",
+        "width": 6517,
+        "height": 3666,
+        "mimeType": "image/jpeg",
+        "author": "Basile Morin",
+        "attribution": "Basile Morin / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T10:04:38.143Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T10:04:38.143Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/singapore-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/singapore-batch1-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 49816,
+              "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+            },
+            {
+              "src": "/destinations/singapore-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 153222,
+              "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+            },
+            {
+              "src": "/destinations/singapore-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 353130,
+              "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:139259979",
+        "provider": "wikimedia-commons",
+        "providerFileId": "139259979",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "e6fee529ed33bca47aec920cbd59b36238e07422"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Vista_a%C3%A9rea_del_Palacio_Bellas_Artes.jpg",
+        "width": 4000,
+        "height": 2250,
+        "mimeType": "image/jpeg",
+        "author": "ProtoplasmaKid",
+        "attribution": "© ProtoplasmaKid / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T10:04:38.143Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T10:04:38.143Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/mexico-city-batch1-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50162,
+              "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+            },
+            {
+              "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 157150,
+              "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+            },
+            {
+              "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 395240,
+              "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:80694116",
+        "provider": "wikimedia-commons",
+        "providerFileId": "80694116",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "2c340f73e42d2430015f467db385ed9ae2dcc921"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hozomon_with_visitors_under_their_umbrellas,_a_rainy_day_in_Tokyo,_Japan.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hozomon_with_visitors_under_their_umbrellas%2C_a_rainy_day_in_Tokyo%2C_Japan.jpg",
+        "width": 5948,
+        "height": 3965,
+        "mimeType": "image/jpeg",
+        "author": "Basile Morin",
+        "attribution": "Basile Morin / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/tokyo-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/tokyo-batch2-v1-640.webp",
+              "width": 640,
+              "height": 426,
+              "bytes": 63982,
+              "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+            },
+            {
+              "src": "/destinations/tokyo-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 197680,
+              "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+            },
+            {
+              "src": "/destinations/tokyo-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 452416,
+              "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:53593907",
+        "provider": "wikimedia-commons",
+        "providerFileId": "53593907",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "5f0b7dd2d20de6c62acc346b453c04c397c155f2"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+        "width": 5852,
+        "height": 3601,
+        "mimeType": "image/jpeg",
+        "author": "Martin Falbisoner",
+        "attribution": "Martin Falbisoner / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/kyoto-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/kyoto-batch2-v1-640.webp",
+              "width": 640,
+              "height": 394,
+              "bytes": 60786,
+              "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+            },
+            {
+              "src": "/destinations/kyoto-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 738,
+              "bytes": 213820,
+              "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+            },
+            {
+              "src": "/destinations/kyoto-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1181,
+              "bytes": 514758,
+              "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:82660408",
+        "provider": "wikimedia-commons",
+        "providerFileId": "82660408",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "7d8671fb12fe656e5732c940a91c7a30b4161d6b"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wat_Arun_on_the_sunset.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Wat_Arun_on_the_sunset.jpg",
+        "width": 6000,
+        "height": 4000,
+        "mimeType": "image/jpeg",
+        "author": "Trip.with.taste",
+        "attribution": "Trip.with.taste / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/bangkok-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/bangkok-batch2-v1-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 38566,
+              "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+            },
+            {
+              "src": "/destinations/bangkok-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 116574,
+              "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+            },
+            {
+              "src": "/destinations/bangkok-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 258534,
+              "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:72262779",
+        "provider": "wikimedia-commons",
+        "providerFileId": "72262779",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "31092c215e6b5110e74ab5609697dcd1fd8a6572"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Marrakech_Koutoubia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Marrakech_Koutoubia.jpg",
+        "width": 4352,
+        "height": 2448,
+        "mimeType": "image/jpeg",
+        "author": "Philippe Salgarolo",
+        "attribution": "Philippe Salgarolo / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T16:49:24.608Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/marrakesh-batch2-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 49446,
+              "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+            },
+            {
+              "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 169610,
+              "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+            },
+            {
+              "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 398450,
+              "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:126494271",
+        "provider": "wikimedia-commons",
+        "providerFileId": "126494271",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "5051c58045e5c1e0d5eb7db9e9e0b71ed66cb759"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cape_Town_-View_From_The_Table_Mountain.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cape_Town_-View_From_The_Table_Mountain.jpg",
+        "width": 4000,
+        "height": 2836,
+        "mimeType": "image/jpeg",
+        "author": "Sumit Surai",
+        "attribution": "Sumit Surai / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/cape-town-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/cape-town-batch3-v1-640.webp",
+              "width": 640,
+              "height": 454,
+              "bytes": 48062,
+              "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+            },
+            {
+              "src": "/destinations/cape-town-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 851,
+              "bytes": 160680,
+              "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+            },
+            {
+              "src": "/destinations/cape-town-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1361,
+              "bytes": 381312,
+              "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:133796307",
+        "provider": "wikimedia-commons",
+        "providerFileId": "133796307",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "d500e132d45e649fb3297b39e84661e5e04f2054"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Urca_and_Botafogo_Bay,_Rio_de_Janeiro,_Brazil.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Aerial_view_of_Urca_and_Botafogo_Bay%2C_Rio_de_Janeiro%2C_Brazil.jpg",
+        "width": 7778,
+        "height": 5030,
+        "mimeType": "image/jpeg",
+        "author": "Wilfredor",
+        "attribution": "Wilfredor / Wikimedia Commons / CC0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "verifiedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+              "width": 640,
+              "height": 413,
+              "bytes": 63346,
+              "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+            },
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 776,
+              "bytes": 220130,
+              "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+            },
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1242,
+              "bytes": 556550,
+              "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:73107560",
+        "provider": "wikimedia-commons",
+        "providerFileId": "73107560",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "549d0c76537c0d9b0cc2b87c8616c58405fd51e5"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+        "width": 7360,
+        "height": 4912,
+        "mimeType": "image/jpeg",
+        "author": "peter abery (Poidabro)",
+        "attribution": "peter abery (Poidabro) / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/sydney-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/sydney-batch3-v1-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27594,
+              "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+            },
+            {
+              "src": "/destinations/sydney-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 801,
+              "bytes": 79512,
+              "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+            },
+            {
+              "src": "/destinations/sydney-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1281,
+              "bytes": 181270,
+              "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+            }
+          ]
+        }
+      },
+      {
+        "id": "commons:68665373",
+        "provider": "wikimedia-commons",
+        "providerFileId": "68665373",
+        "checksum": {
+          "algorithm": "sha1",
+          "value": "027b8f32b8e41ad20c420366ebdc7149e9c76254"
+        },
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Dubai_Creek_with_dhow_station.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Old_Dubai_Creek_with_dhow_station.jpg",
+        "width": 4032,
+        "height": 1960,
+        "mimeType": "image/jpeg",
+        "author": "Vedaant Jamaiyar",
+        "attribution": "Vedaant Jamaiyar / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "verifiedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "health": {
+          "status": "healthy",
+          "checkedAt": "2026-10-23T22:36:33.549Z"
+        },
+        "localDelivery": {
+          "src": "/destinations/dubai-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/dubai-batch3-v1-640.webp",
+              "width": 640,
+              "height": 311,
+              "bytes": 46566,
+              "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+            },
+            {
+              "src": "/destinations/dubai-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 583,
+              "bytes": 145352,
+              "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+            },
+            {
+              "src": "/destinations/dubai-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 933,
+              "bytes": 342718,
+              "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+            }
+          ]
+        }
+      }
+    ],
+    "selections": [
+      {
+        "subject": "vienna",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:54280496",
+        "method": "human-review",
+        "selectedAt": "2026-10-21T20:53:04.982Z",
+        "reviewedAt": "2026-10-21T20:53:04.982Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "alt": {
+          "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/vienna-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/vienna-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 36408,
+              "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+            },
+            {
+              "src": "/destinations/vienna-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 108394,
+              "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+            },
+            {
+              "src": "/destinations/vienna-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 245614,
+              "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "vienna",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:54280496",
+        "method": "human-review",
+        "selectedAt": "2026-10-21T20:53:04.982Z",
+        "reviewedAt": "2026-10-21T20:53:04.982Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Vienna rooftops and skyline seen from St Stephen’s Cathedral’s north tower"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "3fa8577110481ce1f8d3502687ba403c53e99f26"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/vienna-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/vienna-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 36408,
+              "sha256": "c10dc9635d00d1e79d34e8b9e6a86bd6727fed8531455486f66b16aa3cc6a4e6"
+            },
+            {
+              "src": "/destinations/vienna-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 108394,
+              "sha256": "f345f02ecb3c6cbbff3f96b973915ee6a5378993196d32de4901bc54e83f77e5"
+            },
+            {
+              "src": "/destinations/vienna-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 245614,
+              "sha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "london",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:74181523",
+        "method": "human-review",
+        "selectedAt": "2026-10-21T20:53:04.982Z",
+        "reviewedAt": "2026-10-21T20:53:04.982Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "alt": {
+          "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/london-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/london-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 45986,
+              "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+            },
+            {
+              "src": "/destinations/london-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 134292,
+              "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+            },
+            {
+              "src": "/destinations/london-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 267994,
+              "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "london",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:74181523",
+        "method": "human-review",
+        "selectedAt": "2026-10-21T20:53:04.982Z",
+        "reviewedAt": "2026-10-21T20:53:04.982Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Tower Bridge, the Thames, the Shard and the City of London skyline at dusk"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "25a4edbec6ebd332d79f2d30c6977a1d4ea5f5cd"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/london-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/london-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 45986,
+              "sha256": "0a0ef562027c9173211ac76b7ac88d47de6a9840b640a8bc707659c42f9ef9ac"
+            },
+            {
+              "src": "/destinations/london-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 134292,
+              "sha256": "1144724914d19540d2027d9eb512c309c818f9a6b86eea63c9c9cec6107bd476"
+            },
+            {
+              "src": "/destinations/london-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 267994,
+              "sha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "paris",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:4213147",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T10:14:31.439Z",
+        "reviewedAt": "2026-10-22T10:14:31.439Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.32,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 508,
+            "top": 0,
+            "width": 5617,
+            "height": 2247
+          },
+          "src": "/destinations/paris-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/paris-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 25604,
+              "sha256": "3e0461b5dbcd8c8923e82122ab5ddee04b06ac99c264a2acdb3bf4ff7f5a044b"
+            },
+            {
+              "src": "/destinations/paris-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 80412,
+              "sha256": "6aca5a652ba69d0533be3137d9db43e99a28bd3b6a8d9eb60bdd604bfae1c979"
+            },
+            {
+              "src": "/destinations/paris-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 182064,
+              "sha256": "88a21345c71ffce7fa7ab839a5f6aafa0ffd58d6d06a83b22bbea136f61a4f92"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "paris",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:4213147",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T10:14:31.439Z",
+        "reviewedAt": "2026-10-22T10:14:31.439Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.32,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "09ef91151dd7a54faa163be6c0ea5252a22fdeef"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 508,
+            "top": 0,
+            "width": 5617,
+            "height": 2247
+          },
+          "src": "/destinations/paris-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/paris-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 25604,
+              "sha256": "3e0461b5dbcd8c8923e82122ab5ddee04b06ac99c264a2acdb3bf4ff7f5a044b"
+            },
+            {
+              "src": "/destinations/paris-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 80412,
+              "sha256": "6aca5a652ba69d0533be3137d9db43e99a28bd3b6a8d9eb60bdd604bfae1c979"
+            },
+            {
+              "src": "/destinations/paris-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 182064,
+              "sha256": "88a21345c71ffce7fa7ab839a5f6aafa0ffd58d6d06a83b22bbea136f61a4f92"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q60",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:129513544",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T10:14:31.439Z",
+        "reviewedAt": "2026-10-22T10:14:31.439Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.68,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1567,
+            "top": 0,
+            "width": 5275,
+            "height": 2110
+          },
+          "src": "/destinations/new-york-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/new-york-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 22314,
+              "sha256": "a5a9c3c1b8a8655a5a9d1c50f7da757286aab828a06de6d6685238179f7156d7"
+            },
+            {
+              "src": "/destinations/new-york-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 64272,
+              "sha256": "e896f51320155cfbeb30ac7958283e5685c3945539a0f39cd4fe32683566bee9"
+            },
+            {
+              "src": "/destinations/new-york-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 135084,
+              "sha256": "11cd23fe7662c5e4628b042532a2a9b6b3702e52cae728392be4775baa040e48"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q60",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:129513544",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T10:14:31.439Z",
+        "reviewedAt": "2026-10-22T10:14:31.439Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.68,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "e542120490743c6f39c2159fc8f7526cc89d7017"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1567,
+            "top": 0,
+            "width": 5275,
+            "height": 2110
+          },
+          "src": "/destinations/new-york-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/new-york-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 22314,
+              "sha256": "a5a9c3c1b8a8655a5a9d1c50f7da757286aab828a06de6d6685238179f7156d7"
+            },
+            {
+              "src": "/destinations/new-york-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 64272,
+              "sha256": "e896f51320155cfbeb30ac7958283e5685c3945539a0f39cd4fe32683566bee9"
+            },
+            {
+              "src": "/destinations/new-york-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 135084,
+              "sha256": "11cd23fe7662c5e4628b042532a2a9b6b3702e52cae728392be4775baa040e48"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "crete",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:82826175",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.3,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Chania old harbour on Crete (2019)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "a5418625a8f30ceb705da8ea7c53246de3d42db3"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 461,
+            "top": 0,
+            "width": 8090,
+            "height": 3236
+          },
+          "src": "/destinations/crete-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/crete-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 26304,
+              "sha256": "886870f7376029a8ac86a292c737815b0c1a5902b13bf3532370ef505b70af5e"
+            },
+            {
+              "src": "/destinations/crete-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 83236,
+              "sha256": "befe9cbece378ca7ae814fe6a87300a563ab402513ecdde50eeb372b02b7be42"
+            },
+            {
+              "src": "/destinations/crete-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 196164,
+              "sha256": "67d71f03165c5fc2b740daa2b00a0cc1fb96aa67709430e43beb4c9b0d5d2541"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "crete",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:82826175",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.3,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Chania old harbour on Crete (2019)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "a5418625a8f30ceb705da8ea7c53246de3d42db3"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 461,
+            "top": 0,
+            "width": 8090,
+            "height": 3236
+          },
+          "src": "/destinations/crete-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/crete-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 26304,
+              "sha256": "886870f7376029a8ac86a292c737815b0c1a5902b13bf3532370ef505b70af5e"
+            },
+            {
+              "src": "/destinations/crete-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 83236,
+              "sha256": "befe9cbece378ca7ae814fe6a87300a563ab402513ecdde50eeb372b02b7be42"
+            },
+            {
+              "src": "/destinations/crete-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 196164,
+              "sha256": "67d71f03165c5fc2b740daa2b00a0cc1fb96aa67709430e43beb4c9b0d5d2541"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "istanbul",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:34203027",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.55,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Istanbul and its waterways seen from Galata Tower (2014)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "istanbul",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:34203027",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.55,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Istanbul and its waterways seen from Galata Tower (2014)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "src": "/destinations/istanbul-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "prishtina",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:148809793",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.54,
+          "y": 0.63
+        },
+        "alt": {
+          "en": "Prishtina city view with the National Library and university area (2024)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "0a88d014f80d78028537487a8954b259cc6b08d8"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/prishtina-2024-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prishtina-2024-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50834,
+              "sha256": "3173ac1a3eb634cd542cc0893fcb9106c714756fcfa394b0a403fb5923a8eea1"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 161216,
+              "sha256": "9377bd6359a5ba9acb95d78e788cdaaebc58c3d0d6803c1dab4549eef46c2575"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 378628,
+              "sha256": "5fcf7f017fcad66e39cc03b905d233837b57ca0310693c72145eb3e1c0a555ef"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "prishtina",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:148809793",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.54,
+          "y": 0.63
+        },
+        "alt": {
+          "en": "Prishtina city view with the National Library and university area (2024)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "0a88d014f80d78028537487a8954b259cc6b08d8"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/prishtina-2024-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prishtina-2024-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50834,
+              "sha256": "3173ac1a3eb634cd542cc0893fcb9106c714756fcfa394b0a403fb5923a8eea1"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 161216,
+              "sha256": "9377bd6359a5ba9acb95d78e788cdaaebc58c3d0d6803c1dab4549eef46c2575"
+            },
+            {
+              "src": "/destinations/prishtina-2024-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 378628,
+              "sha256": "5fcf7f017fcad66e39cc03b905d233837b57ca0310693c72145eb3e1c0a555ef"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "prizren",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:30821502",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.58
+        },
+        "alt": {
+          "en": "Stone Bridge in Prizren (2013)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "3a70fd781e1aabd25aab79d48ebdac2e229d989e"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/prizren-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prizren-640.webp",
+              "width": 640,
+              "height": 424,
+              "bytes": 74862,
+              "sha256": "d74be86f4a8aa967c0b1f4f709838481dbdfb3cfbcc584f39698aaa0dc3fb226"
+            },
+            {
+              "src": "/destinations/prizren-1200.webp",
+              "width": 1200,
+              "height": 795,
+              "bytes": 221946,
+              "sha256": "6fffe3f7f98a22c89f27506f02de2a260b65f0d189dbdbe6aa929cb043159e4a"
+            },
+            {
+              "src": "/destinations/prizren-1920.webp",
+              "width": 1920,
+              "height": 1272,
+              "bytes": 466976,
+              "sha256": "5f9617f76de5b5c07a88f0c683499fd6ee86c92dab9d27b49a99c01bcf1be46f"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "prizren",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:30821502",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.58
+        },
+        "alt": {
+          "en": "Stone Bridge in Prizren (2013)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "3a70fd781e1aabd25aab79d48ebdac2e229d989e"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/prizren-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/prizren-640.webp",
+              "width": 640,
+              "height": 424,
+              "bytes": 74862,
+              "sha256": "d74be86f4a8aa967c0b1f4f709838481dbdfb3cfbcc584f39698aaa0dc3fb226"
+            },
+            {
+              "src": "/destinations/prizren-1200.webp",
+              "width": 1200,
+              "height": 795,
+              "bytes": 221946,
+              "sha256": "6fffe3f7f98a22c89f27506f02de2a260b65f0d189dbdbe6aa929cb043159e4a"
+            },
+            {
+              "src": "/destinations/prizren-1920.webp",
+              "width": 1920,
+              "height": 1272,
+              "bytes": 466976,
+              "sha256": "5f9617f76de5b5c07a88f0c683499fd6ee86c92dab9d27b49a99c01bcf1be46f"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "skopje",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:36333116",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.46,
+          "y": 0.6
+        },
+        "alt": {
+          "en": "Stone Bridge over the Vardar in Skopje (2014)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "77bb5054d2031bc548de3cddd0d4340f8237fee6"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/skopje-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/skopje-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27388,
+              "sha256": "4e170a249ca2c4f62aef065115588966129fe1fe2d320d24b9f29888eb6a784b"
+            },
+            {
+              "src": "/destinations/skopje-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 77472,
+              "sha256": "da32fb9bacb99d08a16eea3f44f8816ee01648ff6e2a152066270178282cff56"
+            },
+            {
+              "src": "/destinations/skopje-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 170478,
+              "sha256": "66234c7f3433b008e65b584138b28c6961053e4d4b7e1734b082478f22fc7ce2"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "skopje",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:36333116",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.46,
+          "y": 0.6
+        },
+        "alt": {
+          "en": "Stone Bridge over the Vardar in Skopje (2014)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "77bb5054d2031bc548de3cddd0d4340f8237fee6"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/skopje-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/skopje-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27388,
+              "sha256": "4e170a249ca2c4f62aef065115588966129fe1fe2d320d24b9f29888eb6a784b"
+            },
+            {
+              "src": "/destinations/skopje-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 77472,
+              "sha256": "da32fb9bacb99d08a16eea3f44f8816ee01648ff6e2a152066270178282cff56"
+            },
+            {
+              "src": "/destinations/skopje-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 170478,
+              "sha256": "66234c7f3433b008e65b584138b28c6961053e4d4b7e1734b082478f22fc7ce2"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "thessaloniki",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:71127147",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.67,
+          "y": 0.55
+        },
+        "alt": {
+          "en": "White Tower and seafront in Thessaloniki (2017)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/thessaloniki-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/thessaloniki-640.webp",
+              "width": 640,
+              "height": 396,
+              "bytes": 50314,
+              "sha256": "7f06a4cb7cc0697f4ccfadac32a6f166cb0cd706d5a5e0a7d6ad2db33c11706e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1200.webp",
+              "width": 1200,
+              "height": 743,
+              "bytes": 187164,
+              "sha256": "a7d9e7543a07a6508b10708986c5be3ca217cb2b0a6e3965c58ec876f3de643e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1920.webp",
+              "width": 1920,
+              "height": 1189,
+              "bytes": 448578,
+              "sha256": "c31845d64a60c9932c8eb575b83322847e474070eac2c4c8720679af4c4c0381"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "thessaloniki",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:71127147",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.67,
+          "y": 0.55
+        },
+        "alt": {
+          "en": "White Tower and seafront in Thessaloniki (2017)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/thessaloniki-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/thessaloniki-640.webp",
+              "width": 640,
+              "height": 396,
+              "bytes": 50314,
+              "sha256": "7f06a4cb7cc0697f4ccfadac32a6f166cb0cd706d5a5e0a7d6ad2db33c11706e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1200.webp",
+              "width": 1200,
+              "height": 743,
+              "bytes": 187164,
+              "sha256": "a7d9e7543a07a6508b10708986c5be3ca217cb2b0a6e3965c58ec876f3de643e"
+            },
+            {
+              "src": "/destinations/thessaloniki-1920.webp",
+              "width": 1920,
+              "height": 1189,
+              "bytes": 448578,
+              "sha256": "c31845d64a60c9932c8eb575b83322847e474070eac2c4c8720679af4c4c0381"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "ulcinj",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:18569302",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.55,
+          "y": 0.55
+        },
+        "alt": {
+          "en": "Ulcinj waterfront and hillside buildings (2011)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/ulcinj-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/ulcinj-640.webp",
+              "width": 640,
+              "height": 347,
+              "bytes": 49242,
+              "sha256": "f94b20d932cb5e2db352e10653cdd26cca50f215c3325d02b05dfa26cb528bcf"
+            },
+            {
+              "src": "/destinations/ulcinj-1200.webp",
+              "width": 1200,
+              "height": 651,
+              "bytes": 141588,
+              "sha256": "8c3a941bcbc6e5a005b0710d904237df7cbc7b04d00c66029d1860d05612ffd5"
+            },
+            {
+              "src": "/destinations/ulcinj-1920.webp",
+              "width": 1920,
+              "height": 1042,
+              "bytes": 317144,
+              "sha256": "26720bfb6b27c1be6d2ec8da7457e309e9216ba354b217dcc210ef00742d9374"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "ulcinj",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:18569302",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.55,
+          "y": 0.55
+        },
+        "alt": {
+          "en": "Ulcinj waterfront and hillside buildings (2011)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "9acfd04ca209f3119e6d12666ba5b6fdde9da6f6"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/ulcinj-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/ulcinj-640.webp",
+              "width": 640,
+              "height": 347,
+              "bytes": 49242,
+              "sha256": "f94b20d932cb5e2db352e10653cdd26cca50f215c3325d02b05dfa26cb528bcf"
+            },
+            {
+              "src": "/destinations/ulcinj-1200.webp",
+              "width": 1200,
+              "height": 651,
+              "bytes": 141588,
+              "sha256": "8c3a941bcbc6e5a005b0710d904237df7cbc7b04d00c66029d1860d05612ffd5"
+            },
+            {
+              "src": "/destinations/ulcinj-1920.webp",
+              "width": 1920,
+              "height": 1042,
+              "bytes": 317144,
+              "sha256": "26720bfb6b27c1be6d2ec8da7457e309e9216ba354b217dcc210ef00742d9374"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "zurich",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:119510626",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.58
+        },
+        "alt": {
+          "en": "Zurich skyline and the Limmat (2017)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "6329cf0ee10b576d4a88b26db1b9d092a599f145"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/zurich-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/zurich-640.webp",
+              "width": 640,
+              "height": 480,
+              "bytes": 37424,
+              "sha256": "d0ea90b9bfb547c69984da8e4fca8e4a4b8c4aa2b8ee0e8fe55eeb35c9425471"
+            },
+            {
+              "src": "/destinations/zurich-1200.webp",
+              "width": 1200,
+              "height": 900,
+              "bytes": 126484,
+              "sha256": "d1215ca6ad60610df89789c0509163c128cf7f8c3f81aa8bdb2a34a5f87a5486"
+            },
+            {
+              "src": "/destinations/zurich-1920.webp",
+              "width": 1920,
+              "height": 1440,
+              "bytes": 287820,
+              "sha256": "3dc48d52a7458e9efb03cc31edc3882e3d14407f83d04423f4818a7fd3b26b11"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "zurich",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:119510626",
+        "method": "human-review",
+        "selectedAt": "2026-10-22T11:50:36.378Z",
+        "reviewedAt": "2026-10-22T11:50:36.378Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.58
+        },
+        "alt": {
+          "en": "Zurich skyline and the Limmat (2017)"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "6329cf0ee10b576d4a88b26db1b9d092a599f145"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/zurich-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/zurich-640.webp",
+              "width": 640,
+              "height": 480,
+              "bytes": 37424,
+              "sha256": "d0ea90b9bfb547c69984da8e4fca8e4a4b8c4aa2b8ee0e8fe55eeb35c9425471"
+            },
+            {
+              "src": "/destinations/zurich-1200.webp",
+              "width": 1200,
+              "height": 900,
+              "bytes": 126484,
+              "sha256": "d1215ca6ad60610df89789c0509163c128cf7f8c3f81aa8bdb2a34a5f87a5486"
+            },
+            {
+              "src": "/destinations/zurich-1920.webp",
+              "width": 1920,
+              "height": 1440,
+              "bytes": 287820,
+              "sha256": "3dc48d52a7458e9efb03cc31edc3882e3d14407f83d04423f4818a7fd3b26b11"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "city:BCN",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:9050140",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T12:20:38.207Z",
+        "reviewedAt": "2026-10-23T12:20:38.207Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.62
+        },
+        "alt": {
+          "en": "Gaudí’s entrance pavilions at Park Güell, Barcelona"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "7cf5bd8111ba4b4994300b32a67988e009fe595c"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/barcelona-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/barcelona-batch1-v1-640.webp",
+              "width": 640,
+              "height": 483,
+              "bytes": 67310,
+              "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+            },
+            {
+              "src": "/destinations/barcelona-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 905,
+              "bytes": 197078,
+              "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+            },
+            {
+              "src": "/destinations/barcelona-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1448,
+              "bytes": 394708,
+              "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "city:BCN",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:9050140",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T12:20:38.207Z",
+        "reviewedAt": "2026-10-23T12:20:38.207Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.62
+        },
+        "alt": {
+          "en": "Gaudí’s entrance pavilions at Park Güell, Barcelona"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "7cf5bd8111ba4b4994300b32a67988e009fe595c"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/barcelona-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/barcelona-batch1-v1-640.webp",
+              "width": 640,
+              "height": 483,
+              "bytes": 67310,
+              "sha256": "81fd26a8f72d963168cbc099d22db4841720a7eb2671c0e03f0073dc39e20a92"
+            },
+            {
+              "src": "/destinations/barcelona-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 905,
+              "bytes": 197078,
+              "sha256": "82cf466c1184ce8a48eae7718478c5dbbc93eed30c8e1314e11fe7c5e700390d"
+            },
+            {
+              "src": "/destinations/barcelona-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1448,
+              "bytes": 394708,
+              "sha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q334",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:88145804",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T12:20:38.207Z",
+        "reviewedAt": "2026-10-23T12:20:38.207Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.53,
+          "y": 0.58
+        },
+        "alt": {
+          "en": "Singapore’s Central Business District and Marina Bay waterfront at night"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "bf04ead522beb3930aaeb36840a012abfa9fdb96"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/singapore-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/singapore-batch1-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 49816,
+              "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+            },
+            {
+              "src": "/destinations/singapore-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 153222,
+              "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+            },
+            {
+              "src": "/destinations/singapore-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 353130,
+              "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q334",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:88145804",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T12:20:38.207Z",
+        "reviewedAt": "2026-10-23T12:20:38.207Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.53,
+          "y": 0.58
+        },
+        "alt": {
+          "en": "Singapore’s Central Business District and Marina Bay waterfront at night"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "bf04ead522beb3930aaeb36840a012abfa9fdb96"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/singapore-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/singapore-batch1-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 49816,
+              "sha256": "acd9f178cfd5f9f994d8853402e9066aa85b1532afb92253175c7224f532b760"
+            },
+            {
+              "src": "/destinations/singapore-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 153222,
+              "sha256": "63b57175f64e0f720f4117ab78286c3a17dd753035cbc01cf706b7a7c3477b3e"
+            },
+            {
+              "src": "/destinations/singapore-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 353130,
+              "sha256": "f110fd6033e0d45dd14310a1264464ae672afec76175a0490e7d055fea46e65f"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q1489",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:139259979",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T12:20:38.207Z",
+        "reviewedAt": "2026-10-23T12:20:38.207Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.44
+        },
+        "alt": {
+          "en": "Overhead view of the Palacio de Bellas Artes and its domes in Mexico City"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "e6fee529ed33bca47aec920cbd59b36238e07422"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/mexico-city-batch1-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50162,
+              "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+            },
+            {
+              "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 157150,
+              "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+            },
+            {
+              "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 395240,
+              "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q1489",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:139259979",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T12:20:38.207Z",
+        "reviewedAt": "2026-10-23T12:20:38.207Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.44
+        },
+        "alt": {
+          "en": "Overhead view of the Palacio de Bellas Artes and its domes in Mexico City"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "e6fee529ed33bca47aec920cbd59b36238e07422"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/mexico-city-batch1-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 50162,
+              "sha256": "5c7fc927f2cb0f9e253a662306621aa1289819829e15447ee120fc1edb08d226"
+            },
+            {
+              "src": "/destinations/mexico-city-batch1-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 157150,
+              "sha256": "ebaeee0cdc675592d94e00c5e61808625505d89d577a52e63889b3d8a19dc32f"
+            },
+            {
+              "src": "/destinations/mexico-city-batch1-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 395240,
+              "sha256": "cc88c8243f4008725a2bc1a88acc5bc98b2b4813a98ef6968622d9a270ce633d"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q1490",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:80694116",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.05
+        },
+        "alt": {
+          "en": "Hōzōmon gate at Sensoji in Asakusa, Tokyo, with visitors carrying umbrellas"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "2c340f73e42d2430015f467db385ed9ae2dcc921"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/tokyo-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/tokyo-batch2-v1-640.webp",
+              "width": 640,
+              "height": 426,
+              "bytes": 63982,
+              "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+            },
+            {
+              "src": "/destinations/tokyo-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 197680,
+              "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+            },
+            {
+              "src": "/destinations/tokyo-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 452416,
+              "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q1490",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:80694116",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.05
+        },
+        "alt": {
+          "en": "Hōzōmon gate at Sensoji in Asakusa, Tokyo, with visitors carrying umbrellas"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "2c340f73e42d2430015f467db385ed9ae2dcc921"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/tokyo-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/tokyo-batch2-v1-640.webp",
+              "width": 640,
+              "height": 426,
+              "bytes": 63982,
+              "sha256": "401080af66ee8aa17845a5320a82e26baf447171e3faccea2bcbc3bc74180e8f"
+            },
+            {
+              "src": "/destinations/tokyo-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 197680,
+              "sha256": "f49a93e7cfc09dd68ad03aabdc4616cb149ca11241f2332fbdc5f5790af38a06"
+            },
+            {
+              "src": "/destinations/tokyo-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 452416,
+              "sha256": "6ccddd7ec17003d3a01e3bac854f2034325194bd550b09d6a3ca46cd3fc06767"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q34600",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:53593907",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0.45
+        },
+        "alt": {
+          "en": "Kiyomizu-dera’s main hall and timber stage above autumn trees in Kyoto"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "5f0b7dd2d20de6c62acc346b453c04c397c155f2"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/kyoto-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/kyoto-batch2-v1-640.webp",
+              "width": 640,
+              "height": 394,
+              "bytes": 60786,
+              "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+            },
+            {
+              "src": "/destinations/kyoto-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 738,
+              "bytes": 213820,
+              "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+            },
+            {
+              "src": "/destinations/kyoto-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1181,
+              "bytes": 514758,
+              "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q34600",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:53593907",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0.45
+        },
+        "alt": {
+          "en": "Kiyomizu-dera’s main hall and timber stage above autumn trees in Kyoto"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "5f0b7dd2d20de6c62acc346b453c04c397c155f2"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/kyoto-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/kyoto-batch2-v1-640.webp",
+              "width": 640,
+              "height": 394,
+              "bytes": 60786,
+              "sha256": "43b40d910af31215096d26ec6538ec4d0db7e89afa1af5e1fcb1be24d2f521cf"
+            },
+            {
+              "src": "/destinations/kyoto-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 738,
+              "bytes": 213820,
+              "sha256": "09794060c4b6fc8ae3d6612d569891d27f4f44032261a36aefe47270fb3fc9b2"
+            },
+            {
+              "src": "/destinations/kyoto-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1181,
+              "bytes": 514758,
+              "sha256": "eb88ef3819ba28e3341468a481ef2661e962e7b3d3f637b4c910826c88852249"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q1861",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:82660408",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.4,
+          "y": 0.2
+        },
+        "alt": {
+          "en": "Wat Arun’s central prang and riverside buildings seen from the Chao Phraya in Bangkok"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "7d8671fb12fe656e5732c940a91c7a30b4161d6b"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/bangkok-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/bangkok-batch2-v1-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 38566,
+              "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+            },
+            {
+              "src": "/destinations/bangkok-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 116574,
+              "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+            },
+            {
+              "src": "/destinations/bangkok-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 258534,
+              "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q1861",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:82660408",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.4,
+          "y": 0.2
+        },
+        "alt": {
+          "en": "Wat Arun’s central prang and riverside buildings seen from the Chao Phraya in Bangkok"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "7d8671fb12fe656e5732c940a91c7a30b4161d6b"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/bangkok-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/bangkok-batch2-v1-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 38566,
+              "sha256": "df36dbcc6d500752f34ce21070482e3f028d425a5b448b58947d7cbefec92b64"
+            },
+            {
+              "src": "/destinations/bangkok-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 800,
+              "bytes": 116574,
+              "sha256": "dfaa0e93396db11b17453039d4c5e06591bb4b42962076ee485bbc89088ce8d7"
+            },
+            {
+              "src": "/destinations/bangkok-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1280,
+              "bytes": 258534,
+              "sha256": "d8fe208d322edd390599ec9c85d9d1c0b5caea2122728634b56e9f1eca8f5599"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q101625",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:72262779",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.4,
+          "y": 0
+        },
+        "alt": {
+          "en": "Koutoubia’s minaret rising above ochre walls and a garden passage in Marrakesh"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "31092c215e6b5110e74ab5609697dcd1fd8a6572"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/marrakesh-batch2-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 49446,
+              "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+            },
+            {
+              "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 169610,
+              "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+            },
+            {
+              "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 398450,
+              "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q101625",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:72262779",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:17:56.425Z",
+        "reviewedAt": "2026-10-23T22:17:56.425Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.4,
+          "y": 0
+        },
+        "alt": {
+          "en": "Koutoubia’s minaret rising above ochre walls and a garden passage in Marrakesh"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "31092c215e6b5110e74ab5609697dcd1fd8a6572"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/marrakesh-batch2-v1-640.webp",
+              "width": 640,
+              "height": 360,
+              "bytes": 49446,
+              "sha256": "586ff92cff0bb0bb6669e455dcf18f5f08d2d7a31f48cd6e999f329892302ca4"
+            },
+            {
+              "src": "/destinations/marrakesh-batch2-v1-1200.webp",
+              "width": 1200,
+              "height": 675,
+              "bytes": 169610,
+              "sha256": "019a97d4a68307687b6a18c3efe1dacd450b114646952851b20f74f325acf3a8"
+            },
+            {
+              "src": "/destinations/marrakesh-batch2-v1-1920.webp",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 398450,
+              "sha256": "7d8a0c9189f5605e50d13694b2536b379200ac08535ce23b36fe97eadabbe098"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q5465",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:126494271",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.74
+        },
+        "alt": {
+          "en": "Camps Bay and the Atlantic coast seen from Table Mountain in Cape Town"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "5051c58045e5c1e0d5eb7db9e9e0b71ed66cb759"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/cape-town-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/cape-town-batch3-v1-640.webp",
+              "width": 640,
+              "height": 454,
+              "bytes": 48062,
+              "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+            },
+            {
+              "src": "/destinations/cape-town-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 851,
+              "bytes": 160680,
+              "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+            },
+            {
+              "src": "/destinations/cape-town-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1361,
+              "bytes": 381312,
+              "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q5465",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:126494271",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.74
+        },
+        "alt": {
+          "en": "Camps Bay and the Atlantic coast seen from Table Mountain in Cape Town"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "5051c58045e5c1e0d5eb7db9e9e0b71ed66cb759"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/cape-town-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/cape-town-batch3-v1-640.webp",
+              "width": 640,
+              "height": 454,
+              "bytes": 48062,
+              "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+            },
+            {
+              "src": "/destinations/cape-town-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 851,
+              "bytes": 160680,
+              "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+            },
+            {
+              "src": "/destinations/cape-town-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1361,
+              "bytes": 381312,
+              "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q8678",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:133796307",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.65,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Urca waterfront and boats on Botafogo Bay in Rio de Janeiro"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "d500e132d45e649fb3297b39e84661e5e04f2054"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+              "width": 640,
+              "height": 413,
+              "bytes": 63346,
+              "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+            },
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 776,
+              "bytes": 220130,
+              "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+            },
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1242,
+              "bytes": 556550,
+              "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q8678",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:133796307",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.65,
+          "y": 0.5
+        },
+        "alt": {
+          "en": "Urca waterfront and boats on Botafogo Bay in Rio de Janeiro"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "d500e132d45e649fb3297b39e84661e5e04f2054"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+              "width": 640,
+              "height": 413,
+              "bytes": 63346,
+              "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+            },
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 776,
+              "bytes": 220130,
+              "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+            },
+            {
+              "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1242,
+              "bytes": 556550,
+              "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q3130",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:73107560",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.68,
+          "y": 0.7
+        },
+        "alt": {
+          "en": "Sydney Opera House and Harbour Bridge illuminated at night, seen from Blues Point Reserve"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "549d0c76537c0d9b0cc2b87c8616c58405fd51e5"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/sydney-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/sydney-batch3-v1-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27594,
+              "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+            },
+            {
+              "src": "/destinations/sydney-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 801,
+              "bytes": 79512,
+              "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+            },
+            {
+              "src": "/destinations/sydney-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1281,
+              "bytes": 181270,
+              "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q3130",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:73107560",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.68,
+          "y": 0.7
+        },
+        "alt": {
+          "en": "Sydney Opera House and Harbour Bridge illuminated at night, seen from Blues Point Reserve"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "549d0c76537c0d9b0cc2b87c8616c58405fd51e5"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/sydney-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/sydney-batch3-v1-640.webp",
+              "width": 640,
+              "height": 427,
+              "bytes": 27594,
+              "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+            },
+            {
+              "src": "/destinations/sydney-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 801,
+              "bytes": 79512,
+              "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+            },
+            {
+              "src": "/destinations/sydney-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 1281,
+              "bytes": 181270,
+              "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q612",
+        "role": "destination.hero",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:68665373",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "alt": {
+          "en": "Traditional passenger boats and the waterfront boarding area on Dubai Creek"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "027b8f32b8e41ad20c420366ebdc7149e9c76254"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/dubai-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/dubai-batch3-v1-640.webp",
+              "width": 640,
+              "height": 311,
+              "bytes": 46566,
+              "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+            },
+            {
+              "src": "/destinations/dubai-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 583,
+              "bytes": 145352,
+              "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+            },
+            {
+              "src": "/destinations/dubai-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 933,
+              "bytes": 342718,
+              "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+            }
+          ]
+        }
+      },
+      {
+        "subject": "place:Q612",
+        "role": "destination.card",
+        "revision": 1,
+        "status": "approved",
+        "assetId": "commons:68665373",
+        "method": "human-review",
+        "selectedAt": "2026-10-23T22:47:04.903Z",
+        "reviewedAt": "2026-10-23T22:47:04.903Z",
+        "locked": true,
+        "noneReason": null,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "alt": {
+          "en": "Traditional passenger boats and the waterfront boarding area on Dubai Creek"
+        },
+        "reviewedChecksum": {
+          "algorithm": "sha1",
+          "value": "027b8f32b8e41ad20c420366ebdc7149e9c76254"
+        },
+        "history": [],
+        "reviewedLocalDelivery": {
+          "src": "/destinations/dubai-batch3-v1-1200.webp",
+          "variants": [
+            {
+              "src": "/destinations/dubai-batch3-v1-640.webp",
+              "width": 640,
+              "height": 311,
+              "bytes": 46566,
+              "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+            },
+            {
+              "src": "/destinations/dubai-batch3-v1-1200.webp",
+              "width": 1200,
+              "height": 583,
+              "bytes": 145352,
+              "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+            },
+            {
+              "src": "/destinations/dubai-batch3-v1-1920.webp",
+              "width": 1920,
+              "height": 933,
+              "bytes": 342718,
+              "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+            }
+          ]
+        }
+      }
+    ],
+    "rejections": [],
+    "places": [
+      {
+        "subject": "city:BCN",
+        "name": "Barcelona",
+        "countryCode": "ES",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.3825,
+          "longitude": 2.1769444444
+        },
+        "iataCodes": [
+          "BCN"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1492"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1",
+        "cityCode": "BCN"
+      },
+      {
+        "subject": "crete",
+        "name": "Crete",
+        "countryCode": "GR",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 35.3097222222,
+          "longitude": 24.8933333333
+        },
+        "iataCodes": [
+          "HER",
+          "CHQ"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q34374"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "istanbul",
+        "name": "Istanbul",
+        "countryCode": "TR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.01,
+          "longitude": 28.9602777778
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q406"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "london",
+        "name": "London",
+        "countryCode": "GB",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 51.5072222222,
+          "longitude": -0.1275
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q84"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "paris",
+        "name": "Paris",
+        "countryCode": "FR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.8566666667,
+          "longitude": 2.3522222222
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q90"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q101625",
+        "name": "Marrakesh",
+        "countryCode": "MA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 31.6294694444,
+          "longitude": -7.9810805556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q101625"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1273",
+        "name": "Tuscany",
+        "countryCode": "IT",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 43.45,
+          "longitude": 11.2
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1273"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q131347",
+        "name": "Oahu",
+        "countryCode": "US",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 21.485,
+          "longitude": -157.965
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q131347"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1486",
+        "name": "Buenos Aires",
+        "countryCode": "AR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -34.5997222222,
+          "longitude": -58.3819444444
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1486"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1489",
+        "name": "Mexico City",
+        "countryCode": "MX",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 19.3537730556,
+          "longitude": -99.13589
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1489"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1490",
+        "name": "Tokyo",
+        "countryCode": "JP",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 35.6894444444,
+          "longitude": 139.6916666667
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1490"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q180402",
+        "name": "Yosemite National Park",
+        "countryCode": "US",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": 37.7425,
+          "longitude": -119.5375
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q180402"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q1861",
+        "name": "Bangkok",
+        "countryCode": "TH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 13.75,
+          "longitude": 100.5166666667
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1861"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q24451",
+        "name": "Kruger National Park",
+        "countryCode": "ZA",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": -24.011389,
+          "longitude": 31.485281
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q24451"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:37:27Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q24639",
+        "name": "Vancouver",
+        "countryCode": "CA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 49.2608333333,
+          "longitude": -123.1138888889
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q24639"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q2656389",
+        "name": "Mauritius Island",
+        "countryCode": "MU",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -20.3,
+          "longitude": 57.5833333333
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q2656389"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q3130",
+        "name": "Sydney",
+        "countryCode": "AU",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -33.8677777778,
+          "longitude": 151.21
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q3130"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q334",
+        "name": "Singapore",
+        "countryCode": "SG",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 1.3,
+          "longitude": 103.8
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q334"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q34600",
+        "name": "Kyoto",
+        "countryCode": "JP",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 35.0116111111,
+          "longitude": 135.7681111111
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q34600"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:14:20Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q3593416",
+        "name": "Tasmania",
+        "countryCode": "AU",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -42,
+          "longitude": 147
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q3593416"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q40846",
+        "name": "Tenerife",
+        "countryCode": "ES",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": 28.2686111111,
+          "longitude": -16.6055555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q40846"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q41858",
+        "name": "Banff National Park",
+        "countryCode": "CA",
+        "placeKind": "nature-area",
+        "coordinates": {
+          "latitude": 51.166667,
+          "longitude": -115.55
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q41858"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:37:27Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q4648",
+        "name": "Bali",
+        "countryCode": "ID",
+        "placeKind": "island",
+        "coordinates": {
+          "latitude": -8.3563888889,
+          "longitude": 115.0719388889
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q4648"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:28:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q5465",
+        "name": "Cape Town",
+        "countryCode": "ZA",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -33.9252777778,
+          "longitude": 18.4238888889
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q5465"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q60",
+        "name": "New York City",
+        "countryCode": "US",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.7127777778,
+          "longitude": -74.0061111111
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q60"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q612",
+        "name": "Dubai",
+        "countryCode": "AE",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 25.2697222222,
+          "longitude": 55.3094444444
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q612"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:23:10Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q76516549",
+        "name": "Algarve",
+        "countryCode": "PT",
+        "placeKind": "region",
+        "coordinates": {
+          "latitude": 37.2337881,
+          "longitude": -8.01109
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q76516549"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:34:38Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "place:Q8678",
+        "name": "Rio de Janeiro",
+        "countryCode": "BR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": -22.9111111111,
+          "longitude": -43.2055555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q8678"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T16:19:13Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "prishtina",
+        "name": "Prishtina",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.6666666667,
+          "longitude": 21.1666666667
+        },
+        "iataCodes": [
+          "PRN"
+        ],
+        "cityCode": "PRN",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q25270"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-12T00:00:00Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "prizren",
+        "name": "Prizren",
+        "countryCode": "XK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 42.23,
+          "longitude": 20.74
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q200061"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "skopje",
+        "name": "Skopje",
+        "countryCode": "MK",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.99611111111111,
+          "longitude": 21.431666666666665
+        },
+        "iataCodes": [
+          "SKP"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q384"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "thessaloniki",
+        "name": "Thessaloniki",
+        "countryCode": "GR",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 40.640277777777776,
+          "longitude": 22.935555555555556
+        },
+        "iataCodes": [
+          "SKG"
+        ],
+        "external": {
+          "authority": "wikidata",
+          "id": "Q17151"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "ulcinj",
+        "name": "Ulcinj",
+        "countryCode": "ME",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 41.923611111111,
+          "longitude": 19.205555555556
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q189969"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      },
+      {
+        "subject": "vienna",
+        "name": "Vienna",
+        "countryCode": "AT",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 48.208333333333336,
+          "longitude": 16.3725
+        },
+        "external": {
+          "authority": "wikidata",
+          "id": "Q1741"
+        },
+        "resolutionMethod": "constrained-name",
+        "confidence": "high",
+        "resolvedAt": "2026-10-21T14:31:20Z",
+        "policyVersion": "destination-media-v1",
+        "unresolvedReason": null
+      },
+      {
+        "subject": "zurich",
+        "name": "Zurich",
+        "countryCode": "CH",
+        "placeKind": "city",
+        "coordinates": {
+          "latitude": 47.37444444444444,
+          "longitude": 8.54111111111111
+        },
+        "iataCodes": [
+          "ZRH"
+        ],
+        "cityCode": "ZRH",
+        "external": {
+          "authority": "wikidata",
+          "id": "Q72"
+        },
+        "resolutionMethod": "reviewed",
+        "confidence": "reviewed",
+        "resolvedAt": "2026-10-22T11:50:36.378Z",
+        "unresolvedReason": null,
+        "policyVersion": "destination-media-v1"
+      }
+    ]
+  },
+  "queue": [
+    {
+      "destinationId": "candidate:phase3f-patagonia",
+      "identityState": "unresolved-candidate",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — model limitation: Patagonia spans Argentina and Chile; identity requires a single country",
+      "status": "blocked"
+    },
+    {
+      "destinationId": "city:BCN",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Europe city; Barcelona; existing draft awaits human review",
+      "status": "done"
+    },
+    {
+      "destinationId": "crete",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Europe island; Crete; existing draft awaits human review",
+      "status": "done"
+    },
+    {
+      "destinationId": "istanbul",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Istanbul; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "london",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 2 English editorial pilot; owner approval required",
+      "status": "done"
+    },
+    {
+      "destinationId": "paris",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Paris; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q101625",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Marrakesh; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q1273",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Tuscany; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q131347",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Oahu; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q1486",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Buenos Aires; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q1489",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Mexico City; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q1490",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Tokyo; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q180402",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Yosemite National Park; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q1861",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Bangkok; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q24451",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Kruger National Park; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q24639",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Vancouver; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q2656389",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Mauritius Island; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q3130",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Sydney; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q334",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Singapore; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q34600",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Kyoto; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q3593416",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Tasmania; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q40846",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Tenerife; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q41858",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Banff National Park; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q4648",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Bali; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q5465",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Cape Town; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q60",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — New York City; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q612",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Dubai; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q76516549",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Algarve; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "place:Q8678",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Rio de Janeiro; valid draft, human review pending",
+      "status": "done"
+    },
+    {
+      "destinationId": "prishtina",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 3F worldwide starter coverage — Europe city; Prishtina; existing draft awaits human review",
+      "status": "done"
+    },
+    {
+      "destinationId": "vienna",
+      "identityState": "registered",
+      "priority": "normal",
+      "reason": "Phase 2 English editorial pilot; owner approval required",
+      "status": "done"
+    }
+  ],
+  "research": [
+    {
+      "destinationId": "candidate:phase3f-patagonia",
+      "status": "blocked",
+      "report": "phase3f-candidate-patagonia.md",
+      "researchedAt": "2026-10-12T16:34:38Z",
+      "sourceCount": 2,
+      "unresolvedIssues": [
+        "Patagonia spans Argentina and Chile. The current PlaceIdentity requires one countryCode; assigning either country would misrepresent the candidate.",
+        "No canonical identity or content draft created. Resume after an explicit scope decision or separately justified generic model change."
+      ],
+      "failureCategory": "model-limitation"
+    },
+    {
+      "destinationId": "city:BCN",
+      "status": "available",
+      "report": "worldwide-batch1-barcelona-v3.md",
+      "researchedAt": "2026-10-23T10:04:38.143Z",
+      "sourceCount": 13,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "crete",
+      "status": "available",
+      "report": "phase5g-crete.md",
+      "researchedAt": "2026-10-14T11:58:22.074Z",
+      "sourceCount": 9,
+      "unresolvedIssues": [
+        "Human source, EN/SQ, selection and freshness review remains pending."
+      ]
+    },
+    {
+      "destinationId": "istanbul",
+      "status": "available",
+      "report": "worldwide-batch1-istanbul-v3.md",
+      "researchedAt": "2026-10-23T10:04:38.143Z",
+      "sourceCount": 13,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "london",
+      "status": "available",
+      "report": "phase4b-guide-cost-assumptions.md",
+      "researchedAt": "2026-10-22T19:34:46Z",
+      "sourceCount": 21,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "paris",
+      "status": "available",
+      "report": "phase4b-guide-cost-assumptions.md",
+      "researchedAt": "2026-10-22T19:34:46Z",
+      "sourceCount": 10,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q101625",
+      "status": "available",
+      "report": "worldwide-batch2-marrakesh-v4.md",
+      "researchedAt": "2026-10-23T16:51:03Z",
+      "sourceCount": 7,
+      "unresolvedIssues": [
+        "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified.",
+        "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+      ]
+    },
+    {
+      "destinationId": "place:Q1273",
+      "status": "available",
+      "report": "phase5g-place-Q1273.md",
+      "researchedAt": "2026-10-14T11:58:22.074Z",
+      "sourceCount": 7,
+      "unresolvedIssues": [
+        "Human source, EN/SQ, selection and freshness review remains pending."
+      ]
+    },
+    {
+      "destinationId": "place:Q131347",
+      "status": "available",
+      "report": "phase5i-place-Q131347.md",
+      "researchedAt": "2026-10-14T14:41:59.555Z",
+      "sourceCount": 9,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q1486",
+      "status": "available",
+      "report": "phase5e-place-Q1486.md",
+      "researchedAt": "2026-10-13T23:00:22.794Z",
+      "sourceCount": 6,
+      "unresolvedIssues": [
+        "Human source, EN/SQ copy and selection review remains pending."
+      ]
+    },
+    {
+      "destinationId": "place:Q1489",
+      "status": "available",
+      "report": "worldwide-batch1-mexico-city-v3.md",
+      "researchedAt": "2026-10-23T10:04:38.143Z",
+      "sourceCount": 13,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q1490",
+      "status": "available",
+      "report": "worldwide-batch2-tokyo-v4.md",
+      "researchedAt": "2026-10-23T16:51:03Z",
+      "sourceCount": 11,
+      "unresolvedIssues": [
+        "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables."
+      ]
+    },
+    {
+      "destinationId": "place:Q180402",
+      "status": "available",
+      "report": "phase5g-place-Q180402.md",
+      "researchedAt": "2026-10-14T11:58:22.074Z",
+      "sourceCount": 5,
+      "unresolvedIssues": [
+        "Human source, EN/SQ, selection and freshness review remains pending; onward transfer intentionally unpriced."
+      ]
+    },
+    {
+      "destinationId": "place:Q1861",
+      "status": "available",
+      "report": "worldwide-batch2-bangkok-v4.md",
+      "researchedAt": "2026-10-23T16:51:03Z",
+      "sourceCount": 9,
+      "unresolvedIssues": [
+        "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim.",
+        "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+      ]
+    },
+    {
+      "destinationId": "place:Q24451",
+      "status": "available",
+      "report": "phase5m-place-Q24451.md",
+      "researchedAt": "2026-10-15T14:26:48.321Z",
+      "sourceCount": 9,
+      "unresolvedIssues": [
+        "Human review and evidence-review acknowledgment remain pending; operational access must be checked for travel dates."
+      ]
+    },
+    {
+      "destinationId": "place:Q24639",
+      "status": "available",
+      "report": "phase5c-place-Q24639.md",
+      "researchedAt": "2026-10-13T21:54:31.358Z",
+      "sourceCount": 7,
+      "unresolvedIssues": [
+        "Human source, EN/SQ copy and selection review remains pending."
+      ]
+    },
+    {
+      "destinationId": "place:Q2656389",
+      "status": "available",
+      "report": "phase5i-place-Q2656389.md",
+      "researchedAt": "2026-10-14T14:41:59.555Z",
+      "sourceCount": 7,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q3130",
+      "status": "available",
+      "report": "worldwide-batch3-sydney-v4.md",
+      "researchedAt": "2026-10-23T22:32:14Z",
+      "sourceCount": 11,
+      "unresolvedIssues": [
+        "WSI opening is imminent at review time; its operator/service status must be rechecked before publication. The candidate quotes no opening date and promises no current flight or metro operation.",
+        "Several Destination NSW pages were readable only as indexed primary text after 405 responses. Stable place geography is used; hotel listings and prices are not evidence.",
+        "Airport station access fees have separate rules and a separate weekly cap; ordinary daily/weekly caps do not include them."
+      ]
+    },
+    {
+      "destinationId": "place:Q334",
+      "status": "available",
+      "report": "worldwide-batch1-singapore-v3.md",
+      "researchedAt": "2026-10-23T10:04:38.143Z",
+      "sourceCount": 12,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q34600",
+      "status": "available",
+      "report": "worldwide-batch2-kyoto-v4.md",
+      "researchedAt": "2026-10-23T16:51:03Z",
+      "sourceCount": 10,
+      "unresolvedIssues": [
+        "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence."
+      ]
+    },
+    {
+      "destinationId": "place:Q3593416",
+      "status": "available",
+      "report": "phase5k-place-Q3593416.md",
+      "researchedAt": "2026-10-15T09:56:04.743Z",
+      "sourceCount": 8,
+      "unresolvedIssues": [
+        "Freycinet Parks was unavailable; inspected Tourism Tasmania evidence used instead.",
+        "The island identity point is not a visitor entrance. Regional travel needs separate planning."
+      ]
+    },
+    {
+      "destinationId": "place:Q40846",
+      "status": "available",
+      "report": "phase5i-place-Q40846.md",
+      "researchedAt": "2026-10-14T14:41:59.555Z",
+      "sourceCount": 7,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q41858",
+      "status": "available",
+      "report": "phase5i-place-Q41858.md",
+      "researchedAt": "2026-10-14T14:41:59.555Z",
+      "sourceCount": 7,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q4648",
+      "status": "available",
+      "report": "phase5i-place-Q4648.md",
+      "researchedAt": "2026-10-14T14:41:59.555Z",
+      "sourceCount": 7,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q5465",
+      "status": "available",
+      "report": "worldwide-batch3-cape-town-v4.md",
+      "researchedAt": "2026-10-23T22:32:14Z",
+      "sourceCount": 11,
+      "unresolvedIssues": [
+        "MyCiTi suspension notice is current source evidence, not a service status guarantee for a future trip. Recheck before publication and travel.",
+        "Cableway weather widgets can be stale; only the general weather-dependent service rule is used.",
+        "Bo-Kaap page includes unrelated Newlands template text; only its actual Bo-Kaap introduction is used."
+      ]
+    },
+    {
+      "destinationId": "place:Q60",
+      "status": "available",
+      "report": "phase4b-guide-cost-assumptions.md",
+      "researchedAt": "2026-10-22T19:34:46Z",
+      "sourceCount": 7,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q612",
+      "status": "available",
+      "report": "worldwide-batch3-dubai-v4.md",
+      "researchedAt": "2026-10-23T22:32:14Z",
+      "sourceCount": 10,
+      "unresolvedIssues": [
+        "DWC airport copy mixes interchange examples and contains a misleading generic airport-station sentence. RTA map and bus/taxi guidance support only the scoped connection advice.",
+        "Fresh museum visit page could not be fetched. The official museum brochure verifies geography/content, not current pavilion access or a recurring closure day.",
+        "Some Dubai tourism pages expose only headings directly; source-backed indexed primary text is used for stable history and district facts."
+      ]
+    },
+    {
+      "destinationId": "place:Q76516549",
+      "status": "available",
+      "report": "phase5i-place-Q76516549.md",
+      "researchedAt": "2026-10-14T14:41:59.555Z",
+      "sourceCount": 5,
+      "unresolvedIssues": []
+    },
+    {
+      "destinationId": "place:Q8678",
+      "status": "available",
+      "report": "worldwide-batch3-rio-de-janeiro-v4.md",
+      "researchedAt": "2026-10-23T22:32:14Z",
+      "sourceCount": 10,
+      "unresolvedIssues": [
+        "RRJ ground transport is unverified; this candidate must not claim complete all-airport guidance.",
+        "Parque Lage source retains generic interior information below its explicit restoration closure notice; the closure takes precedence. No courtyard/interior is included.",
+        "Some tourism pages return only navigation; Riotur and current operator evidence support the limited place/transport copy. No live fares, services or safe-route rating verified."
+      ]
+    },
+    {
+      "destinationId": "prishtina",
+      "status": "available",
+      "report": "phase5e-prishtina.md",
+      "researchedAt": "2026-10-13T23:00:22.794Z",
+      "sourceCount": 9,
+      "unresolvedIssues": [
+        "Human source, EN/SQ copy and selection review remains pending."
+      ]
+    },
+    {
+      "destinationId": "vienna",
+      "status": "available",
+      "report": "phase4b-guide-cost-assumptions.md",
+      "researchedAt": "2026-10-22T19:34:46Z",
+      "sourceCount": 15,
+      "unresolvedIssues": []
+    }
+  ],
+  "evidence": [
+    [
+      "candidate:phase3f-patagonia",
+      "blocked"
+    ],
+    [
+      "city:BCN",
+      "available"
+    ],
+    [
+      "crete",
+      "available"
+    ],
+    [
+      "istanbul",
+      "available"
+    ],
+    [
+      "london",
+      "available"
+    ],
+    [
+      "paris",
+      "available"
+    ],
+    [
+      "place:Q101625",
+      "available"
+    ],
+    [
+      "place:Q1273",
+      "available"
+    ],
+    [
+      "place:Q131347",
+      "available"
+    ],
+    [
+      "place:Q1486",
+      "available"
+    ],
+    [
+      "place:Q1489",
+      "available"
+    ],
+    [
+      "place:Q1490",
+      "available"
+    ],
+    [
+      "place:Q180402",
+      "available"
+    ],
+    [
+      "place:Q1861",
+      "available"
+    ],
+    [
+      "place:Q24451",
+      "available"
+    ],
+    [
+      "place:Q24639",
+      "available"
+    ],
+    [
+      "place:Q2656389",
+      "available"
+    ],
+    [
+      "place:Q3130",
+      "available"
+    ],
+    [
+      "place:Q334",
+      "available"
+    ],
+    [
+      "place:Q34600",
+      "available"
+    ],
+    [
+      "place:Q3593416",
+      "available"
+    ],
+    [
+      "place:Q40846",
+      "available"
+    ],
+    [
+      "place:Q41858",
+      "available"
+    ],
+    [
+      "place:Q4648",
+      "available"
+    ],
+    [
+      "place:Q5465",
+      "available"
+    ],
+    [
+      "place:Q60",
+      "available"
+    ],
+    [
+      "place:Q612",
+      "available"
+    ],
+    [
+      "place:Q76516549",
+      "available"
+    ],
+    [
+      "place:Q8678",
+      "available"
+    ],
+    [
+      "prishtina",
+      "available"
+    ],
+    [
+      "vienna",
+      "available"
+    ]
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "ready": true,
+  "coverage": {
+    "planned": 16,
+    "contributing": 16,
+    "contributing_properties": 8,
+    "weekday": 8,
+    "weekend": 8,
+    "treatments": {
+      "stated_included": 10,
+      "stated_extra": 0,
+      "page_silent": 6
+    },
+    "uncertainty": "standard",
+    "band_percent": 25
+  },
+  "errors": [],
+  "samples": [
+    {
+      "property_id": "vie-161594",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161594",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161754",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161754",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161950",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161950",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161808",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161808",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161968",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161968",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "stated_included",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161446",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161446",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161602",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161602",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161530",
+      "stay_type": "weekday",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    },
+    {
+      "property_id": "vie-161530",
+      "stay_type": "weekend",
+      "contributes": true,
+      "tax_treatment": "page_silent",
+      "errors": []
+    }
+  ],
+  "panel_for_review": {
+    "status": "pending_human_review",
+    "currency": "EUR",
+    "planned": 16,
+    "contributing": 16,
+    "contributing_properties": 8,
+    "weekday": 8,
+    "weekend": 8,
+    "treatments": {
+      "stated_included": 10,
+      "stated_extra": 0,
+      "page_silent": 6
+    },
+    "uncertainty": "standard",
+    "band_percent": 25,
+    "weekday_two_night_median_minor": 26350,
+    "weekend_two_night_median_minor": 29512,
+    "standard_room_night_minor": 13966
+  },
+  "classification": {
+    "counts": {
+      "independent": 8,
+      "operator_declared": 0,
+      "unresolved": 0
+    },
+    "notice": "Classification is recorded per property. Different independent national schemes are not necessarily identical."
+  },
+  "meaning": "Data-entry validation only. Human review must check that screenshots support the amount, currency, dates, room/rate choice and tax treatment. A candidate median for human review is not a production price or approval."
+}

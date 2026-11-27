@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch3-review-v1",
+  "status": "unsigned-proposal-no-selection-records",
+  "preparedAt": "2026-10-23T22:36:33.549Z",
+  "candidates": [
+    {
+      "slug": "cape-town",
+      "subject": "place:Q5465",
+      "status": "candidate-awaiting-exact-owner-approval",
+      "assetId": "commons:126494271",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cape_Town_-View_From_The_Table_Mountain.jpg",
+      "sourceRevisionId": 847682946,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Sumit Surai",
+      "photographedAt": "2018-07-17",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "Sumit Surai / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "The individual file describes Camps Bay viewed from Table Mountain; the visible coastal neighbourhood and mountain chain match that specific Cape Town viewpoint. This is not a City Bowl, Robben Island or airport photograph.",
+      "limitations": "Historical photograph from July 2018. Clear weather and vegetation in this image are not forecasts or evidence of current cableway access. The proposed hero reduces the large sky area.",
+      "originalFile": "originals/cape-town.jpg",
+      "originalSha256": "3451e46c3a7c13012c860fd09d48791282e045361a94285c79a977cc86ddd5bb",
+      "originalDimensions": {
+        "width": 4000,
+        "height": 2836
+      },
+      "localDelivery": {
+        "src": "/destinations/cape-town-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/cape-town-batch3-v1-640.webp",
+            "width": 640,
+            "height": 454,
+            "bytes": 48062,
+            "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+          },
+          {
+            "src": "/destinations/cape-town-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 851,
+            "bytes": 160680,
+            "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+          },
+          {
+            "src": "/destinations/cape-town-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1361,
+            "bytes": 381312,
+            "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.48,
+            "y": 0.74
+          },
+          "alt": {
+            "en": "Camps Bay and the Atlantic coast seen from Table Mountain in Cape Town"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.48,
+            "y": 0.74
+          },
+          "alt": {
+            "en": "Camps Bay and the Atlantic coast seen from Table Mountain in Cape Town"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "subject": "place:Q8678",
+      "status": "candidate-awaiting-exact-owner-approval",
+      "assetId": "commons:133796307",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Urca_and_Botafogo_Bay,_Rio_de_Janeiro,_Brazil.jpg",
+      "sourceRevisionId": 1269410141,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Wilfredor",
+      "photographedAt": "2023-06-03",
+      "licence": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "Wilfredor / Wikimedia Commons / CC0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "Individual source description identifies Urca and Botafogo Bay, Rio de Janeiro; the waterfront geometry and boats are visible in the source. No Christ statue, Sugarloaf summit, Copacabana beach or airport is substituted for the photographed subject.",
+      "limitations": "Historical aerial view from June 2023. Boats and waterfront access shown are not evidence of current transport, swimming conditions or bookable tours. This clean source replaces the excluded watermarked photograph.",
+      "originalFile": "originals/rio-de-janeiro-clean.jpg",
+      "originalSha256": "c3b104f19dfbf4376633dcd11246d44397b0d53c92ec770a1f0634c77cfa6c7a",
+      "originalDimensions": {
+        "width": 7778,
+        "height": 5030
+      },
+      "localDelivery": {
+        "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+            "width": 640,
+            "height": 413,
+            "bytes": 63346,
+            "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+          },
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 776,
+            "bytes": 220130,
+            "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+          },
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1242,
+            "bytes": 556550,
+            "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.5
+          },
+          "alt": {
+            "en": "Urca waterfront and boats on Botafogo Bay in Rio de Janeiro"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.5
+          },
+          "alt": {
+            "en": "Urca waterfront and boats on Botafogo Bay in Rio de Janeiro"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "sydney",
+      "subject": "place:Q3130",
+      "status": "candidate-awaiting-exact-owner-approval",
+      "assetId": "commons:73107560",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+      "sourceRevisionId": 1174563721,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "peter abery (Poidabro)",
+      "photographedAt": "2018-03-03",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "peter abery (Poidabro) / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "The individual source names Blues Point Reserve and both Sydney landmarks. Its author field is Poidabro; embedded author metadata names peter abery, both retained in the proposed credit. The Opera House sails and bridge structure are directly identifiable.",
+      "limitations": "Long-exposure night photograph from March 2018. Lighting is historical; it does not promise a current illumination event, performance, pedestrian access or weather. Hero crop keeps the Opera House and bridge structure; it may omit the bridge flag.",
+      "originalFile": "originals/sydney.jpg",
+      "originalSha256": "0b1d81c2b04b420c23c77c82819ed8c2f01a9b25aa6b774f1eb33b515a003fc6",
+      "originalDimensions": {
+        "width": 7360,
+        "height": 4912
+      },
+      "localDelivery": {
+        "src": "/destinations/sydney-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/sydney-batch3-v1-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 27594,
+            "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+          },
+          {
+            "src": "/destinations/sydney-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 801,
+            "bytes": 79512,
+            "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+          },
+          {
+            "src": "/destinations/sydney-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1281,
+            "bytes": 181270,
+            "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.68,
+            "y": 0.7
+          },
+          "alt": {
+            "en": "Sydney Opera House and Harbour Bridge illuminated at night, seen from Blues Point Reserve"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.68,
+            "y": 0.7
+          },
+          "alt": {
+            "en": "Sydney Opera House and Harbour Bridge illuminated at night, seen from Blues Point Reserve"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    },
+    {
+      "slug": "dubai",
+      "subject": "place:Q612",
+      "status": "candidate-awaiting-exact-owner-approval",
+      "assetId": "commons:68665373",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Dubai_Creek_with_dhow_station.jpg",
+      "sourceRevisionId": 903741780,
+      "sourceEvidence": "../evidence/commons-metadata.json",
+      "photographer": "Vedaant Jamaiyar",
+      "photographedAt": "2018-04-13",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "attribution": "Vedaant Jamaiyar / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "modifications": "Original file unchanged. Lossy WebP resizing without upscaling or retouching; responsive derivatives retain original aspect ratio. CSS object-fit cover uses the exact proposed focal point for desktop/mobile hero and card. Retain the recorded author, source, licence link and change notice. CC BY-SA derivatives retain the applicable share-alike licence; the Rio CC0 source has no share-alike requirement. No endorsement is implied.",
+      "identityEvidence": "Individual source identifies the old Dubai Creek boarding scene. Visible traditional boats and creekside waterfront support that identity. The source calls the boats dhows; the guide uses the neutral passenger-boat description rather than claiming a specific service or fare.",
+      "limitations": "Historical photograph from April 2018. It is a creek transport scene, not a Burj Khalifa skyline or a current RTA service guarantee. Advertising, boarding arrangements and buildings may have changed. The licensed source carries no architectural-rights warning; excluded skyline sources are not used.",
+      "originalFile": "originals/dubai-station.jpg",
+      "originalSha256": "4d01b8addac6a22ef44ec6c277fc841b857c5d436ab885a57eff46e0c54b24d8",
+      "originalDimensions": {
+        "width": 4032,
+        "height": 1960
+      },
+      "localDelivery": {
+        "src": "/destinations/dubai-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/dubai-batch3-v1-640.webp",
+            "width": 640,
+            "height": 311,
+            "bytes": 46566,
+            "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+          },
+          {
+            "src": "/destinations/dubai-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 583,
+            "bytes": 145352,
+            "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+          },
+          {
+            "src": "/destinations/dubai-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 933,
+            "bytes": 342718,
+            "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "destination.hero",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          },
+          "alt": {
+            "en": "Traditional passenger boats and the waterfront boarding area on Dubai Creek"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        },
+        {
+          "role": "destination.card",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.6
+          },
+          "alt": {
+            "en": "Traditional passenger boats and the waterfront boarding area on Dubai Creek"
+          },
+          "approval": "pending",
+          "reviewer": null,
+          "reviewedAt": null,
+          "reviewedChecksum": null,
+          "reviewedLocalDelivery": null
+        }
+      ],
+      "displayCrops": {
+        "desktopHeroAspectRatio": 2.5,
+        "mobileHeroAspectRatio": 1.5,
+        "desktopCardAspectRatio": 1.3333333333333333,
+        "mobileCardAspectRatio": 1.6
+      },
+      "reviewer": null,
+      "reviewedAt": null,
+      "publicationEligible": false
+    }
+  ]
+}

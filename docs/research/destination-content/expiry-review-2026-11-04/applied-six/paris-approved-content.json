@@ -1,0 +1,366 @@
+{
+  "destinationId": "paris",
+  "identitySubject": "paris",
+  "contentVersion": 4,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:paris:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:paris:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q90",
+      "title": "Paris (Q90)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-12T20:29:27Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q90"
+      }
+    },
+    {
+      "id": "source:worldwide:paris:city",
+      "type": "official",
+      "url": "https://parisjetaime.com/eng/article/the-essentials-a264",
+      "title": "Paris essentials",
+      "publisher": "Paris je t’aime — Tourist Office",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:tower",
+      "type": "official",
+      "url": "https://www.toureiffel.paris/en/access-map",
+      "title": "Access to the Eiffel Tower",
+      "publisher": "Société d’Exploitation de la Tour Eiffel",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:louvre",
+      "type": "official",
+      "url": "https://www.louvre.fr/en/visit",
+      "title": "Visit the Louvre",
+      "publisher": "Musée du Louvre",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:louvre-history",
+      "type": "official",
+      "url": "https://presse.louvre.fr/le-musee-du-louvre-en-bref-1063000220316/?lang=en",
+      "title": "The Musée du Louvre at a glance",
+      "publisher": "Musée du Louvre",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:worldwide:paris:notre-dame",
+      "type": "official",
+      "url": "https://www.notredamedeparis.fr/en/visit/practical-information/access/",
+      "title": "Access and Transportation — Notre-Dame de Paris",
+      "publisher": "Notre-Dame de Paris",
+      "retrievedAt": "2026-10-12T20:29:27Z"
+    },
+    {
+      "id": "source:phase4b:paris:tickets",
+      "type": "official",
+      "title": "Navigo Jour ticket price and airport exclusions",
+      "publisher": "RATP",
+      "url": "https://www.ratp.fr/en/titres-et-tarifs/forfait-navigo-jour",
+      "observedAt": "2026-10-22T19:33:31Z",
+      "retrievedAt": "2026-10-22T19:34:46Z"
+    },
+    {
+      "id": "source:phase4b:paris:menu",
+      "type": "official",
+      "title": "Bouillon Chartier indicative sample menu",
+      "publisher": "Bouillon Chartier",
+      "url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    },
+    {
+      "id": "source:phase4b:paris:louvre",
+      "type": "official",
+      "title": "Louvre admission information",
+      "publisher": "Musée du Louvre",
+      "url": "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    },
+    {
+      "id": "source:phase4b:paris:tower",
+      "type": "official",
+      "title": "Eiffel Tower ticket information",
+      "publisher": "Société d’Exploitation de la Tour Eiffel",
+      "url": "https://www.toureiffel.paris/en/rates-opening-times",
+      "observedAt": "2026-11-04T09:50:53Z",
+      "retrievedAt": "2026-11-04T09:50:53Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:worldwide:paris:city"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Paris combines riverfront landmarks with museums and hilltop neighbourhoods. Choose a few areas for a short stay.",
+      "sq": "Parisi bashkon monumentet buzë lumit me muzetë dhe lagjet kodrinore. Për një qëndrim të shkurtër, zgjidh disa zona."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:paris:1",
+      "text": {
+        "en": "Art at the Louvre",
+        "sq": "Art në Louvre"
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:louvre-history"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:paris:2",
+      "text": {
+        "en": "Montmartre’s hilltop streets",
+        "sq": "Rrugët në kodrën e Montmartre"
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:city"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:paris:eiffel-tower",
+      "destinationId": "paris",
+      "name": {
+        "en": "Eiffel Tower",
+        "sq": "Kulla Eiffel"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "The tower stands on the Champ de Mars in the seventh arrondissement.",
+        "sq": "Kulla ndodhet në Champ de Mars, në distriktin e shtatë."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:tower"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:paris:louvre",
+      "destinationId": "paris",
+      "name": {
+        "en": "Musée du Louvre",
+        "sq": "Musée du Louvre"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "An art museum housed in a former royal palace.",
+        "sq": "Muze arti në një pallat të dikurshëm mbretëror."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:louvre-history"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:paris:notre-dame",
+      "destinationId": "paris",
+      "name": {
+        "en": "Notre-Dame de Paris",
+        "sq": "Notre-Dame de Paris"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "A cathedral on the Île de la Cité in central Paris.",
+        "sq": "Katedrale në Île de la Cité, në qendër të Parisit."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:notre-dame"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:paris:montmartre",
+      "destinationId": "paris",
+      "name": {
+        "en": "Montmartre",
+        "sq": "Montmartre"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "A hilltop neighbourhood with views across Paris.",
+        "sq": "Lagje kodrinore me pamje mbi Paris."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:city"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:paris:montmartre",
+      "destinationId": "paris",
+      "name": {
+        "en": "Montmartre",
+        "sq": "Montmartre"
+      },
+      "summary": {
+        "en": "A hilltop area beyond the riverfront landmarks.",
+        "sq": "Zonë kodrinore përtej monumenteve buzë lumit."
+      },
+      "goodFor": [
+        {
+          "en": "Neighbourhood walks and city views.",
+          "sq": "Shëtitje në lagje dhe pamje të qytetit."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Plan a separate journey to the Eiffel Tower.",
+          "sq": "Planifiko një udhëtim më vete për në Kullën Eiffel."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:city"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:paris:tower-access",
+      "destinationId": "paris",
+      "title": {
+        "en": "Choose a station for the Eiffel Tower",
+        "sq": "Zgjidh stacionin për Kullën Eiffel"
+      },
+      "guidance": {
+        "en": "The tower’s official access guide lists Métro and RER options. Check the station and walking route before travelling.",
+        "sq": "Udhëzuesi zyrtar i Kullës Eiffel liston mundësi me Métro dhe RER. Kontrollo stacionin dhe rrugën në këmbë para nisjes."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:tower"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:paris:museum-entry",
+      "destinationId": "paris",
+      "kind": "booking",
+      "text": {
+        "en": "Time-slot booking is recommended when planning a Louvre visit.",
+        "sq": "Rekomandohet rezervimi i një orari kur planifikon vizitën në Louvre."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:worldwide:paris:louvre"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:paris:transport:1",
+      "destinationId": "paris",
+      "kind": "transport",
+      "text": {
+        "en": "Compare single tickets with a day pass for the journeys you plan. Navigo Jour costs €12.30 for a calendar day across Zones 1–5, but excludes airport access. A compatible phone avoids needing to buy a physical pass."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:paris:tickets"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-10-22T19:33:31Z",
+        "validUntil": "2026-11-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:paris:examples:1",
+      "destinationId": "paris",
+      "kind": "other",
+      "text": {
+        "en": "Bouillon Chartier’s sample menu is indicative and changes daily with deliveries. Use it to understand the dishes, not to set a daily Paris food budget."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:paris:menu"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-04T09:50:53Z",
+        "validUntil": "2026-11-18T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:phase4b:paris:examples:2",
+      "destinationId": "paris",
+      "kind": "other",
+      "text": {
+        "en": "Book the Louvre and Eiffel Tower separately. The Louvre recommends a time slot, including for free admission. For the tower, choose the second floor or summit and stairs or lift before budgeting."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:phase4b:paris:louvre",
+        "source:phase4b:paris:tower"
+      ],
+      "freshness": {
+        "kind": "volatile",
+        "observedAt": "2026-11-04T09:50:53Z",
+        "validUntil": "2026-11-18T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": []
+}

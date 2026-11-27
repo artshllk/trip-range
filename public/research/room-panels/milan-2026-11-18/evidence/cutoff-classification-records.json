@@ -1,0 +1,366 @@
+{
+  "source_query_url": "https://www.dati.lombardia.it/resource/ee8u-8wwr.json?%24where=%28upper%28indirizzo%29+like+%27%25PELLICO%25%27+OR+upper%28indirizzo%29+like+%27%25RAFFAELE%25%27+OR+upper%28indirizzo%29+like+%27%25DOGANA%25%27+OR+upper%28indirizzo%29+like+%27%25MAZZINI%25%27+OR+upper%28indirizzo%29+like+%27%25RADEGONDA%25%27+OR+upper%28indirizzo%29+like+%27%25AGNELLO%25%27+OR+upper%28indirizzo%29+like+%27%25HOEPLI%25%27+OR+upper%28indirizzo%29+like+%27%25FONTANA%25%27+OR+upper%28indirizzo%29+like+%27%25SPADARI%25%27+OR+upper%28indirizzo%29+like+%27%25HUGO%25%27+OR+upper%28indirizzo%29+like+%27%25BECCARIA%25%27+OR+upper%28indirizzo%29+like+%27%25BARACCHINI%25%27+OR+upper%28indirizzo%29+like+%27%25CORDUSIO%25%27+OR+upper%28indirizzo%29+like+%27%25CATENA%25%27+OR+upper%28indirizzo%29+like+%27%25ALBRICCI%25%27+OR+upper%28indirizzo%29+like+%27%25GALLERIA+DEL+CORSO%25%27+OR+upper%28indirizzo%29+like+%27%25MISSORI%25%27+OR+upper%28indirizzo%29+like+%27%25VITTORIO+EMANUELE%25%27+OR+upper%28indirizzo%29+like+%27%25MONETA%25%27+OR+upper%28indirizzo%29+like+%27%25EUROPA%25%27+OR+upper%28indirizzo%29+like+%27%25CLERICI%25%27+OR+upper%28indirizzo%29+like+%27%25BOSSI%25%27+OR+upper%28indirizzo%29+like+%27%25MARTA%25%27+OR+upper%28indirizzo%29+like+%27%25AUGUSTO%25%27+OR+upper%28indirizzo%29+like+%27%25TOMASO%25%27+OR+upper%28indirizzo%29+like+%27%25ITALIA%25%27+OR+upper%28indirizzo%29+like+%27%25ANDEGARI%25%27+OR+upper%28indirizzo%29+like+%27%25ROVELLO%25%27+OR+upper%28indirizzo%29+like+%27%25LENTASIO%25%27+OR+upper%28indirizzo%29+like+%27%25PORTA+ROMANA%25%27+OR+upper%28indirizzo%29+like+%27%25BORROMEI%25%27+OR+upper%28indirizzo%29+like+%27%25MANZONI%25%27+OR+upper%28indirizzo%29+like+%27%25GABBA%25%27+OR+upper%28indirizzo%29+like+%27%25GES%25%27+OR+upper%28indirizzo%29+like+%27%25SOFIA%25%27+OR+upper%28indirizzo%29+like+%27%25PORLEZZA%25%27+OR+upper%28indirizzo%29+like+%27%25MORIGI%25%27+OR+upper%28indirizzo%29+like+%27%25CUSANI%25%27+OR+upper%28indirizzo%29+like+%27%25ANDREA%25%27+OR+upper%28indirizzo%29+like+%27%25CARROBBIO%25%27%29+AND+%28cir+like+%27%25-ALB-%25%27+OR+cir+like+%27%25-RTA-%25%27+OR+cir+like+%27%25-FOR-%25%27%29&%24select=id_struttura%2Cdenominazione_struttura%2Cclassificazione%2Cindirizzo%2Ccir&%24limit=1000",
+  "checked_at": "2026-11-18T14:45:37.808548+00:00",
+  "data_last_updated": "2024-09-30",
+  "licence": "CC0 1.0",
+  "role": "Per-property eligibility lookup only, after OSM enumeration; never supplies additional frame members.",
+  "records": [
+    {
+      "id_struttura": "101335140",
+      "denominazione_struttura": "The Street Milano Duomo",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via Santa Radegonda 14",
+      "cir": "015146-ALB-00504"
+    },
+    {
+      "id_struttura": "106712167",
+      "denominazione_struttura": "HOTEL AHD ROOMS",
+      "classificazione": "Alberghi 1 stella",
+      "indirizzo": "Via Agnello 2",
+      "cir": "015146-ALB-00506"
+    },
+    {
+      "id_struttura": "117394429",
+      "denominazione_struttura": "VICTOR BOUTIQUE HOTEL",
+      "classificazione": "Alberghi 1 stella",
+      "indirizzo": "Via Victor Hugo 4",
+      "cir": "015146-ALB-00509"
+    },
+    {
+      "id_struttura": "193356861",
+      "denominazione_struttura": "MATILDE BOUTIQUE HOTEL",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via Spadari 1",
+      "cir": "015146-ALB-00516"
+    },
+    {
+      "id_struttura": "194206569",
+      "denominazione_struttura": "INTOMILAN APARTHOTEL GALLERIA DUOMO",
+      "classificazione": "Residenze turistico alberghiere 2 stelle",
+      "indirizzo": "CORSO VITTORIO EMANUELE II 22",
+      "cir": "015146-RTA-00418"
+    },
+    {
+      "id_struttura": "357277339",
+      "denominazione_struttura": "The Corner Duomo Hotel",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "VIA ADALBERTO CATENA 2",
+      "cir": "015146-ALB-00525"
+    },
+    {
+      "id_struttura": "416055308",
+      "denominazione_struttura": "RADISSON COLLECTION HOTEL PALAZZO TOURING CLUB MILAN",
+      "classificazione": "Alberghi 5 stelle",
+      "indirizzo": "CORSO ITALIA 10",
+      "cir": "015146-ALB-00530"
+    },
+    {
+      "id_struttura": "453361972",
+      "denominazione_struttura": "B&B HOTEL MILANO CITY CENTER DUOMO",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "VIA SAN TOMASO 2",
+      "cir": "015146-ALB-00536"
+    },
+    {
+      "id_struttura": "472368167",
+      "denominazione_struttura": "ODSWEET HOTEL",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "VIA GIUSEPPE MAZZINI 2",
+      "cir": "015146-ALB-00540"
+    },
+    {
+      "id_struttura": "504970734",
+      "denominazione_struttura": "M20 BOUTIQUE HOTEL",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "VIA GIUSEPPE MAZZINI 20",
+      "cir": "015146-ALB-00545"
+    },
+    {
+      "id_struttura": "514825024",
+      "denominazione_struttura": "THE COUPER SANT'ANDREA",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "VIA SANT'ANDREA 12",
+      "cir": "015146-ALB-00546"
+    },
+    {
+      "id_struttura": "544407847",
+      "denominazione_struttura": "SHEVA BOUTIQUE HOTEL",
+      "classificazione": "Alberghi 1 stella",
+      "indirizzo": "VIA DOGANA 3",
+      "cir": "015146-ALB-00552"
+    },
+    {
+      "id_struttura": "57458506",
+      "denominazione_struttura": "Hotel Milano Castello",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "Via San Tomaso 2",
+      "cir": "015146-ALB-00497"
+    },
+    {
+      "id_struttura": "583411285",
+      "denominazione_struttura": "SANTA MARTA SUITES",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "VIA SANTA MARTA 4",
+      "cir": "015146-ALB-00554"
+    },
+    {
+      "id_struttura": "796339672",
+      "denominazione_struttura": "Palazzo Cordusio a Gran Meliã Hotel",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "PIAZZA CORDUSIO 2",
+      "cir": "015146-ALB-00572"
+    },
+    {
+      "id_struttura": "9499202",
+      "denominazione_struttura": "Town House Galleria",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "via Silvio Pellico 8",
+      "cir": "015146-ALB-00030"
+    },
+    {
+      "id_struttura": "9502969",
+      "denominazione_struttura": "Brunelleschi",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Baracchini 12",
+      "cir": "015146-ALB-00065"
+    },
+    {
+      "id_struttura": "9503088",
+      "denominazione_struttura": "Ambasciatori",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "galleria del Corso 3",
+      "cir": "015146-ALB-00068"
+    },
+    {
+      "id_struttura": "9504228",
+      "denominazione_struttura": "Canada",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "via Santa Sofia 16",
+      "cir": "015146-ALB-00102"
+    },
+    {
+      "id_struttura": "9504783",
+      "denominazione_struttura": "Maison Milano UNA Esperienze",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Giuseppe Mazzini 4",
+      "cir": "015146-ALB-00119"
+    },
+    {
+      "id_struttura": "9504821",
+      "denominazione_struttura": "HOTEL LONDON",
+      "classificazione": "Alberghi 2 stelle",
+      "indirizzo": "via Rovello 3",
+      "cir": "015146-ALB-00120"
+    },
+    {
+      "id_struttura": "9505157",
+      "denominazione_struttura": "Gran Duca di York",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "via Moneta 1/A",
+      "cir": "015146-ALB-00130"
+    },
+    {
+      "id_struttura": "9505392",
+      "denominazione_struttura": "Lloyd",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "corso di Porta Romana 48",
+      "cir": "015146-ALB-00138"
+    },
+    {
+      "id_struttura": "9505471",
+      "denominazione_struttura": "Mentana",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Morigi 2",
+      "cir": "015146-ALB-00140"
+    },
+    {
+      "id_struttura": "9505972",
+      "denominazione_struttura": "Ariston",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "largo Carrobbio 2",
+      "cir": "015146-ALB-00154"
+    },
+    {
+      "id_struttura": "9506530",
+      "denominazione_struttura": "Starhotels Rosa Grand",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "piazza Fontana 3",
+      "cir": "015146-ALB-00170"
+    },
+    {
+      "id_struttura": "9506737",
+      "denominazione_struttura": "Max Brown",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Lentasio 3",
+      "cir": "015146-ALB-00176"
+    },
+    {
+      "id_struttura": "9506961",
+      "denominazione_struttura": "Galileo",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "corso Europa 9",
+      "cir": "015146-ALB-00182"
+    },
+    {
+      "id_struttura": "9507321",
+      "denominazione_struttura": "NH COLLECTION PRESIDENT",
+      "classificazione": "Alberghi 5 stelle",
+      "indirizzo": "largo Augusto 10",
+      "cir": "015146-ALB-00192"
+    },
+    {
+      "id_struttura": "9508070",
+      "denominazione_struttura": "Vecchia Milano",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "via Borromei 4",
+      "cir": "015146-ALB-00213"
+    },
+    {
+      "id_struttura": "9508274",
+      "denominazione_struttura": "SONDER MISSORI",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "corso Italia 11/A",
+      "cir": "015146-ALB-00219"
+    },
+    {
+      "id_struttura": "9509010",
+      "denominazione_struttura": "Spadari al Duomo",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Spadari 11",
+      "cir": "015146-ALB-00240"
+    },
+    {
+      "id_struttura": "9510199",
+      "denominazione_struttura": "Dei Cavalieri",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "piazza Giuseppe Missori 1",
+      "cir": "015146-ALB-00274"
+    },
+    {
+      "id_struttura": "9510273",
+      "denominazione_struttura": "Unahotels Cusani",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Cusani 13",
+      "cir": "015146-ALB-00276"
+    },
+    {
+      "id_struttura": "9510489",
+      "denominazione_struttura": "Grand Hotel Et De Milan",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "via Alessandro Manzoni 29",
+      "cir": "015146-ALB-00282"
+    },
+    {
+      "id_struttura": "9510871",
+      "denominazione_struttura": "De La Ville",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via Ulrico Hoepli 6",
+      "cir": "015146-ALB-00294"
+    },
+    {
+      "id_struttura": "9510979",
+      "denominazione_struttura": "Nuovo",
+      "classificazione": "Alberghi 1 stella",
+      "indirizzo": "piazza Cesare Beccaria 6",
+      "cir": "015146-ALB-00297"
+    },
+    {
+      "id_struttura": "9511252",
+      "denominazione_struttura": "Rio",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "via Giuseppe Mazzini 8",
+      "cir": "015146-ALB-00306"
+    },
+    {
+      "id_struttura": "9511603",
+      "denominazione_struttura": "Four Seasons",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "via Gesu' 6/8",
+      "cir": "015146-ALB-00318"
+    },
+    {
+      "id_struttura": "9514243",
+      "denominazione_struttura": "Genius Down Town",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "via Porlezza 4",
+      "cir": "015146-ALB-00365"
+    },
+    {
+      "id_struttura": "9514658",
+      "denominazione_struttura": "The Gray",
+      "classificazione": "Alberghi 5 stelle",
+      "indirizzo": "via San Raffaele 6",
+      "cir": "015146-ALB-00377"
+    },
+    {
+      "id_struttura": "9515064",
+      "denominazione_struttura": "STRAF",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "via San Raffaele 3",
+      "cir": "015146-ALB-00384"
+    },
+    {
+      "id_struttura": "9515152",
+      "denominazione_struttura": "Bulgari Hotels & Resorts Milano",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "via Fratelli Gabba 7/B",
+      "cir": "015146-ALB-00385"
+    },
+    {
+      "id_struttura": "9528093",
+      "denominazione_struttura": "Uptown Palace",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via Santa Sofia 10",
+      "cir": "015146-ALB-00421"
+    },
+    {
+      "id_struttura": "9528489",
+      "denominazione_struttura": "Armani Hotel Milano",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "via Alessandro Manzoni 31",
+      "cir": "015146-ALB-00423"
+    },
+    {
+      "id_struttura": "9528586",
+      "denominazione_struttura": "PALAZZO SEGRETI",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via San Tomaso 8",
+      "cir": "015146-ALB-00424"
+    },
+    {
+      "id_struttura": "9531548",
+      "denominazione_struttura": "La Madonnina",
+      "classificazione": "Alberghi 3 stelle",
+      "indirizzo": "via Giuseppe Mazzini 10",
+      "cir": "015146-ALB-00439"
+    },
+    {
+      "id_struttura": "9535593",
+      "denominazione_struttura": "The Square Milano Duomo",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via Albricci 2/4",
+      "cir": "015146-ALB-00464"
+    },
+    {
+      "id_struttura": "9536774",
+      "denominazione_struttura": "Hotel Mandarin Oriental Milano",
+      "classificazione": "Alberghi 5 stelle lusso",
+      "indirizzo": "Via Andegari 9",
+      "cir": "015146-ALB-00472"
+    },
+    {
+      "id_struttura": "9538130",
+      "denominazione_struttura": "Room Mate Giulia",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via Silvio Pellico 4",
+      "cir": "015146-ALB-00482"
+    },
+    {
+      "id_struttura": "9540524",
+      "denominazione_struttura": "CLERICI BOUTIQUE HOTEL",
+      "classificazione": "Alberghi 4 stelle",
+      "indirizzo": "Via Clerici 11",
+      "cir": "015146-ALB-00485"
+    }
+  ]
+}

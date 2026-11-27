@@ -1,0 +1,443 @@
+{
+  "fareReleaseBase": "/data/fare-coverage/2026-11-05-v1/files/",
+  "fareFiles": [
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/cohort-results.csv",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/cohort-results.csv",
+      "sourceBytes": 15064,
+      "sourceSha256": "d77e00085eed84f1e1e834d04c331cc856909ca5561ac1d62b43268b2a6ae722",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/destination-results.csv",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/destination-results.csv",
+      "sourceBytes": 85215,
+      "sourceSha256": "b583164cae68ac3467707b5d2c771c170817229b39bccc8ed2085ece1b2d0dec",
+      "required": true,
+      "buildAction": "derive_public_cohort_destination_counts_only",
+      "publishedSha256": null,
+      "publicAccessVerified": false,
+      "publicColumns": [
+        "origin",
+        "travel_month",
+        "duration",
+        "destinations"
+      ],
+      "note": "No named destination or dated route rows in public output; reconcile against the retained destination-level source internally."
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/gate-export.json",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/gate-export.json",
+      "sourceBytes": 2369141,
+      "sourceSha256": "59ee08dc9db39631281c3af40155fbff7076c4385516cbeba92568c1b44bbb6f",
+      "required": true,
+      "buildAction": "derive_public_cohort_summaries_and_method_metadata_only",
+      "publishedSha256": null,
+      "publicAccessVerified": false,
+      "note": "Exclude current_anchor_itineraries, current_destinations and other finer-grained fields. Record public and source hashes separately."
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/gate-query.sql",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/gate-query.sql",
+      "sourceBytes": 9594,
+      "sourceSha256": "4995c1413f442dd1f4e75e6fbc48987fa35676af608756d520509c3d1dc46b50",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/inventory.json",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/inventory.json",
+      "sourceBytes": 15896,
+      "sourceSha256": "4391c5036f276746ca4642c5f929773c81b833f277605884d06094f0ba03ae40",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/inventory.sql",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/inventory.sql",
+      "sourceBytes": 1805,
+      "sourceSha256": "ee4ef07fd1e1861485b82d8e6d5f4450a881cf750bb9d8070f44f2b962f0cce2",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/parameters.json",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/parameters.json",
+      "sourceBytes": 1076,
+      "sourceSha256": "2607e68636eb259de7f49c6adf9f1a5040a84ac1b1e6e6b62f3bbc603c700c43",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/verification-query-results.json",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/verification-query-results.json",
+      "sourceBytes": 2147,
+      "sourceSha256": "fa141b9d49a759aab85080b91d97e07fdccc41891fd51eff2f34ce74b7112654",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/verification.json",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/verification.json",
+      "sourceBytes": 1639,
+      "sourceSha256": "87301e0d20b93d7255b09730fb67eac7980c917a99b608dbeb058acf64c507d0",
+      "required": true,
+      "buildAction": "derive_public_verification_record_with_omissions_declared",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/coverage/verify-query.sql",
+      "sourceRevision": "506dbb4109367c42f82f33e0211d0e8e9dddd4a9",
+      "sourcePath": "docs/research/origin-hub-gate-2026-11-05/verify-query.sql",
+      "sourceBytes": 1811,
+      "sourceSha256": "0468809b8b32a1288b8c02abafe6ec9be6498cd741d7a26ed77306721c172989",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/independent-price-check.json",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/independent-price-check.json",
+      "sourceBytes": 5724,
+      "sourceSha256": "ceeb2cc662f63f731ad304cc18eea77058ed96cdf3d747a4004f713b7dbc5e15",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/parameters.json",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/parameters.json",
+      "sourceBytes": 1076,
+      "sourceSha256": "2607e68636eb259de7f49c6adf9f1a5040a84ac1b1e6e6b62f3bbc603c700c43",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/price-query.sql",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/price-query.sql",
+      "sourceBytes": 5149,
+      "sourceSha256": "338487ffb1a236e0608fac2777996c760eeee8c64510f1759cc852f44e39ed2f",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/price-summary.csv",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/price-summary.csv",
+      "sourceBytes": 923,
+      "sourceSha256": "06f5f2c165b90b25256ed8c79c659474a8f47c6cd00e1ded442cc30dca322e89",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/price-summary.json",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/price-summary.json",
+      "sourceBytes": 5859,
+      "sourceSha256": "85f0683eb1f5e9ae07f18c9e6edb3d0dce64ceecbc563a7dc8e0d6fed7502d32",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/verification.json",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/verification.json",
+      "sourceBytes": 1686,
+      "sourceSha256": "5e3b721a3107f455554c1e5bbd507e46460faadc8c8ad08efb11450c3d77f94c",
+      "required": true,
+      "buildAction": "derive_public_verification_record_with_omissions_declared",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/prices/verify-price-query.sql",
+      "sourceRevision": "8f389c3db0b2082edab3ef87e033fa475dcc0843",
+      "sourcePath": "docs/research/fare-study-price-addendum-2026-11-05/verify-price-query.sql",
+      "sourceBytes": 3514,
+      "sourceSha256": "4af11b28e7392dbef394b6a8683f6d07d2fb658237aca6501d0c08f84ed80298",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/coverage-reductions.json",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/coverage-reductions.json",
+      "sourceBytes": 1777,
+      "sourceSha256": "a331724b9fe31e49e9103941cfb1d13a431e454ed60d626078303c8a75067604",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/destination-weighting.csv",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/destination-weighting.csv",
+      "sourceBytes": 493,
+      "sourceSha256": "961cf239406c46a76f381ef3ba0e4d0752a8f65a56ad88d9f3bf934240ccfa7c",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/destination-weighting.json",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/destination-weighting.json",
+      "sourceBytes": 3098,
+      "sourceSha256": "f7c9b14a90cbb0281fdbd5dcc36c7518cc2b7adc43e2e616009fcebd43f98400",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/destination-weighting.sql",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/destination-weighting.sql",
+      "sourceBytes": 5427,
+      "sourceSha256": "983487a39db378364eda114e238cf5463b7aa8da5740a2bbc32140f50b64fafb",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/independent-weighting-check.json",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/independent-weighting-check.json",
+      "sourceBytes": 2856,
+      "sourceSha256": "1a24aa055dd3b4ce7a3b9dab2f30cf3bd2dcf35ce60c58371d71cba7ea19376c",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/parameters.json",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/parameters.json",
+      "sourceBytes": 1076,
+      "sourceSha256": "2607e68636eb259de7f49c6adf9f1a5040a84ac1b1e6e6b62f3bbc603c700c43",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/verification.json",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/verification.json",
+      "sourceBytes": 1929,
+      "sourceSha256": "7ed5aff4fb28ae2d9b2b0e52c257c0d43c98573581b7142cb6491c684bca2d3f",
+      "required": true,
+      "buildAction": "derive_public_verification_record_with_omissions_declared",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/weighting/verify-destination-weighting.sql",
+      "sourceRevision": "aebdf22bf848760767abc5acae32561eb0b782a4",
+      "sourcePath": "docs/research/fare-study-robustness-2026-11-05/verify-destination-weighting.sql",
+      "sourceBytes": 3747,
+      "sourceSha256": "0ac57391b1a8d60ab097782b7f9972277ab5bf21a2e4779a5dccd91132615efb",
+      "required": true,
+      "buildAction": "copy_exact_after_reuse_review",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/methods.md",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "Public procedure for coverage, prices and weighting; adapted from the three source READMEs, without private links or obsolete clearance wording.",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/data-dictionary.md",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "Every published column/key, denominator, alias scope, unit, time and null convention.",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/source-schema.sql",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "DDL only for fare_fetches, fare_observations and warm_attempts as used at the cutoff; no roles, credentials, payloads or pruning functions.",
+      "publishedSha256": null,
+      "publicAccessVerified": false,
+      "sourceInputs": [
+        {
+          "revision": "2f31b04a8ed05ca619cd28fd850bc77c660bbd30",
+          "path": "db/migrations/0001_fare_store.sql",
+          "sha256": "8e10799b67ba38b4ac5f061fa6f90170ae5b6a0e57eca37371ef1890fe442ef4",
+          "bytes": 4185,
+          "wholeFilePublicationAllowedByThisSpec": false
+        },
+        {
+          "revision": "2f31b04a8ed05ca619cd28fd850bc77c660bbd30",
+          "path": "db/migrations/0003_fetch_outcome.sql",
+          "sha256": "a9714fea675949fbdf6c6d0b1ad8ce0d5b32a9069be1a03dbaad96ab99f5dac0",
+          "bytes": 1144,
+          "wholeFilePublicationAllowedByThisSpec": false
+        },
+        {
+          "revision": "2f31b04a8ed05ca619cd28fd850bc77c660bbd30",
+          "path": "db/migrations/0004_warm_attempts.sql",
+          "sha256": "f98cdf84dcec2d54a434517b6259ea219edad25c6d879994b53a8be5ce8047e4",
+          "bytes": 2061,
+          "wholeFilePublicationAllowedByThisSpec": false
+        }
+      ]
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/verify-aggregates.py",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "Offline standard-library reconciliation of published summary files and article values; explicitly cannot recalculate medians from private fares.",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/verification.json",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "New release packaging/aggregate verification; distinct from the historical analytical records in each subdirectory.",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/manifest.json",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "Public release ID, cutoff, publisher, rights outcome, source/published file hashes, transformations and reproducibility limits.",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    },
+    {
+      "publicPath": "/data/fare-coverage/2026-11-05-v1/files/SHA256SUMS",
+      "required": true,
+      "buildAction": "create_during_implementation",
+      "purpose": "All delivered files including manifest.json, excluding this checksum file itself; hashes of uncompressed bytes.",
+      "publishedSha256": null,
+      "publicAccessVerified": false
+    }
+  ],
+  "farePermission": {
+    "ticket": "255231",
+    "dataSourceCredit": "Aviasales",
+    "kind": "aggregates_and_method_in_requested_format_only",
+    "evidence": "docs/research/fare-study-price-addendum-2026-11-05/terms-review.md",
+    "internalTermsRecordPublic": false,
+    "moreGranularRequiresFreshRequest": true
+  },
+  "municipalReleaseBase": "/data/municipal-hotel-scaling/2025-v1/files/",
+  "municipalFiles": [
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/analyze.py",
+      "purpose": "Standard-library Python calculation for both designs.",
+      "buildAction": "copy_exact_after_reuse_review",
+      "sourcePath": "docs/research/municipal-hotel-scaling-2025/analyze.py",
+      "sourceBytes": 6248,
+      "sourceSha256": "053431fd3e23960c1418fbe658c47381c64ebdc56f1165bdc1c255abbd52c6f7"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/sources/README.md",
+      "purpose": "Replication instructions, source definitions, licences and transformations.",
+      "buildAction": "copy_exact_after_reuse_review",
+      "sourcePath": "docs/research/municipal-hotel-scaling-2025/sources/README.md",
+      "sourceBytes": 7302,
+      "sourceSha256": "836ef89a03fc7d95792d706d38291f6f31e8eac93ac2b14bf2c364f3cebcdae4"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/sources/ine-46298.csv.gz",
+      "purpose": "INE table 46298, original CSV compressed losslessly.",
+      "buildAction": "copy_exact_after_reuse_review",
+      "sourcePath": "docs/research/municipal-hotel-scaling-2025/sources/ine-46298.csv.gz",
+      "sourceBytes": 86732,
+      "sourceSha256": "388b5588fd21bab3229a9af78eff6e2c1f6b6a5b6ddf6da7ba938b5c1cf5b08a"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/sources/statfin-11lm.json",
+      "purpose": "Statistics Finland table 11lm, 2025 room-price extract.",
+      "buildAction": "copy_exact_after_reuse_review",
+      "sourcePath": "docs/research/municipal-hotel-scaling-2025/sources/statfin-11lm.json",
+      "sourceBytes": 4246,
+      "sourceSha256": "6e8bbdb1fb588999b7ad4a33079559781781df9572c05507e8c5f6e81d7f10a0"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/sources/eurostat-pli.json",
+      "purpose": "Eurostat restaurant and accommodation price level indices for Spain and Finland.",
+      "buildAction": "copy_exact_after_reuse_review",
+      "sourcePath": "docs/research/municipal-hotel-scaling-2025/sources/eurostat-pli.json",
+      "sourceBytes": 2852,
+      "sourceSha256": "dcf75ce16e5ca72707e9e7b2fbffbcc9a597346e2381c779f54e0031e1ca8716"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/predictions.csv",
+      "purpose": "Both predictions and signed errors for each holdout, on its stated tax basis.",
+      "buildAction": "generated"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/results.txt",
+      "purpose": "Counts, median errors and domestic results by municipality.",
+      "buildAction": "generated"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/verification.json",
+      "purpose": "Source and output checks.",
+      "buildAction": "generated"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/manifest.json",
+      "purpose": "Release inventory, credits and file hashes.",
+      "buildAction": "generated"
+    },
+    {
+      "publicPath": "/data/municipal-hotel-scaling/2025-v1/files/SHA256SUMS",
+      "purpose": "SHA-256 checksums for all other release files.",
+      "buildAction": "generated"
+    }
+  ]
+}

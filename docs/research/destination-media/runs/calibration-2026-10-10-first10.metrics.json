@@ -1,0 +1,504 @@
+{
+  "destinationsProcessed": 1,
+  "resolved": 0,
+  "expectedResolutionOutcome": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "expectedIdAgreement": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "identityPrecision": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "candidateCount": 0,
+  "candidateCoverage": {
+    "numerator": 0,
+    "denominator": 1,
+    "value": 0
+  },
+  "candidateCoverageSuccessfulDiscoveryOnly": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "candidatesPendingVisualReview": 0,
+  "candidateRelevancePrecision": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "wrongImageRate": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "usefulCandidateCoverageReviewedOnly": {
+    "numerator": 0,
+    "denominator": 0,
+    "value": null
+  },
+  "confirmedUsefulDestinations": 0,
+  "falsePositiveCount": 0,
+  "falseNegativeCount": 0,
+  "missedGoodImageNotes": [],
+  "scoreDistribution": {
+    "relevantAndRoleFit": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null
+    },
+    "irrelevant": {
+      "count": 0,
+      "min": null,
+      "max": null,
+      "median": null
+    }
+  },
+  "tiers": {
+    "T1": {
+      "candidates": 0,
+      "reviewedRelevant": 0,
+      "reviewedIrrelevant": 0
+    },
+    "T2": {
+      "candidates": 0,
+      "reviewedRelevant": 0,
+      "reviewedIrrelevant": 0
+    },
+    "T3": {
+      "candidates": 0,
+      "reviewedRelevant": 0,
+      "reviewedIrrelevant": 0
+    }
+  },
+  "failureCategories": {
+    "provider-unavailable": 1
+  },
+  "requests": {
+    "wikidata": 1,
+    "commons": 0
+  },
+  "failures": 1,
+  "timeouts": 0,
+  "byPlaceKind": {
+    "city": {
+      "destinationsProcessed": 1,
+      "resolved": 0,
+      "expectedResolutionOutcome": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "expectedIdAgreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "identityPrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCount": 0,
+      "candidateCoverage": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0
+      },
+      "candidateCoverageSuccessfulDiscoveryOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidatesPendingVisualReview": 0,
+      "candidateRelevancePrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "wrongImageRate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "usefulCandidateCoverageReviewedOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "confirmedUsefulDestinations": 0,
+      "falsePositiveCount": 0,
+      "falseNegativeCount": 0,
+      "missedGoodImageNotes": [],
+      "scoreDistribution": {
+        "relevantAndRoleFit": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        },
+        "irrelevant": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        }
+      },
+      "tiers": {
+        "T1": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T2": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T3": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        }
+      },
+      "failureCategories": {
+        "provider-unavailable": 1
+      }
+    },
+    "island": {
+      "destinationsProcessed": 0,
+      "resolved": 0,
+      "expectedResolutionOutcome": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "expectedIdAgreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "identityPrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCount": 0,
+      "candidateCoverage": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCoverageSuccessfulDiscoveryOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidatesPendingVisualReview": 0,
+      "candidateRelevancePrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "wrongImageRate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "usefulCandidateCoverageReviewedOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "confirmedUsefulDestinations": 0,
+      "falsePositiveCount": 0,
+      "falseNegativeCount": 0,
+      "missedGoodImageNotes": [],
+      "scoreDistribution": {
+        "relevantAndRoleFit": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        },
+        "irrelevant": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        }
+      },
+      "tiers": {
+        "T1": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T2": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T3": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        }
+      },
+      "failureCategories": {}
+    },
+    "region": {
+      "destinationsProcessed": 0,
+      "resolved": 0,
+      "expectedResolutionOutcome": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "expectedIdAgreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "identityPrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCount": 0,
+      "candidateCoverage": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCoverageSuccessfulDiscoveryOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidatesPendingVisualReview": 0,
+      "candidateRelevancePrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "wrongImageRate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "usefulCandidateCoverageReviewedOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "confirmedUsefulDestinations": 0,
+      "falsePositiveCount": 0,
+      "falseNegativeCount": 0,
+      "missedGoodImageNotes": [],
+      "scoreDistribution": {
+        "relevantAndRoleFit": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        },
+        "irrelevant": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        }
+      },
+      "tiers": {
+        "T1": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T2": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T3": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        }
+      },
+      "failureCategories": {}
+    },
+    "nature-area": {
+      "destinationsProcessed": 0,
+      "resolved": 0,
+      "expectedResolutionOutcome": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "expectedIdAgreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "identityPrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCount": 0,
+      "candidateCoverage": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCoverageSuccessfulDiscoveryOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidatesPendingVisualReview": 0,
+      "candidateRelevancePrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "wrongImageRate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "usefulCandidateCoverageReviewedOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "confirmedUsefulDestinations": 0,
+      "falsePositiveCount": 0,
+      "falseNegativeCount": 0,
+      "missedGoodImageNotes": [],
+      "scoreDistribution": {
+        "relevantAndRoleFit": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        },
+        "irrelevant": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        }
+      },
+      "tiers": {
+        "T1": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T2": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T3": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        }
+      },
+      "failureCategories": {}
+    },
+    "unknown": {
+      "destinationsProcessed": 0,
+      "resolved": 0,
+      "expectedResolutionOutcome": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "expectedIdAgreement": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "identityPrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCount": 0,
+      "candidateCoverage": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidateCoverageSuccessfulDiscoveryOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "candidatesPendingVisualReview": 0,
+      "candidateRelevancePrecision": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "wrongImageRate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "usefulCandidateCoverageReviewedOnly": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "confirmedUsefulDestinations": 0,
+      "falsePositiveCount": 0,
+      "falseNegativeCount": 0,
+      "missedGoodImageNotes": [],
+      "scoreDistribution": {
+        "relevantAndRoleFit": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        },
+        "irrelevant": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null
+        }
+      },
+      "tiers": {
+        "T1": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T2": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        },
+        "T3": {
+          "candidates": 0,
+          "reviewedRelevant": 0,
+          "reviewedIrrelevant": 0
+        }
+      },
+      "failureCategories": {}
+    }
+  }
+}

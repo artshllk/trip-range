@@ -1,0 +1,116 @@
+{
+  "query": {
+    "pages": {
+      "71127147": {
+        "pageid": 71127147,
+        "ns": 6,
+        "title": "File:Tessaloniki BW 2017-10-05 18-22-47.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 8471464,
+            "width": 5787,
+            "height": 3582,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tessaloniki_BW_2017-10-05_18-22-47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71127147",
+            "sha1": "2aa844d06ef276c02778a43d0ac2f4ad517eabcf",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-07-26 15:15:19",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tessaloniki BW 2017-10-05 18-22-47",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Pentax K-3|Wooden boats|Uploaded with VicuñaUploader|Files with coordinates missing SDC location of creation|Greece photographs taken on 2017-10-05|Photographs by User:Berthold Werner/Themen/Küsten|Photographs by User:Berthold Werner/Griechenland",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.625273",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "22.947773",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Thessaloniki, White Tower and seafront from southwest",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-10-05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Berthold_Werner\" title=\"User:Berthold Werner\">Berthold Werner</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Berthold Werner",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

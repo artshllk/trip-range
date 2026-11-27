@@ -1,0 +1,165 @@
+{
+  "checked_date": "2026-11-04",
+  "original_sources_requested": 14,
+  "original_sources_accessed": 14,
+  "additional_claim_source_count": 1,
+  "checks": [
+    {
+      "source_id": "source:phase2:london:abbey",
+      "source_name": "Westminster Abbey",
+      "source_url": "https://www.westminster-abbey.org/visit-us",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Ticket information; opening times; admission information",
+      "finding": "The Abbey recommends advance tickets for sightseeing and lists Sunday as open for services. No admission price or availability is repeated."
+    },
+    {
+      "source_id": "source:phase4b:london:breakfast",
+      "source_name": "Dishoom",
+      "source_url": "https://www.dishoom.com/menu/breakfast-covent-garden/",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Breakfast heading and service-charge paragraph",
+      "finding": "Separate Covent Garden breakfast menu; service is optional and removal can be requested. This page links the same breakfast PDF listed in the original audit."
+    },
+    {
+      "source_id": "source:phase4b:london:menu",
+      "source_name": "Dishoom",
+      "source_url": "https://www.dishoom.com/menu/covent-garden-all-day/",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "All Day heading and service-charge paragraph",
+      "finding": "Separate Covent Garden all-day menu; service is optional and removal can be requested. This page links the same all-day PDF listed in the original audit."
+    },
+    {
+      "source_id": "source:phase4b:london:breakfast-pdf",
+      "source_name": "Dishoom",
+      "source_url": "https://cdn.sanity.io/files/daku84np/production/ddd9a3df5c185e38227ec34cfd3b0e606ece0ef5.pdf",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "PDF page 2, service paragraph, porridge and house chai",
+      "finding": "PDF reached through the official breakfast-page link after an initial direct-open tool error. The old porridge and chai components remain in the document. No PDF publication date is asserted."
+    },
+    {
+      "source_id": "source:phase4b:london:menu-pdf",
+      "source_name": "Dishoom",
+      "source_url": "https://cdn.sanity.io/files/daku84np/production/828436b12fba73190f349fb540d46f4c0a6c21bc.pdf",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "PDF pages 1–2, paneer roomali roll, chole puri halwa, fresh nimbu soda and service paragraph",
+      "finding": "PDF reached through the official all-day-page link after an initial direct-open tool error. The old selected dishes and soda remain in the document. No PDF publication date is asserted."
+    },
+    {
+      "source_id": "source:phase4b:paris:menu",
+      "source_name": "Bouillon Chartier",
+      "source_url": "https://www.bouillon-chartier.com/chartier_medias/2025/10/Francais.pdf",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "PDF page 1, footer",
+      "finding": "The publisher labels the document indicative and says it changes daily with fresh-product deliveries. The 2025/10 path is retained, not relabelled as a November 2026 menu. No dish availability or price is inferred."
+    },
+    {
+      "source_id": "source:phase4b:paris:louvre",
+      "source_name": "Musée du Louvre",
+      "source_url": "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Ticket; visitors eligible for free admission",
+      "finding": "The museum recommends time-slot bookings, including for free-admission visitors. The advice is a recommendation, not a claim that booking is mandatory."
+    },
+    {
+      "source_id": "source:phase4b:paris:tower",
+      "source_name": "Société d’Exploitation de la Tour Eiffel",
+      "source_url": "https://www.toureiffel.paris/en/rates-opening-times",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Ticket types: second floor / summit; elevator / stairs / stairs plus elevator",
+      "finding": "The venue distinguishes ticket destinations and ascent methods. Summit access with stairs uses an elevator after the second floor; the text does not promise stairs all the way to the summit. No amounts, availability or 2027 tariff claims are copied."
+    },
+    {
+      "source_id": "source:phase2:vienna:belvedere",
+      "source_name": "Belvedere",
+      "source_url": "https://www.belvedere.at/en/visit",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Venues of the Belvedere; opening hours and entry",
+      "finding": "Upper and Lower Belvedere have distinct venue and admission sections. Advice to choose the venue is supported; no combined-ticket exclusion is implied."
+    },
+    {
+      "source_id": "source:phase4b:vienna:menu",
+      "source_name": "Café Prückel",
+      "source_url": "https://www.prueckel.at/wp-content/uploads/2026/05/Prueckel_Karte_105x260_2026_online_DE.pdf",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "PDF page 2 breakfast and coffee; page 3 toast and goulash; page 4 soda",
+      "finding": "Breakfast dishes and coffee are separately listed. The old illustrative basket is reproducible from the published components, but it is replaced with meal-planning guidance. The filename is not proof of an exact issue date."
+    },
+    {
+      "source_id": "source:expansion01:barcelona:park",
+      "source_name": "Barcelona City Council",
+      "source_url": "https://parkguell.barcelona/en",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Heritage and architecture; nature; park incidents",
+      "finding": "Official site identifies Antoni Gaudí and the green space. Current incident notices include works, but an undated closure/news item does not establish the visit-day situation. No particular closure, works footprint or ticket availability is asserted."
+    },
+    {
+      "source_id": "source:batch1review:barcelona:mnac-days",
+      "source_name": "Museu Nacional d’Art de Catalunya",
+      "source_url": "https://www.museunacional.cat/es/horarios-y-precios",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Horario del museo",
+      "finding": "The museum lists Monday closure except public holidays, as well as separate annual closures. The short note keeps the Monday exception and directs readers to the calendar."
+    },
+    {
+      "source_id": "source:batch1review:barcelona:picasso-days",
+      "source_name": "Museu Picasso Barcelona",
+      "source_url": "https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Hours: closed",
+      "finding": "Every Monday is listed as closed. The canonical URL without index.php was also checked and gives the same Monday rule. No free-entry times or ticket prices are copied."
+    },
+    {
+      "source_id": "source:batch1review:istanbul:palace-operator",
+      "source_name": "National Palaces",
+      "source_url": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Visiting information; open and closed days on public and religious holidays",
+      "finding": "Tuesday is the weekly closing day. A separate official holiday schedule is present; no holiday override or availability is inferred."
+    },
+    {
+      "source_id": "source:maintenance20261104:barcelona:park-faq",
+      "source_name": "Park Güell / Barcelona City Council",
+      "source_url": "https://parkguell.barcelona/en/planning-your-visit/faqs",
+      "checked_date": "2026-11-04",
+      "status": "accessed_and_relevant_claims_verified",
+      "locator": "Preparing for your visit — Do I have to reserve tickets?",
+      "finding": "Operator recommends advance online booking with a selected date and time. No availability or guaranteed admission claim is repeated."
+    }
+  ],
+  "additional_cross_check": {
+    "source_url": "https://museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours",
+    "source_name": "Museu Picasso Barcelona",
+    "checked_date": "2026-11-04",
+    "finding": "Same Monday closure as the originally linked index.php route."
+  },
+  "unverified_items": [],
+  "removed_numeric_examples": [
+    {
+      "city": "vienna",
+      "reason": "Editorial simplification, not failed verification. The old selected café basket remains reproducible but cannot describe citywide daily spending."
+    },
+    {
+      "city": "london",
+      "reason": "Editorial simplification, not failed verification. The selected Dishoom basket and optional service arithmetic remain reproducible; retained advice concerns the optional charge rather than a daily total."
+    }
+  ],
+  "limits": [
+    "Check date records this source review, not a menu publication date or travel-day offer.",
+    "The Chartier PDF is an indicative older example, not evidence of dishes or prices on a future visit.",
+    "The Park Güell page mixes incident notices and undated news. No travel-day closure, full access or availability claim is made."
+  ]
+}

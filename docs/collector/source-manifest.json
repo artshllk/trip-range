@@ -1,0 +1,19 @@
+{
+  "revision": "2bcee81078c7edaca778e201264c7929383e6ff5",
+  "note": "Actual running source already tracked on main; retained byte-for-byte in this PR, not duplicated or replaced. Daily diagnostics compile this same source.",
+  "files": {
+    "scripts/fare-warm-run.ts": "e58927c5fb3c61bf0272f1ebe0281ed886035b606d50838f70c55d8a79a86c9b",
+    "scripts/check-warm-coverage.ts": "17a42705a22dcc4f94a33d22bbc0089b352c80e78d1c80d4a3f8dbd15b1ecc40",
+    "scripts/check-sweep-yield.ts": "a7a15c4b8f1881e12d1eb9f4c191ffaf372faf6ff621180f34b5c9c6b6ebfd28",
+    "src/server/collector-http.ts": "94f91a8bac989966d13a7fd807b1ca17040830eab926289f43ea651b0b42afec",
+    "src/server/provider-admission.ts": "59aaf2e79e4560ffeeade5a394020c0f75bc1bbfc71b90ecc0cc5ad98c632160",
+    "src/server/fare-refresh-store.ts": "74149fad898549bdbd74fd657975d1db1c7e805594bbf4b52db7c1bf23492881",
+    "src/domain/month-discovery.ts": "edc8dab41bd3cb7b5b9bcdc9aeedca835bfc91a8b9756c09d77b76f09379c30e",
+    "src/domain/fare-refresh.ts": "816c3878b0c209fe4d5c410ef319a3fe83484736b61c170f771ae283524deaf0",
+    "src/domain/sweep-yield.ts": "2f751d438bfd6de69e50844f297601b2b5a86316f9efcc0169fa7a201609badc",
+    "src/domain/fare-store.ts": "890afa96cc28c70299df215181dcb1a81b0d9be72f08ebb5b9b9810224a47cfd",
+    "src/providers/server/travelpayouts.ts": "863e6d9f391688038de401ab3286c081a8cd035930df3f4d1716b4c639013519",
+    "src/config/fare-warm.json": "26a1852419f17b174dd19965d71142d98be7069b36e0dc2d601840d4552992a7",
+    ".github/workflows/fare-warm.yml": "bbc77f669bdc0e50f2ec0b4f5c40d208f1827935b20dbae38efe56af12f1bd13"
+  }
+}

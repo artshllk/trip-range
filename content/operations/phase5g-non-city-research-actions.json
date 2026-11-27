@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "phase": "5G",
+  "actions": [
+    {
+      "destination": "crete",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups HER, CHQ; airports HER, CHQ. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups HER, CHQ; airports HER, CHQ. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.visitgreece.gr/en/mainland/Crete",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "HER and CHQ enter the island at different cities; catalogue already preserves one crete identity. No migration. Airport choice does not cover the cost of crossing the island.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups TYO; airports HND, NRT. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups TYO; airports HND, NRT. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.gotokyo.org/en/plan/getting-to-tokyo/index.html",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Q1490 is metropolitan prefecture/metropolis, not just the 23 wards. HND is in Tokyo; NRT is in adjacent Chiba but operationally serves Tokyo. This is analogous to NYC/EWR, not a separate sightseeing destination. Editorial scope is explicitly central neighbourhoods; outlying islands are not covered. Bus endpoint LMJ excluded.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups DPS; airports DPS. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups DPS; airports DPS. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/id/en/destination/bali-nusa-tenggara/bali/denpasar",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Ngurah Rai is at Tuban on Bali, not an external gateway. Q4648 is the island, not the province. No access record or editorial preparation added.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups TCI; airports TFN, TFS. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups TCI; airports TFN, TFS. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/planea-viaje/viajar/aeropuertos/",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Provider TCI groups two airports on the island; neither is an external gateway. Choose according to base. No access record added.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups MRU; airports MRU. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups MRU; airports MRU. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://aml.mru.aero/index.php/contact-us",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "SSR airport is at Plaine Magnien on Mauritius island. Q2656389 denotes the island, not the entire state. No mapping to Rodrigues or other islands.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups HNL; airports HNL. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups HNL; airports HNL. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.gohawaii.com/trip-planning/planning-your-trip/post-arrival",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Honolulu airport is on Oahu; the provider city label is not geographic equality with the island. No inter-island connection implied.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups HBA, LST, DPO, BWT; airports HBA, LST, DPO, BWT. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups HBA, LST, DPO, BWT; airports HBA, LST, DPO, BWT. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.discovertasmania.com.au/planning/getting-here",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Four flightable mainland-island groups verified. Q3593416 is the island, not the state. King and Flinders islands excluded. Do not raise restoration limits or silently omit a fourth configured group; later preparation must explicitly select at most three entries.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups FLR, PSA; airports FLR, PSA. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups FLR, PSA; airports FLR, PSA. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.visittuscany.com/en/getting-here",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Florence and Pisa airports are inside the region. Neither city equals Tuscany. One canonical regional result; exact selected airport retained. BLQ is verified Bologna metadata but is outside Tuscany and deliberately not enabled. Rail endpoints FIR/ZMS excluded.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups FAO; airports FAO. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups FAO; airports FAO. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www.visitportugal.com/en/destinos/algarve/73803",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Faro airport is within Algarve, an entry to the region rather than an alias for it. Q76516549 is the registered NUTS2 region. Bus endpoint ZYF excluded; no access record added.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups FAT (proof); SFO, SJC researched only; airports FAT (proof); SFO, SJC researched only. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups FAT (proof); SFO, SJC researched only; airports FAT (proof); SFO, SJC researched only. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://www.nps.gov/yose/planyourvisit/airports.htm",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "NPS lists Fresno, San Francisco and San Jose as airports near the park, not inside it. Proof deliberately activates only FAT, with no transfer price. Nonflightable FCH excluded. NPS also lists other approaches; this is not an exhaustive or ranked airport recommendation. No schedules or reservation availability asserted.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups YYC; airports YYC. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups YYC; airports YYC. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/visit.aspx",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "Parks Canada identifies Calgary airport east of the park. Banff park is not Calgary or Banff town alone. No ground-transfer price or availability inferred.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify public operational cities identity",
+      "result": "Groups SZK; NLP, HDS, PHW; airports SZK; MQP, HDS, PHW. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify public operational airports identity",
+      "result": "Groups SZK; NLP, HDS, PHW; airports SZK; MQP, HDS, PHW. Matched airport city_code, country_code, iata_type and flightable fields.",
+      "limitation": "Metadata is not fare, availability, schedule, geographic-equality or editorial-approval evidence. Only explicit flightable airport rows selected.",
+      "timestamp": "2026-10-14T11:52:58.680Z"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.sanparks.org/parks/kruger/travel/how-to-get-there",
+      "purpose": "Classify geographic/operational arrival relationship",
+      "result": "SZK is inside Kruger; MQP (provider group NLP), HDS and PHW are external approaches. Provider NLP airport itself is nonflightable. Do not equate MQP with NLP airport, or classify SZK as external just to fit schema. Mixed direct-nature access and camp/entry logistics require later work; current phase intentionally does not enable nature-area direct access. Provider flightable metadata is not evidence of a current scheduled route.",
+      "limitation": "Official text inspected via web reader/index. Classification only; no price, timetable, publication or exhaustive access claim.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q4648.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Bali Island — island in Bali Province, Indonesia",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:21.540683+00:00"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q40846.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Tenerife — One of the main islands of the Canary archipelago",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:21.354400+00:00"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q2656389.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Mauritius Island — main island in the country of Mauritius",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:21.253694+00:00"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q131347.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Oahu — island of Hawaii, United States",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:22.078950+00:00"
+    },
+    {
+      "destination": "place:Q3593416",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q3593416.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Tasmania — island of Australia (for the state of Australia consisting of this island and nearby isles)",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:21.807026+00:00"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q76516549.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Algarve — NUTS 2 subregion of Portugal",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:21.860682+00:00"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q41858.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Banff National Park — national park in Alberta, Canada",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:22.328763+00:00"
+    },
+    {
+      "destination": "place:Q24451",
+      "source": "https://www.wikidata.org/wiki/Special:EntityData/Q24451.json",
+      "purpose": "Disambiguate island, region or national-park identity",
+      "result": "Kruger National Park — national park in South Africa",
+      "limitation": "Identity evidence only; registry unchanged and no transport inference from name alone.",
+      "timestamp": "2026-10-14T12:00:22.444800+00:00"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.wikidata.org/wiki/Q34374",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Crete (Q34374) supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.visitgreece.gr/en/mainland/Crete",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Crete supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.visitgreece.gr/en/mainland/Crete/irakleio",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Heraklion supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.visitgreece.gr/en/islands/Crete/Chania",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Chania supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Old mainland URL returned no reader text. Replaced with official islands/Crete/Chania URL supported by indexed official text and Crete overview.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.visitgreece.gr/en/mainland/Crete/rethymno",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Rethymno supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.hh.gr/en/destinations/knossos/",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Knossos — archaeological site supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://heraklionmuseum.gr/en/exhibition/",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Exhibition — Heraklion Archaeological Museum supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Direct web open failed; indexed official exhibition text inspected. No live opening hours or ticket availability used.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://www.chq-airport.gr/en/category-detailed/ctg_id-69/nd_id-450",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "By Public Bus — Chania Airport supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "crete",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Public airport metadata — HER and CHQ identities only supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.wikidata.org/wiki/Q1490",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Tokyo (Q1490) supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Asakusa supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.gotokyo.org/en/destinations/eastern-tokyo/skytree-and-around/index.html",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Tokyo Skytree area supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.gotokyo.org/en/story/walks-and-tours/best-of-tokyo/index.html",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Tokyo area itineraries supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.gotokyo.org/en/plan/getting-around/index.html",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Transportation in Tokyo supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Tokyo’s history, geography and population supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.gotokyo.org/en/plan/getting-to-tokyo/index.html",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Getting to Tokyo supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.wikidata.org/wiki/Q1273",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Tuscany (Q1273) supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.visittuscany.com/en/ideas/the-most-striking-piazzas-in-tuscany/",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Squares in Tuscany supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.visittuscany.com/en/ideas/tuscany-by-train/",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Tuscany by train supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.visittuscany.com/en/getting-around",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Getting around Tuscany supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.visittuscany.com/en/getting-here",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Getting to Tuscany supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1273",
+      "source": "https://www.visittuscany.com/en/ideas/moving-around-tuscany-by-car/",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Moving around Tuscany by car supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://www.wikidata.org/wiki/Q180402",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Yosemite National Park (Q180402) supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://www.nps.gov/yose/planyourvisit/placestogo.htm",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Places to go supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://www.nps.gov/yose/planyourvisit/publictransportation.htm",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Public transportation supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://www.nps.gov/yose/planyourvisit/conditions.htm",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Current conditions supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q180402",
+      "source": "https://www.nps.gov/yose/planyourvisit/airports.htm",
+      "purpose": "Recheck proof editorial source and EN/SQ claim scope",
+      "result": "Airports near Yosemite supports the limited identity/place/transport description recorded in the destination evidence report.",
+      "limitation": "Consultation is not a new observation of service operation, prices or opening conditions. Human editorial review remains pending.",
+      "timestamp": "2026-10-14T11:58:22.074Z"
+    },
+    {
+      "destination": "place:Q1490",
+      "source": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+      "purpose": "Verify metropolitan administrative scope",
+      "result": "Tokyo includes special wards, Tama and outlying islands. Retain region identity; explicitly restrict this editorial shortlist to central neighbourhoods.",
+      "limitation": "Provider TYO does not promise access to every island or outlying municipality.",
+      "timestamp": "2026-10-14T12:02:15.105Z"
+    }
+  ]
+}

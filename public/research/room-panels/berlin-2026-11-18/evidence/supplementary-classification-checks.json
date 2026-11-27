@@ -1,0 +1,46 @@
+{
+  "source_url": "https://www.hotelstars.eu/search/proxy.php",
+  "request": {
+    "countryCodes": [
+      "DE"
+    ],
+    "companyName": "martas",
+    "companyAddress": "Berlin",
+    "hotelCategories": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "filters": []
+  },
+  "checked_date": "2026-11-18",
+  "records": [
+    {
+      "id": "38404",
+      "hotelName": "martas Hotel Albrechtshof",
+      "street": "Albrechtstraße",
+      "streetNumber": "8",
+      "zip": "10117",
+      "city": "Berlin",
+      "catalogName": "Hotelklassifizierung",
+      "hotelCategory": "3",
+      "superior": true,
+      "garni": false
+    },
+    {
+      "id": "42766",
+      "hotelName": "martas Hotel Allegra Berlin",
+      "street": "Albrechtstraße",
+      "streetNumber": "17",
+      "zip": "10117",
+      "city": "Berlin",
+      "catalogName": "Hotelklassifizierung",
+      "hotelCategory": "3",
+      "superior": false,
+      "garni": true
+    }
+  ],
+  "date_limitation": "Current public search provides no award date or expiry; check date does not reset evidence age."
+}

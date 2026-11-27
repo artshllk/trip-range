@@ -1,0 +1,276 @@
+{
+  "destinationId": "place:Q60",
+  "identitySubject": "place:Q60",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-13T21:31:22.359Z",
+  "sourceIds": [
+    "source:worldwide:place-Q60:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q60:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q60",
+      "title": "New York City (Q60)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T21:00:30.627Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q60"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q60:park",
+      "type": "official",
+      "url": "https://www.centralparknyc.org/visit",
+      "title": "Plan your Central Park visit",
+      "publisher": "Central Park Conservancy",
+      "retrievedAt": "2026-10-13T21:00:30.627Z"
+    },
+    {
+      "id": "source:worldwide:place-Q60:met",
+      "type": "official",
+      "url": "https://www.metmuseum.org/plan-your-visit",
+      "title": "Plan your visit",
+      "publisher": "Metropolitan Museum of Art",
+      "retrievedAt": "2026-10-13T21:00:30.627Z"
+    },
+    {
+      "id": "source:worldwide:place-Q60:bridge",
+      "type": "official",
+      "url": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml",
+      "title": "Brooklyn Bridge",
+      "publisher": "New York City Department of Transportation",
+      "retrievedAt": "2026-10-13T21:00:30.627Z"
+    },
+    {
+      "id": "source:worldwide:place-Q60:liberty",
+      "type": "official",
+      "url": "https://www.nps.gov/elis/planyourvisit/index.htm",
+      "title": "Plan your island visit",
+      "publisher": "US National Park Service",
+      "retrievedAt": "2026-10-13T21:00:30.627Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13T21:31:22.359Z",
+    "sourceIds": [
+      "source:worldwide:place-Q60:met",
+      "source:worldwide:place-Q60:bridge",
+      "source:worldwide:place-Q60:liberty"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Visit The Met and nearby Central Park, or plan a separate outing to Brooklyn Bridge. Liberty Island needs its own ferry arrangements.",
+      "sq": "Vizito muzeun The Met dhe parkun Central Park aty pranë, ose planifiko një shëtitje më vete te ura Brooklyn Bridge. Për në Liberty Island duhet të planifikosh udhëtimin me traget."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q60:1",
+      "text": {
+        "en": "Art beside Central Park",
+        "sq": "Art pranë Central Park"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:met"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q60:2",
+      "text": {
+        "en": "East River views from Brooklyn Bridge",
+        "sq": "Pamje të lumit East River nga ura Brooklyn Bridge"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:bridge"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q60:met",
+      "destinationId": "place:Q60",
+      "name": {
+        "en": "The Met Fifth Avenue",
+        "sq": "The Met Fifth Avenue"
+      },
+      "kind": "museum",
+      "shortDescription": {
+        "en": "An art museum on Fifth Avenue beside Central Park.",
+        "sq": "Muze arti në Fifth Avenue, pranë parkut Central Park."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:met"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q60:central-park",
+      "destinationId": "place:Q60",
+      "name": {
+        "en": "Central Park",
+        "sq": "Central Park"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "A park in Manhattan with walking paths and visitor centres.",
+        "sq": "Park në Manhattan me shtigje për shëtitje dhe qendra informacioni për vizitorët."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:park"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q60:brooklyn-bridge",
+      "destinationId": "place:Q60",
+      "name": {
+        "en": "Brooklyn Bridge",
+        "sq": "Brooklyn Bridge"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "A bridge with a pedestrian promenade connecting Lower Manhattan and Brooklyn Heights.",
+        "sq": "Urë me shëtitore për këmbësorë mes Lower Manhattan dhe Brooklyn Heights."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:bridge"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q60:liberty",
+      "destinationId": "place:Q60",
+      "name": {
+        "en": "Statue of Liberty",
+        "sq": "Statue of Liberty"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "A monument on Liberty Island, reached by ferry.",
+        "sq": "Monument në ishullin Liberty Island, ku shkohet me traget."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:liberty"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q60:upper-east-side",
+      "destinationId": "place:Q60",
+      "name": {
+        "en": "Upper East Side",
+        "sq": "Upper East Side"
+      },
+      "summary": {
+        "en": "The Manhattan neighbourhood around The Met, east of Central Park.",
+        "sq": "Lagje në Manhattan, pranë muzeut The Met dhe në lindje të parkut Central Park."
+      },
+      "goodFor": [
+        {
+          "en": "Visiting The Met and nearby Central Park.",
+          "sq": "Vizita në muzeun The Met dhe në parkun Central Park aty pranë."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Brooklyn Bridge and Liberty Island need separate journey planning.",
+          "sq": "Për Brooklyn Bridge dhe Liberty Island, planifiko veçmas si do të shkosh."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:met",
+        "source:worldwide:place-Q60:bridge",
+        "source:worldwide:place-Q60:liberty"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q60:met-access",
+      "destinationId": "place:Q60",
+      "title": {
+        "en": "Getting to The Met Fifth Avenue",
+        "sq": "Si të shkosh te The Met Fifth Avenue"
+      },
+      "guidance": {
+        "en": "Check The Met’s subway and bus directions for Fifth Avenue; The Cloisters is a separate location.",
+        "sq": "Kontrollo udhëzimet e muzeut The Met për të shkuar me metro ose autobus te Fifth Avenue; The Cloisters është në një vendndodhje tjetër."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:met"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q60:island-ferry",
+      "destinationId": "place:Q60",
+      "kind": "booking",
+      "text": {
+        "en": "Check current National Park Service guidance for the Liberty Island ferry and monument access before booking. Do not assume a ferry ticket includes every access option.",
+        "sq": "Para rezervimit, kontrollo udhëzimet aktuale të National Park Service për tragetin drejt Liberty Island dhe hyrjen në monument. Mos supozo se bileta e tragetit përfshin çdo lloj hyrjeje."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-13T21:31:22.359Z",
+      "sourceIds": [
+        "source:worldwide:place-Q60:liberty"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+    "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+    "approvedAt": "2026-10-13T21:31:22.359Z"
+  }
+}

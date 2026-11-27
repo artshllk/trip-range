@@ -1,0 +1,409 @@
+{
+  "city": "Copenhagen",
+  "country_code": "DK",
+  "method_version": "research-v5",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "CPH",
+      "public_option_name": "M2 Metro, ordinary three-zone single to central Copenhagen",
+      "public_price": {
+        "value": null,
+        "currency": "DKK",
+        "unit": "per adult ordinary three-zone CPH–centre single",
+        "status": "disputed",
+        "source_name": "DOT / Metro and VisitDenmark",
+        "source_url": "https://dinoffentligetransport.dk/media/wlfdfnbo/dot-takstblad-2026-a.pdf",
+        "checked_date": "2026-11-02",
+        "note": "Dated tariff and current Metro airport page agree on the lower exact fare, but national tourism guidance still quotes a higher approximate fare. Both official observations preserved; do not average. Rejsekort has different conditional fares and Metro supplements; those have not been combined into a fabricated ticket.",
+        "alternatives": [
+          {
+            "value": 30,
+            "currency": "DKK",
+            "unit": "per adult ordinary three-zone single",
+            "status": "confirmed",
+            "source_name": "DOT — tariff effective 2026-01-18",
+            "source_url": "https://dinoffentligetransport.dk/media/wlfdfnbo/dot-takstblad-2026-a.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Page 5 adult singles; route zones corroborated by https://m.dk/en/travel-with-the-metro/city-express-the-easiest-ways-to-travel/. Airport zone 4 to centre zone 1 requires three fare zones. Ticket available without subscription."
+          },
+          {
+            "value": 36,
+            "currency": "DKK",
+            "unit": "approximate per adult three-zone airport ticket",
+            "status": "confirmed",
+            "source_name": "VisitDenmark",
+            "source_url": "https://www.visitdenmark.com/denmark/plan-your-trip/transport/public-transport",
+            "checked_date": "2026-11-02",
+            "note": "The source explicitly qualifies this as approximate. Conflicts with the dated operator tariff; retained only to document the conflict, not as a reliable purchasable fare."
+          }
+        ]
+      },
+      "journey_legs": [
+        {
+          "origin": "Nørreport",
+          "destination": "Copenhagen Airport Metro station, Terminal 3",
+          "mode": "M2 Metro, published city-to-airport direction",
+          "duration_minutes": {
+            "value": 15,
+            "currency": null,
+            "unit": "published rail-leg minutes in the stated direction",
+            "status": "confirmed",
+            "source_name": "Copenhagen Airports",
+            "source_url": "https://public.cph.dk/en/parking-transport/bus-train-metro-taxi/metro",
+            "checked_date": "2026-11-02",
+            "note": "Airport publishes the journey in this direction. Walking and waiting excluded; not silently reversed into a dated arriving connection."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "TAXA 4×35 — weekday daytime",
+          "applicability": "Monday–Friday 06:00–18:00; ordinary vehicle for up to four passengers. Operator-specific, not a citywide mandated fare.",
+          "base_fare": {
+            "value": 39,
+            "currency": "DKK",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "TAXA 4×35 — weekday daytime",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified."
+          },
+          "per_km": {
+            "value": 11,
+            "currency": "DKK",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "TAXA 4×35 — weekday daytime",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "DKK",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "TAXA 4×35 — weekday daytime",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "DKK",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "TAXA 4×35 — weekday daytime",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "per_elapsed_minute": {
+            "value": 6.75,
+            "currency": "DKK",
+            "unit": "per vehicle per elapsed journey minute, in addition to distance",
+            "status": "confirmed",
+            "source_name": "TAXA 4×35",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Published simultaneous time component. A calculator supporting waiting time only must refuse this tariff; do not put this amount into per_waiting_minute."
+          }
+        },
+        {
+          "name": "TAXA 4×35 — evening/weekend",
+          "applicability": "Weekdays 18:00–06:00, weekends and public holidays; special Christmas/New Year tariffs excluded; ordinary vehicle for up to four passengers. Operator-specific, not a citywide mandated fare.",
+          "base_fare": {
+            "value": 49,
+            "currency": "DKK",
+            "unit": "per vehicle at meter start",
+            "status": "confirmed",
+            "source_name": "TAXA 4×35 — evening/weekend",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified."
+          },
+          "per_km": {
+            "value": 14.7,
+            "currency": "DKK",
+            "unit": "per vehicle per kilometre in the named band",
+            "status": "confirmed",
+            "source_name": "TAXA 4×35 — evening/weekend",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "DKK",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "TAXA 4×35 — evening/weekend",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "DKK",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "TAXA 4×35 — evening/weekend",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Live operator page labels ordinary rates effective 2023-12-01 and still displays them at check time. Time and distance components are both charged; the minute amount is NOT a waiting-only tariff. No airport surcharge for this operator verified. The applicable amount for this field was not verified; no zero or derived amount is supplied."
+          },
+          "per_elapsed_minute": {
+            "value": 7,
+            "currency": "DKK",
+            "unit": "per vehicle per elapsed journey minute, in addition to distance",
+            "status": "confirmed",
+            "source_name": "TAXA 4×35",
+            "source_url": "https://taxa.dk/priser/",
+            "checked_date": "2026-11-02",
+            "note": "Published simultaneous time component. A calculator supporting waiting time only must refuse this tariff; do not put this amount into per_waiting_minute."
+          }
+        }
+      ],
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "DKK",
+        "unit": "per vehicle airport–centre fixed fare",
+        "status": "unconfirmed",
+        "source_name": "TAXA 4×35",
+        "source_url": "https://taxa.dk/priser/",
+        "checked_date": "2026-11-02",
+        "note": "The operator offers address-specific app quotes. No single published airport-to-centre flat tariff verified. Another operator surcharge cannot be combined with this operator meter schedule."
+      }
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 24,
+      "currency": "DKK",
+      "unit": "per adult ordinary two-zone single",
+      "status": "confirmed",
+      "source_name": "DOT — 2026 tariff",
+      "source_url": "https://dinoffentligetransport.dk/media/wlfdfnbo/dot-takstblad-2026-a.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Page 5; minimum ordinary ticket, not the airport journey. Operator Metro ticket page corroborates amount. Conditional Rejsekort products are different.",
+      "validity_area": "Two contiguous fare zones selected by origin/ring zone; central city example, not airport zone 4 to centre zone 1."
+    },
+    "day_pass": {
+      "value": 100,
+      "currency": "DKK",
+      "unit": "per adult City Pass Small, 24 consecutive hours",
+      "status": "confirmed",
+      "source_name": "DOT — 2026 tariff",
+      "source_url": "https://dinoffentligetransport.dk/media/wlfdfnbo/dot-takstblad-2026-a.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Page 9; rolling-hour validity corroborated by https://www.dsb.dk/find-produkter-og-services/citypass/ and https://www.publictransport.dk/tickets/citypass.",
+      "validity_area": "City Pass Small: zones 1–4 including Copenhagen Airport and the Metro network.",
+      "validity_kind": "consecutive_hours",
+      "satisfies_rolling_24h_requirement": true
+    },
+    "pass_72h": {
+      "value": 220,
+      "currency": "DKK",
+      "unit": "per adult City Pass Small, 72 consecutive hours",
+      "status": "confirmed",
+      "source_name": "DOT — 2026 tariff",
+      "source_url": "https://dinoffentligetransport.dk/media/wlfdfnbo/dot-takstblad-2026-a.pdf",
+      "checked_date": "2026-11-02",
+      "note": "Page 9 three-day product; DSB explicitly defines the product choices in hours including 72: https://www.dsb.dk/find-produkter-og-services/citypass/. Not three times a day ticket.",
+      "validity_area": "City Pass Small: zones 1–4 including Copenhagen Airport and the Metro network."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2026-11-02",
+        "to": null,
+        "period_semantics": "observation_date_not_enactment_date",
+        "basis": "not_levied",
+        "rate": {
+          "value": null,
+          "currency": "DKK",
+          "unit": "no statutory accommodation visitor-tax rate",
+          "status": "not_offered",
+          "source_name": "Danish Ministry of Taxation and Growth — final answer to Folketing Tax Committee question 449, 2026-10-06, p. 2",
+          "source_url": "https://www.ft.dk/samling/20252/almdel/sau/spm/449/svar/2237895/3196769.pdf",
+          "checked_date": "2026-11-02",
+          "note": "Positive absence finding replaces the earlier incomplete search. The tax minister’s October 2026 answer describes the proposed overnight tourism tax as a new tax requiring a defined model. The municipality separately states it lacks legal authority to introduce a tourism tax without national legislation. These are positive government statements, corroborated by the rejected authorising proposal. No enacted future accommodation-tax commencement was verified. This finding applies to Copenhagen, not an unsupported claim about every territory in the Danish Realm. The hypothetical amount discussed in the parliamentary question is not an enacted or announced future rate and is deliberately not entered as a tax value."
+        },
+        "exemptions": "Not applicable to the absent statutory accommodation visitor tax. VAT and contractual property charges are separate.",
+        "legal_source_url": "https://www.ft.dk/samling/20252/almdel/sau/spm/449/svar/2237895/3196769.pdf",
+        "legal_source_kind": "official_authority_legal_explanation_not_an_enacted_zero_rate",
+        "absence_evidence": [
+          {
+            "source_name": "Danish Ministry of Taxation and Growth — final answer to Folketing Tax Committee question 449",
+            "source_url": "https://www.ft.dk/samling/20252/almdel/sau/spm/449/svar/2237895/3196769.pdf",
+            "checked_date": "2026-11-02",
+            "published_date": "2026-10-06",
+            "finding": "The minister states that introducing the proposed overnight tourism tax would create a new tax requiring a defined model. The answer addresses both national and Copenhagen/Aarhus scenarios. It describes a hypothetical policy, not an existing levy or an enacted future rate."
+          },
+          {
+            "source_name": "Københavns Kommune — February 2026 municipal briefing, p. 14",
+            "source_url": "https://kobenhavntaler.kk.dk/uploads/743d892a-9489-4765-a546-ecf0943d262d/files/file/content/441c080a-0611-4de7-b8f5-605712e39a32/Materialesamling_web.pdf?Expires=1780134633&Key-Pair-Id=K1BDWVF43XV0CK&Signature=JfMhKC5wVNmFub3T~teiTeqcYCUvRwrGR1RJnitd-cHPKvMDLbCvqsRMUYzfvNvGv8ddceYnGaszExpeapqhnfjAc4DcFoALvpwgd12~pacllKHlVhwA6VgmsVaY171Bn0BtAn1rAVj08TXkAaEAnlFQTrc7uvYN2YM02eOIjvuxBzdo5qrWRUA4TkhZnKbY~dn24OEDxrYl2eKz2mPFoQpytoyhPjtt0l49uLK5O1ekmaqeNW5uKReJqpxmZ8mqD5gGDAfQu9y0yJM8aWctijC2HtjErFm-brTHE1gcBp3E07geH3uXv32pm1IoTeQEHkrBGKY80y9wvCkTLWk0MA__",
+            "checked_date": "2026-11-02",
+            "finding": "Explicit statement that the municipality lacks the necessary legal authority for a tourism tax. The statement is in the municipality-authored section, not an expert opinion section.",
+            "retrieval_note": "Official-host PDF text read through web retrieval. The municipal URL has an expiring delivery signature; the unsigned URL did not load. The publisher mirror, linked from https://www.wedodemocracy.dk/publikationer/, was downloaded and independently text-checked: cover publication date February 2026, municipal authorship on pp. 12–14, and explicit absence of legal authority on p. 14. The mirror hash identifies the checked copy. It is the same titled municipal contribution, not a publisher opinion.",
+            "publisher_mirror_url": "https://www.wedodemocracy.dk/wp-content/uploads/2026/07/Materialesamling_web.pdf",
+            "publisher_mirror_sha256": "d4e7d95f6022fef968e5b43cb671c91021fab2496695c77dca3a623452d99fbe"
+          },
+          {
+            "source_name": "Folketing — B 52, 2024–25",
+            "source_url": "https://www.folketingstidende.dk/samling/20241/beslutningsforslag/B52/index.htm",
+            "checked_date": "2026-11-02",
+            "finding": "Proposal to authorise municipal tourism taxes rejected on 2025-04-03; it is not an enacted tax."
+          },
+          {
+            "source_name": "Folketing — Tax Committee question 449, 2025–26 second session",
+            "source_url": "https://www.ft.dk/samling/20252/almdel/SAU/spm/449/index.htm",
+            "checked_date": "2026-11-02",
+            "finding": "Question dated 2026-09-22 asks about introducing an overnight tax nationally or only in Copenhagen/Aarhus. The final recheck shows it answered on 2026-10-06; that ministerial answer is now the primary evidence above. The earlier retrieval note describing it as unanswered is superseded. Neither the hypothetical question nor its revenue model constitutes an enacted rate or commencement law."
+          }
+        ],
+        "calculation": {
+          "status": "computable_absence",
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "supported_case": "No statutory accommodation visitor-tax component in the named jurisdiction as checked; this does not resolve other hotel fees.",
+          "required_inputs": [
+            "property_jurisdiction",
+            "continued_applicability_for_travel_date"
+          ],
+          "refuse_when": [
+            "evidence no longer applies to the travel date or property jurisdiction",
+            "a new enacted rule supersedes this observation"
+          ],
+          "evidence_gaps": [],
+          "result_rule": "Emit no statutory-tax charge, with the absence evidence attached. Do not manufacture a numeric source rate or require currency conversion for an absent charge."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 105,
+      "currency": "DKK",
+      "unit": "per avocado-and-cottage-cheese rye-bread lunch",
+      "status": "confirmed",
+      "source_name": "Paludan Bogcafé — menu",
+      "source_url": "https://www.paludanbogcafe.com/menu",
+      "checked_date": "2026-11-02",
+      "note": "Named light lunch, served until 16:00; drinks excluded. An inexpensive menu observation, not a representative city meal cost."
+    },
+    "midrange_meal_for_two": {
+      "value": null,
+      "currency": "DKK",
+      "unit": "per two-person sit-down restaurant meal",
+      "status": "unconfirmed",
+      "source_name": "MELT Restaurant — menu",
+      "source_url": "https://www.melt-restaurant.dk/",
+      "checked_date": "2026-11-02",
+      "note": "The restaurant publishes per-person sharing-menu prices with a minimum of two diners, not a two-person total. Those were not doubled. A Sufra-branded ordering domain also appeared, but its relationship to the restaurant and dine-in equivalence were not verified; no aggregator/delivery price adopted."
+    },
+    "coffee": {
+      "value": 39,
+      "currency": "DKK",
+      "unit": "per regular filter coffee",
+      "status": "confirmed",
+      "source_name": "Paludan Bogcafé — menu",
+      "source_url": "https://www.paludanbogcafe.com/menu",
+      "checked_date": "2026-11-02",
+      "note": "Regular coffee section; a separate morning promotion is a different time-qualified product, not a conflicting price. No average across drinks."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Tivoli Gardens",
+      "entry_price": {
+        "value": null,
+        "currency": "DKK",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "unconfirmed",
+        "source_name": "Tivoli Gardens — official visitor information",
+        "source_url": "https://www.tivoli.dk/en/practical-information/faq",
+        "checked_date": "2026-11-02",
+        "note": "Admission varies by date and sometimes entry time. A from-price is not a current dated quote; scalar left empty. The venue permits Service Centre purchase, so ordinary visits need no advance booking, but selected concerts have separate reservations. No availability claim."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Rosenborg Castle",
+      "entry_price": {
+        "value": 140,
+        "currency": "DKK",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Rosenborg Castle — official visitor information",
+        "source_url": "https://denkongeligesamling.dk/en/rosenborg-castle/plan-your-visit/",
+        "checked_date": "2026-11-02",
+        "note": "Adult online ticket; on-site channel is more expensive. Time slot required, advance purchase recommended by venue. A partner museum network says booking online before visiting is required (https://www.parkmuseerne.dk/museer/rosenborg/), whereas venue explicitly offers door sales; booking-ahead boolean left null due to this policy conflict."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Christiansborg Palace — Palace Ticket",
+      "entry_price": {
+        "value": 215,
+        "currency": "DKK",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Christiansborg Palace — Palace Ticket — official visitor information",
+        "source_url": "https://denkongeligesamling.dk/en/christiansborg-palace/plan-your-visit/",
+        "checked_date": "2026-11-02",
+        "note": "Adult online Palace Ticket. The Royal Reception Rooms alone are a distinct cheaper product and not substituted. Venue explicitly lists door sales, so advance purchase is optional for ordinary individual visits."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Amalienborg Museum",
+      "entry_price": {
+        "value": 125,
+        "currency": "DKK",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Amalienborg Museum — official visitor information",
+        "source_url": "https://denkongeligesamling.dk/en/amalienborg-museum/plan-your-visit/",
+        "checked_date": "2026-11-02",
+        "note": "Adult online admission; venue also lists door sales. Ordinary individual admission, not a guided group visit."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "Round Tower (Rundetårn)",
+      "entry_price": {
+        "value": 60,
+        "currency": "DKK",
+        "unit": "per full-fare adult for the named admission product",
+        "status": "confirmed",
+        "source_name": "Round Tower (Rundetårn) — official visitor information",
+        "source_url": "https://www.rundetaarn.dk/en/visit-us/",
+        "checked_date": "2026-11-02",
+        "note": "Adult standard entry. Venue explicitly sells ordinary admission only at the ticket office; events have separate bookings."
+      },
+      "booking_ahead_required": false
+    }
+  ],
+  "unresolved": [
+    "Research only: this is not the production cost schema and the app must never read it. A validated transform must reject unconfirmed and disputed records, and retain all product, geography, date, eligibility and purchase-channel restrictions on confirmed records.",
+    "research-v3: transit envelopes carry validity_area. Airport transfers use journey_legs and named taxi_tariffs categories; overall journey time, estimated taxi ranges and attraction visit durations are deliberately absent. Each taxi category has base_fare, per_km, per_waiting_minute and airport_surcharge envelopes. An optional published_waiting_rate preserves an hourly source without deriving a per-minute figure.",
+    "Prices are observations checked on the collection date, not promises for a future trip. A current official page without an explicit effective date is identified as such. No currency conversion, averages, estimated amounts or arithmetic replacement for a missing product are used. Null does not mean zero.",
+    "day_pass records only an explicitly specified validity product; service-day and consecutive-hour products must not be treated as interchangeable. pass_72h is not calculated from shorter passes. Nonexistence requires positive evidence, not an unsuccessful search.",
+    "Eating-out figures are named menu observations, not representative city averages. A published per-person menu has not been doubled to manufacture a two-person total. The midrange category is not an official restaurant classification.",
+    "The five attractions are a research selection rather than a verified popularity ranking. Booking evidence is placed in entry_price.note because the agreed boolean has no envelope. Null booking status is unknown; no availability or queue-time claim is made.",
+    "An empty accommodation_charges array means no non-statutory charge was verified in this research, not that every property is fee-free. Conditional levies must be matched to an actual property; universal=false forbids automatic addition to every trip.",
+    "Airport scope follows destination codes found in repository configuration/catalogue, not an independently verified live origin-flight schedule. Named endpoint fares are not terminal-to-hotel prices. No comparison claim is made where cheaper conditional products or alternate services remain unverified.",
+    "An exact two-person dine-in menu total was not verified. Tivoli requires a visit-date quote. Rosenborg booking policy differs between venue and partner museum network.",
+    "TAXA 4×35 uses simultaneous distance and elapsed-time charging. Its schedule is not a universal city tariff, and its airport surcharge is unconfirmed. Dantaxi separately publishes an airport surcharge, but mixing operators would produce an invalid fare.",
+    "The current operator airport fare conflicts with the national tourism page; all observations retained. Conditional Rejsekort fares and discounts prevent a verified absolute-cheapest claim for every traveller.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero.",
+    "Tax follow-up: statutory accommodation visitor tax is now sourced not_offered, under the new not_levied basis. There is no verified future effective accommodation-tax period to encode; political proposals do not create one. Recheck for future travel.",
+    "FX follow-up: DKK is now supported as an evidence currency and included in the refreshed ECB snapshot. Positive confirmed DKK observations can be converted under the registry policy; each cost still needs valid source/product conditions. The statutory absence finding itself needs no conversion."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

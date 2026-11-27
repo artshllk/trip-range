@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "phase3f-worldwide",
+  "title": "Phase 3F worldwide starter coverage",
+  "entries": [
+    {
+      "destinationId": "city:BCN",
+      "name": "Barcelona",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "existing"
+    },
+    {
+      "destinationId": "crete",
+      "name": "Crete",
+      "region": "Europe",
+      "placeKind": "island",
+      "group": "existing"
+    },
+    {
+      "destinationId": "prishtina",
+      "name": "Prishtina",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "existing"
+    },
+    {
+      "destinationId": "paris",
+      "name": "Paris",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "A"
+    },
+    {
+      "destinationId": "london",
+      "name": "London",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "A"
+    },
+    {
+      "destinationId": "place:Q1490",
+      "name": "Tokyo",
+      "region": "Asia",
+      "placeKind": "region",
+      "group": "A"
+    },
+    {
+      "destinationId": "place:Q34600",
+      "name": "Kyoto",
+      "region": "Asia",
+      "placeKind": "city",
+      "group": "A"
+    },
+    {
+      "destinationId": "place:Q334",
+      "name": "Singapore",
+      "region": "Asia",
+      "placeKind": "city",
+      "group": "A"
+    },
+    {
+      "destinationId": "place:Q1861",
+      "name": "Bangkok",
+      "region": "Asia",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q60",
+      "name": "New York City",
+      "region": "North America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q1489",
+      "name": "Mexico City",
+      "region": "North America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q8678",
+      "name": "Rio de Janeiro",
+      "region": "South America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q1486",
+      "name": "Buenos Aires",
+      "region": "South America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q5465",
+      "name": "Cape Town",
+      "region": "Africa",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q101625",
+      "name": "Marrakesh",
+      "region": "Africa",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q612",
+      "name": "Dubai",
+      "region": "Middle East",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "istanbul",
+      "name": "Istanbul",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q3130",
+      "name": "Sydney",
+      "region": "Oceania",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q24639",
+      "name": "Vancouver",
+      "region": "North America",
+      "placeKind": "city",
+      "group": "D"
+    },
+    {
+      "destinationId": "place:Q4648",
+      "name": "Bali",
+      "region": "Asia",
+      "placeKind": "island",
+      "group": "D"
+    },
+    {
+      "destinationId": "place:Q40846",
+      "name": "Tenerife",
+      "region": "Africa",
+      "placeKind": "island",
+      "group": "D"
+    },
+    {
+      "destinationId": "place:Q2656389",
+      "name": "Mauritius island",
+      "region": "Africa",
+      "placeKind": "island",
+      "group": "D"
+    },
+    {
+      "destinationId": "place:Q131347",
+      "name": "Oahu",
+      "region": "Oceania",
+      "placeKind": "island",
+      "group": "D"
+    },
+    {
+      "destinationId": "place:Q3593416",
+      "name": "Tasmania island",
+      "region": "Oceania",
+      "placeKind": "island",
+      "group": "E"
+    },
+    {
+      "destinationId": "place:Q1273",
+      "name": "Tuscany",
+      "region": "Europe",
+      "placeKind": "region",
+      "group": "E"
+    },
+    {
+      "destinationId": "place:Q76516549",
+      "name": "Algarve",
+      "region": "Europe",
+      "placeKind": "region",
+      "group": "E"
+    },
+    {
+      "destinationId": "candidate:phase3f-patagonia",
+      "name": "Patagonia",
+      "region": "South America",
+      "placeKind": "region",
+      "group": "E"
+    },
+    {
+      "destinationId": "place:Q180402",
+      "name": "Yosemite National Park",
+      "region": "North America",
+      "placeKind": "nature-area",
+      "group": "E"
+    },
+    {
+      "destinationId": "place:Q41858",
+      "name": "Banff National Park",
+      "region": "North America",
+      "placeKind": "nature-area",
+      "group": "F"
+    },
+    {
+      "destinationId": "place:Q24451",
+      "name": "Kruger National Park",
+      "region": "Africa",
+      "placeKind": "nature-area",
+      "group": "F"
+    }
+  ]
+}

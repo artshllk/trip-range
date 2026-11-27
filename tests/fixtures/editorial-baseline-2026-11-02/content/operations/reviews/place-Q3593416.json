@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q3593416",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+    "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+    "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Tasmania v2 island identity, official tourism/park sources, EN/SQ copy, Cradle Mountain, Freycinet, Port Arthur and Mona selection, Hobart base, regional transport and freshness ownership reviewed and accepted for publication. HBA/LST/DPO/BWT are direct entries to Tasmania island. Regional journeys remain separate planning concerns; no live shuttle, road, parking, timetable or hiking-condition guarantees."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T11:50:46.685Z",
+    "reviewedAt": "2026-10-15T11:50:46.685Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:21.654Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:22.681Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:22.681Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:23.720Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:23.720Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:24.779Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:24.779Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:25.798Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:25.798Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:26.890Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:26.890Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:38.980Z",
+      "reason": "Advisory evidence-review: Tasmania v2 island identity, official tourism/park sources, EN/SQ copy, Cradle Mountain, Freycinet, Port Arthur and Mona selection, Hobart base, regional transport and freshness ownership reviewed and accepted for publication. HBA/LST/DPO/BWT are direct entries to Tasmania island. Regional journeys remain separate planning concerns; no live shuttle, road, parking, timetable or hiking-condition guarantees."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "55fbc2ff7f9b2a721600bfb537a3d82265f338a25175bfd0c7a18616c4f15c5f",
+        "identityDigest": "7ddb2a6796aab8421338e5b73062c05599d59ccccf79883092fdec09042dddf2",
+        "evidenceDigest": "7fd11a0f584a0a2a564fb5973fc0c627710e2ce4d680379be18a209a67cdc12b",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Tasmania v2 island identity, official tourism/park sources, EN/SQ copy, Cradle Mountain, Freycinet, Port Arthur and Mona selection, Hobart base, regional transport and freshness ownership reviewed and accepted for publication. HBA/LST/DPO/BWT are direct entries to Tasmania island. Regional journeys remain separate planning concerns; no live shuttle, road, parking, timetable or hiking-condition guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T11:50:38.980Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T11:50:46.685Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q2656389",
+  "current": {
+    "contentVersion": 3,
+    "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+    "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+    "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Mauritius Island v3 identity, heritage, government, conservation and airport sources, EN/SQ copy, Aapravasi Ghat, botanical garden, Black River Gorges and Le Morne selection, precise indentured-labour wording, regional journeys and freshness ownership were reviewed and accepted for publication. The wording distinguishes indentured labour from slavery and ordinary unrestricted free employment. No wildlife, trail-safety, opening or transport guarantees."
+      },
+      {
+        "id": "presentation:7e2a291f9f24ff36b8f4",
+        "reason": "The 206-character Albanian Aapravasi Ghat explanation is intentionally retained because shortening it would risk losing the historical distinction required for accurate treatment of indentured labour. The full sentence remains accessible in the existing disclosure, and EN/SQ checks at 1440/390/320px and 200% zoom passed without overflow or client errors."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T08:55:28.329Z",
+    "reviewedAt": "2026-10-15T08:55:28.329Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:21.305Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:22.185Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:22.185Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:23.054Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:23.054Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:23.939Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:23.939Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:24.832Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:24.832Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:25.703Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:25.703Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:26.560Z",
+      "reason": "Advisory evidence-review: Mauritius Island v3 identity, heritage, government, conservation and airport sources, EN/SQ copy, Aapravasi Ghat, botanical garden, Black River Gorges and Le Morne selection, precise indentured-labour wording, regional journeys and freshness ownership were reviewed and accepted for publication. The wording distinguishes indentured labour from slavery and ordinary unrestricted free employment. No wildlife, trail-safety, opening or transport guarantees."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Mauritius Island v3 identity, heritage, government, conservation and airport sources, EN/SQ copy, Aapravasi Ghat, botanical garden, Black River Gorges and Le Morne selection, precise indentured-labour wording, regional journeys and freshness ownership were reviewed and accepted for publication. The wording distinguishes indentured labour from slavery and ordinary unrestricted free employment. No wildlife, trail-safety, opening or transport guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:26.560Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:27.439Z",
+      "reason": "Advisory presentation:7e2a291f9f24ff36b8f4: The 206-character Albanian Aapravasi Ghat explanation is intentionally retained because shortening it would risk losing the historical distinction required for accurate treatment of indentured labour. The full sentence remains accessible in the existing disclosure, and EN/SQ checks at 1440/390/320px and 200% zoom passed without overflow or client errors."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+        "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+        "evidenceDigest": "98f8bf9ea90f5d9b9dd1d36e48f42ae8b031fa3fedac8bf5ce32d9e8776140db",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Mauritius Island v3 identity, heritage, government, conservation and airport sources, EN/SQ copy, Aapravasi Ghat, botanical garden, Black River Gorges and Le Morne selection, precise indentured-labour wording, regional journeys and freshness ownership were reviewed and accepted for publication. The wording distinguishes indentured labour from slavery and ordinary unrestricted free employment. No wildlife, trail-safety, opening or transport guarantees."
+          },
+          {
+            "id": "presentation:7e2a291f9f24ff36b8f4",
+            "reason": "The 206-character Albanian Aapravasi Ghat explanation is intentionally retained because shortening it would risk losing the historical distinction required for accurate treatment of indentured labour. The full sentence remains accessible in the existing disclosure, and EN/SQ checks at 1440/390/320px and 200% zoom passed without overflow or client errors."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:27.439Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:28.329Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

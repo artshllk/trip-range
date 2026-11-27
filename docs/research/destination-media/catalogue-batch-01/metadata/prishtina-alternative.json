@@ -1,0 +1,98 @@
+{
+  "query": {
+    "pages": {
+      "66248836": {
+        "pageid": 66248836,
+        "ns": 6,
+        "title": "File:Panorama View of Prishtina 02.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 7149476,
+            "width": 6467,
+            "height": 2364,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Panorama_View_of_Prishtina_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panorama_View_of_Prishtina_02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66248836",
+            "sha1": "baa4d9a5ca93dce84d988fa060013e65c258f86b",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-02-08 21:41:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Panorama View of Prishtina 02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Views of Pristina|Self-published work|Panoramas of Kosovo|Images by Liridon|Images of Kosovo by Liridon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Panorama View of Prishtina",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-02-04 15:27:34",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Liridon\" title=\"User:Liridon\">Liridon</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

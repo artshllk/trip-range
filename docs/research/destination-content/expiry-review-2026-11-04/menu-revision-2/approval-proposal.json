@@ -1,0 +1,58 @@
+{
+  "status": "pending_owner_review",
+  "prepared_date": "2026-11-04",
+  "reviewer": null,
+  "reviewedAt": null,
+  "menu_figures_sha256": "7910cca3b9753804fc3723d9da04f16ee5ab6bb5ee5c9dd1041369a22ac7a3fb",
+  "changes_sha256": "0ce7e95a190a6768490b89b257451f1a75e6e3112b2b078cfb5fe7e0378c4932",
+  "records": [
+    {
+      "destinationId": "vienna",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/menu-revision-2/vienna.json",
+      "candidate_sha256": "e1f34b106c5e49efcca0703cf4c74e48987121ecca77079bf91eb241ae9fb525",
+      "pins_with_existing_evidence": {
+        "contentVersion": 3,
+        "contentDigest": "a87b6430d2f0a2b3ba7fa2618b6dd2d8a9a42eb8d813f0a44f31164f36b2a3af",
+        "identityDigest": "bee3342c6866bbfe310027fbc14b51b79673cac76ce7d6ab3f41433c3453a0e9",
+        "evidenceDigest": "07e8bd602d70a875b7d227d6b8e72f9aeefcaad2f9261081408a6f435af9532b"
+      },
+      "base_content_sha256": "2228cdd8dfaf039d5474c3bf97c9e935dd13c4b490c501a0ee5349e0af1bee36",
+      "item_ids": [
+        "note:phase4b:vienna:examples:1"
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "additional_evidence": "menu-figures.json",
+      "note": "All other text and deadlines are unchanged. Longer itemisation uses the existing detail disclosure; the total, date and qualifier stay in the default preview."
+    },
+    {
+      "destinationId": "london",
+      "candidate_path": "docs/research/destination-content/expiry-review-2026-11-04/menu-revision-2/london.json",
+      "candidate_sha256": "94ea10b75cef02d82664c84da0265b3ef645212ee973ed37ab28de4c7e09cbc0",
+      "pins_with_existing_evidence": {
+        "contentVersion": 6,
+        "contentDigest": "892e409156668ae40a68eb66d0e9c95df0a412d56552aa9268eec81ce923b615",
+        "identityDigest": "72da194ebaacb83d15c991ca2b98c131867a744c136c125aa2549b5cfe8dba6b",
+        "evidenceDigest": "7fbb25ec2c81867fe85829050074ef52e4737c028e5f525376647b0edbee8107"
+      },
+      "base_content_sha256": "d3b0ef28fd287834c07362c8533e65ddd03c16e1b391891de67b2a1781a8d753",
+      "item_ids": [
+        "note:phase4b:london:examples:1"
+      ],
+      "checks": {
+        "identity": "pending",
+        "sources": "pending",
+        "englishCopy": "pending",
+        "selectionAndOrder": "pending",
+        "freshness": "pending"
+      },
+      "additional_evidence": "menu-figures.json",
+      "note": "All other text and deadlines are unchanged. Longer itemisation uses the existing detail disclosure; the total, date and qualifier stay in the default preview."
+    }
+  ]
+}

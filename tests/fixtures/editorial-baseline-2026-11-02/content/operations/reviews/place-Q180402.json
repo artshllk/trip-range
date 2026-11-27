@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q180402",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+    "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+    "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Yosemite National Park v2 identity, National Park Service sources, EN/SQ copy, focused valley, viewpoint, grove and high-country selection, access guidance and freshness ownership were reviewed and accepted for publication. FAT is treated as an external gateway requiring onward travel; no safe gateway-transfer price is currently published, so incomplete-trip pricing remains intentional."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-14T13:56:51.215Z",
+    "reviewedAt": "2026-10-14T13:56:51.215Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:45.448Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:46.283Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:46.283Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:47.111Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:47.111Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:47.933Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:47.933Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:48.742Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:48.742Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:49.576Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:49.576Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:50.400Z",
+      "reason": "Advisory evidence-review: Yosemite National Park v2 identity, National Park Service sources, EN/SQ copy, focused valley, viewpoint, grove and high-country selection, access guidance and freshness ownership were reviewed and accepted for publication. FAT is treated as an external gateway requiring onward travel; no safe gateway-transfer price is currently published, so incomplete-trip pricing remains intentional."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "72c14e25b3763591fd966082d909a0d173334b46b173ae65eb533867b0181202",
+        "identityDigest": "4889c3478734e829c707b8da057553323e18eeaea57308eaf888891aa38e3db8",
+        "evidenceDigest": "e0ccca9177c2b4e08f76d9aed8748ed1e1d867b95e4e23d24da64337a7abab86",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Yosemite National Park v2 identity, National Park Service sources, EN/SQ copy, focused valley, viewpoint, grove and high-country selection, access guidance and freshness ownership were reviewed and accepted for publication. FAT is treated as an external gateway requiring onward travel; no safe gateway-transfer price is currently published, so incomplete-trip pricing remains intentional."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T13:56:50.400Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T13:56:51.215Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

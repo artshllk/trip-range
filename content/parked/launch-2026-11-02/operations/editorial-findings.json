@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "destinationId": "crete",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Human review: confirm town-base framing, geographic distribution and airport wording; approve EN/SQ transliteration and selection. Decide separately whether a generic region/base-aware template model is warranted in a later phase. No island-wide itinerary, transfer duration, schedule, fare, admission price or opening guarantee is asserted."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q40846",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Independently review EN/SQ names and Teide access wording. No summit access, cable-car availability, weather, trail suitability or swimming assurance. Phase 5I source/copy audit: phase5i-place-Q40846.md. Travel-access records are independently reviewed maintenance data, not editorial approval. All six checks and the decision remain pending; evidence-review is unacknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q76516549",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Review regional authority distinction and EN/SQ copy. No boat timetable, swimming claim, universal station access or fixed rail schedule. Phase 5I source/copy audit: phase5i-place-Q76516549.md. Travel-access records are independently reviewed maintenance data, not editorial approval. All six checks and the decision remain pending; evidence-review is unacknowledged."
+        }
+      ]
+    }
+  ]
+}

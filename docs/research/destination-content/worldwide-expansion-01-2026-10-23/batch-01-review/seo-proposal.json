@@ -1,0 +1,91 @@
+{
+  "status": "unpublished-proposals",
+  "destinations": [
+    {
+      "slug": "istanbul",
+      "proposedPath": "/en/destinations/istanbul",
+      "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+      "title": "Istanbul guide: historic sights and airport planning",
+      "h1": "Istanbul",
+      "description": "Plan two or three nights in Istanbul with historic-peninsula sights, IST and SAW arrival guidance, base choices and costs to check before booking.",
+      "intentKeywords": [
+        "Istanbul 2 night itinerary",
+        "IST or SAW to Sultanahmet",
+        "where to stay Istanbul first visit"
+      ],
+      "relatedGuideSlugs": [
+        "vienna",
+        "london",
+        "barcelona"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "relatedLinksPolicy": "Link only to currently published guides, or batch peers after separate publication. Do not link to the other eight unapproved drafts.",
+      "renderedMetadataStatus": "Proposal only. Current destinationMetadata uses the shared name/overview template; exact bespoke title/description needs approval and integration. No SEO routes or sitemap changed."
+    },
+    {
+      "slug": "barcelona",
+      "proposedPath": "/en/destinations/barcelona",
+      "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+      "title": "Barcelona guide: Gaudí, neighbourhoods and budget checks",
+      "h1": "Barcelona",
+      "description": "Plan a short Barcelona stay with neighbourhood choices, Gaudí sights, airport connections and clear guidance on costs you still need to check.",
+      "intentKeywords": [
+        "Barcelona 2 night itinerary",
+        "Barcelona neighbourhoods first visit",
+        "Barcelona airport metro ticket"
+      ],
+      "relatedGuideSlugs": [
+        "paris",
+        "vienna",
+        "istanbul"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "relatedLinksPolicy": "Link only to currently published guides, or batch peers after separate publication. Do not link to the other eight unapproved drafts.",
+      "renderedMetadataStatus": "Proposal only. Current destinationMetadata uses the shared name/overview template; exact bespoke title/description needs approval and integration. No SEO routes or sitemap changed."
+    },
+    {
+      "slug": "singapore",
+      "proposedPath": "/en/destinations/singapore",
+      "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+      "title": "Singapore guide: gardens, heritage and budget checks",
+      "h1": "Singapore",
+      "description": "Plan a short Singapore stay with gardens, museum access, Chinatown and two-airport guidance, while keeping hotel and ticket costs explicit.",
+      "intentKeywords": [
+        "Singapore 3 night itinerary",
+        "Singapore gardens budget planning",
+        "Changi Seletar airport transport"
+      ],
+      "relatedGuideSlugs": [
+        "london",
+        "new-york"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "relatedLinksPolicy": "Link only to currently published guides, or batch peers after separate publication. Do not link to the other eight unapproved drafts.",
+      "renderedMetadataStatus": "Proposal only. Current destinationMetadata uses the shared name/overview template; exact bespoke title/description needs approval and integration. No SEO routes or sitemap changed."
+    },
+    {
+      "slug": "mexico-city",
+      "proposedPath": "/en/destinations/mexico-city",
+      "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+      "title": "Mexico City guide: museums, areas and airport choices",
+      "h1": "Mexico City",
+      "description": "Plan a focused Mexico City stay with the historic centre, Chapultepec, useful base choices and distinct MEX, NLU and TLC arrival guidance.",
+      "intentKeywords": [
+        "Mexico City 3 night itinerary",
+        "Mexico City airports MEX NLU TLC",
+        "Centro Historico or Roma short stay"
+      ],
+      "relatedGuideSlugs": [
+        "new-york",
+        "paris"
+      ],
+      "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+      "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+      "relatedLinksPolicy": "Link only to currently published guides, or batch peers after separate publication. Do not link to the other eight unapproved drafts.",
+      "renderedMetadataStatus": "Proposal only. Current destinationMetadata uses the shared name/overview template; exact bespoke title/description needs approval and integration. No SEO routes or sitemap changed."
+    }
+  ]
+}

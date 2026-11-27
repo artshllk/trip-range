@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "status": "passed-local-integration-not-deployed",
+  "packetId": "worldwide-batch3-review-v1",
+  "reviewer": "GoEksplo Owner",
+  "ownerLocalDate": "2026-10-24",
+  "checkedAt": "2026-10-23T22:52:37.061908+00:00",
+  "destinations": [
+    {
+      "slug": "cape-town",
+      "destinationId": "place:Q5465",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "destinationId": "place:Q8678",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    },
+    {
+      "slug": "sydney",
+      "destinationId": "place:Q3130",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    },
+    {
+      "slug": "dubai",
+      "destinationId": "place:Q612",
+      "contentVersion": 4,
+      "editorialStatus": "reviewed-pinned",
+      "mediaStatus": "both-roles-approved",
+      "publicationScope": "local-only"
+    }
+  ],
+  "fullSuite": {
+    "total": 1514,
+    "pass": 1513,
+    "fail": 0,
+    "skip": 1,
+    "skipReason": "optional local Redis-server test; no live diagnostic run"
+  },
+  "targetedTests": {
+    "total": 71,
+    "pass": 71,
+    "fail": 0
+  },
+  "productionBuild": {
+    "status": "passed",
+    "nextVersion": "16.4.1",
+    "nodeVersion": 24,
+    "bundler": "webpack",
+    "configurationChanged": false,
+    "prebuildEditorialAndMediaChecks": "passed"
+  },
+  "lint": "passed-changed-source-and-tests",
+  "securityCheck": "passed-working-tree-secret-boundaries",
+  "localBrowser": {
+    "status": "passed",
+    "guideViewportChecks": 8,
+    "homepageViewportChecks": 2,
+    "widths": [
+      390,
+      320
+    ],
+    "evidence": "browser-verification.json",
+    "mobileHeroWidth": 640,
+    "contextReloadBack": "passed",
+    "overflow": false,
+    "externalRequests": 0,
+    "APIRequests": 0
+  },
+  "priorVisualAcceptance": "desktop and 390/375/360/320px shared-component checks retained in unchanged pinned review packet",
+  "preservationEvidence": "preservation-verification.json",
+  "reviewPacketFilesUnchanged": 93,
+  "sourceChangesThisIntegration": [
+    "src/domain/destination-discovery.ts \u2014 four approved guide entries"
+  ],
+  "changedExistingFilesThisIntegration": [
+    "tests/batch3-planning.test.ts",
+    "tests/worldwide-batch2-integration.test.ts",
+    "content/destinations/place-Q3130.json",
+    "content/destinations/place-Q5465.json",
+    "content/destinations/place-Q612.json",
+    "content/destinations/place-Q8678.json",
+    "content/media/approved.json",
+    "content/operations/reviews/place-Q3130.json",
+    "content/operations/reviews/place-Q5465.json",
+    "content/operations/reviews/place-Q612.json",
+    "content/operations/reviews/place-Q8678.json",
+    "content/research/destinations/place-Q3130.json",
+    "content/research/destinations/place-Q5465.json",
+    "content/research/destinations/place-Q612.json",
+    "content/research/destinations/place-Q8678.json",
+    "src/domain/destination-discovery.ts",
+    "tests/destination-batch-review.test.ts",
+    "tests/destination-batch2-publication.test.ts",
+    "tests/destination-discovery.test.ts",
+    "tests/destination-worldwide-population.test.ts",
+    "tests/fixtures/approved-media.ts",
+    "tests/phase2-publication.test.ts",
+    "tests/worldwide-batch1-integration.test.ts"
+  ],
+  "newEvidenceMediaAndRegressionFiles": [
+    "docs/research/destination-content/worldwide-batch3-cape-town-v4.md",
+    "docs/research/destination-content/worldwide-batch3-dubai-v4.md",
+    "docs/research/destination-content/worldwide-batch3-rio-de-janeiro-v4.md",
+    "docs/research/destination-content/worldwide-batch3-sydney-v4.md",
+    "public/destinations/cape-town-batch3-v1-1200.webp",
+    "public/destinations/cape-town-batch3-v1-1920.webp",
+    "public/destinations/cape-town-batch3-v1-640.webp",
+    "public/destinations/dubai-batch3-v1-1200.webp",
+    "public/destinations/dubai-batch3-v1-1920.webp",
+    "public/destinations/dubai-batch3-v1-640.webp",
+    "public/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+    "public/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+    "public/destinations/rio-de-janeiro-batch3-v1-640.webp",
+    "public/destinations/sydney-batch3-v1-1200.webp",
+    "public/destinations/sydney-batch3-v1-1920.webp",
+    "public/destinations/sydney-batch3-v1-640.webp",
+    "tests/worldwide-batch3-integration.test.ts"
+  ],
+  "media": {
+    "newAssets": 4,
+    "newSelections": 8,
+    "publicResponsiveFiles": 12,
+    "widths": [
+      640,
+      1200,
+      1920
+    ],
+    "licences": {
+      "cape-town": "CC BY-SA 4.0",
+      "rio-de-janeiro": "CC0",
+      "sydney": "CC BY-SA 4.0",
+      "dubai": "CC BY-SA 4.0"
+    }
+  },
+  "preservedLimitations": [
+    "Rio RRJ ground-transfer guidance remains unverified/unpriced.",
+    "Sydney WSI opening and service information must be rechecked; its entry expires 2026-10-26T00:00:00Z.",
+    "DXB and DWC retain separate airport and ground-transport handling.",
+    "Cape Town airport-bus suspension warning remains."
+  ],
+  "freshnessRegression": "WSI guidance is visible before its exact deadline and omitted at/after it; other current Sydney guidance remains. No review date was extended.",
+  "knownIntegrationDefects": [],
+  "hostedVerification": "not-run; no deployment authorized",
+  "remainingGates": [
+    "Separate commit/push/private-release approval is required.",
+    "Recheck Sydney WSI operational information before future publication/release and by 2026-10-26T00:00:00Z.",
+    "Other operational rechecks due 2026-11-06; general content reviews due 2027-01-21."
+  ],
+  "commitCreated": false,
+  "pushPerformed": false,
+  "deploymentPerformed": false,
+  "infrastructureChanged": false
+}

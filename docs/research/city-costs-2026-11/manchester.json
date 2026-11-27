@@ -1,0 +1,381 @@
+{
+  "city": "Manchester",
+  "country_code": "GB",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "MAN",
+      "public_option_name": "Bee Network bus 43 towards Manchester city centre; current diversion affects usual terminus",
+      "public_price": {
+        "value": 2,
+        "currency": "GBP",
+        "unit": "per adult Bee Bus single hopper ticket",
+        "status": "confirmed",
+        "source_name": "Transport for Greater Manchester — Bee Network bus tickets",
+        "source_url": "https://tfgm.com/tickets-and-passes/bus-tickets",
+        "checked_date": "2026-11-02",
+        "note": "Official tariff directly inspected in the browser. The airport operator lists bus 43 to Manchester: https://www.manchesterairport.co.uk/getting-to-and-from/by-bus/ (checked on the same date). Lowest verified ordinary public option in this research; no concessions or advance rail offers assumed. The hopper permits additional Bee Network bus boardings within its stated window. This records the bus fare, not an invented surcharge or a guarantee of the usual terminal stop."
+      },
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "GBP",
+        "unit": "per vehicle per fixed MAN–city-centre transfer",
+        "status": "unconfirmed",
+        "source_name": "Manchester Airport — taxi information",
+        "source_url": "https://www.manchesterairport.co.uk/getting-to-and-from/by-taxi/",
+        "checked_date": "2026-11-02",
+        "note": "No applicable published fixed airport-to-centre fare was verified. App quotes and the airport's discussion of fares to other licensing areas do not establish a fixed city-centre product. This is unconfirmed, not proof no operator offers one."
+      },
+      "journey_legs": [
+        {
+          "origin": "MAN terminal",
+          "destination": "The Station bus interchange",
+          "mode": "Terminal access on foot",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes for the traveller's terminal-to-bus-stop access",
+            "status": "unconfirmed",
+            "source_name": "Manchester Airport — bus information",
+            "source_url": "https://www.manchesterairport.co.uk/getting-to-and-from/by-bus/",
+            "checked_date": "2026-11-02",
+            "note": "Terminal-specific inclusive access time was not verified. This component is shown explicitly; it is not assumed to take no time."
+          }
+        },
+        {
+          "origin": "Manchester Airport, The Station bus interchange",
+          "destination": "Manchester city-centre stop on the current route 43 diversion; exact stop unresolved",
+          "mode": "Bee Network bus 43",
+          "duration_minutes": {
+            "value": null,
+            "currency": null,
+            "unit": "minutes for the current airport-to-city bus leg",
+            "status": "unconfirmed",
+            "source_name": "Transport for Greater Manchester — route 43 alerts",
+            "source_url": "https://tfgm.com/travel-updates/live-departures/bus/43-manchester-airport?no-script=true",
+            "checked_date": "2026-11-02",
+            "note": "An applicable current duration and temporary endpoint could not be verified during the reported diversion. No estimate from distance or an older normal timetable was used."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "Metered taxi tariff — current component schedule unconfirmed",
+          "applicability": "No verified complete meter schedule encoded. Do not substitute the separate fixed_fare_transfer product or a tariff from another airport/licensing area.",
+          "base_fare": {
+            "value": null,
+            "currency": "GBP",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "Manchester Airport — taxi information",
+            "source_url": "https://www.manchesterairport.co.uk/getting-to-and-from/by-taxi/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "GBP",
+            "unit": "per vehicle per kilometre",
+            "status": "unconfirmed",
+            "source_name": "Manchester Airport — taxi information",
+            "source_url": "https://www.manchesterairport.co.uk/getting-to-and-from/by-taxi/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "GBP",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "Manchester Airport — taxi information",
+            "source_url": "https://www.manchesterairport.co.uk/getting-to-and-from/by-taxi/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "GBP",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "Manchester Airport — taxi information",
+            "source_url": "https://www.manchesterairport.co.uk/getting-to-and-from/by-taxi/",
+            "checked_date": "2026-11-02",
+            "note": "Schema retrofit: this source was previously consulted for airport taxi information, but the applicable published meter component was not verified. The former journey-range null has not been converted into a tariff. No numerical value, zero surcharge or absence of a surcharge is inferred."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 2,
+      "currency": "GBP",
+      "unit": "per adult Bee Bus single hopper ticket, bus only",
+      "status": "confirmed",
+      "source_name": "Transport for Greater Manchester — Bee Network bus tickets",
+      "source_url": "https://tfgm.com/tickets-and-passes/bus-tickets",
+      "checked_date": "2026-11-02",
+      "note": "Ordinary adult bus product. Further Bee Network bus boardings are allowed within 60 minutes of purchase. It is not a tram or train ticket and does not define the fare of every public-transport mode.",
+      "validity_area": "Bee Network bus services covered by the Bee Bus tariff; bus only, excluding Metrolink trams and rail. For an unconfirmed pass, this is the requested network, not verified product availability."
+    },
+    "day_pass": {
+      "value": null,
+      "currency": "GBP",
+      "unit": "per adult per 24 consecutive hours of bus travel",
+      "status": "unconfirmed",
+      "source_name": "Transport for Greater Manchester — Bee Network bus tickets",
+      "source_url": "https://tfgm.com/tickets-and-passes/bus-tickets",
+      "checked_date": "2026-11-02",
+      "note": "The verified 1-day Bee Bus product expires at 03:59 the next day, rather than 24 hours after purchase. It has not been substituted for the requested rolling-duration product. No exact 24-hour equivalent was verified across the full ticket range.",
+      "validity_area": "Bee Network bus services covered by the Bee Bus tariff; bus only, excluding Metrolink trams and rail. For an unconfirmed pass, this is the requested network, not verified product availability."
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "GBP",
+      "unit": "per adult per 72 consecutive hours of bus travel",
+      "status": "unconfirmed",
+      "source_name": "Transport for Greater Manchester — Bee Network bus tickets",
+      "source_url": "https://tfgm.com/tickets-and-passes/bus-tickets",
+      "checked_date": "2026-11-02",
+      "note": "A current 72-consecutive-hour product was not verified. The standard bus overview lists other durations; this alone does not prove that no equivalent exists elsewhere. Multiple day tickets have not been added together.",
+      "validity_area": "Bee Network bus services covered by the Bee Bus tariff; bus only, excluding Metrolink trams and rail. For an unconfirmed pass, this is the requested network, not verified product availability."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2026-11-02",
+        "to": null,
+        "basis": "not_levied",
+        "rate": {
+          "value": null,
+          "currency": "GBP",
+          "unit": "no statutory local accommodation visitor-tax rate",
+          "status": "not_offered",
+          "source_name": "House of Commons Library — Visitor levies: policy and debates",
+          "source_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10158/",
+          "checked_date": "2026-11-02",
+          "note": "The primary parliamentary legal briefing states that English councils cannot currently introduce a statutory visitor levy. not_offered records absence of a statutory Manchester visitor tax, not a numerical zero rate. The from date is the research observation date, not an enactment date. This is not a UK-wide assertion; Scotland and Wales have different legislation. The legal_source_url is official parliamentary legal research, not a Manchester tax ordinance."
+        },
+        "exemptions": "Not applicable to an absent statutory city visitor tax. The conditional Accommodation BID guest charge is recorded separately and is not a tax exemption issue.",
+        "legal_source_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10158/",
+        "period_semantics": "observation_date_not_enactment_date",
+        "absence_evidence": [
+          {
+            "source_name": "House of Commons Library — Visitor levies: policy and debates",
+            "source_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10158/",
+            "checked_date": "2026-11-02",
+            "finding": "English councils currently lack authority to introduce a statutory visitor levy. Proposals for enabling legislation are not a dated Manchester charge."
+          }
+        ],
+        "calculation": {
+          "status": "computable_absence",
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "supported_case": "No statutory accommodation visitor-tax component in the named jurisdiction as checked; this does not resolve other hotel fees.",
+          "required_inputs": [
+            "property_jurisdiction",
+            "continued_applicability_for_travel_date"
+          ],
+          "refuse_when": [
+            "evidence no longer applies to the travel date or property jurisdiction",
+            "a new enacted rule supersedes this observation"
+          ],
+          "evidence_gaps": [],
+          "result_rule": "Emit no statutory-tax charge, with the absence evidence attached. Do not manufacture a numeric source rate or require currency conversion for an absent charge."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [
+    {
+      "name": "Manchester Accommodation BID — City Visitor Charge",
+      "from": "2023-04-01",
+      "to": null,
+      "basis": "per_room_per_night",
+      "rate": {
+        "value": 1,
+        "currency": "GBP",
+        "unit": "per room or serviced-apartment unit per night, excluding VAT where applicable",
+        "status": "confirmed",
+        "source_name": "Manchester Accommodation BID — official scheme operator",
+        "source_url": "https://manchesterabid.com/",
+        "checked_date": "2026-11-02",
+        "note": "Published guest charge is supplementary to accommodation cost, with VAT added where applicable. No VAT-inclusive total has been calculated. An equivalent amount is collected from businesses through a statutory BID business levy; that does not make the guest bill item a statutory tourist tax. The April 2023 start is stated by the operator; the precise start date is corroborated by official parliamentary research: https://commonslibrary.parliament.uk/research-briefings/cbp-11228/ (checked 2026-11-02)."
+      },
+      "applicability": {
+        "property_types": "Hotel and serviced-apartment accommodation in the operative BID. The current operator uses the broader wording 'paid accommodation establishment'; the council's scheme proposal identifies hotel/short-stay rating classes CH, CH1, CH2 and CH3. Confirm the booked property's operative BID membership rather than applying a generic accommodation-type label.",
+        "geographic_scope": "Only establishments within the mapped Manchester Accommodation BID boundary, covering central Manchester and adjoining parts of Salford. This is not the whole City of Manchester, all of Salford or all of Greater Manchester.",
+        "boundary_source_url": "https://manchesterabid.com/contributors",
+        "property_list_source_url": "https://manchester-abid.files.svdcdn.com/production/images/Accommodation-establishments-Sept-26.pdf?dm=1790685537",
+        "minimum_rateable_value": {
+          "value": 75000,
+          "currency": "GBP",
+          "unit": "minimum property rateable value for the published BID eligibility rule",
+          "status": "confirmed",
+          "source_name": "Manchester Accommodation BID — contributors",
+          "source_url": "https://manchesterabid.com/contributors",
+          "checked_date": "2026-11-02",
+          "note": "Inclusive threshold: the operator says this value or more, in conjunction with being inside the mapped zone. This is the property's rating assessment, not a hotel room price, turnover test or guest-spend threshold. Both conditions must be satisfied."
+        },
+        "membership_rule": "Qualifying businesses participate through the approved BID scheme and statutory business levy; this is not simply a voluntary hotel opt-in list. The operator says newly opening hotels within the zone automatically participate while the BID operates. Apply that statement together with the published eligibility criteria, not without the rateable-value condition. The statutory obligation falls on the business, not directly on the guest. Parliamentary evidence describes guest-bill itemisation as encouraged: https://commonslibrary.parliament.uk/research-briefings/cbp-11228/ (historical scheme description, checked 2026-11-02). Business membership alone must not be treated as proof that every booking passes the charge through to its guest.",
+        "exclusions": "Outside-boundary and below-threshold properties must not be included merely because they market themselves as Manchester accommodation. No separately verified voluntary-participant schedule or other exception list was established; require explicit property evidence for any exception.",
+        "application_rule": "universal=false. Match the booked property to the current official contributor list and boundary, then confirm the charge and VAT treatment in that property's booking/invoice terms. If the property, membership, applicable night or guest charge cannot be resolved, do not silently add this fee to every trip total. Unknown applicability is not a confirmed exemption.",
+        "guest_exemptions": "No comprehensive guest-level exemption/waiver policy was verified. Do not invent child, business-travel, long-stay or other exemptions from statutory-tax rules elsewhere.",
+        "evidence_note": "Current eligibility text and the link to the September 2026 contributor list were inspected directly on the operator page on 2026-11-02. The linked PDF's contents and individual hotel matches were not independently audited. Scheme design and rating classifications were checked in the council proposal at https://www.manchester.gov.uk/download/downloads/id/28702/manchester_accommodation_business_improvement_district_a_bid.pdf; a proposal alone is not proof of a specific hotel's present bill."
+      },
+      "universal": false,
+      "charge_id": "manchester-abid-city-visitor-charge",
+      "charge_unit": "liable_room_or_serviced_unit_night",
+      "calculation": {
+        "status": "conditional",
+        "research_parameters_complete_for_supported_case": false,
+        "exact_guest_total_from_record_alone": false,
+        "supported_case": "A selected property matched to the operative BID, with the actual guest bill terms, applicable VAT, guest eligibility and quote inclusion verified.",
+        "required_inputs": [
+          "exact_property",
+          "operative_BID_boundary_and_contributor_match",
+          "rateable_value_eligibility_or_verified_exception",
+          "liable_room_or_serviced_unit_nights",
+          "property_guest_pass_through",
+          "guest_waiver_eligibility",
+          "VAT_treatment_and_rate_if_applicable",
+          "booking_quote_charge_inclusion",
+          "fresh_supported_GBP_conversion"
+        ],
+        "refuse_when": [
+          "property membership or guest pass-through unresolved",
+          "VAT treatment or liable room/unit nights unresolved",
+          "applicable guest exemption or booking inclusion unresolved",
+          "required operational evidence unconfirmed/disputed or FX expired"
+        ],
+        "evidence_gaps": [
+          "The contributor list is linked but property-level matches are not embedded. No universal guest waiver policy or VAT-inclusive amount is verified. Structured fields do not resolve these evidence gaps."
+        ]
+      },
+      "deduplication_rule": "The business BID levy and its guest-bill City Visitor Charge fund the same scheme. Add only the verified guest charge once, and only if excluded from the booking quote; never also add a statutory tourist_tax component."
+    }
+  ],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 6,
+      "currency": "GBP",
+      "unit": "per rice-and-three vegetarian-curry meal",
+      "status": "confirmed",
+      "source_name": "This & That Café — official menu",
+      "source_url": "https://www.thisandthatcafe.co.uk/",
+      "checked_date": "2026-11-02",
+      "note": "Named meal at the Manchester café: rice with three vegetarian curries. This is a directly published complete meal price, not a sum of components or a citywide average. No future price guarantee or same-day menu availability is asserted."
+    },
+    "midrange_meal_for_two": {
+      "value": 49,
+      "currency": "GBP",
+      "unit": "per Bavarian Feast sharing main for two",
+      "status": "confirmed",
+      "source_name": "Albert's Schloss Manchester — official Cook Haus menu",
+      "source_url": "https://www.albertsschloss.com/menu/?location=manchester&mguid=37fd0c5a-6cc3-4d98-8967-eb2c23d228a9",
+      "checked_date": "2026-11-02",
+      "note": "Live Manchester menu inspected directly in the browser. The dish is explicitly for two and includes pork knuckle, half chicken, sausages, cabbage, potatoes, greens, pickles and gravy. This is the restaurant menu price, not the similarly priced gift voucher. Drinks, extra courses and any service charge are not included in this observation; service-charge terms were not verified."
+    },
+    "coffee": {
+      "value": 4.7,
+      "currency": "GBP",
+      "unit": "per cappuccino on Dishoom Manchester's breakfast menu",
+      "status": "confirmed",
+      "source_name": "Dishoom Manchester — official breakfast menu",
+      "source_url": "https://www.dishoom.com/menu/breakfast-manchester/",
+      "checked_date": "2026-11-02",
+      "note": "Live Manchester-specific menu price, not a chain-wide or third-party estimate. No restaurant service-charge addition was calculated. This is a named café/restaurant observation, not a representative city average."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Old Trafford — Museum and Stadium Tour",
+      "entry_price": {
+        "value": null,
+        "currency": "GBP",
+        "unit": "per regular adult museum-and-stadium tour ticket",
+        "status": "unconfirmed",
+        "source_name": "Manchester United — Old Trafford Tour & Museum",
+        "source_url": "https://www.manutd.com/en/club/Visit-Old-Trafford/Museum-Stadium-Tours",
+        "checked_date": "2026-11-02",
+        "note": "Current official overview and tour-package pages were checked, but an applicable adult price was not verified. Reseller tariffs and promotional/member products were excluded. A definitive general walk-up versus compulsory advance-booking rule was not established; booking_ahead_required remains null. Tours are affected by home fixtures and operational changes."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Etihad Stadium — Manchester City Stadium Tour",
+      "entry_price": {
+        "value": 28,
+        "currency": "GBP",
+        "unit": "per regular adult off-peak stadium-tour ticket, age 16–64",
+        "status": "confirmed",
+        "source_name": "Manchester City FC — official Stadium Tour product",
+        "source_url": "https://www.mancity.com/store/products/tours/the-manchester-city-stadium-tour",
+        "checked_date": "2026-11-02",
+        "note": "The directly inspected product page contains an explicit off-peak/peak tariff table, not just a promotional 'from' banner. This is the off-peak adult cell; peak dates have a separate tariff and must be priced separately. No specific date was classified or reserved. A universal advance-booking requirement was not established. The new tour-and-museum product announced from 2026-12-14 is a different product and this tariff must not automatically carry over."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "National Football Museum",
+      "entry_price": {
+        "value": 16,
+        "currency": "GBP",
+        "unit": "per adult age 16+ admission bought online before the visit day",
+        "status": "confirmed",
+        "source_name": "National Football Museum — official visitor information",
+        "source_url": "https://nationalfootballmuseum.com/visit-us/",
+        "checked_date": "2026-11-02",
+        "note": "Advance online tariff available until midnight the previous day. Walk-up admission has a different tariff, so booking_ahead_required=false describes general access rather than eligibility for this discounted price. Direct admission includes repeat visits under the operator's season-ticket terms; optional audio guide, penalty-shootout and storage charges are not included."
+      },
+      "booking_ahead_required": false
+    },
+    {
+      "name": "SEA LIFE Manchester — Trafford Palazzo",
+      "entry_price": {
+        "value": 22,
+        "currency": "GBP",
+        "unit": "per adult standard on-the-day admission",
+        "status": "confirmed",
+        "source_name": "SEA LIFE Manchester — official tickets and prices",
+        "source_url": "https://www.visitsealife.com/manchester/tickets-prices/",
+        "checked_date": "2026-11-02",
+        "note": "The published on-the-day adult tariff is a fixed displayed amount. The separate advance-online offer is a starting price and has not been used as a guaranteed date-independent fare. Timed entry is required for the selected product, but a clear general advance-purchase obligation was not verified, so the boolean is null. Trafford Palazzo is in Greater Manchester, outside Manchester city-centre boundaries."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "LEGOLAND Discovery Centre Manchester — Trafford Palazzo",
+      "entry_price": {
+        "value": null,
+        "currency": "GBP",
+        "unit": "per person standard entry, eligible adult-with-child party",
+        "status": "unconfirmed",
+        "source_name": "LEGOLAND Discovery Centre Manchester — official tickets and passes",
+        "source_url": "https://www.legolanddiscoverycentre.com/manchester/tickets-passes/",
+        "checked_date": "2026-11-02",
+        "note": "Published prices are 'from' amounts that depend on date/channel; no exact applicable booking quote was verified. Adults must visit with a child under the venue's rules, so this must not be assigned to adult-only itineraries. The ticket page advertises walk-up pricing while the official help article says prebooking is essential: https://manchester-support.legolanddiscoverycentre.co.uk/hc/en-us/articles/115002552192-What-s-included-in-my-Standard-Entry-ticket (checked 2026-11-02). Booking-policy conflict is retained as null, not guessed."
+      },
+      "booking_ahead_required": null
+    }
+  ],
+  "unresolved": [
+    "Research only. This file is not the production cost schema and must never be read by the application. A future transform must reject unconfirmed/disputed records and preserve product, date, endpoint, visitor eligibility and purchase-channel conditions even for confirmed records.",
+    "day_pass is reserved here for the requested rolling 24-hour product, and pass_72h for 72 consecutive hours. A service-day or calendar-day ticket is not silently substituted. An incomplete product search is not evidence that a product is not offered.",
+    "Eating-out records are named menu observations, not city averages or daily budgets. No official citywide midrange classification was established. Published two-person dishes/packages are recorded directly without doubling individual prices; their inclusions matter.",
+    "The five attractions are a research selection, not a verified popularity ranking. Published tariffs do not assert availability on the collection date or a future travel date. Booking-policy evidence is retained in entry_price.note because the agreed boolean has no envelope.",
+    "accommodation_charges contains verified non-tax accommodation charges. An empty array means no such charge was verified in this research; it is not proof that every property has no service, resort or other fee. Property-specific charges require property-level evidence.",
+    "MAN is the repo-configured Manchester airport researched here. No additional origin-airport route or live flight schedule was verified. Other north-west England airports have not been silently assigned to Manchester.",
+    "Bus 43 has an official indexed diversion alert affecting Piccadilly Gardens. The exact current terminus, inclusive journey duration and any onward connection remain unconfirmed; recheck the live route before using this transfer. Meter components and a fixed city-centre tariff remain unverified.",
+    "The transit single is bus-only. Exact rolling 24-hour and 72-hour products were not verified; the service-day Bee Bus pass has not been relabelled.",
+    "Statutory visitor-tax absence is scoped to Manchester/England, not the whole UK. The government response of 2026-09-10 and Budget 2026 of 2026-10-28 describe plans for enabling legislation. The Budget was checked directly on 2026-11-02: https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html. Its target for local spending plans is not a Manchester tax commencement date. No enacted or specifically announced Manchester rate with a charge start date was verified, so no speculative future tax period is included.",
+    "Accommodation BID charge is conditional, per room/unit rather than per person, and quoted before applicable VAT. universal=false is mandatory. No room count, VAT-inclusive amount, hotel match or guest-level exemption has been inferred.",
+    "The new applicability object preserves the rateable-value threshold in the standard measured-value envelope and supplies boundary/list references plus membership, exclusion and application rules. The linked contributor list is a point-in-time reference, not an exhaustive property lookup embedded in this file. to=null does not assert perpetual BID operation; future bookings require a scheme and property recheck.",
+    "Old Trafford's exact entry price remains unconfirmed; the old duration fields have been removed. Manchester City's recorded tariff is off-peak only and must not be assigned to peak dates or the forthcoming replacement/expanded product.",
+    "SEA LIFE and LEGOLAND are at Trafford Palazzo; Old Trafford is also outside the City of Manchester local-authority boundary. They are Greater Manchester visitor attractions, not evidence that the Accommodation BID applies to nearby hotels.",
+    "LEGOLAND exact price and booking policy remain unsettled. Its adult-with-child eligibility condition must survive any transform, and neither its advertised starting price nor a session limit can be treated as a universal cost or typical duration.",
+    "research-v4 retrofit: removes overall journey_minutes, taxi_low/taxi_high and attraction visit durations; preserves journey_legs and fixed_fare_transfer; adds taxi_tariffs component envelopes and explicit transit validity_area. Missing meter components stay unconfirmed. Structured tax and charge calculation metadata supersede the legacy shape exceptions in tax-basis-registry.json. The later not_levied basis extension is used for positively sourced absence."
+  ]
+}

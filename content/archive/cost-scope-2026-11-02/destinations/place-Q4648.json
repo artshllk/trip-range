@@ -1,0 +1,293 @@
+{
+  "destinationId": "place:Q4648",
+  "identitySubject": "place:Q4648",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T08:51:13.314Z",
+  "sourceIds": [
+    "source:worldwide:place-Q4648:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q4648:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q4648",
+      "title": "Bali (Q4648)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T14:41:59.555Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q4648"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q4648:uluwatu",
+      "type": "official",
+      "url": "https://www.indonesia.travel/id/id/travel-ideas/pilgrimage/pura-uluwatu",
+      "title": "Pura Uluwatu",
+      "publisher": "Indonesian Ministry of Tourism",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q4648:tanah-lot",
+      "type": "official",
+      "url": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/bali/tanah-lot",
+      "title": "Tanah Lot",
+      "publisher": "Indonesian Ministry of Tourism",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q4648:tirta",
+      "type": "official",
+      "url": "https://www.indonesia.travel/id/id/travel-ideas/pilgrimage/pura-tirta-empul",
+      "title": "Tirta Empul",
+      "publisher": "Indonesian Ministry of Tourism",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q4648:ubud",
+      "type": "official",
+      "url": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/bali/istana-ubud",
+      "title": "Istana Ubud",
+      "publisher": "Indonesian Ministry of Tourism",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q4648:travel",
+      "type": "official",
+      "url": "https://www.indonesia.travel/sg/en/travel-ideas/heritage/6-must-visit-temples-in-bali-to-experience-bliss",
+      "title": "Temple visits and access in Bali",
+      "publisher": "Indonesian Ministry of Tourism",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q4648:access",
+      "type": "official",
+      "url": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/bali/denpasar",
+      "title": "Arrival at Ngurah Rai International Airport",
+      "publisher": "Indonesian Ministry of Tourism",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T08:51:13.314Z",
+    "sourceIds": [
+      "source:worldwide:place-Q4648:uluwatu",
+      "source:worldwide:place-Q4648:ubud",
+      "source:worldwide:place-Q4648:tirta"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Bali’s coastal temples and inland cultural sites need different travel plans. Choose a base before adding places from across the island.",
+      "sq": "Tempujt bregdetarë dhe vendet kulturore në brendësi të Balit kërkojnë plane të ndryshme udhëtimi. Zgjidh bazën para se të shtosh vende nga gjithë ishulli."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q4648:1",
+      "text": {
+        "en": "Clifftop setting at Uluwatu",
+        "sq": "Peizazh shkëmbor bregdetar në Uluwatu"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:uluwatu"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q4648:2",
+      "text": {
+        "en": "Palace architecture in Ubud",
+        "sq": "Arkitekturë pallati në Ubud"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:ubud"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q4648:uluwatu",
+      "destinationId": "place:Q4648",
+      "name": {
+        "en": "Pura Uluwatu",
+        "sq": "Pura Uluwatu"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "A Hindu temple on coastal cliffs above the Indian Ocean.",
+        "sq": "Tempull hindu në shkëmbinjtë bregdetarë mbi Oqeanin Indian."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:uluwatu"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q4648:ubud-palace",
+      "destinationId": "place:Q4648",
+      "name": {
+        "en": "Puri Saren Agung (Ubud Palace)",
+        "sq": "Puri Saren Agung (Pallati i Ubudit)"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A royal residence in central Ubud with traditional Balinese architecture.",
+        "sq": "Rezidencë mbretërore në qendër të Ubudit, me arkitekturë tradicionale balineze."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:ubud"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q4648:tirta-empul",
+      "destinationId": "place:Q4648",
+      "name": {
+        "en": "Pura Tirta Empul",
+        "sq": "Pura Tirta Empul"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "A Hindu temple whose springs are regarded as sacred in Balinese Hindu tradition and used in ritual purification.",
+        "sq": "Tempull hindu me burime që konsiderohen të shenjta në traditën hindu balineze dhe përdoren në rite pastrimi shpirtëror."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:tirta"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q4648:tanah-lot",
+      "destinationId": "place:Q4648",
+      "name": {
+        "en": "Pura Tanah Lot",
+        "sq": "Pura Tanah Lot"
+      },
+      "kind": "religious-site",
+      "shortDescription": {
+        "en": "A sea temple on a coastal rock formation in Tabanan.",
+        "sq": "Tempull detar mbi një formacion shkëmbor bregdetar në Tabanan."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:tanah-lot"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q4648:ubud",
+      "destinationId": "place:Q4648",
+      "name": {
+        "en": "Ubud",
+        "sq": "Ubud"
+      },
+      "summary": {
+        "en": "An inland town with a palace at its centre.",
+        "sq": "Qytet në brendësi me pallat në qendër."
+      },
+      "goodFor": [
+        {
+          "en": "A base for cultural visits around Ubud.",
+          "sq": "Bazë për vizita kulturore në Ubud dhe përreth."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Uluwatu is a separate coastal journey.",
+          "sq": "Uluwatu kërkon udhëtim më vete drejt bregdetit."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:ubud",
+        "source:worldwide:place-Q4648:uluwatu"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q4648:temple-access",
+      "destinationId": "place:Q4648",
+      "title": {
+        "en": "Arrange travel around your chosen area",
+        "sq": "Organizo udhëtimin sipas zonës së zgjedhur"
+      },
+      "guidance": {
+        "en": "Ngurah Rai International Airport is on Bali. Plan travel to your chosen base and a return journey for each outing; Ubud, Uluwatu and Tanah Lot are separate areas, not one compact temple circuit.",
+        "sq": "Aeroporti ndërkombëtar Ngurah Rai ndodhet në Bali. Planifiko udhëtimin drejt bazës së zgjedhur dhe kthimin nga çdo vizitë; Ubud, Uluwatu dhe Tanah Lot janë zona më vete, jo një qark i shkurtër tempujsh."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:access",
+        "source:worldwide:place-Q4648:travel",
+        "source:worldwide:place-Q4648:ubud"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q4648:temple-etiquette",
+      "destinationId": "place:Q4648",
+      "kind": "other",
+      "text": {
+        "en": "Follow temple staff’s guidance on dress and worship areas, leave ritual offerings undisturbed and do not assume visitors may join a ceremony.",
+        "sq": "Ndiq udhëzimet e stafit të tempullit për veshjen dhe hapësirat e adhurimit. Mos prek ofrimet rituale dhe mos supozo se vizitorët mund të marrin pjesë në ceremoni."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:51:13.314Z",
+      "sourceIds": [
+        "source:worldwide:place-Q4648:travel"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "53aa05cb45798f3d5b380357dbe4a0f3ec7e34b6c3331dc47be3806a8d8c750b",
+    "identityDigest": "4e090fed85e34f76131c9615bb7bfe5fceb608aa1863657fc28f07aed77b5a99",
+    "approvedAt": "2026-10-15T08:51:13.314Z"
+  }
+}

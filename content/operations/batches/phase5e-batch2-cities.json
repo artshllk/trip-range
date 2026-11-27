@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "phase5e-batch2-cities",
+  "title": "Phase 5E Batch 2 cities — preparation only",
+  "entries": [
+    {
+      "destinationId": "prishtina",
+      "name": "Prishtina",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "existing"
+    },
+    {
+      "destinationId": "place:Q1489",
+      "name": "Mexico City",
+      "region": "North America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q8678",
+      "name": "Rio de Janeiro",
+      "region": "South America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q1486",
+      "name": "Buenos Aires",
+      "region": "South America",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q5465",
+      "name": "Cape Town",
+      "region": "Africa",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q101625",
+      "name": "Marrakesh",
+      "region": "Africa",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q612",
+      "name": "Dubai",
+      "region": "Middle East",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "istanbul",
+      "name": "Istanbul",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "C"
+    },
+    {
+      "destinationId": "place:Q3130",
+      "name": "Sydney",
+      "region": "Oceania",
+      "placeKind": "city",
+      "group": "C"
+    }
+  ]
+}

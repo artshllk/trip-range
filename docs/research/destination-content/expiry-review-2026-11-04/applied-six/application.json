@@ -1,0 +1,111 @@
+{
+  "status": "applied_locally",
+  "authorization_date": "2026-11-04",
+  "authorization": "User explicitly approved items 3–8 as revised and requested application with 18 November deadlines. Vienna and Dishoom revisions were rejected; those original published items and their deadlines are preserved.",
+  "source_checks_sha256": "ee4d63d1a4c34bd24f8b8b956373c6c6ce1c5dd34bcc4a57da84fe9ccac9d6e8",
+  "records": [
+    {
+      "city": "london",
+      "destinationId": "london",
+      "item_ids": [
+        "note:phase4b:london:examples:2"
+      ],
+      "content_path": "content/destinations/london.json",
+      "research_path": "content/research/destinations/london.json",
+      "new_evidence_report": "expiry-review-2026-11-04-london-evidence.md",
+      "content_version": 5,
+      "deadline": "2026-11-18T00:00:00Z"
+    },
+    {
+      "city": "paris",
+      "destinationId": "paris",
+      "item_ids": [
+        "note:phase4b:paris:examples:1",
+        "note:phase4b:paris:examples:2"
+      ],
+      "content_path": "content/destinations/paris.json",
+      "research_path": "content/research/destinations/paris.json",
+      "new_evidence_report": "expiry-review-2026-11-04-paris-evidence.md",
+      "content_version": 4,
+      "deadline": "2026-11-18T00:00:00Z"
+    },
+    {
+      "city": "barcelona",
+      "destinationId": "city:BCN",
+      "item_ids": [
+        "attraction:city:BCN:park-guell",
+        "note:city:BCN:batch1-museum-days"
+      ],
+      "content_path": "content/destinations/barcelona.json",
+      "research_path": "content/research/destinations/city-BCN.json",
+      "new_evidence_report": "expiry-review-2026-11-04-barcelona-evidence.md",
+      "content_version": 4,
+      "deadline": "2026-11-18T00:00:00Z"
+    },
+    {
+      "city": "istanbul",
+      "destinationId": "istanbul",
+      "item_ids": [
+        "note:istanbul:batch1-palace-day"
+      ],
+      "content_path": "content/destinations/istanbul.json",
+      "research_path": "content/research/destinations/istanbul.json",
+      "new_evidence_report": "expiry-review-2026-11-04-istanbul-evidence.md",
+      "content_version": 4,
+      "deadline": "2026-11-18T00:00:00Z"
+    }
+  ],
+  "scope_verification": [
+    {
+      "city": "london",
+      "destinationId": "london",
+      "contentVersion": 5,
+      "contentDigest": "78fad69b7a02ef21c446b7a0c4525bad0cb91f94b165b17fb947bc3afdc2c68e",
+      "publicationReceiptValid": true,
+      "changed_items": [
+        "note:phase4b:london:examples:2"
+      ],
+      "unchanged_items_and_deadlines_preserved": true
+    },
+    {
+      "city": "paris",
+      "destinationId": "paris",
+      "contentVersion": 4,
+      "contentDigest": "8b6c7ba3e3eb31fab53e4a9606267e62c7bb00943730164e67fac7c51e82953c",
+      "publicationReceiptValid": true,
+      "changed_items": [
+        "note:phase4b:paris:examples:1",
+        "note:phase4b:paris:examples:2"
+      ],
+      "unchanged_items_and_deadlines_preserved": true
+    },
+    {
+      "city": "barcelona",
+      "destinationId": "city:BCN",
+      "contentVersion": 4,
+      "contentDigest": "9c1830dfb32a875da6b6ef7823680a72687fb54f976fa8ed0bf557ecc377e2ad",
+      "publicationReceiptValid": true,
+      "changed_items": [
+        "attraction:city:BCN:park-guell",
+        "note:city:BCN:batch1-museum-days"
+      ],
+      "unchanged_items_and_deadlines_preserved": true
+    },
+    {
+      "city": "istanbul",
+      "destinationId": "istanbul",
+      "contentVersion": 4,
+      "contentDigest": "303230bc7b9ae815c5ebfd05ad1f3e65dceacebf46fb9e88ea1132c5f6da6f6a",
+      "publicationReceiptValid": true,
+      "changed_items": [
+        "note:istanbul:batch1-palace-day"
+      ],
+      "unchanged_items_and_deadlines_preserved": true
+    }
+  ],
+  "unapproved_items_preserved": [
+    "note:phase4b:vienna:examples:1",
+    "note:phase4b:london:examples:1"
+  ],
+  "no_commit_push_or_deployment": true
+}

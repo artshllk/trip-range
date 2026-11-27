@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q60",
+  "current": {
+    "contentVersion": 3,
+    "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+    "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+    "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+      }
+    ],
+    "reviewer": "GoEksplo Owner",
+    "updatedAt": "2026-10-22T21:46:58.923Z",
+    "reviewedAt": "2026-10-22T21:46:58.923Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:37.284Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:30:38.858Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:38.858Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:30:40.441Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:40.441Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:30:42.015Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:42.015Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:30:43.583Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:43.583Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:30:45.173Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:45.173Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:30:54.292Z",
+      "reason": "Advisory evidence-review: New York City v2 identity, authoritative sources, EN/SQ copy, focused attraction selection, Upper East Side framing, transport guidance, ferry guidance and freshness ownership were reviewed and accepted for publication. The selection is intentionally focused and does not claim citywide coverage or current ticket, timetable or availability guarantees."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "New York City v2 identity, authoritative sources, EN/SQ copy, focused attraction selection, Upper East Side framing, transport guidance, ferry guidance and freshness ownership were reviewed and accepted for publication. The selection is intentionally focused and does not claim citywide coverage or current ticket, timetable or availability guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:30:54.292Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-13T21:31:04.393Z",
+      "reason": "Decision: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "6ec2a15376cff5b542bce095c781912313eb4518a3820b73a02809ec14175b1b",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "e5f3a75663aec47b75bf251bfa41e54184983109f15b2aef39fa6eb58d83cee1",
+        "decision": "approved",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "New York City v2 identity, authoritative sources, EN/SQ copy, focused attraction selection, Upper East Side framing, transport guidance, ferry guidance and freshness ownership were reviewed and accepted for publication. The selection is intentionally focused and does not claim citywide coverage or current ticket, timetable or availability guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-13T21:31:04.393Z",
+        "reviewedAt": "2026-10-13T21:31:04.393Z"
+      },
+      "supersededAt": "2026-10-22T21:46:58.413Z",
+      "reason": "GoEksplo Owner explicitly approved the pinned Phase 4B English revision, sources, presentation and freshness. Preserve prior review history; register the unchanged accepted evidence under the supported flat report filename."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "pending",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.413Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.482Z",
+      "reason": "Check identity: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.482Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.549Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.549Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.615Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.615Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.679Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.679Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.743Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.743Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.860Z",
+      "reason": "Advisory evidence-review: GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+    },
+    {
+      "review": {
+        "contentVersion": 3,
+        "contentDigest": "3ee244c118cdb2a4b54e314134117fff0626eba08d4cf1bc6f1542be3e068f5f",
+        "identityDigest": "e1cdbd7590edf3b7a6c3e11594b2e94cd478f754c148c4b7d1307e20810b4580",
+        "evidenceDigest": "6c34b5944fc0f1127aac2b408b395dd3661b5bfcb354a405e6e8d36d534fbea1",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "GoEksplo Owner explicitly approved this pinned Phase 4B English revision, sources, presentation and freshness. City and airport identity, attractions and itinerary order are unchanged from the previously approved guide. This records the owner message, not test-based editorial approval."
+          }
+        ],
+        "reviewer": "GoEksplo Owner",
+        "updatedAt": "2026-10-22T21:46:58.860Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-22T21:46:58.923Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

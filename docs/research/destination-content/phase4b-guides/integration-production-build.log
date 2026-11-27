@@ -1,0 +1,84 @@
+
+> goeksplo@0.1.0 prebuild
+> npm run check:content-manifests && npm run check:destination-reviews && npm run check:destination-media
+
+
+> goeksplo@0.1.0 check:content-manifests
+> node scripts/content-manifests.mjs --check
+
+Static manifests verified (writes: 0); external calls: 0; approvals: 0.
+
+> goeksplo@0.1.0 check:destination-reviews
+> tsc -p tsconfig.content.json && node --conditions=react-server .content-build/scripts/check-destination-reviews.js
+
+{
+  "status": "passed",
+  "records": 30,
+  "destinations": 30,
+  "failures": [],
+  "writes": 0,
+  "externalCalls": 0
+}
+
+> goeksplo@0.1.0 check:destination-media
+> tsc -p tsconfig.media.json && node --conditions=react-server .media-build/scripts/check-destination-media.js
+
+{
+  "status": "passed",
+  "mode": "offline",
+  "externalCalls": 0,
+  "previousRevisionChecked": true,
+  "places": 35,
+  "assets": 12,
+  "selections": 24,
+  "rejections": 0
+}
+
+> goeksplo@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.4.0 (webpack)
+✓ Running next.config.ts took 14ms
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+- Experiments (use with caution):
+  ✓ globalNotFound
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.3s
+  Running TypeScript ...
+  Finished TypeScript in 2.3s ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/14) ...
+  Generating static pages using 15 workers (3/14) 
+  Generating static pages using 15 workers (6/14) 
+  Generating static pages using 15 workers (10/14) 
+✓ Generating static pages using 15 workers (14/14) in 93ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/[document]
+├ ƒ /[locale]/about
+├ ƒ /[locale]/destinations
+├ ƒ /[locale]/destinations/[slug]
+├ ƒ /[locale]/from/[origin]/[[...landing]]
+├ ƒ /[locale]/from/prishtina/weekend-trips/under-300
+├ ƒ /[locale]/plan
+├ ƒ /[locale]/plan/results
+├ ƒ /[locale]/plan/trips/[id]
+├ ƒ /api/affiliate/flights
+├ ƒ /api/ai/intent
+├ ƒ /api/health
+├ ƒ /api/locations
+├ ƒ /api/ready
+├ ○ /apple-icon.png
+├ ○ /icon.png
+├ ○ /robots.txt
+└ ƒ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

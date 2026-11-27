@@ -1,0 +1,42 @@
+{
+  "method_version": "room-panel-v9-score-free-dated-classification",
+  "classification": {
+    "required_basis_germany": "independent",
+    "jurisdiction_decision": "widely_adopted_voluntary_scheme",
+    "operator_declared_exception": false,
+    "dated_independent_record_admission": true,
+    "operator_declaration_role": "exclude_only",
+    "maximum_age_months": 36,
+    "maximum_age_status": "owner_approved_v9",
+    "age_anchor": "Dated independent classification record or issuer announcement; never retrieval, current-list check, operator declaration or file upload date. Month-only notices use the first day of the earliest issue month conservatively.",
+    "validity": "Evaluate at selection, each collection, and publication of a current result; maximum 36 calendar months inclusive, or earlier known certificate expiry. Unknown award and expiry dates remain unknown.",
+    "current_lookup_limitation": "Hotelstars live records have no award/expiry fields; corroboration does not renew the dated evidence. Missing live search results are not themselves proof of withdrawal.",
+    "contradictory_class_action": "A current explicit operator class other than three excludes. Three-star Superior and Garni remain three-star subtypes; preserve the subtype.",
+    "no_declaration_action": "Record no_explicit_class_found; absence is not independent confirmation.",
+    "unreachable_site_action": "Unresolved operator or direct-booking checks prevent admission.",
+    "check_cadence": "Repeat operator exclusion and direct-booking checks at collection. Seek independent renewal evidence before any selected property reaches its ceiling.",
+    "expiry_action": "Withhold current class-qualified results after expiry without newer independent evidence. Retain historical observations with dates. No silent substitutions.",
+    "notice": "Independent DEHOGA classification notices have different vintages. Source dates, unknown certificate expiry and the 36-month ceiling travel with every sample and result. Current operator declarations can exclude, never admit."
+  },
+  "guest_score_gate": false,
+  "frame_source": "OpenStreetMap",
+  "radius_metres": 2000,
+  "panel_size": 6,
+  "standard_panel_size": 8,
+  "size_decision": {
+    "policy": "v9-exhausted-frame-2026-11-18",
+    "approved_date": "2026-11-18",
+    "properties": 6,
+    "standard_properties": 8,
+    "basis": "frame_exhausted",
+    "radius_metres": 2000,
+    "classification_maximum_age_months": 36,
+    "reason": "All 107 fixed OSM frame objects have decisions: six eligible, 101 excluded under the unchanged evidence/room/direct-booking rules. Grimm’s and Allegra excluded for classification ceiling before January use; no admissible replacements established. Owner authorizes freezing six under the general exhausted-frame rule.",
+    "planned_band_percent": 35,
+    "limitation_notice": "This panel uses fewer than eight properties. Its estimate carries wider uncertainty; the size of that difference has not been measured. The planning band is provisional editorial guidance, not a calibrated confidence interval or a guarantee of bookable prices."
+  },
+  "algorithm": "Use unrounded Haversine distance, Earth radius 6371008.8 m. Among candidates not excluded, find nearest remaining distance, form inclusive window through nearest +50 m, choose lowest immutable property_id in ASCII order, remove only that winner, repeat. Unknown eligibility in any first-eight window blocks selection. Every excluded object remains in audit.",
+  "jurisdiction": "Germany: independent classification required under widely adopted Hotelstars/DEHOGA scheme; no UK operator-only exception.",
+  "source_facts": "Individually named classification facts and source references only. External articles, photographs, logos and hotel text are not included or relicensed.",
+  "state": "Dated geographic extract fixed. Six-property composition frozen under the general exhausted-frame rule; ±35% provisional band at six usable quotes per type. Session freeze awaits collector availability; no price observations or results. No room rates collected. Classification and current-bookability rechecks required before capture."
+}

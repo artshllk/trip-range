@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q2656389",
+  "name": "Mauritius Island",
+  "countryCode": "MU",
+  "placeKind": "island",
+  "coordinates": {
+    "latitude": -20.3,
+    "longitude": 57.5833333333
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q2656389"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:28:10Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

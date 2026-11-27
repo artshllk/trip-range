@@ -1,0 +1,57 @@
+{
+  "status": "all_eight_applied_locally",
+  "owner_decision_date": "2026-11-04",
+  "applied_items": [
+    {
+      "item_id": "note:phase4b:vienna:examples:1",
+      "destination": "vienna",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:phase4b:london:examples:1",
+      "destination": "london",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:phase4b:london:examples:2",
+      "destination": "london",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:phase4b:paris:examples:1",
+      "destination": "paris",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:phase4b:paris:examples:2",
+      "destination": "paris",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "attraction:city:BCN:park-guell",
+      "destination": "barcelona",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:city:BCN:batch1-museum-days",
+      "destination": "barcelona",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:istanbul:batch1-palace-day",
+      "destination": "istanbul",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    }
+  ],
+  "rejected_original_revisions": [
+    "note:phase4b:vienna:examples:1",
+    "note:phase4b:london:examples:1"
+  ],
+  "standing_rule": "docs/destination-editorial-review.md#retain-sourced-cost-figures",
+  "application_record": "applied-six/application.json",
+  "test_results": "../test-time-isolation-2026-11-04/results.json",
+  "committed": false,
+  "pushed": false,
+  "deployed": false,
+  "replacement_menu_application": "menu-revision-2/applied/application.json"
+}

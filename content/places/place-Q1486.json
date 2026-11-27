@@ -1,0 +1,19 @@
+{
+  "subject": "place:Q1486",
+  "name": "Buenos Aires",
+  "countryCode": "AR",
+  "placeKind": "city",
+  "coordinates": {
+    "latitude": -34.5997222222,
+    "longitude": -58.3819444444
+  },
+  "external": {
+    "authority": "wikidata",
+    "id": "Q1486"
+  },
+  "resolutionMethod": "constrained-name",
+  "confidence": "high",
+  "resolvedAt": "2026-10-12T16:19:13Z",
+  "unresolvedReason": null,
+  "policyVersion": "destination-media-v1"
+}

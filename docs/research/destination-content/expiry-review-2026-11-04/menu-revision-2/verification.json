@@ -1,0 +1,38 @@
+{
+  "checked_date": "2026-11-04",
+  "draft_checks": [
+    {
+      "city": "vienna",
+      "schema_valid": true,
+      "claims_policy_violations": 0,
+      "only_menu_item_and_its_source_dates_changed": true,
+      "subtotal_arithmetic_valid": true,
+      "default_preview": "Café Prückel example: €51.00. Menu checked 4 November 2026. One venue’s example, not a daily Vienna food budget. Items: Viennese breakfast €9.80, cappuccino €4.90, cheese toast €8.90, beef goulash with dumplings €19.80, and two 0.5-litre…",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Highlights: omitted. No content is fabricated to fill the section.",
+        "Practical note note:phase4b:vienna:examples:1 (en) too long for the default presentation: 258/240 characters. Full copy is retained behind a disclosure; consider concise editing."
+      ]
+    },
+    {
+      "city": "london",
+      "schema_valid": true,
+      "claims_policy_violations": 0,
+      "only_menu_item_and_its_source_dates_changed": true,
+      "subtotal_arithmetic_valid": true,
+      "default_preview": "Dishoom Covent Garden example: £55.00 before optional 12.5% service (about £62 with it), removable on request. Menus checked 4 November 2026. One venue’s example, not a daily London food budget. Items: date and banana porridge £9.50, house…",
+      "presentation_warnings": [
+        "This record is not published by the runtime store.",
+        "Publication remains draft. English requires recorded human editorial review. Optional translations are not published in V1.",
+        "Highlights: omitted. No content is fabricated to fill the section.",
+        "Practical note note:phase4b:london:examples:1 (en) too long for the default presentation: 345/240 characters. Full copy is retained behind a disclosure; consider concise editing.",
+        "Transport points: 5 items; only the first 3 are initially visible. Confirm the stored editorial order."
+      ]
+    }
+  ],
+  "applied_six_receipts_valid": true,
+  "applied_six_present_on_6_november": true,
+  "original_dishoom_filters_after_old_expiry": true,
+  "vienna_published_content_and_review_unchanged": true
+}

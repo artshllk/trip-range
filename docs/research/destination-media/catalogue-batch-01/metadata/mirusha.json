@@ -1,0 +1,98 @@
+{
+  "query": {
+    "pages": {
+      "133957785": {
+        "pageid": 133957785,
+        "ns": 6,
+        "title": "File:Waterfall in Kosovo-Mirusha.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 4949335,
+            "width": 5184,
+            "height": 3456,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Waterfall_in_Kosovo-Mirusha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Waterfall_in_Kosovo-Mirusha.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133957785",
+            "sha1": "4e739fef616e8542867f5b23b6297234ae5ea13a",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-07-04 21:41:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Waterfall in Kosovo-Mirusha",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Mirusha Waterfalls|Self-published work|Wiki Photowalk 2023 SQ",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Beautiful waterfall in Kosovo",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-07-03 13:57:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Veton_Kastrati&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Veton Kastrati (page does not exist)\">Veton Kastrati</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

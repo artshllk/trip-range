@@ -1,0 +1,926 @@
+{
+  "source": "OurAirports (ourairports.com) via github.com/davidmegginson/ourairports-data, Unlicense (public domain); reviewed overrides in scripts/flight-city-names.mjs",
+  "generated": "2026-11-23",
+  "places": {
+    "AGA": [
+      "Agadir",
+      "MA",
+      "Morocco"
+    ],
+    "AJF": [
+      "Al-Jawf",
+      "SA",
+      "Saudi Arabia"
+    ],
+    "ALA": [
+      "Almaty",
+      "KZ",
+      "Kazakhstan"
+    ],
+    "ALG": [
+      "Algiers",
+      "DZ",
+      "Algeria"
+    ],
+    "ALY": [
+      "Alexandria",
+      "EG",
+      "Egypt"
+    ],
+    "AOI": [
+      "Ancona",
+      "IT",
+      "Italy"
+    ],
+    "AUH": [
+      "Abu Dhabi",
+      "AE",
+      "United Arab Emirates"
+    ],
+    "AZN": [
+      "Andijan",
+      "UZ",
+      "Uzbekistan"
+    ],
+    "BAK": [
+      "Baku",
+      "AZ",
+      "Azerbaijan"
+    ],
+    "BCM": [
+      "Bacău",
+      "RO",
+      "Romania"
+    ],
+    "BDS": [
+      "Brindisi",
+      "IT",
+      "Italy"
+    ],
+    "BFS": [
+      "Belfast",
+      "GB",
+      "United Kingdom"
+    ],
+    "BHX": [
+      "Birmingham",
+      "GB",
+      "United Kingdom"
+    ],
+    "BJL": [
+      "Banjul",
+      "GM",
+      "Gambia"
+    ],
+    "BJS": [
+      "Beijing",
+      "CN",
+      "China"
+    ],
+    "BJV": [
+      "Bodrum",
+      "TR",
+      "Türkiye"
+    ],
+    "BKK": [
+      "Bangkok",
+      "TH",
+      "Thailand"
+    ],
+    "BNA": [
+      "Nashville",
+      "US",
+      "United States"
+    ],
+    "BNE": [
+      "Brisbane",
+      "AU",
+      "Australia"
+    ],
+    "BOB": [
+      "Bora Bora",
+      "PF",
+      "French Polynesia"
+    ],
+    "BOD": [
+      "Bordeaux",
+      "FR",
+      "France"
+    ],
+    "BOJ": [
+      "Burgas",
+      "BG",
+      "Bulgaria"
+    ],
+    "BOM": [
+      "Mumbai",
+      "IN",
+      "India"
+    ],
+    "BRE": [
+      "Bremen",
+      "DE",
+      "Germany"
+    ],
+    "BRQ": [
+      "Brno",
+      "CZ",
+      "Czechia"
+    ],
+    "BSZ": [
+      "Bishkek",
+      "KG",
+      "Kyrgyzstan"
+    ],
+    "BUH": [
+      "Bucharest",
+      "RO",
+      "Romania"
+    ],
+    "BUS": [
+      "Batumi",
+      "GE",
+      "Georgia"
+    ],
+    "BWI": [
+      "Baltimore",
+      "US",
+      "United States"
+    ],
+    "BZG": [
+      "Bydgoszcz",
+      "PL",
+      "Poland"
+    ],
+    "BZO": [
+      "Bolzano",
+      "IT",
+      "Italy"
+    ],
+    "CAI": [
+      "Cairo",
+      "EG",
+      "Egypt"
+    ],
+    "CAN": [
+      "Guangzhou",
+      "CN",
+      "China"
+    ],
+    "CFU": [
+      "Corfu",
+      "GR",
+      "Greece"
+    ],
+    "CHI": [
+      "Chicago",
+      "US",
+      "United States"
+    ],
+    "CIT": [
+      "Shymkent",
+      "KZ",
+      "Kazakhstan"
+    ],
+    "CKY": [
+      "Conakry",
+      "GN",
+      "Guinea"
+    ],
+    "CLJ": [
+      "Cluj-Napoca",
+      "RO",
+      "Romania"
+    ],
+    "CLT": [
+      "Charlotte",
+      "US",
+      "United States"
+    ],
+    "CMB": [
+      "Colombo",
+      "LK",
+      "Sri Lanka"
+    ],
+    "CMN": [
+      "Casablanca",
+      "MA",
+      "Morocco"
+    ],
+    "COV": [
+      "Adana",
+      "TR",
+      "Türkiye"
+    ],
+    "CPH": [
+      "Copenhagen",
+      "DK",
+      "Denmark"
+    ],
+    "CSX": [
+      "Changsha",
+      "CN",
+      "China"
+    ],
+    "DKR": [
+      "Dakar",
+      "SN",
+      "Senegal"
+    ],
+    "DLM": [
+      "Dalaman",
+      "TR",
+      "Türkiye"
+    ],
+    "DOM": [
+      "Dominica",
+      "DM",
+      "Dominica"
+    ],
+    "DPS": [
+      "Bali",
+      "ID",
+      "Indonesia"
+    ],
+    "DTM": [
+      "Dortmund",
+      "DE",
+      "Germany"
+    ],
+    "DUB": [
+      "Dublin",
+      "IE",
+      "Ireland"
+    ],
+    "DXB": [
+      "Dubai",
+      "AE",
+      "United Arab Emirates"
+    ],
+    "DYU": [
+      "Dushanbe",
+      "TJ",
+      "Tajikistan"
+    ],
+    "EAP": [
+      "Basel",
+      "CH",
+      "Switzerland"
+    ],
+    "ECN": [
+      "Ercan",
+      "CY",
+      "Cyprus"
+    ],
+    "EDI": [
+      "Edinburgh",
+      "GB",
+      "United Kingdom"
+    ],
+    "EVN": [
+      "Yerevan",
+      "AM",
+      "Armenia"
+    ],
+    "FAO": [
+      "Faro",
+      "PT",
+      "Portugal"
+    ],
+    "FIH": [
+      "Kinshasa",
+      "CD",
+      "Democratic Republic of the Congo"
+    ],
+    "FKB": [
+      "Karlsruhe/Baden-Baden",
+      "DE",
+      "Germany"
+    ],
+    "FMO": [
+      "Münster/Osnabrück",
+      "DE",
+      "Germany"
+    ],
+    "FNC": [
+      "Funchal",
+      "PT",
+      "Portugal"
+    ],
+    "GDN": [
+      "Gdańsk",
+      "PL",
+      "Poland"
+    ],
+    "GIB": [
+      "Gibraltar",
+      "GI",
+      "Gibraltar"
+    ],
+    "GLA": [
+      "Glasgow",
+      "GB",
+      "United Kingdom"
+    ],
+    "GOI": [
+      "Goa",
+      "IN",
+      "India"
+    ],
+    "GUW": [
+      "Atyrau",
+      "KZ",
+      "Kazakhstan"
+    ],
+    "HAJ": [
+      "Hannover",
+      "DE",
+      "Germany"
+    ],
+    "HAV": [
+      "Havana",
+      "CU",
+      "Cuba"
+    ],
+    "HEL": [
+      "Helsinki",
+      "FI",
+      "Finland"
+    ],
+    "HER": [
+      "Heraklion",
+      "GR",
+      "Greece"
+    ],
+    "HKG": [
+      "Hong Kong",
+      "HK",
+      "Hong Kong"
+    ],
+    "HKT": [
+      "Phuket",
+      "TH",
+      "Thailand"
+    ],
+    "HRG": [
+      "Hurghada",
+      "EG",
+      "Egypt"
+    ],
+    "IAS": [
+      "Iași",
+      "RO",
+      "Romania"
+    ],
+    "INI": [
+      "Niš",
+      "RS",
+      "Serbia"
+    ],
+    "INN": [
+      "Innsbruck",
+      "AT",
+      "Austria"
+    ],
+    "INV": [
+      "Inverness",
+      "GB",
+      "United Kingdom"
+    ],
+    "IZM": [
+      "İzmir",
+      "TR",
+      "Türkiye"
+    ],
+    "JED": [
+      "Jeddah",
+      "SA",
+      "Saudi Arabia"
+    ],
+    "JER": [
+      "Jersey",
+      "JE",
+      "Jersey"
+    ],
+    "JTR": [
+      "Santorini",
+      "GR",
+      "Greece"
+    ],
+    "KGD": [
+      "Kaliningrad",
+      "RU",
+      "Russia"
+    ],
+    "KRK": [
+      "Kraków",
+      "PL",
+      "Poland"
+    ],
+    "KRO": [
+      "Kurgan",
+      "RU",
+      "Russia"
+    ],
+    "KRR": [
+      "Krasnodar",
+      "RU",
+      "Russia"
+    ],
+    "KSC": [
+      "Košice",
+      "SK",
+      "Slovakia"
+    ],
+    "KUL": [
+      "Kuala Lumpur",
+      "MY",
+      "Malaysia"
+    ],
+    "KUN": [
+      "Kaunas",
+      "LT",
+      "Lithuania"
+    ],
+    "KUT": [
+      "Kutaisi",
+      "GE",
+      "Georgia"
+    ],
+    "KZN": [
+      "Kazan",
+      "RU",
+      "Russia"
+    ],
+    "KZO": [
+      "Kyzylorda",
+      "KZ",
+      "Kazakhstan"
+    ],
+    "LAX": [
+      "Los Angeles",
+      "US",
+      "United States"
+    ],
+    "LCA": [
+      "Larnaca",
+      "CY",
+      "Cyprus"
+    ],
+    "LCJ": [
+      "Łódź",
+      "PL",
+      "Poland"
+    ],
+    "LED": [
+      "Saint Petersburg",
+      "RU",
+      "Russia"
+    ],
+    "LEJ": [
+      "Leipzig",
+      "DE",
+      "Germany"
+    ],
+    "LIS": [
+      "Lisbon",
+      "PT",
+      "Portugal"
+    ],
+    "LJU": [
+      "Ljubljana",
+      "SI",
+      "Slovenia"
+    ],
+    "LMP": [
+      "Lampedusa",
+      "IT",
+      "Italy"
+    ],
+    "LPL": [
+      "Liverpool",
+      "GB",
+      "United Kingdom"
+    ],
+    "LUX": [
+      "Luxembourg",
+      "LU",
+      "Luxembourg"
+    ],
+    "MAN": [
+      "Manchester",
+      "GB",
+      "United Kingdom"
+    ],
+    "MCX": [
+      "Makhachkala",
+      "RU",
+      "Russia"
+    ],
+    "MLW": [
+      "Monrovia",
+      "LR",
+      "Liberia"
+    ],
+    "MMA": [
+      "Malmö",
+      "SE",
+      "Sweden"
+    ],
+    "MNL": [
+      "Manila",
+      "PH",
+      "Philippines"
+    ],
+    "MOW": [
+      "Moscow",
+      "RU",
+      "Russia"
+    ],
+    "MRS": [
+      "Marseille",
+      "FR",
+      "France"
+    ],
+    "MRV": [
+      "Mineralnye Vody",
+      "RU",
+      "Russia"
+    ],
+    "MSQ": [
+      "Minsk",
+      "BY",
+      "Belarus"
+    ],
+    "NCE": [
+      "Nice",
+      "FR",
+      "France"
+    ],
+    "NQZ": [
+      "Astana",
+      "KZ",
+      "Kazakhstan"
+    ],
+    "NUE": [
+      "Nuremberg",
+      "DE",
+      "Germany"
+    ],
+    "NYC": [
+      "New York",
+      "US",
+      "United States"
+    ],
+    "OKC": [
+      "Oklahoma City",
+      "US",
+      "United States"
+    ],
+    "ONT": [
+      "Ontario (California)",
+      "US",
+      "United States"
+    ],
+    "OPO": [
+      "Porto",
+      "PT",
+      "Portugal"
+    ],
+    "ORK": [
+      "Cork",
+      "IE",
+      "Ireland"
+    ],
+    "OSA": [
+      "Osaka",
+      "JP",
+      "Japan"
+    ],
+    "OSL": [
+      "Oslo",
+      "NO",
+      "Norway"
+    ],
+    "OST": [
+      "Ostend",
+      "BE",
+      "Belgium"
+    ],
+    "OVB": [
+      "Novosibirsk",
+      "RU",
+      "Russia"
+    ],
+    "PDL": [
+      "Ponta Delgada",
+      "PT",
+      "Portugal"
+    ],
+    "PER": [
+      "Perth",
+      "AU",
+      "Australia"
+    ],
+    "PFO": [
+      "Paphos",
+      "CY",
+      "Cyprus"
+    ],
+    "PMF": [
+      "Parma",
+      "IT",
+      "Italy"
+    ],
+    "PMO": [
+      "Palermo",
+      "IT",
+      "Italy"
+    ],
+    "POZ": [
+      "Poznań",
+      "PL",
+      "Poland"
+    ],
+    "PSR": [
+      "Pescara",
+      "IT",
+      "Italy"
+    ],
+    "PUJ": [
+      "Punta Cana",
+      "DO",
+      "Dominican Republic"
+    ],
+    "PXO": [
+      "Porto Santo",
+      "PT",
+      "Portugal"
+    ],
+    "RAI": [
+      "Praia",
+      "CV",
+      "Cape Verde"
+    ],
+    "RAK": [
+      "Marrakesh",
+      "MA",
+      "Morocco"
+    ],
+    "RBA": [
+      "Rabat",
+      "MA",
+      "Morocco"
+    ],
+    "REG": [
+      "Reggio Calabria",
+      "IT",
+      "Italy"
+    ],
+    "REK": [
+      "Reykjavík",
+      "IS",
+      "Iceland"
+    ],
+    "RIX": [
+      "Riga",
+      "LV",
+      "Latvia"
+    ],
+    "RMO": [
+      "Chișinău",
+      "MD",
+      "Moldova"
+    ],
+    "RTM": [
+      "Rotterdam",
+      "NL",
+      "Netherlands"
+    ],
+    "RVN": [
+      "Rovaniemi",
+      "FI",
+      "Finland"
+    ],
+    "SAI": [
+      "Siem Reap",
+      "KH",
+      "Cambodia"
+    ],
+    "SCV": [
+      "Suceava",
+      "RO",
+      "Romania"
+    ],
+    "SDZ": [
+      "Shetland",
+      "GB",
+      "United Kingdom"
+    ],
+    "SEA": [
+      "Seattle",
+      "US",
+      "United States"
+    ],
+    "SEL": [
+      "Seoul",
+      "KR",
+      "South Korea"
+    ],
+    "SGC": [
+      "Surgut",
+      "RU",
+      "Russia"
+    ],
+    "SGN": [
+      "Ho Chi Minh City",
+      "VN",
+      "Vietnam"
+    ],
+    "SHA": [
+      "Shanghai",
+      "CN",
+      "China"
+    ],
+    "SHJ": [
+      "Sharjah",
+      "AE",
+      "United Arab Emirates"
+    ],
+    "SIN": [
+      "Singapore",
+      "SG",
+      "Singapore"
+    ],
+    "SJJ": [
+      "Sarajevo",
+      "BA",
+      "Bosnia and Herzegovina"
+    ],
+    "SKD": [
+      "Samarkand",
+      "UZ",
+      "Uzbekistan"
+    ],
+    "SKG": [
+      "Thessaloniki",
+      "GR",
+      "Greece"
+    ],
+    "SKP": [
+      "Skopje",
+      "MK",
+      "North Macedonia"
+    ],
+    "SNN": [
+      "Shannon",
+      "IE",
+      "Ireland"
+    ],
+    "SOF": [
+      "Sofia",
+      "BG",
+      "Bulgaria"
+    ],
+    "SPU": [
+      "Split",
+      "HR",
+      "Croatia"
+    ],
+    "SSH": [
+      "Sharm El Sheikh",
+      "EG",
+      "Egypt"
+    ],
+    "STO": [
+      "Stockholm",
+      "SE",
+      "Sweden"
+    ],
+    "SUF": [
+      "Lamezia Terme",
+      "IT",
+      "Italy"
+    ],
+    "SVX": [
+      "Yekaterinburg",
+      "RU",
+      "Russia"
+    ],
+    "SXB": [
+      "Strasbourg",
+      "FR",
+      "France"
+    ],
+    "SYD": [
+      "Sydney",
+      "AU",
+      "Australia"
+    ],
+    "SZY": [
+      "Olsztyn",
+      "PL",
+      "Poland"
+    ],
+    "SZZ": [
+      "Szczecin",
+      "PL",
+      "Poland"
+    ],
+    "TAS": [
+      "Tashkent",
+      "UZ",
+      "Uzbekistan"
+    ],
+    "TBS": [
+      "Tbilisi",
+      "GE",
+      "Georgia"
+    ],
+    "TGD": [
+      "Podgorica",
+      "ME",
+      "Montenegro"
+    ],
+    "TIJ": [
+      "Tijuana",
+      "MX",
+      "Mexico"
+    ],
+    "TIV": [
+      "Tivat",
+      "ME",
+      "Montenegro"
+    ],
+    "TJM": [
+      "Tyumen",
+      "RU",
+      "Russia"
+    ],
+    "TLL": [
+      "Tallinn",
+      "EE",
+      "Estonia"
+    ],
+    "TLS": [
+      "Toulouse",
+      "FR",
+      "France"
+    ],
+    "TNG": [
+      "Tangier",
+      "MA",
+      "Morocco"
+    ],
+    "TOS": [
+      "Tromsø",
+      "NO",
+      "Norway"
+    ],
+    "TRS": [
+      "Trieste",
+      "IT",
+      "Italy"
+    ],
+    "TUN": [
+      "Tunis",
+      "TN",
+      "Tunisia"
+    ],
+    "TYO": [
+      "Tokyo",
+      "JP",
+      "Japan"
+    ],
+    "ULY": [
+      "Ulyanovsk",
+      "RU",
+      "Russia"
+    ],
+    "VNO": [
+      "Vilnius",
+      "LT",
+      "Lithuania"
+    ],
+    "WAS": [
+      "Washington",
+      "US",
+      "United States"
+    ],
+    "WRO": [
+      "Wrocław",
+      "PL",
+      "Poland"
+    ],
+    "YXU": [
+      "London, Ontario",
+      "CA",
+      "Canada"
+    ],
+    "YYC": [
+      "Calgary",
+      "CA",
+      "Canada"
+    ]
+  }
+}

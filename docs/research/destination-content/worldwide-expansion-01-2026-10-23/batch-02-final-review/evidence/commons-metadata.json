@@ -1,0 +1,477 @@
+{
+  "retrievedAt": "2026-10-23T16:41:57.387884+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "80694116": {
+          "pageid": 80694116,
+          "ns": 6,
+          "title": "File:Hozomon with visitors under their umbrellas, a rainy day in Tokyo, Japan.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 9656563,
+              "width": 5948,
+              "height": 3965,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hozomon_with_visitors_under_their_umbrellas%2C_a_rainy_day_in_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hozomon_with_visitors_under_their_umbrellas,_a_rainy_day_in_Tokyo,_Japan.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80694116",
+              "sha1": "2c340f73e42d2430015f467db385ed9ae2dcc921",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-07-24 08:48:00",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Hozomon with visitors under their umbrellas, a rainy day in Tokyo, Japan",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Hōzōmon|Taken with Canon EOS 5D Mark IV and Canon EF 24-70mm F2.8L II USM|Self-published work|Tourists in Tokyo|Files with coordinates missing SDC location of creation|People with umbrellas in Japan|Japan photographs taken on 2019-06-07|Photographs by Basile Morin|People at Sensoji",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "35.714218",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "139.796730",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/H%C5%8Dz%C5%8Dmon\" class=\"extiw\" title=\"en:Hōzōmon\">Hōzōmon</a> with visitors under their umbrellas, a rainy day in <a href=\"https://en.wikipedia.org/wiki/Tokyo\" class=\"extiw\" title=\"en:Tokyo\">Tokyo</a>, <a href=\"https://en.wikipedia.org/wiki/Japan\" class=\"extiw\" title=\"en:Japan\">Japan</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2019-06-07 10:03:02",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Basile_Morin\" title=\"User:Basile Morin\">Basile Morin</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "image/jpeg"
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1272774653,
+              "parentid": 1144919264,
+              "timestamp": "2026-09-05T19:30:52Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=[[:en:Hōzōmon|Hōzōmon]] with visitors under their umbrellas, a rainy day in [[:en:Tokyo|Tokyo]], [[:en:Japan|Japan]].}}\n{{fr|1=[[:fr:Hōzōmon|Hōzōmon]] avec des visiteurs sous leurs parapluies, un jour pluvieux, à [[:fr:Tokyo|Tokyo]], [[:fr:Japon|Japon]].}}\n|date=2019-06-07 10:03:02\n|source={{own}}\n|author=[[User:Basile Morin|Basile Morin]]\n|permission=\n|other versions=\n}}\n{{Location|35.714218|139.79673}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n{{QualityImage}}\n\n[[Category:Photographs by Basile Morin]]\n[[Category:Taken with Canon EOS 5D Mark IV and Canon EF 24-70mm F2.8L II USM]]\n[[Category:People at Sensoji]]\n[[Category:People with umbrellas in Japan]]\n[[Category:Quality images by Basile Morin]]\n[[Category:Quality images by Basile Morin/Architecture]]\n[[Category:Quality images of temples in Japan]]\n[[Category:Quality images of Tokyo]]\n[[Category:Japan photographs taken on 2019-06-07]]\n[[Category:Hōzōmon]]\n[[Category:Tourists in Tokyo]]"
+                }
+              }
+            }
+          ]
+        },
+        "53593907": {
+          "pageid": 53593907,
+          "ns": 6,
+          "title": "File:Kiyomizu-dera, Kyoto, November 2016 -01.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 19180832,
+              "width": 5852,
+              "height": 3601,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53593907",
+              "sha1": "5f0b7dd2d20de6c62acc346b453c04c397c155f2",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-12-04 11:05:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Kiyomizu-dera, Kyoto, November 2016 -01",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Featured pictures of Japan|Self-published work|Featured Pictures by Martin Falbisoner|Autumn in Kyoto|November 2016 in Kyoto|Files with coordinates missing SDC location of creation|Red leaves in Japan|Japan photographs taken on 2016-11-16|Views of the Main Hall, Kiyomizu-dera with leaves in autumn from the Okunoin",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality|featured|valued|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "34.995000",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "135.785000",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Kiyomizu-dera\" class=\"extiw\" title=\"en:Kiyomizu-dera\">Kiyomizu-dera</a>, <a href=\"https://en.wikipedia.org/wiki/Kyoto\" class=\"extiw\" title=\"en:Kyoto\">Kyoto</a>, <a href=\"https://en.wikipedia.org/wiki/Japan\" class=\"extiw\" title=\"en:Japan\">Japan</a>, part of UNESCO World Heritage Site Ref. Number <a rel=\"nofollow\" class=\"external text\" href=\"http://whc.unesco.org/en/list/688\">688</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2016-11-16 14:07:26",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi>Martin Falbisoner</bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "image/jpeg"
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1017025418,
+              "parentid": 959542963,
+              "timestamp": "2025-04-03T18:51:26Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=[[:en:Kiyomizu-dera|Kiyomizu-dera]], [[:en:Kyoto|Kyoto]], [[:en:Japan|Japan]], part of UNESCO World Heritage Site Ref. Number [http://whc.unesco.org/en/list/688 688].}}\n{{es|1=[[:es:Kiyomizu-dera|Kiyomizu-dera]], [[:es:Kioto|Kioto]], Japón, es parte del [[:es:Patrimonio de la Humanidad|Patrimonio de la Humanidad]] con número de referencia [http://whc.unesco.org/es/list/688 688].}}\n{{pl|1=Główny budynek [[:pl:Kiyomizu-dera|Kiyomizu-dera]], niezależnego [[:pl:Buddyzm|buddyjskiego]] kompleksu świątynnego we&nbsp;wschodnim [[:pl:Kioto|Kioto]]. Kompleks jest wpisany na&nbsp;[[:pl:Lista światowego dziedzictwa UNESCO|listę światowego dziedzictwa UNESCO]] pod numerem [http://whc.unesco.org/en/list/688 688] jako część „zespołu zabytków dawnego Kioto” ([[:pl:Język angielski|ang.]] ''[[:en:Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)|Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)]]'').}}\n{{uk|1=Головна будівля [[:uk:Буддизм|буддистського]] [[:uk:Монастир Кійомідзу|монастиря Кійомідзу]] в східній частині міста [[:uk:Кіото|Кіото]], [[:uk:Японія|Японія]]. Він є частиною [[:uk:Пам'ятки культури стародавнього Кіото|пам'яток культури стародавнього Кіото]], які занесені до списку [[:uk:Список об'єктів Світової спадщини ЮНЕСКО в Японії|Світової спадщини ЮНЕСКО]].}}\n{{cs| Hlavní budova {{w|Japonsko|japonského|cs}} [[:cs:Buddhismus|buddhistického]] chrámu {{w|Kijomizu-dera||cs}} ve východním [[:cs:Kjóto|Kjótu]], součást {{w|Světové dědictví|Světového dědictví UNESCO|cs}}. }}\n{{hu|Az [[:hu:Világörökség|Unesco Világörökség]] részét képező független buddhista templom, a [[:hu:Kijomizudera|Kijomizudera]] főcsarnoka ősszel [[:hu:Kiotó|Kiotó]] délkeleti negyedében}}\n{{it|Edificio principale del [[:it:Kiyomizu-dera|Kiyomizu-dera]], una serie di [[:it:Tempio buddhista|templi]] [[:it:Buddhismo giapponese|buddhisti giapponesi]] nella parte orientale di [[:it:Kyoto|Kyoto]]. Sono parte dei [[:it:Monumenti storici dell'antica Kyoto (città di Kyoto, Uji ed Ōtsu)|Monumenti storici dell'antica Kyoto]], [[:it:patrimonio dell'umanità|patrimonio dell'umanità]] dell'UNESCO.}}\n{{ko|[[:ko:쿄토|쿄토]] 동부의 [[:ko:불교|불교]] 사원 [[:ko:기요미즈데라|기요미즈데라]]의 본당. 여기는 [[:ko:세계유산|유네스코 세계유산]]으로 지정된 [[:ko:고도 교토의 문화재|고도 교토의 문화재]]의 일부이다.}}\n{{mk|Главна градба на будистичкиот манастир [[:en:Kiyomizu-dera|Кијомизу-дера]] во источно {{wm|Кјото}} — [[:en:Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)|историски споменик]] на Јапонија и [[:mk:светско наследство|светско наследство на УНЕСКО]].}}\n{{nl|Hoofdgebouw van [[:nl:Kiyomizu-dera|Kiyomizu-dera]], een [[:nl:boeddhisme|boeddhistische]] tempel in [[:nl:Kioto (stad)|Kioto]]}}\n{{pt|Sala principal do [[:pt:Kiyomizu-dera|Kiyomizu-dera]], um templo [[:pt:Budismo|budista]] independente no leste de  [[:pt:Quioto|Quioto]].}}\n{{zh|1=日本京都[[:zh:清水寺]]联合国教科文组织世界遗产之一。[http://whc.unesco.org/en/list/688 688]}}\n|date=2016-11-16 14:07:26\n|source={{own}}\n|author={{creator:Martin Falbisoner}}\n|permission=\n|other versions=\n}}\n{{Object location|34|59|42|N|135|47|6|E|}}\n\n=={{Assessment}}==\n{{Picture of the day |year=2017 |month=11 |day=05}}\n{{Assessments|featured=1|quality=1}}\n{{VI|[[:Category:Main Hall, Kiyomizu-dera|Main Hall, Kiyomizu-dera]]: as seen in autumn|18:30, 9 December 2016 (UTC)|subpage=Kiyomizu-dera, Kyoto, November 2016 -01.jpg}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Valued Images by Martin Falbisoner]]\n[[Category:Featured Pictures by Martin Falbisoner]]\n[[Category:Quality Images by Martin Falbisoner]]\n[[Category:Views of the Main Hall, Kiyomizu-dera with leaves in autumn from the Okunoin]]\n[[Category:Autumn in Kyoto]]\n[[Category:Featured pictures of Japan]]\n[[Category:Japan photographs taken on 2016-11-16]]\n[[Category:November 2016 in Kyoto]]\n[[Category:Red leaves in Japan]]"
+                }
+              }
+            }
+          ]
+        },
+        "72262779": {
+          "pageid": 72262779,
+          "ns": 6,
+          "title": "File:Marrakech Koutoubia.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3190923,
+              "width": 4352,
+              "height": 2448,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Marrakech_Koutoubia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Marrakech_Koutoubia.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72262779",
+              "sha1": "31092c215e6b5110e74ab5609697dcd1fd8a6572",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-09-02 10:37:48",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Marrakech Koutoubia",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Koutoubia Mosque|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Marrakech Koutoubia",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2018-01-19 17:27:18",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Philippe_Salgarolo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Philippe Salgarolo (page does not exist)\">Philippe Salgarolo</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "image/jpeg"
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1218916973,
+              "parentid": 735839194,
+              "timestamp": "2026-05-23T14:47:09Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{fr|1=Marrakech Koutoubia}}\n|date=2018-01-19 17:27:18\n|source={{own}}\n|author=[[User:Philippe Salgarolo|Philippe Salgarolo]]\n|permission=\n|other versions=\n}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:Koutoubia Mosque]]"
+                }
+              }
+            }
+          ]
+        },
+        "82660408": {
+          "pageid": 82660408,
+          "ns": 6,
+          "title": "File:Wat Arun on the sunset.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 13271581,
+              "width": 6000,
+              "height": 4000,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Wat_Arun_on_the_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wat_Arun_on_the_sunset.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82660408",
+              "sha1": "7d8671fb12fe656e5732c940a91c7a30b4161d6b",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-09-29 12:21:51",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Wat Arun on the sunset",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images from Wiki Loves Monuments 2019|Self-published work|Cultural heritage monuments in Thailand with known IDs|Uploaded via Campaign:wlm-th|Images from Wiki Loves Monuments 2019 in Thailand|Thailand photographs taken on 2018-12-24|Outer views of Wat Arun",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "13.744033",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "100.488413",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "This is a photo of a monument in Thailand identified by the ID",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2018-12-24",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Trip.with.taste&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Trip.with.taste (page does not exist)\">Trip.with.taste</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "image/jpeg"
+            }
+          ],
+          "revisions": [
+            {
+              "revid": 1183405734,
+              "parentid": 799568914,
+              "timestamp": "2026-03-19T05:43:52Z",
+              "slots": {
+                "main": {
+                  "contentmodel": "wikitext",
+                  "contentformat": "text/x-wiki",
+                  "*": "=={{int:filedesc}}==\n{{Information\n|description={{th|1=[[วัดอรุณราชวราราม]]}}\n{{en|1=Wat Arun at sunset.  View from a boat sailing on The Chao Phraya river}}{{Cultural Heritage Thailand|0000140}}\n|date=2018-12-24\n|source={{own}}\n|author=[[User:Trip.with.taste|Trip.with.taste]]\n|permission=\n|other versions=\n}}\n{{Location|13.744033|100.488413}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n{{Wiki Loves Monuments 2019|th}}\n\n[[Category:Uploaded via Campaign:wlm-th]]\n\n[[Category:Outer views of Wat Arun]]\n[[Category:Thailand photographs taken on 2018-12-24]]"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

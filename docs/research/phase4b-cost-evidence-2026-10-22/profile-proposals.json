@@ -1,0 +1,219 @@
+{
+  "status": "no-current-pricing-proposals",
+  "researchCheckedAt": "2026-10-22",
+  "internalEvidenceApproval": {
+    "acceptedByOwner": true,
+    "scope": "Internal evidence base only; no allowance activation or guide publication approval",
+    "recordedAt": "2026-10-22"
+  },
+  "ownerReviewer": null,
+  "ownerApproval": null,
+  "selection": "Guide facts and explicitly labelled illustrations only. All food components remain unreviewed. No runtime allowance is recommended for activation.",
+  "currentReview": "cost-assumptions-review.md",
+  "proposals": [],
+  "withdrawnProfiles": [
+    {
+      "id": "phase4b-vienna-eur",
+      "destinationId": "city:VIE",
+      "catalogueId": "vienna",
+      "countryCode": "AT",
+      "currency": "EUR",
+      "maxNights": 3,
+      "foodCalculation": "980 + 490 + 890 + 1980 + 2 * 380 = 5100 cents",
+      "foodStatus": "unreviewed-illustration-only",
+      "status": "withdrawn-as-automatic-planning-profile",
+      "ownerApproval": null,
+      "reviewedAt": null,
+      "proposedReviewAfter": null,
+      "omittedComponents": [
+        "stay",
+        "arrivalTransport",
+        "activities"
+      ],
+      "formerCandidateCosts": {
+        "food": {
+          "amount": {
+            "cents": 5100,
+            "currency": "EUR"
+          },
+          "unit": "person-day",
+          "basket": {
+            "en": "Illustrative Cafe Prueckel day: Viennese breakfast, cappuccino, cheese toast, goulash and two 0.5-litre sodas; VAT included, optional tips and extra snacks excluded. Adult portions budgeted for everyone."
+          },
+          "sourceIds": [
+            "vie-menu"
+          ]
+        },
+        "localTransport": {
+          "amount": {
+            "cents": 2520,
+            "currency": "EUR"
+          },
+          "unit": "person-trip",
+          "basket": {
+            "en": "One adult non-transferable digital seven-day Vienna core-zone ticket for each traveller; airport leg excluded. A coverage allowance, not the cheapest ticket for every short stay."
+          },
+          "sourceIds": [
+            "vie-transport"
+          ]
+        }
+      },
+      "withdrawalReason": "Published ticket/cap facts or narrow meal/journey examples do not establish a suitable universal planning expense."
+    },
+    {
+      "id": "phase4b-london-gbp",
+      "destinationId": "city:LON",
+      "catalogueId": "london",
+      "countryCode": "GB",
+      "currency": "GBP",
+      "maxNights": 3,
+      "foodCalculation": "(950 + 490 + 1290 + 1590 + 2 * 590) * 1.125 = 6187.5 cents; round upward to 6200",
+      "foodStatus": "unreviewed-illustration-only",
+      "status": "withdrawn-as-automatic-planning-profile",
+      "ownerApproval": null,
+      "reviewedAt": null,
+      "proposedReviewAfter": null,
+      "omittedComponents": [
+        "stay",
+        "arrivalTransport",
+        "activities"
+      ],
+      "formerCandidateCosts": {
+        "food": {
+          "amount": {
+            "cents": 6200,
+            "currency": "GBP"
+          },
+          "unit": "person-day",
+          "basket": {
+            "en": "Illustrative Dishoom Covent Garden day: porridge, chai, paneer roll, chole puri halwa and two nimbu sodas; includes a 12.5% optional service allowance and rounding. Adult portions budgeted for everyone."
+          },
+          "sourceIds": [
+            "lon-breakfast",
+            "lon-menu"
+          ]
+        },
+        "localTransport": {
+          "amount": {
+            "cents": 890,
+            "currency": "GBP"
+          },
+          "unit": "person-day",
+          "basket": {
+            "en": "Adult Zones 1-2 PAYG daily cap for each traveller using a valid individual payment medium consistently; airport trips, other zones and new card fees excluded."
+          },
+          "sourceIds": [
+            "lon-transport"
+          ]
+        }
+      },
+      "withdrawalReason": "Published ticket/cap facts or narrow meal/journey examples do not establish a suitable universal planning expense."
+    },
+    {
+      "id": "phase4b-paris-eur",
+      "destinationId": "city:PAR",
+      "catalogueId": "paris",
+      "countryCode": "FR",
+      "currency": "EUR",
+      "maxNights": 3,
+      "heldFoodIllustration": {
+        "amount": {
+          "cents": 4200,
+          "currency": "EUR"
+        },
+        "unit": "person-day",
+        "calculation": "400 + 550 + 2 * 1380 + 490 = 4200 cents",
+        "assumptions": "One croissant and espresso breakfast; two main courses allocated at the Chartier indicative maximum; one dessert at its indicative maximum; tap water, no extra paid drinks or tips.",
+        "sourceIds": [
+          "par-breakfast",
+          "par-meals",
+          "par-restaurant-tax"
+        ],
+        "blockedBy": "Confirm current menus and that the selected dishes and portion assumptions form a usable day. Existing PDFs do not establish current date-specific meal prices."
+      },
+      "foodStatus": "unreviewed-illustration-only",
+      "status": "withdrawn-as-automatic-planning-profile",
+      "ownerApproval": null,
+      "reviewedAt": null,
+      "proposedReviewAfter": null,
+      "omittedComponents": [
+        "stay",
+        "arrivalTransport",
+        "activities"
+      ],
+      "formerCandidateCosts": {
+        "localTransport": {
+          "amount": {
+            "cents": 1230,
+            "currency": "EUR"
+          },
+          "unit": "person-day",
+          "basket": {
+            "en": "Adult Navigo Jour Zones 1-5 for each calendar travel day using a compatible smartphone; airport access and physical card purchase excluded. Fewer journeys may cost less."
+          },
+          "sourceIds": [
+            "par-transport"
+          ]
+        }
+      },
+      "withdrawalReason": "Published ticket/cap facts or narrow meal/journey examples do not establish a suitable universal planning expense."
+    },
+    {
+      "id": "phase4b-new-york-usd",
+      "destinationId": "place:Q60",
+      "catalogueId": "place:Q60",
+      "countryCode": "US",
+      "currency": "USD",
+      "maxNights": 3,
+      "heldFoodIllustration": {
+        "amount": {
+          "cents": 9500,
+          "currency": "USD"
+        },
+        "unit": "person-day",
+        "calculation": "(1800 + 600 + 2400 + 2400) * 1.20 * 1.08875 = 9406.8 cents; round upward to 9500",
+        "assumptions": "One Pershing Square oatmeal/coffee breakfast, burger lunch and pasta dinner; 20% service/tip buffer and conservative tax on that buffer. This is a sit-down example, not a city minimum or an observed bill.",
+        "sourceIds": [
+          "nyc-breakfast",
+          "nyc-lunch",
+          "nyc-dinner",
+          "nyc-sales-tax",
+          "nyc-gratuities"
+        ],
+        "blockedBy": "Confirm current service/gratuity conditions for all meals and party sizes, and suitability as a budget-planning basket before inclusion."
+      },
+      "foodStatus": "unreviewed-illustration-only",
+      "status": "withdrawn-as-automatic-planning-profile",
+      "ownerApproval": null,
+      "reviewedAt": null,
+      "proposedReviewAfter": null,
+      "omittedComponents": [
+        "stay",
+        "arrivalTransport",
+        "activities"
+      ],
+      "formerCandidateCosts": {
+        "localTransport": {
+          "amount": {
+            "cents": 600,
+            "currency": "USD"
+          },
+          "unit": "person-day",
+          "basket": {
+            "en": "Two paid USD 3 subway/local-bus rides per traveller per calendar day using existing contactless payment; not an unlimited pass. Additional rides, airport services, express buses and card fees excluded."
+          },
+          "sourceIds": [
+            "nyc-transport"
+          ]
+        }
+      },
+      "withdrawalReason": "Published ticket/cap facts or narrow meal/journey examples do not establish a suitable universal planning expense."
+    }
+  ],
+  "activationConditions": [
+    "No activation proposed from the current evidence",
+    "Define travel or meal assumptions and collect sufficient dated evidence",
+    "Require separate editorial and pricing approval before any future publication",
+    "Preserve source records and existing pricing/security safeguards"
+  ]
+}

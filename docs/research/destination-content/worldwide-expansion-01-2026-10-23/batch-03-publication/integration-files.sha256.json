@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "scope": "local-integration-not-deployment",
+  "files": {
+    "README.md": "55c41f5ab4780b5c2bee7b95da7b1f094f67cb0247e2ed6055ce05ba626edc23",
+    "browser-verification.json": "83b0df348d692cf65e4099b8cdcf5474763d3f0e4691d1861445178965645838",
+    "editorial-integration.json": "82dc5ed8424c4c2987217c7706083323e284c53f86ddbf82a267fe021763ac8c",
+    "integration-verification.json": "b74ec99fdfb90e1b0635c314e3dc835580e727756c0bb1654279e684c8a0c4b9",
+    "owner-approval.json": "e2ad9e0e9df3d84374088e686449ec178d42a40d156910363e9aece8445eb5c8",
+    "preservation-verification.json": "f71a560ee55ad8966246ef1e02d400749248c5e0f9b1b1c4141e52673e4a0b78",
+    "screenshots/cape-town-320.png": "50505203ecd45100c6e2bf159bade00456188752e67a91fb4e027577de4f8977",
+    "screenshots/cape-town-390.png": "ea68e35be9066ba34ce2d966be571aafd3fb99e47df6cf7f21b972f2497a090d",
+    "screenshots/dubai-320.png": "94ce50c61a763c125996448806443bce1b2cbbd7b11bd103d84c18e1cd8e5c25",
+    "screenshots/dubai-390.png": "a53b3c8f651050da813bad1c67166cdd479617c081879ddf3aa689304a5158f2",
+    "screenshots/rio-de-janeiro-320.png": "9907ca9932e0221acbe83e6ad366abd9a94381fa737e80b59c0b088d7aaa396b",
+    "screenshots/rio-de-janeiro-390.png": "a205d6b4a8f748deef6a0fe5c2e31e234bee1ee9f336d8cba1937c64ef3c14e3",
+    "screenshots/sydney-320.png": "0346cb55a473b45c4762f21265b5c240d80f6f381d80d00d279d335cc90ea358",
+    "screenshots/sydney-390.png": "6f69ea6ffd3808c9069512ad7b8fcbaf0cc855995b255d441ec1fddd4162069c"
+  }
+}

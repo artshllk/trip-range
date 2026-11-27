@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "destinationId": "city:BCN",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Human review: verify the Picasso collection source directly before approval; check the architecture selection, both area tradeoffs and the loose template; review all EN/SQ copy and proper-name inflections. No visit durations, ticket prices, exact opening hours, entry guarantees or attraction photos are supplied. Phase 5C preparation follow-up: phase5c-city-BCN.md; v2 source/copy cleanup is prepared for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "istanbul",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No guarantee of free mosque entry, relic authenticity, airport connection or whole-city itinerary. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-istanbul.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "paris",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Paris v2 adds direct Notre-Dame location and Louvre palace evidence, source-backed booking guidance and consistent Albanian Eiffel wording. Human checks remain pending for identity, sources, English, Albanian, selection/order and freshness. Notre-Dame evidence was available in official indexed page text; direct retrieval returned 403, so inspect the source during human review. Four attractions and one Montmartre area remain; no cross-city day sequence or access guarantees. Periodic guidance remains due for review on 2027-01-10."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q1273",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No claim that four cities fit a weekend. Museum entry, parking permits, fares and direct-train guarantees omitted. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access."
+        }
+      ]
+    },
+    {
+      "destinationId": "prishtina",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Human review: accept the smaller coverage or request focused additional evidence later; approve both languages, proper names, exterior/library framing and gallery/template advice. No visa/border advice, current opening claims, visitor ranking or hotel recommendations are supplied. Phase 5E preparation follow-up: phase5e-prishtina.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "vienna",
+      "findings": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ]
+    },
+    {
+      "destinationId": "london",
+      "findings": [
+        {
+          "id": "phase2-source-review",
+          "message": "Owner must explicitly review the exact English wording, cited sources, city/airport identities, itinerary order and freshness. Technical checks are not editorial approval."
+        }
+      ]
+    }
+  ]
+}

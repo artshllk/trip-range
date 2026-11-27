@@ -1,0 +1,652 @@
+--- original-packet/istanbul.json
++++ batch-01-review/drafts/istanbul.json
+@@ -91,6 +91,31 @@
+       "publisher": "GoEksplo source implementation; not a city price observation",
+       "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+       "retrievedAt": "2026-10-23T09:26:02Z"
++    },
++    {
++      "id": "source:batch1review:istanbul:palace-operator",
++      "type": "official",
++      "url": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
++      "title": "Topkapı Palace: official visitor information",
++      "publisher": "National Palaces",
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:istanbul:hagia-access",
++      "type": "official",
++      "url": "https://basin.ktb.gov.tr/TR-364045/ayasofya-i-kebir-camiinde-yeni-duzenleme-15-ocakta-basliyor.html",
++      "title": "Hagia Sophia visitor arrangements announced 12 January 2024",
++      "publisher": "Türkiye Ministry of Culture and Tourism",
++      "retrievedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:istanbul:m4",
++      "type": "official",
++      "url": "https://www.metro.istanbul/en/Hatlarimiz/HatDetay?hat=M4",
++      "title": "M4 Kadıköy–Sabiha Gökçen Airport line and interchanges",
++      "publisher": "Metro İstanbul",
++      "retrievedAt": "2026-10-23T10:13:49Z"
+     }
+   ],
+   "overview": {
+@@ -123,7 +148,8 @@
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+       "sourceIds": [
+-        "source:expansion01:istanbul:hagia"
++        "source:expansion01:istanbul:hagia",
++        "source:batch1review:istanbul:hagia-access"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -143,7 +169,8 @@
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+       "sourceIds": [
+-        "source:expansion01:istanbul:palace"
++        "source:expansion01:istanbul:palace",
++        "source:batch1review:istanbul:palace-operator"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -288,7 +315,8 @@
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+       "sourceIds": [
+-        "source:expansion01:istanbul:saw"
++        "source:expansion01:istanbul:saw",
++        "source:batch1review:istanbul:m4"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -302,7 +330,7 @@
+         "en": "Around the historic peninsula"
+       },
+       "guidance": {
+-        "en": "T1 serves Sultanahmet, Gülhane, Sirkeci and Eminönü. Use the station that fits the entrance you need, then walk locally. Keep prayer restrictions separate from transport planning."
++        "en": "T1 serves Sultanahmet, Gülhane, Sirkeci and Eminönü. Choose the stop for your entrance, then explore the surrounding streets on foot."
+       },
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+@@ -351,6 +379,24 @@
+         "kind": "periodically-reviewed",
+         "reviewBy": "2027-01-21T00:00:00Z"
+       }
++    },
++    {
++      "id": "note:istanbul:batch1-palace-day",
++      "destinationId": "istanbul",
++      "kind": "closure",
++      "text": {
++        "en": "Topkapı Palace normally closes on Tuesdays. Swap the palace day with another outing when needed, and check holiday exceptions before booking."
++      },
++      "reviewStatus": "draft",
++      "reviewedAt": null,
++      "sourceIds": [
++        "source:batch1review:istanbul:palace-operator"
++      ],
++      "freshness": {
++        "kind": "volatile",
++        "observedAt": "2026-10-23T10:13:49Z",
++        "validUntil": "2026-11-06T00:00:00Z"
++      }
+     }
+   ],
+   "dayTemplates": [
+@@ -375,7 +421,7 @@
+           "attractionId": "attraction:istanbul:topkapi",
+           "day": 2,
+           "notes": {
+-            "en": "Give the palace the main part of your sightseeing day."
++            "en": "Make the palace your main visit; move it to another day if this falls on a Tuesday."
+           }
+         },
+         {
+@@ -403,7 +449,8 @@
+         "source:expansion01:istanbul:visits",
+         "source:expansion01:istanbul:palace",
+         "source:expansion01:istanbul:cistern",
+-        "source:expansion01:istanbul:hagia"
++        "source:expansion01:istanbul:hagia",
++        "source:batch1review:istanbul:palace-operator"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -431,7 +478,7 @@
+           "attractionId": "attraction:istanbul:topkapi",
+           "day": 2,
+           "notes": {
+-            "en": "Keep time for the palace rather than rushing through every interior."
++            "en": "Make the palace your main visit; move it to another day if this falls on a Tuesday."
+           }
+         },
+         {
+@@ -459,7 +506,8 @@
+         "source:expansion01:istanbul:visits",
+         "source:expansion01:istanbul:palace",
+         "source:expansion01:istanbul:hagia",
+-        "source:expansion01:istanbul:cistern"
++        "source:expansion01:istanbul:cistern",
++        "source:batch1review:istanbul:palace-operator"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+--- original-packet/barcelona.json
++++ batch-01-review/drafts/barcelona.json
+@@ -50,7 +50,8 @@
+       "url": "https://parkguell.barcelona/en",
+       "title": "Park Güell",
+       "publisher": "Barcelona City Council",
+-      "retrievedAt": "2026-10-23T09:26:02Z"
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
+     },
+     {
+       "id": "source:expansion01:barcelona:picasso",
+@@ -83,6 +84,40 @@
+       "publisher": "GoEksplo source implementation; not a city price observation",
+       "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+       "retrievedAt": "2026-10-23T09:26:02Z"
++    },
++    {
++      "id": "source:batch1review:barcelona:mnac-museum",
++      "type": "official",
++      "url": "https://www.museunacional.cat/en/museum",
++      "title": "The Museum and its collections",
++      "publisher": "Museu Nacional d’Art de Catalunya",
++      "retrievedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:barcelona:mnac-days",
++      "type": "official",
++      "url": "https://www.museunacional.cat/es/horarios-y-precios",
++      "title": "Opening times and prices",
++      "publisher": "Museu Nacional d’Art de Catalunya",
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:barcelona:picasso-days",
++      "type": "official",
++      "url": "https://museupicassobcn.cat/index.php/en/plan-your-visit/buy-tickets-and-opening-hours",
++      "title": "Tickets and opening hours",
++      "publisher": "Museu Picasso Barcelona",
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:barcelona:casa-batllo",
++      "type": "official",
++      "url": "https://guia.barcelona.cat/ca/detall/casa-batllo_75990398260.html",
++      "title": "Casa Batlló: address and visitor information",
++      "publisher": "Barcelona City Council",
++      "retrievedAt": "2026-10-23T10:13:49Z"
+     }
+   ],
+   "overview": {
+@@ -144,8 +179,9 @@
+         "source:expansion01:barcelona:park"
+       ],
+       "freshness": {
+-        "kind": "periodically-reviewed",
+-        "reviewBy": "2027-01-21T00:00:00Z"
++        "kind": "volatile",
++        "observedAt": "2026-10-23T10:13:49Z",
++        "validUntil": "2026-11-06T00:00:00Z"
+       }
+     },
+     {
+@@ -161,7 +197,8 @@
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+       "sourceIds": [
+-        "source:expansion01:barcelona:eixample"
++        "source:expansion01:barcelona:eixample",
++        "source:batch1review:barcelona:casa-batllo"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -196,12 +233,13 @@
+       },
+       "kind": "museum",
+       "shortDescription": {
+-        "en": "Choose this as an alternative art-museum outing. Check the current collection and entry arrangements rather than assuming another museum’s ticket includes it."
+-      },
+-      "reviewStatus": "draft",
+-      "reviewedAt": null,
+-      "sourceIds": [
+-        "source:expansion01:barcelona:mnac"
++        "en": "See Romanesque mural paintings and Catalan modern art in the Palau Nacional on Montjuïc. Treat it as a separate outing from the old-city Picasso collection."
++      },
++      "reviewStatus": "draft",
++      "reviewedAt": null,
++      "sourceIds": [
++        "source:expansion01:barcelona:mnac",
++        "source:batch1review:barcelona:mnac-museum"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -348,6 +386,25 @@
+         "kind": "periodically-reviewed",
+         "reviewBy": "2027-01-21T00:00:00Z"
+       }
++    },
++    {
++      "id": "note:city:BCN:batch1-museum-days",
++      "destinationId": "city:BCN",
++      "kind": "closure",
++      "text": {
++        "en": "Museu Picasso closes on Mondays. MNAC normally does too, with public-holiday exceptions. Move the museum day if needed and check your chosen date."
++      },
++      "reviewStatus": "draft",
++      "reviewedAt": null,
++      "sourceIds": [
++        "source:batch1review:barcelona:picasso-days",
++        "source:batch1review:barcelona:mnac-days"
++      ],
++      "freshness": {
++        "kind": "volatile",
++        "observedAt": "2026-10-23T10:13:49Z",
++        "validUntil": "2026-11-06T00:00:00Z"
++      }
+     }
+   ],
+   "dayTemplates": [
+@@ -386,69 +443,7 @@
+           "attractionId": "attraction:city:BCN:museu-picasso",
+           "day": 3,
+           "notes": {
+-            "en": "Only with enough time before departure and confirmed access."
+-          }
+-        }
+-      ],
+-      "notes": {
+-        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+-      },
+-      "reviewStatus": "draft",
+-      "reviewedAt": null,
+-      "sourceIds": [
+-        "source:expansion01:barcelona:eixample",
+-        "source:expansion01:barcelona:sagrada",
+-        "source:expansion01:barcelona:park",
+-        "source:expansion01:barcelona:picasso"
+-      ],
+-      "freshness": {
+-        "kind": "periodically-reviewed",
+-        "reviewBy": "2027-01-21T00:00:00Z"
+-      }
+-    },
+-    {
+-      "id": "template:city:BCN:expansion01-3-nights",
+-      "destinationId": "city:BCN",
+-      "suitableNights": [
+-        3
+-      ],
+-      "title": {
+-        "en": "3 nights in Barcelona"
+-      },
+-      "stops": [
+-        {
+-          "attractionId": "attraction:city:BCN:casa-batllo",
+-          "day": 1,
+-          "notes": {
+-            "en": "An exterior architecture walk if arrival leaves time."
+-          }
+-        },
+-        {
+-          "attractionId": "attraction:city:BCN:sagrada-familia",
+-          "day": 2,
+-          "notes": {
+-            "en": "Use your confirmed basilica visit."
+-          }
+-        },
+-        {
+-          "attractionId": "attraction:city:BCN:park-guell",
+-          "day": 2,
+-          "notes": {
+-            "en": "A separate park journey; leave room for a break."
+-          }
+-        },
+-        {
+-          "attractionId": "attraction:city:BCN:museu-picasso",
+-          "day": 3,
+-          "notes": {
+-            "en": "Make this the main art visit."
+-          }
+-        },
+-        {
+-          "attractionId": "attraction:city:BCN:museu-nacional",
+-          "day": 4,
+-          "notes": {
+-            "en": "An optional second museum only if departure permits; otherwise choose one museum for the stay."
++            "en": "An old-city museum visit when open; move it off Monday and leave enough time before departure."
+           }
+         }
+       ],
+@@ -462,7 +457,73 @@
+         "source:expansion01:barcelona:sagrada",
+         "source:expansion01:barcelona:park",
+         "source:expansion01:barcelona:picasso",
+-        "source:expansion01:barcelona:mnac"
++        "source:batch1review:barcelona:picasso-days",
++        "source:batch1review:barcelona:mnac-days"
++      ],
++      "freshness": {
++        "kind": "periodically-reviewed",
++        "reviewBy": "2027-01-21T00:00:00Z"
++      }
++    },
++    {
++      "id": "template:city:BCN:expansion01-3-nights",
++      "destinationId": "city:BCN",
++      "suitableNights": [
++        3
++      ],
++      "title": {
++        "en": "3 nights in Barcelona"
++      },
++      "stops": [
++        {
++          "attractionId": "attraction:city:BCN:casa-batllo",
++          "day": 1,
++          "notes": {
++            "en": "An exterior architecture walk if arrival leaves time."
++          }
++        },
++        {
++          "attractionId": "attraction:city:BCN:sagrada-familia",
++          "day": 2,
++          "notes": {
++            "en": "Use your confirmed basilica visit."
++          }
++        },
++        {
++          "attractionId": "attraction:city:BCN:park-guell",
++          "day": 2,
++          "notes": {
++            "en": "A separate park journey; leave room for a break."
++          }
++        },
++        {
++          "attractionId": "attraction:city:BCN:museu-picasso",
++          "day": 3,
++          "notes": {
++            "en": "An old-city museum visit when open; move it off Monday and leave enough time before departure."
++          }
++        },
++        {
++          "attractionId": "attraction:city:BCN:museu-nacional",
++          "day": 4,
++          "notes": {
++            "en": "An optional Montjuïc outing if departure and opening days allow; otherwise choose one art museum for the stay."
++          }
++        }
++      ],
++      "notes": {
++        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
++      },
++      "reviewStatus": "draft",
++      "reviewedAt": null,
++      "sourceIds": [
++        "source:expansion01:barcelona:eixample",
++        "source:expansion01:barcelona:sagrada",
++        "source:expansion01:barcelona:park",
++        "source:expansion01:barcelona:picasso",
++        "source:expansion01:barcelona:mnac",
++        "source:batch1review:barcelona:picasso-days",
++        "source:batch1review:barcelona:mnac-days"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+--- original-packet/singapore.json
++++ batch-01-review/drafts/singapore.json
+@@ -26,7 +26,8 @@
+       "url": "https://www.nationalgallery.sg/sg/en/architecture-and-history.html",
+       "title": "Architecture and history",
+       "publisher": "National Gallery Singapore",
+-      "retrievedAt": "2026-10-23T09:26:02Z"
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
+     },
+     {
+       "id": "source:expansion01:singapore:temple",
+@@ -91,6 +92,22 @@
+       "publisher": "GoEksplo source implementation; not a city price observation",
+       "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+       "retrievedAt": "2026-10-23T09:26:02Z"
++    },
++    {
++      "id": "source:batch1review:singapore:botanic-visitor",
++      "type": "official",
++      "url": "https://sbg.nparks.gov.sg/visit/general-info/",
++      "title": "Visitor information, entrances and ticketing",
++      "publisher": "National Parks Board",
++      "retrievedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:singapore:bay-closures",
++      "type": "official",
++      "url": "https://www.gardensbythebay.com.sg/en/plan-your-visit/opening-hours.html",
++      "title": "Opening hours and individual attraction closure dates",
++      "publisher": "Gardens by the Bay",
++      "retrievedAt": "2026-10-23T10:13:49Z"
+     }
+   ],
+   "overview": {
+@@ -123,7 +140,8 @@
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+       "sourceIds": [
+-        "source:expansion01:singapore:gardens"
++        "source:expansion01:singapore:gardens",
++        "source:batch1review:singapore:bay-closures"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -138,7 +156,7 @@
+       },
+       "kind": "museum",
+       "shortDescription": {
+-        "en": "Explore art in the former civic buildings. The UOB Southeast Asia Gallery is listed as closed; check which collections are open before choosing a visit."
++        "en": "Explore art in the former City Hall and Supreme Court. The UOB Southeast Asia Gallery is temporarily closed; other collections remain open."
+       },
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+@@ -146,8 +164,9 @@
+         "source:expansion01:singapore:gallery"
+       ],
+       "freshness": {
+-        "kind": "periodically-reviewed",
+-        "reviewBy": "2026-11-06T00:00:00Z"
++        "kind": "volatile",
++        "observedAt": "2026-10-23T10:13:49Z",
++        "validUntil": "2026-11-06T00:00:00Z"
+       }
+     },
+     {
+@@ -158,12 +177,13 @@
+       },
+       "kind": "park",
+       "shortDescription": {
+-        "en": "Make this a separate garden outing using the official map and visitor notices. It is not the same attraction as Gardens by the Bay."
+-      },
+-      "reviewStatus": "draft",
+-      "reviewedAt": null,
+-      "sourceIds": [
+-        "source:expansion01:singapore:botanic"
++        "en": "Explore the gardens’ paths and lakes. The National Orchid Garden has separate admission; choose your entrance from the official map."
++      },
++      "reviewStatus": "draft",
++      "reviewedAt": null,
++      "sourceIds": [
++        "source:expansion01:singapore:botanic",
++        "source:batch1review:singapore:botanic-visitor"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -199,7 +219,7 @@
+         "en": "Chinatown"
+       },
+       "summary": {
+-        "en": "Consider a base for heritage streets and the temple outing, checking the nearest useful station."
++        "en": "Consider Chinatown for heritage streets and the temple, checking the station and walking route for your accommodation."
+       },
+       "goodFor": [
+         {
+@@ -208,7 +228,7 @@
+       ],
+       "tradeoffs": [
+         {
+-          "en": "The two gardens are separate journeys; no citywide hotel-price assumption applies."
++          "en": "The Botanic Gardens and Marina Bay are separate outings, not one neighbourhood walk."
+         }
+       ],
+       "reviewStatus": "draft",
+@@ -341,7 +361,7 @@
+       "destinationId": "place:Q334",
+       "kind": "booking",
+       "text": {
+-        "en": "Museum entry and individual garden attractions may need separate tickets. Airport travel, accommodation and meals are not covered by this guide’s non-numerical planning advice."
++        "en": "Choose garden attractions and museum tickets separately. Hotel costs, meals and airport journeys still need checking; this guide does not supply a complete trip price."
+       },
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+--- original-packet/mexico-city.json
++++ batch-01-review/drafts/mexico-city.json
+@@ -42,7 +42,8 @@
+       "url": "https://chapultepec.cultura.gob.mx/oferta-cultural/museo-nacional-de-antropologia/",
+       "title": "Museo Nacional de Antropología",
+       "publisher": "Secretaría de Cultura",
+-      "retrievedAt": "2026-10-23T09:26:02Z"
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
+     },
+     {
+       "id": "source:expansion01:mexico-city:park",
+@@ -99,6 +100,23 @@
+       "publisher": "GoEksplo source implementation; not a city price observation",
+       "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+       "retrievedAt": "2026-10-23T09:26:02Z"
++    },
++    {
++      "id": "source:batch1review:mexico-city:roma-condesa",
++      "type": "official",
++      "url": "https://mexicocity.cdmx.gob.mx/locations/condesa-roma/",
++      "title": "Condesa and Roma",
++      "publisher": "Mexico City tourism",
++      "retrievedAt": "2026-10-23T10:13:49Z"
++    },
++    {
++      "id": "source:batch1review:mexico-city:templo-visitor",
++      "type": "official",
++      "url": "https://lugares.inah.gob.mx/es/node/5573",
++      "title": "Templo Mayor: visitor information",
++      "publisher": "INAH",
++      "retrievedAt": "2026-10-23T10:13:49Z",
++      "observedAt": "2026-10-23T10:13:49Z"
+     }
+   ],
+   "overview": {
+@@ -147,7 +165,7 @@
+       },
+       "kind": "landmark",
+       "shortDescription": {
+-        "en": "Choose between the building, its art spaces and a separately ticketed performance. An exterior look does not imply a show or museum ticket."
++        "en": "Look for the Art Nouveau exterior and Art Deco interior. Choose museum access or a performance separately; an exterior visit includes neither."
+       },
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+@@ -260,23 +278,24 @@
+         "en": "Roma and Condesa"
+       },
+       "summary": {
+-        "en": "Compare a base in these named visitor districts if you prefer to travel into the historic centre and park."
++        "en": "Consider Roma or Condesa for a neighbourhood base between outings to the historic centre and Chapultepec."
+       },
+       "goodFor": [
+         {
+-          "en": "Separating your accommodation choice from a single landmark."
++          "en": "Exploring neighbourhood streets between the main museum outings."
+         }
+       ],
+       "tradeoffs": [
+         {
+-          "en": "Choose by actual station and property details; this draft makes no safety or lower-price ranking."
++          "en": "Check your exact address and transport connections; neither district puts all the sights on your doorstep."
+         }
+       ],
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+       "sourceIds": [
+         "source:expansion01:mexico-city:areas",
+-        "source:expansion01:mexico-city:centre"
++        "source:expansion01:mexico-city:centre",
++        "source:batch1review:mexico-city:roma-condesa"
+       ],
+       "freshness": {
+         "kind": "periodically-reviewed",
+@@ -292,7 +311,7 @@
+         "en": "MEX: check your terminal"
+       },
+       "guidance": {
+-        "en": "Benito Juárez International (MEX) lists Metrobús service from both terminals to the city. Choose the current onward route for your base and check luggage/payment conditions with the operator. No particular boarding door is assumed."
++        "en": "Benito Juárez International (MEX) lists Metrobús service from both terminals. Check the current route, payment and luggage conditions for your terminal and base."
+       },
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+@@ -311,7 +330,7 @@
+         "en": "NLU and TLC are separate arrivals"
+       },
+       "guidance": {
+-        "en": "Felipe Ángeles (NLU) publishes its own city ground connections. Toluca (TLC) lists separate authorised taxi and bus services. Neither should inherit MEX directions or a generic airport-transfer allowance."
++        "en": "Felipe Ángeles (NLU) and Toluca (TLC) publish separate ground connections. Check the operator and destination stop for your flight; MEX directions and fares do not apply."
+       },
+       "reviewStatus": "draft",
+       "reviewedAt": null,
+@@ -384,6 +403,25 @@
+         "kind": "periodically-reviewed",
+         "reviewBy": "2027-01-21T00:00:00Z"
+       }
++    },
++    {
++      "id": "note:place:Q1489:batch1-museum-days",
++      "destinationId": "place:Q1489",
++      "kind": "closure",
++      "text": {
++        "en": "Templo Mayor and the anthropology museum list Tuesday–Sunday visits. Keep Monday flexible for outdoor plans and recheck museum access for your dates."
++      },
++      "reviewStatus": "draft",
++      "reviewedAt": null,
++      "sourceIds": [
++        "source:batch1review:mexico-city:templo-visitor",
++        "source:expansion01:mexico-city:anthro"
++      ],
++      "freshness": {
++        "kind": "volatile",
++        "observedAt": "2026-10-23T10:13:49Z",
++        "validUntil": "2026-11-06T00:00:00Z"
++      }
+     }
+   ],
+   "dayTemplates": [
+@@ -422,7 +460,7 @@
+           "attractionId": "attraction:place:Q1489:anthropology",
+           "day": 3,
+           "notes": {
+-            "en": "Only if departure leaves time for the museum and return journey; otherwise move earlier."
++            "en": "Make this the main Chapultepec museum visit when open, not Monday; on departure day, allow for the airport journey."
+           }
+         }
+       ],
+@@ -477,7 +515,7 @@
+           "attractionId": "attraction:place:Q1489:anthropology",
+           "day": 3,
+           "notes": {
+-            "en": "Make this the main museum outing."
++            "en": "Make this the main Chapultepec museum visit when open, not Monday; on departure day, allow for the airport journey."
+           }
+         },
+         {

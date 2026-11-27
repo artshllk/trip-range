@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "packetId": "worldwide-batch2-final-review-v1",
+  "preparedAt": "2026-10-23T16:51:03Z",
+  "baseCommit": "6a464b9caa0fdf9a869f26a094640efd9a64f72e",
+  "status": "unpublished-owner-approval-pending",
+  "publicationAuthorized": false,
+  "mediaApprovalRequested": false,
+  "cities": [
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "destinationId": "place:Q1490",
+      "region": "Asia",
+      "why": "Existing reviewed identity and contrasting east/west sightseeing areas; airport and neighbourhood choices materially affect a short stay.",
+      "baseRecordPath": "content/destinations/place-Q1490.json",
+      "baseRecordSha256": "4314de00a66366ca34f0aa6adc8795654523f8e618b4df6693cecd03585a76a6",
+      "identityPath": "content/places/place-Q1490.json",
+      "identitySha256": "1ecba01707c02e12a1f806acac0643d5fb09dc2f68591ac1c1031533a19945c9",
+      "contentVersion": 4,
+      "candidateFile": "drafts/tokyo.json",
+      "evidenceFile": "drafts/tokyo-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 2,
+        "itineraries": [],
+        "arrival": "basic-or-caution-only",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/tokyo",
+        "canonical": "https://www.goeksplo.com/en/destinations/tokyo",
+        "title": "Tokyo guide: short stays, areas and airport choices",
+        "h1": "Tokyo: plan a short trip",
+        "description": "Plan a focused Tokyo stay around Asakusa, Meiji Jingu and the Skytree area, with airport choices, neighbourhood bases and honest budget limits.",
+        "intentKeywords": [
+          "Tokyo 3 night itinerary",
+          "Haneda Narita first visit",
+          "Asakusa or Shinjuku where to stay"
+        ],
+        "relatedGuideSlugs": [
+          "singapore"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+        "futureRelatedGuides": [
+          "kyoto"
+        ]
+      },
+      "media": [],
+      "limitations": [
+        "GO TOKYO and metropolitan accessibility pages were rechecked through indexed official text after direct fetches failed (502/403). This does not verify current openings or airport timetables.",
+        "Tokyo remains canonical place:Q1490 with reviewed HND/NRT entry choices; TYO is only the existing bounded provider-search group. Prefill, reload and retained search inputs passed local verification; no live fare evidence is implied."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the validated canonical-place snapshot parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section.",
+        "Canonical-place planning passed local regression and shared-component browser checks. Server dispatch resolves only reviewed access; publication of the candidate guide remains blocked until owner approval."
+      ],
+      "originalCandidateFile": "../tokyo.json",
+      "originalCandidateSha256": "72e08d0d40cf19996bbc03866c56f8c3de7646fa6696d65faa769a89c43cb850",
+      "candidateFileSha256": "9468beab4e1c9413db5445bb017a84374cd1f1f02035228ffb47ca79c2852314",
+      "accessPath": "content/travel/access/place-Q1490.json",
+      "accessSha256": "30ad0abd43676588ca8c763d452e976e51b56deddc7d2692a4c0a09f89da5a14",
+      "changes": [
+        "English copy and itinerary order retained from the existing v3 draft. Operational transport/visitor sections use a shorter recheck date; no hours, fares or pass coverage added."
+      ],
+      "mediaStatus": "licensed candidate only; exact owner crop and media approval pending",
+      "sourceRecheck": "Body or indexed primary text; current source-to-claim mapping and fetch limitations are recorded in editorial-review.md and drafts/tokyo-evidence.md.",
+      "priorCandidateFile": "../batch-02-review/drafts/tokyo.json",
+      "priorCandidateFileSha256": "ae3b548a26a79a1231eab3aeca308077e0b15ac9059b5c057a258e989a959cf6",
+      "editorialCorrections": [
+        "Added operator-supported daylight/entry guidance and an existing-attraction alternative if Skytree deck entry is unavailable. No museum visit or fixed closing day is invented."
+      ],
+      "planningStatus": "canonical-place-target verified with synthetic provider groups"
+    },
+    {
+      "slug": "kyoto",
+      "name": "Kyoto",
+      "destinationId": "place:Q34600",
+      "region": "Asia",
+      "why": "Existing gateway identity and small eastern-city cluster; needs explicit ground-arrival guidance and respectful short-stay planning.",
+      "baseRecordPath": "content/destinations/place-Q34600.json",
+      "baseRecordSha256": "cff8095ac0a9489ef6a74c812edefb28b2e241abd4460f0991ad55dc0d163063",
+      "identityPath": "content/places/place-Q34600.json",
+      "identitySha256": "a3bb39770206afe01af68e2a30bfadb7ae282273b200b9383d3458c33c887d44",
+      "contentVersion": 4,
+      "candidateFile": "drafts/kyoto.json",
+      "evidenceFile": "drafts/kyoto-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/kyoto",
+        "canonical": "https://www.goeksplo.com/en/destinations/kyoto",
+        "title": "Kyoto guide: temples, bases and gateway airports",
+        "h1": "Kyoto: plan a short trip",
+        "description": "Plan a focused Kyoto stay with Kiyomizu-dera, Gion, airport-to-city choices and respectful routes, without assuming missing transfer or hotel costs.",
+        "intentKeywords": [
+          "Kyoto 2 night itinerary",
+          "Kansai airport to Kyoto planning",
+          "Gion or Kyoto Station base"
+        ],
+        "relatedGuideSlugs": [],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+        "futureRelatedGuides": [
+          "tokyo",
+          "bangkok"
+        ]
+      },
+      "media": [],
+      "limitations": [
+        "The old KIX FAQ returned a navigation shell and is not used as refreshed evidence.",
+        "The city has external Osaka airport gateways. A new guide must not prefill Osaka as Kyoto; verify the existing place-aware planning path before integration."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the validated canonical-place snapshot parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section.",
+        "Canonical-place planning passed local regression and shared-component browser checks. Server dispatch resolves only reviewed access; publication of the candidate guide remains blocked until owner approval."
+      ],
+      "originalCandidateFile": "../kyoto.json",
+      "originalCandidateSha256": "8c92c5c981caae50b7e72a0f826286c59f3fa1d961e3fe222a6d7ef064de5b57",
+      "candidateFileSha256": "e6f653ab950c6cc9de75bcbb085783ed1b29365de778f94d029406ee42fac2c8",
+      "accessPath": "content/travel/access/place-Q34600.json",
+      "accessSha256": "1d1a559590b280b7a7fe4a60fd27929add7eaeadcb23444b4edae76a45b54530",
+      "changes": [
+        "Removed the old KIX FAQ from candidate references because the refreshed page exposes only the FAQ shell. The official Getting to Kyoto page directly supports KIX Haruka/bus and ITM bus/monorail connections. Copy and itinerary order retained."
+      ],
+      "mediaStatus": "licensed candidate only; exact owner crop and media approval pending",
+      "sourceRecheck": "Body or indexed primary text; current source-to-claim mapping and fetch limitations are recorded in editorial-review.md and drafts/kyoto-evidence.md.",
+      "priorCandidateFile": "../batch-02-review/drafts/kyoto.json",
+      "priorCandidateFileSha256": "0630694b5b8e2f6a698dc9c1b70743ad38b90983981d993b0d038bb565af20b5",
+      "editorialCorrections": [
+        "Grouped Hokan-ji with Kiyomizu-dera on day two of the two-night outline; moved the optional Maruyama Park break to the final day. This avoids a separate return to the hillside just for the pagoda.",
+        "Added a conditional public-street/exterior alternative when temple entry is unavailable, with private-lane and worship restrictions preserved."
+      ],
+      "planningStatus": "canonical-place-target verified with synthetic provider groups"
+    },
+    {
+      "slug": "bangkok",
+      "name": "Bangkok",
+      "destinationId": "place:Q1861",
+      "region": "Asia",
+      "why": "Existing dual-airport identity and compact Old City sights; clear arrival and heat-aware pacing make a useful Southeast Asian short-stay guide.",
+      "baseRecordPath": "content/destinations/place-Q1861.json",
+      "baseRecordSha256": "bd3c44b9a072b8d25b4984dadae6459c69ff2f0ee2771a247ad71c350864009e",
+      "identityPath": "content/places/place-Q1861.json",
+      "identitySha256": "0ca27b784ac7e7452f5c2b87b69eb79ac591f30882a91c412ccff770ac378550",
+      "contentVersion": 4,
+      "candidateFile": "drafts/bangkok.json",
+      "evidenceFile": "drafts/bangkok-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/bangkok",
+        "canonical": "https://www.goeksplo.com/en/destinations/bangkok",
+        "title": "Bangkok guide: temples, Chinatown and airport planning",
+        "h1": "Bangkok: plan a short trip",
+        "description": "Plan Bangkok around the Old City, Wat Arun and Chinatown, with airport-specific arrival choices, sensible sightseeing groups and honest cost limits.",
+        "intentKeywords": [
+          "Bangkok 2 night itinerary",
+          "BKK or DMK arrival planning",
+          "Bangkok Old City where to stay"
+        ],
+        "relatedGuideSlugs": [
+          "singapore"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+        "futureRelatedGuides": [
+          "kyoto"
+        ]
+      },
+      "media": [],
+      "limitations": [
+        "AOT DMK mode information is dated 7 July 2022 and was accessible as indexed official text. It is not a current service-status test. Check operator notices before publication; the candidate makes no taxi/disruption claim.",
+        "Wat Pho direct fetch failed. TAT destination/Old City references support the limited identity/geography copy; its current admission rules remain external to this guide."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the validated canonical-place snapshot parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ],
+      "originalCandidateFile": "../bangkok.json",
+      "originalCandidateSha256": "f566c8ecf931d4bf846dcae12bba9043939f699cc6d829aa05885d7ae130c496",
+      "candidateFileSha256": "078202298d2425fcdcdbdb884b246819fcf9fe51f74f4c32add5c9a7ecbdab0f",
+      "accessPath": "content/travel/access/place-Q1861.json",
+      "accessSha256": "339cc55d45ead17c151312ab190c9114afa1a3db59de13bf410c44a5613ec150",
+      "changes": [
+        "Replaced a September disruption notice with mode-level AOT guidance for DMK; no claim that a particular service or taxi is operating now.",
+        "Replaced an unsupported separate-ticket assertion for Wat Pho with a direction to check its own entry rules. TAT supports its identity and location.",
+        "BKK geography uses the official rail map; the airport guide fetched as navigation only, not proof of live services."
+      ],
+      "mediaStatus": "licensed candidate only; exact owner crop and media approval pending",
+      "sourceRecheck": "Body or indexed primary text; current source-to-claim mapping and fetch limitations are recorded in editorial-review.md and drafts/bangkok-evidence.md.",
+      "priorCandidateFile": "../batch-02-review/drafts/bangkok.json",
+      "priorCandidateFileSha256": "1676a2ab4960d600507cc568cacb40d34273daf9341b38c945af519562df55fc",
+      "editorialCorrections": [
+        "Added the official palace calendar and explained that the palace and Wat Phra Kaew can have different access restrictions. The current calendar actually lists the palace closed on 23 October 2026; no permanent weekly rule is inferred.",
+        "Added Wat Pho or Wat Arun as alternatives only after checking their own visitor arrangements; no availability or ticket equivalence is promised."
+      ],
+      "planningStatus": "existing direct-city target preserved"
+    },
+    {
+      "slug": "marrakesh",
+      "name": "Marrakesh",
+      "destinationId": "place:Q101625",
+      "region": "Africa",
+      "why": "Existing North African identity and four verified sights; base choice and last-leg access are more useful than generic low-cost claims.",
+      "baseRecordPath": "content/destinations/place-Q101625.json",
+      "baseRecordSha256": "eea4d93336e854215404d1c5030613ba44af956be5cef73553db348df6c4bc69",
+      "identityPath": "content/places/place-Q101625.json",
+      "identitySha256": "0968fece4dcfca975972c1ce5623a2ead863240e5abeb9ca45d013771fb594cc",
+      "contentVersion": 4,
+      "candidateFile": "drafts/marrakesh.json",
+      "evidenceFile": "drafts/marrakesh-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/marrakesh",
+        "canonical": "https://www.goeksplo.com/en/destinations/marrakesh",
+        "title": "Marrakesh guide: medina, gardens and choosing a base",
+        "h1": "Marrakesh: plan a short trip",
+        "description": "Plan a short Marrakesh stay with medina and garden outings, airport arrival guidance and practical base choices, without invented room or ticket prices.",
+        "intentKeywords": [
+          "Marrakesh 3 night itinerary",
+          "Marrakech medina or Gueliz stay",
+          "Marrakech airport arrival planning"
+        ],
+        "relatedGuideSlugs": [
+          "istanbul",
+          "barcelona"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available.",
+        "futureRelatedGuides": []
+      },
+      "media": [],
+      "limitations": [
+        "Tourism and airport pages were available through indexed official text after direct 403 responses. No current airport operation or taxi-ordering process was verified.",
+        "The garden home page and historical leaflet have different hours; the draft quotes neither. The current home page supports online-only ticketing."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the validated canonical-place snapshot parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ],
+      "originalCandidateFile": "../marrakesh.json",
+      "originalCandidateSha256": "1c651c744925cfd850c1fc84ba729c5641bc5093d2cbc7c5a93fa20fb540375c",
+      "candidateFileSha256": "65948f56016c1cfbb4d50f1428b408094fa0ab6a0c62657a58d6b515f0454bba",
+      "accessPath": "content/travel/access/place-Q101625.json",
+      "accessSha256": "55c098d3c3d31c6c481dc1433338c1fff7b02362a473b05748cb59dabc034d5d",
+      "changes": [
+        "Replaced the old French city link with the official English Marrakech page, cross-checked through its indexed text.",
+        "Removed the 2023 taxi-ordering desk reference from the candidate; the current ONDA taxi/bus listing supports only general choices and posted-fare guidance. No process, timetable or fare is promised."
+      ],
+      "mediaStatus": "licensed candidate only; exact owner crop and media approval pending",
+      "sourceRecheck": "Body or indexed primary text; current source-to-claim mapping and fetch limitations are recorded in editorial-review.md and drafts/marrakesh-evidence.md.",
+      "priorCandidateFile": "../batch-02-review/drafts/marrakesh.json",
+      "priorCandidateFileSha256": "9a144d422390eca17f34af0c9582de1c9841fa377b4863aecef0a747b3472f6b",
+      "editorialCorrections": [
+        "Changed the garden source to its official English page and explicitly limited the guide to Jardin Majorelle, without implying access to Villa Oasis or either separately ticketed museum.",
+        "Added a medina/Koutoubia exterior alternative if garden entry is unavailable. No museum closing-day rule is needed by the proposed itinerary."
+      ],
+      "planningStatus": "existing direct-city target preserved"
+    }
+  ],
+  "priorPacket": "worldwide-batch2-review-v1"
+}

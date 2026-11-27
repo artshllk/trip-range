@@ -1,0 +1,1343 @@
+{
+  "version": 2,
+  "phase": "7B.3A.2",
+  "checkedOn": "2026-10-08",
+  "purpose": "bounded-cost-research-not-longitudinal-observation",
+  "previousReview": "review-2026-10-08.json",
+  "selection": "selection-2026-10-08.json",
+  "reviewedDestinationCurrencyPairs": 14,
+  "counts": {
+    "full": 0,
+    "partial": 3,
+    "deferred": 11,
+    "genericRemaining": 11
+  },
+  "providerRequests": {
+    "fares": 0,
+    "metadata": 0,
+    "ai": 0
+  },
+  "researchMethod": "Normal public search/read and dated Expedia UI inspection. Fit destinations first, then non-fit Malta/Toronto. No blocked-page bypass, hotel/food APIs or FX. Indexed/context sources are not accepted rates.",
+  "limitations": [
+    "Small Belfast room sample, not market median or live inventory.",
+    "Some components not surveyed further once full-basket currency/coverage blockers identified.",
+    "Historical October 8 fit counts and null destinationCoverage unchanged.",
+    "No full basket, new candidate observation or publication permission."
+  ],
+  "records": [
+    {
+      "destinationId": "city:SNN",
+      "name": "Shannon",
+      "countryCode": "IE",
+      "currency": "GBP",
+      "origin": "london",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-09"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-07",
+          "2026-11-09"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "bus-eireann-finder",
+          "url": "https://www.buseireann.ie/fare-finder",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:MIL",
+      "name": "Milan",
+      "countryCode": "IT",
+      "currency": "GBP",
+      "origin": "london",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-16"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-14",
+          "2026-11-16"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Milan shared research established only EUR room context. No independently verified GBP room sample; no conversion accepted."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "atm-eur-only",
+          "url": "https://www.atm.it/en/ViaggiaConNoi/Biglietti/Pages/tickets_milan.aspx",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "id": "spontini-eur-only",
+          "url": "https://spontinimilano.com/spontini-menu/",
+          "type": "official-menu",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:BFS",
+      "name": "Belfast",
+      "countryCode": "GB",
+      "currency": "GBP",
+      "origin": "london",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-30"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": "belfast-gbp-v2",
+      "status": "PARTIAL",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-28",
+          "2026-11-30"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Normal Expedia UI, 28–30 November, two adults/one room: Tara Lodge entry Deluxe Double £250 total; Holiday Inn Express standard double £273 total (search initially £282); Aloft queen £269 total. Non-refundable; displayed taxes/fees included; breakfast not uniformly included. Nightly range £125–£136.50, median £134.50, rounded upward to £140. No luxury suites/dorms, login or checkout. Queens/Titanic quarters. Small sample, not a city-wide market median.",
+        "roomObservations": [
+          {
+            "property": "Tara Lodge",
+            "room": "Deluxe Double (entry private double, not suite)",
+            "twoNightTotal": {
+              "cents": 25000,
+              "currency": "GBP"
+            },
+            "taxesAndFees": "shown-included",
+            "cancellation": "non-refundable",
+            "location": "Queens Quarter / Botanic",
+            "url": "https://www.expedia.co.uk/Belfast-Hotels-Tara-Lodge.h1223014.Hotel-Information?chkin=2026-11-28&chkout=2026-11-30&rm1=a2"
+          },
+          {
+            "property": "Holiday Inn Express Belfast City",
+            "room": "Standard Room, 1 Double Bed, Free Hot Breakfast",
+            "twoNightTotal": {
+              "cents": 27300,
+              "currency": "GBP"
+            },
+            "taxesAndFees": "shown-included",
+            "cancellation": "non-refundable",
+            "location": "Queens Quarter / University Street",
+            "url": "https://www.expedia.co.uk/Belfast-Hotels-Holiday-Inn-Express-Belfast-City.h41519.Hotel-Information?chkin=2026-11-28&chkout=2026-11-30&rm1=a2"
+          },
+          {
+            "property": "Aloft Belfast Titanic Quarter",
+            "room": "Room, 1 Queen Bed",
+            "twoNightTotal": {
+              "cents": 26900,
+              "currency": "GBP"
+            },
+            "taxesAndFees": "shown-included",
+            "cancellation": "non-refundable",
+            "location": "Titanic Quarter / practical visitor location",
+            "url": "https://www.expedia.co.uk/Belfast-Hotels-Aloft-Belfast-Titanic-Quarter.h126616978.Hotel-Information?chkin=2026-11-28&chkout=2026-11-30&rm1=a2"
+          }
+        ]
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 14000,
+              "currency": "GBP"
+            },
+            "unit": "room-night"
+          },
+          "basket": {
+            "en": "Standard private-room allowance for two adults, rounded from three Belfast room observations for 28–30 November 2026 (£125–£136.50 per night, taxes and fees shown included). Not bookable inventory; other dates, room types and cancellation terms can cost more.",
+            "sq": "Shumë për dhomë private standarde për dy të rritur, e rrumbullakosur nga tri vëzhgime në Belfast për 28–30 nëntor 2026 (£125–£136.50 për natë, me taksat dhe tarifat e shfaqura). Jo inventar për rezervim; datat, dhomat dhe anulimi mund të kushtojnë më shumë."
+          },
+          "methodology": "Normal Expedia UI, 28–30 November, two adults/one room: Tara Lodge entry Deluxe Double £250 total; Holiday Inn Express standard double £273 total (search initially £282); Aloft queen £269 total. Non-refundable; displayed taxes/fees included; breakfast not uniformly included. Nightly range £125–£136.50, median £134.50, rounded upward to £140. No luxury suites/dorms, login or checkout. Queens/Titanic quarters. Small sample, not a city-wide market median.",
+          "sources": [
+            {
+              "id": "belfast-rooms-november",
+              "url": "https://www.expedia.co.uk/Hotel-Search?destination=Belfast&regionId=6034919&startDate=2026-11-28&endDate=2026-11-30&adults=2&rooms=1",
+              "type": "accommodation-observation",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "component": "food",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 5500,
+              "currency": "GBP"
+            },
+            "unit": "person-day"
+          },
+          "basket": {
+            "en": "Rounded adult daily basket: light breakfast, burger lunch with fries and a soft drink, casual dinner and two extra soft drinks. Based on Harlem and Bunsen menu examples, not a city average or a promise of every meal. Breakfast included in a room may reduce spending.",
+            "sq": "Shumë ditore e rrumbullakosur për të rritur: mëngjes i lehtë, hamburger me patate dhe pije, darkë e thjeshtë dhe dy pije shtesë. Bazuar në shembuj nga menutë Harlem dhe Bunsen, jo mesatare qyteti apo garanci për çdo vakt. Mëngjesi i përfshirë në dhomë mund ta ulë shpenzimin."
+          },
+          "methodology": "Illustrative basket: Harlem granola £10.95; Bunsen cheeseburger £9.45, fries £3.95, soda £2.50; Harlem casual dinner £18.95; two further sodas £5. Total £50.80 rounded to £55. Two businesses, not a city average. Harlem dinner example Saturday-only; choices vary. No alcohol/assumed service charge. Included hotel breakfast can lower actual spending.",
+          "sources": [
+            {
+              "id": "harlem-menu",
+              "url": "https://www.harlemcafebelfast.com/menu",
+              "type": "official-menu",
+              "checkedAt": "2026-10-08"
+            },
+            {
+              "id": "bunsen-hill-st-menu",
+              "url": "https://order.toasttab.com/online/bunsen-belfast-hill-st-6-8-hill-st-belfast",
+              "type": "official-menu",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "component": "localTransport",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 400,
+              "currency": "GBP"
+            },
+            "unit": "person-day"
+          },
+          "basket": {
+            "en": "One adult mLink Metro/Glider day ticket per person per day. City network only; airport journeys separate. Child discounts are not modelled.",
+            "sq": "Një biletë ditore mLink Metro/Glider për të rritur për person në ditë. Vetëm rrjeti urban; aeroporti llogaritet veç. Uljet për fëmijë nuk modelohen."
+          },
+          "methodology": "Retain previous accepted official city-transport allowance, amount and scope unchanged.",
+          "sources": [
+            {
+              "id": "translink-mlink",
+              "url": "https://www.translink.co.uk/our-apps/mlink-ticketing-app/ticket-types",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "airport-scope-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "BFS Airport Express 300 monthly return £11 verified on current mLink page. City Airport confirms route 600 but no current fare; older Translink fare URL returns 404. BHD coverage and city-pass overlap unresolved. Do not universalize BFS £11 or count a covered airport ride twice; arrival stays general.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 1000,
+              "currency": "GBP"
+            },
+            "unit": "person-night"
+          },
+          "basket": {
+            "en": "£10 per person per night toward optional paid sightseeing. Two nights reserve £20, informed by Crumlin Road Gaol's £18.50 adult admission. One night provides only a contribution. Free sightseeing has no admission allowance charged to it.",
+            "sq": "£10 për person për natë për vizita fakultative me pagesë. Dy net japin £20, bazuar në hyrjen £18.50 për të rritur në Crumlin Road Gaol. Një natë mbulon vetëm një pjesë. Shëtitjet falas nuk llogariten si hyrje me pagesë."
+          },
+          "methodology": "Crumlin Road Gaol adult self-guided admission £18.50. £10/person/night gives £20 for two nights toward one optional visit. One-night allowance only a contribution; free sightseeing remains free.",
+          "sources": [
+            {
+              "id": "crumlin-gaol-admission",
+              "url": "https://www.crumlinroadgaol.com/gaolexperience/",
+              "type": "official-attraction",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "bhd-public-transport",
+          "url": "https://www.belfastcityairport.com/To-and-From/Public-Transport",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "id": "old-airport-fares-404",
+          "url": "https://www.translink.co.uk/usingourservicesandproducts/ticketsandtravelcards/faresrevision/airportfaresrevision",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:OPO",
+      "name": "Porto",
+      "countryCode": "PT",
+      "currency": "GBP",
+      "origin": "london",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-23"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-21",
+          "2026-11-23"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "andante-2026",
+          "url": "https://andante.pt/noticias/tarifario-andante-mantem-o-valor-dos-passes-em-2026/",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:DUB",
+      "name": "Dublin",
+      "countryCode": "IE",
+      "currency": "GBP",
+      "origin": "manchester",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-09"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-07",
+          "2026-11-09"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "tfi-eur-only",
+          "url": "https://www.transportforireland.ie/fares/new-fare-zones/",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:PAR",
+      "name": "Paris",
+      "countryCode": "FR",
+      "currency": "GBP",
+      "origin": "manchester",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-16"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-14",
+          "2026-11-16"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "idfm-eur-only",
+          "url": "https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/forfait-paris-visite",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:MLA",
+      "name": "Malta",
+      "countryCode": "MT",
+      "currency": "GBP",
+      "origin": "manchester",
+      "originallyFit": false,
+      "exampleDates": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-23"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-21",
+          "2026-11-23"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "GBP",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "malta-eur-only",
+          "url": "https://www.publictransport.com.mt/fares-and-tickets/0/",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:MIL",
+      "name": "Milan",
+      "countryCode": "IT",
+      "currency": "EUR",
+      "origin": "dublin",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-16"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": "milan-eur-v1",
+      "status": "PARTIAL",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-14",
+          "2026-11-16"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "EUR",
+        "outcome": "Normal Expedia EUR search, 14–16 November, two adults/one room: DoubleTree Milan €293, Hilton Garden Inn Milan North €366 for two nights, displayed taxes/fees included; Corbetta €158 rejected as wrong visitor location. Insufficient ordinary-room sample; no nightly basis accepted. Indexed Bed&Market mixes property classes without selected-room/tax scope; rejected."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "representative-room-basis-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Normal Expedia EUR search, 14–16 November, two adults/one room: DoubleTree Milan €293, Hilton Garden Inn Milan North €366 for two nights, displayed taxes/fees included; Corbetta €158 rejected as wrong visitor location. Insufficient ordinary-room sample; no nightly basis accepted. Indexed Bed&Market mixes property classes without selected-room/tax scope; rejected.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "whole-day-food-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Spontini official EUR menu read, with weekday-only combo and Central Station exclusion. One business cannot establish the full breakfast/lunch/dinner basket.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 1550,
+              "currency": "EUR"
+            },
+            "unit": "person-trip"
+          },
+          "basket": {
+            "en": "One adult ATM three-day Mi1–Mi3 ticket per person for a trip of up to two nights. Other zones and airport transfers are not assumed included. Child discounts are not modelled.",
+            "sq": "Një biletë ATM treditore Mi1–Mi3 për të rritur për person për udhëtime deri në dy net. Zonat e tjera dhe transferet e aeroportit nuk supozohen të përfshira. Uljet për fëmijë nuk modelohen."
+          },
+          "methodology": "Retain previous accepted official city-transport allowance, amount and scope unchanged.",
+          "sources": [
+            {
+              "id": "atm-three-day",
+              "url": "https://www.atm.it/en/ViaggiaConNoi/Biglietti/Pages/tickets_milan.aspx",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "airport-scope-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "MIL represents MXP/LIN/BGY. No one return fare adopted for all airports; ATM pass overlap must be resolved.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "activity-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Castello visitor-page open failed; no directly readable current admission established. Old science-museum PDFs and secondary rates rejected.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "milan-room-search",
+          "url": "https://www.expedia.ie/Hotel-Search?destination=Milan&regionId=180012&startDate=2026-11-14&endDate=2026-11-16&adults=2&rooms=1&currency=EUR",
+          "type": "accommodation-observation",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "id": "spontini-menu",
+          "url": "https://spontinimilano.com/spontini-menu/",
+          "type": "official-menu",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:BRU",
+      "name": "Brussels",
+      "countryCode": "BE",
+      "currency": "EUR",
+      "origin": "dublin",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-30"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": "brussels-eur-v2",
+      "status": "PARTIAL",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-28",
+          "2026-11-30"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "EUR",
+        "outcome": "Normal Expedia EUR search, 28–30 November, two adults/one room: Argus €328, The Hotel €424, Steigenberger €436 for two nights with displayed taxes/fees included. Latter two are not a representative standard-room basket; further results remained loading. GBP results not converted. No normalized amount."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "representative-room-basis-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Normal Expedia EUR search, 28–30 November, two adults/one room: Argus €328, The Hotel €424, Steigenberger €436 for two nights with displayed taxes/fees included. Latter two are not a representative standard-room basket; further results remained loading. GBP results not converted. No normalized amount.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "whole-day-food-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Current Belgian Le Pain Quotidien menu read; no priced multi-source whole-day basket established. Old 2024 PDF/delivery-platform menu alone not accepted.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 850,
+              "currency": "EUR"
+            },
+            "unit": "person-day"
+          },
+          "basket": {
+            "en": "Reserve the adult STIB contactless daily cap per person per day. Fewer rides may cost less. Other operators and airport journeys are separate; each traveller needs a payment method.",
+            "sq": "Rezervo kufirin ditor për të rritur të STIB pa kontakt për person në ditë. Më pak udhëtime mund të kushtojnë më pak. Operatorët e tjerë dhe aeroporti janë veç; çdo udhëtar ka nevojë për mjet pagese."
+          },
+          "methodology": "Retain previous accepted official city-transport allowance, amount and scope unchanged.",
+          "sources": [
+            {
+              "id": "stib-contactless-cap",
+              "url": "https://www.stib-mivb.be/home/client-support/fares-and-transport-tickets",
+              "type": "official-transport",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "airport-scope-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "BRU/CRL transfer scope and STIB airport-fare/pass boundaries not jointly established. Ordinary city cap is not a reviewed airport quote.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "reviewed",
+          "blocker": null,
+          "normalized": {
+            "amount": {
+              "cents": 750,
+              "currency": "EUR"
+            },
+            "unit": "person-night"
+          },
+          "basket": {
+            "en": "€7.50 per person per night toward optional paid sightseeing. Two nights reserve €15, informed by €13 adult admission to either the Old Masters or Magritte museum. Not both museums; shorter trips provide only a contribution. Free sightseeing remains free.",
+            "sq": "€7.50 për person për natë për vizita fakultative me pagesë. Dy net japin €15, bazuar në hyrjen €13 për të rritur në muzeun Old Masters ose Magritte. Jo të dy muzetë; udhëtimet më të shkurtra mbulojnë vetëm një pjesë. Shëtitjet falas mbeten falas."
+          },
+          "methodology": "Official Royal Museums adult price €13 for either Old Masters or Magritte, €20 combined. €7.50/person/night gives €15 over two nights toward one museum, not both.",
+          "sources": [
+            {
+              "id": "brussels-fine-arts-admission",
+              "url": "https://fine-arts-museum.be/fr/votre-visite/planifier-sa-visite/tarifs",
+              "type": "official-attraction",
+              "checkedAt": "2026-10-08"
+            }
+          ]
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "brussels-room-search",
+          "url": "https://www.expedia.ie/Hotel-Search?destination=Brussels&regionId=178241&startDate=2026-11-28&endDate=2026-11-30&adults=2&rooms=1&currency=EUR",
+          "type": "accommodation-observation",
+          "checkedAt": "2026-10-08"
+        },
+        {
+          "id": "lpq-belgium",
+          "url": "https://www.lepainquotidien.com/be/nl/menu",
+          "type": "official-menu",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:LON",
+      "name": "London",
+      "countryCode": "GB",
+      "currency": "EUR",
+      "origin": "dublin",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-09"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-07",
+          "2026-11-09"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "EUR",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "london-gbp-caps",
+          "url": "https://www.london.gov.uk/media/111830/download",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:LAS",
+      "name": "Las Vegas",
+      "countryCode": "US",
+      "currency": "USD",
+      "origin": "chicago",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-16"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-14",
+          "2026-11-16"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "USD",
+        "outcome": "Exact 14–16 November search did not establish a representative private-room range with mandatory resort fees. Monthly Expedia averages exclude taxes/fees; timeshares have wrong duration/room basis."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "representative-room-basis-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Exact 14–16 November search did not establish a representative private-room range with mandatory resort fees. Monthly Expedia averages exclude taxes/fees; timeshares have wrong duration/room basis.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "whole-day-food-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No sufficiently scoped source basket established. Further component research deferred; no invented amount.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "current-visitor-transport-basket-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Prior RTC 403 not retried or bypassed. Accessible official Visit Las Vegas guide gives a $3–$20 range, insufficient to establish selected pass/duration/airport scope.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "airport-scope-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No verified airport-to-visitor-area return basket established through alternative official tourism source.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "activity-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No sufficiently scoped source basket established. Further component research deferred; no invented amount.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "las-vegas-tourism-transport",
+          "url": "https://www.visitlasvegas.com/plan/getting-here-and-around/maps/",
+          "type": "official-tourism",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:ORL",
+      "name": "Orlando",
+      "countryCode": "US",
+      "currency": "USD",
+      "origin": "chicago",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-09"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-07",
+          "2026-11-09"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "USD",
+        "outcome": "Exact 7–9 November search returned vacation-apartment/irrelevant-date material, not a standard private-room range with taxes/fees."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "representative-room-basis-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Exact 7–9 November search returned vacation-apartment/irrelevant-date material, not a standard private-room range with taxes/fees.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "whole-day-food-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No sufficiently scoped source basket established. Further component research deferred; no invented amount.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "current-visitor-transport-basket-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "LYNX official page verifies $2 single/$4.50 all-day. Not activated alone: visitor routing and airport-pass overlap need review together.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "airport-scope-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "ORL discovery does not establish MCO versus SFB. LYNX pass plus generic airport charge may overlap; no airport policy accepted.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "activity-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No sufficiently scoped source basket established. Further component research deferred; no invented amount.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "lynx-fares",
+          "url": "https://www.golynx.com/fares-passes/",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:FLL",
+      "name": "Fort Lauderdale",
+      "countryCode": "US",
+      "currency": "USD",
+      "origin": "chicago",
+      "originallyFit": true,
+      "exampleDates": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-23"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-21",
+          "2026-11-23"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "USD",
+        "outcome": "Exact 21–23 November search returned timeshares with wrong duration/room basis or old/wrong-currency listings, not a standard-room range including fees."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "representative-room-basis-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Exact 21–23 November search returned timeshares with wrong duration/room basis or old/wrong-currency listings, not a standard-room range including fees.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "whole-day-food-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No sufficiently scoped source basket established. Further component research deferred; no invented amount.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "current-visitor-transport-basket-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Current BCT fare URL redirects to agency overview without fare table. Old schedules/indexed historic prices insufficient for a current allowance.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "airport-scope-unresolved",
+          "normalized": null,
+          "basket": null,
+          "methodology": "Airport journey and visitor-area connections not priced from a current official source. Other South Florida airports cannot inherit one FLL fare.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "activity-basket-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No sufficiently scoped source basket established. Further component research deferred; no invented amount.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "bct-fare-redirect",
+          "url": "https://www.broward.org/BCT/Pages/FaresPasses.aspx",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "destinationId": "city:YTO",
+      "name": "Toronto",
+      "countryCode": "CA",
+      "currency": "USD",
+      "origin": "chicago",
+      "originallyFit": false,
+      "exampleDates": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-30"
+      },
+      "reviewedAt": "2026-10-08",
+      "reviewAfter": "2026-12-07",
+      "profileId": null,
+      "status": "DEFERRED",
+      "accommodationSearch": {
+        "dates": [
+          "2026-11-28",
+          "2026-11-30"
+        ],
+        "adults": 2,
+        "rooms": 1,
+        "currency": "USD",
+        "outcome": "Bounded exact-date public search did not establish a representative standard private-room sample in the required currency with visible taxes/fees. No amount normalized."
+      },
+      "components": [
+        {
+          "component": "stay",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "food",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "localTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "arrivalTransport",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        },
+        {
+          "component": "activities",
+          "status": "insufficient",
+          "blocker": "exact-currency-evidence-missing",
+          "normalized": null,
+          "basket": null,
+          "methodology": "No directly denominated planning-currency basket established. Local-currency material is context only, never FX. Further normalization deferred after this blocker.",
+          "sources": []
+        }
+      ],
+      "contextSources": [
+        {
+          "id": "ttc-cad-only",
+          "url": "https://www.ttc.ca/Fares-and-passes/Convention-Pass",
+          "type": "official-transport",
+          "checkedAt": "2026-10-08"
+        }
+      ]
+    }
+  ]
+}

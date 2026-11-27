@@ -1,0 +1,461 @@
+{
+  "city": "Istanbul",
+  "country_code": "TR",
+  "method_version": "research-v4",
+  "collected_date": "2026-11-02",
+  "airport_transfers": [
+    {
+      "airport_iata": "IST",
+      "public_option_name": "M11 airport metro: IST station to Gayrettepe station; current fare and cheapest-route comparison unresolved",
+      "public_price": {
+        "value": null,
+        "currency": "TRY",
+        "unit": "per full-fare adult for IST–Gayrettepe M11 rail journey",
+        "status": "unconfirmed",
+        "source_name": "TCDD Taşımacılık — Gayrettepe airport line fare table",
+        "source_url": "https://www.tcddtasimacilik.gov.tr/marmaray/tr/gayrettepeucretlendirme",
+        "checked_date": "2026-11-02",
+        "note": "CRITICAL UNRESOLVED AFTER SECOND PASS. The identified official M11 fare table returned a redirect loop through web retrieval and timed out in the browser; the non-www URL was also inaccessible. The official route calculator https://www.tcddtasimacilik.gov.tr/marmaray/tr/gayrettepe_neredennereye was not retrievable. UKOME decision https://application2.ibb.gov.tr/tulasim/UKOME/4115.pdf timed out. Entry debit, distance-band fare and eligibility for a refund must be distinguished; none was verified sufficiently to enter a current number. Ordinary municipal Istanbulkart fares do not establish this separately tariffed service. This is a retrieval failure, not an absent tariff or a free journey. No secondary-source amount is used."
+      },
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "TRY",
+        "unit": "per vehicle per fixed-fare airport transfer",
+        "status": "unconfirmed",
+        "source_name": "DHMİ — İstanbul Havalimanı transport information",
+        "source_url": "https://dhmi.gov.tr/Sayfalar/Havalimani/Istanbul/Ulasim.aspx",
+        "checked_date": "2026-11-02",
+        "note": "No applicable officially published fixed airport-to-centre tariff or sufficiently specified operator product was verified. This is not evidence that no fixed-price product exists."
+      },
+      "journey_legs": [
+        {
+          "origin": "IST airport metro station",
+          "destination": "Gayrettepe metro station",
+          "mode": "M11 airport metro",
+          "duration_minutes": {
+            "value": 30,
+            "currency": null,
+            "unit": "published minutes for the IST–Gayrettepe rail leg",
+            "status": "confirmed",
+            "source_name": "Türkiye Ministry of Transport and Infrastructure",
+            "source_url": "https://www.uab.gov.tr/haberler/gayrettepe-istanbul-havalimani-30-dakika?PageSpeed=noscript",
+            "checked_date": "2026-11-02",
+            "note": "Published station-pair travel time in the 2024-01-29 opening announcement, checked against the currently listed airport route. Not a live timetable or terminal-access duration; current service conditions require rechecking."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "Standard yellow taxi; current tariff not retrieved",
+          "applicability": "Candidate municipal metered tariff. Current vehicle classification and airport-specific additions require confirmation; no transfer total can be calculated from this record.",
+          "base_fare": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle per kilometre",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "airport_iata": "SAW",
+      "public_option_name": "M4 metro: SAW airport station to Kadıköy, Asian-side centre; ordinary daytime Istanbulkart fare",
+      "public_price": {
+        "value": 46.2,
+        "currency": "TRY",
+        "unit": "per full-fare adult ordinary Istanbulkart boarding, SAW–Kadıköy M4",
+        "status": "confirmed",
+        "source_name": "İETT — official public transport tariff",
+        "source_url": "https://iett.istanbul/icerik/IETT-Toplu-Ulasim-ucret-Tarifesi",
+        "checked_date": "2026-11-02",
+        "note": "Ordinary municipal rail full-fare boarding from the already visually verified İETT tariff, effective 2026-07-20. M4 endpoint and route verified in the indexed official operator page https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M4&trk=public_profile_project-button. This buys the M4 leg to Kadıköy on the Asian side, not a cross-Bosphorus journey. Card acquisition, onward travel and special night-service conditions are excluded. It is the verified standard metro option; an exhaustive current comparison of every airport bus product was not established. Current operator fare corroboration: https://www.metro.istanbul/seferdurumlari/biletucretleri (checked 2026-11-02) explicitly lists ordinary full-fare İstanbulkart boarding at the same amount."
+      },
+      "fixed_fare_transfer": {
+        "value": null,
+        "currency": "TRY",
+        "unit": "per vehicle per fixed-fare airport transfer",
+        "status": "unconfirmed",
+        "source_name": "İstanbul Sabiha Gökçen International Airport — transportation",
+        "source_url": "https://www.sabihagokcen.aero/passengers-and-visitors/transport-and-parking/transportation/homepage",
+        "checked_date": "2026-11-02",
+        "note": "No applicable officially published fixed airport-to-centre tariff or sufficiently specified operator product was verified. This is not evidence that no fixed-price product exists."
+      },
+      "journey_legs": [
+        {
+          "origin": "SAW airport metro station",
+          "destination": "Kadıköy metro station",
+          "mode": "M4 metro",
+          "duration_minutes": {
+            "value": 52,
+            "currency": null,
+            "unit": "published minutes for the complete M4 rail leg",
+            "status": "confirmed",
+            "source_name": "Metro İstanbul — M4 route information",
+            "source_url": "https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M4&trk=public_profile_project-button",
+            "checked_date": "2026-11-02",
+            "note": "Official operator page indexed as crawled in the preceding month publishes Sefer Süresi: 52 Dakika (Tek Yönde). Direct page retrieval timed out. This is the operator-published line time, not a live timetable or a terminal-to-hotel estimate; walking, waiting and onward travel are excluded."
+          }
+        }
+      ],
+      "taxi_tariffs": [
+        {
+          "name": "Standard yellow taxi; current tariff not retrieved",
+          "applicability": "Candidate municipal metered tariff. Current vehicle classification and airport-specific additions require confirmation; no transfer total can be calculated from this record.",
+          "base_fare": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle at meter start",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          },
+          "per_km": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle per kilometre",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          },
+          "per_waiting_minute": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle per waiting minute",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          },
+          "airport_surcharge": {
+            "value": null,
+            "currency": "TRY",
+            "unit": "per vehicle per airport pickup",
+            "status": "unconfirmed",
+            "source_name": "İBB Toplu Ulaşım Hizmetleri Müdürlüğü — taxi tariff",
+            "source_url": "https://tuhim.ibb.gov.tr/media/27494/taksi-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1-%C3%BCcret-tarifesi.pdf",
+            "checked_date": "2026-11-02",
+            "note": "Second-pass verification failed: the current tariff PDF, official consolidated tariff https://tuhim.ibb.gov.tr/media/27490/2027ucretler.pdf and annual table https://tuhim.ibb.gov.tr/media/27503/taksi.pdf timed out. An older February tariff is indexed but cannot establish the current November amount. Figures repeated on third-party calculators were not adopted. No zero surcharge or derived per-minute amount is asserted."
+          }
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "single": {
+      "value": 46.2,
+      "currency": "TRY",
+      "unit": "per full-fare ordinary Istanbulkart boarding on the listed municipal network",
+      "status": "confirmed",
+      "source_name": "İETT — official public transport tariff",
+      "source_url": "https://iett.istanbul/icerik/IETT-Toplu-Ulasim-ucret-Tarifesi",
+      "checked_date": "2026-11-02",
+      "note": "Official tariff image visually inspected. Council decision dated 2026-07-17, effective 2026-07-20. Ordinary full-fare Istanbulkart boarding; card acquisition is excluded. This is not an all-inclusive continuous-journey or special airport/distance/night tariff. Eligibility for discounted transfers is not assumed.",
+      "validity_area": "Ordinary municipal full-fare network covered by the İETT tariff, including standard Metro İstanbul rail boarding; special airport, distance-based and night tariffs excluded."
+    },
+    "day_pass": {
+      "value": null,
+      "currency": "TRY",
+      "unit": "per adult per 24 consecutive hours",
+      "status": "unconfirmed",
+      "source_name": "BELBİM / İstanbulkart — fares and limits",
+      "source_url": "https://www.istanbulkart.istanbul/ucretler-limitler/",
+      "checked_date": "2026-11-02",
+      "note": "CRITICAL UNRESOLVED AFTER SECOND PASS. BELBİM’s official fares page exposes an İstanbul City Card Fiyat Tarifesi button, but retrieved content contains only the default card-acquisition table. Browser navigation failed with ERR_NETWORK_CHANGED and a direct network retrieval timed out. Official site/domain searches did not expose the one-day price table. Current prices repeated by travel sites cannot substitute for opening the official tab. No current price is verified; this is not not_offered. A product labelled in days would also need its activation/expiry terms checked before treating it as consecutive hours. A final hidden-browser attempt also timed out during Page.navigate; the table was not inspected successfully.",
+      "validity_area": "İstanbul City Card network; exact service coverage, airport acceptance and rolling-hour validity not verified.",
+      "validity_kind": "unconfirmed",
+      "satisfies_rolling_24h_requirement": null
+    },
+    "pass_72h": {
+      "value": null,
+      "currency": "TRY",
+      "unit": "per adult per 72 consecutive hours",
+      "status": "unconfirmed",
+      "source_name": "BELBİM / İstanbulkart — fares and limits",
+      "source_url": "https://www.istanbulkart.istanbul/ucretler-limitler/",
+      "checked_date": "2026-11-02",
+      "note": "CRITICAL UNRESOLVED AFTER SECOND PASS. BELBİM’s official fares page exposes an İstanbul City Card Fiyat Tarifesi button, but retrieved content contains only the default card-acquisition table. Browser navigation failed with ERR_NETWORK_CHANGED and a direct network retrieval timed out. Official site/domain searches did not expose the three-day price table. Current prices repeated by travel sites cannot substitute for opening the official tab. No current price is verified; this is not not_offered. A product labelled in days would also need its activation/expiry terms checked before treating it as consecutive hours. A final hidden-browser attempt also timed out during Page.navigate; the table was not inspected successfully.",
+      "validity_area": "İstanbul City Card network; exact service coverage, airport acceptance and rolling-hour validity not verified."
+    }
+  },
+  "tourist_tax": {
+    "periods": [
+      {
+        "from": "2026-05-01",
+        "to": "2026-12-31",
+        "basis": "percent_of_accommodation_services_net",
+        "rate": {
+          "value": 1,
+          "currency": null,
+          "unit": "percent of statutory net accommodation-service consideration",
+          "status": "confirmed",
+          "source_name": "Gelir İdaresi Başkanlığı — Law 6802, article 34, annotated with Presidential Decision 11263",
+          "source_url": "https://corum.gib.gov.tr/mevzuat/kanun/445",
+          "checked_date": "2026-11-02",
+          "note": "National accommodation tax, not an Istanbul municipal levy. Article 34's temporary rate annotation applies through 2026-12-31. The base excludes VAT but includes accommodation and services sold together with it at the establishment; The distinct basis percent_of_accommodation_services_net preserves those bundled services. Separately shown accommodation tax is not part of the VAT base. Legal text read directly in the official browser page; corroborating GİB notice: https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU%2FUNIVERSAL%2F2026%2FCK11263_not.pdf."
+        },
+        "exemptions": "Article 34 exempts services provided to students in student dormitories, boarding houses and camps; reciprocal qualifying foreign diplomatic/consular missions and their privileged members; and treaty-exempt international organisations and members. No general leisure/business or child exemption was verified.",
+        "legal_source_url": "https://corum.gib.gov.tr/mevzuat/kanun/445",
+        "assessment_base": {
+          "kind": "accommodation_and_services_sold_together_net_of_vat",
+          "includes": "Accommodation plus services sold together at the establishment.",
+          "excludes": "VAT; separately identified accommodation tax is not itself in the VAT base.",
+          "source_url": "https://corum.gib.gov.tr/mevzuat/kanun/445",
+          "source_name": "Gelir İdaresi Başkanlığı — Law 6802, article 34, annotated with Presidential Decision 11263",
+          "checked_date": "2026-11-02"
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "statutory_net_assessment_base",
+            "tax_service_date",
+            "currency_rounding_rule",
+            "property_pass_through_and_tax_inclusion"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed"
+          ],
+          "evidence_gaps": [
+            "A complete currency-rounding rule and guest invoice/VAT treatment are not encoded; the confirmed percentage alone cannot yield an exact guest invoice from a gross room quote."
+          ],
+          "status": "conditional",
+          "supported_case": "Applicable statutory liability using a verified legal assessment base, with eligibility resolved and no unsupported historical contract.",
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      },
+      {
+        "from": "2027-01-01",
+        "to": null,
+        "basis": "percent_of_accommodation_services_net",
+        "rate": {
+          "value": 2,
+          "currency": null,
+          "unit": "percent of statutory net accommodation-service consideration",
+          "status": "confirmed",
+          "source_name": "Gelir İdaresi Başkanlığı — Law 6802, article 34",
+          "source_url": "https://corum.gib.gov.tr/mevzuat/kanun/445",
+          "checked_date": "2026-11-02",
+          "note": "Statutory rate resumes after Decision 11263's expressly dated temporary reduction expires. This is the legal outcome under the text checked on 2026-11-02, conditional on no later extension or amendment, rather than a newly announced permanent increase. Same statutory base and exemptions as the preceding period; future travel must trigger a recheck."
+        },
+        "exemptions": "Same article 34 exemptions as the preceding period, subject to subsequent legislation.",
+        "legal_source_url": "https://corum.gib.gov.tr/mevzuat/kanun/445",
+        "assessment_base": {
+          "kind": "accommodation_and_services_sold_together_net_of_vat",
+          "includes": "Accommodation plus services sold together at the establishment.",
+          "excludes": "VAT; separately identified accommodation tax is not itself in the VAT base.",
+          "source_url": "https://corum.gib.gov.tr/mevzuat/kanun/445",
+          "source_name": "Gelir İdaresi Başkanlığı — Law 6802, article 34",
+          "checked_date": "2026-11-02"
+        },
+        "calculation": {
+          "research_parameters_complete_for_supported_case": true,
+          "exact_guest_total_from_record_alone": false,
+          "required_inputs": [
+            "stay_dates",
+            "property_jurisdiction",
+            "verified_exemption_eligibility",
+            "tax_already_included_in_booking_quote",
+            "statutory_net_assessment_base",
+            "tax_service_date",
+            "currency_rounding_rule",
+            "property_pass_through_and_tax_inclusion"
+          ],
+          "refuse_when": [
+            "basis has no explicitly implemented calculator",
+            "required inputs are missing or exemption eligibility is unresolved",
+            "an operational numeric record is unconfirmed or disputed"
+          ],
+          "evidence_gaps": [
+            "A complete currency-rounding rule and guest invoice/VAT treatment are not encoded; the confirmed percentage alone cannot yield an exact guest invoice from a gross room quote."
+          ],
+          "status": "conditional",
+          "supported_case": "Applicable statutory liability using a verified legal assessment base, with eligibility resolved and no unsupported historical contract.",
+          "condition_kind": "exact_liability_requires_observed_base",
+          "structural_dependency": "Exact statutory-liability mode requires an actual legal assessment base. Planning mode instead uses the approved inclusive accommodation allowance and never adds this tax.",
+          "planning_treatment": {
+            "status": "included_in_allowance_by_model_definition",
+            "registry_reference": "tax-basis-registry.json#/allowance_definition",
+            "statutory_addition": "prohibited",
+            "observed_price_claim": false
+          },
+          "exact_charge_scope_note": "Existing supported_case, required_inputs and evidence_gaps describe exact statutory/invoice mode only. The prior model-derived tax proposal was superseded by the owner’s inclusive allowance decision on 2026-11-02."
+        }
+      }
+    ]
+  },
+  "accommodation_charges": [],
+  "eating_out": {
+    "cheap_meal": {
+      "value": 100,
+      "currency": "TRY",
+      "unit": "per Kent Menü paid by bank or credit card",
+      "status": "confirmed",
+      "source_name": "İstanbul Büyükşehir Belediyesi — İşletmeler Şube Müdürlüğü, 2026 second-period tariff",
+      "source_url": "https://uploads.ibb.istanbul/uploads/isletmeler_mudurlugu_d33fa805fb.pdf",
+      "checked_date": "2026-11-02",
+      "note": "PDF page 22 (zero-based page 21), Kent Lokantaları table. Includes soup, main, side, salad or fruit, bread and water; VAT included. Explicitly valid through 2026-12-31. The separately discounted Istanbulkart payment product is not the selected bank-card observation. This is a municipal canteen meal, not a full-service restaurant average; daily menu and stock availability were not verified."
+    },
+    "midrange_meal_for_two": {
+      "value": 4300,
+      "currency": "TRY",
+      "unit": "per published dinner package for two, drinks excluded",
+      "status": "confirmed",
+      "source_name": "Pino Gare Roof Restaurant — current official menu offers",
+      "source_url": "https://pinogareroofrestaurant.com/tr",
+      "checked_date": "2026-11-02",
+      "note": "Named observation: Boğaz Manzaralı Akşam Yemeği Paketi at the Sirkeci restaurant. Includes mixed mezze, salad, the specified kebab dishes and semolina dessert. The menu explicitly prices the package for two, so nothing was multiplied. No official midrange classification, service-charge inclusion or dated tariff validity was established. This package must not become a representative city average."
+    },
+    "coffee": {
+      "value": 260,
+      "currency": "TRY",
+      "unit": "per cappuccino at Limonlu Bahçe Beyoğlu",
+      "status": "confirmed",
+      "source_name": "Limonlu Bahçe Beyoğlu — official menu",
+      "source_url": "https://www.limonlubahcebeyoglu.com/",
+      "checked_date": "2026-11-02",
+      "note": "The live menu's latte/cappuccino line is the observed product. No menu effective date or comprehensive service-charge terms were established. A named café observation, not an average of coffee types or venues."
+    }
+  },
+  "attractions": [
+    {
+      "name": "Topkapı Palace — palace, Hagia Irene and Harem combined foreign-visitor ticket",
+      "entry_price": {
+        "value": 2750,
+        "currency": "TRY",
+        "unit": "per full-fare foreign adult combined ticket",
+        "status": "confirmed",
+        "source_name": "Milli Saraylar — Topkapı Palace",
+        "source_url": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
+        "checked_date": "2026-11-02",
+        "note": "Foreign-visitor combined tariff; domestic and standalone Harem tickets are different products. The site lists on-site ticket-office hours and an e-ticket route, but a clear current individual advance-booking obligation was not established, so the booking boolean remains null. Tuesday closure applies; no future-slot availability is asserted."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Dolmabahçe Palace — Selamlık, Harem and Painting Museum foreign-visitor ticket",
+      "entry_price": {
+        "value": 2000,
+        "currency": "TRY",
+        "unit": "per full-fare foreign adult combined ticket",
+        "status": "confirmed",
+        "source_name": "Milli Saraylar — Dolmabahçe Palace",
+        "source_url": "https://www.millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi",
+        "checked_date": "2026-11-02",
+        "note": "Specified combined ticket, not the wider National Palaces pass. Published validity wording on the page is inconsistent between its heading and general combined-ticket conditions; no validity duration is promoted. Closed Mondays, including the collection date. On-site office hours alone do not settle a mandatory advance-booking policy, so the boolean is null."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Basilica Cistern — daytime foreign-visitor admission",
+      "entry_price": {
+        "value": 1950,
+        "currency": "TRY",
+        "unit": "per foreign adult daytime admission, without audio guide",
+        "status": "confirmed",
+        "source_name": "İBB Kültür AŞ — Yerebatan Sarnıcı",
+        "source_url": "https://kultur.istanbul/yerebatan-sarnici-muzesi/",
+        "checked_date": "2026-11-02",
+        "note": "Daytime product for the published 09:00–18:30 band. Night admission and audio-guide bundles are separate products. The operator permits card or Istanbulkart payment at museum entrances, but this alone does not establish whether an advance reservation is ever compulsory. The linked visitor-rules page could not be retrieved: https://yerebatan.com/yerebatan/ziyaret-bilgileri/. The booking boolean therefore remains null; no immediate-entry or queue claim is made."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Hagia Sophia — upper visitor gallery",
+      "entry_price": {
+        "value": null,
+        "currency": "TRY",
+        "unit": "per foreign adult upper-gallery admission",
+        "status": "unconfirmed",
+        "source_name": "Türkiye Ministry of Culture and Tourism — Ayasofya ticket listing",
+        "source_url": "https://muze.gov.tr/urun-detay?CatalogNo=WEB-AYS01-01-008",
+        "checked_date": "2026-11-02",
+        "note": "The Ministry ticket listing provides no applicable TRY amount and uses a legacy museum label. It was not treated as sufficient evidence for a current upper-gallery price or booking rule. No domestic-visitor amount, foreign-currency conversion, or separate Hagia Sophia History and Experience Museum ticket has been substituted."
+      },
+      "booking_ahead_required": null
+    },
+    {
+      "name": "Galata Tower — standard foreign-visitor admission",
+      "entry_price": {
+        "value": null,
+        "currency": "TRY",
+        "unit": "per foreign adult admission",
+        "status": "unconfirmed",
+        "source_name": "Türkiye Ministry of Culture and Tourism — İstanbul Galata Kulesi",
+        "source_url": "https://muze.gov.tr/muze-detay?distId=MRK&sectionId=GLT04",
+        "checked_date": "2026-11-02",
+        "note": "No current foreign-visitor TRY price was established on the official page. Its Turkish-citizen MüzeKart night supplement is a different eligibility/product combination and cannot be applied to a foreign tourist. No euro-denominated listing was converted. A mandatory advance-booking rule was not verified."
+      },
+      "booking_ahead_required": null
+    }
+  ],
+  "unresolved": [
+    "Research only. This file is not the production cost schema and must never be read by the application. A future transform must reject unconfirmed/disputed records and preserve product, date, endpoint, visitor eligibility and purchase-channel conditions even for confirmed records.",
+    "Eating-out records are named menu observations, not city averages or daily budgets. No official citywide midrange classification was established. Published two-person dishes/packages are recorded directly without doubling individual prices; their inclusions matter.",
+    "The five attractions are a research selection, not a verified popularity ranking. Published tariffs do not assert availability on the collection date or a future travel date. Booking-policy evidence is retained in entry_price.note because the agreed boolean has no envelope.",
+    "accommodation_charges contains verified non-tax accommodation charges. An empty array means no such charge was verified in this research; it is not proof that every property has no service, resort or other fee. Property-specific charges require property-level evidence.",
+    "The temporary national accommodation-tax reduction expires at the end of 2026. Do not carry its rate into 2027 without rechecking the law. The new percent_of_accommodation_services_net basis records the bundled-services base explicitly; the transform must implement that exact basis.",
+    "Foreign-visitor TRY prices remain unconfirmed for Hagia Sophia's upper gallery and Galata Tower. The own-currency requirement was preserved without conversion or use of resident concessions.",
+    "research-v3 removes overall journey_minutes, attraction durations and taxi fare ranges. journey_legs contains only identifiable operator-published legs; interchange/walking assumptions belong to a later model. taxi_tariffs is an array of named applicability categories, each with base_fare, per_km, per_waiting_minute and airport_surcharge envelopes; distance/time/vehicle bands must remain separate. Transit envelopes add validity_area. No app or production cost schema consumes these files.",
+    "Airport scope remains IST and SAW from the repository configuration, without independently verifying live origin schedules. SAW now has an ordinary M4 boarding price and a published rail-leg time to Kadıköy; the European-side destination remains an additional journey, not silently included.",
+    "The IST M11 fare and City Card day-pass price remain critical unresolved inputs despite a targeted second pass. Official tariff locations were identified but their required content could not be read. The failure and entry-debit/refund distinction are recorded at the affected envelopes. They must be rejected by any transform; no ordinary metro fare, historical amount, reseller amount or inferred price is a substitute.",
+    "The current official taxi PDF and consolidated tariff were inaccessible. An indexed older tariff is not a current rate. Airport surcharges and fixed-transfer products remain unconfirmed rather than zero or not_offered.",
+    "Booking-policy booleans remain unknown where no explicit applicable rule was verified. Removed visit-duration fields are intentionally outside this cost research.",
+    "research-v4 adds the closed tax basis registry and calculation metadata. Conditional means the recorded formula supports only its named case with all required inputs; it does not mean a guest total is ready. Unknown basis, unsupported assessment, missing inputs and unresolved evidence must cause explicit refusal, never an average, nearest-shape mapping or zero.",
+    "Conditional reframing: this tax depends structurally on the accommodation model. The registry proposes a derived tax component with the stay estimate’s provenance and an explicit incomplete-total state whenever a required charge cannot be represented. No actual room quote is expected from city research; no production calculator or result-card change is made here.",
+    "2026-11-02 owner decision supersedes the earlier model-derived tax proposal: statutory accommodation tax is inside the traveller-payable allowance and must never be added again. Exact legal research remains for plausibility/inclusion checks and future provider reconciliation; no tax transform is implemented."
+  ],
+  "tax_basis_registry": "tax-basis-registry.json"
+}

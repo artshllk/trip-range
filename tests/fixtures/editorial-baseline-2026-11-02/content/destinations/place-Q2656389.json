@@ -1,0 +1,294 @@
+{
+  "destinationId": "place:Q2656389",
+  "identitySubject": "place:Q2656389",
+  "contentVersion": 3,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T08:55:41.737Z",
+  "sourceIds": [
+    "source:worldwide:place-Q2656389:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q2656389:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2656389",
+      "title": "Mauritius Island (Q2656389)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T14:41:59.555Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q2656389"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q2656389:ghat",
+      "type": "official",
+      "url": "https://whc.unesco.org/en/list/1227",
+      "title": "Aapravasi Ghat",
+      "publisher": "UNESCO World Heritage Centre",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q2656389:morne",
+      "type": "official",
+      "url": "https://whc.unesco.org/en/list/1259",
+      "title": "Le Morne Cultural Landscape",
+      "publisher": "UNESCO World Heritage Centre",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q2656389:garden",
+      "type": "official",
+      "url": "https://ssrbg.govmu.org/ssrbg/?Source=%2FSitePages%2FIndex.aspx",
+      "title": "Sir Seewoosagur Ramgoolam Botanic Garden",
+      "publisher": "SSR Botanic Garden Trust",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q2656389:gorges",
+      "type": "official",
+      "url": "https://npcs.govmu.org/Pages/National%20Parks/Black-River-Gorges-National-Parks.aspx",
+      "title": "Black River Gorges National Park",
+      "publisher": "Mauritius National Parks and Conservation Service",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q2656389:island",
+      "type": "official",
+      "url": "https://www.govmu.org/EN/Pages/exploremauritius.aspx",
+      "title": "Explore Mauritius",
+      "publisher": "Government of Mauritius",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q2656389:access",
+      "type": "official",
+      "url": "https://aml.mru.aero/index.php/contact-us",
+      "title": "SSR International Airport location",
+      "publisher": "Airports of Mauritius",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T08:55:41.737Z",
+    "sourceIds": [
+      "source:worldwide:place-Q2656389:ghat",
+      "source:worldwide:place-Q2656389:gorges",
+      "source:worldwide:place-Q2656389:garden"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Mauritius Island offers migration history, botanical collections and forested uplands. Northern and southwestern sights work as separate outings.",
+      "sq": "Ishulli Mauritius ofron histori migrimi, koleksione botanike dhe zona malore të pyllëzuara. Vendet në veri dhe jugperëndim planifikohen si vizita më vete."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q2656389:1",
+      "text": {
+        "en": "Migration history in Port Louis",
+        "sq": "Histori migrimi në Port Louis"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:ghat"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q2656389:2",
+      "text": {
+        "en": "Native forest in Black River Gorges",
+        "sq": "Pyll vendas në Black River Gorges"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:gorges"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q2656389:aapravasi",
+      "destinationId": "place:Q2656389",
+      "name": {
+        "en": "Aapravasi Ghat",
+        "sq": "Aapravasi Ghat"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "Remains of the Port Louis immigration depot associated with indentured labour: migrant workers bound by labour contracts in the colonial plantation system.",
+        "sq": "Mbetjet e qendrës së imigracionit në Port Louis, të lidhura me sistemin kolonial të punës me kontratë (indentured labour), ku punëtorët migrantë ishin të lidhur me kontrata pune për një periudhë të caktuar."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:ghat"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q2656389:garden",
+      "destinationId": "place:Q2656389",
+      "name": {
+        "en": "Sir Seewoosagur Ramgoolam Botanic Garden",
+        "sq": "Kopshti Botanik Sir Seewoosagur Ramgoolam"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "A botanical garden in Pamplemousses, northeast of Port Louis.",
+        "sq": "Kopsht botanik në Pamplemousses, në verilindje të Port Louis."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:garden"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q2656389:gorges",
+      "destinationId": "place:Q2656389",
+      "name": {
+        "en": "Black River Gorges National Park",
+        "sq": "Parku Kombëtar Black River Gorges"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A southwestern forest park conserving endemic plants and wildlife.",
+        "sq": "Park pyjor jugperëndimor që ruan bimë dhe kafshë endemike."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:gorges"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q2656389:le-morne",
+      "destinationId": "place:Q2656389",
+      "name": {
+        "en": "Le Morne Cultural Landscape",
+        "sq": "Peizazhi kulturor Le Morne"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A mountain landscape associated with refuge and resistance to slavery.",
+        "sq": "Peizazh malor i lidhur me strehimin dhe rezistencën ndaj skllavërisë."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:morne"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q2656389:port-louis",
+      "destinationId": "place:Q2656389",
+      "name": {
+        "en": "Port Louis",
+        "sq": "Port Louis"
+      },
+      "summary": {
+        "en": "The capital and location of Aapravasi Ghat, southwest of Pamplemousses.",
+        "sq": "Kryeqyteti dhe vendndodhja e Aapravasi Ghat, në jugperëndim të Pamplemousses."
+      },
+      "goodFor": [
+        {
+          "en": "A base for the northern cultural sites.",
+          "sq": "Bazë për vendet kulturore veriore."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Black River Gorges is a separate southwestern outing.",
+          "sq": "Black River Gorges është dalje më vete në jugperëndim."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:ghat",
+        "source:worldwide:place-Q2656389:garden",
+        "source:worldwide:place-Q2656389:gorges"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q2656389:park-approach",
+      "destinationId": "place:Q2656389",
+      "title": {
+        "en": "Plan arrival and park access separately",
+        "sq": "Planifiko veçmas mbërritjen dhe hyrjen në park"
+      },
+      "guidance": {
+        "en": "SSR International Airport is at Plaine Magnien on the main island. Plan the journey to your base separately from any Black River Gorges visit; check the chosen park access point and return arrangements.",
+        "sq": "Aeroporti ndërkombëtar SSR ndodhet në Plaine Magnien, në ishullin kryesor. Planifiko rrugën drejt bazës veçmas nga vizita në Black River Gorges; kontrollo pikën e hyrjes në park dhe mënyrën e kthimit."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:access",
+        "source:worldwide:place-Q2656389:gorges"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q2656389:heritage",
+      "destinationId": "place:Q2656389",
+      "kind": "other",
+      "text": {
+        "en": "Approach Le Morne and Aapravasi Ghat as places of remembrance as well as historic sites.",
+        "sq": "Vizito Le Morne dhe Aapravasi Ghat si vende përkujtimi dhe trashëgimie historike."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:55:41.737Z",
+      "sourceIds": [
+        "source:worldwide:place-Q2656389:morne",
+        "source:worldwide:place-Q2656389:ghat"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "2abc43ee34d25fffba3f34d7333632ffb38cec18691d1707bde5db04971f7ac2",
+    "identityDigest": "6b90aaa07bd64410b2bd3dcaa4c4f2f34f29d682f8f94feb47d5b3da381e8f55",
+    "approvedAt": "2026-10-15T08:55:41.737Z"
+  }
+}

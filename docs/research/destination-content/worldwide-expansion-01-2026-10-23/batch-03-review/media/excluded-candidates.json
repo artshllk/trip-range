@@ -1,0 +1,21 @@
+{
+  "status": "excluded-not-owner-candidates",
+  "candidates": [
+    {
+      "assetId": "commons:47222541",
+      "reason": "Large visible author watermark and heavily processed appearance; do not erase it or offer cropped-out credit as a cleared candidate."
+    },
+    {
+      "assetId": "commons:145186147",
+      "reason": "Skyline lacks visual clarity in the actual source image."
+    },
+    {
+      "assetId": "commons:133594187",
+      "reason": "Individual source page explicitly warns about UAE architectural copyright / lack of freedom of panorama. Photo CC licence alone does not clear this issue; no publication or approval requested."
+    },
+    {
+      "assetId": "commons:59077212",
+      "reason": "Individual source history flags embedded non-image data; not retained as an original review asset."
+    }
+  ]
+}

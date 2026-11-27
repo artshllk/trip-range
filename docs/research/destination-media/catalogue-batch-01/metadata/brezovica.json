@@ -1,0 +1,98 @@
+{
+  "query": {
+    "pages": {
+      "24412078": {
+        "pageid": 24412078,
+        "ns": 6,
+        "title": "File:Brezovica Ski Resort.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 3887924,
+            "width": 3008,
+            "height": 2000,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Brezovica_Ski_Resort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Brezovica_Ski_Resort.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24412078",
+            "sha1": "b369ef1e70af54e206193ec60893244c1af2dffb",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-02 21:42:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Brezovica Ski Resort",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Brezovica (Štrpce)|Taken with Nikon D40|Self-published work|Wiki Academy Kosovo Photo Contest",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sunny day at Brezovica Ski Resort",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-01-29 15:50:41",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bujar_I_Gashi\" title=\"User:Bujar I Gashi\">Bujar I Gashi</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

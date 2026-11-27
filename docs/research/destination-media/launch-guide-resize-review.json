@@ -1,0 +1,107 @@
+{
+  "reviewer": "Art Shllaku",
+  "reviewedAt": "2026-11-11T12:56:56.941Z",
+  "scope": "Resizing only, to 320 and 800 pixels wide from the approved 1920-pixel image with the original framing.",
+  "assets": [
+    {
+      "source": "/destinations/vienna-1920.webp",
+      "sourceSha256": "c07bff47eb6f649d8a743381b11547478845ecb6435b6c46f5998b42fcf47a8c",
+      "outputs": [
+        {
+          "src": "/destinations/vienna-320.webp",
+          "width": 320,
+          "height": 213,
+          "bytes": 11888,
+          "sha256": "9c5476c41d58415ca70cd6434b372b3e8feb2258f578e185e507645ccc2b7006"
+        },
+        {
+          "src": "/destinations/vienna-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 56200,
+          "sha256": "6e963545e0ad24df7c53c16614d13d863e98571ad496a06c9291cae63814d4c3"
+        }
+      ]
+    },
+    {
+      "source": "/destinations/london-1920.webp",
+      "sourceSha256": "154d7cc849d848f7c3041be75514452e83bf95735f501e57ddc99354420e312d",
+      "outputs": [
+        {
+          "src": "/destinations/london-320.webp",
+          "width": 320,
+          "height": 180,
+          "bytes": 14332,
+          "sha256": "28a213ded1a16a603d2735534bd4ec72f074630d8226991b87d83929a413da45"
+        },
+        {
+          "src": "/destinations/london-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 68552,
+          "sha256": "46dcffba1886c8df2c339bc490ec9432e7333afb7f39086d794e08b3b3033d49"
+        }
+      ]
+    },
+    {
+      "source": "/destinations/paris-1920.webp",
+      "sourceSha256": "88a21345c71ffce7fa7ab839a5f6aafa0ffd58d6d06a83b22bbea136f61a4f92",
+      "outputs": [
+        {
+          "src": "/destinations/paris-320.webp",
+          "width": 320,
+          "height": 128,
+          "bytes": 7016,
+          "sha256": "80532f46c47815acff812139888d71b5f99d00eb8a57a524f946c66b342a53e0"
+        },
+        {
+          "src": "/destinations/paris-800.webp",
+          "width": 800,
+          "height": 320,
+          "bytes": 35732,
+          "sha256": "b5ec55008cb8b636eb3590e7418deb307f78e642f18be89f27931e634ba4c2a1"
+        }
+      ]
+    },
+    {
+      "source": "/destinations/istanbul-1920.webp",
+      "sourceSha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70",
+      "outputs": [
+        {
+          "src": "/destinations/istanbul-320.webp",
+          "width": 320,
+          "height": 128,
+          "bytes": 9938,
+          "sha256": "b7a7455f07f606a602e53157cb1b68b6e5a8f571df695a0b0f0bae7f34efb278"
+        },
+        {
+          "src": "/destinations/istanbul-800.webp",
+          "width": 800,
+          "height": 320,
+          "bytes": 44860,
+          "sha256": "a7897a9a4451e19eda0b28fe3994fb2fb10a341da9e9e8cbaba3fed4b858b369"
+        }
+      ]
+    },
+    {
+      "source": "/destinations/barcelona-batch1-v1-1920.webp",
+      "sourceSha256": "4a40afc341762b47ec4857950b380ddc05e994357f714a3b13331245749b20b2",
+      "outputs": [
+        {
+          "src": "/destinations/barcelona-batch1-v1-320.webp",
+          "width": 320,
+          "height": 241,
+          "bytes": 18434,
+          "sha256": "9e0b347a19d5469475d7c3b0bbfaedfd3331e50942317417a6887c488c45c94d"
+        },
+        {
+          "src": "/destinations/barcelona-batch1-v1-800.webp",
+          "width": 800,
+          "height": 603,
+          "bytes": 90536,
+          "sha256": "4d07b7f296e3f641330b4a5a0c31d39f836180e4810a894d63e10d062abf0080"
+        }
+      ]
+    }
+  ]
+}

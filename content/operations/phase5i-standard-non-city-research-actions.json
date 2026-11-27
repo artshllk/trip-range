@@ -1,0 +1,478 @@
+{
+  "schemaVersion": 1,
+  "phase": "5I",
+  "actions": [
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.wikidata.org/wiki/Q4648",
+      "purpose": "Recheck Bali (Q4648)",
+      "result": "Identity label/type and selected Q subject rechecked; canonical registry remains unchanged.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/id/id/travel-ideas/pilgrimage/pura-uluwatu",
+      "purpose": "Recheck Pura Uluwatu",
+      "result": "Cliffside Hindu temple, worship-area and dress context confirmed.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/bali/tanah-lot",
+      "purpose": "Recheck Tanah Lot",
+      "result": "Tabanan coastal rock temple confirmed; legends not adopted as factual history.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/id/id/travel-ideas/pilgrimage/pura-tirta-empul",
+      "purpose": "Recheck Tirta Empul",
+      "result": "Springs and melukat described as Hindu religious tradition; no efficacy or participation claim adopted.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/bali/istana-ubud",
+      "purpose": "Recheck Istana Ubud",
+      "result": "Puri Saren Agung central Ubud royal residence and Balinese architecture confirmed.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/sg/en/travel-ideas/heritage/6-must-visit-temples-in-bali-to-experience-bliss",
+      "purpose": "Recheck Temple visits and access in Bali",
+      "result": "Official temple etiquette and distinct road journeys confirmed; fares, durations and ceremony promises excluded.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/bali/denpasar",
+      "purpose": "Recheck Arrival at Ngurah Rai International Airport",
+      "result": "Official authority confirms the bounded arrival relationship; no fare, transfer amount or identity equality inferred.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify operational city/airport membership for DPS",
+      "result": "Confirmed DPS: DPS; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "destination": "place:Q4648",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify operational city/airport membership for DPS",
+      "result": "Confirmed DPS: DPS; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.wikidata.org/wiki/Q40846",
+      "purpose": "Recheck Tenerife (Q40846)",
+      "result": "Identity label/type and selected Q subject rechecked; canonical registry remains unchanged.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/que-visitar/parque-nacional-del-teide/",
+      "purpose": "Recheck Teide National Park",
+      "result": "Central volcanic park and current access guidance verified; no summit or cable-car guarantee.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/que-visitar/otros-espacios-naturales/parque-rural-de-anaga/",
+      "purpose": "Recheck Anaga Rural Park",
+      "result": "Northeastern laurel-forest area and rural settlements confirmed.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/que-hacer/rutas/coche/teide-la-laguna-anaga-candelaria/",
+      "purpose": "Recheck Teide, La Laguna, Anaga and Candelaria",
+      "result": "La Laguna historic buildings and cobbled streets confirmed; source’s one-day driving route not adopted.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/tenerife/la-isla/municipios/puerto-cruz/",
+      "purpose": "Recheck Puerto de la Cruz",
+      "result": "Historic fishing harbour and north-coast town confirmed.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/planea-viaje/informacion-util/tabla-distancias-tenerife/",
+      "purpose": "Recheck Tenerife journey distances",
+      "result": "Different airport/base journeys confirmed from official distance table; no numeric travel claims imported.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://www.webtenerife.com/planea-viaje/viajar/aeropuertos/",
+      "purpose": "Recheck Airports of Tenerife",
+      "result": "Official authority confirms the bounded arrival relationship; no fare, transfer amount or identity equality inferred.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify operational city/airport membership for TCI",
+      "result": "Confirmed TCI: TFN, TFS; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "destination": "place:Q40846",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify operational city/airport membership for TCI",
+      "result": "Confirmed TCI: TFN, TFS; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://www.wikidata.org/wiki/Q2656389",
+      "purpose": "Recheck Mauritius Island (Q2656389)",
+      "result": "Identity label/type and selected Q subject rechecked; canonical registry remains unchanged.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://whc.unesco.org/en/list/1227",
+      "purpose": "Recheck Aapravasi Ghat",
+      "result": "Port Louis immigration depot and colonial indentured-labour history verified against UNESCO. The initial version 2 preparation flagged SQ terminology; the later version 3 correction is recorded separately below.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://whc.unesco.org/en/list/1259",
+      "purpose": "Recheck Le Morne Cultural Landscape",
+      "result": "UNESCO refuge/resistance-to-slavery context confirmed; not used as present-day summit access evidence.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://ssrbg.govmu.org/ssrbg/?Source=%2FSitePages%2FIndex.aspx",
+      "purpose": "Recheck Sir Seewoosagur Ramgoolam Botanic Garden",
+      "result": "Operator HTML retrieved with TLS validation by one bounded fallback request after web-reader errors; Pamplemousses northeast of Port Louis confirmed.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://npcs.govmu.org/Pages/National%20Parks/Black-River-Gorges-National-Parks.aspx",
+      "purpose": "Recheck Black River Gorges National Park",
+      "result": "NPCS native/endemic conservation and distinct park access points confirmed; no sightings or difficulty ratings imported.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://www.govmu.org/EN/Pages/exploremauritius.aspx",
+      "purpose": "Recheck Explore Mauritius",
+      "result": "Government main-island context and Pamplemousses garden listing rechecked; dependencies not imported.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://aml.mru.aero/index.php/contact-us",
+      "purpose": "Recheck SSR International Airport location",
+      "result": "Official authority confirms the bounded arrival relationship; no fare, transfer amount or identity equality inferred.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify operational city/airport membership for MRU",
+      "result": "Confirmed MRU: MRU; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify operational city/airport membership for MRU",
+      "result": "Confirmed MRU: MRU; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.wikidata.org/wiki/Q131347",
+      "purpose": "Recheck Oahu (Q131347)",
+      "result": "Identity label/type and selected Q subject rechecked; canonical registry remains unchanged.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.gohawaii.com/fr/islands/oahu/regions/honolulu/leahi-diamond-head",
+      "purpose": "Recheck Lēʻahi (Diamond Head)",
+      "result": "Tourism page supports Lēʻahi crater/south-shore context; operational details superseded by direct state-park source.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.iolanipalace.org/",
+      "purpose": "Recheck ʻIolani Palace",
+      "result": "Operator confirms former royal residence and correct ʻIolani/Hawaiʻi names.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.nps.gov/places/uss-arizona-memorial.htm",
+      "purpose": "Recheck USS Arizona Memorial",
+      "result": "NPS confirms memorial above sunken battleship; no admission or live access claim.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.nps.gov/perl/uss-arizona-memorial-programs.htm",
+      "purpose": "Recheck USS Arizona Memorial programmes",
+      "result": "Current NPS reservation/standby guidance inspected; mechanics deliberately left out of durable copy.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/waikiki-beach",
+      "purpose": "Recheck Waikīkī Beach",
+      "result": "Waikīkī south-shore group of beaches confirmed; safety rating and swimming claims not imported.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.gohawaii.com/islands/oahu/travel-info/transportation",
+      "purpose": "Recheck Oahu transportation",
+      "result": "TheBus, taxis, shuttles and rental options confirmed; no price or route frequency imported.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://www.gohawaii.com/trip-planning/planning-your-trip/post-arrival",
+      "purpose": "Recheck Arrival on Oahu",
+      "result": "Official authority confirms the bounded arrival relationship; no fare, transfer amount or identity equality inferred.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+      "purpose": "Recheck Diamond Head State Monument — current visitor guidance",
+      "result": "State operator directly supports checking current Lēʻahi access and reservations; no hours/fees imported.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify operational city/airport membership for HNL",
+      "result": "Confirmed HNL: HNL; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "destination": "place:Q131347",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify operational city/airport membership for HNL",
+      "result": "Confirmed HNL: HNL; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www.wikidata.org/wiki/Q76516549",
+      "purpose": "Recheck Algarve (Q76516549)",
+      "result": "Identity label/type and selected Q subject rechecked; canonical registry remains unchanged.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www.visitportugal.com/en/destinos/algarve",
+      "purpose": "Recheck Algarve",
+      "result": "Official regional tourism page supports Tavira/Faro historic centres; marketing/safety claims excluded.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www.visitportugal.com/en/destinos/algarve/73807",
+      "purpose": "Recheck Algarve coast",
+      "result": "Lagos rocks, Sagres headland, Ria Formosa and regional separation confirmed; swimming and boat guarantees excluded.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://cp.pt/info/en/w/improved-service-algarve-line",
+      "purpose": "Recheck Algarve regional rail service",
+      "result": "Replacement official CP source confirms Lagos–Faro–Vila Real corridor and through services; copy avoids requiring a Faro change.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www.visitportugal.com/en/destinos/algarve/73803",
+      "purpose": "Recheck Faro arrival and transport",
+      "result": "Official authority confirms the bounded arrival relationship; no fare, transfer amount or identity equality inferred.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify operational city/airport membership for FAO",
+      "result": "Confirmed FAO: FAO; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify operational city/airport membership for FAO",
+      "result": "Confirmed FAO: FAO; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://www.wikidata.org/wiki/Q41858",
+      "purpose": "Recheck Banff National Park (Q41858)",
+      "result": "Identity label/type and selected Q subject rechecked; canonical registry remains unchanged.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff",
+      "purpose": "Recheck Banff National Park",
+      "result": "Park identity, mountain/lake landscape and direction to current conditions confirmed.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://www.parks.canada.ca/pn-np/ab/banff/activ/randonnee-hiking",
+      "purpose": "Recheck Banff and Lake Louise areas — place descriptions and conditions",
+      "result": "Current park descriptions support Lake Louise/Moraine lake context, Johnston waterfalls and Minnewanka reservoir/shoreline; no hiking ratings adopted.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus/louise/faq",
+      "purpose": "Recheck Lake Louise and Moraine Lake transport FAQ",
+      "result": "Current Parks Canada transport FAQ inspected; seasonal shuttle/parking mechanics are not frozen into copy.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/visit.aspx",
+      "purpose": "Recheck Plan your visit — arrival from Calgary",
+      "result": "Official authority confirms the bounded arrival relationship; no fare, transfer amount or identity equality inferred.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/visit/parkbus",
+      "purpose": "Recheck Travel within Banff National Park",
+      "result": "Park transit page confirms town of Banff and separate Lake Louise area planning.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/bulletins",
+      "purpose": "Recheck Current park closures and restrictions",
+      "result": "Current official restrictions consulted, including Johnston Canyon closure; durable copy points to current notices.",
+      "limitation": "Source consulted for bounded editorial/access claims only; no live availability, price, access guarantee or human approval inferred.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://api.travelpayouts.com/data/en/cities.json",
+      "purpose": "Verify operational city/airport membership for YYC",
+      "result": "Confirmed YYC: YYC; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.152Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://api.travelpayouts.com/data/en/airports.json",
+      "purpose": "Verify operational city/airport membership for YYC",
+      "result": "Confirmed YYC: YYC; airport rows have correct country/group, iata_type=airport and flightable=true.",
+      "limitation": "Metadata is not fare evidence. ZYF bus excluded; canonical identity is not equated with operational city.",
+      "timestamp": "2026-10-14T14:36:22.183Z"
+    },
+    {
+      "destination": "place:Q76516549",
+      "source": "https://www2.cp.pt/info/web/cp/w/the-algarve-line",
+      "purpose": "Resolve source reliability or volatile access wording",
+      "result": "Web reader failed; one TLS-validated direct retry failed hostname verification. Replaced by cp.pt official service page; TLS was not bypassed.",
+      "limitation": "No unsupported claim that a failed URL was successfully checked. No seasonal availability promise.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/itineraries",
+      "purpose": "Resolve source reliability or volatile access wording",
+      "result": "Web retrieval failed, including official navigation link. Replaced by current park descriptions and dedicated transport/closure pages; old report retained.",
+      "limitation": "No unsupported claim that a failed URL was successfully checked. No seasonal availability promise.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "https://ssrbg.govmu.org/ssrbg/",
+      "purpose": "Resolve source reliability or volatile access wording",
+      "result": "Web reader failed; original query URL succeeded in one bounded TLS-validated direct request and its actual HTML was inspected.",
+      "limitation": "No unsupported claim that a failed URL was successfully checked. No seasonal availability promise.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q41858",
+      "source": "https://parks.canada.ca/pn-np/ab/banff/activ/marchehiver-winterwalking/banff",
+      "purpose": "Resolve source reliability or volatile access wording",
+      "result": "Current official page documents Johnston Canyon temporary closure from October 13, 2026. Used to reject unconditional access wording; not imported as an evergreen date rule.",
+      "limitation": "No unsupported claim that a failed URL was successfully checked. No seasonal availability promise.",
+      "timestamp": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "destination": "place:Q2656389",
+      "source": "content/destinations/place-Q2656389.json",
+      "purpose": "Apply the user-supplied pre-publication Albanian Aapravasi Ghat correction",
+      "result": "Version 2 → 3: replaced kontrata detyruese with the exact supplied explanation of migrant workers bound by labour contracts for a defined period. English and source material unchanged; the distinction from slavery and unrestricted free employment is preserved. Recorded terminology issue resolved.",
+      "limitation": "Local editorial correction, not a new source retrieval, historical claim, human check approval or advisory acknowledgement. Draft/null review timestamps, six pending checks, pending decision, no reviewer and no receipt retained.",
+      "timestamp": "2026-10-14T15:45:46Z"
+    }
+  ]
+}

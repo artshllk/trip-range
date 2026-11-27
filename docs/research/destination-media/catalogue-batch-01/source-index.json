@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "brezovica",
+    "title": "File:Brezovica Ski Resort.jpg",
+    "licence": "CC BY-SA 3.0",
+    "width": 3008,
+    "height": 2000,
+    "size": 3887924,
+    "source": "https://commons.wikimedia.org/wiki/File:Brezovica_Ski_Resort.jpg",
+    "metadata": "metadata/brezovica.json"
+  },
+  {
+    "slug": "crete",
+    "title": "File:Harbor, Venetian shipyards and Lighthouse in Chania. Crete, Greece.jpg",
+    "licence": "CC BY-SA 3.0",
+    "width": 9626,
+    "height": 3236,
+    "size": 18318382,
+    "source": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+    "metadata": "metadata/crete.json"
+  },
+  {
+    "slug": "mavrovo",
+    "title": "File:Mavrovo lake.jpg",
+    "licence": "CC BY-SA 4.0",
+    "width": 6030,
+    "height": 2740,
+    "size": 6460926,
+    "source": "https://commons.wikimedia.org/wiki/File:Mavrovo_lake.jpg",
+    "metadata": "metadata/mavrovo-alternative.json"
+  },
+  {
+    "slug": "mirusha",
+    "title": "File:Waterfall in Kosovo-Mirusha.jpg",
+    "licence": "CC BY-SA 4.0",
+    "width": 5184,
+    "height": 3456,
+    "size": 4949335,
+    "source": "https://commons.wikimedia.org/wiki/File:Waterfall_in_Kosovo-Mirusha.jpg",
+    "metadata": "metadata/mirusha.json"
+  },
+  {
+    "slug": "prizren",
+    "title": "File:Prizren Stone Bridge.jpg",
+    "licence": "CC BY-SA 3.0",
+    "width": 2747,
+    "height": 1820,
+    "size": 4575184,
+    "source": "https://commons.wikimedia.org/wiki/File:Prizren_Stone_Bridge.jpg",
+    "metadata": "metadata/prizren.json"
+  },
+  {
+    "slug": "skopje",
+    "title": "File:Skopje Stone Bridge.JPG",
+    "licence": "CC BY-SA 4.0",
+    "width": 4608,
+    "height": 3072,
+    "size": 3408080,
+    "source": "https://commons.wikimedia.org/wiki/File:Skopje_Stone_Bridge.JPG",
+    "metadata": "metadata/skopje.json"
+  },
+  {
+    "slug": "thessaloniki",
+    "title": "File:Tessaloniki BW 2017-10-05 18-22-47.jpg",
+    "licence": "CC BY-SA 3.0",
+    "width": 5787,
+    "height": 3582,
+    "size": 8471464,
+    "source": "https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg",
+    "metadata": "metadata/thessaloniki.json"
+  },
+  {
+    "slug": "ulcinj",
+    "title": "File:Panorama of Ulcinj in Montenegro (1).jpg",
+    "licence": "CC BY-SA 3.0",
+    "width": 3990,
+    "height": 2166,
+    "size": 2061117,
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ulcinj_in_Montenegro_(1).jpg",
+    "metadata": "metadata/ulcinj.json"
+  },
+  {
+    "slug": "rugova",
+    "title": "File:Rugova Canyon Kosovo.jpg",
+    "licence": "CC BY-SA 3.0",
+    "width": 3264,
+    "height": 2448,
+    "size": 2266918,
+    "source": "https://commons.wikimedia.org/wiki/File:Rugova_Canyon_Kosovo.jpg",
+    "metadata": "metadata/rugova.json"
+  },
+  {
+    "slug": "istanbul",
+    "title": "File:Panorama Istanbul.jpg",
+    "licence": "CC BY-SA 4.0",
+    "width": 6009,
+    "height": 1354,
+    "size": 7140502,
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+    "metadata": "metadata/istanbul.json"
+  },
+  {
+    "slug": "prishtina",
+    "title": "File:Prishtinë capital city Prishtina.jpg",
+    "licence": "CC BY-SA 4.0",
+    "width": 5616,
+    "height": 3714,
+    "size": 13516652,
+    "source": "https://commons.wikimedia.org/wiki/File:Prishtin%C3%AB_capital_city_Prishtina.jpg",
+    "metadata": "metadata/prishtina.json"
+  },
+  {
+    "slug": "zurich",
+    "title": "File:Zurich Skyline.jpg",
+    "licence": "CC BY-SA 4.0",
+    "width": 3264,
+    "height": 2448,
+    "size": 2357824,
+    "source": "https://commons.wikimedia.org/wiki/File:Zurich_Skyline.jpg",
+    "metadata": "metadata/zurich.json"
+  }
+]

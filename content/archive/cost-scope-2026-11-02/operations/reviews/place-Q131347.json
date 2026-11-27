@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "place:Q131347",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+    "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+    "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Oahu v2 island identity, authoritative tourism, palace, state-park and National Park Service sources, EN/SQ copy, Hawaiian proper names, focused Lēʻahi, ʻIolani Palace, USS Arizona Memorial and Waikīkī selection, transport guidance and freshness ownership were reviewed and accepted for publication. Current reservation, standby, admission, swimming-safety and summit-access guarantees are intentionally excluded."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-15T08:56:03.732Z",
+    "reviewedAt": "2026-10-15T08:56:03.732Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:57.591Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:58.481Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:58.481Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:55:59.355Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:55:59.355Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:00.228Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:00.228Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:01.136Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:01.136Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:02.035Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:02.035Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:02.890Z",
+      "reason": "Advisory evidence-review: Oahu v2 island identity, authoritative tourism, palace, state-park and National Park Service sources, EN/SQ copy, Hawaiian proper names, focused Lēʻahi, ʻIolani Palace, USS Arizona Memorial and Waikīkī selection, transport guidance and freshness ownership were reviewed and accepted for publication. Current reservation, standby, admission, swimming-safety and summit-access guarantees are intentionally excluded."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+        "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+        "evidenceDigest": "b7b2f87ad08657c436e7f082629883746cbb7c09c6f5038d4bb92913a425d82f",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Oahu v2 island identity, authoritative tourism, palace, state-park and National Park Service sources, EN/SQ copy, Hawaiian proper names, focused Lēʻahi, ʻIolani Palace, USS Arizona Memorial and Waikīkī selection, transport guidance and freshness ownership were reviewed and accepted for publication. Current reservation, standby, admission, swimming-safety and summit-access guarantees are intentionally excluded."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-15T08:56:02.890Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-15T08:56:03.732Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

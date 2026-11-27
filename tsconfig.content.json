@@ -1,0 +1,33 @@
+{
+  "extends": "./tsconfig.test.json",
+  "compilerOptions": {
+    "outDir": ".content-build"
+  },
+  "include": [
+    "scripts/check-destination-content.ts",
+    "scripts/research-destination-content.ts",
+    "scripts/review-destination-content.ts",
+    "scripts/pipeline-destination-content.ts",
+    "scripts/check-places.ts",
+    "scripts/check-destination-access.ts",
+    "scripts/coverage-destinations.ts",
+    "scripts/review-destinations.ts",
+    "scripts/set-destination-review.ts",
+    "scripts/approve-destination-content.ts",
+    "scripts/due-destination-content.ts",
+    "scripts/check-destination-reviews.ts",
+    "scripts/check-fx.ts",
+    "scripts/check-expiry.ts",
+    "scripts/fare-warm-run.ts",
+    "scripts/check-warm-coverage.ts",
+    "scripts/check-collector-health.ts",
+    "scripts/check-sweep-yield.ts",
+    "scripts/check-storage.ts",
+    "scripts/check-accommodation.ts",
+    "scripts/review-destination-batch.ts",
+    "scripts/derive-room-panel.ts",
+    "scripts/holdout-room-panels.ts",
+    "scripts/refresh-ine-rooms.ts"
+  ],
+  "exclude": ["node_modules"]
+}

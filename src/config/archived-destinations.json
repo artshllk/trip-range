@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "archivedDate": "2026-11-02",
+  "reason": "outside-approved-cost-model",
+  "records": [
+    {
+      "id": "place:Q4648",
+      "name": "Bali",
+      "countryCode": "ID",
+      "directCodes": [
+        "DPS"
+      ]
+    },
+    {
+      "id": "place:Q41858",
+      "name": "Banff National Park",
+      "countryCode": "CA",
+      "directCodes": []
+    },
+    {
+      "id": "place:Q1861",
+      "name": "Bangkok",
+      "countryCode": "TH",
+      "directCodes": [
+        "BKK",
+        "DMK"
+      ]
+    },
+    {
+      "id": "place:Q1486",
+      "name": "Buenos Aires",
+      "countryCode": "AR",
+      "directCodes": [
+        "AEP",
+        "BUE",
+        "EZE"
+      ]
+    },
+    {
+      "id": "place:Q5465",
+      "name": "Cape Town",
+      "countryCode": "ZA",
+      "directCodes": [
+        "CPT"
+      ]
+    },
+    {
+      "id": "place:Q612",
+      "name": "Dubai",
+      "countryCode": "AE",
+      "directCodes": [
+        "DWC",
+        "DXB"
+      ]
+    },
+    {
+      "id": "place:Q24451",
+      "name": "Kruger National Park",
+      "countryCode": "ZA",
+      "directCodes": [
+        "SZK"
+      ]
+    },
+    {
+      "id": "place:Q34600",
+      "name": "Kyoto",
+      "countryCode": "JP",
+      "directCodes": []
+    },
+    {
+      "id": "place:Q101625",
+      "name": "Marrakesh",
+      "countryCode": "MA",
+      "directCodes": [
+        "RAK"
+      ]
+    },
+    {
+      "id": "place:Q2656389",
+      "name": "Mauritius Island",
+      "countryCode": "MU",
+      "directCodes": [
+        "MRU"
+      ]
+    },
+    {
+      "id": "place:Q1489",
+      "name": "Mexico City",
+      "countryCode": "MX",
+      "directCodes": [
+        "MEX",
+        "NLU",
+        "TLC"
+      ]
+    },
+    {
+      "id": "place:Q60",
+      "name": "New York City",
+      "countryCode": "US",
+      "directCodes": [
+        "EWR",
+        "JFK",
+        "LGA",
+        "NYC"
+      ]
+    },
+    {
+      "id": "place:Q131347",
+      "name": "Oahu",
+      "countryCode": "US",
+      "directCodes": [
+        "HNL"
+      ]
+    },
+    {
+      "id": "place:Q8678",
+      "name": "Rio de Janeiro",
+      "countryCode": "BR",
+      "directCodes": [
+        "GIG",
+        "RIO",
+        "RRJ",
+        "SDU"
+      ]
+    },
+    {
+      "id": "place:Q334",
+      "name": "Singapore",
+      "countryCode": "SG",
+      "directCodes": [
+        "SIN",
+        "XSP"
+      ]
+    },
+    {
+      "id": "place:Q3130",
+      "name": "Sydney",
+      "countryCode": "AU",
+      "directCodes": [
+        "SYD",
+        "WSI"
+      ]
+    },
+    {
+      "id": "place:Q3593416",
+      "name": "Tasmania",
+      "countryCode": "AU",
+      "directCodes": [
+        "BWT",
+        "DPO",
+        "HBA",
+        "LST"
+      ]
+    },
+    {
+      "id": "place:Q1490",
+      "name": "Tokyo",
+      "countryCode": "JP",
+      "directCodes": [
+        "HND",
+        "NRT",
+        "TYO"
+      ]
+    },
+    {
+      "id": "place:Q24639",
+      "name": "Vancouver",
+      "countryCode": "CA",
+      "directCodes": [
+        "CXH",
+        "YDT",
+        "YVR"
+      ]
+    },
+    {
+      "id": "place:Q180402",
+      "name": "Yosemite National Park",
+      "countryCode": "US",
+      "directCodes": []
+    }
+  ]
+}

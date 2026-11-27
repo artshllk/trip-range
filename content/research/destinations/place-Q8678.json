@@ -1,0 +1,12 @@
+{
+  "destinationId": "place:Q8678",
+  "status": "available",
+  "report": "worldwide-batch3-rio-de-janeiro-v4.md",
+  "researchedAt": "2026-10-23T22:32:14Z",
+  "sourceCount": 10,
+  "unresolvedIssues": [
+    "RRJ ground transport is unverified; this candidate must not claim complete all-airport guidance.",
+    "Parque Lage source retains generic interior information below its explicit restoration closure notice; the closure takes precedence. No courtyard/interior is included.",
+    "Some tourism pages return only navigation; Riotur and current operator evidence support the limited place/transport copy. No live fares, services or safe-route rating verified."
+  ]
+}

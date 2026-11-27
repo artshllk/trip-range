@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 2,
+  "assets": [
+    {
+      "id": "commons:126494271",
+      "provider": "wikimedia-commons",
+      "providerFileId": "126494271",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "5051c58045e5c1e0d5eb7db9e9e0b71ed66cb759"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cape_Town_-View_From_The_Table_Mountain.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cape_Town_-View_From_The_Table_Mountain.jpg",
+      "width": 4000,
+      "height": 2836,
+      "mimeType": "image/jpeg",
+      "author": "Sumit Surai",
+      "attribution": "Sumit Surai / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/cape-town-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/cape-town-batch3-v1-640.webp",
+            "width": 640,
+            "height": 454,
+            "bytes": 48062,
+            "sha256": "4df2e302351b205ba6a02123de9d0451840f24c817746f90b7593ad9a2e67f4c"
+          },
+          {
+            "src": "/destinations/cape-town-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 851,
+            "bytes": 160680,
+            "sha256": "9207900c05d2b56d174a2b4160f51bac30c919ed028cff59a0c0233b4ed44bba"
+          },
+          {
+            "src": "/destinations/cape-town-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1361,
+            "bytes": 381312,
+            "sha256": "18f6f341dac4423619b788b56218b77d267c309ff16dd9d273dad3b9ec815580"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:133796307",
+      "provider": "wikimedia-commons",
+      "providerFileId": "133796307",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "d500e132d45e649fb3297b39e84661e5e04f2054"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Urca_and_Botafogo_Bay,_Rio_de_Janeiro,_Brazil.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Aerial_view_of_Urca_and_Botafogo_Bay%2C_Rio_de_Janeiro%2C_Brazil.jpg",
+      "width": 7778,
+      "height": 5030,
+      "mimeType": "image/jpeg",
+      "author": "Wilfredor",
+      "attribution": "Wilfredor / Wikimedia Commons / CC0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-640.webp",
+            "width": 640,
+            "height": 413,
+            "bytes": 63346,
+            "sha256": "133527f3ecdcdfd55bb3e4a3b88d8368662b51d7be464b9fe406a67f61c25968"
+          },
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 776,
+            "bytes": 220130,
+            "sha256": "3c404045dee67ba8dd3c67215fa7381d09b5676f38a2b118d350206ae2792b88"
+          },
+          {
+            "src": "/destinations/rio-de-janeiro-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1242,
+            "bytes": 556550,
+            "sha256": "a4f11c434786b200dc1df3ab39e16b070590b732f51b779fa54bc6c7f820fae4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:73107560",
+      "provider": "wikimedia-commons",
+      "providerFileId": "73107560",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "549d0c76537c0d9b0cc2b87c8616c58405fd51e5"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Sydney_opera_house_and_Sydney_harbour_bridge.jpg",
+      "width": 7360,
+      "height": 4912,
+      "mimeType": "image/jpeg",
+      "author": "peter abery (Poidabro)",
+      "attribution": "peter abery (Poidabro) / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/sydney-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/sydney-batch3-v1-640.webp",
+            "width": 640,
+            "height": 427,
+            "bytes": 27594,
+            "sha256": "754f9ea333a6072ccf0ccf0ab950e147b1617a82a5ab9b057cf89b2bd8f700c9"
+          },
+          {
+            "src": "/destinations/sydney-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 801,
+            "bytes": 79512,
+            "sha256": "95777450f697bca95485c12eba575938e6efff658278338dd27c77724a640eb6"
+          },
+          {
+            "src": "/destinations/sydney-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 1281,
+            "bytes": 181270,
+            "sha256": "63939599da6d9bb7591e5634f67e2bbf868c1159ded5cd833376b8227b003117"
+          }
+        ]
+      }
+    },
+    {
+      "id": "commons:68665373",
+      "provider": "wikimedia-commons",
+      "providerFileId": "68665373",
+      "checksum": {
+        "algorithm": "sha1",
+        "value": "027b8f32b8e41ad20c420366ebdc7149e9c76254"
+      },
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_Dubai_Creek_with_dhow_station.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Old_Dubai_Creek_with_dhow_station.jpg",
+      "width": 4032,
+      "height": 1960,
+      "mimeType": "image/jpeg",
+      "author": "Vedaant Jamaiyar",
+      "attribution": "Vedaant Jamaiyar / Wikimedia Commons / CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "license": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verifiedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "health": {
+        "status": "healthy",
+        "checkedAt": "2026-10-23T22:36:33.549Z"
+      },
+      "localDelivery": {
+        "src": "/destinations/dubai-batch3-v1-1200.webp",
+        "variants": [
+          {
+            "src": "/destinations/dubai-batch3-v1-640.webp",
+            "width": 640,
+            "height": 311,
+            "bytes": 46566,
+            "sha256": "caf65fd4829f52c8846bc386392dd8ab4724627463e919b87bb1ee0ed6082b1d"
+          },
+          {
+            "src": "/destinations/dubai-batch3-v1-1200.webp",
+            "width": 1200,
+            "height": 583,
+            "bytes": 145352,
+            "sha256": "f1c17a94b3cc40ee20da1b9cdd57dee467894c36f8074e97857aaf97356656a0"
+          },
+          {
+            "src": "/destinations/dubai-batch3-v1-1920.webp",
+            "width": 1920,
+            "height": 933,
+            "bytes": 342718,
+            "sha256": "af662a698bf1f5b45e6b42ebe8a97cbd4392843dc7216f8fc7975d7171763634"
+          }
+        ]
+      }
+    }
+  ],
+  "selections": [],
+  "rejections": []
+}

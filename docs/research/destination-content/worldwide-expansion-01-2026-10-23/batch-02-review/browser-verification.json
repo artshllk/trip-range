@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "scope": "offline editorial HTML packet only; not product guide or hosted interaction verification",
+  "checkedAt": "2026-10-23T16:31:50.145Z",
+  "checks": [
+    {
+      "page": "gallery",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "gallery",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "gallery",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "tokyo",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "tokyo",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "tokyo",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "kyoto",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "kyoto",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "kyoto",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "bangkok",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "bangkok",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "bangkok",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "marrakesh",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "marrakesh",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "marrakesh",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    }
+  ],
+  "externalRequests": 0,
+  "providerRequests": 0,
+  "RedisRequests": 0,
+  "OpenAIRequests": 0,
+  "errors": []
+}

@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "status": "unpublished-research-and-editorial-proposals",
+  "sourceCommit": "71ed6609f2c61676392f73c005c6206df7b9aa67",
+  "preparedAt": "2026-10-23T09:26:02Z",
+  "sourceAudit": "docs/research/worldwide-master-audit-2026-10-22/inventory.json",
+  "cities": [
+    {
+      "slug": "barcelona",
+      "name": "Barcelona",
+      "destinationId": "city:BCN",
+      "region": "Europe",
+      "why": "A developed existing record with no full itinerary; introduces a Mediterranean city without a new identity or flight target.",
+      "baseRecordPath": "content/destinations/barcelona.json",
+      "baseRecordSha256": "f47154531459af4a3f38e1008505cbb3c7af12644b0c0e943e1540bf150efc2d",
+      "identityPath": "content/places/city-BCN.json",
+      "identitySha256": "7efd0db8ec11119a246d83232686a6da6c09d5346c1931fc2b4e666819345548",
+      "contentVersion": 3,
+      "candidateFile": "barcelona.json",
+      "evidenceFile": "barcelona-evidence.md",
+      "baseline": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "route-comparison",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/barcelona",
+        "canonical": "https://www.goeksplo.com/en/destinations/barcelona",
+        "title": "Barcelona guide: Gaudí, neighbourhoods and budget checks",
+        "h1": "Barcelona: plan a short trip",
+        "description": "Plan a short Barcelona stay with neighbourhood choices, Gaudí sights, airport connections and clear guidance on costs you still need to check.",
+        "intentKeywords": [
+          "Barcelona 2 night itinerary",
+          "Barcelona neighbourhoods first visit",
+          "Barcelona airport metro ticket"
+        ],
+        "relatedGuideSlugs": [
+          "paris",
+          "vienna",
+          "marrakesh"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "Exact attraction entry rules and temporary Park Güell works require a pre-publication recheck."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "destinationId": "istanbul",
+      "region": "Europe",
+      "why": "Existing approved photograph and identity; replaces attraction-only tram advice with airport-specific arrival planning.",
+      "baseRecordPath": "content/destinations/istanbul.json",
+      "baseRecordSha256": "5d8fa95f09780c467560c4c0944ff1036d92cf8655b608953ad9a39fd3a849c9",
+      "identityPath": "content/places/istanbul.json",
+      "identitySha256": "337056b72f71bf6ff0026bde5da6c8413fe03174995879aa5d24d9ca36dac3da",
+      "contentVersion": 3,
+      "candidateFile": "istanbul.json",
+      "evidenceFile": "istanbul-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/istanbul",
+        "canonical": "https://www.goeksplo.com/en/destinations/istanbul",
+        "title": "Istanbul guide: historic sights and airport planning",
+        "h1": "Istanbul: plan a short trip",
+        "description": "Plan two or three nights in Istanbul with historic-peninsula sights, IST and SAW arrival guidance, base choices and costs to check before booking.",
+        "intentKeywords": [
+          "Istanbul 2 night itinerary",
+          "IST or SAW to Sultanahmet",
+          "where to stay Istanbul first visit"
+        ],
+        "relatedGuideSlugs": [
+          "vienna",
+          "barcelona",
+          "marrakesh"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [
+        {
+          "assetId": "commons:34203027",
+          "roles": [
+            "destination.hero",
+            "destination.card"
+          ],
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+          "author": "Tolga Tüfekçi",
+          "license": {
+            "name": "CC BY-SA 4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "verifiedAt": "2026-10-22T10:40:43.925Z"
+          },
+          "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · cropped and resized to WebP; cropped for display",
+          "originalDimensions": {
+            "width": 6009,
+            "height": 1354
+          },
+          "originalChecksum": {
+            "algorithm": "sha1",
+            "value": "b5797017584deaef6a69cf042b1d1c5862e46461"
+          },
+          "crop": {
+            "left": 1443,
+            "top": 0,
+            "width": 3385,
+            "height": 1354
+          },
+          "variants": [
+            {
+              "src": "/destinations/istanbul-640.webp",
+              "width": 640,
+              "height": 256,
+              "bytes": 34394,
+              "sha256": "34c5faa17ffea231cae7b9be297b47d71235e4840120fd537e4f522ccd60b17e"
+            },
+            {
+              "src": "/destinations/istanbul-1200.webp",
+              "width": 1200,
+              "height": 480,
+              "bytes": 98924,
+              "sha256": "692cf14c8cbe50e02b85f6eea9396083a3ae67df8f75cf5c1734363ced988ae9"
+            },
+            {
+              "src": "/destinations/istanbul-1920.webp",
+              "width": 1920,
+              "height": 768,
+              "bytes": 209224,
+              "sha256": "bfadfedca1ace31eb5703a41ac1f2c2ff72cd2c3cf6c9593acaf113e169cfe70"
+            }
+          ],
+          "localBytesAndHashesMatch": true,
+          "selectionReviews": [
+            {
+              "role": "destination.hero",
+              "reviewedAt": "2026-10-22T11:50:36.378Z",
+              "method": "human-review",
+              "locked": true,
+              "focalPoint": {
+                "x": 0.55,
+                "y": 0.5
+              }
+            },
+            {
+              "role": "destination.card",
+              "reviewedAt": "2026-10-22T11:50:36.378Z",
+              "method": "human-review",
+              "locked": true,
+              "focalPoint": {
+                "x": 0.55,
+                "y": 0.5
+              }
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Only the existing approved Istanbul photograph may be reused; preserve its exact crop, credit and CC BY-SA 4.0 notices.",
+        "Current Hagia Sophia visitor entrance/ticket scope must be rechecked before editorial approval; no price or access guarantee is drafted."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "destinationId": "place:Q1490",
+      "region": "Asia",
+      "why": "Existing reviewed identity and contrasting east/west sightseeing areas; airport and neighbourhood choices materially affect a short stay.",
+      "baseRecordPath": "content/destinations/place-Q1490.json",
+      "baseRecordSha256": "4314de00a66366ca34f0aa6adc8795654523f8e618b4df6693cecd03585a76a6",
+      "identityPath": "content/places/place-Q1490.json",
+      "identitySha256": "1ecba01707c02e12a1f806acac0643d5fb09dc2f68591ac1c1031533a19945c9",
+      "contentVersion": 3,
+      "candidateFile": "tokyo.json",
+      "evidenceFile": "tokyo-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 2,
+        "itineraries": [],
+        "arrival": "basic-or-caution-only",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/tokyo",
+        "canonical": "https://www.goeksplo.com/en/destinations/tokyo",
+        "title": "Tokyo guide: short stays, areas and airport choices",
+        "h1": "Tokyo: plan a short trip",
+        "description": "Plan a focused Tokyo stay around Asakusa, Meiji Jingu and the Skytree area, with airport choices, neighbourhood bases and honest budget limits.",
+        "intentKeywords": [
+          "Tokyo 3 night itinerary",
+          "Haneda Narita first visit",
+          "Asakusa or Shinjuku where to stay"
+        ],
+        "relatedGuideSlugs": [
+          "kyoto",
+          "singapore"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "Longer template uses a sourced riverside option, not an invented citywide itinerary or fixed-duration walking promise."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section.",
+        "Current loadDestinationGuide resolves a target from directCity or the legacy city catalogue. This reviewed non-directCity identity needs explicit target-resolution verification before promising a destination-prefilled CTA. Retain generic Plan your trip if unresolved; never substitute a gateway airport as the destination."
+      ]
+    },
+    {
+      "slug": "kyoto",
+      "name": "Kyoto",
+      "destinationId": "place:Q34600",
+      "region": "Asia",
+      "why": "Existing gateway identity and small eastern-city cluster; needs explicit ground-arrival guidance and respectful short-stay planning.",
+      "baseRecordPath": "content/destinations/place-Q34600.json",
+      "baseRecordSha256": "cff8095ac0a9489ef6a74c812edefb28b2e241abd4460f0991ad55dc0d163063",
+      "identityPath": "content/places/place-Q34600.json",
+      "identitySha256": "a3bb39770206afe01af68e2a30bfadb7ae282273b200b9383d3458c33c887d44",
+      "contentVersion": 3,
+      "candidateFile": "kyoto.json",
+      "evidenceFile": "kyoto-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/kyoto",
+        "canonical": "https://www.goeksplo.com/en/destinations/kyoto",
+        "title": "Kyoto guide: temples, bases and gateway airports",
+        "h1": "Kyoto: plan a short trip",
+        "description": "Plan a focused Kyoto stay with Kiyomizu-dera, Gion, airport-to-city choices and respectful routes, without assuming missing transfer or hotel costs.",
+        "intentKeywords": [
+          "Kyoto 2 night itinerary",
+          "Kansai airport to Kyoto planning",
+          "Gion or Kyoto Station base"
+        ],
+        "relatedGuideSlugs": [
+          "tokyo",
+          "bangkok"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "The longer option adds a sourced southern-Kyoto shrine outing; the two-night plan remains focused on the eastern cluster."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section.",
+        "Current loadDestinationGuide resolves a target from directCity or the legacy city catalogue. This reviewed non-directCity identity needs explicit target-resolution verification before promising a destination-prefilled CTA. Retain generic Plan your trip if unresolved; never substitute a gateway airport as the destination."
+      ]
+    },
+    {
+      "slug": "bangkok",
+      "name": "Bangkok",
+      "destinationId": "place:Q1861",
+      "region": "Asia",
+      "why": "Existing dual-airport identity and compact Old City sights; clear arrival and heat-aware pacing make a useful Southeast Asian short-stay guide.",
+      "baseRecordPath": "content/destinations/place-Q1861.json",
+      "baseRecordSha256": "bd3c44b9a072b8d25b4984dadae6459c69ff2f0ee2771a247ad71c350864009e",
+      "identityPath": "content/places/place-Q1861.json",
+      "identitySha256": "0ca27b784ac7e7452f5c2b87b69eb79ac591f30882a91c412ccff770ac378550",
+      "contentVersion": 3,
+      "candidateFile": "bangkok.json",
+      "evidenceFile": "bangkok-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/bangkok",
+        "canonical": "https://www.goeksplo.com/en/destinations/bangkok",
+        "title": "Bangkok guide: temples, Chinatown and airport planning",
+        "h1": "Bangkok: plan a short trip",
+        "description": "Plan Bangkok around the Old City, Wat Arun and Chinatown, with airport-specific arrival choices, sensible sightseeing groups and honest cost limits.",
+        "intentKeywords": [
+          "Bangkok 2 night itinerary",
+          "BKK or DMK arrival planning",
+          "Bangkok Old City where to stay"
+        ],
+        "relatedGuideSlugs": [
+          "singapore",
+          "kyoto"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "DMK disruption notice requires an operator recheck before approval; no timetable or taxi promise included."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "destinationId": "place:Q334",
+      "region": "Asia",
+      "why": "Existing city-state identity, strong official references and contrasting garden/heritage outings; arrival advice must distinguish SIN and XSP.",
+      "baseRecordPath": "content/destinations/place-Q334.json",
+      "baseRecordSha256": "01e5ad9f8b085cd29d88b6eeb91ccd927e524b12e5a086203784404048439e42",
+      "identityPath": "content/places/place-Q334.json",
+      "identitySha256": "51e579252f5cca0491b0456a5bcebcb6f3570ac06c0a6427de939aec2907d46d",
+      "contentVersion": 3,
+      "candidateFile": "singapore.json",
+      "evidenceFile": "singapore-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/singapore",
+        "canonical": "https://www.goeksplo.com/en/destinations/singapore",
+        "title": "Singapore guide: gardens, heritage and budget checks",
+        "h1": "Singapore: plan a short trip",
+        "description": "Plan a short Singapore stay with gardens, museum access, Chinatown and two-airport guidance, while keeping hotel and ticket costs explicit.",
+        "intentKeywords": [
+          "Singapore 3 night itinerary",
+          "Singapore gardens budget planning",
+          "Changi Seletar airport transport"
+        ],
+        "relatedGuideSlugs": [
+          "bangkok",
+          "tokyo",
+          "sydney"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "UOB Southeast Asia Gallery closure is time-sensitive; recheck before approval and within 14 days thereafter.",
+        "Individual Gardens by the Bay maintenance closures remain date-specific; none is generalized into permanent closure."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "dubai",
+      "name": "Dubai",
+      "destinationId": "place:Q612",
+      "region": "Middle East",
+      "why": "An existing Middle Eastern city identity; balances creek heritage with Downtown and corrects the risk of treating DWC as a metro-served DXB terminal.",
+      "baseRecordPath": "content/destinations/place-Q612.json",
+      "baseRecordSha256": "c87657b96f0e36506938e0b173639297cc1c91d949138e06bc306d26dc8eec38",
+      "identityPath": "content/places/place-Q612.json",
+      "identitySha256": "b2dd131835c7e2bc7074ba8e14d6661c25463cc2bfb1ad46778ace4f670d4328",
+      "contentVersion": 3,
+      "candidateFile": "dubai.json",
+      "evidenceFile": "dubai-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/dubai",
+        "canonical": "https://www.goeksplo.com/en/destinations/dubai",
+        "title": "Dubai guide: creek heritage, Downtown and airports",
+        "h1": "Dubai: plan a short trip",
+        "description": "Plan a focused Dubai stay with Al Fahidi, the creek, Downtown and distinct DXB/DWC connections, without treating optional tickets as included costs.",
+        "intentKeywords": [
+          "Dubai 2 night itinerary",
+          "Dubai creek or Downtown where to stay",
+          "DXB DWC metro difference"
+        ],
+        "relatedGuideSlugs": [
+          "istanbul",
+          "singapore"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "DWC operator page contains inconsistent example interchange names; draft intentionally requires current route planning without prescribing one."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "marrakesh",
+      "name": "Marrakesh",
+      "destinationId": "place:Q101625",
+      "region": "Africa",
+      "why": "Existing North African identity and four verified sights; base choice and last-leg access are more useful than generic low-cost claims.",
+      "baseRecordPath": "content/destinations/place-Q101625.json",
+      "baseRecordSha256": "eea4d93336e854215404d1c5030613ba44af956be5cef73553db348df6c4bc69",
+      "identityPath": "content/places/place-Q101625.json",
+      "identitySha256": "0968fece4dcfca975972c1ce5623a2ead863240e5abeb9ca45d013771fb594cc",
+      "contentVersion": 3,
+      "candidateFile": "marrakesh.json",
+      "evidenceFile": "marrakesh-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/marrakesh",
+        "canonical": "https://www.goeksplo.com/en/destinations/marrakesh",
+        "title": "Marrakesh guide: medina, gardens and choosing a base",
+        "h1": "Marrakesh: plan a short trip",
+        "description": "Plan a short Marrakesh stay with medina and garden outings, airport arrival guidance and practical base choices, without invented room or ticket prices.",
+        "intentKeywords": [
+          "Marrakesh 3 night itinerary",
+          "Marrakech medina or Gueliz stay",
+          "Marrakech airport arrival planning"
+        ],
+        "relatedGuideSlugs": [
+          "istanbul",
+          "barcelona",
+          "cape-town"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "Taxi-desk source is dated 2023; draft relies on current airport staff/signage rather than asserting the ordering process is unchanged."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "cape-town",
+      "name": "Cape Town",
+      "destinationId": "place:Q5465",
+      "region": "Africa",
+      "why": "Existing southern African identity; weather-dependent sights, airport-bus suspension and dispersed journeys need honest practical planning.",
+      "baseRecordPath": "content/destinations/place-Q5465.json",
+      "baseRecordSha256": "c648b2a0f89f67a1bb75c925abec6dc4ee7bcf80f24d6fd760d3ed15251b0d45",
+      "identityPath": "content/places/place-Q5465.json",
+      "identitySha256": "f268b4489aa4957e01875c173bd4bbef1262785ca19e1f31fd610ffaaa27718b",
+      "contentVersion": 3,
+      "candidateFile": "cape-town.json",
+      "evidenceFile": "cape-town-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 2,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/cape-town",
+        "canonical": "https://www.goeksplo.com/en/destinations/cape-town",
+        "title": "Cape Town guide: short stays and transport planning",
+        "h1": "Cape Town: plan a short trip",
+        "description": "Plan Cape Town around mountain, island and neighbourhood outings, with honest airport guidance and flexible two- or three-night sightseeing plans.",
+        "intentKeywords": [
+          "Cape Town 3 night itinerary",
+          "Cape Town airport bus suspended",
+          "Cape Town short stay transport planning"
+        ],
+        "relatedGuideSlugs": [
+          "marrakesh",
+          "rio-de-janeiro",
+          "sydney"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "Airport-bus suspension must be rechecked before publication and within 14 days.",
+        "Robben Island ferry details are deliberately not quoted; current museum arrangements remain required."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "destinationId": "place:Q1489",
+      "region": "North America",
+      "why": "Existing North American city identity and major museums; useful geographic grouping and three-airport differentiation without inventing fares.",
+      "baseRecordPath": "content/destinations/place-Q1489.json",
+      "baseRecordSha256": "fd24d97f25be2ee19a32bd6a2fbbbd7a4e398ac6a351a9829dc62dbde607ca91",
+      "identityPath": "content/places/place-Q1489.json",
+      "identitySha256": "8a77ae1fa104c78c2511758e83a3acbecd99f3ce9f5e6cfbc5f43b8782ab6e56",
+      "contentVersion": 3,
+      "candidateFile": "mexico-city.json",
+      "evidenceFile": "mexico-city-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/mexico-city",
+        "canonical": "https://www.goeksplo.com/en/destinations/mexico-city",
+        "title": "Mexico City guide: museums, areas and airport choices",
+        "h1": "Mexico City: plan a short trip",
+        "description": "Plan a focused Mexico City stay with the historic centre, Chapultepec, useful base choices and distinct MEX, NLU and TLC arrival guidance.",
+        "intentKeywords": [
+          "Mexico City 3 night itinerary",
+          "Mexico City airports MEX NLU TLC",
+          "Centro Historico or Roma short stay"
+        ],
+        "relatedGuideSlugs": [
+          "new-york",
+          "rio-de-janeiro"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "Conflicting official Templo Mayor ticket amounts were found; no admission price is proposed.",
+        "Some original museum pages were inaccessible; replacement federal/city sources support only the claims cited here."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "destinationId": "place:Q8678",
+      "region": "South America",
+      "why": "Existing South American identity; separates airports and ticketed viewpoints while retaining a closure caveat instead of promising a mansion visit.",
+      "baseRecordPath": "content/destinations/place-Q8678.json",
+      "baseRecordSha256": "1945057e41eb494153e52dfbeb373b81eb486069b4849631a3af6afd4833c573",
+      "identityPath": "content/places/place-Q8678.json",
+      "identitySha256": "721d420c5fa2c5b1f101b63854508569f4c2404620f685125e207e8123803dcd",
+      "contentVersion": 3,
+      "candidateFile": "rio-de-janeiro.json",
+      "evidenceFile": "rio-de-janeiro-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 5,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/rio-de-janeiro",
+        "canonical": "https://www.goeksplo.com/en/destinations/rio-de-janeiro",
+        "title": "Rio guide: beaches, viewpoints and arrival planning",
+        "h1": "Rio de Janeiro: plan a short trip",
+        "description": "Plan Rio with separate beach and viewpoint outings, GIG/SDU guidance and clear limits around airport transfers, weather and Parque Lage access.",
+        "intentKeywords": [
+          "Rio de Janeiro 3 night itinerary",
+          "GIG SDU airport planning",
+          "Rio viewpoint tickets trip budget"
+        ],
+        "relatedGuideSlugs": [
+          "cape-town",
+          "mexico-city"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "RRJ ground-transport evidence is missing; do not advertise complete all-airport guidance.",
+        "Parque Lage mansion closure must be rechecked before approval and within 14 days."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    },
+    {
+      "slug": "sydney",
+      "name": "Sydney",
+      "destinationId": "place:Q3130",
+      "region": "Oceania",
+      "why": "Existing Oceania identity and connected harbour sights; adds genuine Indigenous context and distinguishes SYD from the new WSI arrangements.",
+      "baseRecordPath": "content/destinations/place-Q3130.json",
+      "baseRecordSha256": "9e328316c9bd22b8629f0c57ef49e862224922889553de259ce0663a3db4b4d9",
+      "identityPath": "content/places/place-Q3130.json",
+      "identitySha256": "a2b5bdb3cc06ad04c8f04eba4d31c1bd76f198437559e620fa728460ac2dbeeb",
+      "contentVersion": 3,
+      "candidateFile": "sydney.json",
+      "evidenceFile": "sydney-evidence.md",
+      "baseline": {
+        "attractions": 4,
+        "areas": 1,
+        "transport": 1,
+        "itineraries": [
+          {
+            "nights": [
+              2,
+              3
+            ],
+            "stops": 2,
+            "calendarDays": []
+          }
+        ],
+        "arrival": "not-detailed",
+        "guideRoute": null
+      },
+      "proposal": {
+        "attractions": 4,
+        "areas": 2,
+        "transport": 3,
+        "nightTemplates": [
+          2,
+          3
+        ]
+      },
+      "seo": {
+        "proposedPath": "/en/destinations/sydney",
+        "canonical": "https://www.goeksplo.com/en/destinations/sydney",
+        "title": "Sydney guide: harbour stays and airport budget checks",
+        "h1": "Sydney: plan a short trip",
+        "description": "Plan a short Sydney harbour stay with The Rocks, Opera House, garden and bridge, plus distinct SYD/WSI guidance and airport-fee cautions.",
+        "intentKeywords": [
+          "Sydney 3 night itinerary",
+          "Sydney airport station fee budget",
+          "SYD WSI difference arrival"
+        ],
+        "relatedGuideSlugs": [
+          "singapore",
+          "cape-town",
+          "london"
+        ],
+        "indexing": "Candidate for indexing only after exact editorial approval, pre-publication operational recheck and explicit guide allowlist approval. No route is activated.",
+        "demandEvidence": "Qualitative traveller intent only; no measured volume, ranking or Search Console data is available."
+      },
+      "media": [],
+      "limitations": [
+        "No approved photograph.",
+        "WSI arrangements are pre-opening evidence, not observed passenger service. Recheck after opening and before editorial approval."
+      ],
+      "integrationNotes": [
+        "Keep every new guide outside the runtime allowlist until exact editorial approval.",
+        "Use existing discoveryHref/planDestinationHref context handling and the unchanged search parser; never set an inferred origin.",
+        "Evergreen guide currently shows the two-night outline; the three-night template is available to the existing requested-night trip renderer, not automatically a second evergreen section."
+      ]
+    }
+  ]
+}

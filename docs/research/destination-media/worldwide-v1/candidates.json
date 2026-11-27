@@ -1,0 +1,140 @@
+{
+  "kind": "OWNER-APPROVED — integrated locally, not deployed",
+  "automaticApproval": false,
+  "candidates": [
+    {
+      "subject": "paris",
+      "status": "owner-approved-integrated-locally",
+      "ownerApprovalRecorded": true,
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-22T09:43:51.895Z",
+      "rolesProposed": [
+        "destination.card",
+        "destination.hero"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg",
+      "sourceApiEvidence": "paris-commons.json",
+      "commonsPageId": 4213147,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Panorama_of_Paris_from_top_of_Arc_de_Triomphe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "original": {
+        "width": 7203,
+        "height": 2247,
+        "bytes": 1799160,
+        "sha1": "09ef91151dd7a54faa163be6c0ea5252a22fdeef",
+        "sha256": "1fa2c354228ba1d87bbcd05c8d8cb7276dbcdae93dd701de5bc82d6a23405785"
+      },
+      "author": "MarcusObal",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "checkedAt": "2026-10-22",
+        "commercialReuse": "permitted subject to attribution, licence link, modification notice and share-alike",
+        "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "attribution": "MarcusObal · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "altProposed": {
+        "en": "Paris panorama looking toward the Eiffel Tower from the Arc de Triomphe (2008)"
+      },
+      "focalPointProposed": {
+        "x": 0.32,
+        "y": 0.5
+      },
+      "variants": [
+        {
+          "file": "paris-640.webp",
+          "width": 640,
+          "height": 199,
+          "bytes": 20658,
+          "sha256": "2f73127c047a3bfb4a19389981be7afdb6229f1ab5b0e9440ae631cb28321430"
+        },
+        {
+          "file": "paris-1200.webp",
+          "width": 1200,
+          "height": 374,
+          "bytes": 64830,
+          "sha256": "39b6593a0868c5de548ae329c9f285134fa6de1f1891f7e169a5fa5e3257cd35"
+        },
+        {
+          "file": "paris-1920.webp",
+          "width": 1920,
+          "height": 599,
+          "bytes": 151216,
+          "sha256": "6f895dcbaddba65243d128b8d9a9e3c871539565bc43011d0a89ea43b782d969"
+        }
+      ],
+      "identityEvidence": "Individual Commons description and visual inspection correspond to the existing reviewed canonical destination identity.",
+      "limitations": "Historical destination photograph, not evidence of current conditions. Panoramic original needs explicit owner approval of card/hero crops. Proposed focal point is unapproved.",
+      "publication": "Integrated through the reviewed crop metadata and pinned derivative workflow; not committed or deployed."
+    },
+    {
+      "subject": "place:Q60",
+      "status": "owner-approved-integrated-locally",
+      "ownerApprovalRecorded": true,
+      "reviewer": "GoEksplo Owner",
+      "reviewedAt": "2026-10-22T09:43:51.895Z",
+      "rolesProposed": [
+        "destination.card",
+        "destination.hero"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:New_York_City_Skyline_2016.jpg",
+      "sourceApiEvidence": "new-york-commons.json",
+      "commonsPageId": 129513544,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/New_York_City_Skyline_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "original": {
+        "width": 7580,
+        "height": 2110,
+        "bytes": 1122801,
+        "sha1": "e542120490743c6f39c2159fc8f7526cc89d7017",
+        "sha256": "673b3765cf1617ec163e69e1eda9e4e6ca69d49ded12c23fe408319396cbaa1a"
+      },
+      "author": "Aaron Harris (Forestikai)",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "checkedAt": "2026-10-22",
+        "commercialReuse": "permitted subject to attribution, licence link, modification notice and share-alike",
+        "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "attribution": "Aaron Harris (Forestikai) · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "altProposed": {
+        "en": "Lower Manhattan skyline and One World Trade Center seen from the north (2016)"
+      },
+      "focalPointProposed": {
+        "x": 0.68,
+        "y": 0.5
+      },
+      "variants": [
+        {
+          "file": "new-york-640.webp",
+          "width": 640,
+          "height": 178,
+          "bytes": 18202,
+          "sha256": "9868e2f76a6a37542554af177044a6454f9da7257128be67f82ce9b83e5414fd"
+        },
+        {
+          "file": "new-york-1200.webp",
+          "width": 1200,
+          "height": 334,
+          "bytes": 53500,
+          "sha256": "374ac1b697d5ec86a3ce2583102014b8128f2cbd7dff59e5c368a4719c4975c4"
+        },
+        {
+          "file": "new-york-1920.webp",
+          "width": 1920,
+          "height": 534,
+          "bytes": 121696,
+          "sha256": "861c02f801f93d8d6eac3f5f40191bfafd5f7f95b62b7ed2d3f6c1a577bb053b"
+        }
+      ],
+      "identityEvidence": "Individual Commons description and visual inspection correspond to the existing reviewed canonical destination identity.",
+      "limitations": "Historical destination photograph, not evidence of current conditions. Panoramic original needs explicit owner approval of card/hero crops. Proposed focal point is unapproved.",
+      "publication": "Integrated through the reviewed crop metadata and pinned derivative workflow; not committed or deployed."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "evidence": "paris-rejected-skyline-commons.json",
+      "reason": "Identity/licence verified but roof equipment dominates the composition; not proposed for display."
+    }
+  ]
+}

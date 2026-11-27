@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-23T22:58:37.320059+00:00",
+  "reviewLocalDate": "2026-10-24",
+  "status": "approved-wording-remains-accurate-and-qualified",
+  "airportSubject": "place:Q3130",
+  "operatingAirportsUnchanged": [
+    "WSI",
+    "SYD"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wsiairport.com.au/faqs",
+      "publisher": "Western Sydney International Airport",
+      "access": "official indexed text; airport home direct fetch exposed only a JavaScript shell",
+      "finding": "Airport describes passenger commencement on 25 October 2026; this is scheduled future operation at review time, not confirmation that passenger services already run."
+    },
+    {
+      "url": "https://www.wsiairport.com.au/",
+      "publisher": "Western Sydney International Airport",
+      "access": "official indexed home content dated 23 October; direct fetch limited",
+      "finding": "Opening notice remains 25 October 2026. No marketing travel-time claim imported."
+    },
+    {
+      "url": "https://transportnsw.info/travel-info/airport-travel/getting-to-from-western-sydney-international-airport-wsi",
+      "publisher": "Transport for NSW",
+      "access": "direct readable official page",
+      "finding": "Bus connections including St Marys are described; direct train services are not operating and the metro is under construction. Passenger commencement conditions must be checked."
+    },
+    {
+      "url": "https://transportnsw.info/wsi-link",
+      "publisher": "Transport for NSW",
+      "access": "direct readable official page",
+      "finding": "St Marys bus service is described as beginning with passenger operations on 25 October. No fare, frequency, journey time or free whole-airport transfer is added to GoEksplo."
+    }
+  ],
+  "approvedGuideWording": "WSI is separate from SYD. Check its opening and service notices for your dates. The official planner describes bus connections, including St Marys, while its metro is under construction. Do not use SYD terminal directions or assume a direct train.",
+  "wordingChanged": false,
+  "openingDateAddedToGuide": false,
+  "costAdded": false,
+  "airportIdentityOrRoutingChanged": false,
+  "recheckDeadline": "2026-10-26T00:00:00Z",
+  "deadlineExtended": false,
+  "limitation": "This recheck confirms consistency of the conditional copy with currently published airport/transport announcements. It does not independently witness opening, a running flight, a bus journey or future operational availability."
+}

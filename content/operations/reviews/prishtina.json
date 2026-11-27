@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "destinationId": "prishtina",
+  "current": {
+    "contentVersion": 2,
+    "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+    "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+    "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+    "decision": "approved",
+    "checks": {
+      "identity": "approved",
+      "sources": "approved",
+      "englishCopy": "approved",
+      "albanianCopy": "approved",
+      "selectionAndOrder": "approved",
+      "freshness": "approved"
+    },
+    "warningsAcknowledged": [
+      {
+        "id": "evidence-review",
+        "reason": "Prishtina v2 identity, strengthened institutional sources, EN/SQ copy, focused library, NEWBORN, gallery and Xhamia e Mbretit selection, cautious transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids unsupported stay-area guidance, live fares, schedules and access guarantees."
+      }
+    ],
+    "reviewer": "art",
+    "updatedAt": "2026-10-14T11:18:12.230Z",
+    "reviewedAt": "2026-10-14T11:18:12.230Z"
+  },
+  "history": [
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "pending",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:06.580Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:07.381Z",
+      "reason": "Check sources: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "pending",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:07.381Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:08.194Z",
+      "reason": "Check englishCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "pending",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:08.194Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:08.991Z",
+      "reason": "Check albanianCopy: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "pending",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:08.991Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:09.801Z",
+      "reason": "Check selectionAndOrder: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "pending"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:09.801Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:10.607Z",
+      "reason": "Check freshness: approved"
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:10.607Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:11.429Z",
+      "reason": "Advisory evidence-review: Prishtina v2 identity, strengthened institutional sources, EN/SQ copy, focused library, NEWBORN, gallery and Xhamia e Mbretit selection, cautious transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids unsupported stay-area guidance, live fares, schedules and access guarantees."
+    },
+    {
+      "review": {
+        "contentVersion": 2,
+        "contentDigest": "71d63b216c0917f42fff6002009053dd76a0226364f72582122066b8dda88e4a",
+        "identityDigest": "27b70f768ebdebf2319836f00cb2de0ec23323ebc87627102e8a0d3c2181fce5",
+        "evidenceDigest": "2aeda4f415f4f3bf92160c34c6a4cca722ff6eb5f9281489501c91c98fd28ade",
+        "decision": "pending",
+        "checks": {
+          "identity": "approved",
+          "sources": "approved",
+          "englishCopy": "approved",
+          "albanianCopy": "approved",
+          "selectionAndOrder": "approved",
+          "freshness": "approved"
+        },
+        "warningsAcknowledged": [
+          {
+            "id": "evidence-review",
+            "reason": "Prishtina v2 identity, strengthened institutional sources, EN/SQ copy, focused library, NEWBORN, gallery and Xhamia e Mbretit selection, cautious transport guidance and freshness ownership were reviewed and accepted for publication. The content intentionally avoids unsupported stay-area guidance, live fares, schedules and access guarantees."
+          }
+        ],
+        "reviewer": "art",
+        "updatedAt": "2026-10-14T11:18:11.429Z",
+        "reviewedAt": null
+      },
+      "supersededAt": "2026-10-14T11:18:12.230Z",
+      "reason": "Decision: approved"
+    }
+  ]
+}

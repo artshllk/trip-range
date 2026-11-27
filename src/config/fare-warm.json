@@ -1,0 +1,19 @@
+{
+  "origins": [
+    { "code": "TIA", "currency": "EUR" },
+    {
+      "code": "LON",
+      "currency": "EUR",
+      "airports": ["LHR", "LGW", "STN", "LTN", "LCY", "SEN"]
+    },
+    { "code": "BCN", "currency": "EUR" },
+    {
+      "code": "WAW",
+      "currency": "EUR",
+      "airports": ["WAW", "WMI"]
+    }
+  ],
+  "refreshHours": 12,
+  "graceHours": 2,
+  "prishtinaAnchor": "2026-11-16"
+}

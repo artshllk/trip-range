@@ -1,0 +1,271 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-23T22:42:49.686Z",
+  "scope": "actual shared guide/card components in unpublished operator previews; planning links open isolated keyless production-built homepage; NOT hosted Netlify checks",
+  "checks": [
+    {
+      "slug": "cape-town",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "heroVariant": "cape-town-batch3-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "cape-town",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "heroVariant": "cape-town-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "cape-town",
+      "width": 375,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "heroVariant": "cape-town-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "cape-town",
+      "width": 360,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "heroVariant": "cape-town-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "cape-town",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:CPT",
+      "heroVariant": "cape-town-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "heroVariant": "rio-de-janeiro-batch3-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "heroVariant": "rio-de-janeiro-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 375,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "heroVariant": "rio-de-janeiro-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 360,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "heroVariant": "rio-de-janeiro-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "rio-de-janeiro",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:RIO",
+      "heroVariant": "rio-de-janeiro-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "heroVariant": "sydney-batch3-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "heroVariant": "sydney-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 375,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "heroVariant": "sydney-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 360,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "heroVariant": "sydney-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "sydney",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:SYD",
+      "heroVariant": "sydney-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 1440,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "heroVariant": "dubai-batch3-v1-1200.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 390,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "heroVariant": "dubai-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 375,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "heroVariant": "dubai-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 360,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "heroVariant": "dubai-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "slug": "dubai",
+      "width": 320,
+      "status": "passed",
+      "targetId": "city:DXB",
+      "heroVariant": "dubai-batch3-v1-640.webp",
+      "overflow": false,
+      "planningContext": true,
+      "reload": true,
+      "back": true
+    },
+    {
+      "page": "gallery.html",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "gallery.html",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "gallery.html",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "previews/cards.html",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "previews/cards.html",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "previews/cards.html",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    }
+  ],
+  "guideViewportChecks": 20,
+  "galleryAndCardsChecks": 6,
+  "externalRequests": 0,
+  "apiRequests": 0,
+  "providerCalls": 0,
+  "RedisCalls": 0,
+  "OpenAICalls": 0,
+  "browserErrors": []
+}

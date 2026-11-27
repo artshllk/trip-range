@@ -1,0 +1,666 @@
+{
+  "id": "ee8u-8wwr",
+  "name": "Strutture Ricettive Alberghiere e extra-alberghiere nel comune di Milano",
+  "assetType": "filter",
+  "attribution": "PoliS - Lombardia",
+  "attributionLink": "http://www.turismo.regione.lombardia.it/it/home/",
+  "averageRating": 0,
+  "category": "Turismo",
+  "createdAt": 1708505874,
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 946,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "CC0_10",
+  "locked": false,
+  "modifyingViewUid": "745d-3uyg",
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 2960871,
+  "provenance": "community",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1708506005,
+  "publicationGroup": 9390,
+  "publicationStage": "published",
+  "queryString": "SELECT\n  `id_struttura`,\n  `provincia`,\n  `nome_comune`,\n  `denominazione_struttura`,\n  `categoria`,\n  `classificazione`,\n  `indirizzo`,\n  `cap`,\n  `frazione`,\n  `localita`,\n  `cir`,\n  `email`,\n  `tel`,\n  `fax`,\n  `web`,\n  `camere`,\n  `suite`,\n  `letti`,\n  `bagni`,\n  `prima_colazione`,\n  `in_abitato`,\n  `sul_lago`,\n  `vicino_eliporto`,\n  `vicino_aereoporto`,\n  `zona_centrale`,\n  `vicino_imp_risalita`,\n  `zona_periferica`,\n  `zona_stazione_fs`,\n  `attrezzature`,\n  `attrezzature_carte`,\n  `attrezzature_lingue`,\n  `attrezzature_sport`,\n  `attrezzature_congressi`,\n  `geo_y`,\n  `geo_x`,\n  `locatio1`,\n  `:@computed_region_ttgh_9sm5`,\n  `:@computed_region_af5v_nc64`,\n  `:@computed_region_6hky_swhk`,\n  `:@computed_region_ypj4_hixw`,\n  `:@computed_region_5aqa_mzrh`\nWHERE\n  caseless_eq(`nome_comune`, \"MILANO\")\n  AND caseless_not_one_of(\n    `denominazione_struttura`,\n    \"Monnaflat - Beato Angelico 19;\"\n  )",
+  "rowsUpdatedAt": 1727710970,
+  "rowsUpdatedBy": "w7au-6b88",
+  "tableId": 1980360,
+  "totalTimesRated": 0,
+  "viewCount": 4034,
+  "viewLastModified": 1708506005,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1708506006,
+      "reviewedAutomatically": true,
+      "state": "approved",
+      "submissionId": 1465388,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1708506006,
+      "targetAudience": "public",
+      "workflowId": 186,
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1708506006,
+        "failureCount": 0,
+        "startedAt": 1708506006,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "2xg7-bf99",
+        "displayName": "OpenDataMilano"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 26428871,
+      "name": "ID_STRUTTURA",
+      "dataTypeName": "number",
+      "description": "",
+      "fieldName": "id_struttura",
+      "position": 1,
+      "renderTypeName": "number",
+      "tableColumnId": 15026879,
+      "width": 70,
+      "format": {
+        "noCommas": "true"
+      }
+    },
+    {
+      "id": 26428872,
+      "name": "PROVINCIA",
+      "dataTypeName": "text",
+      "fieldName": "provincia",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 98064,
+      "width": 50,
+      "format": {}
+    },
+    {
+      "id": 26428873,
+      "name": "NOME_COMUNE",
+      "dataTypeName": "text",
+      "fieldName": "nome_comune",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 98065,
+      "width": 141,
+      "format": {}
+    },
+    {
+      "id": 26428874,
+      "name": "DENOMINAZIONE_STRUTTURA",
+      "dataTypeName": "text",
+      "fieldName": "denominazione_struttura",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 98066,
+      "width": 175,
+      "format": {}
+    },
+    {
+      "id": 26428875,
+      "name": "CATEGORIA",
+      "dataTypeName": "text",
+      "fieldName": "categoria",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 98067,
+      "width": 133,
+      "format": {}
+    },
+    {
+      "id": 26428876,
+      "name": "CLASSIFICAZIONE",
+      "dataTypeName": "text",
+      "fieldName": "classificazione",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 98068,
+      "width": 164,
+      "format": {}
+    },
+    {
+      "id": 26428877,
+      "name": "INDIRIZZO",
+      "dataTypeName": "text",
+      "fieldName": "indirizzo",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 98069,
+      "width": 208,
+      "format": {}
+    },
+    {
+      "id": 26428878,
+      "name": "CAP",
+      "dataTypeName": "text",
+      "fieldName": "cap",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 98070,
+      "width": 58,
+      "format": {}
+    },
+    {
+      "id": 26428879,
+      "name": "FRAZIONE",
+      "dataTypeName": "text",
+      "fieldName": "frazione",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 98071,
+      "width": 80,
+      "format": {}
+    },
+    {
+      "id": 26428880,
+      "name": "LOCALITA",
+      "dataTypeName": "text",
+      "fieldName": "localita",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 98072,
+      "width": 79,
+      "format": {}
+    },
+    {
+      "id": 26428881,
+      "name": "CIR",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "cir",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 15175102,
+      "format": {}
+    },
+    {
+      "id": 26428882,
+      "name": "EMAIL",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "email",
+      "position": 12,
+      "renderTypeName": "text",
+      "tableColumnId": 98073,
+      "width": 160,
+      "format": {}
+    },
+    {
+      "id": 26428883,
+      "name": "TEL",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "tel",
+      "position": 13,
+      "renderTypeName": "text",
+      "tableColumnId": 98074,
+      "width": 136,
+      "format": {}
+    },
+    {
+      "id": 26428884,
+      "name": "FAX",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "fax",
+      "position": 14,
+      "renderTypeName": "text",
+      "tableColumnId": 98075,
+      "width": 136,
+      "format": {}
+    },
+    {
+      "id": 26428885,
+      "name": "WEB",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "web",
+      "position": 15,
+      "renderTypeName": "text",
+      "tableColumnId": 15026878,
+      "width": 100,
+      "format": {}
+    },
+    {
+      "id": 26428886,
+      "name": "CAMERE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "camere",
+      "position": 16,
+      "renderTypeName": "text",
+      "tableColumnId": 98077,
+      "width": 50,
+      "format": {}
+    },
+    {
+      "id": 26428887,
+      "name": "SUITE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "suite",
+      "position": 17,
+      "renderTypeName": "text",
+      "tableColumnId": 98078,
+      "width": 70,
+      "format": {}
+    },
+    {
+      "id": 26428888,
+      "name": "LETTI",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "letti",
+      "position": 18,
+      "renderTypeName": "text",
+      "tableColumnId": 98079,
+      "width": 51,
+      "format": {}
+    },
+    {
+      "id": 26428889,
+      "name": "BAGNI",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "bagni",
+      "position": 19,
+      "renderTypeName": "text",
+      "tableColumnId": 98080,
+      "width": 53,
+      "format": {}
+    },
+    {
+      "id": 26428890,
+      "name": "PRIMA_COLAZIONE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "prima_colazione",
+      "position": 20,
+      "renderTypeName": "text",
+      "tableColumnId": 98081,
+      "width": 83,
+      "format": {}
+    },
+    {
+      "id": 26428891,
+      "name": "IN_ABITATO",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "in_abitato",
+      "position": 21,
+      "renderTypeName": "text",
+      "tableColumnId": 98083,
+      "width": 68,
+      "format": {}
+    },
+    {
+      "id": 26428892,
+      "name": "SUL_LAGO",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "sul_lago",
+      "position": 22,
+      "renderTypeName": "text",
+      "tableColumnId": 98084,
+      "width": 72,
+      "format": {}
+    },
+    {
+      "id": 26428893,
+      "name": "VICINO_ELIPORTO",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "vicino_eliporto",
+      "position": 23,
+      "renderTypeName": "text",
+      "tableColumnId": 98085,
+      "width": 68,
+      "format": {}
+    },
+    {
+      "id": 26428894,
+      "name": "VICINO_AEREOPORTO",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "vicino_aereoporto",
+      "position": 24,
+      "renderTypeName": "text",
+      "tableColumnId": 98086,
+      "width": 68,
+      "format": {}
+    },
+    {
+      "id": 26428895,
+      "name": "ZONA_CENTRALE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "zona_centrale",
+      "position": 25,
+      "renderTypeName": "text",
+      "tableColumnId": 98087,
+      "width": 74,
+      "format": {}
+    },
+    {
+      "id": 26428896,
+      "name": "VICINO_IMP_RISALITA",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "vicino_imp_risalita",
+      "position": 26,
+      "renderTypeName": "text",
+      "tableColumnId": 98088,
+      "width": 51,
+      "format": {}
+    },
+    {
+      "id": 26428897,
+      "name": "ZONA_PERIFERICA",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "zona_periferica",
+      "position": 27,
+      "renderTypeName": "text",
+      "tableColumnId": 98089,
+      "width": 83,
+      "format": {}
+    },
+    {
+      "id": 26428898,
+      "name": "ZONA_STAZIONE_FS",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "zona_stazione_fs",
+      "position": 28,
+      "renderTypeName": "text",
+      "tableColumnId": 98090,
+      "width": 88,
+      "format": {}
+    },
+    {
+      "id": 26428899,
+      "name": "ATTREZZATURE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "attrezzature",
+      "position": 29,
+      "renderTypeName": "text",
+      "tableColumnId": 98091,
+      "width": 244,
+      "format": {}
+    },
+    {
+      "id": 26428900,
+      "name": "ATTREZZATURE_CARTE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "attrezzature_carte",
+      "position": 30,
+      "renderTypeName": "text",
+      "tableColumnId": 98092,
+      "width": 316,
+      "format": {}
+    },
+    {
+      "id": 26428901,
+      "name": "ATTREZZATURE_LINGUE",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "attrezzature_lingue",
+      "position": 31,
+      "renderTypeName": "text",
+      "tableColumnId": 98093,
+      "width": 186,
+      "format": {}
+    },
+    {
+      "id": 26428902,
+      "name": "ATTREZZATURE_SPORT",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "attrezzature_sport",
+      "position": 32,
+      "renderTypeName": "text",
+      "tableColumnId": 98094,
+      "width": 122,
+      "format": {}
+    },
+    {
+      "id": 26428903,
+      "name": "ATTREZZATURE_CONGRESSI",
+      "dataTypeName": "text",
+      "description": "",
+      "fieldName": "attrezzature_congressi",
+      "position": 33,
+      "renderTypeName": "text",
+      "tableColumnId": 98095,
+      "width": 169,
+      "format": {}
+    },
+    {
+      "id": 26428904,
+      "name": "geo_y",
+      "dataTypeName": "number",
+      "description": "",
+      "fieldName": "geo_y",
+      "position": 34,
+      "renderTypeName": "number",
+      "tableColumnId": 98096,
+      "width": 160,
+      "format": {
+        "precisionStyle": "standard",
+        "decimalSeparator": ",",
+        "noCommas": "false",
+        "groupSeparator": ".",
+        "align": "right"
+      }
+    },
+    {
+      "id": 26428905,
+      "name": "geo_x",
+      "dataTypeName": "number",
+      "description": "",
+      "fieldName": "geo_x",
+      "position": 35,
+      "renderTypeName": "number",
+      "tableColumnId": 98097,
+      "width": 160,
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      }
+    },
+    {
+      "id": 26428906,
+      "name": "locatio1",
+      "dataTypeName": "point",
+      "description": "",
+      "fieldName": "locatio1",
+      "position": 36,
+      "renderTypeName": "point",
+      "tableColumnId": 15604630,
+      "format": {}
+    },
+    {
+      "id": 26428907,
+      "name": "Limiti amministrativi 2015 delle province di Regione Lombardia 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Limiti amministrativi 2015 delle province di Regione Lombardia' (ttgh-9sm5) the point in column 'locatio1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "fieldName": ":@computed_region_ttgh_9sm5",
+      "position": 37,
+      "renderTypeName": "number",
+      "tableColumnId": 15604631,
+      "computationStrategy": {
+        "source_columns": [
+          "locatio1"
+        ],
+        "type": "georegion_match_on_point",
+        "parameters": {
+          "region": "_ttgh-9sm5",
+          "primary_key": "_feature_id"
+        }
+      },
+      "format": {}
+    },
+    {
+      "id": 26428908,
+      "name": "ATS Regione Lombardia 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'ATS Regione Lombardia' (af5v-nc64) the point in column 'locatio1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "fieldName": ":@computed_region_af5v_nc64",
+      "position": 38,
+      "renderTypeName": "number",
+      "tableColumnId": 15604632,
+      "computationStrategy": {
+        "source_columns": [
+          "locatio1"
+        ],
+        "type": "georegion_match_on_point",
+        "parameters": {
+          "region": "_af5v-nc64",
+          "primary_key": "_feature_id"
+        }
+      },
+      "format": {}
+    },
+    {
+      "id": 26428909,
+      "name": "Limiti amministrativi 2014 delle province di Regione Lombardia 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Limiti amministrativi 2014 delle province di Regione Lombardia' (6hky-swhk) the point in column 'locatio1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "fieldName": ":@computed_region_6hky_swhk",
+      "position": 39,
+      "renderTypeName": "number",
+      "tableColumnId": 15604633,
+      "computationStrategy": {
+        "source_columns": [
+          "locatio1"
+        ],
+        "type": "georegion_match_on_point",
+        "parameters": {
+          "region": "_6hky-swhk",
+          "primary_key": "_feature_id"
+        }
+      },
+      "format": {}
+    },
+    {
+      "id": 26428910,
+      "name": "Comuni 2015 Polygon Semplificato Qgis 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Comuni 2015 Polygon Semplificato Qgis' (ypj4-hixw) the point in column 'locatio1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "fieldName": ":@computed_region_ypj4_hixw",
+      "position": 40,
+      "renderTypeName": "number",
+      "tableColumnId": 15604634,
+      "computationStrategy": {
+        "source_columns": [
+          "locatio1"
+        ],
+        "type": "georegion_match_on_point",
+        "parameters": {
+          "region": "_ypj4-hixw",
+          "primary_key": "_feature_id"
+        }
+      },
+      "format": {}
+    },
+    {
+      "id": 26428911,
+      "name": "Sistemi locali del lavoro Regione Lombardia 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Sistemi locali del lavoro Regione Lombardia' (5aqa-mzrh) the point in column 'locatio1' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+      "fieldName": ":@computed_region_5aqa_mzrh",
+      "position": 41,
+      "renderTypeName": "number",
+      "tableColumnId": 15604635,
+      "computationStrategy": {
+        "source_columns": [
+          "locatio1"
+        ],
+        "type": "georegion_match_on_point",
+        "parameters": {
+          "region": "_5aqa-mzrh",
+          "primary_key": "_feature_id"
+        }
+      },
+      "format": {}
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Creative Commons 1.0 Universal (Public Domain Dedication)",
+    "logoUrl": "images/licenses/ccZero.png",
+    "termsLink": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+  },
+  "metadata": {
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ],
+    "renderTypeConfig": {
+      "visible": {
+        "table": true
+      }
+    }
+  },
+  "owner": {
+    "id": "2xg7-bf99",
+    "displayName": "OpenDataMilano",
+    "profileImageUrlLarge": "/api/users/2xg7-bf99/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/2xg7-bf99/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/2xg7-bf99/profile_images/TINY",
+    "screenName": "OpenDataMilano",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "7pvs-5xuu",
+    "displayName": "Regione Lombardia",
+    "profileImageUrlLarge": "/api/users/7pvs-5xuu/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/7pvs-5xuu/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/7pvs-5xuu/profile_images/TINY",
+    "screenName": "Regione Lombardia",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "flags": [
+    "calculatedView",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType",
+    "soqlBasedView"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "INTERNAL FOLLOW-UP PROPOSAL — not a publication record",
+  "automaticApproval": false,
+  "candidates": [
+    {
+      "subject": "istanbul",
+      "status": "candidate-not-approved",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "rolesProposed": [
+        "destination.card",
+        "destination.hero"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_Istanbul.jpg",
+      "sourceApiEvidence": "istanbul-commons.json",
+      "commonsPageId": 34203027,
+      "author": "Tolga Tüfekçi",
+      "licence": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "checkedAt": "2026-10-22",
+        "derivativeLicence": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "attribution": "Tolga Tüfekçi · Wikimedia Commons · CC BY-SA 4.0 · resized to WebP; cropped for display",
+      "altProposed": {
+        "en": "View over Istanbul and its waterways from the Galata Tower (2014)"
+      },
+      "focalPointProposed": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "original": {
+        "width": 6009,
+        "height": 1354,
+        "bytes": 7140502,
+        "sha1": "b5797017584deaef6a69cf042b1d1c5862e46461",
+        "sha256": "59dc683557cf82b8821f4dc96f6a33e0682ddeebe4ef77eb2400d77e70cb8e59"
+      },
+      "variants": [
+        {
+          "file": "istanbul-640.webp",
+          "width": 640,
+          "height": 144,
+          "bytes": 22662,
+          "sha256": "b82bc1732844dc1112449564f1a6183a7911f5d0fb68e7fcb36eb60215e9d6ec"
+        },
+        {
+          "file": "istanbul-1200.webp",
+          "width": 1200,
+          "height": 270,
+          "bytes": 67652,
+          "sha256": "3b52095039a055868c70972246586839531f1d5781af5b19ef8a7fc12af4894b"
+        },
+        {
+          "file": "istanbul-1920.webp",
+          "width": 1920,
+          "height": 433,
+          "bytes": 152216,
+          "sha256": "9af2e7f66bcdcc2ee01c566bebfe3052a66d1d7e5e783879692c9688356106cb"
+        }
+      ],
+      "identityEvidence": "Commons file description, Galata Tower camera coordinates and visual inspection identify Istanbul, Türkiye.",
+      "priorityEvidence": "Existing catalogue and current reviewed content; no measured result-frequency or popularity claim. Follow-up after homepage Paris/New York.",
+      "publication": "Unapproved local preparation only; no public asset, route, media selection or product code changed."
+    },
+    {
+      "subject": "crete",
+      "status": "candidate-not-approved",
+      "ownerApprovalRecorded": false,
+      "reviewer": null,
+      "reviewedAt": null,
+      "rolesProposed": [
+        "destination.card",
+        "destination.hero"
+      ],
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg",
+      "sourceApiEvidence": "crete-commons.json",
+      "commonsPageId": 82826175,
+      "author": "Ввласенко (Volodymyr Vlasenko)",
+      "licence": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "checkedAt": "2026-10-22",
+        "derivativeLicence": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "attribution": "Ввласенко (Volodymyr Vlasenko) · Wikimedia Commons · CC BY-SA 3.0 · resized to WebP; cropped for display",
+      "altProposed": {
+        "en": "Chania old harbour on Crete (2019)"
+      },
+      "focalPointProposed": {
+        "x": 0.3,
+        "y": 0.5
+      },
+      "original": {
+        "width": 9626,
+        "height": 3236,
+        "bytes": 18318382,
+        "sha1": "a5418625a8f30ceb705da8ea7c53246de3d42db3",
+        "sha256": "a477f28716298c6bedb3de611f104a424ad81f7dd047c79d88c0f61b4df77628"
+      },
+      "variants": [
+        {
+          "file": "crete-640.webp",
+          "width": 640,
+          "height": 215,
+          "bytes": 21748,
+          "sha256": "14577aff16bf24ed2d9399c1e37eaa16a07180a034d9f7fbfa27975706b3e574"
+        },
+        {
+          "file": "crete-1200.webp",
+          "width": 1200,
+          "height": 403,
+          "bytes": 68626,
+          "sha256": "de8702ef9baf565df3c2e9046743e7e2fcf401544209f184aed18b31c3223f24"
+        },
+        {
+          "file": "crete-1920.webp",
+          "width": 1920,
+          "height": 646,
+          "bytes": 158468,
+          "sha256": "7acadbda5827c50a8564c85bbcae1b077b7f55f143593af58aee398279cceec4"
+        }
+      ],
+      "identityEvidence": "Commons file description, coordinates and visual inspection identify Chania old harbour on Crete, Greece. This is a specific part of the island, not an image of every destination area or an airport.",
+      "priorityEvidence": "Existing catalogue and current reviewed content; no measured result-frequency or popularity claim. Follow-up after homepage Paris/New York.",
+      "publication": "Unapproved local preparation only; no public asset, route, media selection or product code changed."
+    }
+  ]
+}

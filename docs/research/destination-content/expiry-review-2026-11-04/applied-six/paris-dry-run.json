@@ -1,0 +1,36 @@
+{
+  "destinationId": "paris",
+  "contentVersion": 4,
+  "digest": "8b6c7ba3e3eb31fab53e4a9606267e62c7bb00943730164e67fac7c51e82953c",
+  "reviewer": "GoEksplo Owner",
+  "reviewTimestamp": "2026-11-04T10:12:22.130Z",
+  "approvalTimestamp": "2026-11-04T10:12:22.148Z",
+  "warningsAcknowledged": [
+    {
+      "id": "evidence-review",
+      "reason": "Owner explicitly approved items 3-8 in the 4 November claim table: Chartier and Louvre/Eiffel notes, sources and 18 November deadlines. Other previously approved copy, identities, order and freshness are unchanged. This records the owner's scoped decision; it is not approval inferred from tests."
+    }
+  ],
+  "files": [
+    "content/destinations/paris.json"
+  ],
+  "itemsBecomingReviewed": [
+    "destination",
+    "overview",
+    "highlight:paris:1",
+    "highlight:paris:2",
+    "attraction:paris:eiffel-tower",
+    "attraction:paris:louvre",
+    "attraction:paris:notre-dame",
+    "attraction:paris:montmartre",
+    "area:paris:montmartre",
+    "transport:paris:tower-access",
+    "note:paris:museum-entry",
+    "note:phase4b:paris:transport:1",
+    "note:phase4b:paris:examples:1",
+    "note:phase4b:paris:examples:2"
+  ],
+  "dryRun": true,
+  "writes": 0,
+  "externalCalls": 0
+}

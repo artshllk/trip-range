@@ -1,0 +1,326 @@
+{
+  "destinationId": "place:Q131347",
+  "identitySubject": "place:Q131347",
+  "contentVersion": 2,
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-15T08:56:17.996Z",
+  "sourceIds": [
+    "source:worldwide:place-Q131347:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q131347:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q131347",
+      "title": "Oahu (Q131347)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-14T14:41:59.555Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q131347"
+      }
+    },
+    {
+      "id": "source:worldwide:place-Q131347:diamond",
+      "type": "official",
+      "url": "https://www.gohawaii.com/fr/islands/oahu/regions/honolulu/leahi-diamond-head",
+      "title": "Lēʻahi (Diamond Head)",
+      "publisher": "Hawaiʻi Tourism Authority",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:palace",
+      "type": "official",
+      "url": "https://www.iolanipalace.org/",
+      "title": "ʻIolani Palace",
+      "publisher": "The Friends of ʻIolani Palace",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:arizona",
+      "type": "official",
+      "url": "https://www.nps.gov/places/uss-arizona-memorial.htm",
+      "title": "USS Arizona Memorial",
+      "publisher": "US National Park Service",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:visit",
+      "type": "official",
+      "url": "https://www.nps.gov/perl/uss-arizona-memorial-programs.htm",
+      "title": "USS Arizona Memorial programmes",
+      "publisher": "US National Park Service",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:beach",
+      "type": "official",
+      "url": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/waikiki-beach",
+      "title": "Waikīkī Beach",
+      "publisher": "Hawaiʻi Tourism Authority",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:transport",
+      "type": "official",
+      "url": "https://www.gohawaii.com/islands/oahu/travel-info/transportation",
+      "title": "Oahu transportation",
+      "publisher": "Hawaiʻi Tourism Authority",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:access",
+      "type": "official",
+      "url": "https://www.gohawaii.com/trip-planning/planning-your-trip/post-arrival",
+      "title": "Arrival on Oahu",
+      "publisher": "Hawaii Tourism Authority",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    },
+    {
+      "id": "source:worldwide:place-Q131347:state-park",
+      "type": "official",
+      "url": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+      "title": "Diamond Head State Monument — current visitor guidance",
+      "publisher": "Hawaii Division of State Parks",
+      "retrievedAt": "2026-10-14T14:41:59.555Z"
+    }
+  ],
+  "overview": {
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-15T08:56:17.996Z",
+    "sourceIds": [
+      "source:worldwide:place-Q131347:diamond",
+      "source:worldwide:place-Q131347:palace",
+      "source:worldwide:place-Q131347:beach"
+    ],
+    "freshness": {
+      "kind": "stable"
+    },
+    "text": {
+      "en": "Oahu’s south shore combines beaches with royal history and a crater landmark. Pearl Harbor is a separate visit from Waikīkī.",
+      "sq": "Bregu jugor i ishullit Oahu bashkon plazhe, histori mbretërore dhe një krater karakteristik. Pearl Harbor kërkon vizitë më vete nga Waikīkī."
+    }
+  },
+  "highlights": [
+    {
+      "id": "highlight:place:Q131347:1",
+      "text": {
+        "en": "Hawaiian royal history at ʻIolani Palace",
+        "sq": "Histori mbretërore havajane në Pallatin ʻIolani"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:palace"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "highlight:place:Q131347:2",
+      "text": {
+        "en": "The crater landscape of Lēʻahi",
+        "sq": "Peizazhi i kraterit Lēʻahi"
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:diamond"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "attractions": [
+    {
+      "id": "attraction:place:Q131347:iolani",
+      "destinationId": "place:Q131347",
+      "name": {
+        "en": "ʻIolani Palace",
+        "sq": "Pallati ʻIolani"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "The former residence of Hawaiʻi’s last reigning monarchs.",
+        "sq": "Ish-rezidenca e monarkëve të fundit që sunduan në Hawaiʻi."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:palace"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q131347:diamond-head",
+      "destinationId": "place:Q131347",
+      "name": {
+        "en": "Lēʻahi (Diamond Head)",
+        "sq": "Lēʻahi (Diamond Head)"
+      },
+      "kind": "nature",
+      "shortDescription": {
+        "en": "A volcanic crater beside Honolulu’s south-shore skyline.",
+        "sq": "Krater vullkanik pranë bregut jugor të qytetit Honolulu."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:diamond"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q131347:waikiki",
+      "destinationId": "place:Q131347",
+      "name": {
+        "en": "Waikīkī Beach",
+        "sq": "Plazhi Waikīkī"
+      },
+      "kind": "beach",
+      "shortDescription": {
+        "en": "A group of connected beaches on Oahu’s south shore.",
+        "sq": "Grup plazhesh të lidhura në bregun jugor të ishullit Oahu."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:beach"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    },
+    {
+      "id": "attraction:place:Q131347:arizona",
+      "destinationId": "place:Q131347",
+      "name": {
+        "en": "USS Arizona Memorial",
+        "sq": "Memoriali USS Arizona"
+      },
+      "kind": "historic-site",
+      "shortDescription": {
+        "en": "A memorial above the sunken battleship at Pearl Harbor.",
+        "sq": "Memorial mbi anijen luftarake të fundosur në Pearl Harbor."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:arizona"
+      ],
+      "freshness": {
+        "kind": "stable"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q131347:waikiki",
+      "destinationId": "place:Q131347",
+      "name": {
+        "en": "Waikīkī",
+        "sq": "Waikīkī"
+      },
+      "summary": {
+        "en": "A south-shore beachfront area near Lēʻahi.",
+        "sq": "Zonë plazhi në bregun jugor, pranë Lēʻahi."
+      },
+      "goodFor": [
+        {
+          "en": "A base for beach time and Honolulu outings.",
+          "sq": "Bazë për plazhin dhe daljet në Honolulu."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Other parts of Oahu need separate transport planning.",
+          "sq": "Pjesët e tjera të ishullit Oahu kërkojnë planifikim më vete të transportit."
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:beach",
+        "source:worldwide:place-Q131347:diamond"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q131347:island-travel",
+      "destinationId": "place:Q131347",
+      "title": {
+        "en": "Choose transport for each outing",
+        "sq": "Zgjidh transportin për çdo dalje"
+      },
+      "guidance": {
+        "en": "Honolulu’s airport is on Oahu. TheBus, taxis, shuttles and rental cars are local transport options; check the route for each outing instead of assuming all island sights are close to Waikīkī.",
+        "sq": "Aeroporti i qytetit Honolulu ndodhet në Oahu. TheBus, taksitë, transfertat dhe makinat me qira janë mundësi transporti lokal; kontrollo rrugën për çdo vizitë, pasi jo të gjitha vendet e ishullit janë pranë Waikīkī."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:access",
+        "source:worldwide:place-Q131347:transport"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q131347:memorial-program",
+      "destinationId": "place:Q131347",
+      "kind": "booking",
+      "text": {
+        "en": "Use the National Park Service’s current reservation guidance for the USS Arizona Memorial programme.",
+        "sq": "Përdor udhëzimet aktuale të Shërbimit të Parqeve Kombëtare (NPS) për rezervimin e vizitës në Memorialin USS Arizona."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:visit"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q131347:crater-access",
+      "destinationId": "place:Q131347",
+      "kind": "booking",
+      "text": {
+        "en": "Check the state park’s current access and reservation rules before visiting Lēʻahi.",
+        "sq": "Kontrollo rregullat aktuale të hyrjes dhe rezervimit të parkut shtetëror para vizitës në Lēʻahi."
+      },
+      "reviewStatus": "reviewed",
+      "reviewedAt": "2026-10-15T08:56:17.996Z",
+      "sourceIds": [
+        "source:worldwide:place-Q131347:state-park"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-10T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [],
+  "publication": {
+    "contentDigest": "c7586932690598e993dbed92ac2bbf38c37d0a8b9e11e8db8aea4f1e0e2a20f4",
+    "identityDigest": "d7171d967e8f473fbd01b00f404dbb6d40140578f2e3afee6545d44858ee257c",
+    "approvedAt": "2026-10-15T08:56:17.996Z"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "parkedDate": "2026-11-02",
+  "reason": "owner-launch-scope-decision",
+  "records": [
+    {
+      "id": "city:MAN",
+      "name": "Manchester",
+      "countryCode": "GB",
+      "directCodes": ["MAN"],
+      "reason": "No retained observations"
+    },
+    {
+      "id": "place:Q76516549",
+      "name": "Algarve",
+      "countryCode": "PT",
+      "directCodes": ["FAO"],
+      "reason": "No retained observations; regional stay base not yet priced"
+    },
+    {
+      "id": "crete",
+      "name": "Crete",
+      "countryCode": "GR",
+      "directCodes": ["HER", "CHQ"],
+      "reason": "Three retained observations; no cost research"
+    },
+    {
+      "id": "place:Q40846",
+      "name": "Tenerife",
+      "countryCode": "ES",
+      "directCodes": ["TCI", "TFN", "TFS"],
+      "reason": "Four retained observations; regional stay base not yet priced"
+    },
+    {
+      "id": "city:CPH",
+      "name": "Copenhagen",
+      "countryCode": "DK",
+      "directCodes": ["CPH"],
+      "reason": "Eight retained observations"
+    },
+    {
+      "id": "city:BSL",
+      "name": "Basel",
+      "countryCode": "CH",
+      "directCodes": ["BSL", "MLH", "EAP"],
+      "reason": "Ten retained tuples, none passing the timestamped-return check"
+    }
+  ]
+}

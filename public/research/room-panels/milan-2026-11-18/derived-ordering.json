@@ -1,0 +1,2314 @@
+{
+  "licence": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors. Regional extract supplied by Geofabrik.",
+  "frame_id": "milan-osm-2026-11-17-e18bc339f409",
+  "composition_id": "mil-v9-713fefb8e700",
+  "status": "frozen_panel_order",
+  "rule": "nearest-remaining-plus-50m-id-v1",
+  "ready": true,
+  "selected_ids": [
+    "milan-n1512688449",
+    "milan-n2399642744",
+    "milan-n10010898615",
+    "milan-n1836751668",
+    "milan-n9532613679",
+    "milan-n3991744051",
+    "milan-n4315739003",
+    "milan-n4537488522"
+  ],
+  "unresolved_in_first_eight_windows": [],
+  "order": [
+    {
+      "property_id": "milan-n1512688449",
+      "metres": 197.62301000806784,
+      "rank": 1,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n2399642744",
+      "metres": 202.93788911232465,
+      "rank": 2,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n10010898615",
+      "metres": 300.90131837223885,
+      "rank": 3,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n1836751668",
+      "metres": 418.7540355105801,
+      "rank": 4,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n9532613679",
+      "metres": 585.6210137497338,
+      "rank": 5,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n3991744051",
+      "metres": 725.5969607181133,
+      "rank": 6,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n4315739003",
+      "metres": 677.7929906267308,
+      "rank": 7,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n4537488522",
+      "metres": 736.2471587471857,
+      "rank": 8,
+      "eligibility": "eligible"
+    },
+    {
+      "property_id": "milan-n3012733093",
+      "metres": 847.8975999885324,
+      "rank": 9,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545087304",
+      "metres": 799.7900445138484,
+      "rank": 10,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n11175543238",
+      "metres": 918.1278395422752,
+      "rank": 11,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n5259440056",
+      "metres": 932.8418056065324,
+      "rank": 12,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n7822250670",
+      "metres": 921.3206313550955,
+      "rank": 13,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n5567294345",
+      "metres": 979.700814943683,
+      "rank": 14,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9529538260",
+      "metres": 949.48622149933,
+      "rank": 15,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545153347",
+      "metres": 946.9983629354792,
+      "rank": 16,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1623772669",
+      "metres": 1018.1394828818138,
+      "rank": 17,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1855655348",
+      "metres": 1017.6318132339268,
+      "rank": 18,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-w40980171",
+      "metres": 993.1156972112335,
+      "rank": 19,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4086308099",
+      "metres": 1057.5063769775054,
+      "rank": 20,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n6812401714",
+      "metres": 1092.2602663454743,
+      "rank": 21,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2589272454",
+      "metres": 1199.0009972434425,
+      "rank": 22,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n5567294352",
+      "metres": 1174.4523367387235,
+      "rank": 23,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n10554804847",
+      "metres": 1253.7947949547604,
+      "rank": 24,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n12915007292",
+      "metres": 1289.1295521155728,
+      "rank": 25,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4212583091",
+      "metres": 1268.2594711986726,
+      "rank": 26,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4654764963",
+      "metres": 1289.332243190347,
+      "rank": 27,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545289790",
+      "metres": 1299.6387111735792,
+      "rank": 28,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n10010917516",
+      "metres": 1397.1390128935625,
+      "rank": 29,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1938014502",
+      "metres": 1425.2378292642256,
+      "rank": 30,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2104853263",
+      "metres": 1430.896292326015,
+      "rank": 31,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9527335320",
+      "metres": 1394.0005837149718,
+      "rank": 32,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9544942480",
+      "metres": 1424.6088229087454,
+      "rank": 33,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9546910088",
+      "metres": 1382.6346308430193,
+      "rank": 34,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2838475463",
+      "metres": 1463.6794753291945,
+      "rank": 35,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9546936428",
+      "metres": 1422.1201740839526,
+      "rank": 36,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2529864215",
+      "metres": 1504.221280089215,
+      "rank": 37,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n298986172",
+      "metres": 1513.1700935740632,
+      "rank": 38,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4555772439",
+      "metres": 1522.3295151634973,
+      "rank": 39,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n8933988911",
+      "metres": 1487.369310917063,
+      "rank": 40,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n10009210157",
+      "metres": 1558.8308222138405,
+      "rank": 41,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2838508878",
+      "metres": 1543.229791711575,
+      "rank": 42,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545041686",
+      "metres": 1548.427003962178,
+      "rank": 43,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545224962",
+      "metres": 1525.2788549132683,
+      "rank": 44,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2051364302",
+      "metres": 1599.8163453005993,
+      "rank": 45,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9540309460",
+      "metres": 1592.5457239673642,
+      "rank": 46,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3273667728",
+      "metres": 1672.9587010947812,
+      "rank": 47,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3521819701",
+      "metres": 1664.8452189897778,
+      "rank": 48,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4785126221",
+      "metres": 1650.569683444529,
+      "rank": 49,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545242293",
+      "metres": 1642.8966301513278,
+      "rank": 50,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1857902555",
+      "metres": 1696.0337286407932,
+      "rank": 51,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4157927406",
+      "metres": 1713.810550174223,
+      "rank": 52,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n5300438333",
+      "metres": 1694.6731298502827,
+      "rank": 53,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9623981267",
+      "metres": 1666.4357677771823,
+      "rank": 54,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n11185389982",
+      "metres": 1744.7367222615958,
+      "rank": 55,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1849612972",
+      "metres": 1750.2400887721026,
+      "rank": 56,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1849612985",
+      "metres": 1736.4915156088448,
+      "rank": 57,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2538832005",
+      "metres": 1761.0982470321765,
+      "rank": 58,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2774913920",
+      "metres": 1750.372652053175,
+      "rank": 59,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3011974302",
+      "metres": 1747.9299373536805,
+      "rank": 60,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3521852266",
+      "metres": 1775.3738415591301,
+      "rank": 61,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n6447853004",
+      "metres": 1765.998400081742,
+      "rank": 62,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9526774695",
+      "metres": 1751.8279146183888,
+      "rank": 63,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9526815277",
+      "metres": 1728.6431516093487,
+      "rank": 64,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1533118079",
+      "metres": 1820.4834114602331,
+      "rank": 65,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2016985972",
+      "metres": 1786.6070196113349,
+      "rank": 66,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2493841055",
+      "metres": 1823.0926232335378,
+      "rank": 67,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n298985382",
+      "metres": 1822.8788676417444,
+      "rank": 68,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3521849181",
+      "metres": 1779.009601142111,
+      "rank": 69,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n308842416",
+      "metres": 1832.5309479312218,
+      "rank": 70,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n8606113395",
+      "metres": 1793.7279005362755,
+      "rank": 71,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9545209245",
+      "metres": 1797.086444489952,
+      "rank": 72,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-w345544084",
+      "metres": 1782.9960171573878,
+      "rank": 73,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n12433762601",
+      "metres": 1873.0789161097373,
+      "rank": 74,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3373079344",
+      "metres": 1870.1951449258027,
+      "rank": 75,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n5106617191",
+      "metres": 1840.0504049600913,
+      "rank": 76,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n3412762106",
+      "metres": 1909.51458386315,
+      "rank": 77,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n4756745053",
+      "metres": 1907.8694353949643,
+      "rank": 78,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n8419465243",
+      "metres": 1906.3893003492817,
+      "rank": 79,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n8419465244",
+      "metres": 1905.844939258054,
+      "rank": 80,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-w138982552",
+      "metres": 1907.760306662993,
+      "rank": 81,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-w54155499",
+      "metres": 1867.3872288474467,
+      "rank": 82,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n11780137568",
+      "metres": 1934.7871997461755,
+      "rank": 83,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n1849612979",
+      "metres": 1943.1525556850581,
+      "rank": 84,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n439221112",
+      "metres": 1962.1384450643031,
+      "rank": 85,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n8606122147",
+      "metres": 1946.6288220846704,
+      "rank": 86,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9527221902",
+      "metres": 1919.2405455981377,
+      "rank": 87,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2279452828",
+      "metres": 1979.936565205969,
+      "rank": 88,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n2993513336",
+      "metres": 1988.8273082807655,
+      "rank": 89,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9525153060",
+      "metres": 1992.6537972468825,
+      "rank": 90,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-n9540452832",
+      "metres": 1979.2508095098162,
+      "rank": 91,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-w138982556",
+      "metres": 1949.9061825839233,
+      "rank": 92,
+      "eligibility": "unknown"
+    },
+    {
+      "property_id": "milan-w443307343",
+      "metres": 1986.2516290111491,
+      "rank": 93,
+      "eligibility": "unknown"
+    }
+  ],
+  "tie_groups": [
+    {
+      "id": 1,
+      "min_metres": 197.62301000806784,
+      "max_metres": 202.93788911232465,
+      "distance_order": [
+        "milan-n1512688449",
+        "milan-n2399642744"
+      ],
+      "member_ids": [
+        "milan-n1512688449",
+        "milan-n2399642744"
+      ],
+      "selected_id": "milan-n1512688449",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 2,
+      "min_metres": 202.93788911232465,
+      "max_metres": 202.93788911232465,
+      "distance_order": [
+        "milan-n2399642744"
+      ],
+      "member_ids": [
+        "milan-n2399642744"
+      ],
+      "selected_id": "milan-n2399642744",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 3,
+      "min_metres": 300.90131837223885,
+      "max_metres": 300.90131837223885,
+      "distance_order": [
+        "milan-n10010898615"
+      ],
+      "member_ids": [
+        "milan-n10010898615"
+      ],
+      "selected_id": "milan-n10010898615",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 4,
+      "min_metres": 418.7540355105801,
+      "max_metres": 418.7540355105801,
+      "distance_order": [
+        "milan-n1836751668"
+      ],
+      "member_ids": [
+        "milan-n1836751668"
+      ],
+      "selected_id": "milan-n1836751668",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 5,
+      "min_metres": 585.6210137497338,
+      "max_metres": 585.6210137497338,
+      "distance_order": [
+        "milan-n9532613679"
+      ],
+      "member_ids": [
+        "milan-n9532613679"
+      ],
+      "selected_id": "milan-n9532613679",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 6,
+      "min_metres": 677.7929906267308,
+      "max_metres": 725.5969607181133,
+      "distance_order": [
+        "milan-n4315739003",
+        "milan-n3991744051"
+      ],
+      "member_ids": [
+        "milan-n3991744051",
+        "milan-n4315739003"
+      ],
+      "selected_id": "milan-n3991744051",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 7,
+      "min_metres": 677.7929906267308,
+      "max_metres": 677.7929906267308,
+      "distance_order": [
+        "milan-n4315739003"
+      ],
+      "member_ids": [
+        "milan-n4315739003"
+      ],
+      "selected_id": "milan-n4315739003",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 8,
+      "min_metres": 736.2471587471857,
+      "max_metres": 736.2471587471857,
+      "distance_order": [
+        "milan-n4537488522"
+      ],
+      "member_ids": [
+        "milan-n4537488522"
+      ],
+      "selected_id": "milan-n4537488522",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 9,
+      "min_metres": 799.7900445138484,
+      "max_metres": 847.8975999885324,
+      "distance_order": [
+        "milan-n9545087304",
+        "milan-n3012733093"
+      ],
+      "member_ids": [
+        "milan-n3012733093",
+        "milan-n9545087304"
+      ],
+      "selected_id": "milan-n3012733093",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 10,
+      "min_metres": 799.7900445138484,
+      "max_metres": 799.7900445138484,
+      "distance_order": [
+        "milan-n9545087304"
+      ],
+      "member_ids": [
+        "milan-n9545087304"
+      ],
+      "selected_id": "milan-n9545087304",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 11,
+      "min_metres": 918.1278395422752,
+      "max_metres": 949.48622149933,
+      "distance_order": [
+        "milan-n11175543238",
+        "milan-n7822250670",
+        "milan-n5259440056",
+        "milan-n9545153347",
+        "milan-n9529538260"
+      ],
+      "member_ids": [
+        "milan-n11175543238",
+        "milan-n5259440056",
+        "milan-n7822250670",
+        "milan-n9529538260",
+        "milan-n9545153347"
+      ],
+      "selected_id": "milan-n11175543238",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 12,
+      "min_metres": 921.3206313550955,
+      "max_metres": 949.48622149933,
+      "distance_order": [
+        "milan-n7822250670",
+        "milan-n5259440056",
+        "milan-n9545153347",
+        "milan-n9529538260"
+      ],
+      "member_ids": [
+        "milan-n5259440056",
+        "milan-n7822250670",
+        "milan-n9529538260",
+        "milan-n9545153347"
+      ],
+      "selected_id": "milan-n5259440056",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 13,
+      "min_metres": 921.3206313550955,
+      "max_metres": 949.48622149933,
+      "distance_order": [
+        "milan-n7822250670",
+        "milan-n9545153347",
+        "milan-n9529538260"
+      ],
+      "member_ids": [
+        "milan-n7822250670",
+        "milan-n9529538260",
+        "milan-n9545153347"
+      ],
+      "selected_id": "milan-n7822250670",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 14,
+      "min_metres": 946.9983629354792,
+      "max_metres": 993.1156972112335,
+      "distance_order": [
+        "milan-n9545153347",
+        "milan-n9529538260",
+        "milan-n5567294345",
+        "milan-w40980171"
+      ],
+      "member_ids": [
+        "milan-n5567294345",
+        "milan-n9529538260",
+        "milan-n9545153347",
+        "milan-w40980171"
+      ],
+      "selected_id": "milan-n5567294345",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 15,
+      "min_metres": 946.9983629354792,
+      "max_metres": 993.1156972112335,
+      "distance_order": [
+        "milan-n9545153347",
+        "milan-n9529538260",
+        "milan-w40980171"
+      ],
+      "member_ids": [
+        "milan-n9529538260",
+        "milan-n9545153347",
+        "milan-w40980171"
+      ],
+      "selected_id": "milan-n9529538260",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 16,
+      "min_metres": 946.9983629354792,
+      "max_metres": 993.1156972112335,
+      "distance_order": [
+        "milan-n9545153347",
+        "milan-w40980171"
+      ],
+      "member_ids": [
+        "milan-n9545153347",
+        "milan-w40980171"
+      ],
+      "selected_id": "milan-n9545153347",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 17,
+      "min_metres": 993.1156972112335,
+      "max_metres": 1018.1394828818138,
+      "distance_order": [
+        "milan-w40980171",
+        "milan-n1855655348",
+        "milan-n1623772669"
+      ],
+      "member_ids": [
+        "milan-n1623772669",
+        "milan-n1855655348",
+        "milan-w40980171"
+      ],
+      "selected_id": "milan-n1623772669",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 18,
+      "min_metres": 993.1156972112335,
+      "max_metres": 1017.6318132339268,
+      "distance_order": [
+        "milan-w40980171",
+        "milan-n1855655348"
+      ],
+      "member_ids": [
+        "milan-n1855655348",
+        "milan-w40980171"
+      ],
+      "selected_id": "milan-n1855655348",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 19,
+      "min_metres": 993.1156972112335,
+      "max_metres": 993.1156972112335,
+      "distance_order": [
+        "milan-w40980171"
+      ],
+      "member_ids": [
+        "milan-w40980171"
+      ],
+      "selected_id": "milan-w40980171",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 20,
+      "min_metres": 1057.5063769775054,
+      "max_metres": 1092.2602663454743,
+      "distance_order": [
+        "milan-n4086308099",
+        "milan-n6812401714"
+      ],
+      "member_ids": [
+        "milan-n4086308099",
+        "milan-n6812401714"
+      ],
+      "selected_id": "milan-n4086308099",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 21,
+      "min_metres": 1092.2602663454743,
+      "max_metres": 1092.2602663454743,
+      "distance_order": [
+        "milan-n6812401714"
+      ],
+      "member_ids": [
+        "milan-n6812401714"
+      ],
+      "selected_id": "milan-n6812401714",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 22,
+      "min_metres": 1174.4523367387235,
+      "max_metres": 1199.0009972434425,
+      "distance_order": [
+        "milan-n5567294352",
+        "milan-n2589272454"
+      ],
+      "member_ids": [
+        "milan-n2589272454",
+        "milan-n5567294352"
+      ],
+      "selected_id": "milan-n2589272454",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 23,
+      "min_metres": 1174.4523367387235,
+      "max_metres": 1174.4523367387235,
+      "distance_order": [
+        "milan-n5567294352"
+      ],
+      "member_ids": [
+        "milan-n5567294352"
+      ],
+      "selected_id": "milan-n5567294352",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 24,
+      "min_metres": 1253.7947949547604,
+      "max_metres": 1299.6387111735792,
+      "distance_order": [
+        "milan-n10554804847",
+        "milan-n4212583091",
+        "milan-n12915007292",
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "member_ids": [
+        "milan-n10554804847",
+        "milan-n12915007292",
+        "milan-n4212583091",
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "selected_id": "milan-n10554804847",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 25,
+      "min_metres": 1268.2594711986726,
+      "max_metres": 1299.6387111735792,
+      "distance_order": [
+        "milan-n4212583091",
+        "milan-n12915007292",
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "member_ids": [
+        "milan-n12915007292",
+        "milan-n4212583091",
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "selected_id": "milan-n12915007292",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 26,
+      "min_metres": 1268.2594711986726,
+      "max_metres": 1299.6387111735792,
+      "distance_order": [
+        "milan-n4212583091",
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "member_ids": [
+        "milan-n4212583091",
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "selected_id": "milan-n4212583091",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 27,
+      "min_metres": 1289.332243190347,
+      "max_metres": 1299.6387111735792,
+      "distance_order": [
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "member_ids": [
+        "milan-n4654764963",
+        "milan-n9545289790"
+      ],
+      "selected_id": "milan-n4654764963",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 28,
+      "min_metres": 1299.6387111735792,
+      "max_metres": 1299.6387111735792,
+      "distance_order": [
+        "milan-n9545289790"
+      ],
+      "member_ids": [
+        "milan-n9545289790"
+      ],
+      "selected_id": "milan-n9545289790",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 29,
+      "min_metres": 1382.6346308430193,
+      "max_metres": 1430.896292326015,
+      "distance_order": [
+        "milan-n9546910088",
+        "milan-n9527335320",
+        "milan-n10010917516",
+        "milan-n9546936428",
+        "milan-n9544942480",
+        "milan-n1938014502",
+        "milan-n2104853263"
+      ],
+      "member_ids": [
+        "milan-n10010917516",
+        "milan-n1938014502",
+        "milan-n2104853263",
+        "milan-n9527335320",
+        "milan-n9544942480",
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n10010917516",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 30,
+      "min_metres": 1382.6346308430193,
+      "max_metres": 1430.896292326015,
+      "distance_order": [
+        "milan-n9546910088",
+        "milan-n9527335320",
+        "milan-n9546936428",
+        "milan-n9544942480",
+        "milan-n1938014502",
+        "milan-n2104853263"
+      ],
+      "member_ids": [
+        "milan-n1938014502",
+        "milan-n2104853263",
+        "milan-n9527335320",
+        "milan-n9544942480",
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n1938014502",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 31,
+      "min_metres": 1382.6346308430193,
+      "max_metres": 1430.896292326015,
+      "distance_order": [
+        "milan-n9546910088",
+        "milan-n9527335320",
+        "milan-n9546936428",
+        "milan-n9544942480",
+        "milan-n2104853263"
+      ],
+      "member_ids": [
+        "milan-n2104853263",
+        "milan-n9527335320",
+        "milan-n9544942480",
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n2104853263",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 32,
+      "min_metres": 1382.6346308430193,
+      "max_metres": 1424.6088229087454,
+      "distance_order": [
+        "milan-n9546910088",
+        "milan-n9527335320",
+        "milan-n9546936428",
+        "milan-n9544942480"
+      ],
+      "member_ids": [
+        "milan-n9527335320",
+        "milan-n9544942480",
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n9527335320",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 33,
+      "min_metres": 1382.6346308430193,
+      "max_metres": 1424.6088229087454,
+      "distance_order": [
+        "milan-n9546910088",
+        "milan-n9546936428",
+        "milan-n9544942480"
+      ],
+      "member_ids": [
+        "milan-n9544942480",
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n9544942480",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 34,
+      "min_metres": 1382.6346308430193,
+      "max_metres": 1422.1201740839526,
+      "distance_order": [
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "member_ids": [
+        "milan-n9546910088",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n9546910088",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 35,
+      "min_metres": 1422.1201740839526,
+      "max_metres": 1463.6794753291945,
+      "distance_order": [
+        "milan-n9546936428",
+        "milan-n2838475463"
+      ],
+      "member_ids": [
+        "milan-n2838475463",
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n2838475463",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 36,
+      "min_metres": 1422.1201740839526,
+      "max_metres": 1422.1201740839526,
+      "distance_order": [
+        "milan-n9546936428"
+      ],
+      "member_ids": [
+        "milan-n9546936428"
+      ],
+      "selected_id": "milan-n9546936428",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 37,
+      "min_metres": 1487.369310917063,
+      "max_metres": 1525.2788549132683,
+      "distance_order": [
+        "milan-n8933988911",
+        "milan-n2529864215",
+        "milan-n298986172",
+        "milan-n4555772439",
+        "milan-n9545224962"
+      ],
+      "member_ids": [
+        "milan-n2529864215",
+        "milan-n298986172",
+        "milan-n4555772439",
+        "milan-n8933988911",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n2529864215",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 38,
+      "min_metres": 1487.369310917063,
+      "max_metres": 1525.2788549132683,
+      "distance_order": [
+        "milan-n8933988911",
+        "milan-n298986172",
+        "milan-n4555772439",
+        "milan-n9545224962"
+      ],
+      "member_ids": [
+        "milan-n298986172",
+        "milan-n4555772439",
+        "milan-n8933988911",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n298986172",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 39,
+      "min_metres": 1487.369310917063,
+      "max_metres": 1525.2788549132683,
+      "distance_order": [
+        "milan-n8933988911",
+        "milan-n4555772439",
+        "milan-n9545224962"
+      ],
+      "member_ids": [
+        "milan-n4555772439",
+        "milan-n8933988911",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n4555772439",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 40,
+      "min_metres": 1487.369310917063,
+      "max_metres": 1525.2788549132683,
+      "distance_order": [
+        "milan-n8933988911",
+        "milan-n9545224962"
+      ],
+      "member_ids": [
+        "milan-n8933988911",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n8933988911",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 41,
+      "min_metres": 1525.2788549132683,
+      "max_metres": 1558.8308222138405,
+      "distance_order": [
+        "milan-n9545224962",
+        "milan-n2838508878",
+        "milan-n9545041686",
+        "milan-n10009210157"
+      ],
+      "member_ids": [
+        "milan-n10009210157",
+        "milan-n2838508878",
+        "milan-n9545041686",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n10009210157",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 42,
+      "min_metres": 1525.2788549132683,
+      "max_metres": 1548.427003962178,
+      "distance_order": [
+        "milan-n9545224962",
+        "milan-n2838508878",
+        "milan-n9545041686"
+      ],
+      "member_ids": [
+        "milan-n2838508878",
+        "milan-n9545041686",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n2838508878",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 43,
+      "min_metres": 1525.2788549132683,
+      "max_metres": 1548.427003962178,
+      "distance_order": [
+        "milan-n9545224962",
+        "milan-n9545041686"
+      ],
+      "member_ids": [
+        "milan-n9545041686",
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n9545041686",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 44,
+      "min_metres": 1525.2788549132683,
+      "max_metres": 1525.2788549132683,
+      "distance_order": [
+        "milan-n9545224962"
+      ],
+      "member_ids": [
+        "milan-n9545224962"
+      ],
+      "selected_id": "milan-n9545224962",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 45,
+      "min_metres": 1592.5457239673642,
+      "max_metres": 1599.8163453005993,
+      "distance_order": [
+        "milan-n9540309460",
+        "milan-n2051364302"
+      ],
+      "member_ids": [
+        "milan-n2051364302",
+        "milan-n9540309460"
+      ],
+      "selected_id": "milan-n2051364302",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 46,
+      "min_metres": 1592.5457239673642,
+      "max_metres": 1592.5457239673642,
+      "distance_order": [
+        "milan-n9540309460"
+      ],
+      "member_ids": [
+        "milan-n9540309460"
+      ],
+      "selected_id": "milan-n9540309460",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 47,
+      "min_metres": 1642.8966301513278,
+      "max_metres": 1672.9587010947812,
+      "distance_order": [
+        "milan-n9545242293",
+        "milan-n4785126221",
+        "milan-n3521819701",
+        "milan-n9623981267",
+        "milan-n3273667728"
+      ],
+      "member_ids": [
+        "milan-n3273667728",
+        "milan-n3521819701",
+        "milan-n4785126221",
+        "milan-n9545242293",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n3273667728",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 48,
+      "min_metres": 1642.8966301513278,
+      "max_metres": 1666.4357677771823,
+      "distance_order": [
+        "milan-n9545242293",
+        "milan-n4785126221",
+        "milan-n3521819701",
+        "milan-n9623981267"
+      ],
+      "member_ids": [
+        "milan-n3521819701",
+        "milan-n4785126221",
+        "milan-n9545242293",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n3521819701",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 49,
+      "min_metres": 1642.8966301513278,
+      "max_metres": 1666.4357677771823,
+      "distance_order": [
+        "milan-n9545242293",
+        "milan-n4785126221",
+        "milan-n9623981267"
+      ],
+      "member_ids": [
+        "milan-n4785126221",
+        "milan-n9545242293",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n4785126221",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 50,
+      "min_metres": 1642.8966301513278,
+      "max_metres": 1666.4357677771823,
+      "distance_order": [
+        "milan-n9545242293",
+        "milan-n9623981267"
+      ],
+      "member_ids": [
+        "milan-n9545242293",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n9545242293",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 51,
+      "min_metres": 1666.4357677771823,
+      "max_metres": 1713.810550174223,
+      "distance_order": [
+        "milan-n9623981267",
+        "milan-n5300438333",
+        "milan-n1857902555",
+        "milan-n4157927406"
+      ],
+      "member_ids": [
+        "milan-n1857902555",
+        "milan-n4157927406",
+        "milan-n5300438333",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n1857902555",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 52,
+      "min_metres": 1666.4357677771823,
+      "max_metres": 1713.810550174223,
+      "distance_order": [
+        "milan-n9623981267",
+        "milan-n5300438333",
+        "milan-n4157927406"
+      ],
+      "member_ids": [
+        "milan-n4157927406",
+        "milan-n5300438333",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n4157927406",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 53,
+      "min_metres": 1666.4357677771823,
+      "max_metres": 1694.6731298502827,
+      "distance_order": [
+        "milan-n9623981267",
+        "milan-n5300438333"
+      ],
+      "member_ids": [
+        "milan-n5300438333",
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n5300438333",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 54,
+      "min_metres": 1666.4357677771823,
+      "max_metres": 1666.4357677771823,
+      "distance_order": [
+        "milan-n9623981267"
+      ],
+      "member_ids": [
+        "milan-n9623981267"
+      ],
+      "selected_id": "milan-n9623981267",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 55,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n1849612985",
+        "milan-n11185389982",
+        "milan-n3011974302",
+        "milan-n1849612972",
+        "milan-n2774913920",
+        "milan-n9526774695",
+        "milan-n2538832005",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n11185389982",
+        "milan-n1849612972",
+        "milan-n1849612985",
+        "milan-n2538832005",
+        "milan-n2774913920",
+        "milan-n3011974302",
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n11185389982",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 56,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n1849612985",
+        "milan-n3011974302",
+        "milan-n1849612972",
+        "milan-n2774913920",
+        "milan-n9526774695",
+        "milan-n2538832005",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n1849612972",
+        "milan-n1849612985",
+        "milan-n2538832005",
+        "milan-n2774913920",
+        "milan-n3011974302",
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n1849612972",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 57,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n1849612985",
+        "milan-n3011974302",
+        "milan-n2774913920",
+        "milan-n9526774695",
+        "milan-n2538832005",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n1849612985",
+        "milan-n2538832005",
+        "milan-n2774913920",
+        "milan-n3011974302",
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n1849612985",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 58,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n3011974302",
+        "milan-n2774913920",
+        "milan-n9526774695",
+        "milan-n2538832005",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n2538832005",
+        "milan-n2774913920",
+        "milan-n3011974302",
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n2538832005",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 59,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n3011974302",
+        "milan-n2774913920",
+        "milan-n9526774695",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n2774913920",
+        "milan-n3011974302",
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n2774913920",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 60,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n3011974302",
+        "milan-n9526774695",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n3011974302",
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n3011974302",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 61,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1775.3738415591301,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n9526774695",
+        "milan-n6447853004",
+        "milan-n3521852266"
+      ],
+      "member_ids": [
+        "milan-n3521852266",
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n3521852266",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 62,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1765.998400081742,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n9526774695",
+        "milan-n6447853004"
+      ],
+      "member_ids": [
+        "milan-n6447853004",
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n6447853004",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 63,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1751.8279146183888,
+      "distance_order": [
+        "milan-n9526815277",
+        "milan-n9526774695"
+      ],
+      "member_ids": [
+        "milan-n9526774695",
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n9526774695",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 64,
+      "min_metres": 1728.6431516093487,
+      "max_metres": 1728.6431516093487,
+      "distance_order": [
+        "milan-n9526815277"
+      ],
+      "member_ids": [
+        "milan-n9526815277"
+      ],
+      "selected_id": "milan-n9526815277",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 65,
+      "min_metres": 1779.009601142111,
+      "max_metres": 1823.0926232335378,
+      "distance_order": [
+        "milan-n3521849181",
+        "milan-w345544084",
+        "milan-n2016985972",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-n1533118079",
+        "milan-n298985382",
+        "milan-n2493841055"
+      ],
+      "member_ids": [
+        "milan-n1533118079",
+        "milan-n2016985972",
+        "milan-n2493841055",
+        "milan-n298985382",
+        "milan-n3521849181",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n1533118079",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 66,
+      "min_metres": 1779.009601142111,
+      "max_metres": 1823.0926232335378,
+      "distance_order": [
+        "milan-n3521849181",
+        "milan-w345544084",
+        "milan-n2016985972",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-n298985382",
+        "milan-n2493841055"
+      ],
+      "member_ids": [
+        "milan-n2016985972",
+        "milan-n2493841055",
+        "milan-n298985382",
+        "milan-n3521849181",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n2016985972",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 67,
+      "min_metres": 1779.009601142111,
+      "max_metres": 1823.0926232335378,
+      "distance_order": [
+        "milan-n3521849181",
+        "milan-w345544084",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-n298985382",
+        "milan-n2493841055"
+      ],
+      "member_ids": [
+        "milan-n2493841055",
+        "milan-n298985382",
+        "milan-n3521849181",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n2493841055",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 68,
+      "min_metres": 1779.009601142111,
+      "max_metres": 1822.8788676417444,
+      "distance_order": [
+        "milan-n3521849181",
+        "milan-w345544084",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-n298985382"
+      ],
+      "member_ids": [
+        "milan-n298985382",
+        "milan-n3521849181",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n298985382",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 69,
+      "min_metres": 1779.009601142111,
+      "max_metres": 1797.086444489952,
+      "distance_order": [
+        "milan-n3521849181",
+        "milan-w345544084",
+        "milan-n8606113395",
+        "milan-n9545209245"
+      ],
+      "member_ids": [
+        "milan-n3521849181",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n3521849181",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 70,
+      "min_metres": 1782.9960171573878,
+      "max_metres": 1832.5309479312218,
+      "distance_order": [
+        "milan-w345544084",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-n308842416"
+      ],
+      "member_ids": [
+        "milan-n308842416",
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n308842416",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 71,
+      "min_metres": 1782.9960171573878,
+      "max_metres": 1797.086444489952,
+      "distance_order": [
+        "milan-w345544084",
+        "milan-n8606113395",
+        "milan-n9545209245"
+      ],
+      "member_ids": [
+        "milan-n8606113395",
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n8606113395",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 72,
+      "min_metres": 1782.9960171573878,
+      "max_metres": 1797.086444489952,
+      "distance_order": [
+        "milan-w345544084",
+        "milan-n9545209245"
+      ],
+      "member_ids": [
+        "milan-n9545209245",
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-n9545209245",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 73,
+      "min_metres": 1782.9960171573878,
+      "max_metres": 1782.9960171573878,
+      "distance_order": [
+        "milan-w345544084"
+      ],
+      "member_ids": [
+        "milan-w345544084"
+      ],
+      "selected_id": "milan-w345544084",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 74,
+      "min_metres": 1840.0504049600913,
+      "max_metres": 1873.0789161097373,
+      "distance_order": [
+        "milan-n5106617191",
+        "milan-w54155499",
+        "milan-n3373079344",
+        "milan-n12433762601"
+      ],
+      "member_ids": [
+        "milan-n12433762601",
+        "milan-n3373079344",
+        "milan-n5106617191",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n12433762601",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 75,
+      "min_metres": 1840.0504049600913,
+      "max_metres": 1870.1951449258027,
+      "distance_order": [
+        "milan-n5106617191",
+        "milan-w54155499",
+        "milan-n3373079344"
+      ],
+      "member_ids": [
+        "milan-n3373079344",
+        "milan-n5106617191",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n3373079344",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 76,
+      "min_metres": 1840.0504049600913,
+      "max_metres": 1867.3872288474467,
+      "distance_order": [
+        "milan-n5106617191",
+        "milan-w54155499"
+      ],
+      "member_ids": [
+        "milan-n5106617191",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n5106617191",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 77,
+      "min_metres": 1867.3872288474467,
+      "max_metres": 1909.51458386315,
+      "distance_order": [
+        "milan-w54155499",
+        "milan-n8419465244",
+        "milan-n8419465243",
+        "milan-w138982552",
+        "milan-n4756745053",
+        "milan-n3412762106"
+      ],
+      "member_ids": [
+        "milan-n3412762106",
+        "milan-n4756745053",
+        "milan-n8419465243",
+        "milan-n8419465244",
+        "milan-w138982552",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n3412762106",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 78,
+      "min_metres": 1867.3872288474467,
+      "max_metres": 1907.8694353949643,
+      "distance_order": [
+        "milan-w54155499",
+        "milan-n8419465244",
+        "milan-n8419465243",
+        "milan-w138982552",
+        "milan-n4756745053"
+      ],
+      "member_ids": [
+        "milan-n4756745053",
+        "milan-n8419465243",
+        "milan-n8419465244",
+        "milan-w138982552",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n4756745053",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 79,
+      "min_metres": 1867.3872288474467,
+      "max_metres": 1907.760306662993,
+      "distance_order": [
+        "milan-w54155499",
+        "milan-n8419465244",
+        "milan-n8419465243",
+        "milan-w138982552"
+      ],
+      "member_ids": [
+        "milan-n8419465243",
+        "milan-n8419465244",
+        "milan-w138982552",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n8419465243",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 80,
+      "min_metres": 1867.3872288474467,
+      "max_metres": 1907.760306662993,
+      "distance_order": [
+        "milan-w54155499",
+        "milan-n8419465244",
+        "milan-w138982552"
+      ],
+      "member_ids": [
+        "milan-n8419465244",
+        "milan-w138982552",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-n8419465244",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 81,
+      "min_metres": 1867.3872288474467,
+      "max_metres": 1907.760306662993,
+      "distance_order": [
+        "milan-w54155499",
+        "milan-w138982552"
+      ],
+      "member_ids": [
+        "milan-w138982552",
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-w138982552",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 82,
+      "min_metres": 1867.3872288474467,
+      "max_metres": 1867.3872288474467,
+      "distance_order": [
+        "milan-w54155499"
+      ],
+      "member_ids": [
+        "milan-w54155499"
+      ],
+      "selected_id": "milan-w54155499",
+      "tie_applied": false,
+      "order_changed": false
+    },
+    {
+      "id": 83,
+      "min_metres": 1919.2405455981377,
+      "max_metres": 1962.1384450643031,
+      "distance_order": [
+        "milan-n9527221902",
+        "milan-n11780137568",
+        "milan-n1849612979",
+        "milan-n8606122147",
+        "milan-w138982556",
+        "milan-n439221112"
+      ],
+      "member_ids": [
+        "milan-n11780137568",
+        "milan-n1849612979",
+        "milan-n439221112",
+        "milan-n8606122147",
+        "milan-n9527221902",
+        "milan-w138982556"
+      ],
+      "selected_id": "milan-n11780137568",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 84,
+      "min_metres": 1919.2405455981377,
+      "max_metres": 1962.1384450643031,
+      "distance_order": [
+        "milan-n9527221902",
+        "milan-n1849612979",
+        "milan-n8606122147",
+        "milan-w138982556",
+        "milan-n439221112"
+      ],
+      "member_ids": [
+        "milan-n1849612979",
+        "milan-n439221112",
+        "milan-n8606122147",
+        "milan-n9527221902",
+        "milan-w138982556"
+      ],
+      "selected_id": "milan-n1849612979",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 85,
+      "min_metres": 1919.2405455981377,
+      "max_metres": 1962.1384450643031,
+      "distance_order": [
+        "milan-n9527221902",
+        "milan-n8606122147",
+        "milan-w138982556",
+        "milan-n439221112"
+      ],
+      "member_ids": [
+        "milan-n439221112",
+        "milan-n8606122147",
+        "milan-n9527221902",
+        "milan-w138982556"
+      ],
+      "selected_id": "milan-n439221112",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 86,
+      "min_metres": 1919.2405455981377,
+      "max_metres": 1949.9061825839233,
+      "distance_order": [
+        "milan-n9527221902",
+        "milan-n8606122147",
+        "milan-w138982556"
+      ],
+      "member_ids": [
+        "milan-n8606122147",
+        "milan-n9527221902",
+        "milan-w138982556"
+      ],
+      "selected_id": "milan-n8606122147",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 87,
+      "min_metres": 1919.2405455981377,
+      "max_metres": 1949.9061825839233,
+      "distance_order": [
+        "milan-n9527221902",
+        "milan-w138982556"
+      ],
+      "member_ids": [
+        "milan-n9527221902",
+        "milan-w138982556"
+      ],
+      "selected_id": "milan-n9527221902",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 88,
+      "min_metres": 1949.9061825839233,
+      "max_metres": 1992.6537972468825,
+      "distance_order": [
+        "milan-w138982556",
+        "milan-n9540452832",
+        "milan-n2279452828",
+        "milan-w443307343",
+        "milan-n2993513336",
+        "milan-n9525153060"
+      ],
+      "member_ids": [
+        "milan-n2279452828",
+        "milan-n2993513336",
+        "milan-n9525153060",
+        "milan-n9540452832",
+        "milan-w138982556",
+        "milan-w443307343"
+      ],
+      "selected_id": "milan-n2279452828",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 89,
+      "min_metres": 1949.9061825839233,
+      "max_metres": 1992.6537972468825,
+      "distance_order": [
+        "milan-w138982556",
+        "milan-n9540452832",
+        "milan-w443307343",
+        "milan-n2993513336",
+        "milan-n9525153060"
+      ],
+      "member_ids": [
+        "milan-n2993513336",
+        "milan-n9525153060",
+        "milan-n9540452832",
+        "milan-w138982556",
+        "milan-w443307343"
+      ],
+      "selected_id": "milan-n2993513336",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 90,
+      "min_metres": 1949.9061825839233,
+      "max_metres": 1992.6537972468825,
+      "distance_order": [
+        "milan-w138982556",
+        "milan-n9540452832",
+        "milan-w443307343",
+        "milan-n9525153060"
+      ],
+      "member_ids": [
+        "milan-n9525153060",
+        "milan-n9540452832",
+        "milan-w138982556",
+        "milan-w443307343"
+      ],
+      "selected_id": "milan-n9525153060",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 91,
+      "min_metres": 1949.9061825839233,
+      "max_metres": 1986.2516290111491,
+      "distance_order": [
+        "milan-w138982556",
+        "milan-n9540452832",
+        "milan-w443307343"
+      ],
+      "member_ids": [
+        "milan-n9540452832",
+        "milan-w138982556",
+        "milan-w443307343"
+      ],
+      "selected_id": "milan-n9540452832",
+      "tie_applied": true,
+      "order_changed": true
+    },
+    {
+      "id": 92,
+      "min_metres": 1949.9061825839233,
+      "max_metres": 1986.2516290111491,
+      "distance_order": [
+        "milan-w138982556",
+        "milan-w443307343"
+      ],
+      "member_ids": [
+        "milan-w138982556",
+        "milan-w443307343"
+      ],
+      "selected_id": "milan-w138982556",
+      "tie_applied": true,
+      "order_changed": false
+    },
+    {
+      "id": 93,
+      "min_metres": 1986.2516290111491,
+      "max_metres": 1986.2516290111491,
+      "distance_order": [
+        "milan-w443307343"
+      ],
+      "member_ids": [
+        "milan-w443307343"
+      ],
+      "selected_id": "milan-w443307343",
+      "tie_applied": false,
+      "order_changed": false
+    }
+  ]
+}

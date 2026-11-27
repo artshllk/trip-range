@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "phase5c-batch1",
+  "title": "Phase 5C Batch 1 — preparation only",
+  "entries": [
+    {
+      "destinationId": "city:BCN",
+      "name": "Barcelona",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "existing"
+    },
+    {
+      "destinationId": "london",
+      "name": "London",
+      "region": "Europe",
+      "placeKind": "city",
+      "group": "A"
+    },
+    {
+      "destinationId": "place:Q334",
+      "name": "Singapore",
+      "region": "Asia",
+      "placeKind": "city",
+      "group": "A"
+    },
+    {
+      "destinationId": "place:Q1861",
+      "name": "Bangkok",
+      "region": "Asia",
+      "placeKind": "city",
+      "group": "B"
+    },
+    {
+      "destinationId": "place:Q24639",
+      "name": "Vancouver",
+      "region": "North America",
+      "placeKind": "city",
+      "group": "D"
+    }
+  ]
+}

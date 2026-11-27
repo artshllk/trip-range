@@ -1,0 +1,480 @@
+{
+  "destinationId": "place:Q3130",
+  "identitySubject": "place:Q3130",
+  "contentVersion": 4,
+  "reviewStatus": "draft",
+  "reviewedAt": null,
+  "sourceIds": [
+    "source:worldwide:place-Q3130:identity"
+  ],
+  "sources": [
+    {
+      "id": "source:worldwide:place-Q3130:identity",
+      "type": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3130",
+      "title": "Sydney (Q3130)",
+      "publisher": "Wikidata",
+      "retrievedAt": "2026-10-13T23:00:22.794Z",
+      "externalId": {
+        "authority": "wikidata",
+        "id": "Q3130"
+      }
+    },
+    {
+      "id": "source:expansion01:sydney:rocks",
+      "type": "official",
+      "url": "https://www.therocks.com/our-story",
+      "title": "Our story",
+      "publisher": "Place Management NSW / The Rocks",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:country",
+      "type": "official",
+      "url": "https://www.sydneyoperahouse.com/first-nations",
+      "title": "First Nations and Tubowgule",
+      "publisher": "Sydney Opera House",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:sights",
+      "type": "official",
+      "url": "https://www.sydney.com/articles/top-attractions-in-sydney",
+      "title": "Sydney attractions",
+      "publisher": "Destination NSW",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:garden",
+      "type": "official",
+      "url": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney/plan-your-visit",
+      "title": "Royal Botanic Garden visitor guide",
+      "publisher": "Botanic Gardens of Sydney",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:darling",
+      "type": "official",
+      "url": "https://www.sydney.com/destinations/sydney/sydney-city/darling-harbour/accommodation",
+      "title": "Darling Harbour area",
+      "publisher": "Destination NSW",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:quay",
+      "type": "official",
+      "url": "https://transportnsw.info/stop?q=200020",
+      "title": "Circular Quay transport hub",
+      "publisher": "Transport for NSW",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:syd",
+      "type": "official",
+      "url": "https://transportnsw.info/travel-info/airport-travel/getting-to-from-sydney-airport",
+      "title": "Getting to Sydney Airport",
+      "publisher": "Transport for NSW",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:wsi",
+      "type": "official",
+      "url": "https://transportnsw.info/travel-info/airport-travel/getting-to-from-western-sydney-international-airport-wsi",
+      "title": "Getting to Western Sydney International",
+      "publisher": "Transport for NSW",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:opening",
+      "type": "official",
+      "url": "https://transportnsw.info/wsi-link",
+      "title": "WSI Link planned opening and transport conditions",
+      "publisher": "Transport for NSW",
+      "retrievedAt": "2026-10-23T22:32:14Z"
+    },
+    {
+      "id": "source:expansion01:sydney:planning-policy",
+      "type": "internal-reviewed",
+      "title": "Existing planning and missing-cost policy at release 71ed660",
+      "publisher": "GoEksplo source implementation; not a city price observation",
+      "url": "https://github.com/artshllk/goeksplo/blob/71ed6609f2c61676392f73c005c6206df7b9aa67/src/domain/budget.ts",
+      "retrievedAt": "2026-10-23T09:26:02Z"
+    }
+  ],
+  "overview": {
+    "text": {
+      "en": "Sydney’s harbour gives a short stay a clear focus: the Opera House, garden, bridge and The Rocks can anchor your plan. Choose a base and airport connection before adding more distant outings or paid experiences."
+    },
+    "reviewStatus": "draft",
+    "reviewedAt": null,
+    "sourceIds": [
+      "source:expansion01:sydney:rocks",
+      "source:expansion01:sydney:country",
+      "source:expansion01:sydney:sights",
+      "source:expansion01:sydney:garden"
+    ],
+    "freshness": {
+      "kind": "periodically-reviewed",
+      "reviewBy": "2027-01-21T00:00:00Z"
+    }
+  },
+  "highlights": [],
+  "attractions": [
+    {
+      "id": "attraction:place:Q3130:opera-house",
+      "destinationId": "place:Q3130",
+      "name": {
+        "en": "Sydney Opera House"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Explore the harbour-side exterior or choose a separately ticketed tour or performance. Read the Tubowgule history rather than treating the building as an isolated photograph stop."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:sights",
+        "source:expansion01:sydney:country"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q3130:botanic-garden",
+      "destinationId": "place:Q3130",
+      "name": {
+        "en": "Royal Botanic Garden Sydney"
+      },
+      "kind": "park",
+      "shortDescription": {
+        "en": "Take a harbour garden outing using the official entry map and notices. Special events may have separate tickets and weather can affect access."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q3130:harbour-bridge",
+      "destinationId": "place:Q3130",
+      "name": {
+        "en": "Sydney Harbour Bridge"
+      },
+      "kind": "landmark",
+      "shortDescription": {
+        "en": "Choose the public pedestrian route for a bridge outing, checking current access. It is distinct from a paid climb or other ticketed experience."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:sights"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "attraction:place:Q3130:rocks",
+      "destinationId": "place:Q3130",
+      "name": {
+        "en": "The Rocks"
+      },
+      "kind": "district",
+      "shortDescription": {
+        "en": "Explore the precinct’s streets and its layered history on Gadigal Country. Leave space for the stories behind the colonial buildings."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:rocks"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "areas": [
+    {
+      "id": "area:place:Q3130:expansion01-1",
+      "destinationId": "place:Q3130",
+      "name": {
+        "en": "Circular Quay and The Rocks"
+      },
+      "summary": {
+        "en": "Compare exact bases if the harbour sights are the main reason for your stay."
+      },
+      "goodFor": [
+        {
+          "en": "Connections and outings around the reviewed harbour cluster."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Airport travel still needs a separate fare check; nearby does not mean a lower room rate."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:quay",
+        "source:expansion01:sydney:rocks",
+        "source:expansion01:sydney:syd"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "area:place:Q3130:expansion01-2",
+      "destinationId": "place:Q3130",
+      "name": {
+        "en": "Darling Harbour"
+      },
+      "summary": {
+        "en": "Consider this waterside area as an alternative city base."
+      },
+      "goodFor": [
+        {
+          "en": "A different harbour-side setting with accommodation choices to investigate."
+        }
+      ],
+      "tradeoffs": [
+        {
+          "en": "Check the onward route to Circular Quay; this guide does not quote listing prices or room availability."
+        }
+      ],
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:darling",
+        "source:expansion01:sydney:quay"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "transport": [
+    {
+      "id": "transport:place:Q3130:expansion01-1",
+      "destinationId": "place:Q3130",
+      "title": {
+        "en": "Sydney Airport (SYD)"
+      },
+      "guidance": {
+        "en": "T8 serves the domestic and international airport stations. The station access fee is additional to the train fare and outside ordinary travel caps; Opal/contactless has a separate weekly access-fee cap. Check your exact terminal and journey."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:syd"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q3130:expansion01-2",
+      "destinationId": "place:Q3130",
+      "title": {
+        "en": "Western Sydney International (WSI)"
+      },
+      "guidance": {
+        "en": "WSI is separate from SYD. Check its opening and service notices for your dates. The official planner describes bus connections, including St Marys, while its metro is under construction. Do not use SYD terminal directions or assume a direct train."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:wsi",
+        "source:expansion01:sydney:opening"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-10-26T00:00:00Z"
+      }
+    },
+    {
+      "id": "transport:place:Q3130:expansion01-3",
+      "destinationId": "place:Q3130",
+      "title": {
+        "en": "Explore from the harbour hub"
+      },
+      "guidance": {
+        "en": "Circular Quay connects the harbour area with public transport. Group the Opera House and garden, and The Rocks with the bridge approach. Optional cruises, performances and climbs need separate arrangements."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:quay",
+        "source:expansion01:sydney:garden",
+        "source:expansion01:sydney:rocks",
+        "source:expansion01:sydney:sights"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ],
+  "practicalNotes": [
+    {
+      "id": "note:place:Q3130:expansion01-history",
+      "destinationId": "place:Q3130",
+      "kind": "other",
+      "text": {
+        "en": "The harbour is Gadigal Country, with a history far older than the colonial buildings of The Rocks. Tubowgule, now Bennelong Point, was a gathering place before the Opera House; read that history alongside the familiar skyline."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:rocks",
+        "source:expansion01:sydney:country"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    },
+    {
+      "id": "note:place:Q3130:expansion01-cost-limits",
+      "destinationId": "place:Q3130",
+      "kind": "booking",
+      "text": {
+        "en": "Airport station fees are not a generic city fare cap. Rooms, meals, airport legs, performances, tours and climbs need individual checks; none is supplied as a reviewed whole-trip allowance here."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:planning-policy"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2027-01-21T00:00:00Z"
+      }
+    }
+  ],
+  "dayTemplates": [
+    {
+      "id": "template:place:Q3130:expansion01-2-nights",
+      "destinationId": "place:Q3130",
+      "suitableNights": [
+        2
+      ],
+      "title": {
+        "en": "2 nights in Sydney"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q3130:rocks",
+          "day": 1,
+          "notes": {
+            "en": "A flexible precinct outing after settling in."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q3130:opera-house",
+          "day": 2,
+          "notes": {
+            "en": "Choose exterior, tour or performance according to your plan."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q3130:botanic-garden",
+          "day": 2,
+          "notes": {
+            "en": "Continue into the adjoining garden area if access allows."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q3130:harbour-bridge",
+          "day": 3,
+          "notes": {
+            "en": "A bridge outing only if your departure time leaves room."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:rocks",
+        "source:expansion01:sydney:sights",
+        "source:expansion01:sydney:country",
+        "source:expansion01:sydney:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    },
+    {
+      "id": "template:place:Q3130:expansion01-3-nights",
+      "destinationId": "place:Q3130",
+      "suitableNights": [
+        3
+      ],
+      "title": {
+        "en": "3 nights in Sydney"
+      },
+      "stops": [
+        {
+          "attractionId": "attraction:place:Q3130:rocks",
+          "day": 1,
+          "notes": {
+            "en": "Start with the precinct’s history and streets."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q3130:opera-house",
+          "day": 2,
+          "notes": {
+            "en": "Give any booked tour or performance its own space."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q3130:harbour-bridge",
+          "day": 3,
+          "notes": {
+            "en": "Use a separate bridge outing; a paid climb is optional."
+          }
+        },
+        {
+          "attractionId": "attraction:place:Q3130:botanic-garden",
+          "day": 4,
+          "notes": {
+            "en": "A final garden break only if departure and current access allow."
+          }
+        }
+      ],
+      "notes": {
+        "en": "Suggested order, not a booked package. Arrival and departure days may be short: move or omit stops to fit your actual times. Check current access and tickets; do not rush to complete every option."
+      },
+      "reviewStatus": "draft",
+      "reviewedAt": null,
+      "sourceIds": [
+        "source:expansion01:sydney:rocks",
+        "source:expansion01:sydney:sights",
+        "source:expansion01:sydney:country",
+        "source:expansion01:sydney:garden"
+      ],
+      "freshness": {
+        "kind": "periodically-reviewed",
+        "reviewBy": "2026-11-06T00:00:00Z"
+      }
+    }
+  ]
+}

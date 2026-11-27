@@ -1,0 +1,27 @@
+{
+  "status": "applied_locally",
+  "authorization_date": "2026-11-04",
+  "authorization": "User: Apply both menu notes — the wording is right and the arithmetic checks out.",
+  "workflow": "Existing review reset, owner decision, dry run and publication; historical approvals preserved.",
+  "deadline_utc": "2026-11-18T00:00:00Z",
+  "items": [
+    {
+      "item_id": "note:phase4b:vienna:examples:1",
+      "destination": "vienna",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    },
+    {
+      "item_id": "note:phase4b:london:examples:1",
+      "destination": "london",
+      "deadline_utc": "2026-11-18T00:00:00Z"
+    }
+  ],
+  "publication_records": [
+    "vienna-publication.json",
+    "london-publication.json"
+  ],
+  "source_figures": "../menu-figures.json",
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}

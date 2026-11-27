@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.test.json",
+  "compilerOptions": {
+    "outDir": ".seo-build"
+  },
+  "include": [
+    "scripts/check-seo.ts",
+    "scripts/review-seo-indexing.ts",
+    "scripts/check-markets.ts",
+    "scripts/check-pricing.ts",
+    "scripts/research-markets.ts",
+    "scripts/validate-seo-candidates.ts",
+    "scripts/research-cost-scope.ts",
+    "scripts/check-cost-profiles.ts",
+    "scripts/check-rate-limit.ts",
+    "src/config/readiness.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

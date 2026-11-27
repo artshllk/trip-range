@@ -1,0 +1,469 @@
+{
+  "checked_date": "2026-11-18",
+  "frozen_session": null,
+  "capture_stage_2_and_3_deadline": "2026-12-15",
+  "requested_session": {
+    "date": "2026-12-15",
+    "weekday": [
+      "2027-01-12",
+      "2027-01-14"
+    ],
+    "weekend": [
+      "2027-01-15",
+      "2027-01-17"
+    ],
+    "lead_days": [
+      28,
+      31
+    ],
+    "decision": "rejected",
+    "reason": "Milan weekend overlaps the named Men’s Fashion Week, 15–19 January 2027. Do not freeze merely because the Christmas blackout has ended."
+  },
+  "christmas_blackout": {
+    "start_month_day": "12-21",
+    "end_month_day": "01-06",
+    "proposed_stays_clear": true
+  },
+  "holiday_checks": [
+    {
+      "city": "Milan",
+      "finding": "January 1 and 6 are public holidays; no listed public holiday in either proposed stay. Ordinary Sundays are not a special-event exclusion.",
+      "source_url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "both_stays_clear_national_holidays_and_one_day_buffers": true,
+      "checked_date": "2026-11-18"
+    },
+    {
+      "city": "Vienna",
+      "finding": "January 1 and 6 are public holidays; no listed public holiday in either proposed stay.",
+      "source_url": "https://www.wien.gv.at/inhalt/feiertage",
+      "both_stays_clear_national_holidays_and_one_day_buffers": true,
+      "checked_date": "2026-11-18"
+    },
+    {
+      "city": "Barcelona",
+      "finding": "Catalonia January 1 and 6 holidays fall outside proposed stays. Barcelona local holidays are May 17 and September 24.",
+      "source_url": "https://treball.gencat.cat/ca/ambits/relacions_laborals/ci/calendari_laboral/calendari-festes-2027",
+      "local_source_url": "https://w123.bcn.cat/APPS/egaseta/home.do?publicacionsId=35009&reqCode=downloadFile",
+      "both_stays_clear_national_holidays_and_one_day_buffers": true,
+      "checked_date": "2026-11-18"
+    },
+    {
+      "city": "Berlin",
+      "finding": "January 1 is the only listed January 2027 public holiday; January 12–14 and 15–17 clear it and the one-day buffers.",
+      "source_url": "https://www.berlin.de/tourismus/infos/1887651-1721039-feiertage-schulferien.html",
+      "both_stays_clear_national_holidays_and_one_day_buffers": true,
+      "checked_date": "2026-11-18"
+    }
+  ],
+  "event_checks": [
+    {
+      "city": "Milan",
+      "event": "Milano Fashion Week Men’s",
+      "start": "2027-01-15",
+      "end": "2027-01-19",
+      "decision": "exclude",
+      "reason": "International fashion trade programme across the city; plausible overnight accommodation pressure, assessed before collecting room prices. This is an editorial event decision, not an estimate of occupied rooms.",
+      "source_url": "https://www.cameramoda.it/it/milano-moda-uomo/calendario/"
+    },
+    {
+      "city": "Vienna",
+      "event": "Ferien-Messe",
+      "start": "2027-01-14",
+      "end": "2027-01-17",
+      "decision": "context_only",
+      "reason": "Large consumer fair, but total attendance does not establish equivalent overnight demand. No automatic fair exclusion.",
+      "source_url": "https://ferien-messe.at/"
+    },
+    {
+      "city": "Vienna",
+      "event": "Central and Eastern European Forum",
+      "start": "2027-01-12",
+      "end": "2027-01-14",
+      "decision": "context_only",
+      "reason": "Meeting calendar lists approximately 3,000 participants; no demonstrated citywide hotel compression.",
+      "source_url": "https://meeting.vienna.info/de/meetingkalender"
+    },
+    {
+      "city": "Barcelona",
+      "event": "World Gaming Week / ICE",
+      "start": "2027-01-17",
+      "end": "2027-01-21",
+      "decision": "exclude_event_dates",
+      "reason": "International gaming-industry week; first day coincides with proposed Sunday checkout, so record the adjacency. ICE itself is 18–20 January. This does not create an invented buffer.",
+      "source_url": "https://www.icegaming.com/the-world-gaming-week"
+    },
+    {
+      "city": "Berlin",
+      "event": "Grüne Woche",
+      "start": "2027-01-15",
+      "end": "2027-01-24",
+      "decision": "context_only",
+      "reason": "International trade component makes this worth recording, but attendance is cumulative: organizer cites 49,000 professional visits in an unspecified past edition and 1,600 exhibitors, not simultaneous overnight guests. Berlin had 142,402 available beds in January 2026. These numbers cannot establish citywide compression. Apply the existing rule that ordinary trade fairs remain market context; do not infer occupied rooms from total visits.",
+      "source_url": "https://www.gruenewoche.de/de/events/fachpublikum",
+      "capacity_source_url": "https://www.statistik-berlin-brandenburg.de/g-iv-2-m/"
+    },
+    {
+      "city": "Berlin",
+      "event": "Global Forum for Food and Agriculture",
+      "start": "2027-01-13",
+      "end": "2027-01-15",
+      "decision": "context_only",
+      "reason": "Organizer describes a roughly 2,000-person international forum. Record weekday overlap; this does not by itself establish citywide pressure against Berlin’s approximately 142,000 available beds. It is part of the Grüne Woche trade context, not an additional assumed block of room demand.",
+      "source_url": "https://www.messe-berlin.de/de/veranstaltungen/veranstaltungskalender",
+      "audience_source_url": "https://www.gruenewoche.de/de/events/fachpublikum",
+      "capacity_source_url": "https://www.statistik-berlin-brandenburg.de/g-iv-2-m/"
+    },
+    {
+      "city": "Berlin",
+      "event": "Berlin Fashion Week",
+      "start": "2027-01-29",
+      "end": "2027-02-01",
+      "decision": "exclude_conservatively",
+      "reason": "International multi-venue professional programme. City account of January 2026 records roughly 30,000 visitors including Berlin residents and visiting buyers/press. Organizer describes accommodation partnership for international visitors. Plausible overnight demand is sufficient for a conservative pre-price exclusion; 30,000 is not a room-night estimate and citywide compression is unproven. Unlike an ordinary fair recorded as context, this is a distributed international fashion programme. Do not claim a proven premium or infer it from the event name alone.",
+      "source_url": "https://www.fashionweek.berlin/official-schedule/show-schedule-information.html",
+      "scale_source_url": "https://www.berlin.de/projektzukunft/aktuelles/berlin-fashion-week-herbst-winter-2026-rooted-in-authenticity-1644510.php",
+      "limitation": "This is an editorial precaution. Excluding this but retaining Grüne Woche is a qualitative judgment, not a measured threshold."
+    }
+  ],
+  "replacement_search": [
+    {
+      "session": "2026-12-22",
+      "weekday": [
+        "2027-01-19",
+        "2027-01-21"
+      ],
+      "weekend": [
+        "2027-01-22",
+        "2027-01-24"
+      ],
+      "decision": "rejected",
+      "reason": "Weekday overlaps Milan Fashion Week and Barcelona ICE / World Gaming Week."
+    },
+    {
+      "session": "2026-12-29",
+      "weekday": [
+        "2027-01-26",
+        "2027-01-28"
+      ],
+      "weekend": [
+        "2027-01-29",
+        "2027-01-31"
+      ],
+      "decision": "excluded_conservatively",
+      "finding": "Berlin Fashion Week overlaps January 29–31. International multi-venue fashion programme with documented visiting buyers and press; retain a conservative major-event exclusion. No measured hotel compression or quantified premium is claimed.",
+      "sources": [
+        "https://www.cameramoda.it/it/milano-moda-uomo/calendario/",
+        "https://www.concorsi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0cb7fb301a0cdbe06aa0009?fileName=Calendario+fiere+internazionali+dal+01.09.2026+al+31.12.2027.pdf",
+        "https://meeting.vienna.info/de/meetingkalender",
+        "https://vieconcenter.at/events",
+        "https://www.wissenschaftsball.at/faq/",
+        "https://www.wien.info/en/travel-info/tourist-info/public-holidays-355976",
+        "https://www.firabarcelona.com/en/trade_show/",
+        "https://www.fashionweek.berlin/official-schedule/show-schedule-information.html"
+      ]
+    },
+    {
+      "session": "2027-01-05",
+      "weekday": [
+        "2027-02-02",
+        "2027-02-04"
+      ],
+      "weekend": [
+        "2027-02-05",
+        "2027-02-07"
+      ],
+      "decision": "rejected",
+      "reason": "Barcelona ISE, February 2–5; weekday overlaps.",
+      "source_url": "https://www.iseurope.org/welcome/registration?sfid=htst"
+    },
+    {
+      "session": "2027-01-12",
+      "weekday": [
+        "2027-02-09",
+        "2027-02-11"
+      ],
+      "weekend": [
+        "2027-02-12",
+        "2027-02-14"
+      ],
+      "decision": "rejected",
+      "reason": "Berlin Berlinale, February 10–21; both stays overlap.",
+      "source_url": "https://www.berlinale.de/en/dates.html"
+    },
+    {
+      "session": "2027-01-19",
+      "weekday": [
+        "2027-02-16",
+        "2027-02-18"
+      ],
+      "weekend": [
+        "2027-02-19",
+        "2027-02-21"
+      ],
+      "decision": "rejected",
+      "reason": "Berlin Berlinale, February 10–21; both stays overlap.",
+      "source_url": "https://www.berlinale.de/en/dates.html"
+    },
+    {
+      "session": "2027-01-26",
+      "weekday": [
+        "2027-02-23",
+        "2027-02-25"
+      ],
+      "weekend": [
+        "2027-02-26",
+        "2027-02-28"
+      ],
+      "decision": "rejected",
+      "reason": "Milan Women’s Fashion Week, February 23–March 1; both stays overlap.",
+      "source_url": "https://www.cameramoda.it/it/"
+    }
+  ],
+  "benchmark_provenance": {
+    "Barcelona": "published",
+    "Vienna": "derived: RevPAR / occupancy, pooled using estimated room-nights; do not label as a published ADR"
+  },
+  "no_price_observations_collected": true,
+  "scope": "Milan, Vienna, Barcelona and Berlin shared-session review; supersedes the three-city fallback suggestion for this proposed four-city session only.",
+  "city_verdicts": [
+    {
+      "city": "Milan",
+      "weekday": "no_named_conflict_found",
+      "weekend": "fails_Milan_Fashion_Week"
+    },
+    {
+      "city": "Vienna",
+      "weekday": "no_named_exclusion_context_recorded",
+      "weekend": "no_named_exclusion_context_recorded"
+    },
+    {
+      "city": "Barcelona",
+      "weekday": "no_named_conflict_found",
+      "weekend": "checkout_day_event_adjacency_not_unqualified_clear",
+      "note": "Nights January 15 and 16 precede World Gaming Week; checkout January 17 is its first day. No invented pre-event buffer; whole stay interval is not event-free."
+    },
+    {
+      "city": "Berlin",
+      "weekday": "GFFA_context_only",
+      "weekend": "Grune_Woche_context_only"
+    }
+  ],
+  "calendar_limitation": "Bounded authoritative-calendar review as of 18 November 2026. Recheck before sessions. Six-property Berlin composition is frozen separately; collector availability/connection confirmation and capture-stage readiness still gate collection. Berlin Fashion Week remains an explicit editorial exclusion, not measured hotel compression.",
+  "additional_calendar_sources": [
+    "https://www.messe-berlin.de/de/veranstaltungen/veranstaltungskalender",
+    "https://www.firabarcelona.com/en/trade_show/"
+  ],
+  "search_horizon": {
+    "first_collection": "2026-12-15",
+    "last_collection": "2027-01-26",
+    "last_checkout": "2027-02-28",
+    "finding": "No shared cleared January or February stay pair under the recorded event decisions. This is not a claim that no shared date exists later in 2027. Extending beyond February does not solve the stated launch-season use case."
+  },
+  "split_recommendation": {
+    "status": "owner_accepted_in_principle_availability_pending",
+    "sessions": [
+      {
+        "cities": [
+          "Berlin",
+          "Vienna"
+        ],
+        "session": "2026-12-22",
+        "weekday": [
+          "2027-01-19",
+          "2027-01-21"
+        ],
+        "weekend": [
+          "2027-01-22",
+          "2027-01-24"
+        ],
+        "lead_days": [
+          28,
+          31
+        ],
+        "holiday_check": "Clear Christmas blackout and public holidays plus one-day buffers in both cities.",
+        "events": "Berlin Grüne Woche remains recorded fair context; Fuels of the Future January 18–19 and Unser Dorf January 22 are part of that context. Vienna meeting calendar lists Pneumo Aktuell January 23 (~300 participants), ordinary context; no named citywide exclusion found.",
+        "sources": [
+          "https://meeting.vienna.info/de/meetingkalender",
+          "https://vieconcenter.at/events",
+          "https://www.messe-berlin.de/de/veranstaltungen/veranstaltungskalender"
+        ]
+      },
+      {
+        "cities": [
+          "Milan",
+          "Barcelona"
+        ],
+        "session": "2026-12-29",
+        "weekday": [
+          "2027-01-26",
+          "2027-01-28"
+        ],
+        "weekend": [
+          "2027-01-29",
+          "2027-01-31"
+        ],
+        "lead_days": [
+          28,
+          31
+        ],
+        "holiday_check": "Clear Christmas blackout and public holidays plus one-day buffers in both cities.",
+        "events": "No named major conflict found in CNMI, regional international-fair calendar or Fira Barcelona review. After Milan fashion/housewares and Barcelona gaming week, before ISE. No automatic pre-event buffer invented.",
+        "sources": [
+          "https://www.cameramoda.it/it/milano-moda-uomo/calendario/",
+          "https://www.concorsi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0cb7fb301a0cdbe06aa0009?fileName=Calendario+fiere+internazionali+dal+01.09.2026+al+31.12.2027.pdf",
+          "https://www.firabarcelona.com/en/trade_show/"
+        ]
+      }
+    ],
+    "between_session_days": 7,
+    "comparability": "Lead, length, party/room scope and weekday mix remain controlled. City and stay week are confounded; January seasonality cannot be assumed identical. Valid for dated descriptive city panels, not a same-date controlled price comparison. Display actual collection and stay dates beside results; no seasonal adjustment.",
+    "cost": {
+      "extra_sessions": 1,
+      "extra_room_quote_slots": 0,
+      "four_complete_panels_quote_slots": 60,
+      "additional_setup_and_closeout_hours_estimate": [
+        0.5,
+        1
+      ],
+      "estimate_basis": "Berlin six plus three eight-property panels: 12 + 16 + 16 + 16 = 60 slots. One extra session adds estimated 0.5–1 hour setup/closeout; no extra quote slots from splitting."
+    },
+    "fare_relevance": "All stays remain January. February audit had only two Tirana destinations; no inference that either panel stay has a fresh matching fare. Recheck exact itinerary evidence separately.",
+    "deadline": "Capture stages 2 and 3 remain due before 15 December; no deadline extension inferred."
+  },
+  "composition_freeze_allowed": true,
+  "operational_check": {
+    "checked_date": "2026-11-18",
+    "collection_dates": [
+      "2026-12-22",
+      "2026-12-29"
+    ],
+    "calendar_feasible": true,
+    "collector_availability_confirmed": false,
+    "kosovo_connection_confirmed": false,
+    "status": "awaiting_collector_confirmation",
+    "findings": [
+      "Both dates are Tuesdays and neither is a public holiday in the collection jurisdiction (Kosovo).",
+      "The Christmas/New Year blackout governs stay dates; the proposed January stays are outside it. There is no method prohibition on searching during Christmas week.",
+      "Online direct-engine capture does not require hotel reservation-desk opening hours. Future engine uptime cannot be guaranteed; failed attempts remain recorded.",
+      "Availability and required Kosovo connection must be explicitly confirmed; absence of a diary conflict is not confirmation. Capture stages 2/3 are still due before 15 December."
+    ],
+    "sources": [
+      "https://bqk-kos.org/kalendari-i-festave/?lang=en",
+      "https://bqk-kos.org/wp-content/uploads/2025/12/kalendari-i-festave-2026.pdf?lang=en"
+    ],
+    "no_external_schedule_created": true
+  },
+  "result_date_disclosure": {
+    "required": true,
+    "accepted_in_principle_text": "Berlin and Vienna: stays 19–21 and 22–24 January 2027, planned collection 22 December 2026. Milan and Barcelona: stays 26–28 and 29–31 January 2027, planned collection 29 December 2026.",
+    "confounding": "City and stay week are confounded. Same 28/31-day leads do not establish identical seasonality. Display actual collection and exact stay dates beside each result; do not label planned dates as observed."
+  },
+  "if_christmas_collection_unavailable": {
+    "status": "next_calendar_screened_pair_not_activated",
+    "sessions": [
+      {
+        "cities": [
+          "Milan",
+          "Barcelona"
+        ],
+        "session": "2027-01-12",
+        "weekday": [
+          "2027-02-09",
+          "2027-02-11"
+        ],
+        "weekend": [
+          "2027-02-12",
+          "2027-02-14"
+        ],
+        "lead_days": [
+          28,
+          31
+        ]
+      },
+      {
+        "cities": [
+          "Berlin",
+          "Vienna"
+        ],
+        "session": "2027-01-26",
+        "weekday": [
+          "2027-02-23",
+          "2027-02-25"
+        ],
+        "weekend": [
+          "2027-02-26",
+          "2027-02-28"
+        ],
+        "lead_days": [
+          28,
+          31
+        ]
+      }
+    ],
+    "between_session_days": 14,
+    "holiday_check": "Both stay pairs clear national and listed local public holidays and one-day buffers in their assigned cities; no Christmas blackout overlap. Kosovo collection dates clear January 1/2 and Orthodox Christmas January 7.",
+    "skipped_tuesdays": [
+      {
+        "date": "2027-01-05",
+        "reason": "Berlin stays overlap Fruit Logistica February 3–5; Barcelona overlaps ISE February 2–5. Fruit Logistica has substantial international overnight-demand plausibility: 2025 organizer factsheet records >67,000 trade visitors, 79% from outside Germany; 2026 release about 90,000 participants. These are not occupied-room counts.",
+        "sources": [
+          "https://www.fruitlogistica.com/en/trade-visitors",
+          "https://www.fruitlogistica.com/de/presse/pressemitteilungen/news_24896.html",
+          "https://messe-berlinprod-media.e-spirit.cloud/a1df0db7-5587-490f-b68d-2d8767a5500f/FRUIT-LOGISTICA/Downloads-Alle-Sprachen/Factsheet_English.pdf",
+          "https://www.iseurope.org/welcome/registration?sfid=htst"
+        ]
+      },
+      {
+        "dates": [
+          "2027-01-12",
+          "2027-01-19"
+        ],
+        "reason": "Berlin stays overlap Berlinale February 10–21. January 26 is the next Berlin/Vienna collection Tuesday after that block.",
+        "sources": [
+          "https://www.berlinale.de/en/dates.html"
+        ]
+      }
+    ],
+    "event_context": [
+      {
+        "city": "Milan",
+        "finding": "BIT February 9–11 remains ordinary tourism-trade-fair context under the existing no-automatic-fair-exclusion rule. A dated regional calendar establishes dates; no measured citywide pressure is asserted. Carnival/Valentine’s weekend is recorded normal seasonal demand, not an invented exclusion.",
+        "sources": [
+          "https://www.concorsi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0cb7fb301a0cdbe06aa0009?fileName=Calendario+fiere+internazionali+dal+01.09.2026+al+31.12.2027.pdf",
+          "https://atim.marche.it/manifestazione-di-interesse-bit-milano-2027"
+        ]
+      },
+      {
+        "city": "Barcelona",
+        "finding": "Wine Week February 8–10 overlaps weekday: ordinary specialist fair context, not automatically excluded. Organizer’s prior 2026 forecast was >26,000 professional visitors, 20% international, not 26,000 overnight guests. Santa Eulàlia around February 12 is local cultural context; the 2027 programme is not yet established in the reviewed municipal source, so recheck before activation. No citywide accommodation-pressure finding established.",
+        "sources": [
+          "https://www.barcelonawineweek.com/nota-prensa/barcelona-wine-week/barcelona-wine-week-2027-destaca-el-valor-y-la-complejidad-del-vino-de-guarda-espanol/",
+          "https://www.barcelonawineweek.com/nota-prensa/bcn-wine-week/barcelona-wine-week-2026-roza-el-lleno-absoluto-a-8-meses-de-su-celebracion/",
+          "https://www.barcelona.cat/santaeulalia/en"
+        ]
+      },
+      {
+        "city": "Vienna",
+        "finding": "Calendar lists Brands’n’Games February 23 (~100), REvaluation February 25–26 (~250), German-Korean Aesthetic Face Meeting February 27–28 (~300); ordinary meeting context. Before ECR March 3–7.",
+        "sources": [
+          "https://meeting.vienna.info/de/meetingkalender"
+        ]
+      },
+      {
+        "city": "Berlin",
+        "finding": "After Berlinale February 10–21, before ITB March 16–18; no named major conflict found in reviewed calendar for February 23–28.",
+        "sources": [
+          "https://www.berlinale.de/en/dates.html",
+          "https://www.messe-berlin.de/de/veranstaltungen/veranstaltungskalender"
+        ]
+      }
+    ],
+    "conditions": [
+      "Not a promise of collector availability; confirm both dates and Kosovo connection before freezing sessions.",
+      "Recheck event calendars before activation, especially unpublished 2027 local-festival programmes.",
+      "Both groups move to February, when the Tirana audit had only two destinations. Reassess fresh matching fare coverage before adopting; calendar eligibility alone is not product usefulness.",
+      "The group order reverses and stay weeks differ by 14 days; publish actual dates and confounding rather than reusing the January disclosure."
+    ]
+  },
+  "session_freeze_allowed": false
+}

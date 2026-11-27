@@ -1,0 +1,21 @@
+{
+  "frame-manifest.json": "3a9f9121871430a9d4d7073a4d1f1b132c3772a8c57f4a8aae6002e603714a6e",
+  "evidence/osm-hotels.json": "f487d9069dd977a3528e334c640889f52a281f3a10895a6dcd5337b9dd709ae1",
+  "evidence/classification-notices.json": "0c34d9bd93f4974f8ba0f7e6e3a4f97de883c613849ad09a51bfdd64d6f20455",
+  "evidence/renewal-review.json": "6e1306331c4f74a6f60a7504e13a7f864774b2c63659dcc73dcf3b60820e7dd8",
+  "calendar-review.json": "5f6223f49345c4bc7716039ceab96205a44e7b728788e82b6be6e7e820f766c3",
+  "candidates.json": "84156f3fbe25bff0c1f5080335c7faa4e688a4bbfcdbcd4a5118b97d3bb74368",
+  "panel.json": "9651ba948de270702706e2f52455a710f66c5737d6b2590b01c4c3ab1496942c",
+  "derived-ordering.json": "451524122acd83218527aeadc0c58e45889297c97ba35d40a828e082a65a8f00",
+  "LICENSE.txt": "5aa62b053504f19f08676e60c739a8da284597e80b1516be09030c9d69fc8fe3",
+  "extract.py": "4b21a0ba5e18049c81d00c210195a94a28c71595dfbd000c5de701c3543f1283",
+  "evidence/named-classification-checks.json": "cb386f0df7bdf17f2b965a5af3d158e4e7ba431fa15b00ce46864fa8dae57208",
+  "evidence/outer-classification-checks.json": "a63caee6afe3655c27ae621a4b8b2be70a7ee9b6ea59463ba32f39dd3b8f159c",
+  "evidence/supplementary-classification-checks.json": "233a17ced27275ec408f4920db21fe83163f2b91fde5fb8c6b09d3b2055472e4",
+  "panel-size-policy.mjs": "134947b1c783d0d1695747db5a5841ee6fde715de7677715e076da30e0bf1a74",
+  "panel-size-policy.txt": "4d70b33b04fa75ce406ecea18d64d1ffb3659a7aa1967e0e4b52028be827c356",
+  "selection-method.json": "c5785ad86a7d3cc4c7c99c1514de3f23563fae3200a08b0519ee6c22d7cd66bf",
+  "replay-ordering.mjs": "ece54cdc99e9978baee952644918c3b22c689a66dcf2897139d5c3bf9ed1b078",
+  "index.html": "be34d75181e94aef83a324d521eaf5f87271e8ebebd04040c2c1946f69e2e467",
+  "README.txt": "6a46aef3004a40b300b85573e7e9927995eb0c7b1e18ed433b7ae4f17cef7e5c"
+}

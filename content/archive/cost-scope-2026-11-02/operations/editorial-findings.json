@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "destinationId": "place:Q101625",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No dynasty claim from the inconsistent general medina page, no admission assumptions for the mosque, airport bus number, mountain excursion or exact tickets. Public-transport research found insufficient current detail; guidance is limited to base access. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q101625.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q131347",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Review EN/SQ proper names and memorial language. NPS operational details change; no admission price, reservation/standby promise, swimming rating or summit assurance. Phase 5I source/copy audit: phase5i-place-Q131347.md. Travel-access records are independently reviewed maintenance data, not editorial approval. All six checks and the decision remain pending; evidence-review is unacknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q1486",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No old free-tour claims, operating hours, exclusive payment method or all-city day sequence. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q1486.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q1489",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No city size records, exact service counts, tickets or safety claims. No cross-city itinerary or guessed attraction QIDs. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q1489.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q1490",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Human review: confirm the explicit central-neighbourhood scope within the wider Tokyo metropolis, HND/NRT arrival wording, EN/SQ proper names and selection. Narita is in Chiba but operationally serves Tokyo. No prefecture-wide sequence, outlying-island transfer, timetable, fare, opening-hours or availability guarantee. Operational guidance retains a periodic review deadline."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q180402",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Current NPS fire, roadwork and seasonal access notices were inspected but not copied as durable facts. No access guarantees, wildlife promises or reservation-policy snapshot. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q1861",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No weather/all-open claims from the recent TAT news alert, no exact boats, fares or temple hours. No all-city sequence. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5C preparation follow-up: phase5c-place-Q1861.md; v2 source/copy cleanup is prepared for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q24451",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Phase 5M rechecked official SANParks institutional descriptions, park rules and 2026 flood-recovery notices. Copy makes no current opening, road-access or wildlife-sighting promise. Lake Panic wording no longer promises quiet; Letaba remains a museum description with current-guidance advice. EN/SQ preparation preserves proper names and clearer archaeological, bird-hide and trading-post wording. Mixed travel access is independently reviewed; external transfers remain unpriced. Human source/copy review and this advisory acknowledgment remain pending."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q24639",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No Capilano or Whistler presented as city attractions, no market opening times or transit duration. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5C preparation follow-up: phase5c-place-Q24639.md; v2 source/copy cleanup is prepared for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q2656389",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Albanian indentured-labour wording revised to preserve the source distinction: migrant workers bound by labour contracts for a defined period, neither slavery nor ordinary unrestricted free employment. No wildlife, trail safety, opening or transport guarantee. Phase 5I source/copy audit: phase5i-place-Q2656389.md. Travel-access records are independently reviewed maintenance data, not editorial approval. All six checks and the decision remain pending; evidence-review is unacknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q3130",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No bridge-climb promise, show times, service frequencies or beach itinerary. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q3130.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q334",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No authenticity claim about religious relics, airport code or all-attractions day plan. Older tourism PDFs found in search were not used for operational guidance. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5C preparation follow-up: phase5c-place-Q334.md; v2 source/copy cleanup is prepared for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q34600",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Eastern-Kyoto shortlist only; western and northern temples intentionally omitted. No attraction external IDs guessed. Phase 3G.3 strengthens the pagoda, Shinto-shrine, southern-Gion rules and two-stop sequence citations. The Yasaka-jinja site returned 503; Kyoto City Tourism Association supports the historical relationship and JNTO directly supports Shinto terminology. No claim relies on the failed page. EN/SQ wording, proper names, selection/order and source correspondence still require human review. Periodic review remains due 2027-01-10; stable descriptions do not promise access. No prices, opening hours, visit durations, seasonal guarantees, media or travel eligibility claims added."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q3593416",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Phase 5K rechecked island identity and eight editorial sources. Freycinet Parks remained unavailable; inspected official Tourism Tasmania evidence retained. EN/SQ revised for regional separation, natural Albanian and current park-guidance wording. No operational guarantees, fares, driving times, ticket prices or offshore-island content imported. Separate reviewed travel access recognizes HBA/LST/DPO/BWT; it does not approve this editorial draft. Human source/EN/SQ/selection/freshness review remains pending."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q41858",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Review current lake/shuttle/parking and trail guidance again before publication. No seasonal service dates, hiking suitability, parking availability or transfer amount is claimed. Phase 5I source/copy audit: phase5i-place-Q41858.md. Travel-access records are independently reviewed maintenance data, not editorial approval. All six checks and the decision remain pending; evidence-review is unacknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q4648",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Review SQ religious vocabulary and proper names; no ritual participation, island-wide loop, taxi amount or journey duration is promised. Phase 5I source/copy audit: phase5i-place-Q4648.md. Travel-access records are independently reviewed maintenance data, not editorial approval. All six checks and the decision remain pending; evidence-review is unacknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q5465",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No Winelands day trip, mountain hiking advice, ferry duration or weather guarantee. No universal day template. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q5465.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q60",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Phase 5A v2: five authoritative sources rechecked; NYC DOT Brooklyn Bridge reference corrected. Four attractions, one area and general transport/ferry guidance only; no citywide coverage or single-day itinerary claim. EN/SQ copy is prepared for human review, not approved. Ellis Island remains intentionally unmodelled. No volatile prices, opening hours, durations, live availability, media or travel eligibility claims. Periodic operational review remains required. The separately reviewed provider city/airport binding does not approve editorial content."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q612",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "Museum of the Future omitted: the current Visit Dubai French listing flags closure while older guides recommend it (https://www.visitdubai.com/fr/places-to-visit/museum-of-the-future). No live closure copied into durable user prose. No desert excursions or guessed airport codes. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q612.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    },
+    {
+      "destinationId": "place:Q8678",
+      "findings": [
+        {
+          "id": "evidence-review",
+          "message": "No largest-forest claim, wildlife promises, hiking safety guarantee or promotional sunrise package details. No cross-city itinerary. EN/SQ wording and proper names need human review. No prices, opening hours, visit durations, live availability, media selections or travel eligibility claims were imported. Operational guidance has a periodic review date; stable descriptions are not promises of access. Phase 5E preparation follow-up: phase5e-place-Q8678.md; v2 source/copy preparation is ready for independent human review. No advisory acknowledged."
+        }
+      ]
+    }
+  ]
+}

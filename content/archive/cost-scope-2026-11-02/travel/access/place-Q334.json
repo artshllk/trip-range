@@ -1,0 +1,32 @@
+{
+  "destinationSubject": "place:Q334",
+  "relationship": "direct-city",
+  "reviewStatus": "reviewed",
+  "reviewedAt": "2026-10-13T21:54:31.358Z",
+  "reviewAfter": "2027-01-10T00:00:00Z",
+  "reviewOwner": "GoEksplo travel-data maintenance",
+  "sources": [
+    {
+      "id": "travelpayouts-city-data-2026-10-13",
+      "url": "https://api.travelpayouts.com/data/en/cities.json",
+      "checkedAt": "2026-10-13T21:47:38.474Z"
+    },
+    {
+      "id": "travelpayouts-airport-data-2026-10-13",
+      "url": "https://api.travelpayouts.com/data/en/airports.json",
+      "checkedAt": "2026-10-13T21:47:39.172Z"
+    }
+  ],
+  "directCity": {
+    "provider": "travelpayouts",
+    "providerCityCode": "SIN",
+    "airportCodes": [
+      "SIN",
+      "XSP"
+    ],
+    "sourceIds": [
+      "travelpayouts-city-data-2026-10-13",
+      "travelpayouts-airport-data-2026-10-13"
+    ]
+  }
+}

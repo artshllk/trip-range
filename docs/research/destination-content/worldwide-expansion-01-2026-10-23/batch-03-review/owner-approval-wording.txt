@@ -1,0 +1,11 @@
+Proposed owner response — no approval recorded yet.
+
+I have reviewed and approve the pinned Cape Town, Rio de Janeiro, Sydney and Dubai English v4 drafts in worldwide-batch3-review-v1, including their identities, official sources, itinerary ordering, operational limitations and freshness requirements. I accept Rio’s explicit unverified RRJ ground-transfer limitation and Sydney’s required WSI opening/service recheck before publication.
+
+I also approve the exact photographs and displayed desktop/mobile hero/card crops, responsive variants, attribution and modification notices:
+- Cape Town — commons:126494271 — CC BY-SA 4.0
+- Rio de Janeiro — commons:133796307 — CC0, with the recorded courtesy credit
+- Sydney — commons:73107560 — CC BY-SA 4.0
+- Dubai — commons:68665373 — CC BY-SA 4.0
+
+Approval includes the recorded source/licence links and applicable CC BY-SA share-alike requirements. Record reviewer GoEksplo Owner and integrate only these approved candidates locally through the existing editorial and media gates, after any due operational recheck. Preserve canonical identities, airport access, AI OFF, English-only routing, pricing safeguards and provider admission. Do not commit, push, deploy or change infrastructure.
