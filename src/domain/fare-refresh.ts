@@ -4,7 +4,13 @@ import { nextMonth } from "./month-discovery";
 
 export const refreshEndpoint = "triprange/exact-two-night-refresh-v1";
 
-type Origin = { code: string; currency: string; airports?: string[] };
+type Origin = {
+  code: string;
+  currency: string;
+  airports?: string[];
+  /** Stay lengths collected for this origin (owner decision, 27 November 2026). */
+  nights?: number[];
+};
 /** Collected city markets, in configured order. */
 export const collectorOrigins: string[] = (config.origins as Origin[]).map(
   (o) => o.code,
@@ -18,6 +24,12 @@ export const collectorOrigins: string[] = (config.origins as Origin[]).map(
 export function originAirports(origin: string): string[] {
   const entry = (config.origins as Origin[]).find((o) => o.code === origin);
   return entry?.airports?.length ? entry.airports : [origin];
+}
+
+/** Stay lengths collected for an origin; two nights when unlisted. */
+export function originNights(origin: string): number[] {
+  const entry = (config.origins as Origin[]).find((o) => o.code === origin);
+  return entry?.nights?.length ? entry.nights : [2];
 }
 
 /**

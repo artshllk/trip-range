@@ -3,7 +3,6 @@ import type {
   KnownCost,
   SourceRef,
 } from "../../domain/budget-left";
-import { FOOD_DAYS } from "../../domain/budget-left";
 import type { StayAttraction } from "../../domain/attractions";
 
 const euros = (cents: number) =>
@@ -208,8 +207,9 @@ export function BudgetLeftPanel({
       ) : (
         <p className="budget-left-result">
           <strong>{euros(result.leftCents)}</strong> is left for room and food
-          {beforeText}. With your {euros(result.food.perDayCents)} a day for
-          food ({FOOD_DAYS} days),{" "}
+          {beforeText}. With {euros(result.food.perDayCents)} a day, food for{" "}
+          {result.food.days} {result.food.days === 1 ? "day" : "days"} comes to{" "}
+          {euros(result.food.cents)}, so{" "}
           {result.roomPerNightCents !== undefined ? (
             <>
               about <strong>{euros(result.roomPerNightCents)} a night</strong>{" "}

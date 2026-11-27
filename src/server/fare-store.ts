@@ -195,6 +195,7 @@ async function loadMonthFares(
   origin: string,
   start: string,
   endExclusive: string,
+  nights: number,
 ): Promise<import("../domain/month-discovery").MonthFare[] | undefined> {
   const sql = client();
   if (!sql) return undefined;
@@ -208,7 +209,7 @@ async function loadMonthFares(
           and endpoint in ('aviasales/v3/get_latest_prices', 'v2/prices/nearest-places-matrix')
           and fetched_at >= now() - interval '7 days'
           and fare_observed_at between now() - interval '7 days' and now()
-          and departure_date >= $1::date and departure_date < $2::date and return_date = departure_date + 2
+          and departure_date >= $1::date and departure_date < $2::date and return_date = departure_date + $5::int
           and (cabin is null or cabin = 'economy')
         group by destination, departure_date, return_date, price_minor
       )
@@ -224,7 +225,7 @@ async function loadMonthFares(
         and (i.cabin is null or i.cabin = 'economy')
       order by i.destination, i.departure_date, i.price_minor, r.observed desc, i.destination_airport
     `,
-      [start, endExclusive, origin, originAirports(origin)],
+      [start, endExclusive, origin, originAirports(origin), nights],
       { fetchOptions: { signal: AbortSignal.timeout(4000) } },
     );
     return rows.map((r) => ({
@@ -290,9 +291,13 @@ export function monthFares(
   origin: string,
   start: string,
   endExclusive: string,
+  nights: number,
 ) {
-  return fareReads(`${origin}|${start}|${endExclusive}`, () =>
-    loadMonthFares(origin, start, endExclusive),
+  if (!Number.isInteger(nights) || nights < 1 || nights > 30)
+    return Promise.resolve(undefined);
+  // The length is part of the key: a three-night view must never get two-night rows.
+  return fareReads(`${origin}|${start}|${endExclusive}|${nights}`, () =>
+    loadMonthFares(origin, start, endExclusive, nights),
   );
 }
 export async function monthRefreshHealth(

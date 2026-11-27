@@ -8,12 +8,19 @@ import {
   type AirportTransferRecord,
   type BudgetInput,
   type CityTaxRecord,
+  TAX_NIGHTS_VERIFIED,
+  stayNights,
+  nightsLabel,
 } from "../src/domain/budget-left";
 import {
   airportTransferRecords,
   cityTaxRecords,
 } from "../src/domain/city-cost-records";
 import type { FxSnapshot } from "../src/domain/money/fx";
+const plusTwo = (day: string) =>
+  new Date(Date.parse(day + "T00:00:00Z") + 2 * 86400000)
+    .toISOString()
+    .slice(0, 10);
 import { fxData as frozen } from "./fixtures/fx-frozen";
 
 const source = {
@@ -81,6 +88,7 @@ const base: BudgetInput = {
   city: "AAA",
   arrivalAirport: "AAP",
   checkIn: "2026-12-05",
+  checkOut: "2026-12-07",
   hotelClass: "3",
   cityTaxes: [],
   transfers: [],
@@ -200,7 +208,7 @@ test("a percentage tax is solved into the room figure, including a VAT-exclusive
   assert.equal(u.percentTax!.onFullPrice, true);
   // A cap binds when the percentage would exceed it.
   assert.equal(
-    roomPerNight(100000, {
+    roomPerNight(100000, 2, {
       percent: 10,
       percentOf: "price-including-vat",
       effectivePercent: 10,
@@ -247,6 +255,7 @@ test("foreign-currency records convert at the ECB rate; a stale rate leaves the 
     fx: frozen.records[0],
     now: Date.parse("2026-10-15T12:00:00Z"),
     checkIn: "2026-10-17",
+    checkOut: "2026-10-19",
   };
   const k = budgetLeft({ ...at, cityTaxes: [czk] }).known.find(
     (x) => x.id === "city-tax",
@@ -372,15 +381,19 @@ test("consecutive records for one city apply by stay date, never both at once", 
     effectiveTo: "2027-12-31",
   });
   const at = (checkIn: string) =>
-    budgetLeft({ ...base, checkIn, cityTaxes: [y2026, y2027] }).known.find(
-      (k) => k.id === "city-tax",
-    )?.cents;
+    budgetLeft({
+      ...base,
+      checkIn,
+      checkOut: plusTwo(checkIn),
+      cityTaxes: [y2026, y2027],
+    }).known.find((k) => k.id === "city-tax")?.cents;
   assert.equal(at("2026-12-30"), 250 * 4);
   assert.equal(at("2027-01-02"), 300 * 4);
   assert.ok(
     budgetLeft({
       ...base,
       checkIn: "2028-01-02",
+      checkOut: "2028-01-04",
       cityTaxes: [y2026, y2027],
     }).unknown.some((u) => u.id === "city-tax"),
   );
@@ -411,4 +424,83 @@ test("every committed city cost record is valid, and a city's records never over
     airports.length,
     "one transfer per airport",
   );
+});
+
+test("the stay length drives city tax, food days and the room figure; seven-night city tax is not known yet", () => {
+  // Three nights: per-person-night tax for two people over three nights.
+  const three = budgetLeft({
+    ...base,
+    checkOut: "2026-12-08",
+    cityTaxes: [tax()],
+    foodPerDayCents: 3000,
+  });
+  const t3 = three.known.find((k) => k.id === "city-tax")!;
+  assert.equal(t3.cents, 250 * 2 * 3);
+  assert.equal(t3.detail, "City tax for two people, three nights");
+  // Food days equal nights, and the room figure divides by the nights.
+  assert.deepEqual(three.food, { perDayCents: 3000, days: 3, cents: 9000 });
+  assert.equal(
+    three.roomPerNightCents,
+    Math.floor((three.leftCents - 9000) / 3 / 100) * 100,
+  );
+  // Per-room-night tax also follows the length.
+  const room = budgetLeft({
+    ...base,
+    checkOut: "2026-12-08",
+    cityTaxes: [tax({ basis: "per-room-night" })],
+  });
+  assert.equal(room.known.find((k) => k.id === "city-tax")?.cents, 250 * 3);
+  // Seven nights: caps are not sourced yet, so the tax is named as not known,
+  // never multiplied; percentage taxes too.
+  for (const record of [
+    tax(),
+    tax({
+      basis: "percent-of-room",
+      value: 5,
+      percentOf: "price-including-vat",
+    }),
+  ]) {
+    const seven = budgetLeft({
+      ...base,
+      checkOut: "2026-12-12",
+      cityTaxes: [record],
+      foodPerDayCents: 3000,
+    });
+    assert.equal(
+      seven.known.find((k) => k.id === "city-tax"),
+      undefined,
+    );
+    assert.equal(seven.percentTax, undefined);
+    assert.match(
+      seven.unknown.find((u) => u.id === "city-tax")?.reason ?? "",
+      /seven nights/,
+    );
+    assert.equal(seven.food?.days, 7);
+  }
+  // A city with no tax has none whatever the length.
+  const none = budgetLeft({
+    ...base,
+    checkOut: "2026-12-12",
+    cityTaxes: [
+      tax({
+        status: "none",
+        basis: undefined,
+        value: undefined,
+        currency: undefined,
+      }),
+    ],
+  });
+  assert.ok(none.noCityTax);
+  // An unclear length never guesses.
+  const unclear = budgetLeft({
+    ...base,
+    checkOut: "2026-12-05",
+    cityTaxes: [tax()],
+    foodPerDayCents: 3000,
+  });
+  assert.ok(unclear.unknown.some((u) => u.id === "city-tax"));
+  assert.equal(unclear.food, undefined);
+  assert.equal(TAX_NIGHTS_VERIFIED, 3);
+  assert.equal(stayNights("2026-12-30", "2027-01-02"), 3);
+  assert.equal(nightsLabel(1), "one night");
 });

@@ -93,8 +93,18 @@ export function storedCoverageFares(
   at: string,
   observedSince?: string,
   excludedRun?: string,
+  nights = 2,
 ) {
-  return matchedFares(sql, null, origin, month, at, observedSince, excludedRun);
+  return matchedFares(
+    sql,
+    null,
+    origin,
+    month,
+    at,
+    observedSince,
+    excludedRun,
+    nights,
+  );
 }
 
 async function matchedFares(
@@ -105,6 +115,7 @@ async function matchedFares(
   at: string,
   observedSince?: string,
   excludedRun?: string,
+  nights = 2,
 ): Promise<MonthFare[]> {
   const airports = originAirports(origin);
   const rows = await sql`with owned as materialized (
@@ -122,7 +133,7 @@ async function matchedFares(
     select o.*,owned.run_id from owned join fare_observations o on o.fetch_id=owned.id
     where o.origin=${origin} and o.currency='EUR' and o.travellers=1 and o.actual is distinct from false and (o.cabin is null or o.cabin='economy')
       and o.fetched_at<=${at}::timestamptz
-      and o.departure_date >= (${month}||'-01')::date and o.departure_date < (${month}||'-01')::date + interval '1 month' and o.return_date=o.departure_date+2
+      and o.departure_date >= (${month}||'-01')::date and o.departure_date < (${month}||'-01')::date + interval '1 month' and o.return_date=o.departure_date+${nights}::int
   ), matched as (
     -- One pass instead of a self-join (26 November 2026). A group is one run's
     -- fare for a destination, dates and price; it counts when it holds a dated

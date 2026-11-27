@@ -17,6 +17,7 @@ import { getDestinationGuides } from "@/services/destination-guides";
 import { HomePlanning } from "@/components/discovery/HomePlanning";
 import "./homepage.css";
 import { HomeExperience } from "@/components/discovery/HomeExperience";
+import { DEFAULT_NIGHTS } from "@/domain/stay-length";
 type Props = {
   params: Promise<{ locale: string }>;
   searchParams: Promise<Query>;
@@ -70,14 +71,14 @@ export default async function Home({ params, searchParams }: Props) {
           />
           <div className="hero-shade" />
           <div id="search" className="hero-content shell">
-            <h1>Where can two of you fly for two nights?</h1>
+            <h1>Where can two of you fly for a short break?</h1>
             <p className="discovery-hero-intro">
-              Pick where you’re flying from and a budget. We show the
-              destinations where return flights for two fit inside it.
+              Pick where you’re flying from, how many nights and a budget. We
+              show the destinations where return flights for two fit inside it.
             </p>
             <p className="discovery-hero-intro">
-              We collect fares from four cities: Tirana, London, Barcelona and
-              Warsaw.
+              Two or three nights from Tirana, London, Barcelona and Warsaw;
+              seven nights from London and Warsaw.
             </p>
             {/* A GET form, not links: the indexable homepage carries no
                 crawlable query-string variants of /plan. Nothing is stored on
@@ -89,6 +90,18 @@ export default async function Home({ params, searchParams }: Props) {
                   {planOrigins.map((o) => (
                     <option key={o.slug} value={o.slug}>
                       {o.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Nights
+                {/* Two and three are collected from every origin; seven only
+                    from London and Warsaw, so it is chosen on /plan. */}
+                <select name="nights" defaultValue={DEFAULT_NIGHTS}>
+                  {[2, 3].map((n) => (
+                    <option key={n} value={n}>
+                      {n} nights
                     </option>
                   ))}
                 </select>

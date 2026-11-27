@@ -21,9 +21,39 @@ import {
 } from "./money/fx";
 
 export const PARTY = 2;
-export const NIGHTS = 2;
-/** Food days the traveller's daily amount is multiplied by, shown to them. */
-export const FOOD_DAYS = 2;
+/**
+ * City tax is computed in full only for stays up to this many nights. No record caps
+ * the taxable nights below it; longer stays need each city's night cap sourced first
+ * (docs/backlog.md, "City-tax night caps"), so until then they show "not known".
+ * Owner decision, 27 November 2026.
+ */
+export const TAX_NIGHTS_VERIFIED = 3;
+
+/** Nights between check-in and check-out (whole calendar days), or undefined. */
+export function stayNights(checkIn: string, checkOut: string) {
+  const a = Date.parse(checkIn + "T00:00:00Z"),
+    b = Date.parse(checkOut + "T00:00:00Z");
+  const n = (b - a) / 86400000;
+  return Number.isInteger(n) && n >= 1 && n <= 30 ? n : undefined;
+}
+
+const numberWords = [
+  "",
+  "one",
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+];
+/** "two nights", "one night", "14 nights". */
+export function nightsLabel(n: number) {
+  return `${numberWords[n] ?? String(n)} ${n === 1 ? "night" : "nights"}`;
+}
 
 export type HotelClass = "1" | "2" | "3" | "4" | "5";
 export const hotelClasses: readonly HotelClass[] = ["1", "2", "3", "4", "5"];
@@ -283,6 +313,8 @@ export type BudgetInput = {
   city: string;
   arrivalAirport: string;
   checkIn: string;
+  /** Check-out date: the stay length (nights) follows from the two dates. */
+  checkOut: string;
   hotelClass: HotelClass;
   foodPerDayCents?: number;
   cityTaxes: readonly CityTaxRecord[];
@@ -362,6 +394,7 @@ export function budgetLeft(input: BudgetInput): BudgetLeft {
 
   // City tax: only a valid, current record counts; several current records for one
   // city are ambiguous and stay unknown.
+  const nights = stayNights(input.checkIn, input.checkOut);
   const taxes = input.cityTaxes.filter(
     (r) =>
       r.city === input.city &&
@@ -378,6 +411,13 @@ export function budgetLeft(input: BudgetInput): BudgetLeft {
   } else {
     const tax = taxes[0];
     if (tax.status === "none") result.noCityTax = ref(tax);
+    else if (nights === undefined)
+      unknown.push({ id: "city-tax", reason: "the stay length is unclear" });
+    else if (nights > TAX_NIGHTS_VERIFIED)
+      unknown.push({
+        id: "city-tax",
+        reason: `not yet checked for ${nightsLabel(nights)}: some cities stop charging after a number of nights`,
+      });
     else {
       const value = tax.byClass ? tax.byClass[input.hotelClass] : tax.value;
       if (value === undefined)
@@ -422,7 +462,7 @@ export function budgetLeft(input: BudgetInput): BudgetLeft {
           };
       } else {
         const multiplier =
-          tax.basis === "per-person-night" ? PARTY * NIGHTS : NIGHTS;
+          tax.basis === "per-person-night" ? PARTY * nights : nights;
         const euros = toEuroCents(
           value,
           tax.currency!,
@@ -442,8 +482,8 @@ export function budgetLeft(input: BudgetInput): BudgetLeft {
             cents: euros.cents,
             detail:
               tax.basis === "per-person-night"
-                ? `City tax for two people, two nights${tax.byClass ? `, ${input.hotelClass}-star hotel` : ""}`
-                : `City tax for one room, two nights${tax.byClass ? `, ${input.hotelClass}-star hotel` : ""}`,
+                ? `City tax for two people, ${nightsLabel(nights)}${tax.byClass ? `, ${input.hotelClass}-star hotel` : ""}`
+                : `City tax for one room, ${nightsLabel(nights)}${tax.byClass ? `, ${input.hotelClass}-star hotel` : ""}`,
             source: ref(tax, euros.fx),
           });
       }
@@ -493,22 +533,31 @@ export function budgetLeft(input: BudgetInput): BudgetLeft {
     input.budgetCents - known.reduce((sum, k) => sum + k.cents, 0);
   const out: BudgetLeft = { ...result, leftCents };
   const food = input.foodPerDayCents;
-  if (food !== undefined && Number.isSafeInteger(food) && food >= 0) {
-    out.food = { perDayCents: food, days: FOOD_DAYS, cents: food * FOOD_DAYS };
+  // Food days equal nights (owner decision, 27 November 2026): without flight times,
+  // anything more precise would be invented. The visitor sees the number of days.
+  if (
+    food !== undefined &&
+    Number.isSafeInteger(food) &&
+    food >= 0 &&
+    nights !== undefined
+  ) {
+    out.food = { perDayCents: food, days: nights, cents: food * nights };
     const forRoom = leftCents - out.food.cents;
     // Under a whole euro a night is "nothing left", never "about €0".
-    const room = forRoom > 0 ? roomPerNight(forRoom, out.percentTax) : 0;
+    const room =
+      forRoom > 0 ? roomPerNight(forRoom, nights, out.percentTax) : 0;
     if (room > 0) out.roomPerNightCents = room;
   }
   return out;
 }
 
-/** Solve n·R + tax(R) = money for the nightly room price R; rounded down to whole euros. */
+/** Solve n·R + tax(R) = money for the nightly room price R over n nights; rounded down to whole euros. */
 export function roomPerNight(
   forRoomCents: number,
+  nights: number,
   tax?: BudgetLeft["percentTax"],
 ): number {
-  const perNight = forRoomCents / NIGHTS;
+  const perNight = forRoomCents / nights;
   let room = perNight;
   if (tax) {
     room = perNight / (1 + tax.effectivePercent / 100);

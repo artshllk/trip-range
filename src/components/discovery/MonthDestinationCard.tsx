@@ -54,7 +54,7 @@ export function MonthDestinationCard({
         flights from {roomEuros(cheapest.partyCents)} for two
       </p>
       <label className="month-date-choice">
-        Choose your two-night stay
+        Choose your dates
         <select
           value={fare.departure}
           onChange={(e) => setDeparture(e.target.value)}

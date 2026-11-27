@@ -219,12 +219,12 @@ export const seoLandingRegistry: readonly SeoLandingDefinition[] = [
     locale: "en",
     type: "origin",
     origin: locations.find((l) => l.id === primaryOriginId)!,
-    title: "Two-night trips from Tirana — Trip Range",
-    h1: "Two-night trips from Tirana",
+    title: "Trips from Tirana — Trip Range",
+    h1: "Trips from Tirana",
     description:
-      "Find two-night trips from Tirana for two adults. Compare the departure dates, arrival airports and return fares seen this month and next.",
+      "Find two- and three-night trips from Tirana for two adults. Compare the departure dates, arrival airports and return fares seen this month and next.",
     intro:
-      "Choose a departure month to see where two people can fly for two nights and which dates have a recent return fare.",
+      "Choose a trip length and a departure month to see where two people can fly and which dates have a recent return fare.",
     breadcrumb: "From Tirana",
     related: [],
     sections: [
@@ -237,13 +237,13 @@ export const seoLandingRegistry: readonly SeoLandingDefinition[] = [
     ],
     keywords: {
       primary: "trips from Tirana",
-      related: ["two-night flights from Tirana"],
+      related: ["short breaks from Tirana"],
     },
     questions: [
       {
         question: "Can we leave on a weekday?",
         answer:
-          "Yes. Every departure day in the selected month is eligible. A two-night stay can return in the following month.",
+          "Yes. Every departure day in the selected month is eligible. A stay can return in the following month.",
       },
       {
         question: "What does the fare cover?",

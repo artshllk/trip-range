@@ -30,8 +30,7 @@ export function Footer({ locale, t }: { locale: Locale; t: Dictionary }) {
           <div>
             <h3>Your starting point</h3>
             <p>
-              Two-night return flights for two, from Tirana, London, Barcelona
-              and Warsaw.
+              Return flights for two, from Tirana, London, Barcelona and Warsaw.
             </p>
             {launchHubIds
               // Linked for visitors whatever the stored indexing decision.

@@ -15,6 +15,7 @@ import {
   monthDestinations,
   nextMonth,
 } from "@/domain/month-discovery";
+import { planNights, nightsAdjective } from "@/domain/stay-length";
 import { MonthDestinationCard } from "./MonthDestinationCard";
 import { roomEvidence } from "@/domain/room-evidence";
 import { publishedRooms } from "@/domain/costs/published-rooms";
@@ -77,12 +78,21 @@ export async function MonthPlanner({
   const { origin, unknown } = fixedOrigin
     ? { origin: fixedOrigin, unknown: undefined }
     : planOrigin(query.depart);
+  // Trip length lives in the URL too (?nights=3); three nights by default.
+  const { nights, offered, notCollected } = planNights(
+    origin.code,
+    query.nights,
+  );
+  const length = nightsAdjective(nights);
   const [live, health] = await Promise.all([
-    monthFares(
-      origin.code,
-      today > months[0] + "-01" ? today : months[0] + "-01",
-      nextMonth(months[months.length - 1]) + "-01",
-    ),
+    notCollected === undefined
+      ? monthFares(
+          origin.code,
+          today > months[0] + "-01" ? today : months[0] + "-01",
+          nextMonth(months[months.length - 1]) + "-01",
+          nights,
+        )
+      : Promise.resolve([]),
     monthRefreshHealth(
       origin.code,
       months.filter((month) => monitored.includes(month)),
@@ -92,7 +102,11 @@ export async function MonthPlanner({
   // row expires by its own provider timestamp, even when the store is unavailable.
   const rows = [
     ...(live ?? []),
-    ...(origin.code === "TIA" && Date.parse(screen.capturedAt) <= now.getTime()
+    // The launch screen is a two-night snapshot.
+    ...(origin.code === "TIA" &&
+    nights === 2 &&
+    notCollected === undefined &&
+    Date.parse(screen.capturedAt) <= now.getTime()
       ? screen.fares
       : []),
   ];
@@ -114,13 +128,16 @@ export async function MonthPlanner({
         ? {}
         : { depart: origin.slug }),
       ceiling: String(ceiling),
+      nights: String(nights),
       ...(foodEuros !== undefined ? { food: String(foodEuros) } : {}),
       ...(hotelClass !== defaultHotelClass ? { stars: hotelClass } : {}),
     }).toString();
   return (
     <main id="main" className="shell section stack month-planner">
       <header>
-        <h1>Two-night trips from {origin.name}</h1>
+        <h1>
+          {length[0].toUpperCase() + length.slice(1)} trips from {origin.name}
+        </h1>
         <p>
           Compare flight costs, room evidence and dates for two adults. Start
           with returns seen by Aviasales in the past seven days, then check
@@ -130,7 +147,17 @@ export async function MonthPlanner({
       {plannerOff && (
         <p role="status">
           Planning with your own dates and travellers isn’t available yet. Here
-          are two-night return flights for two within your budget.
+          are {length} return flights for two within your budget.
+        </p>
+      )}
+      {notCollected !== undefined && (
+        <p role="status">
+          We don’t collect {nightsAdjective(notCollected)} trips from{" "}
+          {origin.name}. Choose{" "}
+          {offered.length === 1
+            ? offered[0]
+            : offered.slice(0, -1).join(", ") + " or " + offered.at(-1)}{" "}
+          nights.
         </p>
       )}
       {unknown !== undefined && (
@@ -145,6 +172,16 @@ export async function MonthPlanner({
             {planOrigins.map((o) => (
               <option key={o.slug} value={o.slug}>
                 {o.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
+          Trip length
+          <select name="nights" defaultValue={nights}>
+            {offered.map((n) => (
+              <option key={n} value={n}>
+                {n} nights
               </option>
             ))}
           </select>
@@ -220,13 +257,16 @@ export async function MonthPlanner({
           last check can be shown.
         </p>
       )}
-      {months.map((month) => {
+      {/* A length this origin doesn't collect has nothing to list: the notice
+          above says so, rather than an empty month that reads like no fares. */}
+      {(notCollected === undefined ? months : []).map((month) => {
         const cities = monthDestinations(
           rows,
           month,
           today,
           now.getTime(),
           ceiling,
+          nights,
         );
         const count = cities.length;
         const name = monthName(month);
@@ -266,8 +306,8 @@ export async function MonthPlanner({
               <div className="month-notice">
                 <p>
                   {count
-                    ? `From ${origin.name}, we’ve seen two-night returns within your flight allowance to only ${count === 1 ? "one destination" : "two destinations"} for ${name}. You can check those dates below or choose another month for a wider comparison.`
-                    : `We haven’t seen a two-night return from ${origin.name} for ${name} at this budget in the past seven days. Try a higher budget or another month. Other flights may be available.`}
+                    ? `From ${origin.name}, we’ve seen ${length} returns within your flight allowance to only ${count === 1 ? "one destination" : "two destinations"} for ${name}. You can check those dates below or choose another month for a wider comparison.`
+                    : `We haven’t seen a ${length} return from ${origin.name} for ${name} at this budget in the past seven days. Try a higher budget or another month. Other flights may be available.`}
                 </p>
                 {!otherMonth ? (
                   <Link href={reset}>Compare this month and next</Link>
@@ -317,6 +357,7 @@ export async function MonthPlanner({
                           city: destination,
                           arrivalAirport: o.airport,
                           checkIn: o.departure,
+                          checkOut: o.returning,
                           hotelClass,
                           foodPerDayCents:
                             foodEuros === undefined

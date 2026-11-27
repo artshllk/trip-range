@@ -503,12 +503,9 @@ test("real homepage and guide markup show useful reviewed content, honest prices
       assert.match(html, /class="button ember"[^>]*>Plan a trip here/);
       assert.match(html, /Missing flight or required transfer prices/);
     } else {
-      // Planner off (src/config/features.ts): guides point to the two-night
+      // Planner off (src/config/features.ts): guides point to the
       // flight view and make no whole-trip claim.
-      assert.match(
-        html,
-        /class="button ember" href="\/plan">See two-night flights/,
-      );
+      assert.match(html, /class="button ember" href="\/plan">See flights/);
       assert.doesNotMatch(
         html,
         /Your whole-trip budget|Missing flight or required transfer/,

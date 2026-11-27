@@ -29,10 +29,10 @@ export function DestinationGuide({ guide }: { guide: Guide }) {
   // Clean hrefs only; the visitor's own search context is added on click.
   const plan = { path: "/", hash: "search", toPlace: target };
   // While the custom planner is off (src/config/features.ts) a guide cannot plan a
-  // trip here; it points to the two-night flight view on a clean path instead.
+  // trip here; it points to the flight view on a clean path instead.
   const flights = (className: string) => (
     <Link prefetch={false} href="/plan" className={className}>
-      See two-night flights <span aria-hidden="true">↗</span>
+      See flights <span aria-hidden="true">↗</span>
     </Link>
   );
   return (

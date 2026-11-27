@@ -77,6 +77,7 @@ test("Rome's transfers are subtracted on the card, Ciampino flagged as read by h
     flightObservedAt: "2026-11-23T10:00:00Z",
     city: "ROM",
     checkIn: "2026-12-15",
+    checkOut: "2026-12-17",
     hotelClass: "3" as const,
     cityTaxes: cityTaxRecords,
     transfers: airportTransferRecords,

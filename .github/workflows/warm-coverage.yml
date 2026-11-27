@@ -44,7 +44,7 @@ jobs:
         run: |
           day="${DAY_INPUT:-$(TZ=Europe/Belgrade date +%F)}"
           echo "day=$day" >> "$GITHUB_OUTPUT"
-          args=(--on "$day" --origin ALL)
+          args=(--on "$day" --origin ALL --nights ALL)
           if [ -n "$RENEWED_SINCE" ]; then args+=(--renewed-since "$RENEWED_SINCE"); fi
           npm run -s check:warm-coverage -- "${args[@]}" | tee "warm-coverage-$day.jsonl"
       - uses: actions/upload-artifact@v4

@@ -31,7 +31,7 @@ export function discoveryMonths(today: string, selected?: string) {
 export function isMonthDiscovery(query: Query) {
   return Object.keys(query).every(
     (key) =>
-      ["month", "ceiling", "depart", "food", "stars"].includes(key) ||
+      ["month", "ceiling", "depart", "food", "stars", "nights"].includes(key) ||
       key.startsWith("utm_") ||
       key === "gclid",
   );
@@ -46,6 +46,8 @@ export function monthDestinations(
   today: string,
   now: number,
   ceiling: number,
+  /** Stay length; two nights for the collector until it collects other lengths. */
+  nights = 2,
 ) {
   const byCity = new Map<string, Map<string, MonthFare>>();
   for (const fare of rows) {
@@ -61,7 +63,7 @@ export function monthDestinations(
       // evidence on how near-date fares actually hold.
       fare.departure <= today ||
       !isCalendarDate(fare.departure) ||
-      fare.returning !== addDays(fare.departure, 2) ||
+      fare.returning !== addDays(fare.departure, nights) ||
       !/^[A-Z]{3}$/.test(fare.airport) ||
       !/^[A-Z]{3}$/.test(fare.destination) ||
       isExcludedTravelDestinationId("city:" + fare.destination) ||

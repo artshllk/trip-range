@@ -61,12 +61,12 @@ export default async function Page({ params }: Props) {
           <>
             <h2>Looking for flights?</h2>
             <p>
-              See where two of you can fly for two nights from Tirana, London,
-              Barcelona or Warsaw. Destinations shown here are ideas, not a
-              statement of flight availability or affordability.
+              See where two of you can fly for a short break from Tirana,
+              London, Barcelona or Warsaw. Destinations shown here are ideas,
+              not a statement of flight availability or affordability.
             </p>
             <Link className="button" href="/plan">
-              See two-night flights ↗
+              See flights ↗
             </Link>
           </>
         )}

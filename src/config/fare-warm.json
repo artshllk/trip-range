@@ -1,16 +1,50 @@
 {
   "origins": [
-    { "code": "TIA", "currency": "EUR" },
+    {
+      "code": "TIA",
+      "currency": "EUR",
+      "nights": [
+        2,
+        3
+      ]
+    },
     {
       "code": "LON",
       "currency": "EUR",
-      "airports": ["LHR", "LGW", "STN", "LTN", "LCY", "SEN"]
+      "airports": [
+        "LHR",
+        "LGW",
+        "STN",
+        "LTN",
+        "LCY",
+        "SEN"
+      ],
+      "nights": [
+        2,
+        3,
+        7
+      ]
     },
-    { "code": "BCN", "currency": "EUR" },
+    {
+      "code": "BCN",
+      "currency": "EUR",
+      "nights": [
+        2,
+        3
+      ]
+    },
     {
       "code": "WAW",
       "currency": "EUR",
-      "airports": ["WAW", "WMI"]
+      "airports": [
+        "WAW",
+        "WMI"
+      ],
+      "nights": [
+        2,
+        3,
+        7
+      ]
     }
   ],
   "refreshHours": 12,
