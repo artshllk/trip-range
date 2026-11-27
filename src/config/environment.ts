@@ -52,6 +52,10 @@ export function validateEnvironment(
   );
   const redis =
     redisUrl && redisToken ? { url: redisUrl, token: redisToken } : undefined;
+  // Per-client limiter (docs/abuse-controls.md, Option B). Shares the limiter's
+  // Upstash database (owner decision, 25 November 2026) under its own key prefix,
+  // and needs only its hashing secret. Without one it is off; it always fails open.
+  const clientSecret = read("CLIENT_LIMIT_SECRET", /^[\x21-\x7e]{32,4096}$/);
   // Upstash's console hands out UPSTASH_REDIS_REST_*; this app reads only
   // RATE_LIMIT_REDIS_REST_*. Never accept both: report the exact rename instead,
   // because the result of the wrong name is a silent fail-closed in production.
@@ -123,6 +127,8 @@ export function validateEnvironment(
       warmSecret: forbiddenFixtures ? undefined : fareWarmSecret,
     },
     redis,
+    clientLimit:
+      redis && clientSecret ? { redis, secret: clientSecret } : undefined,
     capabilities,
     vercelAnalytics: vercelAnalyticsEnabled(env, buildContext),
     invalid,
@@ -144,7 +150,7 @@ export function startupConfigurationErrors(
 ) {
   return env.misnamed.map(
     (m) =>
-      `Environment variable ${m.found} is set but ${m.expected} is not. This app reads only ${m.expected}; rename the variable. Without it the rate limiter fails closed and production cannot price anything.`,
+      `Environment variable ${m.found} is set but ${m.expected} is not. This app reads only ${m.expected}; rename the variable. Without it, provider admission refuses every flight lookup, so production cannot price anything, and the shared quotas fall back to per-instance counts.`,
   );
 }
 export function configurationReport(
@@ -154,6 +160,7 @@ export function configurationReport(
     capabilities: env.capabilities,
     invalid: env.invalid,
     rateLimiting: env.limiter,
+    clientLimit: env.clientLimit ? "on" : "off",
     mode: env.mode,
     blockers: [
       ...env.misnamed.map(

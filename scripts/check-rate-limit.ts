@@ -44,7 +44,8 @@ export async function offlineRateLimitCheck() {
       throw Error("Unexpected fetch");
     },
   );
-  const denied = !(await blocked.allow("search"));
+  // Without Redis, production counts in memory instead of refusing, and never fetches.
+  const fallsBack = await blocked.allow("search");
   let time = 0;
   const local = localLimiter(() => time);
   const first = await Promise.all(
@@ -55,7 +56,7 @@ export async function offlineRateLimitCheck() {
   const reset = await local.allow("ai-intent");
   const checks = {
     environmentPolicy: policy,
-    productionDeniedWithoutFetch: denied && externalCalls === 0,
+    productionFallsBackWithoutFetch: fallsBack && externalCalls === 0,
     firstNAllowed: first.every(Boolean),
     nextDenied: !over,
     nextWindowAllowed: reset,
@@ -91,10 +92,14 @@ export async function liveRateLimitCheck(
     if (++requests > 16) throw Error("Diagnostic request bound");
     return fetcher(input, init);
   };
-  const limiter = redisLimiter(env.redis, boundedFetch, 1200, {
-    namespace,
-    windowMs: 3000,
-  });
+  // This diagnostic tests Redis itself, so it must not fall back to memory.
+  const limiter = redisLimiter(
+    env.redis,
+    boundedFetch,
+    1200,
+    { namespace, windowMs: 3000 },
+    { allow: async () => false },
+  );
   const first = await Promise.all(
     Array.from({ length: limits["ai-intent"] }, () =>
       limiter.allow("ai-intent"),

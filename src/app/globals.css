@@ -5072,3 +5072,17 @@ body:has(.trip-detail-page) footer {
   color: var(--muted);
   max-width: 60ch;
 }
+
+/* Touch screens: the booking link, disclosure toggles and footer links reach a
+   44px target (measured at 21-35px at 320-390px wide, 25 November 2026). */
+@media (pointer: coarse) {
+  .text-button,
+  summary {
+    min-height: 44px;
+  }
+  .footer-grid a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+  }
+}

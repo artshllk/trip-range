@@ -4,6 +4,7 @@ import type {
   SourceRef,
 } from "../../domain/budget-left";
 import { FOOD_DAYS } from "../../domain/budget-left";
+import type { StayAttraction } from "../../domain/attractions";
 
 const euros = (cents: number) =>
   new Intl.NumberFormat("en-IE", {
@@ -27,6 +28,9 @@ function Source({ source }: { source: SourceRef }) {
       </a>
       , effective {source.effectiveFrom}, checked{" "}
       <time dateTime={source.checkedAt}>{source.checkedAt}</time>
+      {source.manualCheckedOn
+        ? `; the operator's page blocks automated checks, so this was read by hand on ${source.manualCheckedOn}`
+        : ""}
       {source.fx
         ? `; converted from ${source.fx.from} at the ECB reference rate of ${source.fx.sourceDate}`
         : ""}
@@ -45,6 +49,7 @@ function Known({ cost }: { cost: KnownCost }) {
         </span>
       )}
       {cost.source && <Source source={cost.source} />}
+      {cost.note && <span className="small"> {cost.note}</span>}
     </li>
   );
 }
@@ -54,7 +59,89 @@ function Known({ cost }: { cost: KnownCost }) {
  * costs are listed with their sources, unknown costs are named, and the remaining
  * figure says what it is "before".
  */
-export function BudgetLeftPanel({ result }: { result: BudgetLeft }) {
+const day = (iso: string) =>
+  new Intl.DateTimeFormat("en-GB", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+    timeZone: "UTC",
+  }).format(new Date(iso + "T00:00:00Z"));
+
+function Cited({ cite }: { cite: StayAttraction["priceSource"] }) {
+  return (
+    <span className="small muted">
+      {" · "}
+      <a href={cite.url} target="_blank" rel="noopener noreferrer">
+        {cite.publisher}
+      </a>
+      : “{cite.quote}”, checked{" "}
+      <time dateTime={cite.checkedAt}>{cite.checkedAt}</time>
+    </span>
+  );
+}
+
+/** Official sight prices for the stay. Optional, so never subtracted. */
+function Sights({ items }: { items: StayAttraction[] }) {
+  return (
+    <section className="budget-left-sights" aria-label="Official sight prices">
+      <p className="small">
+        Official prices for sights, if you visit (not subtracted above):
+      </p>
+      <ul>
+        {items.map((a) => (
+          <li key={a.id}>
+            {a.name}:{" "}
+            {a.status === "priced" ? (
+              <>
+                <strong>{euros(a.partyCents!)} for two</strong> (
+                {euros(a.adultCents!)} each, {a.ticketName})
+                <Cited cite={a.priceSource} />
+              </>
+            ) : (
+              <>
+                <strong>not known</strong>
+                <span className="small muted">
+                  {" "}
+                  (no current official price)
+                </span>
+              </>
+            )}
+            {a.closedOn.length > 0 && (
+              <span className="small">
+                {" "}
+                Closed on {a.closedOn.map(day).join(", ")}.
+                <Cited cite={a.hoursSource} />
+              </span>
+            )}
+            {a.freeOn.length > 0 && (
+              <span className="small">
+                {" "}
+                Free on {a.freeOn.map(day).join(", ")} (first Sunday of the
+                month).
+              </span>
+            )}
+            {a.lastEntry && (
+              <span className="small muted"> Last entry {a.lastEntry}.</span>
+            )}
+            {a.unknownPart && (
+              <span className="small muted"> {a.unknownPart}</span>
+            )}
+            <span className="small muted"> Listed because: {a.basis}</span>
+            <Cited cite={a.basisSource} />
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+export function BudgetLeftPanel({
+  result,
+  attractions,
+}: {
+  result: BudgetLeft;
+  attractions?: StayAttraction[];
+}) {
   const before = result.unknown.map((u) => unknownLabel[u.id].toLowerCase());
   const beforeText = before.length ? ` before ${before.join(" and ")}` : "";
   const over = result.leftCents < 0;
@@ -134,6 +221,7 @@ export function BudgetLeftPanel({ result }: { result: BudgetLeft }) {
           )}
         </p>
       )}
+      {attractions && attractions.length > 0 && <Sights items={attractions} />}
       <p className="small muted">
         This is what remains of your budget, not a room price we found. Check
         the price for your dates before you book.

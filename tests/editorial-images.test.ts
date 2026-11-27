@@ -208,7 +208,7 @@ test("legacy verified flags cannot bypass the source-controlled approval store",
   assert.deepEqual(state.imageCalls, []);
 });
 
-test("production without Redis keeps editorial content safe and all real operations fail closed", async (t) => {
+test("production without Redis keeps editorial content safe; visitor operations are counted per instance and nothing reaches a provider", async (t) => {
   const state = setup(t, {
     RATE_LIMIT_REDIS_REST_URL: "",
     RATE_LIMIT_REDIS_REST_TOKEN: "",
@@ -218,21 +218,20 @@ test("production without Redis keeps editorial content safe and all real operati
   assert.ok(
     home.templates.every((p) => p.destination.image?.source !== "provider"),
   );
+  // Search is not refused, but provider admission needs Redis, so no live
+  // flight lookup happens (the fetch mock fails any provider call).
   const search = await getAppTripTemplates(defaultRequest);
   assert.ok(
     search.issues.some(
       (i) =>
         i.destinationId === "flight-discovery" &&
-        i.source.status !== "available" &&
-        i.source.reason === "rate-limit",
+        i.source.status !== "available",
     ),
   );
-  for (const operation of [
-    "ai-intent",
-    "ai-explanations",
-    "affiliate",
-    "locations",
-  ] as const)
+  for (const operation of ["affiliate", "locations"] as const)
+    assert.equal(await allowOperation(operation), true);
+  // Paid AI calls stay refused without Redis.
+  for (const operation of ["ai-intent", "ai-explanations"] as const)
     assert.equal(await allowOperation(operation), false);
   assert.deepEqual(state.operations, []);
   assert.deepEqual(state.imageCalls, []);
@@ -245,7 +244,8 @@ test("stored editorial image reads neither depend on Redis nor bypass protection
   assert.deepEqual(await getDemoImageTemplates(defaultRequest, ids), first);
   assert.deepEqual(state.operations, []);
   assert.deepEqual(state.imageCalls, []);
-  assert.equal(await allowOperation("affiliate"), false);
+  // Redis is still asked; its outage is counted per instance, not refused.
+  assert.equal(await allowOperation("affiliate"), true);
   assert.deepEqual(state.operations, ["affiliate"]);
 });
 

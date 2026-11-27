@@ -1,6 +1,11 @@
 import type { Locale } from "../i18n/config";
 export type LegalDocument = {
   title: string;
+  /**
+   * ISO date the owner approves for publication (YYYY-MM-DD). Unset until that
+   * decision; the page shows the line only once it is set (launch checklist).
+   */
+  effectiveDate?: string;
   paragraphs: readonly string[];
   sections?: readonly {
     heading: string;
@@ -20,21 +25,22 @@ export const legalDocuments = {
         {
           heading: "What happens to a search?",
           paragraphs: [
-            "The planner uses your departure point, destination, dates or length of stay, budget, currency, numbers of adults and children, and travel preferences. These choices can stay in your browser history until you clear it. Clearing history does not remove copies of a link you have shared. We do not keep a named trip history or ask for passenger names, passports or payment details.",
-            "When you look up a place, we send the search text to Travelpayouts’ place lookup service. For flight searches we send the relevant airports, travel period and currency to the Aviasales data service. Place suggestions can be reused for 24 hours and flight responses for 30 minutes. The database keeps the underlying fare records for longer.",
+            "The planner uses your departure city, travel month, budget, the amount you plan to spend on food and the room standard you choose. These choices can stay in your browser history until you clear it. Clearing history does not remove copies of a link you have shared. We do not keep a named trip history or ask for passenger names, passports or payment details.",
+            "Your search is not sent to any travel provider. The fares shown come from prices we collect on a schedule from the Aviasales data service for our departure cities. Those requests contain no visitor information.",
           ],
         },
         {
           heading: "Cookies and booking links",
           paragraphs: [
-            "The planner does not set cookies or save preferences on your device. Your currency choice stays on the page or in the search link.",
+            "The planner does not set cookies or save preferences on your device. Your choices stay in the search link.",
             "If you open a flight link, we send the airports, dates, passenger counts and our referral identifiers to Travelpayouts to create an Aviasales link. A successful link can be reused for 24 hours. You then leave Trip Range. The partner can use its own cookies or identifiers to credit a booking to us. Its privacy notice and terms apply there.",
+            "If you open a room search, your browser goes straight to Booking.com with the city, dates and number of guests in the link. It does not pass through our servers and carries no referral identifier from us. Booking.com’s privacy notice and terms apply there.",
           ],
         },
         {
           heading: "What we measure",
           paragraphs: [
-            "We count how often a flight button is shown, how often a click produces a partner link and how often it does not. We group these counts by UTC day, airport pair and fare age. The counters hold no visitor ID, individual click time or record of your journey.",
+            "We count how often a click on a flight button produces a partner link and how often it does not. We group these counts by UTC day, airport pair and fare age. The counters hold no visitor ID, individual click time or record of your journey.",
             "On a quiet route, someone who already knows a visit occurred could link it to a count of one. We keep the counters internal. If we share figures outside Trip Range, we combine or withhold groups with fewer than five observations.",
           ],
         },
@@ -42,10 +48,11 @@ export const legalDocuments = {
           heading: "How long do we keep information?",
           paragraphs: [
             "Netlify hosts Trip Range and may process IP addresses to deliver and protect the site. Its request records show the requested URL, including any search details in the query string, the time, response status, duration and user-agent category. Netlify sets the window we can see in its Observability dashboard. On our Free plan we can see the past 24 hours. We have not verified when Netlify deletes all underlying copies. We have never enabled Netlify Web Analytics and have no log drains configured to forward these records.",
-            "We use Upstash Redis in Frankfurt to limit excessive requests. We set each shared counter to expire 60 seconds after its window starts. It counts requests by operation and contains no visitor identifier. Daily backups are off, and our account check found no backups. We could not establish how long Upstash keeps its infrastructure logs.",
+            "We use Upstash Redis in Frankfurt to limit excessive requests. We set each shared counter to expire 60 seconds after its window starts. These shared counters count requests by operation and contain no visitor identifier. Daily backups are off, and our account check found no backups. We could not establish how long Upstash keeps its infrastructure logs.",
+            "To stop excessive requests, we turn your IP address into a short code using a secret key that changes every day. We count requests against that code for 60 seconds and then discard it. We do not store your IP address.",
             "Our Neon Postgres database is in Frankfurt. Our routine clean-up removes raw fare replies older than 2 days and fare observations and their fetch records older than 10 days. These records describe routes, dates and prices. We do not attach them to a visitor account or IP address. We keep aggregate booking-button counts indefinitely as statistics. They contain no visitor identifier and no timestamp more precise than a UTC day.",
             "We use Neon’s default Free-plan recovery setting. Neon limits how far we can restore earlier database versions to six hours or 1 GB of data changes, whichever limit is reached first. This window applies to past versions, including recently deleted records. Current records follow the retention rules above.",
-            "Our contact address is hello@trip-range.com. Correspondence includes your email address and what you send us. Retention periods for messages, deleted mail and mailbox backups are pending confirmation. We have not verified every country in which our providers process data.",
+            "Our contact address is hello@trip-range.com. Correspondence includes your email address and what you send us. We keep it for 12 months and then delete it. Deleted mail stays in our email provider’s trash for 30 days. We keep no separate copies or backups of our own. We have not verified every country in which our providers process data.",
           ],
           links: [
             {
@@ -116,7 +123,7 @@ export const legalDocuments = {
         {
           heading: "Who handles your booking?",
           paragraphs: [
-            "A flight link takes you to a partner site. If you book, your contract is with the seller named at checkout and its terms apply. Contact that seller about a payment, change, cancellation or refund. If something on Trip Range looks wrong, contact us using the details below.",
+            "A flight or room link takes you to a partner site. If you book, your contract is with the seller named at checkout and its terms apply. Contact that seller about a payment, change, cancellation or refund. If something on Trip Range looks wrong, contact us using the details below.",
           ],
         },
         {
@@ -124,6 +131,13 @@ export const legalDocuments = {
           paragraphs: [
             "We are responsible for the planning service we provide. To the extent the law allows, we are not liable for a price change, cancellation or failure to provide travel caused by the seller and outside our control. This does not limit any responsibility we have for our own errors or any right you cannot give up by law.",
             "Kosovo law governs these terms. You keep any mandatory consumer protections in your country of residence.",
+          ],
+        },
+        {
+          heading: "Complaints and who can use Trip Range",
+          paragraphs: [
+            "Send any complaint about Trip Range to hello@trip-range.com. A complaint about a booking, payment or refund goes to the seller named at checkout.",
+            "Trip Range is not directed at children under 16.",
           ],
         },
       ],

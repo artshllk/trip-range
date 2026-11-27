@@ -55,7 +55,11 @@ export function monthDestinations(
       seen > now ||
       now - seen > 7 * 86400000 ||
       !fare.departure.startsWith(month + "-") ||
-      fare.departure < today ||
+      // No same-day departures (owner decision, 26 November 2026): a stored fare for
+      // a flight leaving today is up to seven days old and almost certainly gone,
+      // yet it would be the first card a visitor sees. May be revisited with
+      // evidence on how near-date fares actually hold.
+      fare.departure <= today ||
       !isCalendarDate(fare.departure) ||
       fare.returning !== addDays(fare.departure, 2) ||
       !/^[A-Z]{3}$/.test(fare.airport) ||

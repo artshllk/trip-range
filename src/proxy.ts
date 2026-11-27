@@ -1,5 +1,9 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { evidenceMode } from "./providers/server/environment";
+import {
+  evidenceMode,
+  serverEnvironment,
+} from "./providers/server/environment";
+import { refuseOverLimit } from "./server/client-limit";
 import { defaultLocale, localeFromPath } from "./i18n/routing";
 
 /**
@@ -10,8 +14,17 @@ import { defaultLocale, localeFromPath } from "./i18n/routing";
  * next.config redirects after this proxy, so a config redirect for `/en/...`
  * would also redirect the rewritten request back to itself.
  */
-export function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  // Per-client limits on /plan and /api/* (docs/abuse-controls.md, Option B).
+  const refused = await refuseOverLimit(
+    pathname,
+    request.headers,
+    serverEnvironment(),
+  );
+  if (refused) return refused;
+  // API routes reach the proxy only for the limiter; no locale handling.
+  if (pathname.startsWith("/api/")) return;
   if (pathname === "/en" || pathname.startsWith("/en/")) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.slice(3) || "/";
@@ -30,7 +43,12 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Pages only: no API routes, Next internals, metadata files or public assets
-  // (anything with a file extension, e.g. /robots.txt, /destinations/x.webp).
-  matcher: ["/en/:path*", "/((?!api/|_next/|.*\\.[a-zA-Z0-9]+$).*)"],
+  // Pages, plus API routes for the per-client limiter only. Never Next internals,
+  // metadata files or public assets (anything with a file extension, e.g.
+  // /robots.txt, /destinations/x.webp).
+  matcher: [
+    "/en/:path*",
+    "/((?!api/|_next/|.*\\.[a-zA-Z0-9]+$).*)",
+    "/api/:path*",
+  ],
 };

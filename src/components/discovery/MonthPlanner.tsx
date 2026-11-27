@@ -32,8 +32,10 @@ import {
 } from "@/domain/budget-left";
 import {
   airportTransferRecords,
+  attractionRecords,
   cityTaxRecords,
 } from "@/domain/city-cost-records";
+import { attractionsForStay, type StayAttraction } from "@/domain/attractions";
 import { fxData } from "../../../content/money/fx/records";
 import "./month-planner.css";
 
@@ -66,7 +68,6 @@ export async function MonthPlanner({
   await connection();
   const now = new Date();
   const today = referenceToday(now);
-  const current = today.slice(0, 7);
   const selected = typeof query.month === "string" ? query.month : undefined;
   const months = discoveryMonths(today, selected);
   const ceiling =
@@ -150,12 +151,19 @@ export async function MonthPlanner({
         </label>
         <label>
           Departure month
-          <input
-            type="month"
+          {/* A select, not type="month": phones render an empty month input
+              as "--------- ----", and only monitored months have fares. */}
+          <select
             name="month"
-            min={current}
             defaultValue={months.length === 1 ? months[0] : ""}
-          />
+          >
+            <option value="">All upcoming months</option>
+            {monitored.map((m) => (
+              <option key={m} value={m}>
+                {monthFormat.format(new Date(m + "-01T00:00:00Z"))}
+              </option>
+            ))}
+          </select>
         </label>
         <label>
           Trip budget for two
@@ -287,6 +295,18 @@ export async function MonthPlanner({
                   <MonthDestinationCard
                     key={`${month}-${destination}`}
                     originCode={origin.code}
+                    attractionsByDeparture={Object.fromEntries(
+                      options.map((o): [string, StayAttraction[]] => [
+                        o.departure,
+                        attractionsForStay({
+                          records: attractionRecords,
+                          city: destination,
+                          checkIn: o.departure,
+                          checkOut: o.returning,
+                          now: now.getTime(),
+                        }),
+                      ]),
+                    )}
                     budgetLeftByDeparture={Object.fromEntries(
                       options.map((o): [string, BudgetLeft] => [
                         o.departure,

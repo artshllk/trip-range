@@ -7,6 +7,7 @@ export type LimitOperation =
   | "ai-intent"
   | "ai-explanations"
   | "affiliate"
+  | "affiliate-view"
   | "editorial-images"
   | "search";
 /** Shared spend quotas, not per-client protection. No identities or forwarded headers. */
@@ -15,9 +16,24 @@ export const limits: Record<LimitOperation, number> = {
   "ai-intent": 12,
   "ai-explanations": 12,
   affiliate: 40,
+  // CTA-view beacons are statistics only; their own quota means they can never
+  // use up the one that creates partner links (abuse controls, 25 November 2026).
+  "affiliate-view": 300,
   "editorial-images": 30,
   search: 120,
 };
+/**
+ * Refused rather than counted in memory when Redis cannot answer. The rule
+ * (docs/abuse-controls.md, "Failure policy"): fail open when the only cost is
+ * our own degraded service; fail closed when failing open spends money we
+ * cannot cap, or risks a partner cutting us off. These are paid per OpenAI
+ * call with this counter as their only spend control. Provider admission is
+ * the other control that meets the second test. AI is off at launch.
+ */
+export const closedWithoutRedis: ReadonlySet<LimitOperation> = new Set([
+  "ai-intent",
+  "ai-explanations",
+]);
 export interface RequestLimiter {
   allow(operation: LimitOperation): Promise<boolean>;
 }
@@ -125,11 +141,20 @@ export async function redisCommand(
 // Atomic fixed-window count + TTL. No retry: an ambiguous response may already have incremented.
 const script =
   "local n=redis.call('INCR',KEYS[1]); if n==1 then redis.call('PEXPIRE',KEYS[1],ARGV[1]) end; if n<=tonumber(ARGV[2]) then return 1 else return 0 end";
+/**
+ * Shared spend quotas in Redis. When Redis cannot give an answer (error, timeout,
+ * malformed reply, invalid namespace) the operation is counted in this instance's
+ * memory with the same limits instead of being refused: a dependency being
+ * unavailable must never stop a visitor using the site (owner decision,
+ * 26 November 2026). Only a real "over quota" answer from Redis refuses.
+ * Exceptions: the AI operations in closedWithoutRedis, and provider admission.
+ */
 export function redisLimiter(
   config: RedisConfiguration,
   fetcher: typeof fetch = fetch,
   timeoutMs = 1200,
   options = { namespace: "goeksplo:v2:local", windowMs: 60000 },
+  fallback: RequestLimiter = localLimiter(),
 ): RequestLimiter {
   const valid =
     validLimiterNamespace(options.namespace) &&
@@ -138,8 +163,14 @@ export function redisLimiter(
     options.windowMs <= 60000;
   return {
     async allow(operation) {
-      if (!valid || !Object.prototype.hasOwnProperty.call(limits, operation))
+      if (!Object.prototype.hasOwnProperty.call(limits, operation))
         return false;
+      if (!valid) {
+        reportOperation("limiter", "rate-limit", "configuration", 0);
+        return closedWithoutRedis.has(operation)
+          ? false
+          : fallback.allow(operation);
+      }
       const start = Date.now();
       const reply = await redisCommand(
         config,
@@ -154,7 +185,6 @@ export function redisLimiter(
         fetcher,
         timeoutMs,
       );
-      const allowed = reply.ok && reply.result === 1;
       const status = !reply.ok
         ? reply.reason
         : reply.result === 1
@@ -163,11 +193,20 @@ export function redisLimiter(
             ? "rate-limit"
             : "malformed";
       reportOperation("limiter", "rate-limit", status, Date.now() - start);
-      return allowed;
+      if (status === "success") return true;
+      if (status === "rate-limit") return false;
+      return closedWithoutRedis.has(operation)
+        ? false
+        : fallback.allow(operation);
     },
   };
 }
-/** The central environment policy is authoritative. Configured outages never choose local fallback. */
+/**
+ * The central environment policy still reports its state (readiness lists
+ * "distributed-rate-limit" when Redis is required but unusable), but requests
+ * are never refused for it: without usable Redis every operation is counted in
+ * this instance's memory, and each call is logged as a configuration problem.
+ */
 export function createRequestLimiter(
   env: ReturnType<typeof serverEnvironment>,
   fetcher: typeof fetch = fetch,
@@ -178,10 +217,13 @@ export function createRequestLimiter(
       namespace: env.limiterNamespace,
       windowMs: 60000,
     });
+  const fallback = localLimiter();
   return {
-    async allow() {
+    async allow(operation) {
       reportOperation("limiter", "rate-limit", "configuration", 0);
-      return false;
+      return closedWithoutRedis.has(operation)
+        ? false
+        : fallback.allow(operation);
     },
   };
 }

@@ -13,6 +13,7 @@
     "scripts/research-cost-scope.ts",
     "scripts/check-cost-profiles.ts",
     "scripts/check-rate-limit.ts",
+    "scripts/print-header-check.ts",
     "src/config/readiness.ts"
   ],
   "exclude": [

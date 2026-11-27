@@ -4,6 +4,7 @@ import type { NextConfig } from "next";
 import {
   securityHeaders,
   deploymentIndexingHeaders,
+  aliasIndexingRules,
 } from "./src/config/security";
 import {
   startupConfigurationErrors,
@@ -31,7 +32,11 @@ if (evidenceMode !== "off") {
     );
   // Verify the four approved pages and the exact two inventories. Reject
   // an older mixed bundle (including extra, unlisted files) in every mode.
-  execFileSync("python3", ["scripts/public-evidence/verify-delivery.py", ".evidence-build"], { stdio: "inherit" });
+  execFileSync(
+    "python3",
+    ["scripts/public-evidence/verify-delivery.py", ".evidence-build"],
+    { stdio: "inherit" },
+  );
   const published = Boolean(
     JSON.parse(readFileSync(releaseIndex, "utf8")).publishedAt,
   );
@@ -109,9 +114,12 @@ const nextConfig: NextConfig = {
             },
           ]
         : []),
+      ...aliasIndexingRules(environment.mode),
     ];
   },
   images: {
+    // Required from Next.js 16. 50 is used only by the shaded hero photo.
+    qualities: [50, 75],
     remotePatterns: [
       {
         protocol: "https",

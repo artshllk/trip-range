@@ -51,6 +51,82 @@
         "quote": "90-minute ticket: Paper: 50 Kč | App: 46 Kč | SMS: 55 Kč",
         "language": "en"
       }
+    },
+    {
+      "airport": "CIA",
+      "city": "ROM",
+      "route": "ATAC bus 520 to Cinecittà, then metro line A, on one B.I.T. (100 minutes)",
+      "currency": "EUR",
+      "oneWayAdult": 150,
+      "effectiveFrom": "2026-11-25",
+      "reviewBy": "2027-02-28",
+      "source": {
+        "publisher": "ATAC",
+        "title": "BIT: price and where to use it",
+        "url": "https://www.atac.roma.it/en/tickets-and-passes/bit",
+        "retrievedAt": "2026-11-25",
+        "quote": "on the bus lines 520 and 720 connecting Rome to Ciampino Airport",
+        "language": "en",
+        "manualCheck": {
+          "checkedOn": "2026-11-25",
+          "note": "atac.roma.it serves a bot challenge to automated clients; the page was read through a separate fetch on 25 November 2026, which returned the price \"€ 1.50\", validity \"100 minutes\" and this sentence"
+        }
+      },
+      "supportingSources": [
+        {
+          "publisher": "Aeroporti di Roma",
+          "title": "Ciampino: bus connections",
+          "url": "https://www.adr.it/web/aeroporti-di-roma-en/pax-cia-bus",
+          "retrievedAt": "2026-11-25",
+          "quote": "Circular line number 520 connects the airport to Roma Cinecittà and Subaugusta .",
+          "language": "en"
+        },
+        {
+          "publisher": "Regione Lazio",
+          "title": "Sistema tariffario Metrebus, tariffa 41/8/B",
+          "url": "https://regione.lazio.it/sites/default/files/documentazione/2026/Allegato-6-Sistema-Tariffario-agg-10-08-2026.pdf",
+          "retrievedAt": "2026-11-25",
+          "quote": "Corsa semplice B.I.T. (Biglietto Integrato a Tempo) € 1,50",
+          "language": "it"
+        },
+        {
+          "publisher": "Regione Lazio",
+          "title": "Sistema tariffario Metrebus: B.I.T.",
+          "url": "https://regione.lazio.it/sites/default/files/documentazione/2026/Allegato-6-Sistema-Tariffario-agg-10-08-2026.pdf",
+          "retrievedAt": "2026-11-25",
+          "quote": "Consente l’utilizzo dei mezzi Trenitalia, ATAC e COTRAL, con esclusione dei collegamenti speciali. Sui mezzi Trenitalia e sulle linee “A” - “B” - “B1” - “C” della metropolitana di Roma è ammessa l’effettuazione di un solo viaggio.",
+          "language": "it"
+        }
+      ],
+      "note": "One B.I.T. covers the bus and one metro journey within 100 minutes."
+    },
+    {
+      "airport": "FCO",
+      "city": "ROM",
+      "route": "Regional train FL1, Fiumicino Aeroporto – Rome (2nd class)",
+      "currency": "EUR",
+      "oneWayAdult": 800,
+      "effectiveFrom": "2026-11-25",
+      "reviewBy": "2027-02-28",
+      "source": {
+        "publisher": "Regione Lazio",
+        "title": "Sistema tariffario Metrebus, tariffa 1/TER Fiumicino Aeroporto, serie C",
+        "url": "https://regione.lazio.it/sites/default/files/documentazione/2026/Allegato-6-Sistema-Tariffario-agg-10-08-2026.pdf",
+        "retrievedAt": "2026-11-25",
+        "quote": "Biglietto di corsa singola per viaggi in 2^ classe sui treni regionali da qualsiasi stazione compresa nella Zona Anello a Fiumicino Aeroporto (compresa la fermata di Parco Leonardo) o vv. € 8,00",
+        "language": "it"
+      },
+      "supportingSources": [
+        {
+          "publisher": "Cotral",
+          "title": "All travel titles",
+          "url": "https://cotralspa.it/en/all-travel-titles/",
+          "retrievedAt": "2026-11-25",
+          "quote": "Special connections are excluded: Cotral (Roma Tiburtina/Termini-Fiumicino Airport)",
+          "language": "en"
+        }
+      ],
+      "note": "This is the lowest fare any operator publishes for the airport. Cotral's daytime airport bus fare is not on its fares page, and may be lower, so this can overstate the transfer."
     }
   ]
 }

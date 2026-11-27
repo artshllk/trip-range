@@ -65,6 +65,33 @@ test("one cheapest eligible return per departure, with a seven-day provider time
     [["MIL", 9500, 1, "BGY"]],
   );
 });
+test("a fare departing today is never offered; tomorrow is the first eligible day", () => {
+  const base: MonthFare = {
+    destination: "MIL",
+    airport: "MXP",
+    departure: "2026-12-10",
+    returning: "2026-12-12",
+    observedAt: "2026-12-09T12:00:00Z",
+    partyCents: 10000,
+  };
+  const pick = (departure: string) =>
+    monthDestinations(
+      [{ ...base, departure, returning: addTwoDays(departure) }],
+      "2026-12",
+      "2026-12-10",
+      Date.parse("2026-12-10T08:00:00Z"),
+      600,
+    ).length;
+  assert.equal(pick("2026-12-09"), 0);
+  assert.equal(pick("2026-12-10"), 0);
+  assert.equal(pick("2026-12-11"), 1);
+});
+function addTwoDays(date: string) {
+  const d = new Date(date + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() + 2);
+  return d.toISOString().slice(0, 10);
+}
+
 test("the launch screen reproduces all three audited months at the measurement clock and expires", () => {
   const cutoff = Date.parse(screen.capturedAt);
   for (const [month, count, multiple] of [

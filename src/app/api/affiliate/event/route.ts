@@ -13,7 +13,7 @@ const headers = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 export async function POST(request: Request) {
   if (!validFlightAffiliateRequest(request))
     return new Response(null, { status: 400, headers });
-  if (!(await allowOperation("affiliate")))
+  if (!(await allowOperation("affiliate-view")))
     return new Response(null, { status: 429, headers: rateLimitHeaders });
   try {
     const event = readAffiliateEvent(await boundedJson(request, 512));

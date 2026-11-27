@@ -78,7 +78,9 @@ export function HeroMedia({
       remove();
     };
   }, [video]);
-  const common = { alt: "", fill: true, sizes: "100vw" } as const;
+  // The photo sits under a dark shade, so quality 50 is visually the same as 75
+  // at about two-thirds of the bytes; it is the page's LCP element.
+  const common = { alt: "", fill: true, sizes: "100vw", quality: 50 } as const;
   const { props: desktop } = getImageProps({ ...common, src: poster });
   const mobile = mobilePoster
     ? getImageProps({ ...common, src: mobilePoster }).props

@@ -64,6 +64,7 @@ export function HomeInspiration({
                     fallbackAlt={t.photo}
                     fill
                     loading="lazy"
+                    fetchPriority="low"
                     sizes="(min-width: 1240px) 380px, (min-width: 720px) 30vw, 90vw"
                   />
                   <span className="inspiration-photo-shade" />

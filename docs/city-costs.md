@@ -41,6 +41,12 @@ Percentage taxes are not subtracted: the room figure is solved for them (`n·R·
 
 `airport`, `city`, `route` (the route counted, named for the traveller), `currency`, `oneWayAdult` (minor units), `effectiveFrom`, `reviewBy`, `source` as above. The planner counts it **both ways for two**. Owner decision, 24 November 2026: no further transfer records are being researched. An airport without a record shows the transfer as **not counted**, alongside city travel, rather than as an unknown cost. v1 is the airport transfer only: the lowest-fare public route from the arrival airport to the city centre, with the route named. City travel is not counted and is shown as such.
 
+## Official sight prices
+
+`content/city-costs/attractions.json` holds official sight prices (Rome only, owner decision of 25 November 2026; not to be extended to other cities yet). Each record has the official fact that justifies listing it (`selection`, e.g. ministry visitor figures), the full adult `ticket` price, and `opening` data: last entry, closed dates, free first Sunday. The card shows these prices for two as optional, never subtracted, with any closure or free day that falls inside the chosen stay. Code: `src/domain/attractions.ts`.
+
+A transfer record may carry `supportingSources` (for example the airport operator's route page) and a `note` shown beside the fare. Rome's Fiumicino fare is the lowest any operator publishes (FL1, €8); the note says Cotral's unpublished daytime bus fare may be lower. A source that blocks automated reads carries a dated `manualCheck`, as Ciampino's ATAC page does.
+
 ## Rules for adding a record
 
 1. **Official sources only:** the municipality, the tax authority or regional law for city tax; the transport operator for fares. No blogs, no booking sites, no aggregators.

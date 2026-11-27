@@ -35,6 +35,19 @@ export default async function Page(props: Props) {
   return (
     <main id="main" className="shell section legal-page">
       <h1>{copy.title}</h1>
+      {copy.effectiveDate && (
+        <p className="small muted">
+          Effective from{" "}
+          <time dateTime={copy.effectiveDate}>
+            {new Intl.DateTimeFormat("en-GB", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+              timeZone: "UTC",
+            }).format(new Date(copy.effectiveDate + "T00:00:00Z"))}
+          </time>
+        </p>
+      )}
       {copy.paragraphs.map((p) => (
         <p key={p}>{p}</p>
       ))}
@@ -64,9 +77,7 @@ export default async function Page(props: Props) {
             <br />
             <a href="mailto:hello@trip-range.com">hello@trip-range.com</a>
           </address>
-          <p>
-            Reviewer: Art Shllaku (owner).
-          </p>
+          <p>Reviewer: Art Shllaku (owner).</p>
         </section>
       )}
       <Link className="btn btn-dark" href={localePath(locale, `/plan`)}>

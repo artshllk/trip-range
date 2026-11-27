@@ -9,6 +9,7 @@ const components = [
   "affiliate",
   "ai",
   "store",
+  "limiter",
 ] as const;
 const operations = [
   "cost-profile",
@@ -31,6 +32,7 @@ const operations = [
   "fare-store-prune",
   "fare-warm",
   "affiliate-event",
+  "client-limit",
 ] as const;
 const statuses = [
   "reviewed-profile",
@@ -62,6 +64,12 @@ const statuses = [
   "recorded",
   "failed",
   "timeout",
+  "refused",
+  "fail-open",
+  "budget-exceeded",
+  "no-client-address",
+  "no-secret",
+  "no-database",
 ] as const;
 export type DiagnosticEvent = {
   level: Exclude<LogLevel, "off">;

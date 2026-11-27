@@ -12,10 +12,12 @@ import type { RoomEvidence } from "../../domain/room-evidence";
 import { roomEuros } from "../../domain/room-evidence";
 import type { BudgetLeft } from "../../domain/budget-left";
 import { BudgetLeftPanel } from "./BudgetLeftPanel";
+import type { StayAttraction } from "../../domain/attractions";
 
 export function MonthDestinationCard({
   originCode,
   budgetLeftByDeparture,
+  attractionsByDeparture,
   city,
   country,
   options,
@@ -27,6 +29,8 @@ export function MonthDestinationCard({
   originCode: string;
   /** What is left of the budget for each departure option, computed on the server. */
   budgetLeftByDeparture: Record<string, BudgetLeft>;
+  /** Official sight prices for the stay, computed on the server. */
+  attractionsByDeparture?: Record<string, StayAttraction[]>;
   city: string;
   country: string;
   options: MonthFare[];
@@ -78,7 +82,12 @@ export function MonthDestinationCard({
         }}
         separateCostsNote={false}
       >
-        {left && <BudgetLeftPanel result={left} />}
+        {left && (
+          <BudgetLeftPanel
+            result={left}
+            attractions={attractionsByDeparture?.[fare.departure]}
+          />
+        )}
       </TripCostCard>
       <MonthFlightCheck
         route={{

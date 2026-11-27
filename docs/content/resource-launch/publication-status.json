@@ -1,16 +1,7 @@
 {
   "urlContract": {
-    "indexableLaunchPaths": [
-      "/",
-      "/destinations",
-      "/destinations/vienna",
-      "/destinations/london",
-      "/destinations/paris",
-      "/destinations/istanbul",
-      "/destinations/barcelona",
-      "/methodology",
-      "/about"
-    ]
+    "indexableLaunchPaths": ["/", "/methodology", "/about"],
+    "indexableLaunchPathsNote": "Owner decision, 25 November 2026 (docs/seo/indexing-gate.md): gate G1–G4; /destinations and the five guides are noindex and outside the sitemap."
   },
   "additionalAcceptedPaths": [
     "/data",

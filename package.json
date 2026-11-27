@@ -22,6 +22,7 @@
     "research:markets": "tsc -p tsconfig.seo.json && node --conditions=react-server .seo-build/scripts/research-markets.js",
     "validate:seo-candidates": "tsc -p tsconfig.seo.json && node --conditions=react-server .seo-build/scripts/validate-seo-candidates.js",
     "check:cost-profiles": "tsc -p tsconfig.seo.json && node --conditions=react-server .seo-build/scripts/check-cost-profiles.js",
+    "print:header-check": "tsc -p tsconfig.seo.json && node --conditions=react-server .seo-build/scripts/print-header-check.js",
     "check:rate-limit": "tsc -p tsconfig.seo.json && node --conditions=react-server .seo-build/scripts/check-rate-limit.js",
     "check:history-secrets": "node scripts/check-history-secrets.mjs",
     "check:destination-media": "tsc -p tsconfig.media.json && node --conditions=react-server .media-build/scripts/check-destination-media.js",

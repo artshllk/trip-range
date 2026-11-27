@@ -1,4 +1,5 @@
 import "server-only";
+import { sharedReadCache } from "./shared-read-cache";
 import { refreshReceipt } from "./fare-refresh-store";
 import { originAirports } from "../domain/fare-refresh";
 import { neon } from "@neondatabase/serverless";
@@ -190,7 +191,7 @@ export async function pruneFareStore(): Promise<boolean> {
  * price, for one collected origin. An itinerary whose stated departure airport is
  * outside the origin's market (originAirports) is a conflicting origin and excluded.
  */
-export async function monthFares(
+async function loadMonthFares(
   origin: string,
   start: string,
   endExclusive: string,
@@ -247,12 +248,13 @@ export async function monthFares(
   }
 }
 
-export async function monthRefreshHealth(origin: string, months: string[]) {
+async function loadMonthRefreshHealth(origin: string, months: string[]) {
   const sql = client(4000);
   type Health =
     | Awaited<ReturnType<typeof refreshReceipt>>["health"]
     | "unknown";
   const result: Record<string, Health> = {};
+  let failed = !sql;
   await Promise.all(
     months.map(async (month) => {
       try {
@@ -260,9 +262,56 @@ export async function monthRefreshHealth(origin: string, months: string[]) {
           ? (await refreshReceipt(sql, origin, month)).health
           : "unknown";
       } catch {
+        failed = true;
         result[month] = "unknown";
       }
     }),
   );
-  return result;
+  return { health: result, failed };
+}
+
+/**
+ * Shared reads for /plan, cached for five minutes per origin and date window
+ * (abuse controls, option A). Fares change twice a day and are up to seven days
+ * old, so five minutes of staleness costs nothing, and database work stays
+ * bounded by the number of origins and months, not by traffic.
+ */
+const PLAN_READ_TTL_MS = 5 * 60_000;
+const fareReads = sharedReadCache<
+  NonNullable<Awaited<ReturnType<typeof loadMonthFares>>>
+>({ ttlMs: PLAN_READ_TTL_MS, maxEntries: 200 });
+type MonthHealth = Awaited<ReturnType<typeof loadMonthRefreshHealth>>["health"];
+const healthReads = sharedReadCache<MonthHealth>({
+  ttlMs: PLAN_READ_TTL_MS,
+  maxEntries: 200,
+});
+
+export function monthFares(
+  origin: string,
+  start: string,
+  endExclusive: string,
+) {
+  return fareReads(`${origin}|${start}|${endExclusive}`, () =>
+    loadMonthFares(origin, start, endExclusive),
+  );
+}
+export async function monthRefreshHealth(
+  origin: string,
+  months: string[],
+): Promise<MonthHealth> {
+  // A failed read is shown (every month "unknown") but never cached.
+  let uncached: MonthHealth | undefined;
+  const cached = await healthReads(
+    `${origin}|${months.join(",")}`,
+    async () => {
+      const r = await loadMonthRefreshHealth(origin, months);
+      uncached = r.health;
+      return r.failed ? undefined : r.health;
+    },
+  );
+  return (
+    cached ??
+    uncached ??
+    Object.fromEntries(months.map((m) => [m, "unknown" as const]))
+  );
 }

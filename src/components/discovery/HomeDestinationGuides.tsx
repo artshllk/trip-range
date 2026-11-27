@@ -63,6 +63,7 @@ export function HomeDestinationGuides({
                     fallbackAlt={card.name}
                     fill
                     loading="lazy"
+                    fetchPriority="low"
                     sizes={
                       index === 0
                         ? "(max-width: 899px) calc(100vw - 32px), (max-width: 1279px) 48vw, 616px"

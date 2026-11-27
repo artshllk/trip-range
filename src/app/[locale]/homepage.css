@@ -1181,10 +1181,13 @@ body:has(.home) .header-preferences .nav-plan {
   .home .discovery-hero {
     background: #fff;
   }
+  /* The photo and its shade cover the whole hero on phones. Stopping them 130px
+     short left the form's lower fields straddling the photo's edge (white labels
+     on white) once the form grew to two fields and a button. */
   .home .hero-media,
   .home .hero-shade {
     height: auto;
-    bottom: 130px;
+    bottom: 0;
   }
 }
 

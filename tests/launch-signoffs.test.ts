@@ -12,6 +12,8 @@ import {
 import { validateEnvironment } from "../src/config/environment";
 
 const now = new Date("2026-11-20T13:00:00Z");
+/** When the committed records were last reviewed (25 November 2026). */
+const reviewed = new Date("2026-11-25T16:00:00Z");
 const complete = () => ({
   schemaVersion: 1,
   scope: "tirana-english-month-flexible-v1",
@@ -75,8 +77,13 @@ test("sign-off records fail closed rather than accepting unchecked or missing ga
 });
 
 test("checked-in evidence clears completed checks only and expires operational reviews", () => {
-  const blockers = signoffBlockers(launchSignoffs, now);
+  const blockers = signoffBlockers(launchSignoffs, reviewed);
   assert.deepEqual(blockers, [
+    "launch-scope-unverified",
+    "production-release-unverified",
+    "production-runtime-unverified",
+    "shared-endpoint-limits-unverified",
+    "production-host-tls-unverified",
     "domain-indexing-unverified",
     "fare-coverage-streak-unverified",
     "legal-review-pending",

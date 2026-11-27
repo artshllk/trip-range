@@ -11,7 +11,11 @@ import {
   deploymentIndexingHeaders,
   securityHeaders,
 } from "../src/config/security";
-import { createRequestLimiter, limits } from "../src/server/rate-limit";
+import {
+  closedWithoutRedis,
+  createRequestLimiter,
+  limits,
+} from "../src/server/rate-limit";
 import { readAiBody } from "../src/services/ai/request-guard";
 import { handleFlightAffiliate } from "../src/services/affiliate-handoff";
 import { createOpenAiIntent } from "../src/providers/server/ai/openai";
@@ -93,7 +97,7 @@ test("incomplete, conflicting and malformed Netlify signals fail closed", () => 
   assert.equal(deploymentMode({}), "local");
   assert.equal(deploymentMode({ CI: "true" }), "test");
 });
-test("Netlify production requires Redis, credentialed previews do too; no local fallback", async () => {
+test("Netlify production requires Redis, credentialed previews do too; without it requests are counted per instance", async () => {
   for (const context of ["production", "deploy-preview", "branch-deploy"])
     for (const signals of [build(context), runtime(context)]) {
       const keyless = validateEnvironment(signals);
@@ -109,12 +113,11 @@ test("Netlify production requires Redis, credentialed previews do too; no local 
         const config = validateEnvironment({ ...signals, [key]: credential });
         assert.equal(config.limiter, "required-but-unavailable");
         const limiter = createRequestLimiter(config, async () => {
-          assert.fail(
-            "Missing Redis must never call a provider or choose a local limiter",
-          );
+          assert.fail("Missing Redis must never call out");
         });
+        // Readiness reports it; visitors are counted in memory, not refused.
         for (const op of Object.keys(limits) as (keyof typeof limits)[])
-          assert.equal(await limiter.allow(op), false);
+          assert.equal(await limiter.allow(op), !closedWithoutRedis.has(op));
       }
       const configured = validateEnvironment({
         ...signals,
@@ -133,8 +136,9 @@ test("Netlify production requires Redis, credentialed previews do too; no local 
         commands.push(JSON.parse(String(init?.body)));
         return new Response(null, { status: 503 });
       });
-      assert.equal(await limiter.allow("search"), false);
-      assert.equal(await limiter.allow("search"), false);
+      // Redis answering 503 is an outage, not a refusal: counted in memory.
+      assert.equal(await limiter.allow("search"), true);
+      assert.equal(await limiter.allow("search"), true);
       assert.equal(commands.length, 2);
       assert.equal(
         commands[0][3],
@@ -155,7 +159,7 @@ test("Netlify deployed fixtures remain forbidden and CSP keeps its existing rest
   assert.ok(csp.includes("frame-ancestors 'none'"));
   assert.ok(csp.includes("form-action 'self'"));
 });
-test("immutable Netlify build identity rejects runtime drift and keeps every protected operation closed", async () => {
+test("immutable Netlify build identity rejects runtime drift; operations are counted per instance, never sent out", async () => {
   for (const built of ["production", "deploy-preview", "branch-deploy"])
     for (const current of [
       "production",
@@ -189,10 +193,13 @@ test("immutable Netlify build identity rejects runtime drift and keeps every pro
         calls++;
         throw Error("No Redis configured");
       });
+      // A keyless matching preview counts locally by policy; every other case
+      // is the no-Redis fallback, which still refuses paid AI calls.
+      const local = env.limiter === "local";
       for (const op of Object.keys(limits) as (keyof typeof limits)[])
         assert.equal(
           await limiter.allow(op),
-          matching && built !== "production",
+          local || !closedWithoutRedis.has(op),
         );
       assert.equal(calls, 0);
     }
@@ -279,8 +286,9 @@ test("deployed fixture indicators disable provider capabilities and credentials 
           "Forbidden fixture configuration must not even contact Redis",
         );
       });
+      // Capabilities and credentials are off, so counting locally spends nothing.
       for (const op of Object.keys(limits) as (keyof typeof limits)[])
-        assert.equal(await limiter.allow(op), false);
+        assert.equal(await limiter.allow(op), !closedWithoutRedis.has(op));
       assert.equal(
         (
           await createOpenAiIntent(env.ai, async () => {
@@ -469,4 +477,30 @@ test("Netlify HTTPS request origins must match Host; forwarded headers cannot gr
   );
   assert.equal(response.status, 400);
   assert.equal(calls, 0);
+});
+
+test("production marks every non-canonical host noindex; previews and local builds add no host rule", async () => {
+  const { aliasIndexingRules, canonicalHost } =
+    await import("../src/config/security");
+  const { siteUrl } = await import("../src/seo/registry");
+  assert.equal(canonicalHost, new URL(siteUrl).host);
+  const [rule, ...rest] = aliasIndexingRules("production");
+  assert.equal(rest.length, 0);
+  assert.equal(rule.source, "/:path*");
+  assert.deepEqual(rule.headers, [
+    { key: "X-Robots-Tag", value: "noindex, nofollow" },
+  ]);
+  // Next matches host values as an anchored pattern: only the canonical host is exempt.
+  const exempt = new RegExp(`^${rule.missing[0].value}$`);
+  assert.equal(rule.missing[0].type, "host");
+  assert.ok(exempt.test("www.trip-range.com"));
+  for (const host of [
+    "goeksplo-netlify-free.netlify.app",
+    "6b0821de5f0f967c225cb89e--goeksplo-netlify-free.netlify.app",
+    "trip-range.com",
+    "wwwXtrip-range.com",
+  ])
+    assert.ok(!exempt.test(host), host);
+  for (const mode of ["preview", "local", "test", "invalid"] as const)
+    assert.deepEqual(aliasIndexingRules(mode), []);
 });

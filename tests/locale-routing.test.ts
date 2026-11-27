@@ -45,25 +45,26 @@ test("public paths split into locale and unprefixed path", () => {
   assert.equal(translatedPath("/from/tirana", "sq"), "/sq");
 });
 
-test("the proxy serves English unprefixed and leaves other locales alone", () => {
-  const rewrite = (path: string) =>
-    proxy(new NextRequest(`https://www.trip-range.com${path}`))?.headers.get(
-      "x-middleware-rewrite",
-    );
-  assert.equal(rewrite("/"), "https://www.trip-range.com/en");
+test("the proxy serves English unprefixed and leaves other locales alone", async () => {
+  const rewrite = async (path: string) =>
+    (
+      await proxy(new NextRequest(`https://www.trip-range.com${path}`))
+    )?.headers.get("x-middleware-rewrite");
+  assert.equal(await rewrite("/"), "https://www.trip-range.com/en");
   assert.equal(
-    rewrite("/destinations/vienna?origin=tirana"),
+    await rewrite("/destinations/vienna?origin=tirana"),
     "https://www.trip-range.com/en/destinations/vienna?origin=tirana",
   );
   assert.equal(
-    rewrite("/from/tirana"),
+    await rewrite("/from/tirana"),
     "https://www.trip-range.com/en/from/tirana",
   );
   assert.equal(
-    proxy(new NextRequest("https://www.trip-range.com/sq/about")),
+    await proxy(new NextRequest("https://www.trip-range.com/sq/about")),
     undefined,
   );
-  // Assets, metadata files, API routes and Next internals never reach the proxy.
+  // Assets, metadata files and Next internals never reach the proxy. API routes
+  // reach it only through their own matcher, for the per-client limiter.
   const matcher = new RegExp(`^${config.matcher[1]}$`);
   for (const path of ["/", "/about", "/plan/results", "/destinations/vienna"])
     assert.ok(matcher.test(path), path);
@@ -79,14 +80,24 @@ test("the proxy serves English unprefixed and leaves other locales alone", () =>
     assert.ok(!matcher.test(path), path);
 });
 
-test("old English URLs redirect once, preserving the query and request method", () => {
+test("API routes reach the proxy only for the limiter, never the locale rewrite", async () => {
+  const api = new RegExp(`^${config.matcher[2].replace("/:path*", "/.*")}$`);
+  assert.ok(api.test("/api/health"));
+  assert.ok(!api.test("/plan"));
+  assert.equal(
+    await proxy(new NextRequest("https://www.trip-range.com/api/health")),
+    undefined,
+  );
+});
+
+test("old English URLs redirect once, preserving the query and request method", async () => {
   for (const [path, target] of [
     ["/en", "/"],
     ["/en/plan?month=2026-12&ceiling=600", "/plan?month=2026-12&ceiling=600"],
     ["/en/destinations/vienna", "/destinations/vienna"],
     ["/en/icon.svg", "/icon.svg"],
   ]) {
-    const response = proxy(
+    const response = await proxy(
       new NextRequest(`https://www.trip-range.com${path}`, { method: "POST" }),
     );
     assert.equal(response?.status, 308);
@@ -98,9 +109,9 @@ test("old English URLs redirect once, preserving the query and request method", 
   }
   assert.equal(config.matcher[0], "/en/:path*");
   assert.equal(
-    proxy(new NextRequest("https://www.trip-range.com/english"))?.headers.get(
-      "location",
-    ),
+    (
+      await proxy(new NextRequest("https://www.trip-range.com/english"))
+    )?.headers.get("location"),
     null,
   );
 });

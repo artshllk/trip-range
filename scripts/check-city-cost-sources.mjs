@@ -194,6 +194,20 @@ function load(url) {
   return cache.get(url);
 }
 
+/** Every source-like object ({ url, quote, retrievedAt }) anywhere in a record file. */
+function sourcesIn(value, path = "", out = []) {
+  if (Array.isArray(value))
+    value.forEach((v, i) => sourcesIn(v, `${path}[${i}]`, out));
+  else if (value && typeof value === "object") {
+    if (typeof value.url === "string" && typeof value.quote === "string")
+      out.push([path, value]);
+    for (const [k, v] of Object.entries(value))
+      sourcesIn(v, path ? `${path}.${k}` : k, out);
+  }
+  return out;
+}
+const attractionFiles = ["content/city-costs/attractions.json"];
+
 let failed = 0;
 let unverifiable = 0;
 const MANUAL_CHECK_DAYS = 60;
@@ -242,6 +256,26 @@ for (const [kind, file, key] of files) {
       }
     }
   }
+}
+for (const file of attractionFiles) {
+  for (const record of JSON.parse(readFileSync(file, "utf8")).records)
+    for (const [path, s] of sourcesIn(record)) {
+      if (only && !only.has(record.city)) continue;
+      const label = `attraction ${record.city} ${record.id} ${path}`;
+      try {
+        const p = await load(s.url);
+        if (p.status !== 200)
+          cannotVerify(label, s, `HTTP ${p.status} ${s.url}`);
+        else if (p.manual)
+          console.log(
+            `MANUAL ${label}: ${p.manual} source, check the quote by hand: ${s.url}`,
+          );
+        else if (p.text.includes(fold(s.quote))) console.log(`ok   ${label}`);
+        else cannotVerify(label, s, `quote not found at ${s.url}`);
+      } catch (e) {
+        cannotVerify(label, s, e.message);
+      }
+    }
 }
 if (unverifiable)
   console.log(

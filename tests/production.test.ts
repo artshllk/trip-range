@@ -127,14 +127,20 @@ test("distributed limiter uses atomic expiring counters and header-only credenti
   assert.equal(await l.allow("ai-intent"), true);
 });
 for (const status of [401, 429, 500])
-  test(`distributed limiter fails closed on HTTP ${status}`, async () => {
+  test(`distributed limiter falls back to per-instance counts on HTTP ${status}`, async () => {
+    // A Redis failure never refuses on its own: the same limit is counted in memory.
     const l = redisLimiter(
       { url: "https://example.upstash.io", token: privateValue },
       async () => new Response(null, { status }),
+      1200,
+      { namespace: "goeksplo:v2:local", windowMs: 60000 },
+      localLimiter(() => 0),
     );
+    for (let i = 0; i < limits.affiliate; i++)
+      assert.equal(await l.allow("affiliate"), true);
     assert.equal(await l.allow("affiliate"), false);
   });
-test("distributed limiter rejects malformed and oversized responses", async () => {
+test("distributed limiter treats malformed and oversized responses as unavailable, not as refusal", async () => {
   for (const body of [
     '{"result":"1"}',
     "invalid",
@@ -145,10 +151,17 @@ test("distributed limiter rejects malformed and oversized responses", async () =
         { url: "https://example.upstash.io", token: privateValue },
         async () => new Response(body),
       ).allow("affiliate"),
-      false,
+      true,
     );
 });
-test("distributed limiter bounds hung requests and slow response bodies", async () => {
+test("only a real over-quota answer from Redis refuses", async () => {
+  const l = redisLimiter(
+    { url: "https://example.upstash.io", token: privateValue },
+    async () => Response.json({ result: 0 }),
+  );
+  assert.equal(await l.allow("affiliate"), false);
+});
+test("distributed limiter bounds hung requests and slow response bodies, then counts locally", async () => {
   for (const fetcher of [
     async () => new Promise<Response>(() => {}),
     async () => new Response(new ReadableStream({ start() {} })),
@@ -160,7 +173,7 @@ test("distributed limiter bounds hung requests and slow response bodies", async 
         fetcher,
         10,
       ).allow("affiliate"),
-      false,
+      true,
     );
     assert.ok(Date.now() - start < 1000);
   }

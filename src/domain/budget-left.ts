@@ -99,13 +99,17 @@ export type AirportTransferRecord = {
   effectiveFrom: string;
   reviewBy: string;
   source: RecordSource;
+  /** Further sources the route or fare depends on, each quoted and checked. */
+  supportingSources?: RecordSource[];
+  /** Shown beside the fare, e.g. when it may overstate the lowest fare. */
+  note?: string;
 };
 
 const iso = /^\d{4}-\d{2}-\d{2}$/;
 const iata = /^[A-Z]{3}$/;
 const validDate = (s: unknown) =>
   typeof s === "string" && iso.test(s) && Number.isFinite(Date.parse(s));
-const validSource = (s: RecordSource | undefined) =>
+export const validSource = (s: RecordSource | undefined) =>
   !!s &&
   typeof s.publisher === "string" &&
   s.publisher.trim().length > 1 &&
@@ -200,7 +204,12 @@ export function validAirportTransfer(r: AirportTransferRecord): boolean {
     r.oneWayAdult > 0 &&
     validDate(r.effectiveFrom) &&
     validDate(r.reviewBy) &&
-    validSource(r.source)
+    validSource(r.source) &&
+    (r.supportingSources === undefined ||
+      (Array.isArray(r.supportingSources) &&
+        r.supportingSources.every(validSource))) &&
+    (r.note === undefined ||
+      (typeof r.note === "string" && r.note.trim().length > 10))
   );
 }
 
@@ -223,6 +232,8 @@ export type SourceRef = {
   effectiveFrom: string;
   /** When we last read the source (ISO date). */
   checkedAt: string;
+  /** Set when the source blocks automated checks and was read by hand on this date. */
+  manualCheckedOn?: string;
   /** Set when the amount was converted from another currency. */
   fx?: { from: EvidenceCurrency; sourceDate: string };
 };
@@ -230,6 +241,8 @@ export type KnownCost = {
   id: "flights" | "reserve" | "city-tax" | "airport-transfer";
   cents: number;
   detail: string;
+  /** A caveat shown beside the amount. */
+  note?: string;
   source?: SourceRef;
   observedAt?: string;
 };
@@ -319,6 +332,9 @@ const ref = (
   url: r.source.url,
   effectiveFrom: r.effectiveFrom,
   checkedAt: r.source.retrievedAt,
+  ...(r.source.manualCheck
+    ? { manualCheckedOn: r.source.manualCheck.checkedOn }
+    : {}),
   ...(fx ? { fx } : {}),
 });
 
@@ -468,6 +484,7 @@ export function budgetLeft(input: BudgetInput): BudgetLeft {
         id: "airport-transfer",
         cents: euros.cents,
         detail: `Airport transfer, both ways for two: ${t.route}`,
+        ...(t.note ? { note: t.note } : {}),
         source: ref(t, euros.fx),
       });
   }

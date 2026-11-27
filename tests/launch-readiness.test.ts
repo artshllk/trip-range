@@ -16,6 +16,7 @@ import {
 } from "../src/config/readiness";
 import { deploymentIndexingHeaders } from "../src/config/security";
 import {
+  closedWithoutRedis,
   createRequestLimiter,
   limits,
   redisLimiter,
@@ -108,7 +109,7 @@ test("local dev, local production and CI remain local; deployed markers cannot b
     "required-but-unavailable",
   );
 });
-test("production missing/malformed Redis denies every protected operation without local or external fallback", async () => {
+test("production missing/malformed Redis falls back to per-instance counts without any external call", async () => {
   for (const change of [
     { RATE_LIMIT_REDIS_REST_URL: "", RATE_LIMIT_REDIS_REST_TOKEN: "" },
     { RATE_LIMIT_REDIS_REST_URL: "http://fixture.upstash.io" },
@@ -123,9 +124,21 @@ test("production missing/malformed Redis denies every protected operation withou
       calls++;
       throw Error(secret);
     });
-    for (const operation of Object.keys(limits) as (keyof typeof limits)[])
+    // Readiness still reports the problem; visitors are not refused for it.
+    for (const operation of Object.keys(limits) as (keyof typeof limits)[]) {
+      // Paid AI calls stay refused without Redis; everything else is counted.
+      if (closedWithoutRedis.has(operation)) {
+        assert.equal(await limiter.allow(operation), false);
+        continue;
+      }
+      for (let i = 0; i < limits[operation]; i++)
+        assert.equal(await limiter.allow(operation), true);
       assert.equal(await limiter.allow(operation), false);
+    }
     assert.equal(calls, 0);
+    assert.ok(
+      configurationReadiness(env).blockers.includes("distributed-rate-limit"),
+    );
   }
 });
 test("keyless preview is bounded locally; any provider credential requires distributed protection", () => {
@@ -197,11 +210,12 @@ test("production distributed N/N+1/next-window behavior is shared and preview na
       10,
       { namespace: "attacker:shared", windowMs: 60000 },
     ).allow("search"),
-    false,
+    true,
   );
+  // An invalid namespace never reaches Redis; it is counted in memory instead.
   assert.equal(called, false);
 });
-test("distributed outage cannot fall back to local even across repeated calls", async () => {
+test("a distributed outage falls back to per-instance counts and keeps asking Redis", async () => {
   let calls = 0;
   const limiter = createRequestLimiter(
     validateEnvironment(configured),
@@ -210,9 +224,11 @@ test("distributed outage cannot fall back to local even across repeated calls", 
       return new Response(null, { status: 503 });
     },
   );
-  for (let i = 0; i < 3; i++)
-    assert.equal(await limiter.allow("search"), false);
-  assert.equal(calls, 3);
+  for (let i = 0; i < limits.search; i++)
+    assert.equal(await limiter.allow("search"), true);
+  assert.equal(await limiter.allow("search"), false);
+  // Redis is retried on every call, so recovery is immediate.
+  assert.equal(calls, limits.search + 1);
 });
 test("readiness requires flight, affiliate, fare store and Redis with AI off", () => {
   assert.deepEqual(configurationReadiness(validateEnvironment(configured)), {
@@ -272,7 +288,8 @@ test("configured runtime retains unresolved sign-offs while retiring superseded 
     false,
   );
   assert.ok(report.manual.includes("legal-review-pending"));
-  assert.equal(report.manual.includes("production-host-tls-unverified"), false);
+  // Host TLS must be re-verified on the launch deploy (records of 25 November).
+  assert.ok(report.manual.includes("production-host-tls-unverified"));
   assert.ok(report.manual.includes("fare-coverage-streak-unverified"));
   assert.ok(report.manual.includes("contact-mailbox-unverified"));
   const serialized = JSON.stringify(report);

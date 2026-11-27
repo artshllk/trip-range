@@ -113,19 +113,36 @@ async function matchedFares(
     where (${run}::text is null or a.run_id=${run}) and a.origin=${origin} and a.outcome='stored' and a.endpoint<>${refreshEndpoint}
       and (${excludedRun ?? null}::text is null or a.run_id<>${excludedRun ?? null})
       and a.attempted_at<=${at}::timestamptz and f.fetched_at<=${at}::timestamptz
+      -- Lower bound (26 November 2026): a sighting counts only if observed in the 7
+      -- days before the cutoff, and a fare is fetched after it is observed, so any
+      -- matching run started within those 7 days. 8 days leaves a day of margin for a
+      -- long run. Without it the scan grows with all history and timed out (>300 s).
+      and a.attempted_at>${at}::timestamptz - interval '8 days' and f.fetched_at>${at}::timestamptz - interval '8 days'
   ), obs as materialized (
     select o.*,owned.run_id from owned join fare_observations o on o.fetch_id=owned.id
     where o.origin=${origin} and o.currency='EUR' and o.travellers=1 and o.actual is distinct from false and (o.cabin is null or o.cabin='economy')
       and o.fetched_at<=${at}::timestamptz
       and o.departure_date >= (${month}||'-01')::date and o.departure_date < (${month}||'-01')::date + interval '1 month' and o.return_date=o.departure_date+2
+  ), matched as (
+    -- One pass instead of a self-join (26 November 2026). A group is one run's
+    -- fare for a destination, dates and price; it counts when it holds a dated
+    -- price with a known airport and a sighting in the 7 days before the cutoff.
+    -- Within a group the price is fixed, so the former order "cheapest, then most
+    -- recently seen, then first airport" picks the group's latest sighting and its
+    -- first airport. The self-join was planned as a nested loop over every
+    -- observation pair and did not finish in 300 s for London.
+    select run_id,destination,departure_date,return_date,price_minor,
+      min(destination_airport) filter (where endpoint='aviasales/v3/prices_for_dates' and destination_airport is not null
+        and (origin_airport is null or origin_airport=any(${airports}::text[]))) as airport,
+      max(fare_observed_at) filter (where endpoint='aviasales/v3/get_latest_prices'
+        and fare_observed_at between ${at}::timestamptz - interval '7 days' and ${at}::timestamptz
+        and (${observedSince ?? null}::timestamptz is null or fare_observed_at>=${observedSince ?? null}::timestamptz)) as seen
+    from obs group by run_id,destination,departure_date,return_date,price_minor
   )
-  select distinct on (i.destination,i.departure_date) i.destination,i.destination_airport as airport,i.departure_date::text as departure,i.return_date::text as returning,
-    i.price_minor*2 as party_cents,s.fare_observed_at as seen
-  from obs i join obs s using(run_id,destination,departure_date,return_date,price_minor)
-  where i.endpoint='aviasales/v3/prices_for_dates' and i.destination_airport is not null and (i.origin_airport is null or i.origin_airport=any(${airports}::text[]))
-    and s.endpoint='aviasales/v3/get_latest_prices' and s.fare_observed_at between ${at}::timestamptz - interval '7 days' and ${at}::timestamptz
-    and (${observedSince ?? null}::timestamptz is null or s.fare_observed_at>=${observedSince ?? null}::timestamptz)
-  order by i.destination,i.departure_date,i.price_minor,s.fare_observed_at desc,i.destination_airport`;
+  select distinct on (destination,departure_date) destination,airport,departure_date::text as departure,return_date::text as returning,
+    price_minor*2 as party_cents,seen
+  from matched where airport is not null and seen is not null
+  order by destination,departure_date,price_minor,seen desc,airport`;
   return rows.map((r) => ({
     destination: r.destination,
     airport: r.airport,

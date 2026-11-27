@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "colosseo",
+      "name": "Colosseum, Roman Forum and Palatine",
+      "selection": {
+        "fact": "The Parco archeologico del Colosseo was Italy's most-visited state cultural site in 2024, with 14,733,395 visitors.",
+        "source": {
+          "publisher": "Ministero della Cultura",
+          "title": "Musei: i dati 2024 dei luoghi della cultura statali (comunicato, 13 maggio 2025)",
+          "url": "https://cultura.gov.it/comunicato/27590",
+          "retrievedAt": "2026-11-25",
+          "quote": "confermano al vertice il Parco archeologico del Colosseo con 14.733.395 di visitatori",
+          "language": "it"
+        }
+      },
+      "ticket": {
+        "name": "24h ticket: Colosseum, Roman Forum and Palatine (full price)",
+        "currency": "EUR",
+        "adult": 1800,
+        "effectiveFrom": "2026-11-25",
+        "reviewBy": "2027-02-28",
+        "source": {
+          "publisher": "Parco archeologico del Colosseo",
+          "title": "24h Colosseo, Foro Romano e Palatino",
+          "url": "https://colosseo.it/biglietti/24h-colosseo-foro-romano-palatino/",
+          "retrievedAt": "2026-11-25",
+          "quote": "Intero € 18,00 Ridotto per cittadini europei dai 18 anni fino al giorno del compimento del 25esimo anno di età € 2,00",
+          "language": "it"
+        },
+        "supportingSources": [
+          {
+            "publisher": "Parco archeologico del Colosseo",
+            "title": "24h Colosseo, Foro Romano e Palatino: what the ticket includes",
+            "url": "https://colosseo.it/biglietti/24h-colosseo-foro-romano-palatino/",
+            "retrievedAt": "2026-11-25",
+            "quote": "1 ingresso all’area archeologica del Foro Romano-Palatino all’orario desiderato, nello stesso giorno oppure entro le 24 ore antecedenti o successive all’orario di prenotazione del Colosseo",
+            "language": "it"
+          }
+        ],
+        "unknown": "Any booking charge at the official online ticket office (ticketing.colosseo.it) is not stated on the price page."
+      },
+      "opening": {
+        "validFrom": "2026-10-25",
+        "validTo": "2027-02-28",
+        "lastEntry": "15:30",
+        "closes": "16:30",
+        "closedOn": ["2026-12-25", "2027-01-01"],
+        "freeFirstSunday": true,
+        "source": {
+          "publisher": "Parco archeologico del Colosseo",
+          "title": "Orari e biglietti",
+          "url": "https://colosseo.it/visita/orari-e-biglietti/",
+          "retrievedAt": "2026-11-25",
+          "quote": "dal 25 ottobre 2026 al 28 febbraio 2027 8:30 – 16:30 Ultimo ingresso alle 15:30 Il PArCo chiude alle 16:30 Chiuso: 25 dicembre 2026 1° gennaio 2027 Ingresso gratuito: prima domenica del mese",
+          "language": "it"
+        }
+      },
+      "city": "ROM"
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "selection": {
+        "fact": "The Pantheon was Italy's fourth most-visited state cultural site in 2024, with 4,086,947 visits.",
+        "source": {
+          "publisher": "Ministero della Cultura",
+          "title": "Musei: i dati 2024 dei luoghi della cultura statali (comunicato, 13 maggio 2025)",
+          "url": "https://cultura.gov.it/comunicato/27590",
+          "retrievedAt": "2026-11-25",
+          "quote": "arriva in classifica subito sotto il podio, al 4 posto, con 4.086.947 di ingressi",
+          "language": "it"
+        }
+      },
+      "ticket": {
+        "name": "Pantheon admission (full price)",
+        "currency": "EUR",
+        "adult": 700,
+        "effectiveFrom": "2026-07-01",
+        "reviewBy": "2027-02-28",
+        "source": {
+          "publisher": "Ministero della Cultura",
+          "title": "Pantheon e Basilica di Santa Maria ad Martyres",
+          "url": "https://cultura.gov.it/luogo/pantheon",
+          "retrievedAt": "2026-11-25",
+          "quote": "Prezzo del biglietto intero € 7,00 Prezzo del biglietto ridotto € 2,00",
+          "language": "it"
+        },
+        "supportingSources": [
+          {
+            "publisher": "Ministero della Cultura",
+            "title": "Pantheon: fee from 1 July 2026",
+            "url": "https://cultura.gov.it/luogo/pantheon",
+            "retrievedAt": "2026-11-25",
+            "quote": "effective July 1, 2026, the entrance fee for the Pantheon will increase from €5.00 to €7.00",
+            "language": "en"
+          }
+        ]
+      },
+      "opening": {
+        "validFrom": "2026-07-01",
+        "lastEntry": "18:30",
+        "closes": "19:00",
+        "closedOn": ["2026-12-25", "2027-01-01"],
+        "freeFirstSunday": true,
+        "source": {
+          "publisher": "Ministero della Cultura",
+          "title": "Pantheon: orario di visita",
+          "url": "https://cultura.gov.it/luogo/pantheon",
+          "retrievedAt": "2026-11-25",
+          "quote": "è aperto tutti i giorni dalle ore 9.00 alle ore 19.00, con ultimo ingresso alle ore 18.30",
+          "language": "it"
+        },
+        "supportingSources": [
+          {
+            "publisher": "Ministero della Cultura",
+            "title": "Pantheon: chiusure",
+            "url": "https://cultura.gov.it/luogo/pantheon",
+            "retrievedAt": "2026-11-25",
+            "quote": "Chiusura: 25 dicembre e 1 gennaio salvo aperture",
+            "language": "it"
+          },
+          {
+            "publisher": "Ministero della Cultura",
+            "title": "Pantheon: prima domenica del mese",
+            "url": "https://cultura.gov.it/luogo/pantheon",
+            "retrievedAt": "2026-11-25",
+            "quote": "In occasione della prima domenica del mese, i biglietti gratuiti si ritireranno direttamente presso le casse e i totem presenti in sede.",
+            "language": "it"
+          }
+        ]
+      },
+      "city": "ROM"
+    },
+    {
+      "id": "trevi",
+      "name": "Trevi Fountain (inner perimeter)",
+      "selection": {
+        "fact": "Roma Capitale's tourism office recorded 229,896 entries in the first month of ticketed access (2 February to 2 March 2026).",
+        "source": {
+          "publisher": "Turismo Roma (Roma Capitale)",
+          "title": "Fontana di Trevi: quasi 230mila ingressi solo nel primo mese",
+          "url": "https://www.turismoroma.it/it/notizie/fontana-di-trevi-quasi-230mila-ingressi-solo-nel-primo-mese",
+          "retrievedAt": "2026-11-25",
+          "quote": "229.896 ingressi registrati dal 2 febbraio al 2 marzo",
+          "language": "it"
+        }
+      },
+      "ticket": {
+        "name": "Trevi Fountain access ticket (non-residents)",
+        "currency": "EUR",
+        "adult": 200,
+        "effectiveFrom": "2026-02-02",
+        "reviewBy": "2027-02-28",
+        "source": {
+          "publisher": "Roma Capitale (fontanaditrevi.roma.it)",
+          "title": "Trevi Fountain: entrance tickets",
+          "url": "https://fontanaditrevi.roma.it/en",
+          "retrievedAt": "2026-11-25",
+          "quote": "The ticket costs €2 and grants access to the inner perimeter of the Trevi Fountain.",
+          "language": "en"
+        },
+        "supportingSources": [
+          {
+            "publisher": "Roma Capitale (fontanaditrevi.roma.it)",
+            "title": "Trevi Fountain: after visiting hours",
+            "url": "https://fontanaditrevi.roma.it/en",
+            "retrievedAt": "2026-11-25",
+            "quote": "After visiting hours The fountain remains visible for free.",
+            "language": "en"
+          }
+        ]
+      },
+      "opening": {
+        "validFrom": "2026-02-02",
+        "lastEntry": "21:00",
+        "closes": "22:00",
+        "closedOn": [],
+        "freeFirstSunday": false,
+        "source": {
+          "publisher": "Roma Capitale (fontanaditrevi.roma.it)",
+          "title": "Trevi Fountain: visiting hours",
+          "url": "https://fontanaditrevi.roma.it/en",
+          "retrievedAt": "2026-11-25",
+          "quote": "Monday: 11:30 - 22:00 Tuesday: 9:00 - 22:00 Wednesday: 9:00 - 22:00 Thursday: 9:00 - 22:00 Friday: 11:30 - 22:00 Saturday: 9:00 - 22:00 Sunday: 9:00 - 22:00 Last entry at every day 21:00",
+          "language": "en"
+        }
+      },
+      "city": "ROM"
+    }
+  ]
+}

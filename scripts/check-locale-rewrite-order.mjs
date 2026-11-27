@@ -21,7 +21,8 @@ for (const path of [
   "/from/tirana",
 ]) {
   const request = new NextRequest(`https://www.trip-range.com${path}`);
-  const response = proxy(request);
+  // The proxy is async (it runs the per-client limiter first).
+  const response = await proxy(request);
   const rewritten = new URL(response.headers.get("x-middleware-rewrite"));
   assert.equal(response.headers.get("location"), null);
   assert.equal(rewritten.search, request.nextUrl.search);
