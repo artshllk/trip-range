@@ -1,12 +1,12 @@
 name: Collector watchdog
-# Hourly, independent of the collector workflow: reads the fare store and raises an
+# Every three hours, independent of the collector workflow: reads the fare store and raises an
 # issue when any configured origin's current or next month has had no successful
 # completion for more than 20 hours. Primary trigger: an Upstash QStash schedule calls
-# workflow_dispatch at :07 (scripts/qstash-schedules.mjs); the cron below is a
+# workflow_dispatch at :07 every third hour (scripts/qstash-schedules.mjs); the cron below is a
 # fallback. Limits are documented in docs/collector/handover.md ("20-hour alert").
 on:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "7 */3 * * *"
   workflow_dispatch:
 permissions:
   contents: read

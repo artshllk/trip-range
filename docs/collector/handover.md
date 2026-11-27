@@ -37,7 +37,7 @@ Atomic storage inserts fetch header, raw payload, normalized observations and pa
 
 ## Scheduling and shared admission
 
-Regular sweeps 04:17 and 16:17 UTC (two a day since PR #48; previously six-hourly), catch-up check hourly at :47 UTC. Since 23 November 2026 these are triggered by QStash (see "External scheduler"); the same `17 4,16 * * *` and `47 * * * *` GitHub crons remain as a fallback. A sweep skips any origin-month that succeeded within 10 hours (refreshHours − graceHours), so a duplicate or late trigger makes no provider calls. Config: refreshHours=12, graceHours=2. Catch-up skips each current/next month of each origin unless its last successful completion is absent or over fourteen hours old. Workflow concurrency group fare-warm queues rather than cancels. Check active jobs before any authorized manual recovery. Keep the existing collector running until a replacement is verified.
+Regular sweeps 04:17 and 16:17 UTC (two a day since PR #48; previously six-hourly), catch-up check every three hours at :47 UTC (02:47, 05:47, … since 27 November 2026, to cut GitHub Actions minutes; previously hourly). Since 23 November 2026 these are triggered by QStash (see "External scheduler"); the same `17 4,16 * * *` and `47 * * * *` GitHub crons remain as a fallback. A sweep skips any origin-month that succeeded within 10 hours (refreshHours − graceHours), so a duplicate or late trigger makes no provider calls. Config: refreshHours=12, graceHours=2. Catch-up skips each current/next month of each origin unless its last successful completion is absent or over fourteen hours old. Workflow concurrency group fare-warm queues rather than cancels. Check active jobs before any authorized manual recovery. Keep the existing collector running until a replacement is verified.
 
 Collector pages pause 500 ms locally and use shared Redis rolling 65-second admission: latest-prices 300, prices-for-dates 600, nearby matrix 60. Admission timeout is 1,200 ms; request timeout 15 seconds. Refusal/ambiguous admission/outage stops before provider dispatch. Never retry or refund the same admission, bypass Redis, or replace it with the obsolete generic 500/65-second gate. Failure records the month as failed and the workflow alerts/fails; later regular or due catch-up runs can recover. Re-fetching identical cache data does not renew its provider timestamp.
 
@@ -130,7 +130,7 @@ To replace it (about 10 minutes; do it a week before expiry):
 
 ### 20-hour alert
 
-The **Collector watchdog** workflow (`collector-watchdog.yml`, `npm run check:collector-health`) runs hourly at :07, triggered by QStash with GitHub cron as a fallback.
+The **Collector watchdog** workflow (`collector-watchdog.yml`, `npm run check:collector-health`) runs every three hours at :07 (since 27 November 2026; previously hourly), triggered by QStash with GitHub cron as a fallback.
 - **What it reads.** It reads the fare store directly and never looks at the collector's runs, so it notices a collector that never starts.
 - **What "stale" means.** Every configured origin's current and next month must have a successful completion within 20 hours. The oldest of those is the last fully successful sweep, so one origin failing repeatedly also counts. A month that has never been collected, such as the new "next month" on the 1st, is measured from the start of the current month.
 - **When stale:**

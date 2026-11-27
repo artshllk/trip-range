@@ -1,11 +1,11 @@
 name: Fare warm
 run-name: >-
   ${{ github.event_name == 'workflow_dispatch' && format('Fare warm · {0} (dispatch)', inputs.mode)
-  || (github.event.schedule == '47 * * * *' && 'Fare warm · catch-up (cron fallback)'
+  || (github.event.schedule == '47 2-23/3 * * *' && 'Fare warm · catch-up (cron fallback)'
   || 'Fare warm · sweep (cron fallback)') }}
 # Primary trigger: Upstash QStash schedules call the workflow_dispatch API
 # (scripts/qstash-schedules.mjs): sweeps at 04:17 and 16:17 UTC (mode=sweep) and an
-# hourly catch-up at :47 (mode=catch-up). GitHub's own cron below is only a fallback;
+# catch-up every three hours at :47 (mode=catch-up). GitHub's own cron below is only a fallback;
 # it delivered 1-7 of 28 daily triggers in November 2026, often hours late. Both may
 # fire: runs queue in one concurrency group, and a sweep skips any month that
 # succeeded within 10 hours, so a duplicate makes no provider calls. Catch-up collects
@@ -13,7 +13,7 @@ run-name: >-
 on:
   schedule:
     - cron: "17 4,16 * * *"
-    - cron: "47 * * * *"
+    - cron: "47 2-23/3 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -51,7 +51,7 @@ jobs:
           COLLECTION_SCHEDULE: ${{ github.event.schedule }}
           MODE: >-
             ${{ github.event_name == 'workflow_dispatch' && inputs.mode
-            || (github.event.schedule == '47 * * * *' && 'catch-up' || 'sweep') }}
+            || (github.event.schedule == '47 2-23/3 * * *' && 'catch-up' || 'sweep') }}
         run: |
           set +e
           echo "mode=$MODE"

@@ -31,7 +31,9 @@ export const schedules = [
   },
   {
     id: "fare-warm-catch-up",
-    cron: "47 * * * *",
+    // Every three hours (owner decision, 27 November 2026, to cut Actions minutes):
+    // 05:47 and 17:47 follow the 04:17 and 16:17 sweeps by about 90 minutes.
+    cron: "47 2-23/3 * * *",
     workflow: "fare-warm.yml",
     inputs: { mode: "catch-up" },
   },
@@ -40,10 +42,11 @@ export const schedules = [
   { id: "fx-refresh", cron: "30 16 * * 1-5", workflow: "fx-refresh.yml" },
   { id: "ine-rooms", cron: "20 10 24,28 * *", workflow: "ine-rooms.yml" },
   // Independent of the collector: reads the store and raises an issue after 20 hours
-  // without a full successful collection.
+  // without a full successful collection. Every three hours (27 November 2026): the
+  // alert comes 20-23 hours after the last success instead of 20-21.
   {
     id: "collector-watchdog",
-    cron: "7 * * * *",
+    cron: "7 */3 * * *",
     workflow: "collector-watchdog.yml",
   },
 ];
