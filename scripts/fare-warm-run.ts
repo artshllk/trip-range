@@ -160,7 +160,7 @@ async function main() {
           throw Error("Provider returned dates outside the exact request");
       }
       // Storage options A and B: normalized rows only for collected lengths and
-      // fares that can fit the highest budget. The raw reply above stays complete.
+      // tickets up to €1,200 (MAX_TICKET_CENTS). The raw reply above stays complete.
       // Planning uses the same rows, so no follow-up call is spent on a fare that
       // could never be shown.
       parsed.observations = parsed.observations.filter((row) =>

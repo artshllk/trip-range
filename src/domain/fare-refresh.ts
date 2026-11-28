@@ -1,7 +1,6 @@
 import config from "../config/fare-warm.json";
 import { addDays, nightsBetween } from "./dates";
-import { flightCeilings, nextMonth } from "./month-discovery";
-import { money, safetyBufferFor } from "./budget";
+import { nextMonth } from "./month-discovery";
 
 export const refreshEndpoint = "triprange/exact-two-night-refresh-v1";
 
@@ -34,12 +33,20 @@ export function originNights(origin: string): number[] {
 }
 
 /**
- * Storage options A and B (owner decision, 27 November 2026). A normalized fare row
- * is stored only when it is a return of a length this origin collects (A) and its
- * fare for two, with its reserve, can fit the highest budget (B). Nothing else is
- * ever read: /plan and the coverage gate use only collected lengths and filter by a
- * budget no higher than the top ceiling. The provider's raw reply is still stored
- * complete, so the evidence is unchanged.
+ * Highest single-ticket fare kept (storage option B, owner decision 28 November
+ * 2026): €1,200 per ticket, whatever the party size. Measured on 3 days of stored
+ * fares, it drops 3.0% of rows (median ticket €287, 90th percentile €732, 99th
+ * €1,611). €800 would have dropped 8.4%, mostly long-haul from London and Barcelona.
+ * A budget that would allow a higher fare per person is told so on the page, never
+ * shown an empty result as if nothing exists.
+ */
+export const MAX_TICKET_CENTS = 120_000;
+
+/**
+ * Storage options A and B (owner decisions, 27 and 28 November 2026). A normalized
+ * fare row is stored only when it is a return of a length this origin collects (A)
+ * and one ticket costs at most MAX_TICKET_CENTS (B). Nothing else is ever read. The
+ * provider's raw reply is still stored complete, so the evidence is unchanged.
  */
 export function storableRow(
   row: {
@@ -58,12 +65,10 @@ export function storableRow(
     return false;
   }
   if (!originNights(origin).includes(nights)) return false;
-  if (!Number.isSafeInteger(row.priceMinor) || row.priceMinor <= 0)
-    return false;
-  const party = row.priceMinor * 2;
   return (
-    party + safetyBufferFor(money(party, "EUR")).cents <=
-    Math.max(...flightCeilings) * 100
+    Number.isSafeInteger(row.priceMinor) &&
+    row.priceMinor > 0 &&
+    row.priceMinor <= MAX_TICKET_CENTS
   );
 }
 

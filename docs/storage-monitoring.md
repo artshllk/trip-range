@@ -1,6 +1,12 @@
 # Storage monitoring and the capacity review trigger
 
-**Pending change (variable trip length, owner decision 27 November 2026):** collection grows to two and three nights for every origin and seven nights for London and Warsaw, about 1.8 times today's provider calls. To keep the cluster well under its 1 GB limit, three storage options ship with it: (A) normalized rows only for collected lengths, (B) normalized rows only for fares that can fit the highest budget, with the raw replies still stored in full, and (C) fare rows kept 8 days instead of 10 (`db/migrations/0007_eight_day_fare_retention.sql`). Measured on 26 November 2026, A and B drop about a third of today's rows: 20% are lengths nothing reads, and 18.5% of exact-date rows are over the highest budget. The projection was about 520 MB settled and 640 MB at month start, ±25%. It is to be confirmed by the manual sweep before merge, and the 600 MiB trigger is to be reviewed then. The figures below describe the current two-night collection.
+**Pending change (variable trip length, owner decisions 27–28 November 2026):** collection grows to two and three nights for every origin, and seven nights for London and Warsaw. Three storage options ship with it:
+
+- (A) normalized rows only for collected lengths;
+- (B) normalized rows only for single tickets up to €1,200, whatever the party size (`MAX_TICKET_CENTS`). That drops 3.0% of rows; €800 would have dropped 8.4%, mostly long-haul. Raw replies are still stored in full.
+- (C) fare rows kept 8 days instead of 10 (`db/migrations/0007_eight_day_fare_retention.sql`; not applied until the privacy-notice change ships with the trip-length deploy).
+
+Projection with all three, four origins: about 590 MB settled and 730 MB at month start (±25%), to be measured by the manual sweep. The cap is not what makes eight origins fit: every cap lands over 1 GB there, so step 4 needs a slimmer store. The figures below describe the current two-night collection.
 
 Owner decision, 23 November 2026 (PR #48), superseding the 5 November 50% trigger: fare retention is 10 days for fare observations, their fetch headers and per-page receipts, 2 days for raw fare replies, and 90 days for month-completion receipts ([0006](../db/migrations/0006_short_fare_retention.sql)). Collection is four origins (Tirana, London, Barcelona, Warsaw) at two sweeps a day.
 

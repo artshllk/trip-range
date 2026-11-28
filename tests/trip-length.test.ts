@@ -86,20 +86,14 @@ test("a view shows only fares of its own length", () => {
   );
 });
 
-test("storage options A and B: only collected lengths, only fares that can fit the highest budget", async () => {
-  const { storableRow } = await import("../src/domain/fare-refresh");
-  const { flightCeilings } = await import("../src/domain/month-discovery");
-  const { money, safetyBufferFor } = await import("../src/domain/budget");
+test("storage options A and B: only collected lengths, only tickets up to €1,200 whatever the party", async () => {
+  const { storableRow, MAX_TICKET_CENTS } =
+    await import("../src/domain/fare-refresh");
   const row = (
     returnDate: string | null,
     priceMinor = 10000,
     currency = "EUR",
-  ) => ({
-    departureDate: "2026-12-10",
-    returnDate,
-    priceMinor,
-    currency,
-  });
+  ) => ({ departureDate: "2026-12-10", returnDate, priceMinor, currency });
   // A: lengths this origin collects.
   assert.equal(storableRow(row("2026-12-12"), "TIA"), true);
   assert.equal(storableRow(row("2026-12-13"), "TIA"), true);
@@ -108,11 +102,9 @@ test("storage options A and B: only collected lengths, only fares that can fit t
   assert.equal(storableRow(row("2026-12-15"), "WAW"), false); // 5 nights: never
   assert.equal(storableRow(row(null), "WAW"), false); // one-way
   assert.equal(storableRow(row("2026-12-12", 10000, "USD"), "WAW"), false);
-  // B: the fare for two with its reserve must fit the top ceiling, exactly at the edge.
-  const top = Math.max(...flightCeilings) * 100;
-  let edge = 1;
-  while (edge * 2 + safetyBufferFor(money(edge * 2, "EUR")).cents <= top)
-    edge++;
-  assert.equal(storableRow(row("2026-12-12", edge - 1), "LON"), true);
-  assert.equal(storableRow(row("2026-12-12", edge), "LON"), false);
+  // B: one ticket at most €1,200, exactly at the edge.
+  assert.equal(MAX_TICKET_CENTS, 120000);
+  assert.equal(storableRow(row("2026-12-12", 120000), "LON"), true);
+  assert.equal(storableRow(row("2026-12-12", 120001), "LON"), false);
+  assert.equal(storableRow(row("2026-12-12", 0), "LON"), false);
 });
