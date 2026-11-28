@@ -194,6 +194,17 @@ export function collectionDue(
     : catchUpDue(lastSuccess, now);
 }
 
+/**
+ * Whether an origin-month's outcome fails the collector run. "stopped" (the 900 MiB
+ * storage stop) is the design working, not a failure: the run stays green and the
+ * 20-hour stall alert escalates if no month completes (owner, 28 November 2026).
+ */
+export function outcomeFailsRun(outcome: string) {
+  return (
+    outcome !== "complete" && outcome !== "skipped" && outcome !== "stopped"
+  );
+}
+
 /** Hours without a full successful collection before the watchdog raises an issue. */
 export const stallHours = 20;
 

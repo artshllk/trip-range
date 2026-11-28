@@ -21,6 +21,7 @@ import {
   collectorOrigins,
   type CollectionMode,
   monthDays,
+  outcomeFailsRun,
   originAirports,
   originNights,
   reassessment,
@@ -37,6 +38,12 @@ import {
 import { pruneFareStore } from "../src/server/fare-store";
 import { collectorHttp } from "../src/server/collector-http";
 import { ProviderRequestError } from "../src/providers/server/http";
+import {
+  collectionGate,
+  collectionStopLine,
+  readStorage,
+  type CollectionGate,
+} from "./check-storage";
 
 const now = new Date();
 const today = referenceCalendarDate(now);
@@ -107,6 +114,34 @@ async function main() {
     };
   }
   const sql = neon(config);
+  // Storage stop (900 MiB): measured before every origin-month that would collect,
+  // so a sweep that crosses it starts nothing new. Months already in progress finish.
+  // Clean-up at the end of the run still runs. No override, including force.
+  const stoppedMonths: string[] = [];
+  let lastStop: Extract<CollectionGate, { stop: true }> | undefined;
+  async function storageAllows(origin: string, month: string) {
+    const gate = await collectionGate(() => readStorage(sql));
+    if (!gate.stop) return true;
+    lastStop = gate;
+    stoppedMonths.push(origin + " " + month);
+    console.log(
+      JSON.stringify({
+        origin,
+        month,
+        mode,
+        status: "stopped",
+        reason: gate.reason,
+        ...(gate.reason === "above-stop"
+          ? {
+              usedBytes: gate.usage.usedBytes,
+              stopBytes: gate.usage.stopBytes,
+              limitBytes: gate.usage.limitBytes,
+            }
+          : {}),
+      }),
+    );
+    return false;
+  }
   // One per origin-month: its counted fetcher and the wrong-origin rows it dropped.
   type Source = { fetch: Fetcher; wrongOrigin: Record<string, number> };
   async function pages(
@@ -401,6 +436,10 @@ async function main() {
           continue;
         }
       }
+      if (!(await storageAllows(origin, m))) {
+        outcome[m] = "stopped";
+        continue;
+      }
       outcome[m] = await collect(origin, m, monthDays(m, today));
     }
     return outcome;
@@ -423,7 +462,7 @@ async function main() {
     }),
   );
   const failedOrigins = collectorOrigins.filter((o) =>
-    Object.values(origins[o]).some((v) => v !== "complete" && v !== "skipped"),
+    Object.values(origins[o]).some(outcomeFailsRun),
   );
   if (failedOrigins.length)
     console.error("fare-warm: failed origins " + failedOrigins.join(","));
@@ -451,11 +490,24 @@ async function main() {
   for (const m of new Set(originWeek.dates.map((d) => d.slice(0, 7)))) {
     const [done] =
       await sql`select 1 from warm_attempts where endpoint=${refreshEndpoint} and origin='PRN' and departure_month=${m} and outcome='stored' and attempted_at >= (${originWeek.week}::date::timestamp at time zone 'Europe/Belgrade') limit 1`;
-    if (!done)
+    if (!done && (await storageAllows("PRN", m)))
       await collect(
         "PRN",
         m,
         originWeek.dates.filter((date) => date.startsWith(m)),
+      );
+  }
+  if (lastStop) {
+    // Green on purpose: stopping is the design working. The summary and the issue say
+    // why; the 20-hour stall alert escalates. Real failures above still fail the run.
+    const line = collectionStopLine(lastStop, stoppedMonths);
+    console.log(line);
+    if (process.env.GITHUB_STEP_SUMMARY)
+      appendFileSync(
+        process.env.GITHUB_STEP_SUMMARY,
+        "\n### Collection stopped to protect database storage\n" +
+          line.replace(/^fare-warm: stopped: /, "") +
+          "\n\nSee docs/storage-monitoring.md (collection stop, manual clean-up).\n",
       );
   }
   console.log(
@@ -464,6 +516,7 @@ async function main() {
       mode,
       origins,
       failedOrigins,
+      stoppedMonths,
       PRN: originWeek,
     }),
   );
