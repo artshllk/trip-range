@@ -5,7 +5,7 @@ name: Fail-closed audit
 # Published guide deadlines warn seven days ahead with affected itinerary names.
 # Alert channel: this run fails (GitHub emails) and an issue is opened or updated.
 # Also checks fare collection coverage: a scheduled run that never starts alerts no one.
-# Storage review trigger: usage above 600 MiB, or 60% of the enforced Neon cluster limit if lower.
+# Storage review trigger: usage above 800 MiB, or 800/1024 of the enforced Neon cluster limit if lower.
 # Primary trigger: an Upstash QStash schedule calls workflow_dispatch at 08:37 UTC
 # (scripts/qstash-schedules.mjs); the cron below is a fallback. 08:37 UTC is after the
 # 09:00 Europe/Belgrade coverage cutoff in winter (08:00 UTC) and summer (07:00 UTC):
@@ -109,7 +109,7 @@ jobs:
           title="Database storage needs attention"
           # Whitelist the monitor's safe summary; never copy driver errors/secrets.
           status=$(grep -E '^storage:|^storage check failed:' storage.txt || true)
-          printf 'Storage exceeded the 600 MiB review trigger (or 60%% of the limit, if lower), or the check could not verify usage and the limit.\n\n%s\n\nExpected four-origin steady state is about 430 MB (about 530 MB early in a month); check that fare clean-up is running and whether origins or cadence changed. No automatic retention, cadence or plan changes.\n\nRun: %s/%s/actions/runs/%s\n' "$status" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" > storage-body.md
+          printf 'Storage exceeded the 800 MiB review trigger (or 78.1%% of the limit, if lower), or the check could not verify usage and the limit.\n\n%s\n\nExpected four-origin trip-length range is about 545 MB settled (about 700 MB early in a month); check that fare clean-up is running and whether origins, trip lengths or cadence changed. No automatic retention, cadence or plan changes.\n\nRun: %s/%s/actions/runs/%s\n' "$status" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" > storage-body.md
           number=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
           if [ -n "$number" ]; then
             gh issue edit "$number" --body-file storage-body.md

@@ -30,9 +30,13 @@ concurrency:
 jobs:
   warm:
     runs-on: ubuntu-latest
-    # Origins share one global 300 ms dispatch pacer: four origins (~2,400 calls)
-    # take about 17 minutes.
-    timeout-minutes: 50
+    # Origins share one global 300 ms dispatch pacer, and the provider's own rate
+    # limit (about 300 dating calls per 65 s) is the ceiling, so parallel jobs would
+    # not be faster. Trip lengths (2 and 3 nights, 7 for London and Warsaw): 4,929
+    # calls took 37¾ minutes on 28 November 2026, at month end; a month-start sweep
+    # (about 8,000-9,000 calls) takes about 60-65. 120 minutes (owner decision,
+    # 28 November 2026) leaves room; minutes are free in the public repository.
+    timeout-minutes: 120
     env:
       TRAVELPAYOUTS_API_TOKEN: ${{ secrets.TRAVELPAYOUTS_API_TOKEN }}
       DATABASE_URL: ${{ secrets.DATABASE_URL }}

@@ -2,15 +2,17 @@ import { appendFileSync } from "node:fs";
 import { neon } from "@neondatabase/serverless";
 
 /**
- * Owner decision, 23 November 2026: review above 600 MiB against the 1 GiB enforced
- * limit. Measured four-origin sweeps (about 24.5 MB each, two a day, 10-day fare rows,
- * 2-day raw replies) settle the cluster near 430 MB on average and 530 MB in the first
- * days of a month. 600 MiB stays quiet in that range, fires within about four days if
- * clean-up stops, and fires when a fifth large origin is added (about 690 MB at the
- * month-start peak). Never later than 60% of the enforced limit, if that is lower.
+ * Owner decision, 28 November 2026 (replacing 600 MiB of 23 November): review above
+ * 800 MiB against the 1 GiB enforced limit. The trip-length collector (2 and 3 nights
+ * everywhere, 7 for London and Warsaw, 8-day fare rows) is projected from the
+ * measured 28 November sweep to settle near 545 MB and peak near 700 MB early in a
+ * month. 700 MiB would fire at every month start; 800 MiB stays quiet there and
+ * leaves about 1.5 days of month-start intake (about 150 MiB a day if clean-up
+ * stopped) before the limit. Under a lower enforced limit the trigger scales down to
+ * the same share (800/1024, so exactly 800 MiB at 1 GiB).
  */
-export const storageTriggerBytes = 600 * 1024 ** 2;
-export const storageTriggerShareOfLimit = 0.6;
+export const storageTriggerBytes = 800 * 1024 ** 2;
+export const storageTriggerShareOfLimit = 800 / 1024;
 export function storageUsage(row: {
   used_bytes: unknown;
   limit_bytes: unknown;
@@ -63,7 +65,7 @@ async function main() {
     used_bytes: rows[0]?.used_bytes,
     limit_bytes: rows[0]?.limit_bytes,
   });
-  const message = `${usage.usedBytes} / ${usage.limitBytes} bytes (${usage.percentUsed.toFixed(2)}%); capacity review trigger: usage > ${usage.triggerBytes} bytes (600 MiB, or 60% of the limit if lower).`;
+  const message = `${usage.usedBytes} / ${usage.limitBytes} bytes (${usage.percentUsed.toFixed(2)}%); capacity review trigger: usage > ${usage.triggerBytes} bytes (800 MiB, or 78.1% of the limit if lower).`;
   console.log(`storage: ${usage.status}: ${message}`);
   console.log(JSON.stringify(usage, null, 2));
   if (usage.status === "alert")

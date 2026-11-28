@@ -9,28 +9,30 @@ const usage = (bytes: number, limitBytes = limit) =>
     limit_bytes: String(limitBytes),
   });
 
-test("capacity review triggers strictly above 600 MiB under the 1 GiB limit", () => {
-  assert.equal(storageTriggerBytes, 629_145_600);
+test("capacity review triggers strictly above 800 MiB under the 1 GiB limit", () => {
+  assert.equal(storageTriggerBytes, 838_860_800);
   assert.equal(usage(0).triggerBytes, storageTriggerBytes);
-  // Expected four-origin range (about 430-530 MB) stays quiet.
-  assert.equal(usage(530 * 1000 ** 2).status, "ok");
+  // Projected trip-length range (about 545 MB settled, 700 MB at month start) stays quiet.
+  assert.equal(usage(700 * 1000 ** 2).status, "ok");
+  // The old 600 MiB trigger no longer fires.
+  assert.equal(usage(629_145_601).status, "ok");
   assert.equal(usage(storageTriggerBytes).status, "ok");
   assert.equal(usage(storageTriggerBytes + 1).status, "alert");
   assert.equal(usage(limit + 1).status, "alert");
   assert.equal(usage(64 * 1024 ** 2).percentUsed, 6.25);
 });
 
-test("the trigger is never later than 60% of the enforced limit", () => {
-  const small = 500 * 1000 ** 2;
-  assert.equal(usage(0, small).triggerBytes, 300_000_000);
-  assert.equal(usage(300_000_000, small).status, "ok");
-  assert.equal(usage(300_000_001, small).status, "alert");
+test("under a lower limit the trigger scales to the same share (800/1024)", () => {
+  const small = 512 * 1024 ** 2;
+  assert.equal(usage(0, small).triggerBytes, 400 * 1024 ** 2);
+  assert.equal(usage(400 * 1024 ** 2, small).status, "ok");
+  assert.equal(usage(400 * 1024 ** 2 + 1, small).status, "alert");
   assert.equal(
-    storageUsage({ used_bytes: "601", limit_bytes: "1000" }).status,
+    storageUsage({ used_bytes: "782", limit_bytes: "1000" }).status,
     "alert",
   );
   assert.equal(
-    storageUsage({ used_bytes: "600", limit_bytes: "1000" }).status,
+    storageUsage({ used_bytes: "781", limit_bytes: "1000" }).status,
     "ok",
   );
 });
